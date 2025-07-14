@@ -33,6 +33,10 @@ export default function RootLayout() {
             <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
             <Stack.Screen name="unit-list" options={{ headerShown: false }} />
             <Stack.Screen name="unit-detail" options={{ headerShown: false }} />
+            <Stack.Screen
+              name="word-assessment"
+              options={{ headerShown: false }}
+            />
             <Stack.Screen name="+not-found" />
           </Stack>
           <StatusBar style="auto" />

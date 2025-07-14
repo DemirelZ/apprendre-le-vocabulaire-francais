@@ -19,11 +19,20 @@ interface UnitListItemProps {
 const UnitListItem: React.FC<UnitListItemProps> = ({ unit, onPress }) => {
   return (
     <TouchableOpacity style={styles.unitItem} onPress={onPress}>
-      <View style={styles.unitHeader}>
-        <Text style={styles.unitName}>{unit.name}</Text>
+      <View style={styles.unitContent}>
+        <View style={styles.unitHeader}>
+          <View style={styles.unitIconContainer}>
+            <Text style={styles.unitIcon}>📚</Text>
+          </View>
+          <View style={styles.unitInfo}>
+            <Text style={styles.unitName}>{unit.name}</Text>
+            <Text style={styles.unitDescription}>{unit.description}</Text>
+          </View>
+          <View style={styles.arrowContainer}>
+            <Text style={styles.arrowIcon}>→</Text>
+          </View>
+        </View>
       </View>
-
-      <Text style={styles.unitDescription}>{unit.description}</Text>
     </TouchableOpacity>
   );
 };
@@ -131,34 +140,68 @@ const styles = StyleSheet.create({
   },
   unitItem: {
     backgroundColor: "#fff",
-    borderRadius: 12,
-    padding: 20,
-    marginBottom: 15,
+    borderRadius: 16,
+    marginVertical: 8,
+    marginHorizontal: 16,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 4,
     },
     shadowOpacity: 0.1,
-    shadowRadius: 3.84,
-    elevation: 5,
+    shadowRadius: 8,
+    elevation: 8,
+    borderWidth: 1,
+    borderColor: "#f0f0f0",
+  },
+  unitContent: {
+    padding: 20,
   },
   unitHeader: {
     flexDirection: "row",
-    justifyContent: "space-between",
     alignItems: "center",
-    marginBottom: 8,
+    justifyContent: "space-between",
+  },
+  unitIconContainer: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    backgroundColor: "#f8f9fa",
+    justifyContent: "center",
+    alignItems: "center",
+    marginRight: 15,
+    borderWidth: 2,
+    borderColor: "#e9ecef",
+  },
+  unitIcon: {
+    fontSize: 24,
+  },
+  unitInfo: {
+    flex: 1,
+    marginRight: 15,
   },
   unitName: {
-    fontSize: 18,
-    fontWeight: "bold",
+    fontSize: 20,
+    fontWeight: "700",
     color: "#1a1a1a",
-    flex: 1,
+    marginBottom: 6,
   },
   unitDescription: {
-    fontSize: 14,
+    fontSize: 15,
     color: "#6c757d",
-    marginTop: 8,
-    lineHeight: 20,
+    lineHeight: 22,
+  },
+  arrowContainer: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: "#009dff",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  arrowIcon: {
+    fontSize: 18,
+    color: "#fff",
+    fontWeight: "bold",
   },
 });

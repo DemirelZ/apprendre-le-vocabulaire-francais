@@ -236,6 +236,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isFavorite: false,
     createdAt: new Date("2024-01-01"),
+    knowledgeLevel: undefined,
   },
   {
     id: "v1-2",

@@ -1,21 +1,16 @@
+import { useActionSheet } from "@expo/react-native-action-sheet";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import {
-  Animated,
-  Dimensions,
   FlatList,
-  Modal,
   SafeAreaView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from "react-native";
-import { PanGestureHandler, State } from "react-native-gesture-handler";
 import { mockUnits, mockWords } from "../data/mockData";
 import { Word } from "../types";
-
-const { height: screenHeight } = Dimensions.get("window");
 
 interface WordListItemProps {
   word: Word;
@@ -23,232 +18,142 @@ interface WordListItemProps {
 }
 
 const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
+  const getKnowledgeLevelColor = (level?: string) => {
+    switch (level) {
+      case "dont-know":
+        return "#dc3545";
+      case "somewhat":
+        return "#ffc107";
+      case "learned":
+        return "#28a745";
+      default:
+        return "#6c757d";
+    }
+  };
+
+  const getKnowledgeLevelLines = (level?: string) => {
+    switch (level) {
+      case "dont-know":
+        return 1;
+      case "somewhat":
+        return 2;
+      case "learned":
+        return 3;
+      default:
+        return 0;
+    }
+  };
+
   return (
     <TouchableOpacity style={styles.wordItem} onPress={onPress}>
-      <View style={styles.wordHeader}>
-        <Text style={styles.wordFrench}>{word.french}</Text>
-        <Text style={styles.wordTurkish}>{word.turkish}</Text>
-      </View>
-
-      <Text style={styles.wordPronunciation}>[{word.pronunciation}]</Text>
-
-      <View style={styles.wordStatus}>
-        {word.isLearned && (
-          <View style={styles.learnedBadge}>
-            <Text style={styles.learnedText}>Öğrenildi</Text>
+      <View style={styles.wordContent}>
+        {/* Knowledge Level Indicator - Left Side */}
+        {word.knowledgeLevel && (
+          <View style={styles.knowledgeLevelIndicator}>
+            {Array.from(
+              { length: getKnowledgeLevelLines(word.knowledgeLevel) },
+              (_, index) => (
+                <View
+                  key={index}
+                  style={[
+                    styles.knowledgeLevelLine,
+                    {
+                      backgroundColor: getKnowledgeLevelColor(
+                        word.knowledgeLevel
+                      ),
+                    },
+                  ]}
+                />
+              )
+            )}
           </View>
         )}
-        {word.isFavorite && (
-          <View style={styles.favoriteBadge}>
-            <Text style={styles.favoriteText}>♥</Text>
+
+        <View style={styles.wordMainInfo}>
+          <View style={styles.wordTextContainer}>
+            <Text style={styles.wordFrench}>{word.french}</Text>
+            <Text style={styles.wordTurkish}>{word.turkish}</Text>
+            <Text style={styles.wordPronunciation}>[{word.pronunciation}]</Text>
           </View>
-        )}
+
+          <View style={styles.wordStatusContainer}>
+            {word.isLearned && (
+              <View style={styles.learnedBadge}>
+                <Text style={styles.learnedText}>✓</Text>
+              </View>
+            )}
+            {word.isFavorite && (
+              <View style={styles.favoriteBadge}>
+                <Text style={styles.favoriteText}>♥</Text>
+              </View>
+            )}
+          </View>
+        </View>
       </View>
     </TouchableOpacity>
-  );
-};
-
-interface CustomActionSheetProps {
-  visible: boolean;
-  word: Word | null;
-  onClose: () => void;
-  onAddToFavorites: () => void;
-  onMarkAsLearned: () => void;
-}
-
-const CustomActionSheet: React.FC<CustomActionSheetProps> = ({
-  visible,
-  word,
-  onClose,
-  onAddToFavorites,
-  onMarkAsLearned,
-}) => {
-  const translateY = useRef(new Animated.Value(screenHeight)).current;
-  const opacity = useRef(new Animated.Value(0)).current;
-
-  React.useEffect(() => {
-    if (visible && word) {
-      // Animate in
-      Animated.parallel([
-        Animated.timing(translateY, {
-          toValue: 0,
-          duration: 300,
-          useNativeDriver: true,
-        }),
-        Animated.timing(opacity, {
-          toValue: 1,
-          duration: 300,
-          useNativeDriver: true,
-        }),
-      ]).start();
-    } else {
-      // Animate out
-      Animated.parallel([
-        Animated.timing(translateY, {
-          toValue: screenHeight,
-          duration: 300,
-          useNativeDriver: true,
-        }),
-        Animated.timing(opacity, {
-          toValue: 0,
-          duration: 300,
-          useNativeDriver: true,
-        }),
-      ]).start();
-    }
-  }, [visible, word]);
-
-  const handleOverlayPress = () => {
-    onClose();
-  };
-
-  const onGestureEvent = Animated.event(
-    [{ nativeEvent: { translationY: translateY } }],
-    { useNativeDriver: true }
-  );
-
-  const onHandlerStateChange = (event: any) => {
-    if (event.nativeEvent.oldState === State.ACTIVE) {
-      const { translationY } = event.nativeEvent;
-
-      if (translationY > 100) {
-        // Close if dragged down more than 100px
-        Animated.timing(translateY, {
-          toValue: screenHeight,
-          duration: 200,
-          useNativeDriver: true,
-        }).start(() => onClose());
-      } else {
-        // Snap back to original position
-        Animated.spring(translateY, {
-          toValue: 0,
-          useNativeDriver: true,
-        }).start();
-      }
-    }
-  };
-
-  if (!word) return null;
-
-  return (
-    <Modal
-      visible={visible}
-      transparent={true}
-      animationType="none"
-      onRequestClose={onClose}
-    >
-      <Animated.View style={[styles.modalOverlay, { opacity }]}>
-        <TouchableOpacity
-          style={styles.overlayTouchable}
-          activeOpacity={1}
-          onPress={handleOverlayPress}
-        >
-          <PanGestureHandler
-            onGestureEvent={onGestureEvent}
-            onHandlerStateChange={onHandlerStateChange}
-          >
-            <Animated.View
-              style={[
-                styles.actionSheetContainer,
-                {
-                  transform: [{ translateY }],
-                },
-              ]}
-            >
-              {/* Notch */}
-              <View style={styles.notch} />
-
-              {/* Content Section */}
-              <View style={styles.contentSection}>
-                <Text style={styles.frenchWord}>{word.french}</Text>
-                <Text style={styles.turkishMeaning}>{word.turkish}</Text>
-
-                {/* Placeholder for image */}
-                <View style={styles.imagePlaceholder}>
-                  <Text style={styles.imagePlaceholderText}>📖</Text>
-                </View>
-
-                <Text style={styles.exampleSentence}>{word.example}</Text>
-                <Text style={styles.exampleTranslation}>
-                  Türkçe çevirisi: {word.turkish}
-                </Text>
-                <Text style={styles.synonyms}>
-                  Eş anlamlılar: {word.french} (aynı kelime)
-                </Text>
-              </View>
-
-              {/* Action Buttons */}
-              <View style={styles.actionButtons}>
-                <TouchableOpacity
-                  style={styles.actionButton}
-                  onPress={onAddToFavorites}
-                >
-                  <Text style={styles.actionButtonText}>Favorilere Ekle</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={[styles.actionButton, styles.primaryButton]}
-                  onPress={onMarkAsLearned}
-                >
-                  <Text
-                    style={[styles.actionButtonText, styles.primaryButtonText]}
-                  >
-                    Öğrenildi Olarak İşaretle
-                  </Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                  style={[styles.actionButton, styles.cancelButton]}
-                  onPress={onClose}
-                >
-                  <Text
-                    style={[styles.actionButtonText, styles.cancelButtonText]}
-                  >
-                    İptal
-                  </Text>
-                </TouchableOpacity>
-              </View>
-            </Animated.View>
-          </PanGestureHandler>
-        </TouchableOpacity>
-      </Animated.View>
-    </Modal>
   );
 };
 
 export default function UnitDetailScreen() {
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
   const router = useRouter();
-  const [selectedWord, setSelectedWord] = useState<Word | null>(null);
-  const [actionSheetVisible, setActionSheetVisible] = useState(false);
+  const [hideLearnedWords, setHideLearnedWords] = useState(false);
+  const { showActionSheetWithOptions } = useActionSheet();
 
   const unit = mockUnits.find((u) => u.id === unitId);
-  const unitWords = mockWords.filter((word) => word.unit === unitId);
+  const allUnitWords = mockWords.filter((word) => word.unit === unitId);
+
+  // Filter words based on hideLearnedWords state
+  const unitWords = hideLearnedWords
+    ? allUnitWords.filter((word) => word.knowledgeLevel !== "learned")
+    : allUnitWords;
 
   const handleWordPress = (word: Word) => {
-    setSelectedWord(word);
-    setActionSheetVisible(true);
-  };
+    const options = ["Favorilere Ekle", "Öğrenildi Olarak İşaretle", "İptal"];
+    const cancelButtonIndex = 2;
 
-  const handleCloseActionSheet = () => {
-    setActionSheetVisible(false);
-    setSelectedWord(null);
-  };
+    // Create a custom message with proper formatting for left alignment
+    // Using spaces to create left alignment effect
+    const message = `${word.turkish}\n\n${word.example}\n\nTürkçe çevirisi: ${word.turkish}\n\nEş anlamlılar: ${word.french} (aynı kelime)`;
 
-  const handleAddToFavorites = () => {
-    if (selectedWord) {
-      console.log("Favorilere eklendi:", selectedWord.french);
-    }
-    handleCloseActionSheet();
-  };
-
-  const handleMarkAsLearned = () => {
-    if (selectedWord) {
-      console.log("Öğrenildi olarak işaretlendi:", selectedWord.french);
-    }
-    handleCloseActionSheet();
+    showActionSheetWithOptions(
+      {
+        options,
+        cancelButtonIndex,
+        title: word.french,
+        message: message,
+        titleTextStyle: {
+          fontSize: 20,
+          fontWeight: "bold",
+          textAlign: "left",
+        },
+        messageTextStyle: {
+          fontSize: 14,
+          textAlign: "left",
+          lineHeight: 20,
+        },
+        containerStyle: {
+          paddingHorizontal: 20,
+        },
+      },
+      (buttonIndex?: number) => {
+        if (buttonIndex === 0) {
+          // Favorilere Ekle
+          console.log("Favorilere eklendi:", word.french);
+        } else if (buttonIndex === 1) {
+          // Öğrenildi Olarak İşaretle
+          console.log("Öğrenildi olarak işaretlendi:", word.french);
+        }
+      }
+    );
   };
 
   const handleBackPress = () => {
     router.back();
+  };
+
+  const toggleHideLearnedWords = () => {
+    setHideLearnedWords(!hideLearnedWords);
   };
 
   if (!unit) {
@@ -271,13 +176,44 @@ export default function UnitDetailScreen() {
       <View style={styles.content}>
         <View style={styles.unitInfo}>
           <Text style={styles.unitDescription}>{unit.description}</Text>
-          <Text style={styles.wordCount}>{unitWords.length} kelime</Text>
+          <Text style={styles.wordCount}>
+            {unitWords.length} kelime
+            {hideLearnedWords &&
+              allUnitWords.length !== unitWords.length &&
+              ` (${allUnitWords.length - unitWords.length} gizli)`}
+          </Text>
         </View>
 
         <View style={styles.sectionHeader}>
           <Text style={styles.sectionTitle}>Kelimeler</Text>
-          <TouchableOpacity style={styles.startButton}>
-            <Text style={styles.startButtonText}>Alıştırma Başlat</Text>
+          <TouchableOpacity
+            style={styles.startButton}
+            onPress={() =>
+              router.push({
+                pathname: "/word-assessment",
+                params: { unitId: unitId },
+              })
+            }
+          >
+            <Text style={styles.startButtonText}>Ne Kadar Biliyorsun?</Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* Hide Learned Words Checkbox */}
+        <View style={styles.filterContainer}>
+          <TouchableOpacity
+            style={styles.checkboxContainer}
+            onPress={toggleHideLearnedWords}
+          >
+            <View
+              style={[
+                styles.checkbox,
+                hideLearnedWords && styles.checkboxChecked,
+              ]}
+            >
+              {hideLearnedWords && <Text style={styles.checkmark}>✓</Text>}
+            </View>
+            <Text style={styles.checkboxText}>Öğrenilen kelimeleri gizle</Text>
           </TouchableOpacity>
         </View>
 
@@ -291,14 +227,6 @@ export default function UnitDetailScreen() {
           contentContainerStyle={styles.listContainer}
         />
       </View>
-
-      <CustomActionSheet
-        visible={actionSheetVisible}
-        word={selectedWord}
-        onClose={handleCloseActionSheet}
-        onAddToFavorites={handleAddToFavorites}
-        onMarkAsLearned={handleMarkAsLearned}
-      />
     </SafeAreaView>
   );
 }
@@ -396,56 +324,68 @@ const styles = StyleSheet.create({
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 1,
+      height: 2,
     },
-    shadowOpacity: 0.1,
-    shadowRadius: 2.22,
+    shadowOpacity: 0.08,
+    shadowRadius: 4,
     elevation: 3,
+    borderWidth: 1,
+    borderColor: "#f8f9fa",
   },
-  wordHeader: {
+  wordContent: {
     flexDirection: "row",
-    justifyContent: "space-between",
     alignItems: "center",
-    marginBottom: 4,
+  },
+  wordMainInfo: {
+    flex: 1,
+  },
+  wordTextContainer: {
+    marginBottom: 8,
   },
   wordFrench: {
     fontSize: 18,
-    fontWeight: "bold",
+    fontWeight: "700",
     color: "#1a1a1a",
+    marginBottom: 4,
   },
   wordTurkish: {
     fontSize: 16,
     color: "#6c757d",
+    marginBottom: 4,
   },
   wordPronunciation: {
     fontSize: 14,
     color: "#007AFF",
     fontStyle: "italic",
-    marginBottom: 8,
   },
-  wordStatus: {
+  wordStatusContainer: {
     flexDirection: "row",
-    gap: 8,
+    alignItems: "center",
+    gap: 6,
   },
   learnedBadge: {
     backgroundColor: "#d4edda",
     paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: 8,
+    paddingVertical: 4,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: "#c3e6cb",
   },
   learnedText: {
-    fontSize: 10,
+    fontSize: 12,
     color: "#155724",
     fontWeight: "600",
   },
   favoriteBadge: {
     backgroundColor: "#f8d7da",
     paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: 8,
+    paddingVertical: 4,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: "#f5c6cb",
   },
   favoriteText: {
-    fontSize: 10,
+    fontSize: 12,
     color: "#721c24",
     fontWeight: "600",
   },
@@ -557,6 +497,51 @@ const styles = StyleSheet.create({
     borderColor: "#e0e0e0",
   },
   cancelButtonText: {
+    color: "#6c757d",
+  },
+  knowledgeLevelIndicator: {
+    flexDirection: "column",
+    gap: 2,
+    marginRight: 15,
+    justifyContent: "center",
+    minHeight: 40,
+  },
+  knowledgeLevelLine: {
+    width: 20,
+    height: 4,
+    borderRadius: 2,
+  },
+  filterContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 15,
+    paddingHorizontal: 5,
+  },
+  checkboxContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginRight: 10,
+  },
+  checkbox: {
+    width: 20,
+    height: 20,
+    borderRadius: 4,
+    borderWidth: 1,
+    borderColor: "#e0e0e0",
+    justifyContent: "center",
+    alignItems: "center",
+    marginRight: 8,
+  },
+  checkboxChecked: {
+    backgroundColor: "#007AFF",
+    borderColor: "#007AFF",
+  },
+  checkmark: {
+    fontSize: 14,
+    color: "#fff",
+  },
+  checkboxText: {
+    fontSize: 14,
     color: "#6c757d",
   },
 });

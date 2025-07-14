@@ -11,6 +11,7 @@ export interface Word {
   isFavorite: boolean;
   createdAt: Date;
   lastReviewed?: Date;
+  knowledgeLevel?: "dont-know" | "somewhat" | "learned"; // Yeni: bilgi seviyesi
 }
 
 export interface Category {
