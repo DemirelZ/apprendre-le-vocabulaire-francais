@@ -4,6 +4,9 @@ export interface Word {
   turkish: string;
   pronunciation: string;
   example: string;
+  exampleTranslation?: string;
+  synonyms?: string[];
+  image?: string;
   category: string;
   unit: string; // Yeni: ünite bilgisi
   difficulty: "beginner" | "intermediate" | "advanced";

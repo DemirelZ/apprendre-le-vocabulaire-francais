@@ -140,9 +140,9 @@ const styles = StyleSheet.create({
   },
   unitItem: {
     backgroundColor: "#fff",
-    borderRadius: 16,
+    borderRadius: 8,
     marginVertical: 8,
-    marginHorizontal: 16,
+    marginHorizontal: 8,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,

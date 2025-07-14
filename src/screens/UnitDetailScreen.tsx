@@ -1,4 +1,3 @@
-import { useActionSheet } from "@expo/react-native-action-sheet";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useState } from "react";
 import {
@@ -9,6 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import useWordActionSheet from "../components/WordActionSheet";
 import { mockUnits, mockWords } from "../data/mockData";
 import { Word } from "../types";
 
@@ -18,29 +18,20 @@ interface WordListItemProps {
 }
 
 const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
-  const getKnowledgeLevelColor = (level?: string) => {
-    switch (level) {
-      case "dont-know":
-        return "#dc3545";
-      case "somewhat":
-        return "#ffc107";
-      case "learned":
-        return "#28a745";
-      default:
-        return "#6c757d";
+  const getLineColor = (lineIndex: number, level?: string) => {
+    if (!level) {
+      return "#e9ecef"; // Açık gri - hiç seçim yapılmamış
     }
-  };
 
-  const getKnowledgeLevelLines = (level?: string) => {
     switch (level) {
       case "dont-know":
-        return 1;
+        return lineIndex === 2 ? "#dc3545" : "#e9ecef"; // Sadece en alttaki çizgi kırmızı
       case "somewhat":
-        return 2;
+        return lineIndex >= 1 ? "#ffc107" : "#e9ecef"; // Alt 2 çizgi sarı
       case "learned":
-        return 3;
+        return "#28a745"; // Tüm çizgiler yeşil
       default:
-        return 0;
+        return "#e9ecef";
     }
   };
 
@@ -48,26 +39,19 @@ const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
     <TouchableOpacity style={styles.wordItem} onPress={onPress}>
       <View style={styles.wordContent}>
         {/* Knowledge Level Indicator - Left Side */}
-        {word.knowledgeLevel && (
-          <View style={styles.knowledgeLevelIndicator}>
-            {Array.from(
-              { length: getKnowledgeLevelLines(word.knowledgeLevel) },
-              (_, index) => (
-                <View
-                  key={index}
-                  style={[
-                    styles.knowledgeLevelLine,
-                    {
-                      backgroundColor: getKnowledgeLevelColor(
-                        word.knowledgeLevel
-                      ),
-                    },
-                  ]}
-                />
-              )
-            )}
-          </View>
-        )}
+        <View style={styles.knowledgeLevelIndicator}>
+          {Array.from({ length: 3 }, (_, index) => (
+            <View
+              key={index}
+              style={[
+                styles.knowledgeLevelLine,
+                {
+                  backgroundColor: getLineColor(index, word.knowledgeLevel),
+                },
+              ]}
+            />
+          ))}
+        </View>
 
         <View style={styles.wordMainInfo}>
           <View style={styles.wordTextContainer}>
@@ -98,7 +82,7 @@ export default function UnitDetailScreen() {
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
   const router = useRouter();
   const [hideLearnedWords, setHideLearnedWords] = useState(false);
-  const { showActionSheetWithOptions } = useActionSheet();
+  const { showWordDetails } = useWordActionSheet();
 
   const unit = mockUnits.find((u) => u.id === unitId);
   const allUnitWords = mockWords.filter((word) => word.unit === unitId);
@@ -109,43 +93,15 @@ export default function UnitDetailScreen() {
     : allUnitWords;
 
   const handleWordPress = (word: Word) => {
-    const options = ["Favorilere Ekle", "Öğrenildi Olarak İşaretle", "İptal"];
-    const cancelButtonIndex = 2;
+    const handleAddToFavorites = () => {
+      console.log("Favorilere eklendi:", word.french);
+    };
 
-    // Create a custom message with proper formatting for left alignment
-    // Using spaces to create left alignment effect
-    const message = `${word.turkish}\n\n${word.example}\n\nTürkçe çevirisi: ${word.turkish}\n\nEş anlamlılar: ${word.french} (aynı kelime)`;
+    const handleMarkAsLearned = () => {
+      console.log("Öğrenildi olarak işaretlendi:", word.french);
+    };
 
-    showActionSheetWithOptions(
-      {
-        options,
-        cancelButtonIndex,
-        title: word.french,
-        message: message,
-        titleTextStyle: {
-          fontSize: 20,
-          fontWeight: "bold",
-          textAlign: "left",
-        },
-        messageTextStyle: {
-          fontSize: 14,
-          textAlign: "left",
-          lineHeight: 20,
-        },
-        containerStyle: {
-          paddingHorizontal: 20,
-        },
-      },
-      (buttonIndex?: number) => {
-        if (buttonIndex === 0) {
-          // Favorilere Ekle
-          console.log("Favorilere eklendi:", word.french);
-        } else if (buttonIndex === 1) {
-          // Öğrenildi Olarak İşaretle
-          console.log("Öğrenildi olarak işaretlendi:", word.french);
-        }
-      }
-    );
+    showWordDetails(word, handleAddToFavorites, handleMarkAsLearned);
   };
 
   const handleBackPress = () => {
@@ -213,7 +169,7 @@ export default function UnitDetailScreen() {
             >
               {hideLearnedWords && <Text style={styles.checkmark}>✓</Text>}
             </View>
-            <Text style={styles.checkboxText}>Öğrenilen kelimeleri gizle</Text>
+            <Text style={styles.checkboxText}>Bildiğin kelimeleri gizle</Text>
           </TouchableOpacity>
         </View>
 
