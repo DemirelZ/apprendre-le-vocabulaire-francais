@@ -1,3 +1,4 @@
+import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useState } from "react";
 import {
@@ -8,6 +9,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import QuizBottomButtons from "../components/QuizBottomButtons";
 import useWordActionSheet from "../components/WordActionSheet";
 import { mockUnits, mockWords } from "../data/mockData";
 import { Word } from "../types";
@@ -145,8 +147,26 @@ export default function UnitDetailScreen() {
                 params: { unitId: unitId },
               })
             }
+            activeOpacity={0.8}
           >
-            <Text style={styles.startButtonText}>Ne Kadar Biliyorsun?</Text>
+            <View style={styles.startButtonContent}>
+              <View style={styles.startButtonIconContainer}>
+                <Ionicons name="analytics" size={20} color="#fff" />
+              </View>
+              <View style={styles.startButtonTextContainer}>
+                <Text style={styles.startButtonTitle}>
+                  Ne Kadar Biliyorsun?
+                </Text>
+                <Text style={styles.startButtonSubtitle}>
+                  Bilgi Seviyeni Test Et
+                </Text>
+              </View>
+              <Ionicons
+                name="chevron-forward"
+                size={18}
+                color="rgba(255,255,255,0.8)"
+              />
+            </View>
           </TouchableOpacity>
         </View>
 
@@ -178,6 +198,11 @@ export default function UnitDetailScreen() {
           contentContainerStyle={styles.listContainer}
         />
       </View>
+      <QuizBottomButtons
+        onMultipleChoice={() => console.log("Çoktan Seçmeli Teste Başla")}
+        onFillInTheBlank={() => console.log("Boşluk Doldurma Testine Başla")}
+        onWriting={() => console.log("Yazma Testine Başla")}
+      />
       {ActionSheetComponent}
     </SafeAreaView>
   );
@@ -255,10 +280,47 @@ const styles = StyleSheet.create({
     color: "#1a1a1a",
   },
   startButton: {
-    backgroundColor: "#28a745",
-    paddingHorizontal: 16,
-    paddingVertical: 8,
+    backgroundColor: "#6366F1",
+    paddingHorizontal: 14,
+    paddingVertical: 10,
+    borderRadius: 16,
+    shadowColor: "#1E40AF",
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 8,
+  },
+  startButtonContent: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 8,
+  },
+  startButtonIconContainer: {
+    width: 30,
+    height: 30,
     borderRadius: 20,
+    backgroundColor: "rgba(255, 255, 255, 0.2)",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  startButtonTextContainer: {
+    marginRight: 8,
+    minWidth: 0,
+  },
+  startButtonTitle: {
+    color: "#fff",
+    fontSize: 14,
+    fontWeight: "600",
+    marginBottom: 2,
+  },
+  startButtonSubtitle: {
+    color: "rgba(255, 255, 255, 0.9)",
+    fontSize: 12,
+    fontWeight: "500",
   },
   startButtonText: {
     color: "#fff",
@@ -271,8 +333,9 @@ const styles = StyleSheet.create({
   wordItem: {
     backgroundColor: "#fff",
     borderRadius: 12,
-    padding: 16,
-    marginBottom: 12,
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    marginBottom: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -295,18 +358,18 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   wordFrench: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: "700",
     color: "#1a1a1a",
     marginBottom: 4,
   },
   wordTurkish: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#6c757d",
     marginBottom: 4,
   },
   wordPronunciation: {
-    fontSize: 14,
+    fontSize: 12,
     color: "#007AFF",
     fontStyle: "italic",
   },

@@ -66,3 +66,15 @@ export interface QuizQuestion {
   wordId: string;
   type: "translation" | "pronunciation" | "example";
 }
+
+export interface Question {
+  id: string;
+  type: "multiple-choice" | "fill-blank" | "writing";
+  question: string;
+  correctAnswer: string;
+  options?: string[];
+  wordId: string;
+  unitId: string;
+  categoryId: string;
+  difficulty: "beginner" | "intermediate" | "advanced";
+}
