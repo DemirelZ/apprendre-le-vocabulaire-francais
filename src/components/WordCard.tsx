@@ -7,14 +7,14 @@ import { colors } from "../utils/colors";
 interface WordCardProps {
   word: Word;
   onPress: (word: Word) => void;
-  onToggleFavorite: (wordId: string) => void;
+  onToggleDifficult: (wordId: string) => void;
   onToggleLearned: (wordId: string) => void;
 }
 
 export const WordCard: React.FC<WordCardProps> = ({
   word,
   onPress,
-  onToggleFavorite,
+  onToggleDifficult,
   onToggleLearned,
 }) => {
   return (
@@ -42,12 +42,12 @@ export const WordCard: React.FC<WordCardProps> = ({
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.actionButton}
-            onPress={() => onToggleFavorite(word.id)}
+            onPress={() => onToggleDifficult(word.id)}
           >
             <Ionicons
-              name={word.isFavorite ? "heart" : "heart-outline"}
+              name={word.isDifficult ? "star" : "star-outline"}
               size={24}
-              color={word.isFavorite ? colors.favorite : colors.textLight}
+              color={word.isDifficult ? colors.favorite : colors.textLight}
             />
           </TouchableOpacity>
         </View>

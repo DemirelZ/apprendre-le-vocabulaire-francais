@@ -11,7 +11,7 @@ export interface Word {
   unit: string; // Yeni: ünite bilgisi
   difficulty: "beginner" | "intermediate" | "advanced";
   isLearned: boolean;
-  isFavorite: boolean;
+  isDifficult: boolean;
   createdAt: Date;
   lastReviewed?: Date;
   knowledgeLevel?: "dont-know" | "somewhat" | "learned"; // Yeni: bilgi seviyesi
@@ -51,7 +51,7 @@ export interface Activity {
 export interface UserProgress {
   totalWords: number;
   learnedWords: number;
-  favoriteWords: number;
+  difficultWords: number;
   streak: number;
   completedUnits: number;
   totalUnits: number;

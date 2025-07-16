@@ -66,9 +66,9 @@ const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
                 <Text style={styles.learnedText}>✓</Text>
               </View>
             )}
-            {word.isFavorite && (
+            {word.isDifficult && (
               <View style={styles.favoriteBadge}>
-                <Text style={styles.favoriteText}>♥</Text>
+                <Text style={styles.favoriteText}>★</Text>
               </View>
             )}
           </View>
@@ -82,7 +82,7 @@ export default function UnitDetailScreen() {
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
   const router = useRouter();
   const [hideLearnedWords, setHideLearnedWords] = useState(false);
-  const { showWordDetails } = useWordActionSheet();
+  const { showWordDetails, ActionSheetComponent } = useWordActionSheet();
 
   const unit = mockUnits.find((u) => u.id === unitId);
   const allUnitWords = mockWords.filter((word) => word.unit === unitId);
@@ -93,15 +93,10 @@ export default function UnitDetailScreen() {
     : allUnitWords;
 
   const handleWordPress = (word: Word) => {
-    const handleAddToFavorites = () => {
-      console.log("Favorilere eklendi:", word.french);
+    const handleAddToDifficult = () => {
+      console.log("Zor kelimelere eklendi:", word.french);
     };
-
-    const handleMarkAsLearned = () => {
-      console.log("Öğrenildi olarak işaretlendi:", word.french);
-    };
-
-    showWordDetails(word, handleAddToFavorites, handleMarkAsLearned);
+    showWordDetails(word, handleAddToDifficult);
   };
 
   const handleBackPress = () => {
@@ -183,6 +178,7 @@ export default function UnitDetailScreen() {
           contentContainerStyle={styles.listContainer}
         />
       </View>
+      {ActionSheetComponent}
     </SafeAreaView>
   );
 }

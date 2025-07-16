@@ -14,31 +14,23 @@ import { mockWords } from "../data/mockData";
 import { Word } from "../types";
 import { colors } from "../utils/colors";
 
-export default function FavoritesScreen() {
+export default function DifficultWordsScreen() {
   const [words, setWords] = useState<Word[]>(mockWords);
-  const [favoriteWords, setFavoriteWords] = useState<Word[]>([]);
+  const [difficultWords, setDifficultWords] = useState<Word[]>([]);
 
   useEffect(() => {
-    updateFavoriteWords();
+    updateDifficultWords();
   }, [words]);
 
-  const updateFavoriteWords = () => {
-    const favorites = words.filter((word) => word.isFavorite);
-    setFavoriteWords(favorites);
+  const updateDifficultWords = () => {
+    const difficults = words.filter((word) => word.isDifficult);
+    setDifficultWords(difficults);
   };
 
-  const handleToggleLearned = (wordId: string) => {
+  const handleToggleDifficult = (wordId: string) => {
     setWords((prevWords) =>
       prevWords.map((word) =>
-        word.id === wordId ? { ...word, isLearned: !word.isLearned } : word
-      )
-    );
-  };
-
-  const handleToggleFavorite = (wordId: string) => {
-    setWords((prevWords) =>
-      prevWords.map((word) =>
-        word.id === wordId ? { ...word, isFavorite: !word.isFavorite } : word
+        word.id === wordId ? { ...word, isDifficult: !word.isDifficult } : word
       )
     );
   };
@@ -47,17 +39,21 @@ export default function FavoritesScreen() {
     Alert.alert(word.french, `${word.turkish}\n\nÖrnek: ${word.example}`, [
       { text: "Tamam", style: "default" },
       {
-        text: "Favorilerden Çıkar",
-        onPress: () => handleToggleFavorite(word.id),
-        style: "destructive",
+        text: difficultWords.some((w) => w.id === word.id)
+          ? "Çalışılacaklardan Çıkar"
+          : "Çalışılacaklara Ekle",
+        onPress: () => handleToggleDifficult(word.id),
+        style: difficultWords.some((w) => w.id === word.id)
+          ? "destructive"
+          : "default",
       },
     ]);
   };
 
-  const handleRemoveAllFavorites = () => {
+  const handleRemoveAllDifficult = () => {
     Alert.alert(
-      "Tüm Favorileri Kaldır",
-      "Tüm favori kelimelerinizi kaldırmak istediğinizden emin misiniz?",
+      "Tüm Çalışılacakları Kaldır",
+      "Tüm çalışılacak kelimeleri kaldırmak istediğinizden emin misiniz?",
       [
         { text: "İptal", style: "cancel" },
         {
@@ -65,7 +61,7 @@ export default function FavoritesScreen() {
           style: "destructive",
           onPress: () => {
             setWords((prevWords) =>
-              prevWords.map((word) => ({ ...word, isFavorite: false }))
+              prevWords.map((word) => ({ ...word, isDifficult: false }))
             );
           },
         },
@@ -78,44 +74,46 @@ export default function FavoritesScreen() {
       <ScrollView showsVerticalScrollIndicator={false}>
         {/* Header */}
         <View style={styles.header}>
-          <Text style={styles.title}>Favori Kelimeler</Text>
-          {favoriteWords.length > 0 && (
+          <Text style={styles.title}>Çalışılacak Kelimeler</Text>
+          {difficultWords.length > 0 && (
             <TouchableOpacity
               style={styles.removeAllButton}
-              onPress={handleRemoveAllFavorites}
+              onPress={handleRemoveAllDifficult}
             >
-              <Ionicons name="trash-outline" size={20} color={colors.error} />
+              <Ionicons name="list-outline" size={20} color={colors.error} />
               <Text style={styles.removeAllText}>Tümünü Kaldır</Text>
             </TouchableOpacity>
           )}
         </View>
 
         {/* Empty State */}
-        {favoriteWords.length === 0 ? (
+        {difficultWords.length === 0 ? (
           <View style={styles.emptyContainer}>
-            <Ionicons name="heart-outline" size={64} color={colors.textLight} />
-            <Text style={styles.emptyTitle}>Henüz favori kelimeniz yok</Text>
+            <Ionicons name="list-outline" size={64} color={colors.textLight} />
+            <Text style={styles.emptyTitle}>
+              Henüz çalışılacak kelimeniz yok
+            </Text>
             <Text style={styles.emptyDescription}>
-              Kelimeleri favorilere eklemek için ana sayfaya gidin ve kalp
-              ikonuna dokunun.
+              Kelimeleri çalışılacaklara eklemek için ana sayfaya gidin ve
+              &quot;Çalışılacaklara Ekle&quot; butonunu kullanın.
             </Text>
           </View>
         ) : (
-          /* Favorite Words List */
+          /* Difficult Words List */
           <View style={styles.content}>
             <View style={styles.statsContainer}>
               <Text style={styles.statsText}>
-                {favoriteWords.length} favori kelime
+                {difficultWords.length} çalışılacak kelime
               </Text>
             </View>
 
-            {favoriteWords.map((word) => (
+            {difficultWords.map((word) => (
               <WordCard
                 key={word.id}
                 word={word}
                 onPress={handleWordPress}
-                onToggleFavorite={handleToggleFavorite}
-                onToggleLearned={handleToggleLearned}
+                onToggleDifficult={handleToggleDifficult}
+                onToggleLearned={() => {}}
               />
             ))}
           </View>

@@ -48,9 +48,9 @@ export const ProgressCard: React.FC<ProgressCardProps> = ({ progress }) => {
         </View>
 
         <View style={styles.statItem}>
-          <Ionicons name="heart-outline" size={20} color={colors.favorite} />
-          <Text style={styles.statNumber}>{progress.favoriteWords}</Text>
-          <Text style={styles.statLabel}>Favori</Text>
+          <Ionicons name="star-outline" size={20} color={colors.favorite} />
+          <Text style={styles.statNumber}>{progress.difficultWords}</Text>
+          <Text style={styles.statLabel}>Zor</Text>
         </View>
 
         <View style={styles.statItem}>

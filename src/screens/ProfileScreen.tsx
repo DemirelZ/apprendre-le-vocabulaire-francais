@@ -24,12 +24,12 @@ export default function ProfileScreen() {
 
   const updateProgress = () => {
     const learnedWords = words.filter((word) => word.isLearned).length;
-    const favoriteWords = words.filter((word) => word.isFavorite).length;
+    const difficultWords = words.filter((word) => word.isDifficult).length;
 
     setProgress({
       ...progress,
       learnedWords,
-      favoriteWords,
+      difficultWords,
     });
   };
 

@@ -53,9 +53,9 @@ export default function HomeScreen() {
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.actionButton}
-              onPress={() => router.push("/(tabs)/favorites")}
+              onPress={() => router.push("/(tabs)/difficult-words")}
             >
-              <Text style={styles.actionButtonText}>Favorilerim</Text>
+              <Text style={styles.actionButtonText}>Çalışılacaklar</Text>
             </TouchableOpacity>
           </View>
         </View>

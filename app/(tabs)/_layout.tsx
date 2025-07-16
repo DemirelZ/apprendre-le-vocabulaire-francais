@@ -42,12 +42,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="favorites"
+        name="difficult-words"
         options={{
-          title: "Favoriler",
+          title: "Çalışılacaklar",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
-              name={focused ? "heart" : "heart-outline"}
+              name={focused ? "list" : "list-outline"}
               size={24}
               color={color}
             />

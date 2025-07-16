@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import {
   Animated,
   Dimensions,
+  Image,
   SafeAreaView,
   ScrollView,
   StyleSheet,
@@ -72,24 +73,80 @@ const WordAssessment: React.FC<WordAssessmentProps> = ({
         {/* Turkish Meaning */}
         <Text style={styles.turkishMeaning}>{word.turkish}</Text>
 
-        {/* Image Placeholder */}
+        {/* Image */}
         <View style={styles.imageContainer}>
-          <Text style={styles.imagePlaceholder}>🖼️</Text>
-          <Text style={styles.imageText}>Kelime Resmi</Text>
+          {word.image ? (
+            <Image
+              source={{ uri: word.image }}
+              style={{
+                width: 120,
+                height: 120,
+                borderRadius: 10,
+                backgroundColor: "#f0f0f0",
+              }}
+              resizeMode="cover"
+            />
+          ) : (
+            <Image
+              source={require("../../assets/images/default-no-image.png")}
+              style={{
+                width: 120,
+                height: 120,
+                borderRadius: 10,
+                backgroundColor: "#f0f0f0",
+              }}
+              resizeMode="cover"
+            />
+          )}
         </View>
 
-        {/* Example Sentence */}
-        <View style={styles.exampleContainer}>
-          <Text style={styles.exampleTitle}>Örnek Cümle:</Text>
-          <Text style={styles.exampleSentence}>{word.example}</Text>
-          <Text style={styles.exampleTranslation}>Türkçe: {word.turkish}</Text>
-        </View>
+        {/* Example Sentence and Translation */}
+        {(word.example || word.exampleTranslation) && (
+          <View
+            style={{
+              backgroundColor: "#f5f6fa",
+              borderRadius: 8,
+              padding: 12,
+              marginBottom: 16,
+            }}
+          >
+            {word.example ? (
+              <Text
+                style={{
+                  fontSize: 16,
+                  color: "#333",
+                  fontWeight: "500",
+                  marginBottom: 4,
+                }}
+              >
+                {word.example}
+              </Text>
+            ) : null}
+            {word.exampleTranslation ? (
+              <Text
+                style={{ fontSize: 15, color: "#888", fontStyle: "italic" }}
+              >
+                {word.exampleTranslation}
+              </Text>
+            ) : null}
+          </View>
+        )}
 
         {/* Synonyms */}
-        <View style={styles.synonymsContainer}>
-          <Text style={styles.synonymsTitle}>Eş Anlamlılar:</Text>
-          <Text style={styles.synonymsText}>{word.french} (aynı kelime)</Text>
-        </View>
+        {word.synonyms && word.synonyms.length > 0 && (
+          <View
+            style={{
+              backgroundColor: "#f5f6fa",
+              borderRadius: 8,
+              padding: 12,
+              marginBottom: 16,
+            }}
+          >
+            <Text style={{ fontSize: 14, color: "#555" }}>
+              Eş anlamlılar: {word.synonyms.join(", ")}
+            </Text>
+          </View>
+        )}
 
         {/* Knowledge Level Assessment */}
         <View style={styles.assessmentContainer}>

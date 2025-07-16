@@ -238,7 +238,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
     knowledgeLevel: undefined,
   },
@@ -257,7 +257,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
     knowledgeLevel: undefined,
   },
@@ -266,8 +266,10 @@ export const mockWords: Word[] = [
     french: "Aller",
     turkish: "Gitmek",
     pronunciation: "al-ay",
-    example: "Je vais à l'école.",
-    exampleTranslation: "Okula gidiyorum.",
+    example:
+      "Je vais à l'école. fddfvdfvdfvdfvdfvdfvdfvdfv dfffdfdf rfrgefer ergergerger erergerg erger",
+    exampleTranslation:
+      "Okula gidiyorum. fddfvdfvdfvdfvdfvdfvdfvdfv dfffdfdf rfrgefer ergergerger erergerg erger",
     synonyms: ["se rendre", "partir"],
     image:
       "https://cdn.pixabay.com/photo/2016/11/18/17/20/school-1836054_960_720.jpg",
@@ -275,7 +277,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
     knowledgeLevel: undefined,
   },
@@ -293,7 +295,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
     knowledgeLevel: undefined,
   },
@@ -311,7 +313,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-1",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
     knowledgeLevel: undefined,
   },
@@ -331,7 +333,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-2",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
     knowledgeLevel: undefined,
   },
@@ -349,7 +351,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-2",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
     knowledgeLevel: undefined,
   },
@@ -363,7 +365,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-2",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -376,7 +378,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-2",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -389,7 +391,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-2",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -404,7 +406,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-3",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -417,7 +419,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-3",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -430,7 +432,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-3",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -443,7 +445,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-3",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -456,7 +458,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-3",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -471,7 +473,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-4",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -484,7 +486,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-4",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -497,7 +499,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-4",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -510,7 +512,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-4",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -523,7 +525,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-4",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -538,7 +540,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-5",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -551,7 +553,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-5",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -564,7 +566,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-5",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -577,7 +579,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-5",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -590,7 +592,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-5",
     difficulty: "advanced",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -605,7 +607,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-6",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -618,7 +620,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-6",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -631,7 +633,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-6",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -644,7 +646,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-6",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -657,7 +659,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-6",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -672,7 +674,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-7",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -685,7 +687,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-7",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -698,7 +700,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-7",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -711,7 +713,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-7",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -724,7 +726,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-7",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -739,7 +741,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-8",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -752,7 +754,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-8",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -765,7 +767,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-8",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -778,7 +780,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-8",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -791,7 +793,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-8",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -806,7 +808,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-9",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -819,7 +821,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-9",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -832,7 +834,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-9",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -845,7 +847,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-9",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -858,7 +860,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-9",
     difficulty: "advanced",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -873,7 +875,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-10",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -886,7 +888,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-10",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -899,7 +901,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-10",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -912,7 +914,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-10",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -925,7 +927,7 @@ export const mockWords: Word[] = [
     unit: "verbs-unit-10",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -940,7 +942,7 @@ export const mockWords: Word[] = [
     unit: "adjectives-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -953,7 +955,7 @@ export const mockWords: Word[] = [
     unit: "adjectives-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -968,7 +970,7 @@ export const mockWords: Word[] = [
     unit: "adjectives-unit-2",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -981,7 +983,7 @@ export const mockWords: Word[] = [
     unit: "adjectives-unit-2",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -996,7 +998,7 @@ export const mockWords: Word[] = [
     unit: "adjectives-unit-3",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -1009,7 +1011,7 @@ export const mockWords: Word[] = [
     unit: "adjectives-unit-3",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -1024,7 +1026,7 @@ export const mockWords: Word[] = [
     unit: "nouns-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -1039,7 +1041,7 @@ export const mockWords: Word[] = [
     unit: "nouns-unit-2",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -1052,7 +1054,7 @@ export const mockWords: Word[] = [
     unit: "nouns-unit-2",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -1067,7 +1069,7 @@ export const mockWords: Word[] = [
     unit: "nouns-unit-3",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -1080,7 +1082,7 @@ export const mockWords: Word[] = [
     unit: "nouns-unit-3",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -1095,7 +1097,7 @@ export const mockWords: Word[] = [
     unit: "nouns-unit-4",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -1110,7 +1112,7 @@ export const mockWords: Word[] = [
     unit: "adverbs-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -1123,7 +1125,7 @@ export const mockWords: Word[] = [
     unit: "adverbs-unit-1",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -1136,7 +1138,7 @@ export const mockWords: Word[] = [
     unit: "adverbs-unit-1",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -1151,7 +1153,7 @@ export const mockWords: Word[] = [
     unit: "adverbs-unit-2",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -1164,7 +1166,7 @@ export const mockWords: Word[] = [
     unit: "adverbs-unit-2",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -1179,7 +1181,7 @@ export const mockWords: Word[] = [
     unit: "conjunctions-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -1192,7 +1194,7 @@ export const mockWords: Word[] = [
     unit: "conjunctions-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -1205,7 +1207,7 @@ export const mockWords: Word[] = [
     unit: "conjunctions-unit-1",
     difficulty: "beginner",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 
@@ -1220,7 +1222,7 @@ export const mockWords: Word[] = [
     unit: "conjunctions-unit-2",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
   {
@@ -1233,7 +1235,7 @@ export const mockWords: Word[] = [
     unit: "conjunctions-unit-2",
     difficulty: "intermediate",
     isLearned: false,
-    isFavorite: false,
+    isDifficult: false,
     createdAt: new Date("2024-01-01"),
   },
 ];
@@ -1284,7 +1286,7 @@ export const mockCategories: Category[] = [
 export const mockUserProgress: UserProgress = {
   totalWords: mockWords.length,
   learnedWords: 0,
-  favoriteWords: 0,
+  difficultWords: 0,
   streak: 0,
   completedUnits: 0,
   totalUnits: mockUnits.length,
