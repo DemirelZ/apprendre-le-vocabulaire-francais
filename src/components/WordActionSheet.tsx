@@ -2,6 +2,7 @@ import { Ionicons } from "@expo/vector-icons";
 import React, { useCallback, useRef } from "react";
 import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import ActionSheet, { ActionSheetRef } from "react-native-actions-sheet";
+import Toast from "react-native-toast-message";
 import { Word } from "../types";
 
 interface WordActionSheetProps {
@@ -56,7 +57,21 @@ export const WordActionSheetContent: React.FC<WordActionSheetProps> = ({
         </View>
       ) : null}
       {/* Butonlar */}
-      <TouchableOpacity style={styles.fancyButton} onPress={onAddToDifficult}>
+      <TouchableOpacity
+        style={styles.fancyButton}
+        onPress={() => {
+          if (onAddToDifficult) onAddToDifficult();
+          Toast.show({
+            type: "success",
+            text1: `${word.french} kelimesi çalışılacaklar listesine eklendi`,
+            position: "top",
+            visibilityTime: 3000,
+            autoHide: true,
+            topOffset: 80,
+            swipeable: true,
+          });
+        }}
+      >
         <Ionicons
           name="star-outline"
           size={20}

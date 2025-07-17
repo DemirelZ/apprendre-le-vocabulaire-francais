@@ -9,6 +9,7 @@ import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import "react-native-reanimated";
+import Toast from "react-native-toast-message";
 
 import { useColorScheme } from "../hooks/useColorScheme";
 
@@ -42,6 +43,7 @@ export default function RootLayout() {
           <StatusBar style="auto" />
         </ThemeProvider>
       </ActionSheetProvider>
+      <Toast />
     </GestureHandlerRootView>
   );
 }
