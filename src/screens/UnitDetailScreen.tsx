@@ -3,6 +3,7 @@ import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useState } from "react";
 import {
   FlatList,
+  Image,
   SafeAreaView,
   StyleSheet,
   Text,
@@ -54,6 +55,17 @@ const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
             />
           ))}
         </View>
+
+        {/* Image container */}
+        {word.image && (
+          <View style={styles.imageContainer}>
+            <Image
+              source={{ uri: word.image }}
+              style={styles.wordImage}
+              resizeMode="cover"
+            />
+          </View>
+        )}
 
         <View style={styles.wordMainInfo}>
           <View style={styles.wordTextContainer}>
@@ -199,7 +211,12 @@ export default function UnitDetailScreen() {
         />
       </View>
       <QuizBottomButtons
-        onMultipleChoice={() => console.log("Çoktan Seçmeli Teste Başla")}
+        onMultipleChoice={() =>
+          router.push({
+            pathname: "/multiple-choice-quiz",
+            params: { unitId: unitId },
+          })
+        }
         onFillInTheBlank={() => console.log("Boşluk Doldurma Testine Başla")}
         onWriting={() => console.log("Yazma Testine Başla")}
       />
@@ -246,9 +263,10 @@ const styles = StyleSheet.create({
   unitInfo: {
     backgroundColor: "#fff",
     borderRadius: 12,
-    padding: 20,
-    marginTop: 15,
-    marginBottom: 20,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    marginTop: 10,
+    marginBottom: 10,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -332,10 +350,10 @@ const styles = StyleSheet.create({
   },
   wordItem: {
     backgroundColor: "#fff",
-    borderRadius: 12,
-    paddingHorizontal: 16,
-    paddingVertical: 10,
-    marginBottom: 10,
+    borderRadius: 8,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    marginBottom: 6,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -350,6 +368,15 @@ const styles = StyleSheet.create({
   wordContent: {
     flexDirection: "row",
     alignItems: "center",
+  },
+  imageContainer: {
+    marginRight: 12,
+  },
+  wordImage: {
+    width: 50,
+    height: 50,
+    borderRadius: 50,
+    backgroundColor: "#f8f9fa",
   },
   wordMainInfo: {
     flex: 1,
