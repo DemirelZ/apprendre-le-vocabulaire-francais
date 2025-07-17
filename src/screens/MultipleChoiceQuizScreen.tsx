@@ -196,6 +196,11 @@ export default function MultipleChoiceQuizScreen() {
 
   const unit = mockUnits.find((u) => u.id === unitId);
   const unitWords = mockWords.filter((word) => word.unit === unitId);
+  const category = unit
+    ? require("../data/mockData").mockCategories.find(
+        (c: any) => c.id === unit.categoryId
+      )
+    : undefined;
 
   // Helper to shuffle array
   function shuffle<T>(array: T[]): T[] {
@@ -361,7 +366,9 @@ export default function MultipleChoiceQuizScreen() {
         <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
           <Text style={styles.backButtonText}>← Geri</Text>
         </TouchableOpacity>
-        <Text style={styles.title}>Çoktan Seçmeli Test</Text>
+        <Text style={styles.title}>
+          {unit && category ? `${category.name} • ${unit.name}` : "Quiz"}
+        </Text>
         <View style={styles.progressContainer}>
           <Text style={styles.progressText}>
             {currentQuestionIndex + 1}/{questions.length}
