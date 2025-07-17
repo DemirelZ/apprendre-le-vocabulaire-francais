@@ -10,6 +10,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import Toast from "react-native-toast-message";
 import useWordActionSheet from "../components/WordActionSheet";
 import { mockUnits, mockWords } from "../data/mockData";
 import { Word } from "../types";
@@ -240,6 +241,53 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
   );
 };
 
+// Knowledge level düşürme fonksiyonu
+const decreaseKnowledgeLevel = (wordId: string) => {
+  const wordIndex = mockWords.findIndex((word) => word.id === wordId);
+  if (wordIndex === -1) return;
+
+  const word = mockWords[wordIndex];
+  const currentLevel = word.knowledgeLevel;
+
+  // Eğer knowledge level yoksa veya zaten "dont-know" ise hiçbir şey yapma
+  if (!currentLevel || currentLevel === "dont-know") {
+    return;
+  }
+
+  let newLevel: "dont-know" | "somewhat" | "learned";
+  let toastMessage = "";
+
+  switch (currentLevel) {
+    case "learned":
+      newLevel = "somewhat";
+      toastMessage = "Kelime seviyesi 'Biraz' olarak güncellendi";
+      break;
+    case "somewhat":
+      newLevel = "dont-know";
+      toastMessage = "Kelime seviyesi 'Bilmiyorum' olarak güncellendi";
+      break;
+    default:
+      return;
+  }
+
+  // Knowledge level'ı güncelle
+  mockWords[wordIndex].knowledgeLevel = newLevel;
+
+  // Toast mesajı göster
+  Toast.show({
+    type: "info",
+    text1: "Seviye Düşürüldü",
+    text2: toastMessage,
+    position: "top",
+    visibilityTime: 3000,
+    swipeable: true,
+  });
+
+  console.log(
+    `Updated word ${wordId} knowledge level from ${currentLevel} to ${newLevel}`
+  );
+};
+
 export default function MultipleChoiceQuizScreen() {
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
   const router = useRouter();
@@ -343,6 +391,9 @@ export default function MultipleChoiceQuizScreen() {
           handleNext();
         }
       }, 800); // 0.8 seconds delay
+    } else {
+      // If answer is incorrect, decrease knowledge level
+      decreaseKnowledgeLevel(currentQuestion.word.id);
     }
   };
 
