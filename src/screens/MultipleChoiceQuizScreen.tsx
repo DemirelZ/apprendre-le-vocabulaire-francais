@@ -209,9 +209,11 @@ export default function MultipleChoiceQuizScreen() {
 
   // Generate quiz questions from unit words - only once on mount
   const [questions] = useState(() => {
-    return unitWords.map((word, index) => {
+    // Shuffle the words so the order of questions is random each time
+    const shuffledWords = shuffle(unitWords);
+    return shuffledWords.map((word, index) => {
       // Get other words from the same unit for wrong options
-      const otherWords = unitWords.filter((w) => w.id !== word.id);
+      const otherWords = shuffledWords.filter((w) => w.id !== word.id);
       const wrongOptions = otherWords.map((w) => w.turkish).slice(0, 3); // Take 3 wrong options
 
       // If we don't have enough wrong options, add some generic ones
