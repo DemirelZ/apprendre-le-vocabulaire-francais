@@ -60,6 +60,16 @@ export const WordActionSheetContent: React.FC<WordActionSheetProps> = ({
       <TouchableOpacity
         style={styles.fancyButton}
         onPress={() => {
+          // isDifficult alanını true yap
+          if (word) {
+            const wordIndex = require("../data/mockData").mockWords.findIndex(
+              (w) => w.id === word.id
+            );
+            if (wordIndex !== -1) {
+              require("../data/mockData").mockWords[wordIndex].isDifficult =
+                true;
+            }
+          }
           if (onAddToDifficult) onAddToDifficult();
           Toast.show({
             type: "success",
@@ -74,7 +84,7 @@ export const WordActionSheetContent: React.FC<WordActionSheetProps> = ({
       >
         <Ionicons
           name="star-outline"
-          size={20}
+          size={22}
           color="#fff"
           style={{ marginRight: 8 }}
         />

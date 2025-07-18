@@ -10,9 +10,70 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import Toast from "react-native-toast-message";
 import { mockCategories, mockUnits, mockWords } from "../data/mockData";
 
 const { width: screenWidth } = Dimensions.get("window");
+
+// Knowledge Level Indicator (3 çizgi)
+const getLineColor = (lineIndex: number, level?: string) => {
+  if (!level) {
+    return "#e9ecef"; // Açık gri - hiç seçim yapılmamış
+  }
+  switch (level) {
+    case "dont-know":
+      return lineIndex === 2 ? "#dc3545" : "#e9ecef"; // Sadece en alttaki çizgi kırmızı
+    case "somewhat":
+      return lineIndex >= 1 ? "#ffc107" : "#e9ecef"; // Alt 2 çizgi sarı
+    case "learned":
+      return "#28a745"; // Tüm çizgiler yeşil
+    default:
+      return "#e9ecef";
+  }
+};
+
+// Knowledge level düşürme fonksiyonu
+const decreaseKnowledgeLevel = (wordId: string) => {
+  const wordIndex = mockWords.findIndex((word) => word.id === wordId);
+  if (wordIndex === -1) return;
+
+  const word = mockWords[wordIndex];
+  const currentLevel = word.knowledgeLevel;
+
+  // Eğer knowledge level yoksa veya zaten "dont-know" ise hiçbir şey yapma
+  if (!currentLevel || currentLevel === "dont-know") {
+    return;
+  }
+
+  let newLevel: "dont-know" | "somewhat" | "learned";
+  let toastMessage = "";
+
+  switch (currentLevel) {
+    case "learned":
+      newLevel = "somewhat";
+      toastMessage = "Kelime seviyesi 'Biraz' olarak güncellendi";
+      break;
+    case "somewhat":
+      newLevel = "dont-know";
+      toastMessage = "Kelime seviyesi 'Bilmiyorum' olarak güncellendi";
+      break;
+    default:
+      return;
+  }
+
+  // Knowledge level'ı güncelle
+  mockWords[wordIndex].knowledgeLevel = newLevel;
+
+  // Toast mesajı göster
+  Toast.show({
+    type: "info",
+    text1: "Seviye Düşürüldü",
+    text2: toastMessage,
+    position: "top",
+    visibilityTime: 3000,
+    swipeable: true,
+  });
+};
 
 export default function WritingQuizScreen() {
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
@@ -239,6 +300,9 @@ export default function WritingQuizScreen() {
           handleNext();
         }
       }, 800); // 0.8 saniye gecikme
+    } else {
+      // Yanlış cevapta knowledge level düşür
+      decreaseKnowledgeLevel(currentWord.id);
     }
   };
 
@@ -315,6 +379,39 @@ export default function WritingQuizScreen() {
               justifyContent: "center",
             }}
           >
+            {/* Header veya soru alanında knowledge level göstergesi: */}
+            <View style={styles.qcTopRow}>
+              <View style={{ flex: 1 }} />
+              <View
+                style={{
+                  width: 44,
+                  height: 44,
+                  borderRadius: 50,
+                  justifyContent: "center",
+                  backgroundColor: "#f8f9fa",
+                  borderWidth: 2,
+                  borderColor: "#e9ecef",
+                  alignItems: "center",
+                }}
+              >
+                <View style={styles.knowledgeLevelIndicator}>
+                  {Array.from({ length: 3 }, (_, index) => (
+                    <View
+                      key={index}
+                      style={[
+                        styles.knowledgeLevelLine,
+                        {
+                          backgroundColor: getLineColor(
+                            index,
+                            currentWord.knowledgeLevel
+                          ),
+                        },
+                      ]}
+                    />
+                  ))}
+                </View>
+              </View>
+            </View>
             <View style={styles.questionWordContainer}>
               <Text style={styles.questionText}>
                 &apos;{currentWord.turkish}&apos;
@@ -661,5 +758,23 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     alignItems: "center",
     marginBottom: 10,
+  },
+  // knowledgeLevelIndicator: { flexDirection: "column", alignItems: "flex-end", minHeight: 24, },
+  // knowledgeLevelLine: { width: 24, height: 5, borderRadius: 2, marginVertical: 2, },
+  qcTopRow: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+    marginBottom: 8,
+  },
+  knowledgeLevelIndicator: {
+    flexDirection: "column",
+    alignItems: "flex-end",
+    minHeight: 24,
+  },
+  knowledgeLevelLine: {
+    width: 24,
+    height: 5,
+    borderRadius: 2,
+    marginVertical: 2,
   },
 });

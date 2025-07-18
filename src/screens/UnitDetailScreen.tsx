@@ -38,8 +38,22 @@ const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
     }
   };
 
+  console.log(word);
   return (
     <TouchableOpacity style={styles.wordItem} onPress={onPress}>
+      {/* Sağ üst köşe badge'leri */}
+      <View style={styles.badgeContainer}>
+        {word.isLearned && (
+          <View style={styles.learnedBadge}>
+            <Text style={styles.learnedText}>✓</Text>
+          </View>
+        )}
+        {word.isDifficult && (
+          <View style={styles.favoriteBadge}>
+            <Text style={styles.favoriteText}>★</Text>
+          </View>
+        )}
+      </View>
       <View style={styles.wordContent}>
         {/* Knowledge Level Indicator - Left Side */}
         <View style={styles.knowledgeLevelIndicator}>
@@ -72,19 +86,6 @@ const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
             <Text style={styles.wordFrench}>{word.french}</Text>
             <Text style={styles.wordTurkish}>{word.turkish}</Text>
             <Text style={styles.wordPronunciation}>[{word.pronunciation}]</Text>
-          </View>
-
-          <View style={styles.wordStatusContainer}>
-            {word.isLearned && (
-              <View style={styles.learnedBadge}>
-                <Text style={styles.learnedText}>✓</Text>
-              </View>
-            )}
-            {word.isDifficult && (
-              <View style={styles.favoriteBadge}>
-                <Text style={styles.favoriteText}>★</Text>
-              </View>
-            )}
           </View>
         </View>
       </View>
@@ -369,6 +370,7 @@ const styles = StyleSheet.create({
     elevation: 3,
     borderWidth: 1,
     borderColor: "#f8f9fa",
+    position: "relative", // Added for badge positioning
   },
   wordContent: {
     flexDirection: "row",
@@ -590,5 +592,13 @@ const styles = StyleSheet.create({
   checkboxText: {
     fontSize: 14,
     color: "#6c757d",
+  },
+  badgeContainer: {
+    position: "absolute",
+    right: 8,
+    top: 8,
+    flexDirection: "row",
+    gap: 4,
+    zIndex: 2,
   },
 });
