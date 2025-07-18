@@ -218,7 +218,12 @@ export default function UnitDetailScreen() {
           })
         }
         onFillInTheBlank={() => console.log("Boşluk Doldurma Testine Başla")}
-        onWriting={() => console.log("Yazma Testine Başla")}
+        onWriting={() =>
+          router.push({
+            pathname: "/writing-quiz",
+            params: { unitId: unitId },
+          })
+        }
       />
       {ActionSheetComponent}
     </SafeAreaView>

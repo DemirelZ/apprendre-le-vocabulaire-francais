@@ -39,18 +39,6 @@ const QuizBottomButtons: React.FC<QuizBottomButtonsProps> = ({
 
       <TouchableOpacity
         style={[styles.bottomButton, styles.middleButton]}
-        onPress={onFillInTheBlank}
-        activeOpacity={0.8}
-      >
-        <View style={styles.iconContainer}>
-          <Ionicons name="ellipsis-horizontal" size={24} color="#fff" />
-        </View>
-        <Text style={styles.buttonTitle}>Boşluk Doldurma</Text>
-        <Text style={styles.buttonSubtitle}>Test</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity
-        style={[styles.bottomButton, styles.rightButton]}
         onPress={onWriting}
         activeOpacity={0.8}
       >
@@ -58,6 +46,18 @@ const QuizBottomButtons: React.FC<QuizBottomButtonsProps> = ({
           <Ionicons name="create" size={24} color="#fff" />
         </View>
         <Text style={styles.buttonTitle}>Yazma</Text>
+        <Text style={styles.buttonSubtitle}>Test</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={[styles.bottomButton, styles.rightButton]}
+        onPress={onFillInTheBlank}
+        activeOpacity={0.8}
+      >
+        <View style={styles.iconContainer}>
+          <Ionicons name="ellipsis-horizontal" size={24} color="#fff" />
+        </View>
+        <Text style={styles.buttonTitle}>Boşluk Doldurma</Text>
         <Text style={styles.buttonSubtitle}>Test</Text>
       </TouchableOpacity>
     </View>
