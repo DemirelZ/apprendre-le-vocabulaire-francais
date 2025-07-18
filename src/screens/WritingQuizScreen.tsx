@@ -1,3 +1,4 @@
+import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useRef, useState } from "react";
 import {
@@ -25,6 +26,8 @@ export default function WritingQuizScreen() {
   >({});
   const [score, setScore] = useState(0);
   const slideAnim = useRef(new Animated.Value(0)).current;
+  const tickAnim = useRef(new Animated.Value(0)).current;
+  const [isAutoAdvancing, setIsAutoAdvancing] = useState(false);
 
   // Harf seçimli yazma alanı için state
   const [selectedLetters, setSelectedLetters] = useState<string[]>([]);
@@ -52,9 +55,47 @@ export default function WritingQuizScreen() {
 
   // Harf kutucukları için karışık harfler - güvenli versiyon
   const actualShuffledLetters = React.useMemo(() => {
-    // Bu noktada currentWord henüz tanımlı değil, bu yüzden boş array döndür
-    return [];
-  }, []);
+    if (
+      !questions ||
+      questions.length === 0 ||
+      currentQuestionIndex >= questions.length
+    ) {
+      return [];
+    }
+
+    const currentWord = questions[currentQuestionIndex];
+    if (!currentWord || !currentWord.french) {
+      return [];
+    }
+
+    // Mevcut kelimenin harflerini al ve karıştır
+    const letters = currentWord.french.split("");
+    return shuffle(letters);
+  }, [questions, currentQuestionIndex]);
+
+  // Tick animasyonu için useEffect
+  React.useEffect(() => {
+    const currentWord = questions[currentQuestionIndex];
+    if (currentWord && answeredQuestions[currentWord.id]) {
+      const isCorrect =
+        selectedLetters.join("").toLowerCase() ===
+        currentWord.french.toLowerCase();
+      if (isCorrect) {
+        Animated.spring(tickAnim, {
+          toValue: 1,
+          useNativeDriver: true,
+          tension: 100,
+          friction: 8,
+        }).start();
+      }
+    }
+  }, [
+    answeredQuestions,
+    currentQuestionIndex,
+    questions,
+    selectedLetters,
+    tickAnim,
+  ]);
 
   // Guard clause: unitId zorunlu parametre
   if (!unitId) {
@@ -173,6 +214,7 @@ export default function WritingQuizScreen() {
     setSelectedLetters((prev) => [...prev, letter]);
     setUsedIndexes((prev) => [...prev, idx]);
   };
+
   // Harf geri alma
   const handleRemoveLetter = (removeIdx: number) => {
     setSelectedLetters((prev) => prev.filter((_, i) => i !== removeIdx));
@@ -187,13 +229,25 @@ export default function WritingQuizScreen() {
   // Cevabı gönder
   const handleSubmit = () => {
     setAnsweredQuestions((prev) => ({ ...prev, [currentWord.id]: true }));
-    if (isCorrect) setScore((s) => s + 1);
+    if (isCorrect) {
+      setScore((s) => s + 1);
+      // Doğru cevap ise otomatik olarak sonraki soruya geç
+      setIsAutoAdvancing(true);
+      setTimeout(() => {
+        setIsAutoAdvancing(false);
+        if (currentQuestionIndex < questions.length - 1) {
+          handleNext();
+        }
+      }, 800); // 0.8 saniye gecikme
+    }
   };
 
   // Sonraki soruya geç
   const handleNext = () => {
     setSelectedLetters([]);
     setUsedIndexes([]);
+    tickAnim.setValue(0); // Tick animasyonunu sıfırla
+
     if (currentQuestionIndex < questions.length - 1) {
       Animated.timing(slideAnim, {
         toValue: -screenWidth,
@@ -247,65 +301,129 @@ export default function WritingQuizScreen() {
           { transform: [{ translateX: slideAnim }] },
         ]}
       >
-        <Text style={styles.questionText}>
-          &apos;{currentWord.turkish}&apos; anlamına gelen kelime
-        </Text>
-        {/* Seçilen harfler */}
-        <View style={styles.selectedLettersRow}>
-          {selectedLetters.map((letter, idx) => (
-            <TouchableOpacity
-              key={idx}
-              style={styles.selectedLetterBox}
-              onPress={() => !isAnswered && handleRemoveLetter(idx)}
-              disabled={isAnswered}
-            >
-              <Text style={styles.selectedLetterText}>{letter}</Text>
-            </TouchableOpacity>
-          ))}
-        </View>
-        {/* Harf kutucukları */}
-        <View style={styles.lettersRow}>
-          {actualShuffledLetters.map((letter, idx) => (
-            <TouchableOpacity
-              key={idx}
-              style={[
-                styles.letterBox,
-                usedIndexes.includes(idx) && styles.letterBoxUsed,
-              ]}
-              onPress={() =>
-                !usedIndexes.includes(idx) &&
-                !isAnswered &&
-                handleLetterSelect(letter, idx)
-              }
-              disabled={usedIndexes.includes(idx) || isAnswered}
-            >
-              <Text style={styles.letterText}>{letter}</Text>
-            </TouchableOpacity>
-          ))}
-        </View>
-        {/* Sonuç ve butonlar */}
-        {isAnswered && (
-          <Text style={isCorrect ? styles.correctText : styles.wrongText}>
-            {isCorrect ? "Doğru!" : `Yanıt: ${currentWord.french}`}
-          </Text>
-        )}
-        {!isAnswered && (
-          <TouchableOpacity
-            style={styles.submitButton}
-            onPress={handleSubmit}
-            disabled={selectedLetters.length !== currentWord.french.length}
+        <View
+          style={{
+            flex: 1,
+
+            justifyContent: "center",
+            flexDirection: "column",
+          }}
+        >
+          <View
+            style={{
+              height: "80%",
+              justifyContent: "center",
+            }}
           >
-            <Text style={styles.submitButtonText}>Cevabı Gönder</Text>
-          </TouchableOpacity>
+            <View style={styles.questionWordContainer}>
+              <Text style={styles.questionText}>
+                &apos;{currentWord.turkish}&apos;
+              </Text>
+              <Text style={styles.questionSubtext}>anlamına gelen kelime</Text>
+            </View>
+
+            <View style={styles.answerContainer}>
+              {/* Doğru cevap animasyonu */}
+              {isAnswered && isCorrect && (
+                <Animated.View
+                  style={[
+                    styles.iconContainer,
+                    {
+                      transform: [
+                        {
+                          scale: tickAnim.interpolate({
+                            inputRange: [0, 1],
+                            outputRange: [0, 1],
+                          }),
+                        },
+                      ],
+                      opacity: tickAnim,
+                    },
+                  ]}
+                >
+                  <Ionicons name="checkmark-circle" size={40} color="#28a745" />
+                </Animated.View>
+              )}
+
+              {/* Sonuç ve butonlar */}
+              {isAnswered && !isCorrect && (
+                <Text style={styles.wrongText}>
+                  Yanıt: {currentWord.french}
+                </Text>
+              )}
+            </View>
+
+            {/* Seçilen harfler */}
+            <View style={styles.selectedLettersRow}>
+              {selectedLetters.map((letter, idx) => (
+                <TouchableOpacity
+                  key={idx}
+                  style={styles.selectedLetterBox}
+                  onPress={() => !isAnswered && handleRemoveLetter(idx)}
+                  disabled={isAnswered}
+                >
+                  <Text style={styles.selectedLetterText}>{letter}</Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+
+            {/* Harf kutucukları */}
+            <View style={styles.lettersRow}>
+              {actualShuffledLetters.map((letter, idx) => (
+                <TouchableOpacity
+                  key={idx}
+                  style={[
+                    styles.letterBox,
+                    usedIndexes.includes(idx) && styles.letterBoxUsed,
+                  ]}
+                  onPress={() =>
+                    !usedIndexes.includes(idx) &&
+                    !isAnswered &&
+                    handleLetterSelect(letter, idx)
+                  }
+                  disabled={usedIndexes.includes(idx) || isAnswered}
+                >
+                  <Text style={styles.letterText}>{letter}</Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+          </View>
+        </View>
+
+        {!isAnswered && (
+          <View style={styles.buttonContainer}>
+            <TouchableOpacity
+              style={[
+                styles.submitButton,
+                selectedLetters.length !== currentWord.french.length &&
+                  styles.disabledButton,
+              ]}
+              onPress={handleSubmit}
+              disabled={selectedLetters.length !== currentWord.french.length}
+            >
+              <Text style={styles.submitButtonText}>Cevabı Gönder</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={styles.skipButton} onPress={handleNext}>
+              <Text style={styles.skipButtonText}>Atla {">"}</Text>
+            </TouchableOpacity>
+          </View>
         )}
+
         {isAnswered && (
-          <TouchableOpacity style={styles.nextButton} onPress={handleNext}>
-            <Text style={styles.nextButtonText}>
-              {currentQuestionIndex === questions.length - 1
-                ? "Bitir"
-                : "İleri"}
-            </Text>
-          </TouchableOpacity>
+          <View style={styles.nextAndFinishButtonContainer}>
+            <TouchableOpacity
+              style={styles.nextButton}
+              onPress={handleNext}
+              disabled={isAutoAdvancing}
+            >
+              <Text style={styles.nextButtonText}>
+                {currentQuestionIndex === questions.length - 1
+                  ? "Bitir"
+                  : "İleri"}
+              </Text>
+            </TouchableOpacity>
+          </View>
         )}
       </Animated.View>
     </SafeAreaView>
@@ -372,9 +490,20 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     justifyContent: "center",
   },
+  questionWordContainer: {
+    paddingHorizontal: 20,
+    justifyContent: "center",
+  },
   questionText: {
-    fontSize: 18,
+    fontSize: 24,
     color: "#1a1a1a",
+    marginBottom: 8,
+    textAlign: "center",
+    fontWeight: "bold",
+  },
+  questionSubtext: {
+    fontSize: 16,
+    color: "#6c757d",
     marginBottom: 20,
     textAlign: "center",
   },
@@ -400,9 +529,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     textAlign: "center",
-    marginBottom: 16,
   },
   submitButton: {
+    flex: 1,
     backgroundColor: "#007AFF",
     borderRadius: 10,
     paddingVertical: 14,
@@ -410,6 +539,19 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   submitButtonText: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "600",
+  },
+  skipButton: {
+    flex: 1,
+    backgroundColor: "#6c757d",
+    borderRadius: 10,
+    paddingVertical: 14,
+    alignItems: "center",
+    marginBottom: 10,
+  },
+  skipButtonText: {
     color: "#fff",
     fontSize: 16,
     fontWeight: "600",
@@ -485,10 +627,39 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 20,
   },
+  answerContainer: {
+    minHeight: 50,
+    alignItems: "center",
+    justifyContent: "center",
+  },
   errorText: {
     fontSize: 16,
     color: "#dc3545",
     textAlign: "center",
     marginBottom: 20,
+  },
+  iconContainer: {
+    alignItems: "center",
+  },
+  buttonContainer: {
+    flexDirection: "row",
+    gap: 15,
+    marginTop: 20,
+    marginBottom: 20,
+    paddingHorizontal: 20,
+    justifyContent: "space-between",
+  },
+  nextAndFinishButtonContainer: {
+    marginTop: 20,
+    marginBottom: 20,
+    paddingHorizontal: 20,
+  },
+  disabledButton: {
+    backgroundColor: "#e9ecef",
+    flex: 1,
+    borderRadius: 10,
+    paddingVertical: 14,
+    alignItems: "center",
+    marginBottom: 10,
   },
 });
