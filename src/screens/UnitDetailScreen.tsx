@@ -38,7 +38,6 @@ const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
     }
   };
 
-  console.log(word);
   return (
     <TouchableOpacity style={styles.wordItem} onPress={onPress}>
       {/* Sağ üst köşe badge'leri */}
@@ -218,7 +217,12 @@ export default function UnitDetailScreen() {
             params: { unitId: unitId },
           })
         }
-        onFillInTheBlank={() => console.log("Boşluk Doldurma Testine Başla")}
+        onFillInTheBlank={() =>
+          router.push({
+            pathname: "/fill-in-the-blank-quiz",
+            params: { unitId: unitId },
+          })
+        }
         onWriting={() =>
           router.push({
             pathname: "/writing-quiz",
