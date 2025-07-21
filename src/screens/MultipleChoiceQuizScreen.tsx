@@ -44,6 +44,14 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
 }) => {
   const tickAnim = useRef(new Animated.Value(0)).current;
 
+  // isDifficult state for immediate UI update
+  const [isDifficult, setIsDifficult] = React.useState(
+    question.word.isDifficult
+  );
+  React.useEffect(() => {
+    setIsDifficult(question.word.isDifficult);
+  }, [question.word.id]);
+
   React.useEffect(() => {
     if (isAnswered) {
       Animated.spring(tickAnim, {
@@ -108,6 +116,30 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
     return styles.optionText;
   };
 
+  // Çalışılacaklara ekle fonksiyonu
+  const handleAddToDifficult = () => {
+    const wordIndex = require("../data/mockData").mockWords.findIndex(
+      (w) => w.id === question.word.id
+    );
+    if (wordIndex !== -1) {
+      const current =
+        require("../data/mockData").mockWords[wordIndex].isDifficult;
+      require("../data/mockData").mockWords[wordIndex].isDifficult = !current;
+      setIsDifficult(!current);
+      Toast.show({
+        type: current ? "info" : "success",
+        text1: current
+          ? `${question.word.french} kelimesi çalışılacaklar listesinden çıkarıldı`
+          : `${question.word.french} kelimesi çalışılacaklar listesine eklendi`,
+        position: "top",
+        visibilityTime: 3000,
+        autoHide: true,
+        topOffset: 80,
+        swipeable: true,
+      });
+    }
+  };
+
   return (
     <Animated.View
       style={[
@@ -127,7 +159,27 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
       >
         {/* Knowledge Level Indicator - sağ üst köşe */}
         <View style={styles.qcTopRow}>
-          <View style={{ flex: 1 }} />
+          <TouchableOpacity
+            style={{
+              width: 44,
+              height: 44,
+              borderRadius: 50,
+              justifyContent: "center",
+              backgroundColor: "#f8f9fa",
+              borderWidth: 2,
+              borderColor: "#e9ecef",
+              alignItems: "center",
+            }}
+            onPress={handleAddToDifficult}
+          >
+            <View style={styles.knowledgeLevelIndicator}>
+              <Ionicons
+                name={isDifficult ? "star" : "star-outline"}
+                size={24}
+                color={isDifficult ? "#FFD700" : "#e9ecef"}
+              />
+            </View>
+          </TouchableOpacity>
           <View
             style={{
               width: 44,
@@ -778,10 +830,21 @@ const styles = StyleSheet.create({
     borderRadius: 2,
     marginVertical: 2,
   },
+  questionBox: {
+    backgroundColor: "#fff",
+    borderRadius: 20,
+    padding: 20,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
   qcTopRow: {
     flexDirection: "row",
-    alignItems: "flex-start",
-    marginBottom: 8,
+    alignItems: "center",
+    marginBottom: 30,
+    justifyContent: "space-between",
   },
   knowledgeLevelIndicator: {
     flexDirection: "column",

@@ -49,7 +49,7 @@ const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
         )}
         {word.isDifficult && (
           <View style={styles.favoriteBadge}>
-            <Text style={styles.favoriteText}>★</Text>
+            <Ionicons name="star" size={14} color="#FFD700" />
           </View>
         )}
       </View>
@@ -430,12 +430,12 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   favoriteBadge: {
-    backgroundColor: "#f8d7da",
+    backgroundColor: "#fff",
     paddingHorizontal: 8,
     paddingVertical: 4,
     borderRadius: 12,
     borderWidth: 1,
-    borderColor: "#f5c6cb",
+    borderColor: "#FFD700",
   },
   favoriteText: {
     fontSize: 12,

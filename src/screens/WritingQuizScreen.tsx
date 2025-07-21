@@ -114,6 +114,15 @@ export default function WritingQuizScreen() {
   const safeUnitWords = unitWords.slice(0, maxWords);
   const [questions] = useState(() => shuffle(safeUnitWords));
 
+  const currentWord = questions[currentQuestionIndex];
+  // isDifficult state for immediate UI update
+  const [isDifficult, setIsDifficult] = useState(false);
+  React.useEffect(() => {
+    if (currentWord && typeof currentWord.isDifficult === "boolean") {
+      setIsDifficult(currentWord.isDifficult);
+    }
+  }, [currentWord && currentWord.id]);
+
   // Harf kutucukları için karışık harfler - güvenli versiyon
   const actualShuffledLetters = React.useMemo(() => {
     if (
@@ -230,8 +239,6 @@ export default function WritingQuizScreen() {
     );
   }
 
-  const currentWord = questions[currentQuestionIndex];
-
   // Guard clause: currentWord bulunamadı
   if (!currentWord) {
     return (
@@ -331,6 +338,30 @@ export default function WritingQuizScreen() {
     }
   };
 
+  // Çalışılacaklara ekle fonksiyonu
+  const handleAddToDifficult = () => {
+    const wordIndex = require("../data/mockData").mockWords.findIndex(
+      (w) => w.id === currentWord.id
+    );
+    if (wordIndex !== -1) {
+      const current =
+        require("../data/mockData").mockWords[wordIndex].isDifficult;
+      require("../data/mockData").mockWords[wordIndex].isDifficult = !current;
+      setIsDifficult(!current);
+      Toast.show({
+        type: current ? "info" : "success",
+        text1: current
+          ? `${currentWord.french} kelimesi çalışılacaklar listesinden çıkarıldı`
+          : `${currentWord.french} kelimesi çalışılacaklar listesine eklendi`,
+        position: "top",
+        visibilityTime: 3000,
+        autoHide: true,
+        topOffset: 80,
+        swipeable: true,
+      });
+    }
+  };
+
   const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
 
   return (
@@ -358,171 +389,174 @@ export default function WritingQuizScreen() {
           <View style={[styles.progressFill, { width: `${progress}%` }]} />
         </View>
       </View>
-      {/* Soru Alanı */}
+      {/* Question Card */}
       <Animated.View
         style={[
           styles.questionContainer,
           { transform: [{ translateX: slideAnim }] },
         ]}
       >
-        <View
-          style={{
-            flex: 1,
-
-            justifyContent: "center",
-            flexDirection: "column",
-          }}
-        >
-          <View
-            style={{
-              height: "80%",
-              justifyContent: "center",
-            }}
-          >
-            {/* Header veya soru alanında knowledge level göstergesi: */}
-            <View style={styles.qcTopRow}>
-              <View style={{ flex: 1 }} />
-              <View
-                style={{
-                  width: 44,
-                  height: 44,
-                  borderRadius: 50,
-                  justifyContent: "center",
-                  backgroundColor: "#f8f9fa",
-                  borderWidth: 2,
-                  borderColor: "#e9ecef",
-                  alignItems: "center",
-                }}
-              >
-                <View style={styles.knowledgeLevelIndicator}>
-                  {Array.from({ length: 3 }, (_, index) => (
-                    <View
-                      key={index}
-                      style={[
-                        styles.knowledgeLevelLine,
-                        {
-                          backgroundColor: getLineColor(
-                            index,
-                            currentWord.knowledgeLevel
-                          ),
-                        },
-                      ]}
-                    />
-                  ))}
-                </View>
+        <View style={styles.questionBox}>
+          {/* Knowledge Level Indicator */}
+          <View style={styles.qcTopRow}>
+            <TouchableOpacity
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: 50,
+                justifyContent: "center",
+                backgroundColor: "#f8f9fa",
+                borderWidth: 2,
+                borderColor: "#e9ecef",
+                alignItems: "center",
+              }}
+              onPress={handleAddToDifficult}
+            >
+              <View style={styles.knowledgeLevelIndicator}>
+                <Ionicons
+                  name={isDifficult ? "star" : "star-outline"}
+                  size={24}
+                  color={isDifficult ? "#FFD700" : "#e9ecef"}
+                />
+              </View>
+            </TouchableOpacity>
+            <View
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: 50,
+                justifyContent: "center",
+                backgroundColor: "#f8f9fa",
+                borderWidth: 2,
+                borderColor: "#e9ecef",
+                alignItems: "center",
+              }}
+            >
+              <View style={styles.knowledgeLevelIndicator}>
+                {Array.from({ length: 3 }, (_, index) => (
+                  <View
+                    key={index}
+                    style={[
+                      styles.knowledgeLevelLine,
+                      {
+                        backgroundColor: getLineColor(
+                          index,
+                          currentWord.knowledgeLevel
+                        ),
+                      },
+                    ]}
+                  />
+                ))}
               </View>
             </View>
-            <View style={styles.questionWordContainer}>
-              <Text style={styles.questionText}>
-                &apos;{currentWord.turkish}&apos;
-              </Text>
-              <Text style={styles.questionSubtext}>anlamına gelen kelime</Text>
-            </View>
-
-            <View style={styles.answerContainer}>
-              {/* Doğru cevap animasyonu */}
-              {isAnswered && isCorrect && (
-                <Animated.View
-                  style={[
-                    styles.iconContainer,
-                    {
-                      transform: [
-                        {
-                          scale: tickAnim.interpolate({
-                            inputRange: [0, 1],
-                            outputRange: [0, 1],
-                          }),
-                        },
-                      ],
-                      opacity: tickAnim,
-                    },
-                  ]}
-                >
-                  <Ionicons name="checkmark-circle" size={40} color="#28a745" />
-                </Animated.View>
-              )}
-
-              {/* Sonuç ve butonlar */}
-              {isAnswered && !isCorrect && (
-                <Text style={styles.wrongText}>
-                  Yanıt: {currentWord.french}
-                </Text>
-              )}
-            </View>
-
-            {/* Seçilen harfler */}
-            <View style={styles.selectedLettersRow}>
-              {selectedLetters.map((letter, idx) => (
-                <TouchableOpacity
-                  key={idx}
-                  style={styles.selectedLetterBox}
-                  onPress={() => !isAnswered && handleRemoveLetter(idx)}
-                  disabled={isAnswered}
-                >
-                  <Text style={styles.selectedLetterText}>{letter}</Text>
-                </TouchableOpacity>
-              ))}
-            </View>
-
-            {/* Harf kutucukları */}
-            <View style={styles.lettersRow}>
-              {actualShuffledLetters.map((letter, idx) => (
-                <TouchableOpacity
-                  key={idx}
-                  style={[
-                    styles.letterBox,
-                    usedIndexes.includes(idx) && styles.letterBoxUsed,
-                  ]}
-                  onPress={() =>
-                    !usedIndexes.includes(idx) &&
-                    !isAnswered &&
-                    handleLetterSelect(letter, idx)
-                  }
-                  disabled={usedIndexes.includes(idx) || isAnswered}
-                >
-                  <Text style={styles.letterText}>{letter}</Text>
-                </TouchableOpacity>
-              ))}
-            </View>
+          </View>
+          {/* Soru ve alt metin */}
+          <View style={styles.questionWordContainer}>
+            <Text style={styles.questionText}>
+              &apos;{currentWord.turkish}&apos;
+            </Text>
+            <Text style={styles.questionSubtext}>anlamına gelen kelime</Text>
+          </View>
+          {/* Cevap ve animasyonlar */}
+          <View style={styles.answerContainer}>
+            {isAnswered && isCorrect && (
+              <Animated.View
+                style={[
+                  styles.iconContainer,
+                  {
+                    transform: [
+                      {
+                        scale: tickAnim.interpolate({
+                          inputRange: [0, 1],
+                          outputRange: [0, 1],
+                        }),
+                      },
+                    ],
+                    opacity: tickAnim,
+                  },
+                ]}
+              >
+                <Ionicons name="checkmark-circle" size={40} color="#28a745" />
+              </Animated.View>
+            )}
+            {isAnswered && !isCorrect && (
+              <Text style={styles.wrongText}>Yanıt: {currentWord.french}</Text>
+            )}
+          </View>
+          {/* Seçilen harfler */}
+          <View style={styles.selectedLettersRow}>
+            {selectedLetters.map((letter, idx) => (
+              <TouchableOpacity
+                key={idx}
+                style={styles.selectedLetterBox}
+                onPress={() => !isAnswered && handleRemoveLetter(idx)}
+                disabled={isAnswered}
+              >
+                <Text style={styles.selectedLetterText}>{letter}</Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+          {/* Harf kutucukları */}
+          <View style={styles.lettersRow}>
+            {actualShuffledLetters.map((letter, idx) => (
+              <TouchableOpacity
+                key={idx}
+                style={[
+                  styles.letterBox,
+                  usedIndexes.includes(idx) && styles.letterBoxUsed,
+                ]}
+                onPress={() =>
+                  !usedIndexes.includes(idx) &&
+                  !isAnswered &&
+                  handleLetterSelect(letter, idx)
+                }
+                disabled={usedIndexes.includes(idx) || isAnswered}
+              >
+                <Text style={styles.letterText}>{letter}</Text>
+              </TouchableOpacity>
+            ))}
           </View>
         </View>
-
-        {!isAnswered && (
-          <View style={styles.buttonContainer}>
+      </Animated.View>
+      {/* Navigation Buttons */}
+      <View style={styles.navigationContainer}>
+        {!isAnswered ? (
+          <>
             <TouchableOpacity
               style={[
-                styles.submitButton,
+                styles.navButton,
+                styles.nextNavButton,
                 selectedLetters.length !== currentWord.french.length &&
                   styles.disabledButton,
               ]}
               onPress={handleSubmit}
               disabled={selectedLetters.length !== currentWord.french.length}
             >
-              <Text style={styles.submitButtonText}>Cevabı Gönder</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.skipButton} onPress={handleNext}>
-              <Text style={styles.skipButtonText}>Atla {">"}</Text>
-            </TouchableOpacity>
-          </View>
-        )}
-
-        {isAnswered && (
-          <View style={styles.nextAndFinishButtonContainer}>
-            <TouchableOpacity
-              style={styles.nextButton}
-              onPress={handleNext}
-              disabled={isAutoAdvancing}
-            >
-              <Text style={styles.nextButtonText}>
-                {currentQuestionIndex === questions.length - 1
-                  ? "Bitir"
-                  : "İleri"}
+              <Text style={[styles.navButtonText, styles.nextButtonText]}>
+                Cevabı Gönder
               </Text>
             </TouchableOpacity>
-          </View>
+            <TouchableOpacity
+              style={[styles.navButton, styles.backNavButton]}
+              onPress={handleNext}
+            >
+              <Text style={styles.navButtonText}>Atla {">"}</Text>
+            </TouchableOpacity>
+          </>
+        ) : (
+          <TouchableOpacity
+            style={[styles.navButton, styles.nextNavButton]}
+            onPress={handleNext}
+            disabled={isAutoAdvancing}
+          >
+            <Text style={[styles.navButtonText, styles.nextButtonText]}>
+              {currentQuestionIndex === questions.length - 1
+                ? "Bitir"
+                : "İleri"}
+            </Text>
+          </TouchableOpacity>
         )}
-      </Animated.View>
+      </View>
     </SafeAreaView>
   );
 }
@@ -537,7 +571,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 20,
     paddingVertical: 15,
-    backgroundColor: "#007AFF",
+    backgroundColor: "#4ECDC4",
     borderBottomWidth: 1,
     borderBottomColor: "#e9ecef",
   },
@@ -570,7 +604,7 @@ const styles = StyleSheet.create({
   progressBarContainer: {
     paddingHorizontal: 20,
     paddingVertical: 10,
-    backgroundColor: "#007AFF",
+    backgroundColor: "#4ECDC4",
   },
   progressBar: {
     height: 4,
@@ -586,6 +620,16 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 20,
     justifyContent: "center",
+  },
+  questionBox: {
+    backgroundColor: "#fff",
+    borderRadius: 20,
+    padding: 20,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
   questionWordContainer: {
     paddingHorizontal: 20,
@@ -757,14 +801,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     paddingVertical: 14,
     alignItems: "center",
-    marginBottom: 10,
   },
   // knowledgeLevelIndicator: { flexDirection: "column", alignItems: "flex-end", minHeight: 24, },
   // knowledgeLevelLine: { width: 24, height: 5, borderRadius: 2, marginVertical: 2, },
   qcTopRow: {
     flexDirection: "row",
-    alignItems: "flex-start",
-    marginBottom: 8,
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: 50,
   },
   knowledgeLevelIndicator: {
     flexDirection: "column",
@@ -776,5 +820,33 @@ const styles = StyleSheet.create({
     height: 5,
     borderRadius: 2,
     marginVertical: 2,
+  },
+  navigationContainer: {
+    flexDirection: "row",
+    justifyContent: "space-around",
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    backgroundColor: "#f8f9fa",
+    borderTopWidth: 1,
+    borderTopColor: "#e9ecef",
+  },
+  navButton: {
+    flex: 1,
+    backgroundColor: "#007AFF",
+    borderRadius: 10,
+    paddingVertical: 14,
+    alignItems: "center",
+    marginHorizontal: 5,
+  },
+  navButtonText: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "600",
+  },
+  nextNavButton: {
+    backgroundColor: "#4ECDC4",
+  },
+  backNavButton: {
+    backgroundColor: "#6c757d",
   },
 });

@@ -1,3 +1,4 @@
+import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useRef, useState } from "react";
 import {
@@ -72,6 +73,13 @@ export default function FillInTheBlankQuizScreen() {
   }
 
   const currentQuestion = questions[currentQuestionIndex];
+
+  // isDifficult state for immediate UI update
+  const [isDifficult, setIsDifficult] = useState(false);
+  React.useEffect(() => {
+    const word = mockWords.find((w) => w.id === currentQuestion.wordId);
+    setIsDifficult(word ? word.isDifficult : false);
+  }, [currentQuestion.wordId]);
 
   const handleSelectAnswer = (answer: string) => {
     setSelectedAnswers((prev) => ({ ...prev, [currentQuestion.id]: answer }));
@@ -164,6 +172,47 @@ export default function FillInTheBlankQuizScreen() {
   const isLastQuestion = currentQuestionIndex === questions.length - 1;
   const isNextButtonDisabled = !selectedAnswer;
 
+  // Add getLineColor function for knowledge level indicator
+  const getLineColor = (lineIndex: number, level?: string) => {
+    if (!level) {
+      return "#e9ecef"; // Açık gri - hiç seçim yapılmamış
+    }
+    switch (level) {
+      case "dont-know":
+        return lineIndex === 2 ? "#dc3545" : "#e9ecef"; // Sadece en alttaki çizgi kırmızı
+      case "somewhat":
+        return lineIndex >= 1 ? "#ffc107" : "#e9ecef"; // Alt 2 çizgi sarı
+      case "learned":
+        return "#28a745"; // Tüm çizgiler yeşil
+      default:
+        return "#e9ecef";
+    }
+  };
+
+  // Çalışılacaklara ekle fonksiyonu
+  const handleAddToDifficult = () => {
+    const wordIndex = require("../data/mockData").mockWords.findIndex(
+      (w) => w.id === currentQuestion.wordId || w.id === currentQuestion.id
+    );
+    if (wordIndex !== -1) {
+      const current =
+        require("../data/mockData").mockWords[wordIndex].isDifficult;
+      require("../data/mockData").mockWords[wordIndex].isDifficult = !current;
+      setIsDifficult(!current);
+      Toast.show({
+        type: current ? "info" : "success",
+        text1: current
+          ? `${currentQuestion.correctAnswer} kelimesi çalışılacaklar listesinden çıkarıldı`
+          : `${currentQuestion.correctAnswer} kelimesi çalışılacaklar listesine eklendi`,
+        position: "top",
+        visibilityTime: 3000,
+        autoHide: true,
+        topOffset: 80,
+        swipeable: true,
+      });
+    }
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       {/* Header */}
@@ -192,6 +241,62 @@ export default function FillInTheBlankQuizScreen() {
         ]}
       >
         <View style={styles.questionBox}>
+          <View style={styles.qcTopRow}>
+            <TouchableOpacity
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: 50,
+                justifyContent: "center",
+                backgroundColor: "#f8f9fa",
+                borderWidth: 2,
+                borderColor: "#e9ecef",
+                alignItems: "center",
+              }}
+              onPress={handleAddToDifficult}
+            >
+              <View style={styles.knowledgeLevelIndicator}>
+                <Ionicons
+                  name={isDifficult ? "star" : "star-outline"}
+                  size={24}
+                  color={isDifficult ? "#FFD700" : "#e9ecef"}
+                />
+              </View>
+            </TouchableOpacity>
+            <View
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: 50,
+                justifyContent: "center",
+                backgroundColor: "#f8f9fa",
+                borderWidth: 2,
+                borderColor: "#e9ecef",
+                alignItems: "center",
+              }}
+            >
+              <View style={styles.knowledgeLevelIndicator}>
+                {Array.from({ length: 3 }, (_, index) => (
+                  <View
+                    key={index}
+                    style={[
+                      styles.knowledgeLevelLine,
+                      {
+                        backgroundColor: getLineColor(
+                          index,
+                          (
+                            mockWords.find(
+                              (w) => w.id === currentQuestion.wordId
+                            ) || {}
+                          ).knowledgeLevel
+                        ),
+                      },
+                    ]}
+                  />
+                ))}
+              </View>
+            </View>
+          </View>
           <Text style={styles.questionText}>{currentQuestion.question}</Text>
           <View style={styles.optionsContainer}>
             {currentQuestion.options.map((option, idx) => (
@@ -323,11 +428,27 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderRadius: 20,
     padding: 20,
-    alignItems: "center",
     shadowColor: "#000",
     shadowOpacity: 0.08,
     shadowRadius: 4,
     elevation: 2,
+  },
+  qcTopRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: 50,
+  },
+  knowledgeLevelIndicator: {
+    flexDirection: "column",
+    alignItems: "flex-end",
+    minHeight: 24,
+  },
+  knowledgeLevelLine: {
+    width: 24,
+    height: 5,
+    borderRadius: 2,
+    marginVertical: 2,
   },
   questionText: {
     fontSize: 24,

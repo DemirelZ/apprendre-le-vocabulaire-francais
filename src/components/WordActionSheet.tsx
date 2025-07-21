@@ -18,10 +18,55 @@ export const WordActionSheetContent: React.FC<WordActionSheetProps> = ({
   onMarkAsLearned,
   onClose,
 }) => {
+  // isDifficult state for immediate UI update
+  const [isDifficult, setIsDifficult] = React.useState(
+    word?.isDifficult ?? false
+  );
+  React.useEffect(() => {
+    if (word && typeof word.isDifficult === "boolean") {
+      setIsDifficult(word.isDifficult);
+    }
+  }, [word && word.id]);
   if (!word) return null;
+
+  const handleToggleDifficult = () => {
+    const wordIndex = require("../data/mockData").mockWords.findIndex(
+      (w) => w.id === word.id
+    );
+    if (wordIndex !== -1) {
+      const current =
+        require("../data/mockData").mockWords[wordIndex].isDifficult;
+      require("../data/mockData").mockWords[wordIndex].isDifficult = !current;
+      setIsDifficult(!current);
+      Toast.show({
+        type: current ? "info" : "success",
+        text1: current
+          ? `${word.french} kelimesi çalışılacaklar listesinden çıkarıldı`
+          : `${word.french} kelimesi çalışılacaklar listesine eklendi`,
+        position: "top",
+        visibilityTime: 3000,
+        autoHide: true,
+        topOffset: 80,
+        swipeable: true,
+      });
+    }
+  };
+
   return (
     <View style={styles.container}>
-      <Text style={styles.frenchWord}>{word.french}</Text>
+      <View style={styles.wordRow}>
+        <Text style={styles.frenchWord}>{word.french}</Text>
+        <TouchableOpacity
+          onPress={handleToggleDifficult}
+          style={styles.starButton}
+        >
+          <Ionicons
+            name={isDifficult ? "star" : "star-outline"}
+            size={24}
+            color={isDifficult ? "#FFD700" : "#e9ecef"}
+          />
+        </TouchableOpacity>
+      </View>
       <Text style={styles.turkishMeaning}>{word.turkish}</Text>
       {/* Görsel */}
       <View style={styles.imageContainer}>
@@ -57,39 +102,7 @@ export const WordActionSheetContent: React.FC<WordActionSheetProps> = ({
         </View>
       ) : null}
       {/* Butonlar */}
-      <TouchableOpacity
-        style={styles.fancyButton}
-        onPress={() => {
-          // isDifficult alanını true yap
-          if (word) {
-            const wordIndex = require("../data/mockData").mockWords.findIndex(
-              (w) => w.id === word.id
-            );
-            if (wordIndex !== -1) {
-              require("../data/mockData").mockWords[wordIndex].isDifficult =
-                true;
-            }
-          }
-          if (onAddToDifficult) onAddToDifficult();
-          Toast.show({
-            type: "success",
-            text1: `${word.french} kelimesi çalışılacaklar listesine eklendi`,
-            position: "top",
-            visibilityTime: 3000,
-            autoHide: true,
-            topOffset: 80,
-            swipeable: true,
-          });
-        }}
-      >
-        <Ionicons
-          name="star-outline"
-          size={22}
-          color="#fff"
-          style={{ marginRight: 8 }}
-        />
-        <Text style={styles.fancyButtonText}>Çalışılacaklara Ekle</Text>
-      </TouchableOpacity>
+      {/* Çalışılacaklara Ekle butonu kaldırıldı */}
     </View>
   );
 };
@@ -220,6 +233,16 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 15,
     letterSpacing: 0.5,
+  },
+  wordRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginBottom: 8,
+  },
+  starButton: {
+    marginLeft: 8,
+    padding: 4,
   },
 });
 
