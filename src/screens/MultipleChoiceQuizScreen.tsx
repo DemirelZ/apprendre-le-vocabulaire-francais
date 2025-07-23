@@ -340,6 +340,40 @@ const decreaseKnowledgeLevel = (wordId: string) => {
   );
 };
 
+// Knowledge level yükseltme fonksiyonu
+const increaseKnowledgeLevel = (wordId: string) => {
+  console.log("increaseKnowledgeLevel çağrıldı:", wordId);
+  const wordIndex = mockWords.findIndex((word) => word.id === wordId);
+  if (wordIndex === -1) return;
+  const word = mockWords[wordIndex];
+  const currentLevel = word.knowledgeLevel;
+  let newLevel = currentLevel;
+  let toastMessage = "";
+  switch (currentLevel) {
+    case "dont-know":
+      newLevel = "somewhat";
+      toastMessage = "Kelime seviyesi 'Biraz' olarak güncellendi";
+      break;
+    case "somewhat":
+      newLevel = "learned";
+      toastMessage = "Kelime seviyesi 'Öğrendim' olarak güncellendi";
+      break;
+    case "learned":
+    default:
+      return; // Zaten en üstte
+  }
+  mockWords[wordIndex].knowledgeLevel = newLevel;
+  console.log("Knowledge level güncellendi:", wordId, "->", newLevel);
+  Toast.show({
+    type: "success",
+    text1: "Seviye Yükseltildi",
+    text2: toastMessage,
+    position: "top",
+    visibilityTime: 3000,
+    swipeable: true,
+  });
+};
+
 export default function MultipleChoiceQuizScreen() {
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
   const router = useRouter();
@@ -354,6 +388,7 @@ export default function MultipleChoiceQuizScreen() {
   const slideAnim = useRef(new Animated.Value(0)).current;
   const { showWordDetails, ActionSheetComponent } = useWordActionSheet();
   const [isAutoAdvancing, setIsAutoAdvancing] = useState(false);
+  // Remove local correctStreaks state
 
   const unit = mockUnits.find((u) => u.id === unitId);
   const unitWords = mockWords.filter((word) => word.unit === unitId);
@@ -434,8 +469,21 @@ export default function MultipleChoiceQuizScreen() {
       [currentQuestion.id]: true,
     }));
 
-    // If answer is correct, auto-advance after 0.8 seconds
+    const wordIndex = mockWords.findIndex(
+      (w) => w.id === currentQuestion.word.id
+    );
     if (answer === currentQuestion.correctAnswer) {
+      if (wordIndex !== -1) {
+        let streak = mockWords[wordIndex].correctStreak || 0;
+        streak += 1;
+        console.log("Streak for", currentQuestion.word.id, ":", streak);
+        if (streak >= 3) {
+          console.log("Streak 3 oldu, knowledge level artırılıyor");
+          increaseKnowledgeLevel(currentQuestion.word.id);
+          streak = 0;
+        }
+        mockWords[wordIndex].correctStreak = streak;
+      }
       setIsAutoAdvancing(true);
       setTimeout(() => {
         setIsAutoAdvancing(false);
@@ -444,7 +492,10 @@ export default function MultipleChoiceQuizScreen() {
         }
       }, 800); // 0.8 seconds delay
     } else {
-      // If answer is incorrect, decrease knowledge level
+      // Reset streak and decrease knowledge level
+      if (wordIndex !== -1) {
+        mockWords[wordIndex].correctStreak = 0;
+      }
       decreaseKnowledgeLevel(currentQuestion.word.id);
     }
   };

@@ -5,6 +5,8 @@ export interface Word {
   pronunciation: string;
   example: string;
   exampleTranslation?: string;
+  exampleTranslationTr?: string;
+  exampleTranslationEn?: string;
   synonyms?: string[];
   image?: string;
   category: string;
@@ -15,6 +17,31 @@ export interface Word {
   createdAt: Date;
   lastReviewed?: Date;
   knowledgeLevel?: "dont-know" | "somewhat" | "learned"; // Yeni: bilgi seviyesi
+  correctStreak?: number;
+  conjugations?: {
+    [tense: string]: {
+      je?: string;
+      tu?: string;
+      il?: string;
+      nous?: string;
+      vous?: string;
+      ils?: string;
+    };
+  };
+  examples?: {
+    form: string;
+    sentence: string;
+    translationTr?: string;
+    translationEn?: string;
+  }[];
+  gender?: "masculine" | "feminine" | "both";
+  plural?: string;
+  forms?: {
+    masculine?: string;
+    feminine?: string;
+    masculinePlural?: string;
+    femininePlural?: string;
+  };
 }
 
 export interface Category {

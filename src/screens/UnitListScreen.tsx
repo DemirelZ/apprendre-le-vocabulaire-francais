@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { mockUnits } from "../data/mockData";
+import { mockUnits, mockWords } from "../data/mockData";
 import { Unit } from "../types";
 
 interface UnitListItemProps {
@@ -17,6 +17,12 @@ interface UnitListItemProps {
 }
 
 const UnitListItem: React.FC<UnitListItemProps> = ({ unit, onPress }) => {
+  // Calculate learned word count
+  const unitWords = mockWords.filter((w) => w.unit === unit.id);
+  const learnedCount = unitWords.filter(
+    (w) => w.knowledgeLevel === "learned"
+  ).length;
+  const totalCount = unitWords.length;
   return (
     <TouchableOpacity style={styles.unitItem} onPress={onPress}>
       <View style={styles.unitContent}>
@@ -26,7 +32,9 @@ const UnitListItem: React.FC<UnitListItemProps> = ({ unit, onPress }) => {
           </View>
           <View style={styles.unitInfo}>
             <Text style={styles.unitName}>{unit.name}</Text>
-            <Text style={styles.unitDescription}>{unit.description}</Text>
+            <Text style={styles.learnedCountText}>
+              {learnedCount}/{totalCount} öğrenildi
+            </Text>
           </View>
           <View style={styles.arrowContainer}>
             <Text style={styles.arrowIcon}>→</Text>
@@ -203,5 +211,11 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: "#fff",
     fontWeight: "bold",
+  },
+  learnedCountText: {
+    fontSize: 13,
+    color: "#6c757d",
+    fontWeight: "400",
+    marginTop: 2,
   },
 });

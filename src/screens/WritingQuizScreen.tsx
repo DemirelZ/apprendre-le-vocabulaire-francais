@@ -75,6 +75,40 @@ const decreaseKnowledgeLevel = (wordId: string) => {
   });
 };
 
+// Knowledge level yükseltme fonksiyonu
+const increaseKnowledgeLevel = (wordId: string) => {
+  console.log("increaseKnowledgeLevel çağrıldı:", wordId);
+  const wordIndex = mockWords.findIndex((word) => word.id === wordId);
+  if (wordIndex === -1) return;
+  const word = mockWords[wordIndex];
+  const currentLevel = word.knowledgeLevel;
+  let newLevel = currentLevel;
+  let toastMessage = "";
+  switch (currentLevel) {
+    case "dont-know":
+      newLevel = "somewhat";
+      toastMessage = "Kelime seviyesi 'Biraz' olarak güncellendi";
+      break;
+    case "somewhat":
+      newLevel = "learned";
+      toastMessage = "Kelime seviyesi 'Öğrendim' olarak güncellendi";
+      break;
+    case "learned":
+    default:
+      return; // Zaten en üstte
+  }
+  mockWords[wordIndex].knowledgeLevel = newLevel;
+  console.log("Knowledge level güncellendi:", wordId, "->", newLevel);
+  Toast.show({
+    type: "success",
+    text1: "Seviye Yükseltildi",
+    text2: toastMessage,
+    position: "top",
+    visibilityTime: 3000,
+    swipeable: true,
+  });
+};
+
 export default function WritingQuizScreen() {
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
   const router = useRouter();
@@ -89,6 +123,7 @@ export default function WritingQuizScreen() {
   const slideAnim = useRef(new Animated.Value(0)).current;
   const tickAnim = useRef(new Animated.Value(0)).current;
   const [isAutoAdvancing, setIsAutoAdvancing] = useState(false);
+  // Remove local correctStreaks state
 
   // Harf seçimli yazma alanı için state
   const [selectedLetters, setSelectedLetters] = useState<string[]>([]);
@@ -297,8 +332,21 @@ export default function WritingQuizScreen() {
   // Cevabı gönder
   const handleSubmit = () => {
     setAnsweredQuestions((prev) => ({ ...prev, [currentWord.id]: true }));
+    const wordIndex = mockWords.findIndex((w) => w.id === currentWord.id);
     if (isCorrect) {
       setScore((s) => s + 1);
+      // Streak logic
+      if (wordIndex !== -1) {
+        let streak = mockWords[wordIndex].correctStreak || 0;
+        streak += 1;
+        //console.log("Streak for", currentWord.id, ":", streak);
+        if (streak >= 3) {
+          console.log("Streak 3 oldu, knowledge level artırılıyor");
+          increaseKnowledgeLevel(currentWord.id);
+          streak = 0;
+        }
+        mockWords[wordIndex].correctStreak = streak;
+      }
       // Doğru cevap ise otomatik olarak sonraki soruya geç
       setIsAutoAdvancing(true);
       setTimeout(() => {
@@ -308,7 +356,10 @@ export default function WritingQuizScreen() {
         }
       }, 800); // 0.8 saniye gecikme
     } else {
-      // Yanlış cevapta knowledge level düşür
+      // Yanlış cevapta knowledge level düşür ve streak sıfırla
+      if (wordIndex !== -1) {
+        mockWords[wordIndex].correctStreak = 0;
+      }
       decreaseKnowledgeLevel(currentWord.id);
     }
   };

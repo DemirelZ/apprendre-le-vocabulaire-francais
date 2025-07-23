@@ -50,7 +50,8 @@ export const mockQuestions: Question[] = [
   {
     id: "q5",
     type: "fill-blank",
-    question: "J'ai un _____. (kitap)",
+    question:
+      "J'ai un _____. (kitap) Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     correctAnswer: "livre",
     options: [],
     wordId: "v1-2",

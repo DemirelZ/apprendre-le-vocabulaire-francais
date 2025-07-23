@@ -5,12 +5,14 @@ import {
   Animated,
   Dimensions,
   SafeAreaView,
+  ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
 } from "react-native";
 import Toast from "react-native-toast-message";
+import useWordActionSheet from "../components/WordActionSheet";
 import { mockWords } from "../data/mockData";
 import { mockQuestions } from "../data/mockQuestions";
 
@@ -25,6 +27,72 @@ interface FillBlankQuestion {
   options: string[];
 }
 
+// Knowledge level düşürme fonksiyonu
+const decreaseKnowledgeLevel = (wordId: string) => {
+  const wordIndex = mockWords.findIndex((word) => word.id === wordId);
+  if (wordIndex === -1) return;
+  const word = mockWords[wordIndex];
+  const currentLevel = word.knowledgeLevel;
+  let newLevel = currentLevel;
+  let toastMessage = "";
+  switch (currentLevel) {
+    case "learned":
+      newLevel = "somewhat";
+      toastMessage = "Kelime seviyesi 'Biraz' olarak düşürüldü";
+      break;
+    case "somewhat":
+      newLevel = "dont-know";
+      toastMessage = "Kelime seviyesi 'Bilmiyorum' olarak düşürüldü";
+      break;
+    case "dont-know":
+    default:
+      return; // Zaten en altta
+  }
+  mockWords[wordIndex].knowledgeLevel = newLevel;
+  Toast.show({
+    type: "info",
+    text1: "Seviye Düşürüldü",
+    text2: toastMessage,
+    position: "top",
+    visibilityTime: 3000,
+    swipeable: true,
+  });
+};
+
+// Knowledge level yükseltme fonksiyonu
+const increaseKnowledgeLevel = (wordId: string) => {
+  console.log("increaseKnowledgeLevel çağrıldı:", wordId);
+  const wordIndex = mockWords.findIndex((word) => word.id === wordId);
+  if (wordIndex === -1) return;
+  const word = mockWords[wordIndex];
+  const currentLevel = word.knowledgeLevel;
+  let newLevel = currentLevel;
+  let toastMessage = "";
+  switch (currentLevel) {
+    case "dont-know":
+      newLevel = "somewhat";
+      toastMessage = "Kelime seviyesi 'Biraz' olarak güncellendi";
+      break;
+    case "somewhat":
+      newLevel = "learned";
+      toastMessage = "Kelime seviyesi 'Öğrendim' olarak güncellendi";
+      break;
+    case "learned":
+    default:
+      return; // Zaten en üstte
+  }
+  mockWords[wordIndex].knowledgeLevel = newLevel;
+  console.log("Knowledge level güncellendi:", wordId, "->", newLevel);
+  Toast.show({
+    type: "success",
+    text1: "Seviye Yükseltildi",
+    text2: toastMessage,
+    position: "top",
+    visibilityTime: 3000,
+    swipeable: true,
+  });
+};
+
 export default function FillInTheBlankQuizScreen() {
   const { unitId } = useLocalSearchParams<{ unitId: string }>();
   const router = useRouter();
@@ -37,6 +105,7 @@ export default function FillInTheBlankQuizScreen() {
   >({});
   const [score, setScore] = useState(0);
   const slideAnim = useRef(new Animated.Value(0)).current;
+  // Remove local correctStreaks state
 
   // Filter fill-blank questions for this unit
   const questions: FillBlankQuestion[] = mockQuestions
@@ -53,10 +122,10 @@ export default function FillInTheBlankQuizScreen() {
         0,
         3 - wrongOptions.length
       );
-      // Shuffle options
+      // Shuffle options and make first letter lowercase
       const options = shuffle(
         [q.correctAnswer, ...wrongOptions, ...additionalOptions].slice(0, 4)
-      );
+      ).map((opt) => opt.charAt(0).toLowerCase() + opt.slice(1));
       return {
         ...q,
         options,
@@ -81,15 +150,38 @@ export default function FillInTheBlankQuizScreen() {
     setIsDifficult(word ? word.isDifficult : false);
   }, [currentQuestion.wordId]);
 
+  const { showWordDetails, ActionSheetComponent } = useWordActionSheet();
+
   const handleSelectAnswer = (answer: string) => {
     setSelectedAnswers((prev) => ({ ...prev, [currentQuestion.id]: answer }));
     setAnsweredQuestions((prev) => ({ ...prev, [currentQuestion.id]: true }));
+    const wordIndex = mockWords.findIndex(
+      (w) => w.id === currentQuestion.wordId
+    );
     if (answer === currentQuestion.correctAnswer) {
+      // Streak logic
+      if (wordIndex !== -1) {
+        let streak = mockWords[wordIndex].correctStreak || 0;
+        streak += 1;
+        //console.log("Streak for", currentQuestion.wordId, ":", streak);
+        if (streak >= 3) {
+          console.log("Streak 3 oldu, knowledge level artırılıyor");
+          increaseKnowledgeLevel(currentQuestion.wordId);
+          streak = 0;
+        }
+        mockWords[wordIndex].correctStreak = streak;
+      }
       setTimeout(() => {
         if (currentQuestionIndex < questions.length - 1) {
           handleNext();
         }
       }, 800);
+    } else {
+      // Reset streak and decrease knowledge level
+      if (wordIndex !== -1) {
+        mockWords[wordIndex].correctStreak = 0;
+      }
+      decreaseKnowledgeLevel(currentQuestion.wordId);
     }
   };
 
@@ -156,6 +248,18 @@ export default function FillInTheBlankQuizScreen() {
     }
   };
 
+  // Add onViewWord handler
+  const handleViewWord = () => {
+    const word = mockWords.find((w) => w.id === currentQuestion.wordId);
+    if (word) {
+      showWordDetails(word);
+    }
+  };
+
+  const handleBackPress = () => {
+    router.back();
+  };
+
   if (!currentQuestion) {
     return (
       <SafeAreaView style={styles.container}>
@@ -217,7 +321,7 @@ export default function FillInTheBlankQuizScreen() {
     <SafeAreaView style={styles.container}>
       {/* Header */}
       <View style={styles.header}>
-        <TouchableOpacity onPress={handleBack} style={styles.backButton}>
+        <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
           <Text style={styles.backButtonText}>← Geri</Text>
         </TouchableOpacity>
         <Text style={styles.title}>Boşluk Doldurma</Text>
@@ -297,43 +401,65 @@ export default function FillInTheBlankQuizScreen() {
               </View>
             </View>
           </View>
-          <Text style={styles.questionText}>{currentQuestion.question}</Text>
-          <View style={styles.optionsContainer}>
-            {currentQuestion.options.map((option, idx) => (
-              <TouchableOpacity
-                key={idx}
-                style={
-                  isAnswered
-                    ? option === currentQuestion.correctAnswer
-                      ? styles.correctOption
-                      : selectedAnswer === option
-                      ? styles.wrongOption
-                      : styles.optionButton
-                    : selectedAnswer === option
-                    ? styles.selectedOption
-                    : styles.optionButton
-                }
-                onPress={() => handleSelectAnswer(option)}
-                disabled={isAnswered}
-              >
-                <Text
+          <ScrollView
+            style={{ width: "100%" }}
+            contentContainerStyle={{ flexGrow: 1 }}
+          >
+            <Text style={styles.questionText}>{currentQuestion.question}</Text>
+            <View style={styles.optionsContainer}>
+              {currentQuestion.options.map((option, idx) => (
+                <TouchableOpacity
+                  key={idx}
                   style={
                     isAnswered
                       ? option === currentQuestion.correctAnswer
-                        ? styles.correctOptionText
+                        ? styles.correctOption
                         : selectedAnswer === option
-                        ? styles.wrongOptionText
-                        : styles.optionText
+                        ? styles.wrongOption
+                        : styles.optionButton
                       : selectedAnswer === option
-                      ? styles.selectedOptionText
-                      : styles.optionText
+                      ? styles.selectedOption
+                      : styles.optionButton
                   }
+                  onPress={() => handleSelectAnswer(option)}
+                  disabled={isAnswered}
                 >
-                  {option}
-                </Text>
-              </TouchableOpacity>
-            ))}
-          </View>
+                  <Text
+                    style={
+                      isAnswered
+                        ? option === currentQuestion.correctAnswer
+                          ? styles.correctOptionText
+                          : selectedAnswer === option
+                          ? styles.wrongOptionText
+                          : styles.optionText
+                        : selectedAnswer === option
+                        ? styles.selectedOptionText
+                        : styles.optionText
+                    }
+                  >
+                    {option}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+            {/* View Word Button - appears when answer is wrong */}
+            {isAnswered && selectedAnswer !== currentQuestion.correctAnswer && (
+              <View style={styles.viewWordButtonContainer}>
+                <TouchableOpacity
+                  style={styles.viewWordButton}
+                  onPress={handleViewWord}
+                >
+                  <Ionicons
+                    name="book-outline"
+                    size={16}
+                    color="#fff"
+                    style={styles.viewWordIcon}
+                  />
+                  <Text style={styles.viewWordButtonText}>Kelimeye Gözat</Text>
+                </TouchableOpacity>
+              </View>
+            )}
+          </ScrollView>
         </View>
       </Animated.View>
       {/* Navigation Buttons */}
@@ -359,6 +485,7 @@ export default function FillInTheBlankQuizScreen() {
           </Text>
         </TouchableOpacity>
       </View>
+      {ActionSheetComponent}
     </SafeAreaView>
   );
 }
@@ -421,8 +548,8 @@ const styles = StyleSheet.create({
   },
   questionContainer: {
     flex: 1,
+    marginTop: 20,
     paddingHorizontal: 20,
-    justifyContent: "center",
   },
   questionBox: {
     backgroundColor: "#fff",
@@ -437,7 +564,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    marginBottom: 50,
+    marginBottom: 30,
   },
   knowledgeLevelIndicator: {
     flexDirection: "column",
@@ -451,11 +578,12 @@ const styles = StyleSheet.create({
     marginVertical: 2,
   },
   questionText: {
-    fontSize: 24,
-    fontWeight: "bold",
+    fontSize: 18,
+    fontWeight: "500",
     color: "#1a1a1a",
     marginBottom: 24,
-    textAlign: "center",
+    textAlign: "justify",
+    lineHeight: 24, // veya 1.3 * fontSize
   },
   optionsContainer: {
     gap: 16,
@@ -463,7 +591,7 @@ const styles = StyleSheet.create({
   },
   optionButton: {
     backgroundColor: "#f8f9fa",
-    paddingVertical: 16,
+    paddingVertical: 14,
     paddingHorizontal: 20,
     borderRadius: 12,
     borderWidth: 2,
@@ -477,7 +605,7 @@ const styles = StyleSheet.create({
   correctOption: {
     backgroundColor: "#d4edda",
     borderColor: "#28a745",
-    paddingVertical: 16,
+    paddingVertical: 14,
     paddingHorizontal: 20,
     borderRadius: 12,
     borderWidth: 2,
@@ -486,7 +614,7 @@ const styles = StyleSheet.create({
   wrongOption: {
     backgroundColor: "#f8d7da",
     borderColor: "#dc3545",
-    paddingVertical: 16,
+    paddingVertical: 14,
     paddingHorizontal: 20,
     borderRadius: 12,
     borderWidth: 2,
@@ -547,5 +675,26 @@ const styles = StyleSheet.create({
     color: "#6c757d",
     textAlign: "center",
     marginTop: 50,
+  },
+  viewWordButtonContainer: {
+    alignItems: "center",
+    marginTop: 30,
+  },
+  viewWordButton: {
+    backgroundColor: "#6c757d",
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    borderRadius: 20,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 8,
+  },
+  viewWordButtonText: {
+    color: "#fff",
+    fontSize: 14,
+    fontWeight: "500",
+  },
+  viewWordIcon: {
+    marginTop: 2,
   },
 });
