@@ -99,6 +99,12 @@ export default function UnitDetailScreen() {
   const { showWordDetails, ActionSheetComponent } = useWordActionSheet();
 
   const unit = mockUnits.find((u) => u.id === unitId);
+  // Get color from mockCategories for this unit
+  const color = unit
+    ? require("../data/mockData").mockCategories.find(
+        (cat: any) => cat.id === unit.categoryId
+      )?.color || "#4ECDC4"
+    : "#4ECDC4";
   const allUnitWords = mockWords.filter((word) => word.unit === unitId);
 
   // Filter words based on hideLearnedWords state
@@ -131,12 +137,33 @@ export default function UnitDetailScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.header}>
+      <View style={[styles.header, { backgroundColor: color }]}>
         <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
-          <Text style={styles.backButtonText}>← Geri</Text>
+          <Ionicons name="arrow-back" size={28} color="#fff" />
         </TouchableOpacity>
-        <Text style={styles.title}>{unit.name}</Text>
+        <View
+          style={{
+            flex: 1,
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "row",
+            minHeight: 70,
+          }}
+        >
+          <Text style={[styles.title, { color: "#fff" }]}>{unit.name}</Text>
+        </View>
       </View>
+      <View
+        style={{
+          height: 3,
+          backgroundColor: color,
+          width: 60,
+          alignSelf: "center",
+          borderRadius: 2,
+          marginTop: -8,
+          marginBottom: 8,
+        }}
+      />
 
       <View style={styles.content}>
         <View style={styles.unitInfo}>
@@ -243,11 +270,16 @@ const styles = StyleSheet.create({
   header: {
     flexDirection: "row",
     alignItems: "center",
-    paddingHorizontal: 20,
-    paddingVertical: 15,
-    backgroundColor: "#fff",
-    borderBottomWidth: 1,
-    borderBottomColor: "#e9ecef",
+    paddingHorizontal: 0,
+    paddingVertical: 0,
+    minHeight: 70,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.07,
+    shadowRadius: 6,
+    elevation: 4,
+    borderBottomWidth: 0,
+    position: "relative",
   },
   backButton: {
     position: "absolute",

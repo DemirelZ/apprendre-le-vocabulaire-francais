@@ -175,7 +175,7 @@ export const WordActionSheetContent: React.FC<WordActionSheetProps> = ({
           )}
           {word.conjugations && (
             <View style={styles.tableRowStyled}>
-              <Text style={styles.tableLabelStyled}>Fiil{"\n"}Çekimleri:</Text>
+              <Text style={styles.tableLabelStyled}>Fiil Çekimleri:</Text>
               <View style={{ flex: 1 }}>
                 <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                   <View>
@@ -465,15 +465,15 @@ const styles = StyleSheet.create({
     elevation: 1,
   },
   tableRowStyled: {
-    flexDirection: "row",
-    justifyContent: "space-between",
+    flexDirection: "column",
+    justifyContent: "flex-start",
     marginBottom: 4,
   },
   tableLabelStyled: {
     fontSize: 12,
     color: "#555",
     fontWeight: "500",
-    marginRight: 8,
+    marginBottom: 8,
   },
   tableValueStyled: {
     fontSize: 14,
@@ -520,8 +520,9 @@ const styles = StyleSheet.create({
   conjTableTenseCell: {
     fontWeight: "600",
     color: "#007AFF",
-    minWidth: 80,
+    minWidth: 120,
     textAlign: "left",
+    paddingRight: 8,
   },
   nounTableHeaderRow: {
     flexDirection: "row",

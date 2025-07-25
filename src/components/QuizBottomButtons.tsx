@@ -91,14 +91,17 @@ const styles = StyleSheet.create({
     borderRadius: 16,
   },
   leftButton: {
-    backgroundColor: "#FF6B35",
+    //backgroundColor: "#FF6B35",
+    backgroundColor: "#FFA07A",
     marginLeft: 8,
   },
   middleButton: {
-    backgroundColor: "#4ECDC4",
+    //backgroundColor: "#4ECDC4",
+    backgroundColor: "#7ED6DF",
   },
   rightButton: {
-    backgroundColor: "#45B7D1",
+    //backgroundColor: "#45B7D1",
+    backgroundColor: "#F8A5C2",
     marginRight: 8,
   },
   iconContainer: {

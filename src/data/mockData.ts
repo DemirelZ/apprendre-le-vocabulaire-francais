@@ -102,6 +102,16 @@ export const mockUnits: Unit[] = [
     isCompleted: false,
     progress: 0,
   },
+  {
+    id: "verbs-unit-11",
+    name: "Ünite 11",
+    description: "Prendre, mettre, donner, recevoir, chercher",
+    categoryId: "verbs",
+    wordCount: 5,
+    order: 10,
+    isCompleted: false,
+    progress: 0,
+  },
 
   // SIFATLAR - ÜNİTELER (mevcut)
   {
@@ -251,6 +261,14 @@ export const mockWords: Word[] = [
         vous: "êtes",
         ils: "sont",
       },
+      passéComposé: {
+        je: "ai été",
+        tu: "as été",
+        il: "a été",
+        nous: "avons été",
+        vous: "avez été",
+        ils: "ont été",
+      },
       imparfait: {
         je: "étais",
         tu: "étais",
@@ -271,27 +289,35 @@ export const mockWords: Word[] = [
     examples: [
       {
         form: "je suis",
+        tense: "present",
         sentence: "Je suis étudiant.",
-        translationTr:
-          "Ben öğrenciyim. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+        translationTr: "Ben öğrenciyim.",
         translationEn: "I am a student.",
       },
       {
         form: "nous sommes",
+        tense: "present",
         sentence: "Nous sommes heureux.",
-        translationTr:
-          "Biz mutluyuz. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+        translationTr: "Biz mutluyuz.",
         translationEn: "We are happy.",
       },
       {
+        form: "j'ai été",
+        tense: "passéComposé",
+        sentence: "J'ai été malade hier.",
+        translationTr: "Dün hastaydım.",
+        translationEn: "I was sick yesterday.",
+      },
+      {
         form: "il était",
+        tense: "imparfait",
         sentence: "Il était en retard.",
-        translationTr:
-          "O geç kaldı. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+        translationTr: "O geç kaldı.",
         translationEn: "He was late.",
       },
       {
         form: "je serai",
+        tense: "futur",
         sentence: "Je serai là demain.",
         translationTr: "Yarın orada olacağım.",
         translationEn: "I will be there tomorrow.",
@@ -1561,43 +1587,43 @@ export const mockWords: Word[] = [
 export const mockCategories: Category[] = [
   {
     id: "verbs",
-    name: "Fiiller",
+    name: "Fiiller (Verbes)",
     description: "Fransızca fiiller ve çekimleri",
-    wordCount: 50, // 10 ünite x 5 kelime
+    wordCount: 50,
     unitCount: 10,
     color: "#FF6B6B",
   },
   {
     id: "adjectives",
-    name: "Sıfatlar",
+    name: "Sıfatlar (Adjectifs)",
     description: "Fransızca sıfatlar ve derecelendirme",
     wordCount: 6,
     unitCount: 3,
-    color: "#4ECDC4",
+    color: "#FFD93D",
   },
   {
     id: "nouns",
-    name: "İsimler",
+    name: "İsimler (Noms)",
     description: "Fransızca isimler ve cinsiyetleri",
     wordCount: 6,
     unitCount: 4,
-    color: "#45B7D1",
+    color: "#6BCB77",
   },
   {
     id: "adverbs",
-    name: "Zarflar",
+    name: "Zarflar (Adverbes)",
     description: "Fransızca zarflar ve kullanımları",
     wordCount: 5,
     unitCount: 2,
-    color: "#96CEB4",
+    color: "#4D96FF",
   },
   {
     id: "conjunctions",
-    name: "Bağlaçlar",
+    name: "Bağlaçlar (Conjonctions)",
     description: "Fransızca bağlaçlar ve bağlaç ifadeleri",
     wordCount: 5,
     unitCount: 2,
-    color: "#FFA726",
+    color: "#843b62",
   },
 ];
 

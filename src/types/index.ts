@@ -30,6 +30,7 @@ export interface Word {
   };
   examples?: {
     form: string;
+    tense?: string;
     sentence: string;
     translationTr?: string;
     translationEn?: string;
