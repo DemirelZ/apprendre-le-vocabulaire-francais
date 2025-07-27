@@ -4,7 +4,8 @@ export interface Word {
   turkish: string;
   english?: string;
   pronunciation: string;
-  example: string;
+  description?: string;
+  example?: string;
   exampleTranslation?: string;
   exampleTranslationTr?: string;
   exampleTranslationEn?: string;

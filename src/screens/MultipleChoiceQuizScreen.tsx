@@ -476,7 +476,7 @@ export default function MultipleChoiceQuizScreen() {
       if (wordIndex !== -1) {
         let streak = mockWords[wordIndex].correctStreak || 0;
         streak += 1;
-        console.log("Streak for", currentQuestion.word.id, ":", streak);
+        //console.log("Streak for", currentQuestion.word.id, ":", streak);
         if (streak >= 3) {
           console.log("Streak 3 oldu, knowledge level artırılıyor");
           increaseKnowledgeLevel(currentQuestion.word.id);

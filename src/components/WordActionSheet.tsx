@@ -78,13 +78,14 @@ export const WordActionSheetContent: React.FC<WordActionSheetProps> = ({
         </TouchableOpacity>
       </View>
       <Text style={styles.turkishMeaning}>{word.turkish}</Text>
+      <Text style={styles.turkishMeaning}>{word.english}</Text>
       {/* Görsel */}
       <View style={styles.imageContainer}>
         <Image
           source={
             word.image
               ? { uri: word.image }
-              : require("../../assets/images/prochainement.png")
+              : require("../../assets/images/default-no-image.png")
           }
           style={styles.image}
           onError={() => {}}
@@ -227,6 +228,22 @@ export const WordActionSheetContent: React.FC<WordActionSheetProps> = ({
           )}
         </View>
       )}
+      {/* Not alanı */}
+      {word.description && (
+        <View style={styles.exampleBoxStyled}>
+          <View style={{ flexDirection: "row", alignItems: "flex-start" }}>
+            <Ionicons
+              name="information-circle-outline"
+              size={22}
+              color="#FF6B6B"
+              style={{ marginRight: 10, marginTop: 2 }}
+            />
+            <View style={{ flex: 1 }}>
+              <Text style={styles.descriptionStyled}>{word.description}</Text>
+            </View>
+          </View>
+        </View>
+      )}
       {/* Örnek cümleler tablosu */}
       {word.examples && word.examples.length > 0 && (
         <View style={styles.exampleBoxStyled}>
@@ -339,7 +356,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#6c757d",
     textAlign: "left",
-    marginBottom: 16,
+    marginBottom: 8,
   },
   imageContainer: {
     alignItems: "center",
@@ -554,6 +571,18 @@ const styles = StyleSheet.create({
     textAlign: "left",
     paddingHorizontal: 6,
     paddingVertical: 2,
+  },
+  notTitleStyled: {
+    fontSize: 14,
+    color: "#FF6B6B",
+    fontWeight: "600",
+    marginBottom: 4,
+  },
+  descriptionStyled: {
+    fontSize: 14,
+    color: "#333",
+    lineHeight: 20,
+    textAlign: "left",
   },
 });
 

@@ -83,8 +83,8 @@ const WordListItem: React.FC<WordListItemProps> = ({ word, onPress }) => {
         <View style={styles.wordMainInfo}>
           <View style={styles.wordTextContainer}>
             <Text style={styles.wordFrench}>{word.french}</Text>
-            <Text style={styles.wordTurkish}>{word.turkish}</Text>
             <Text style={styles.wordPronunciation}>[{word.pronunciation}]</Text>
+            <Text style={styles.wordTurkish}>{word.turkish}</Text>
           </View>
         </View>
       </View>
@@ -167,9 +167,8 @@ export default function UnitDetailScreen() {
 
       <View style={styles.content}>
         <View style={styles.unitInfo}>
-          <Text style={styles.unitDescription}>{unit.description}</Text>
           <Text style={styles.wordCount}>
-            {unitWords.length} kelime
+            Bu ünitede çalışılacak {unitWords.length} kelime var.
             {hideLearnedWords &&
               allUnitWords.length !== unitWords.length &&
               ` (${allUnitWords.length - unitWords.length} gizli)`}
@@ -234,7 +233,7 @@ export default function UnitDetailScreen() {
             <WordListItem word={item} onPress={() => handleWordPress(item)} />
           )}
           showsVerticalScrollIndicator={false}
-          contentContainerStyle={styles.listContainer}
+          contentContainerStyle={[styles.listContainer, { paddingBottom: 130 }]}
         />
       </View>
       <QuizBottomButtons
