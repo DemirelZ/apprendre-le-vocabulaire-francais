@@ -11,6 +11,7 @@ export const mockUnits: Unit[] = [
     order: 1,
     isCompleted: false,
     progress: 0,
+    difficulty: "beginner",
   },
   {
     id: "verbs-unit-2",
@@ -21,6 +22,7 @@ export const mockUnits: Unit[] = [
     order: 2,
     isCompleted: false,
     progress: 0,
+    difficulty: "intermediate",
   },
   {
     id: "verbs-unit-3",
@@ -31,6 +33,7 @@ export const mockUnits: Unit[] = [
     order: 3,
     isCompleted: false,
     progress: 0,
+    difficulty: "intermediate",
   },
   {
     id: "verbs-unit-4",
@@ -41,6 +44,7 @@ export const mockUnits: Unit[] = [
     order: 4,
     isCompleted: false,
     progress: 0,
+    difficulty: "beginner",
   },
   {
     id: "verbs-unit-5",
@@ -238,6 +242,7 @@ export const mockWords: Word[] = [
     id: "v1-1",
     french: "Être",
     turkish: "Olmak",
+    english: "To be",
     pronunciation: "etr",
     example: "Je suis étudiant.",
     exampleTranslationTr: "Ben öğrenciyim.",
@@ -1588,6 +1593,7 @@ export const mockCategories: Category[] = [
   {
     id: "verbs",
     name: "Fiiller (Verbes)",
+    image: require("../../assets/images/categoryImages/Red-Velvet-Macarons.jpg"),
     description: "Fransızca fiiller ve çekimleri",
     wordCount: 50,
     unitCount: 10,
@@ -1596,6 +1602,7 @@ export const mockCategories: Category[] = [
   {
     id: "adjectives",
     name: "Sıfatlar (Adjectifs)",
+    image: require("../../assets/images/categoryImages/yellow-Fruit-Macarons-Recipe.webp"),
     description: "Fransızca sıfatlar ve derecelendirme",
     wordCount: 6,
     unitCount: 3,
@@ -1604,6 +1611,7 @@ export const mockCategories: Category[] = [
   {
     id: "nouns",
     name: "İsimler (Noms)",
+    image: require("../../assets/images/categoryImages/green-Macarons-Mango-Buttercream-6.jpg"),
     description: "Fransızca isimler ve cinsiyetleri",
     wordCount: 6,
     unitCount: 4,
@@ -1612,6 +1620,7 @@ export const mockCategories: Category[] = [
   {
     id: "adverbs",
     name: "Zarflar (Adverbes)",
+    image: require("../../assets/images/categoryImages/Screenshot 2025-07-27 at 14.58.24.png"),
     description: "Fransızca zarflar ve kullanımları",
     wordCount: 5,
     unitCount: 2,
@@ -1620,6 +1629,7 @@ export const mockCategories: Category[] = [
   {
     id: "conjunctions",
     name: "Bağlaçlar (Conjonctions)",
+    image: require("../../assets/images/categoryImages/lavender-macarons-9.webp"),
     description: "Fransızca bağlaçlar ve bağlaç ifadeleri",
     wordCount: 5,
     unitCount: 2,

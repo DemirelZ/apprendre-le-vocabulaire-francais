@@ -2,6 +2,7 @@ export interface Word {
   id: string;
   french: string;
   turkish: string;
+  english?: string;
   pronunciation: string;
   example: string;
   exampleTranslation?: string;
@@ -48,6 +49,7 @@ export interface Word {
 export interface Category {
   id: string;
   name: string;
+  image: string | number | null; // string: URL, number: require() sonucu
   description: string;
   wordCount: number;
   unitCount: number; // Yeni: ünite sayısı
@@ -63,6 +65,7 @@ export interface Unit {
   order: number; // Ünite sırası
   isCompleted: boolean;
   progress: number; // 0-100 arası ilerleme
+  difficulty?: "beginner" | "intermediate" | "advanced"; // Zorluk seviyesi (opsiyonel)
 }
 
 export interface Activity {

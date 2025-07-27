@@ -28,8 +28,10 @@ export default function HomeScreen() {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.header}>
-          <Text style={styles.title}>Fransızca YDS/YÖKDİL</Text>
-          <Text style={styles.subtitle}>Kelime Öğrenme Uygulaması</Text>
+          <Text style={styles.title}>Fransızca Kelime Öğren</Text>
+          <Text style={styles.subtitle}>
+            Enrichis ton vocabulaire et prépare-toi aux examens!
+          </Text>
         </View>
 
         <View style={styles.categoriesGrid}>

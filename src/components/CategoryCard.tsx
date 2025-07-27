@@ -1,6 +1,13 @@
 import { Ionicons } from "@expo/vector-icons";
 import React from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import {
+  Image,
+  ImageSourcePropType,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import { Category } from "../types";
 import { colors } from "../utils/colors";
 
@@ -19,33 +26,54 @@ export const CategoryCard: React.FC<CategoryCardProps> = ({
       onPress={() => onPress(category)}
     >
       <View style={styles.content}>
-        <View style={styles.header}>
-          <Text style={styles.name}>{category.name}</Text>
-          <View
-            style={[
-              styles.iconContainer,
-              { backgroundColor: category.color + "20" },
-            ]}
-          >
-            <Ionicons name="book-outline" size={20} color={category.color} />
-          </View>
+        <View style={styles.imageContainer}>
+          {category.image && (
+            <Image
+              source={
+                typeof category.image === "string" &&
+                category.image.startsWith("http")
+                  ? { uri: category.image }
+                  : (category.image as ImageSourcePropType)
+              }
+              style={styles.image}
+              resizeMode="cover"
+            />
+          )}
         </View>
 
-        <Text style={styles.description}>{category.description}</Text>
-
-        <View style={styles.footer}>
-          <View style={styles.wordCount}>
-            <Ionicons
-              name="document-text-outline"
-              size={16}
-              color={colors.textSecondary}
-            />
-            <Text style={styles.wordCountText}>
-              {category.wordCount} kelime
-            </Text>
+        <View style={styles.textContent}>
+          <View style={styles.header}>
+            <Text style={styles.name}>{category.name}</Text>
+            <View
+              style={[
+                styles.iconContainer,
+                { backgroundColor: category.color + "20" },
+              ]}
+            >
+              <Ionicons name="book-outline" size={20} color={category.color} />
+            </View>
           </View>
 
-          <Ionicons name="chevron-forward" size={16} color={colors.textLight} />
+          <Text style={styles.description}>{category.description}</Text>
+
+          <View style={styles.footer}>
+            <View style={styles.wordCount}>
+              <Ionicons
+                name="document-text-outline"
+                size={16}
+                color={colors.textSecondary}
+              />
+              <Text style={styles.wordCountText}>
+                {category.wordCount} kelime
+              </Text>
+            </View>
+
+            <Ionicons
+              name="chevron-forward"
+              size={16}
+              color={colors.textLight}
+            />
+          </View>
         </View>
       </View>
     </TouchableOpacity>
@@ -70,6 +98,22 @@ const styles = StyleSheet.create({
   },
   content: {
     padding: 16,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  imageContainer: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    overflow: "hidden",
+    marginRight: 12,
+  },
+  image: {
+    width: "100%",
+    height: "100%",
+  },
+  textContent: {
+    flex: 1,
   },
   header: {
     flexDirection: "row",
