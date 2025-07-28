@@ -22,12 +22,7 @@ export interface Word {
   correctStreak?: number;
   conjugations?: {
     [tense: string]: {
-      je?: string;
-      tu?: string;
-      il?: string;
-      nous?: string;
-      vous?: string;
-      ils?: string;
+      [person: string]: string;
     };
   };
   examples?: {

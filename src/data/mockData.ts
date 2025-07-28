@@ -17628,7 +17628,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: "2024-01-01T00:00:00Z",
+    createdAt: new Date("2024-01-01"),
     knowledgeLevel: undefined,
     conjugations: {
       present: {
