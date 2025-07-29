@@ -116,7 +116,96 @@ export const mockUnits: Unit[] = [
     isCompleted: false,
     progress: 0,
   },
-
+  {
+    id: "verbs-unit-12",
+    name: "Ünite 12",
+    description: null,
+    categoryId: "verbs",
+    wordCount: 25,
+    order: 12,
+    isCompleted: false,
+    progress: 0,
+  },
+  {
+    id: "verbs-unit-13",
+    name: "Ünite 13",
+    description: null,
+    categoryId: "verbs",
+    wordCount: 25,
+    order: 13,
+    isCompleted: false,
+    progress: 0,
+  },
+  {
+    id: "verbs-unit-14",
+    name: "Ünite 14",
+    description: null,
+    categoryId: "verbs",
+    wordCount: 25,
+    order: 14,
+    isCompleted: false,
+    progress: 0,
+  },
+  {
+    id: "verbs-unit-15",
+    name: "Ünite 15",
+    description: null,
+    categoryId: "verbs",
+    wordCount: 25,
+    order: 15,
+    isCompleted: false,
+    progress: 0,
+  },
+  {
+    id: "verbs-unit-16",
+    name: "Ünite 16",
+    description: null,
+    categoryId: "verbs",
+    wordCount: 25,
+    order: 16,
+    isCompleted: false,
+    progress: 0,
+  },
+  {
+    id: "verbs-unit-17",
+    name: "Ünite 17",
+    description: null,
+    categoryId: "verbs",
+    wordCount: 25,
+    order: 17,
+    isCompleted: false,
+    progress: 0,
+  },
+  {
+    id: "verbs-unit-18",
+    name: "Ünite 18",
+    description: null,
+    categoryId: "verbs",
+    wordCount: 25,
+    order: 18,
+    isCompleted: false,
+    progress: 0,
+  },
+  {
+    id: "verbs-unit-19",
+    name: "Ünite 19",
+    description: null,
+    categoryId: "verbs",
+    wordCount: 25,
+    order: 19,
+    isCompleted: false,
+    progress: 0,
+  },
+  {
+    id: "verbs-unit-20",
+    name: "Ünite 20",
+    description: null,
+    categoryId: "verbs",
+    wordCount: 25,
+    order: 20,
+    isCompleted: false,
+    progress: 0,
+  },
   // SIFATLAR - ÜNİTELER (mevcut)
   {
     id: "adjectives-unit-1",
@@ -253,7 +342,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -334,7 +423,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -415,7 +504,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -496,7 +585,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -577,7 +666,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -658,7 +747,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -739,7 +828,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -820,7 +909,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -901,7 +990,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -982,7 +1071,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1063,7 +1152,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1144,7 +1233,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1225,7 +1314,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1306,7 +1395,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1387,7 +1476,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1468,7 +1557,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1549,7 +1638,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1631,7 +1720,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1713,7 +1802,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1795,7 +1884,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1877,7 +1966,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -1959,7 +2048,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2041,7 +2130,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2123,7 +2212,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2205,7 +2294,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2287,7 +2376,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2369,7 +2458,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2451,7 +2540,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2533,7 +2622,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2615,7 +2704,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2697,7 +2786,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2779,7 +2868,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2861,7 +2950,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -2943,7 +3032,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3025,7 +3114,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3107,7 +3196,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3189,7 +3278,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3271,7 +3360,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3353,7 +3442,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3435,7 +3524,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3517,7 +3606,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3599,7 +3688,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3681,7 +3770,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3763,7 +3852,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3845,7 +3934,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -3927,7 +4016,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4009,7 +4098,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4091,7 +4180,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4174,7 +4263,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4256,7 +4345,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4338,7 +4427,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4420,7 +4509,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4502,7 +4591,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4584,7 +4673,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4666,7 +4755,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4748,7 +4837,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4831,7 +4920,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4913,7 +5002,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -4996,7 +5085,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5078,7 +5167,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5160,7 +5249,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5242,7 +5331,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5326,7 +5415,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5408,7 +5497,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5490,7 +5579,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5572,7 +5661,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5654,7 +5743,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5736,7 +5825,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5818,7 +5907,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5900,7 +5989,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -5982,7 +6071,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6064,7 +6153,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6146,7 +6235,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6228,7 +6317,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6310,7 +6399,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6392,7 +6481,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6474,7 +6563,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6556,7 +6645,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6638,7 +6727,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6720,7 +6809,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6802,7 +6891,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6884,7 +6973,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -6966,7 +7055,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7048,7 +7137,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7130,7 +7219,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7212,7 +7301,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7294,7 +7383,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7376,7 +7465,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7458,7 +7547,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7540,7 +7629,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7622,7 +7711,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7704,7 +7793,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7786,7 +7875,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7868,7 +7957,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -7950,7 +8039,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8032,7 +8121,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8114,7 +8203,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8196,7 +8285,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8278,7 +8367,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8360,7 +8449,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8442,7 +8531,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8524,7 +8613,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8606,7 +8695,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8688,7 +8777,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8770,7 +8859,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8852,7 +8941,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -8934,7 +9023,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9016,7 +9105,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9098,7 +9187,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9180,7 +9269,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9262,7 +9351,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9344,7 +9433,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9426,7 +9515,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9508,7 +9597,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9590,7 +9679,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9672,7 +9761,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9754,7 +9843,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9836,7 +9925,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -9918,7 +10007,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10000,7 +10089,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10082,7 +10171,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10164,7 +10253,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10246,7 +10335,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10328,7 +10417,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10410,7 +10499,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10492,7 +10581,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10574,7 +10663,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10656,7 +10745,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10738,7 +10827,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10820,7 +10909,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10902,7 +10991,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -10984,7 +11073,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11066,7 +11155,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11148,7 +11237,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11230,7 +11319,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11312,7 +11401,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11395,7 +11484,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11477,7 +11566,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11559,7 +11648,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11641,7 +11730,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11723,7 +11812,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11807,7 +11896,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11889,7 +11978,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -11971,7 +12060,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12053,7 +12142,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12135,7 +12224,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12217,7 +12306,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12299,7 +12388,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12361,7 +12450,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12443,7 +12532,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12525,7 +12614,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12607,7 +12696,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12689,7 +12778,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12771,7 +12860,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12853,7 +12942,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -12935,7 +13024,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13017,7 +13106,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13099,7 +13188,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13181,7 +13270,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13263,7 +13352,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13345,7 +13434,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13427,7 +13516,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13510,7 +13599,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13592,7 +13681,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13674,7 +13763,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13756,7 +13845,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13838,7 +13927,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -13920,7 +14009,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14002,7 +14091,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14084,7 +14173,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14166,7 +14255,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14248,7 +14337,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14330,7 +14419,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14412,7 +14501,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14494,7 +14583,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14576,7 +14665,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14658,7 +14747,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14740,7 +14829,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14824,7 +14913,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14906,7 +14995,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -14988,7 +15077,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15071,7 +15160,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15153,7 +15242,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15235,7 +15324,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15318,7 +15407,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15400,7 +15489,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15483,7 +15572,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15566,7 +15655,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15648,7 +15737,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15730,7 +15819,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15813,7 +15902,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15897,7 +15986,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -15979,7 +16068,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16064,7 +16153,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16146,7 +16235,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16228,7 +16317,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16311,7 +16400,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16393,7 +16482,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16475,7 +16564,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16557,7 +16646,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16640,7 +16729,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16722,7 +16811,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01T00:00:00Z"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16804,7 +16893,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01T00:00:00Z"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16887,7 +16976,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -16969,7 +17058,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17051,7 +17140,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17134,7 +17223,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17216,7 +17305,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17298,7 +17387,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17381,7 +17470,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17463,7 +17552,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17545,7 +17634,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17628,7 +17717,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17710,7 +17799,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17792,7 +17881,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17875,7 +17964,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -17957,7 +18046,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18039,7 +18128,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18122,7 +18211,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18204,7 +18293,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18287,7 +18376,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18370,7 +18459,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18452,7 +18541,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18534,7 +18623,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18616,7 +18705,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18699,7 +18788,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18781,7 +18870,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18863,7 +18952,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -18946,7 +19035,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19029,7 +19118,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19111,7 +19200,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19194,7 +19283,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19276,7 +19365,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19358,7 +19447,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19441,7 +19530,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19523,7 +19612,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19605,7 +19694,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19688,7 +19777,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19770,7 +19859,7 @@ export const mockWords: Word[] = [
     difficulty: "advanced",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19852,7 +19941,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -19935,7 +20024,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20017,7 +20106,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20099,7 +20188,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20182,7 +20271,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20264,7 +20353,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20346,7 +20435,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20429,7 +20518,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20511,7 +20600,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20593,7 +20682,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20675,7 +20764,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     conjugations: {
       present: {
@@ -20743,6 +20832,13441 @@ export const mockWords: Word[] = [
     ],
   },
 
+  {
+    id: "v11-1",
+    french: "Grimper",
+    turkish: "Tırmanmak",
+    english: "To climb",
+    pronunciation: "gʁɛ̃-pe",
+    description:
+      "Hem fiziksel olarak bir yere tırmanmak hem de soyut anlamda artış göstermek (fiyatlar, rakamlar) için kullanılır (les prix grimpent).",
+    synonyms: ["escalader", "monter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "grimpe",
+        tu: "grimpes",
+        il: "grimpe",
+        nous: "grimpons",
+        vous: "grimpez",
+        ils: "grimpent",
+      },
+      passéComposé: {
+        je: "ai grimpé",
+        tu: "as grimpé",
+        il: "a grimpé",
+        nous: "avons grimpé",
+        vous: "avez grimpé",
+        ils: "ont grimpé",
+      },
+      imparfait: {
+        je: "grimpais",
+        tu: "grimpais",
+        il: "grimpait",
+        nous: "grimpions",
+        vous: "grimpiez",
+        ils: "grimpaient",
+      },
+      futur: {
+        je: "grimperai",
+        tu: "grimperas",
+        il: "grimperai",
+        nous: "grimperons",
+        vous: "grimperez",
+        ils: "grimperont",
+      },
+    },
+    examples: [
+      {
+        form: "il grimpe",
+        tense: "present",
+        sentence: "Il grimpe sur le rocher sans aide.",
+        translationTr: "Kayaya yardım almadan tırmanıyor.",
+        translationEn: "He climbs on the rock without help.",
+      },
+      {
+        form: "nous avons grimpé",
+        tense: "passéComposé",
+        sentence: "Nous avons grimpé jusqu’au sommet.",
+        translationTr: "Zirveye kadar tırmandık.",
+        translationEn: "We climbed to the top.",
+      },
+      {
+        form: "je grimpais",
+        tense: "imparfait",
+        sentence: "Je grimpais aux arbres quand j’étais enfant.",
+        translationTr: "Çocukken ağaçlara tırmanırdım.",
+        translationEn: "I used to climb trees when I was a child.",
+      },
+      {
+        form: "elles grimperont",
+        tense: "futur",
+        sentence: "Elles grimperont la montagne demain matin.",
+        translationTr: "Yarın sabah dağa tırmanacaklar.",
+        translationEn: "They will climb the mountain tomorrow morning.",
+      },
+    ],
+  },
+  {
+    id: "v11-2",
+    french: "Amener",
+    turkish: "Getirmek / Götürmek (birini)",
+    english: "To bring / To lead (someone)",
+    pronunciation: "a-mə-ne",
+    description:
+      "Genellikle bir kişiyi bir yere götürmek anlamında kullanılır. Nesnesi canlıdır. 'Apporter' ise cansız nesneler için kullanılır.",
+    synonyms: ["emmener", "conduire", "escorter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "amène",
+        tu: "amènes",
+        il: "amène",
+        nous: "amenons",
+        vous: "amenez",
+        ils: "amènent",
+      },
+      passéComposé: {
+        je: "ai amené",
+        tu: "as amené",
+        il: "a amené",
+        nous: "avons amené",
+        vous: "avez amené",
+        ils: "ont amené",
+      },
+      imparfait: {
+        je: "amenais",
+        tu: "amenais",
+        il: "amenait",
+        nous: "amenions",
+        vous: "ameniez",
+        ils: "amenaient",
+      },
+      futur: {
+        je: "amènerai",
+        tu: "amèneras",
+        il: "amènera",
+        nous: "amènerons",
+        vous: "amènerez",
+        ils: "amèneront",
+      },
+    },
+    examples: [
+      {
+        form: "tu amènes",
+        tense: "present",
+        sentence: "Tu amènes toujours tes amis à la fête.",
+        translationTr: "Partiye hep arkadaşlarını getiriyorsun.",
+        translationEn: "You always bring your friends to the party.",
+      },
+      {
+        form: "elle a amené",
+        tense: "passéComposé",
+        sentence: "Elle a amené son fils chez le médecin.",
+        translationTr: "Oğlunu doktora götürdü.",
+        translationEn: "She brought her son to the doctor.",
+      },
+      {
+        form: "nous amenions",
+        tense: "imparfait",
+        sentence: "Nous amenions notre grand-mère au parc chaque week-end.",
+        translationTr: "Her hafta sonu büyükannemizi parka götürürdük.",
+        translationEn:
+          "We used to take our grandmother to the park every weekend.",
+      },
+      {
+        form: "ils amèneront",
+        tense: "futur",
+        sentence: "Ils amèneront leurs enfants demain.",
+        translationTr: "Yarın çocuklarını getirecekler.",
+        translationEn: "They will bring their children tomorrow.",
+      },
+    ],
+  },
+  {
+    id: "v11-3",
+    french: "Risquer",
+    turkish: "Riske atmak / Göze almak",
+    english: "To risk / To dare",
+    pronunciation: "ʁis-ke",
+    description:
+      "Bir eylemin potansiyel kötü sonuçlarını göze alarak yapılmasını ifade eder. 'Risquer de' yapısıyla sıkça kullanılır (il risque de tomber).",
+    synonyms: ["oser", "tenter", "s’exposer à"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "risque",
+        tu: "risques",
+        il: "risque",
+        nous: "risquons",
+        vous: "risquez",
+        ils: "risquent",
+      },
+      passéComposé: {
+        je: "ai risqué",
+        tu: "as risqué",
+        il: "a risqué",
+        nous: "avons risqué",
+        vous: "avez risqué",
+        ils: "ont risqué",
+      },
+      imparfait: {
+        je: "risquais",
+        tu: "risquais",
+        il: "risquait",
+        nous: "risquions",
+        vous: "risquiez",
+        ils: "risquaient",
+      },
+      futur: {
+        je: "risquerai",
+        tu: "risqueras",
+        il: "risquera",
+        nous: "risquerons",
+        vous: "risquerez",
+        ils: "risqueront",
+      },
+    },
+    examples: [
+      {
+        form: "je risque",
+        tense: "present",
+        sentence: "Je risque de tout perdre.",
+        translationTr: "Her şeyi kaybetmeyi göze alıyorum.",
+        translationEn: "I risk losing everything.",
+      },
+      {
+        form: "ils ont risqué",
+        tense: "passéComposé",
+        sentence: "Ils ont risqué leur vie pour sauver le chien.",
+        translationTr: "Köpeği kurtarmak için hayatlarını riske attılar.",
+        translationEn: "They risked their lives to save the dog.",
+      },
+      {
+        form: "tu risquais",
+        tense: "imparfait",
+        sentence: "Tu risquais souvent sans réfléchir.",
+        translationTr: "Sık sık düşünmeden riske girerdin.",
+        translationEn: "You used to take risks without thinking.",
+      },
+      {
+        form: "nous risquerons",
+        tense: "futur",
+        sentence: "Nous risquerons tout pour réussir.",
+        translationTr: "Başarmak için her şeyi riske atacağız.",
+        translationEn: "We will risk everything to succeed.",
+      },
+    ],
+  },
+
+  {
+    id: "v11-4",
+    french: "Cacher",
+    turkish: "Gizlemek / Saklamak",
+    english: "To hide / To conceal",
+    pronunciation: "ka-ʃe",
+    description:
+      "Bir nesneyi, gerçeği ya da duyguyu gizlemek için kullanılır. Hem somut hem soyut anlamda kullanılabilir (cacher la vérité / cacher un objet).",
+    synonyms: ["dissimuler", "camoufler", "dérober"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "cache",
+        tu: "caches",
+        il: "cache",
+        nous: "cachons",
+        vous: "cachez",
+        ils: "cachent",
+      },
+      passéComposé: {
+        je: "ai caché",
+        tu: "as caché",
+        il: "a caché",
+        nous: "avons caché",
+        vous: "avez caché",
+        ils: "ont caché",
+      },
+      imparfait: {
+        je: "cachais",
+        tu: "cachais",
+        il: "cachait",
+        nous: "cachions",
+        vous: "cachiez",
+        ils: "cachaient",
+      },
+      futur: {
+        je: "cacherai",
+        tu: "cacheras",
+        il: "cachera",
+        nous: "cacherons",
+        vous: "cacherez",
+        ils: "cacheront",
+      },
+    },
+    examples: [
+      {
+        form: "je cache",
+        tense: "present",
+        sentence: "Je cache le cadeau dans le placard.",
+        translationTr: "Hediyeyi dolaba saklıyorum.",
+        translationEn: "I'm hiding the gift in the cupboard.",
+      },
+      {
+        form: "elle a caché",
+        tense: "passéComposé",
+        sentence: "Elle a caché ses sentiments.",
+        translationTr: "Duygularını gizledi.",
+        translationEn: "She hid her feelings.",
+      },
+      {
+        form: "nous cachions",
+        tense: "imparfait",
+        sentence: "Nous cachions les œufs de Pâques dans le jardin.",
+        translationTr: "Paskalya yumurtalarını bahçeye saklardık.",
+        translationEn: "We used to hide Easter eggs in the garden.",
+      },
+      {
+        form: "ils cacheront",
+        tense: "futur",
+        sentence: "Ils cacheront la surprise jusqu’à ce soir.",
+        translationTr: "Sürprizi bu akşama kadar gizleyecekler.",
+        translationEn: "They will hide the surprise until tonight.",
+      },
+    ],
+  },
+  {
+    id: "v11-5",
+    french: "Tendre",
+    turkish: "Uzatmak / Germek",
+    english: "To stretch / To extend / To hand",
+    pronunciation: "tɑ̃dʁ",
+    description:
+      "Hem fiziksel olarak bir nesneyi uzatmak (elini uzatmak) hem de duygusal durumları tanımlamak için kullanılabilir (une atmosphère tendue: gergin ortam).",
+    synonyms: ["étendre", "donner", "présenter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "tends",
+        tu: "tends",
+        il: "tend",
+        nous: "tendons",
+        vous: "tendez",
+        ils: "tendent",
+      },
+      passéComposé: {
+        je: "ai tendu",
+        tu: "as tendu",
+        il: "a tendu",
+        nous: "avons tendu",
+        vous: "avez tendu",
+        ils: "ont tendu",
+      },
+      imparfait: {
+        je: "tendais",
+        tu: "tendais",
+        il: "tendait",
+        nous: "tendions",
+        vous: "tendiez",
+        ils: "tendaient",
+      },
+      futur: {
+        je: "tendrai",
+        tu: "tendras",
+        il: "tendra",
+        nous: "tendrons",
+        vous: "tendrez",
+        ils: "tendront",
+      },
+    },
+    examples: [
+      {
+        form: "il tend",
+        tense: "present",
+        sentence: "Il tend la main à son ami.",
+        translationTr: "Arkadaşına elini uzatıyor.",
+        translationEn: "He extends his hand to his friend.",
+      },
+      {
+        form: "j’ai tendu",
+        tense: "passéComposé",
+        sentence: "J’ai tendu la corde entre les arbres.",
+        translationTr: "İpler ağaçların arasına gerdim.",
+        translationEn: "I stretched the rope between the trees.",
+      },
+      {
+        form: "nous tendions",
+        tense: "imparfait",
+        sentence: "Nous tendions souvent l’oreille à ses histoires.",
+        translationTr: "Hikâyelerine kulak kabartırdık.",
+        translationEn: "We often listened carefully to his stories.",
+      },
+      {
+        form: "vous tendrez",
+        tense: "futur",
+        sentence: "Vous tendrez la main au nouveau venu.",
+        translationTr: "Yeni gelen kişiye el uzatacaksınız.",
+        translationEn: "You will extend your hand to the newcomer.",
+      },
+    ],
+  },
+  {
+    id: "v11-6",
+    french: "Peser",
+    turkish: "Tartmak / Ağırlığında olmak",
+    english: "To weigh",
+    pronunciation: "pə-ze",
+    description:
+      "Hem fiziksel ağırlık ölçmek (peser un sac) hem de soyut anlamda baskı yaratmak, zor gelmek anlamında kullanılır (peser sur quelqu’un).",
+    synonyms: ["évaluer", "mesurer", "soupeser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "pèse",
+        tu: "pèses",
+        il: "pèse",
+        nous: "pesons",
+        vous: "pesez",
+        ils: "pèsent",
+      },
+      passéComposé: {
+        je: "ai pesé",
+        tu: "as pesé",
+        il: "a pesé",
+        nous: "avons pesé",
+        vous: "avez pesé",
+        ils: "ont pesé",
+      },
+      imparfait: {
+        je: "pesais",
+        tu: "pesais",
+        il: "pesait",
+        nous: "pesions",
+        vous: "pesiez",
+        ils: "pesaient",
+      },
+      futur: {
+        je: "pèserai",
+        tu: "pèseras",
+        il: "pèsera",
+        nous: "pèserons",
+        vous: "pèserez",
+        ils: "pèseront",
+      },
+    },
+    examples: [
+      {
+        form: "je pèse",
+        tense: "present",
+        sentence: "Je pèse le sac avant de partir.",
+        translationTr: "Çıkmadan önce çantayı tartıyorum.",
+        translationEn: "I weigh the bag before leaving.",
+      },
+      {
+        form: "il a pesé",
+        tense: "passéComposé",
+        sentence: "Il a pesé tous les légumes.",
+        translationTr: "Tüm sebzeleri tarttı.",
+        translationEn: "He weighed all the vegetables.",
+      },
+      {
+        form: "tu pesais",
+        tense: "imparfait",
+        sentence: "Tu pesais chaque ingrédient avec soin.",
+        translationTr: "Her malzemeyi özenle tartardın.",
+        translationEn: "You used to weigh each ingredient carefully.",
+      },
+      {
+        form: "ils pèseront",
+        tense: "futur",
+        sentence: "Ils pèseront les colis à l’arrivée.",
+        translationTr: "Kargolar varınca tartılacak.",
+        translationEn: "They will weigh the packages upon arrival.",
+      },
+    ],
+  },
+
+  {
+    id: "v11-7",
+    french: "Monter",
+    turkish: "Çıkmak / Tırmanmak / Yükselmek",
+    english: "To go up / To climb / To rise",
+    pronunciation: "mɔ̃-te",
+    description:
+      "Yukarı çıkmak (monter l’escalier), bir taşıta binmek (monter dans un train) ya da fiyat/artış anlamında (les prix montent) kullanılır. Être yardımcı fiiliyle birleşik zamanlarda çekimlenir.",
+    synonyms: ["grimper", "s’élever", "augmenter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "monte",
+        tu: "montes",
+        il: "monte",
+        nous: "montons",
+        vous: "montez",
+        ils: "montent",
+      },
+      passéComposé: {
+        je: "suis monté",
+        tu: "es monté",
+        il: "est monté",
+        nous: "sommes montés",
+        vous: "êtes montés",
+        ils: "sont montés",
+      },
+      imparfait: {
+        je: "montais",
+        tu: "montais",
+        il: "montait",
+        nous: "montions",
+        vous: "montiez",
+        ils: "montaient",
+      },
+      futur: {
+        je: "monterai",
+        tu: "monteras",
+        il: "montera",
+        nous: "monterons",
+        vous: "monterez",
+        ils: "monteront",
+      },
+    },
+    examples: [
+      {
+        form: "je monte",
+        tense: "present",
+        sentence: "Je monte les escaliers rapidement.",
+        translationTr: "Merdivenleri hızlıca çıkıyorum.",
+        translationEn: "I go up the stairs quickly.",
+      },
+      {
+        form: "elle est montée",
+        tense: "passéComposé",
+        sentence: "Elle est montée dans le train.",
+        translationTr: "Trene bindi.",
+        translationEn: "She got on the train.",
+      },
+      {
+        form: "nous montions",
+        tense: "imparfait",
+        sentence: "Nous montions souvent à pied.",
+        translationTr: "Sık sık yürüyerek çıkardık.",
+        translationEn: "We often climbed on foot.",
+      },
+      {
+        form: "ils monteront",
+        tense: "futur",
+        sentence: "Ils monteront au sommet demain.",
+        translationTr: "Yarın zirveye çıkacaklar.",
+        translationEn: "They will climb to the top tomorrow.",
+      },
+    ],
+  },
+  {
+    id: "v11-8",
+    french: "Nier",
+    turkish: "İnkâr etmek / Reddetmek",
+    english: "To deny",
+    pronunciation: "nje",
+    description:
+      "Bir şeyi doğru olmadığını iddia etmek için kullanılır. Genellikle 'que' ile devam eden cümlelerde yer alır. Duyguları, olayları ya da suçlamaları reddetmekte kullanılır.",
+    synonyms: ["rejeter", "contester", "démentir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "nie",
+        tu: "nies",
+        il: "nie",
+        nous: "nions",
+        vous: "niez",
+        ils: "nient",
+      },
+      passéComposé: {
+        je: "ai nié",
+        tu: "as nié",
+        il: "a nié",
+        nous: "avons nié",
+        vous: "avez nié",
+        ils: "ont nié",
+      },
+      imparfait: {
+        je: "niais",
+        tu: "niais",
+        il: "niait",
+        nous: "niions",
+        vous: "niiez",
+        ils: "niaient",
+      },
+      futur: {
+        je: "nierai",
+        tu: "nieras",
+        il: "niera",
+        nous: "nierons",
+        vous: "nierez",
+        ils: "nieront",
+      },
+    },
+    examples: [
+      {
+        form: "je nie",
+        tense: "present",
+        sentence: "Je nie toutes les accusations.",
+        translationTr: "Tüm suçlamaları reddediyorum.",
+        translationEn: "I deny all accusations.",
+      },
+      {
+        form: "il a nié",
+        tense: "passéComposé",
+        sentence: "Il a nié avoir volé l’argent.",
+        translationTr: "Parayı çaldığını inkâr etti.",
+        translationEn: "He denied stealing the money.",
+      },
+      {
+        form: "tu niais",
+        tense: "imparfait",
+        sentence: "Tu niais toujours tes erreurs.",
+        translationTr: "Hatalarını hep inkâr ederdin.",
+        translationEn: "You always denied your mistakes.",
+      },
+      {
+        form: "nous nierons",
+        tense: "futur",
+        sentence: "Nous nierons toute implication.",
+        translationTr: "Herhangi bir dahlimizi reddedeceğiz.",
+        translationEn: "We will deny any involvement.",
+      },
+    ],
+  },
+  {
+    id: "v11-9",
+    french: "Vieillir",
+    turkish: "Yaşlanmak / Eskimek",
+    english: "To grow old / To age",
+    pronunciation: "vje-jiʁ",
+    description:
+      "Kişilerin yaşlanması ya da eşyaların zamanla eskiyip yıpranması anlamında kullanılır. Yardımcı fiil olarak **avoir** kullanılır.",
+    synonyms: ["prendre de l’âge", "se faner", "s’user"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "vieillis",
+        tu: "vieillis",
+        il: "vieillit",
+        nous: "vieillissons",
+        vous: "vieillissez",
+        ils: "vieillissent",
+      },
+      passéComposé: {
+        je: "ai vieilli",
+        tu: "as vieilli",
+        il: "a vieilli",
+        nous: "avons vieilli",
+        vous: "avez vieilli",
+        ils: "ont vieilli",
+      },
+      imparfait: {
+        je: "vieillissais",
+        tu: "vieillissais",
+        il: "vieillissait",
+        nous: "vieillissions",
+        vous: "vieillissiez",
+        ils: "vieillissaient",
+      },
+      futur: {
+        je: "vieillirai",
+        tu: "vieilliras",
+        il: "vieillira",
+        nous: "vieillirons",
+        vous: "vieillirez",
+        ils: "vieilliront",
+      },
+    },
+    examples: [
+      {
+        form: "il vieillit",
+        tense: "present",
+        sentence: "Il vieillit doucement avec le temps.",
+        translationTr: "Zamanla yavaşça yaşlanıyor.",
+        translationEn: "He is aging slowly with time.",
+      },
+      {
+        form: "nous avons vieilli",
+        tense: "passéComposé",
+        sentence: "Nous avons vieilli ensemble.",
+        translationTr: "Birlikte yaşlandık.",
+        translationEn: "We grew old together.",
+      },
+      {
+        form: "je vieillissais",
+        tense: "imparfait",
+        sentence: "Je vieillissais sans m’en rendre compte.",
+        translationTr: "Farkına varmadan yaşlanıyordum.",
+        translationEn: "I was growing old without realizing it.",
+      },
+      {
+        form: "elles vieilliront",
+        tense: "futur",
+        sentence: "Elles vieilliront dignement.",
+        translationTr: "Onlar onurluca yaşlanacaklar.",
+        translationEn: "They will age gracefully.",
+      },
+    ],
+  },
+
+  {
+    id: "v11-10",
+    french: "Louer",
+    turkish: "Kiralamak / Övmek",
+    english: "To rent / To praise",
+    pronunciation: "lu-e",
+    description:
+      "Hem bir şeyi kiralamak (louer un appartement) hem de birini övmek anlamında kullanılır (louer les qualités de quelqu’un).",
+    synonyms: ["léguer", "réserver", "glorifier"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "loue",
+        tu: "loues",
+        il: "loue",
+        nous: "louons",
+        vous: "louez",
+        ils: "louent",
+      },
+      passéComposé: {
+        je: "ai loué",
+        tu: "as loué",
+        il: "a loué",
+        nous: "avons loué",
+        vous: "avez loué",
+        ils: "ont loué",
+      },
+      imparfait: {
+        je: "louais",
+        tu: "louais",
+        il: "louait",
+        nous: "louions",
+        vous: "louiez",
+        ils: "louaient",
+      },
+      futur: {
+        je: "louerai",
+        tu: "loueras",
+        il: "louera",
+        nous: "louerons",
+        vous: "louerez",
+        ils: "loueront",
+      },
+    },
+    examples: [
+      {
+        form: "nous louons",
+        tense: "present",
+        sentence: "Nous louons une maison à la montagne.",
+        translationTr: "Dağda bir ev kiralıyoruz.",
+        translationEn: "We are renting a house in the mountains.",
+      },
+      {
+        form: "il a loué",
+        tense: "passéComposé",
+        sentence: "Il a loué une voiture pour le week-end.",
+        translationTr: "Hafta sonu için araba kiraladı.",
+        translationEn: "He rented a car for the weekend.",
+      },
+      {
+        form: "je louais",
+        tense: "imparfait",
+        sentence: "Je louais souvent des films à la vidéothèque.",
+        translationTr: "Videotekten sık sık film kiralardım.",
+        translationEn: "I used to rent movies from the video store.",
+      },
+      {
+        form: "vous louerez",
+        tense: "futur",
+        sentence: "Vous louerez cet appartement pour un an.",
+        translationTr: "Bu daireyi bir yıllığına kiralayacaksınız.",
+        translationEn: "You will rent this apartment for a year.",
+      },
+    ],
+  },
+  {
+    id: "v11-11",
+    french: "S’enfuir",
+    turkish: "Kaçmak / Sıvışmak",
+    english: "To flee / To run away / To escape",
+    pronunciation: "sɑ̃-fɥiʁ",
+    description:
+      "Refleksif bir fiildir. Hızla bir yerden uzaklaşmak veya tehlikeden kaçmak anlamında kullanılır. Genellikle **être** ile çekimlenir.",
+    synonyms: ["fuir", "s’échapper", "détaler"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "m’enfuis",
+        tu: "t’enfuis",
+        il: "s’enfuit",
+        nous: "nous enfuyons",
+        vous: "vous enfuyez",
+        ils: "s’enfuient",
+      },
+      passéComposé: {
+        je: "me suis enfui",
+        tu: "t’es enfui",
+        il: "s’est enfui",
+        nous: "nous sommes enfuis",
+        vous: "vous êtes enfuis",
+        ils: "se sont enfuis",
+      },
+      imparfait: {
+        je: "m’enfuyais",
+        tu: "t’enfuyais",
+        il: "s’enfuyait",
+        nous: "nous enfuyions",
+        vous: "vous enfuyiez",
+        ils: "s’enfuyaient",
+      },
+      futur: {
+        je: "m’enfuirai",
+        tu: "t’enfuiras",
+        il: "s’enfuira",
+        nous: "nous enfuirons",
+        vous: "vous enfuirez",
+        ils: "s’enfuiront",
+      },
+    },
+    examples: [
+      {
+        form: "il s’enfuit",
+        tense: "present",
+        sentence: "Il s’enfuit dès qu’il voit la police.",
+        translationTr: "Polisi görür görmez kaçıyor.",
+        translationEn: "He runs away as soon as he sees the police.",
+      },
+      {
+        form: "je me suis enfui",
+        tense: "passéComposé",
+        sentence: "Je me suis enfui par la fenêtre.",
+        translationTr: "Pencereden kaçtım.",
+        translationEn: "I escaped through the window.",
+      },
+      {
+        form: "nous nous enfuyions",
+        tense: "imparfait",
+        sentence: "Nous nous enfuyions toujours avant la fin du cours.",
+        translationTr: "Ders bitmeden hep kaçardık.",
+        translationEn: "We always ran away before the class ended.",
+      },
+      {
+        form: "ils s’enfuiront",
+        tense: "futur",
+        sentence: "Ils s’enfuiront si tu ne les arrêtes pas.",
+        translationTr: "Eğer onları durdurmazsan kaçacaklar.",
+        translationEn: "They will escape if you don’t stop them.",
+      },
+    ],
+  },
+  {
+    id: "v11-12",
+    french: "Ouvrir",
+    turkish: "Açmak",
+    english: "To open",
+    pronunciation: "u-vʁiʁ",
+    description:
+      "Bir kapıyı, pencereyi ya da objeyi açmak anlamında kullanılır. Duygular veya düşünceler için mecaz anlamda da kullanılabilir (ouvrir son cœur). Bu fiil düzensizdir.",
+    synonyms: ["découvrir", "déverrouiller", "dégager"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "ouvre",
+        tu: "ouvres",
+        il: "ouvre",
+        nous: "ouvrons",
+        vous: "ouvrez",
+        ils: "ouvrent",
+      },
+      passéComposé: {
+        je: "ai ouvert",
+        tu: "as ouvert",
+        il: "a ouvert",
+        nous: "avons ouvert",
+        vous: "avez ouvert",
+        ils: "ont ouvert",
+      },
+      imparfait: {
+        je: "ouvrais",
+        tu: "ouvrais",
+        il: "ouvrait",
+        nous: "ouvrions",
+        vous: "ouvriez",
+        ils: "ouvraient",
+      },
+      futur: {
+        je: "ouvrirai",
+        tu: "ouvriras",
+        il: "ouvrira",
+        nous: "ouvrirons",
+        vous: "ouvrirez",
+        ils: "ouvriront",
+      },
+    },
+    examples: [
+      {
+        form: "j’ouvre",
+        tense: "present",
+        sentence: "J’ouvre la porte lentement.",
+        translationTr: "Kapıyı yavaşça açıyorum.",
+        translationEn: "I open the door slowly.",
+      },
+      {
+        form: "elle a ouvert",
+        tense: "passéComposé",
+        sentence: "Elle a ouvert la boîte.",
+        translationTr: "Kutuyu açtı.",
+        translationEn: "She opened the box.",
+      },
+      {
+        form: "nous ouvrions",
+        tense: "imparfait",
+        sentence: "Nous ouvrions les fenêtres chaque matin.",
+        translationTr: "Her sabah pencereleri açardık.",
+        translationEn: "We used to open the windows every morning.",
+      },
+      {
+        form: "ils ouvriront",
+        tense: "futur",
+        sentence: "Ils ouvriront le magasin à 9 heures.",
+        translationTr: "Mağazayı saat 9’da açacaklar.",
+        translationEn: "They will open the store at 9 o’clock.",
+      },
+    ],
+  },
+
+  {
+    id: "v11-13",
+    french: "Demeurer",
+    turkish: "Kalmak / İkamet etmek / Sürmek",
+    english: "To remain / To stay / To reside",
+    pronunciation: "də-mœ-ʁe",
+    description:
+      "Fiil hem fiziksel olarak bir yerde kalmak (demeurer à Paris), hem de soyut olarak devam etmek/sürmek anlamında kullanılır (la question demeure).",
+    synonyms: ["rester", "habiter", "subsister"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "demeure",
+        tu: "demeures",
+        il: "demeure",
+        nous: "demeurons",
+        vous: "demeurez",
+        ils: "demeurent",
+      },
+      passéComposé: {
+        je: "ai demeuré",
+        tu: "as demeuré",
+        il: "a demeuré",
+        nous: "avons demeuré",
+        vous: "avez demeuré",
+        ils: "ont demeuré",
+      },
+      imparfait: {
+        je: "demeurais",
+        tu: "demeurais",
+        il: "demeurait",
+        nous: "demeurions",
+        vous: "demeuriez",
+        ils: "demeuraient",
+      },
+      futur: {
+        je: "demeurerai",
+        tu: "demeureras",
+        il: "demeurera",
+        nous: "demeurerons",
+        vous: "demeurerez",
+        ils: "demeureront",
+      },
+    },
+    examples: [
+      {
+        form: "il demeure",
+        tense: "present",
+        sentence: "Il demeure encore à Marseille.",
+        translationTr: "Hâlâ Marsilya’da ikamet ediyor.",
+        translationEn: "He still lives in Marseille.",
+      },
+      {
+        form: "la question a demeuré",
+        tense: "passéComposé",
+        sentence: "La question a demeuré sans réponse.",
+        translationTr: "Soru cevapsız kaldı.",
+        translationEn: "The question remained unanswered.",
+      },
+      {
+        form: "je demeurais",
+        tense: "imparfait",
+        sentence: "Je demeurais à Lyon quand j'étais enfant.",
+        translationTr: "Çocukken Lyon’da kalırdım.",
+        translationEn: "I used to live in Lyon when I was a child.",
+      },
+      {
+        form: "ils demeureront",
+        tense: "futur",
+        sentence: "Ils demeureront ici pendant quelques jours.",
+        translationTr: "Birkaç gün burada kalacaklar.",
+        translationEn: "They will stay here for a few days.",
+      },
+    ],
+  },
+  {
+    id: "v11-14",
+    french: "Attaquer",
+    turkish: "Saldırmak / Hücum etmek",
+    english: "To attack / To assault / To tackle",
+    pronunciation: "a-ta-ke",
+    description:
+      "Hem fiziksel saldırı (attaquer une armée) hem de soyut anlamda bir probleme girişmek (attaquer un problème) için kullanılır.",
+    synonyms: ["agresser", "assaillir", "entamer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "attaque",
+        tu: "attaques",
+        il: "attaque",
+        nous: "attaquons",
+        vous: "attaquez",
+        ils: "attaquent",
+      },
+      passéComposé: {
+        je: "ai attaqué",
+        tu: "as attaqué",
+        il: "a attaqué",
+        nous: "avons attaqué",
+        vous: "avez attaqué",
+        ils: "ont attaqué",
+      },
+      imparfait: {
+        je: "attaquais",
+        tu: "attaquais",
+        il: "attaquait",
+        nous: "attaquions",
+        vous: "attaquiez",
+        ils: "attaquaient",
+      },
+      futur: {
+        je: "attaquerai",
+        tu: "attaqueras",
+        il: "attaquera",
+        nous: "attaquerons",
+        vous: "attaquerez",
+        ils: "attaqueront",
+      },
+    },
+    examples: [
+      {
+        form: "ils attaquent",
+        tense: "present",
+        sentence: "Ils attaquent la ville à l’aube.",
+        translationTr: "Şehre şafakta saldırıyorlar.",
+        translationEn: "They are attacking the city at dawn.",
+      },
+      {
+        form: "j’ai attaqué",
+        tense: "passéComposé",
+        sentence: "J’ai attaqué le problème avec détermination.",
+        translationTr: "Soruna kararlılıkla yaklaştım.",
+        translationEn: "I tackled the problem with determination.",
+      },
+      {
+        form: "tu attaquais",
+        tense: "imparfait",
+        sentence: "Tu attaquais toujours sans prévenir.",
+        translationTr: "Her zaman habersiz saldırırdın.",
+        translationEn: "You always attacked without warning.",
+      },
+      {
+        form: "nous attaquerons",
+        tense: "futur",
+        sentence: "Nous attaquerons dès que nous serons prêts.",
+        translationTr: "Hazır olur olmaz saldıracağız.",
+        translationEn: "We will attack as soon as we are ready.",
+      },
+    ],
+  },
+  {
+    id: "v11-15",
+    french: "Dissoudre",
+    turkish: "Eritmek / Feshetmek / Dağıtmak",
+    english: "To dissolve / To disband / To disintegrate",
+    pronunciation: "di-sudʁ",
+    description:
+      "Bir maddeyi sıvı içinde eritmek ya da bir kurumu ya da grubu dağıtmak anlamında kullanılır (dissoudre une assemblée). Düzensiz fiildir.",
+    synonyms: ["fondre", "désintégrer", "abolir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "advanced",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "dissous",
+        tu: "dissous",
+        il: "dissout",
+        nous: "dissolvons",
+        vous: "dissolvez",
+        ils: "dissolvent",
+      },
+      passéComposé: {
+        je: "ai dissous",
+        tu: "as dissous",
+        il: "a dissous",
+        nous: "avons dissous",
+        vous: "avez dissous",
+        ils: "ont dissous",
+      },
+      imparfait: {
+        je: "dissolvais",
+        tu: "dissolvais",
+        il: "dissolvait",
+        nous: "dissolvions",
+        vous: "dissolviez",
+        ils: "dissolvaient",
+      },
+      futur: {
+        je: "dissoudrai",
+        tu: "dissoudras",
+        il: "dissoudra",
+        nous: "dissoudrons",
+        vous: "dissoudrez",
+        ils: "dissoudront",
+      },
+    },
+    examples: [
+      {
+        form: "je dissous",
+        tense: "present",
+        sentence: "Je dissous le sucre dans l’eau chaude.",
+        translationTr: "Şekeri sıcak suda eritiyorum.",
+        translationEn: "I dissolve the sugar in hot water.",
+      },
+      {
+        form: "le président a dissous",
+        tense: "passéComposé",
+        sentence: "Le président a dissous le parlement.",
+        translationTr: "Başkan parlamentoyu feshetti.",
+        translationEn: "The president dissolved the parliament.",
+      },
+      {
+        form: "nous dissolvions",
+        tense: "imparfait",
+        sentence: "Nous dissolvions les comprimés dans un verre d’eau.",
+        translationTr: "Tabletleri bir bardak suda eritirdik.",
+        translationEn: "We used to dissolve the pills in a glass of water.",
+      },
+      {
+        form: "ils dissoudront",
+        tense: "futur",
+        sentence: "Ils dissoudront l’organisation illégale.",
+        translationTr: "Yasa dışı örgütü dağıtacaklar.",
+        translationEn: "They will disband the illegal organization.",
+      },
+    ],
+  },
+
+  {
+    id: "v11-16",
+    french: "Admirer",
+    turkish: "Hayran kalmak / Takdir etmek",
+    english: "To admire / To look up to",
+    pronunciation: "ad-mi-ʁe",
+    description:
+      "Bir kişiye, nesneye ya da davranışa hayranlık duyduğunu belirtmek için kullanılır. Hem duygusal hem estetik hayranlık ifade edebilir.",
+    synonyms: ["apprécier", "vénérer", "aimer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "admire",
+        tu: "admires",
+        il: "admire",
+        nous: "admirons",
+        vous: "admirez",
+        ils: "admirent",
+      },
+      passéComposé: {
+        je: "ai admiré",
+        tu: "as admiré",
+        il: "a admiré",
+        nous: "avons admiré",
+        vous: "avez admiré",
+        ils: "ont admiré",
+      },
+      imparfait: {
+        je: "admirais",
+        tu: "admirais",
+        il: "admirait",
+        nous: "admirions",
+        vous: "admiriez",
+        ils: "admiraient",
+      },
+      futur: {
+        je: "admirerai",
+        tu: "admireras",
+        il: "admirera",
+        nous: "admirerons",
+        vous: "admirerez",
+        ils: "admireront",
+      },
+    },
+    examples: [
+      {
+        form: "je l’admire",
+        tense: "present",
+        sentence: "Je l’admire pour son courage.",
+        translationTr: "Cesareti için ona hayranım.",
+        translationEn: "I admire him for his courage.",
+      },
+      {
+        form: "ils ont admiré",
+        tense: "passéComposé",
+        sentence: "Ils ont admiré le coucher du soleil.",
+        translationTr: "Gün batımına hayran kaldılar.",
+        translationEn: "They admired the sunset.",
+      },
+      {
+        form: "tu admirais",
+        tense: "imparfait",
+        sentence: "Tu admirais toujours les artistes.",
+        translationTr: "Sanatçılara hep hayranlık duyardın.",
+        translationEn: "You always admired the artists.",
+      },
+      {
+        form: "nous admirerons",
+        tense: "futur",
+        sentence: "Nous admirerons la vue ensemble.",
+        translationTr: "Manzarayı birlikte seyredeceğiz.",
+        translationEn: "We will admire the view together.",
+      },
+    ],
+  },
+  {
+    id: "v11-17",
+    french: "Secourir",
+    turkish: "Yardım etmek / Kurtarmak",
+    english: "To help / To rescue / To assist",
+    pronunciation: "sə-ku-ʁiʁ",
+    description:
+      "Acil durumlarda yardım etmek, birini kurtarmak anlamında kullanılır. Genellikle fiziksel yardım (secourir une victime) için geçerlidir.",
+    synonyms: ["aider", "sauver", "porter secours"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "secours",
+        tu: "secours",
+        il: "secourt",
+        nous: "secourons",
+        vous: "secourez",
+        ils: "secourent",
+      },
+      passéComposé: {
+        je: "ai secouru",
+        tu: "as secouru",
+        il: "a secouru",
+        nous: "avons secouru",
+        vous: "avez secouru",
+        ils: "ont secouru",
+      },
+      imparfait: {
+        je: "secourais",
+        tu: "secourais",
+        il: "secourait",
+        nous: "secourions",
+        vous: "secouriez",
+        ils: "secouraient",
+      },
+      futur: {
+        je: "secourrai",
+        tu: "secourras",
+        il: "secourra",
+        nous: "secourrons",
+        vous: "secourrez",
+        ils: "secourront",
+      },
+    },
+    examples: [
+      {
+        form: "ils secourent",
+        tense: "present",
+        sentence: "Ils secourent les victimes de l'accident.",
+        translationTr: "Kaza mağdurlarına yardım ediyorlar.",
+        translationEn: "They are helping the accident victims.",
+      },
+      {
+        form: "il a secouru",
+        tense: "passéComposé",
+        sentence: "Il a secouru un enfant en danger.",
+        translationTr: "Tehlikedeki bir çocuğu kurtardı.",
+        translationEn: "He rescued a child in danger.",
+      },
+      {
+        form: "nous secourions",
+        tense: "imparfait",
+        sentence: "Nous secourions chaque fois qu'on nous appelait.",
+        translationTr: "Bize her çağrıldığında yardıma koşardık.",
+        translationEn: "We helped every time we were called.",
+      },
+      {
+        form: "je secourrai",
+        tense: "futur",
+        sentence: "Je secourrai ceux qui en ont besoin.",
+        translationTr: "İhtiyaç duyanlara yardım edeceğim.",
+        translationEn: "I will help those in need.",
+      },
+    ],
+  },
+  {
+    id: "v11-18",
+    french: "Éviter",
+    turkish: "Kaçınmak / Önlemek",
+    english: "To avoid / To prevent",
+    pronunciation: "e-vi-te",
+    description:
+      "Bir şeyi ya da durumu önlemek veya ondan kaçınmak anlamında kullanılır. Hem fiziksel (éviter un obstacle) hem soyut (éviter un problème) anlamda.",
+    synonyms: ["fuir", "prévenir", "se soustraire à"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "évite",
+        tu: "évites",
+        il: "évite",
+        nous: "évitons",
+        vous: "évitez",
+        ils: "évitent",
+      },
+      passéComposé: {
+        je: "ai évité",
+        tu: "as évité",
+        il: "a évité",
+        nous: "avons évité",
+        vous: "avez évité",
+        ils: "ont évité",
+      },
+      imparfait: {
+        je: "évitais",
+        tu: "évitais",
+        il: "évitait",
+        nous: "évitions",
+        vous: "évitiez",
+        ils: "évitaient",
+      },
+      futur: {
+        je: "éviterai",
+        tu: "éviteras",
+        il: "évitera",
+        nous: "éviterons",
+        vous: "éviterez",
+        ils: "éviteront",
+      },
+    },
+    examples: [
+      {
+        form: "tu évites",
+        tense: "present",
+        sentence: "Tu évites toujours les conflits.",
+        translationTr: "Her zaman çatışmalardan kaçınıyorsun.",
+        translationEn: "You always avoid conflicts.",
+      },
+      {
+        form: "elle a évité",
+        tense: "passéComposé",
+        sentence: "Elle a évité un accident de justesse.",
+        translationTr: "Kıl payı kazadan kurtuldu.",
+        translationEn: "She narrowly avoided an accident.",
+      },
+      {
+        form: "j’évitais",
+        tense: "imparfait",
+        sentence: "J’évitais de parler de ce sujet.",
+        translationTr: "Bu konudan bahsetmekten kaçınırdım.",
+        translationEn: "I used to avoid talking about that subject.",
+      },
+      {
+        form: "nous éviterons",
+        tense: "futur",
+        sentence: "Nous éviterons les embouteillages demain matin.",
+        translationTr: "Yarın sabah trafikten kaçınacağız.",
+        translationEn: "We will avoid the traffic tomorrow morning.",
+      },
+    ],
+  },
+
+  {
+    id: "v11-19",
+    french: "Convaincre",
+    turkish: "İkna etmek",
+    english: "To convince / To persuade",
+    pronunciation: "kɔ̃-vɛ̃kʁ",
+    description:
+      "Bir kişiyi fikir, davranış veya eylem konusunda ikna etmek için kullanılır. Passé composé'de 'convaincu' participe passé formuna sahiptir.",
+    synonyms: ["persuader", "influencer", "séduire"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "advanced",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "convaincs",
+        tu: "convaincs",
+        il: "convainc",
+        nous: "convainquons",
+        vous: "convainquez",
+        ils: "convainquent",
+      },
+      passéComposé: {
+        je: "ai convaincu",
+        tu: "as convaincu",
+        il: "a convaincu",
+        nous: "avons convaincu",
+        vous: "avez convaincu",
+        ils: "ont convaincu",
+      },
+      imparfait: {
+        je: "convainquais",
+        tu: "convainquais",
+        il: "convainquait",
+        nous: "convainquions",
+        vous: "convainquiez",
+        ils: "convainquaient",
+      },
+      futur: {
+        je: "convaincrai",
+        tu: "convaincras",
+        il: "convaincra",
+        nous: "convaincrons",
+        vous: "convaincrez",
+        ils: "convaincront",
+      },
+    },
+    examples: [
+      {
+        form: "je convaincs",
+        tense: "present",
+        sentence: "Je convaincs mon ami de venir.",
+        translationTr: "Arkadaşımı gelmeye ikna ediyorum.",
+        translationEn: "I am convincing my friend to come.",
+      },
+      {
+        form: "il a convaincu",
+        tense: "passéComposé",
+        sentence: "Il a convaincu tout le monde avec ses arguments.",
+        translationTr: "Argümanlarıyla herkesi ikna etti.",
+        translationEn: "He convinced everyone with his arguments.",
+      },
+      {
+        form: "nous convainquions",
+        tense: "imparfait",
+        sentence: "Nous convainquions les autres avec passion.",
+        translationTr: "Diğerlerini tutkuyla ikna ederdik.",
+        translationEn: "We used to convince others passionately.",
+      },
+      {
+        form: "ils convaincront",
+        tense: "futur",
+        sentence: "Ils convaincront les investisseurs demain.",
+        translationTr: "Yatırımcıları yarın ikna edecekler.",
+        translationEn: "They will convince the investors tomorrow.",
+      },
+    ],
+  },
+  {
+    id: "v11-20",
+    french: "Rappeler",
+    turkish: "Hatırlatmak / Geri aramak",
+    english: "To remind / To call back",
+    pronunciation: "ʁa-pə-le",
+    description:
+      "Bir şeyi birine hatırlatmak (rappeler un fait) ya da telefonla geri aramak anlamında kullanılır. Refleksif hali 'se rappeler' ise 'hatırlamak' anlamına gelir.",
+    synonyms: ["remémorer", "retéléphoner", "répéter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "rappelle",
+        tu: "rappelles",
+        il: "rappelle",
+        nous: "rappelons",
+        vous: "rappelez",
+        ils: "rappellent",
+      },
+      passéComposé: {
+        je: "ai rappelé",
+        tu: "as rappelé",
+        il: "a rappelé",
+        nous: "avons rappelé",
+        vous: "avez rappelé",
+        ils: "ont rappelé",
+      },
+      imparfait: {
+        je: "rappelais",
+        tu: "rappelais",
+        il: "rappelait",
+        nous: "rappelions",
+        vous: "rappeliez",
+        ils: "rappelaient",
+      },
+      futur: {
+        je: "rappellerai",
+        tu: "rappelleras",
+        il: "rappellera",
+        nous: "rappellerons",
+        vous: "rappellerez",
+        ils: "rappelleront",
+      },
+    },
+    examples: [
+      {
+        form: "je rappelle",
+        tense: "present",
+        sentence: "Je rappelle toujours les dates importantes.",
+        translationTr: "Her zaman önemli tarihleri hatırlatırım.",
+        translationEn: "I always remind important dates.",
+      },
+      {
+        form: "elle a rappelé",
+        tense: "passéComposé",
+        sentence: "Elle a rappelé son client immédiatement.",
+        translationTr: "Müşterisini hemen geri aradı.",
+        translationEn: "She called her client back immediately.",
+      },
+      {
+        form: "nous rappelions",
+        tense: "imparfait",
+        sentence: "Nous rappelions souvent les règles.",
+        translationTr: "Kuralları sık sık hatırlatırdık.",
+        translationEn: "We used to remind the rules often.",
+      },
+      {
+        form: "tu rappelleras",
+        tense: "futur",
+        sentence: "Tu rappelleras ta sœur ce soir.",
+        translationTr: "Kız kardeşini bu akşam geri arayacaksın.",
+        translationEn: "You will call your sister back tonight.",
+      },
+    ],
+  },
+  {
+    id: "v11-21",
+    french: "Plaisanter",
+    turkish: "Şaka yapmak / Dalga geçmek",
+    english: "To joke / To kid / To tease",
+    pronunciation: "plɛ-zɑ̃-te",
+    description:
+      "Birini güldürmek amacıyla espri yapmak anlamında kullanılır. Aynı zamanda biriyle alaycı bir şekilde konuşmak için de kullanılabilir.",
+    synonyms: ["blaguer", "taquiner", "se moquer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "plaisante",
+        tu: "plaisantes",
+        il: "plaisante",
+        nous: "plaisantons",
+        vous: "plaisantez",
+        ils: "plaisantent",
+      },
+      passéComposé: {
+        je: "ai plaisanté",
+        tu: "as plaisanté",
+        il: "a plaisanté",
+        nous: "avons plaisanté",
+        vous: "avez plaisanté",
+        ils: "ont plaisanté",
+      },
+      imparfait: {
+        je: "plaisantais",
+        tu: "plaisantais",
+        il: "plaisantait",
+        nous: "plaisantions",
+        vous: "plaisantiez",
+        ils: "plaisantaient",
+      },
+      futur: {
+        je: "plaisanterai",
+        tu: "plaisanteras",
+        il: "plaisantera",
+        nous: "plaisanterons",
+        vous: "plaisanterez",
+        ils: "plaisanteront",
+      },
+    },
+    examples: [
+      {
+        form: "tu plaisantes",
+        tense: "present",
+        sentence: "Tu plaisantes tout le temps en classe.",
+        translationTr: "Sınıfta hep şaka yapıyorsun.",
+        translationEn: "You always joke in class.",
+      },
+      {
+        form: "j’ai plaisanté",
+        tense: "passéComposé",
+        sentence: "J’ai plaisanté pour détendre l’atmosphère.",
+        translationTr: "Havayı yumuşatmak için şaka yaptım.",
+        translationEn: "I joked to lighten the mood.",
+      },
+      {
+        form: "il plaisantait",
+        tense: "imparfait",
+        sentence: "Il plaisantait même dans les situations sérieuses.",
+        translationTr: "Ciddi durumlarda bile şaka yapardı.",
+        translationEn: "He used to joke even in serious situations.",
+      },
+      {
+        form: "nous plaisanterons",
+        tense: "futur",
+        sentence: "Nous plaisanterons autour d’un café.",
+        translationTr: "Bir kahve eşliğinde şakalaşacağız.",
+        translationEn: "We will joke over a coffee.",
+      },
+    ],
+  },
+
+  {
+    id: "v11-22",
+    french: "Continuer",
+    turkish: "Devam etmek / Sürdürmek",
+    english: "To continue / To keep going",
+    pronunciation: "kɔ̃-ti-nɥe",
+    description:
+      "Bir eylemi kesintisiz şekilde sürdürmek anlamında kullanılır. 'Continuer à' ya da 'continuer de' kalıplarıyla kullanımı yaygındır.",
+    synonyms: ["poursuivre", "maintenir", "prolonger"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "continue",
+        tu: "continues",
+        il: "continue",
+        nous: "continuons",
+        vous: "continuez",
+        ils: "continuent",
+      },
+      passéComposé: {
+        je: "ai continué",
+        tu: "as continué",
+        il: "a continué",
+        nous: "avons continué",
+        vous: "avez continué",
+        ils: "ont continué",
+      },
+      imparfait: {
+        je: "continuais",
+        tu: "continuais",
+        il: "continuait",
+        nous: "continuions",
+        vous: "continuiez",
+        ils: "continuaient",
+      },
+      futur: {
+        je: "continuerai",
+        tu: "continueras",
+        il: "continuera",
+        nous: "continuerons",
+        vous: "continuerez",
+        ils: "continueront",
+      },
+    },
+    examples: [
+      {
+        form: "je continue",
+        tense: "present",
+        sentence: "Je continue à apprendre chaque jour.",
+        translationTr: "Her gün öğrenmeye devam ediyorum.",
+        translationEn: "I continue to learn every day.",
+      },
+      {
+        form: "nous avons continué",
+        tense: "passéComposé",
+        sentence: "Nous avons continué malgré les difficultés.",
+        translationTr: "Zorluklara rağmen devam ettik.",
+        translationEn: "We continued despite the difficulties.",
+      },
+      {
+        form: "elle continuait",
+        tense: "imparfait",
+        sentence: "Elle continuait à parler sans s’arrêter.",
+        translationTr: "Durmaksızın konuşmaya devam ediyordu.",
+        translationEn: "She kept talking without stopping.",
+      },
+      {
+        form: "ils continueront",
+        tense: "futur",
+        sentence: "Ils continueront le projet demain.",
+        translationTr: "Projeye yarın devam edecekler.",
+        translationEn: "They will continue the project tomorrow.",
+      },
+    ],
+  },
+  {
+    id: "v11-23",
+    french: "Ajouter",
+    turkish: "Eklemek / İlave etmek",
+    english: "To add / To append",
+    pronunciation: "a-ʒu-te",
+    description:
+      "Bir şeye ekleme yapmak anlamında kullanılır. Hem fiziksel (yemek malzemesi eklemek) hem soyut (yorum eklemek) anlamları vardır.",
+    synonyms: ["insérer", "joindre", "compléter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "ajoute",
+        tu: "ajoutes",
+        il: "ajoute",
+        nous: "ajoutons",
+        vous: "ajoutez",
+        ils: "ajoutent",
+      },
+      passéComposé: {
+        je: "ai ajouté",
+        tu: "as ajouté",
+        il: "a ajouté",
+        nous: "avons ajouté",
+        vous: "avez ajouté",
+        ils: "ont ajouté",
+      },
+      imparfait: {
+        je: "ajoutais",
+        tu: "ajoutais",
+        il: "ajoutait",
+        nous: "ajoutions",
+        vous: "ajoutiez",
+        ils: "ajoutaient",
+      },
+      futur: {
+        je: "ajouterai",
+        tu: "ajouteras",
+        il: "ajoutera",
+        nous: "ajouterons",
+        vous: "ajouterez",
+        ils: "ajouteront",
+      },
+    },
+    examples: [
+      {
+        form: "tu ajoutes",
+        tense: "present",
+        sentence: "Tu ajoutes trop de sel.",
+        translationTr: "Çok fazla tuz ekliyorsun.",
+        translationEn: "You are adding too much salt.",
+      },
+      {
+        form: "j’ai ajouté",
+        tense: "passéComposé",
+        sentence: "J’ai ajouté une remarque importante.",
+        translationTr: "Önemli bir not ekledim.",
+        translationEn: "I added an important remark.",
+      },
+      {
+        form: "nous ajoutions",
+        tense: "imparfait",
+        sentence: "Nous ajoutions toujours des épices.",
+        translationTr: "Her zaman baharat eklerdik.",
+        translationEn: "We always added spices.",
+      },
+      {
+        form: "vous ajouterez",
+        tense: "futur",
+        sentence: "Vous ajouterez cette phrase à la fin.",
+        translationTr: "Bu cümleyi sona ekleyeceksiniz.",
+        translationEn: "You will add this sentence at the end.",
+      },
+    ],
+  },
+  {
+    id: "v11-24",
+    french: "Tutoyer",
+    turkish: "Senli benli konuşmak",
+    english: "To address informally (use 'tu')",
+    pronunciation: "ty-twa-je",
+    description:
+      "Bir kişiye 'vous' yerine 'tu' zamiriyle hitap etmek anlamında kullanılır. Genellikle samimiyet veya yaş farkı belirten ortamlarda tercih edilir.",
+    synonyms: ["appeler par 'tu'", "être familier", "parler librement"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "tutoye",
+        tu: "tutoyes",
+        il: "tutoye",
+        nous: "tutoyons",
+        vous: "tutoyez",
+        ils: "tutoyent",
+      },
+      passéComposé: {
+        je: "ai tutoyé",
+        tu: "as tutoyé",
+        il: "a tutoyé",
+        nous: "avons tutoyé",
+        vous: "avez tutoyé",
+        ils: "ont tutoyé",
+      },
+      imparfait: {
+        je: "tutoyais",
+        tu: "tutoyais",
+        il: "tutoyait",
+        nous: "tutoyions",
+        vous: "tutoyiez",
+        ils: "tutoyaient",
+      },
+      futur: {
+        je: "tutoyerai",
+        tu: "tutoyeras",
+        il: "tutoyera",
+        nous: "tutoyerons",
+        vous: "tutoyerez",
+        ils: "tutoyeront",
+      },
+    },
+    examples: [
+      {
+        form: "je tutoie",
+        tense: "present",
+        sentence: "Je tutoie mes collègues proches.",
+        translationTr: "Yakın iş arkadaşlarıma senli benli hitap ediyorum.",
+        translationEn: "I address my close colleagues informally.",
+      },
+      {
+        form: "il a tutoyé",
+        tense: "passéComposé",
+        sentence: "Il a tutoyé le directeur par erreur.",
+        translationTr: "Müdüre yanlışlıkla senli konuştu.",
+        translationEn: "He addressed the director informally by mistake.",
+      },
+      {
+        form: "tu tutoyais",
+        tense: "imparfait",
+        sentence: "Tu tutoyais tout le monde à l’école.",
+        translationTr: "Okulda herkesle senli konuşurdun.",
+        translationEn: "You used to address everyone informally at school.",
+      },
+      {
+        form: "nous tutoyerons",
+        tense: "futur",
+        sentence: "Nous tutoyerons une fois que nous serons amis.",
+        translationTr: "Arkadaş olduktan sonra senli konuşacağız.",
+        translationEn: "We will use 'tu' once we are friends.",
+      },
+    ],
+  },
+
+  {
+    id: "v11-25",
+    french: "Espérer",
+    turkish: "Ummak / Ümit etmek",
+    english: "To hope / To expect",
+    pronunciation: "ɛ-spe-ʁe",
+    description:
+      "Bir olayın gerçekleşmesini istemek ya da beklemek anlamında kullanılır. Düzensiz bir fiildir; bazı şahıslarda 'é' → 'è' dönüşümü olur (j’espère, tu espères).",
+    synonyms: ["souhaiter", "attendre", "désirer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-11",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "espère",
+        tu: "espères",
+        il: "espère",
+        nous: "espérons",
+        vous: "espérez",
+        ils: "espèrent",
+      },
+      passéComposé: {
+        je: "ai espéré",
+        tu: "as espéré",
+        il: "a espéré",
+        nous: "avons espéré",
+        vous: "avez espéré",
+        ils: "ont espéré",
+      },
+      imparfait: {
+        je: "espérais",
+        tu: "espérais",
+        il: "espérait",
+        nous: "espérions",
+        vous: "espériez",
+        ils: "espéraient",
+      },
+      futur: {
+        je: "espérerai",
+        tu: "espéreras",
+        il: "espérera",
+        nous: "espérerons",
+        vous: "espérerez",
+        ils: "espéreront",
+      },
+    },
+    examples: [
+      {
+        form: "j’espère",
+        tense: "present",
+        sentence: "J’espère qu’il fera beau demain.",
+        translationTr: "Yarın havanın güzel olmasını umuyorum.",
+        translationEn: "I hope the weather will be nice tomorrow.",
+      },
+      {
+        form: "nous avons espéré",
+        tense: "passéComposé",
+        sentence: "Nous avons espéré jusqu’à la dernière minute.",
+        translationTr: "Son dakikaya kadar umut ettik.",
+        translationEn: "We hoped until the last minute.",
+      },
+      {
+        form: "tu espérais",
+        tense: "imparfait",
+        sentence: "Tu espérais une réponse rapide.",
+        translationTr: "Hızlı bir cevap bekliyordun.",
+        translationEn: "You were hoping for a quick reply.",
+      },
+      {
+        form: "ils espéreront",
+        tense: "futur",
+        sentence: "Ils espéreront une amélioration.",
+        translationTr: "Bir iyileşme umacaklar.",
+        translationEn: "They will hope for an improvement.",
+      },
+    ],
+  },
+  {
+    id: "v12-1",
+    french: "Montrer",
+    turkish: "Göstermek",
+    english: "To show / To display",
+    pronunciation: "mɔ̃-tʁe",
+    description:
+      "Bir şeyi ya da kişiyi başkasına göstermek anlamında kullanılır. Hem somut hem soyut nesnelerle kullanılabilir (montrer un document / montrer son courage).",
+    synonyms: ["indiquer", "présenter", "dévoiler"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "montre",
+        tu: "montres",
+        il: "montre",
+        nous: "montrons",
+        vous: "montrez",
+        ils: "montrent",
+      },
+      passéComposé: {
+        je: "ai montré",
+        tu: "as montré",
+        il: "a montré",
+        nous: "avons montré",
+        vous: "avez montré",
+        ils: "ont montré",
+      },
+      imparfait: {
+        je: "montrais",
+        tu: "montrais",
+        il: "montrait",
+        nous: "montrions",
+        vous: "montriez",
+        ils: "montraient",
+      },
+      futur: {
+        je: "montrerai",
+        tu: "montreras",
+        il: "montrera",
+        nous: "montrerons",
+        vous: "montrerez",
+        ils: "montreront",
+      },
+    },
+    examples: [
+      {
+        form: "je montre",
+        tense: "present",
+        sentence: "Je montre mes photos à mes amis.",
+        translationTr: "Fotoğraflarımı arkadaşlarıma gösteriyorum.",
+        translationEn: "I show my photos to my friends.",
+      },
+      {
+        form: "il a montré",
+        tense: "passéComposé",
+        sentence: "Il a montré sa carte d’identité.",
+        translationTr: "Kimliğini gösterdi.",
+        translationEn: "He showed his ID card.",
+      },
+      {
+        form: "tu montrais",
+        tense: "imparfait",
+        sentence: "Tu montrais toujours l’exemple.",
+        translationTr: "Her zaman örnek olurdun.",
+        translationEn: "You always set an example.",
+      },
+      {
+        form: "nous montrerons",
+        tense: "futur",
+        sentence: "Nous montrerons notre projet demain.",
+        translationTr: "Projeyi yarın göstereceğiz.",
+        translationEn: "We will show our project tomorrow.",
+      },
+    ],
+  },
+  {
+    id: "v12-2",
+    french: "Jaunir",
+    turkish: "Sararmak / Sarartmak",
+    english: "To turn yellow / To yellow",
+    pronunciation: "ʒo-niʁ",
+    description:
+      "Genellikle zamanla sararan nesneler (kağıt, yaprak, giysi) için kullanılır. -ir ile biten düzenli ikinci grup fiillerdendir.",
+    synonyms: ["se décolorer", "se ternir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "jaunis",
+        tu: "jaunis",
+        il: "jaunit",
+        nous: "jaunissons",
+        vous: "jaunissez",
+        ils: "jaunissent",
+      },
+      passéComposé: {
+        je: "ai jauni",
+        tu: "as jauni",
+        il: "a jauni",
+        nous: "avons jauni",
+        vous: "avez jauni",
+        ils: "ont jauni",
+      },
+      imparfait: {
+        je: "jaunissais",
+        tu: "jaunissais",
+        il: "jaunissait",
+        nous: "jaunissions",
+        vous: "jaunissiez",
+        ils: "jaunissaient",
+      },
+      futur: {
+        je: "jaunirai",
+        tu: "jauniras",
+        il: "jaunira",
+        nous: "jaunirons",
+        vous: "jaunirez",
+        ils: "jauniront",
+      },
+    },
+    examples: [
+      {
+        form: "le papier jaunit",
+        tense: "present",
+        sentence: "Le papier jaunit avec le temps.",
+        translationTr: "Kağıt zamanla sararıyor.",
+        translationEn: "Paper turns yellow over time.",
+      },
+      {
+        form: "elle a jauni",
+        tense: "passéComposé",
+        sentence: "Elle a jauni sa robe au soleil.",
+        translationTr: "Güneşte elbisesi sarardı.",
+        translationEn: "Her dress turned yellow in the sun.",
+      },
+      {
+        form: "nous jaunissions",
+        tense: "imparfait",
+        sentence: "Nous jaunissions les feuilles avec du thé.",
+        translationTr: "Yaprakları çayla sarartırdık.",
+        translationEn: "We used to yellow the leaves with tea.",
+      },
+      {
+        form: "ils jauniront",
+        tense: "futur",
+        sentence: "Les murs jauniront s’ils ne sont pas repeints.",
+        translationTr: "Duvarlar boyanmazsa sararacak.",
+        translationEn: "The walls will turn yellow if not repainted.",
+      },
+    ],
+  },
+  {
+    id: "v12-3",
+    french: "Voir",
+    turkish: "Görmek",
+    english: "To see",
+    pronunciation: "vwaʁ",
+    description:
+      "Görsel algıyla bir şeyi fark etmek ya da görmek anlamında kullanılır. Aynı zamanda 'anlamak' ya da 'karşılaşmak' anlamında da kullanılabilir. Düzensiz bir fiildir.",
+    synonyms: ["apercevoir", "observer", "regarder"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "vois",
+        tu: "vois",
+        il: "voit",
+        nous: "voyons",
+        vous: "voyez",
+        ils: "voient",
+      },
+      passéComposé: {
+        je: "ai vu",
+        tu: "as vu",
+        il: "a vu",
+        nous: "avons vu",
+        vous: "avez vu",
+        ils: "ont vu",
+      },
+      imparfait: {
+        je: "voyais",
+        tu: "voyais",
+        il: "voyait",
+        nous: "voyions",
+        vous: "voyiez",
+        ils: "voyaient",
+      },
+      futur: {
+        je: "verrai",
+        tu: "verras",
+        il: "verra",
+        nous: "verrons",
+        vous: "verrez",
+        ils: "verront",
+      },
+    },
+    examples: [
+      {
+        form: "je vois",
+        tense: "present",
+        sentence: "Je vois les étoiles dans le ciel.",
+        translationTr: "Gökyüzünde yıldızları görüyorum.",
+        translationEn: "I see the stars in the sky.",
+      },
+      {
+        form: "nous avons vu",
+        tense: "passéComposé",
+        sentence: "Nous avons vu un film hier soir.",
+        translationTr: "Dün akşam bir film izledik.",
+        translationEn: "We saw a movie last night.",
+      },
+      {
+        form: "tu voyais",
+        tense: "imparfait",
+        sentence: "Tu voyais toujours le bon côté des choses.",
+        translationTr: "Her zaman olayların iyi tarafını görürdün.",
+        translationEn: "You always saw the bright side of things.",
+      },
+      {
+        form: "ils verront",
+        tense: "futur",
+        sentence: "Ils verront la vérité tôt ou tard.",
+        translationTr: "Er ya da geç gerçeği görecekler.",
+        translationEn: "They will see the truth sooner or later.",
+      },
+    ],
+  },
+  {
+    id: "v12-4",
+    french: "Culpabiliser",
+    turkish: "Suçluluk hissetmek / Suçlamak",
+    english: "To feel guilty / To make someone feel guilty",
+    pronunciation: "kyl-pa-bi-li-ze",
+    description:
+      "Hem kişinin kendini suçlu hissetmesi hem de başkasına suçluluk hissettirme anlamında kullanılır. Özellikle psikolojik bağlamlarda yaygındır.",
+    synonyms: ["se reprocher", "blâmer", "accuser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "culpabilise",
+        tu: "culpabilises",
+        il: "culpabilise",
+        nous: "culpabilisons",
+        vous: "culpabilisez",
+        ils: "culpabilisent",
+      },
+      passéComposé: {
+        je: "ai culpabilisé",
+        tu: "as culpabilisé",
+        il: "a culpabilisé",
+        nous: "avons culpabilisé",
+        vous: "avez culpabilisé",
+        ils: "ont culpabilisé",
+      },
+      imparfait: {
+        je: "culpabilisais",
+        tu: "culpabilisais",
+        il: "culpabilisait",
+        nous: "culpabilisions",
+        vous: "culpabilisiez",
+        ils: "culpabilisaient",
+      },
+      futur: {
+        je: "culpabiliserai",
+        tu: "culpabiliseras",
+        il: "culpabilisera",
+        nous: "culpabiliserons",
+        vous: "culpabiliserez",
+        ils: "culpabiliseront",
+      },
+    },
+    examples: [
+      {
+        form: "je culpabilise",
+        tense: "present",
+        sentence: "Je culpabilise d’avoir oublié son anniversaire.",
+        translationTr: "Doğum gününü unuttuğum için suçluluk hissediyorum.",
+        translationEn: "I feel guilty for forgetting their birthday.",
+      },
+      {
+        form: "elle a culpabilisé",
+        tense: "passéComposé",
+        sentence: "Elle a culpabilisé après avoir crié.",
+        translationTr: "Bağırdıktan sonra suçluluk hissetti.",
+        translationEn: "She felt guilty after shouting.",
+      },
+      {
+        form: "tu culpabilisais",
+        tense: "imparfait",
+        sentence: "Tu culpabilisais pour des choses insignifiantes.",
+        translationTr: "Önemsiz şeyler için suçluluk hissediyordun.",
+        translationEn: "You used to feel guilty for insignificant things.",
+      },
+      {
+        form: "nous culpabiliserons",
+        tense: "futur",
+        sentence: "Nous culpabiliserons si nous ne l’aidons pas.",
+        translationTr: "Ona yardım etmezsek suçluluk hissedeceğiz.",
+        translationEn: "We will feel guilty if we don't help him.",
+      },
+    ],
+  },
+  {
+    id: "v12-5",
+    french: "Accompagner",
+    turkish: "Eşlik etmek",
+    english: "To accompany / To go with",
+    pronunciation: "a-kɔ̃-pa-ɲe",
+    description:
+      "Bir kişiye ya da duruma fiziksel veya manevi olarak eşlik etmek anlamına gelir. Müzikal, sosyal ve duygusal bağlamlarda da kullanılır.",
+    synonyms: ["suivre", "escorter", "assister"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "accompagne",
+        tu: "accompagnes",
+        il: "accompagne",
+        nous: "accompagnons",
+        vous: "accompagnez",
+        ils: "accompagnent",
+      },
+      passéComposé: {
+        je: "ai accompagné",
+        tu: "as accompagné",
+        il: "a accompagné",
+        nous: "avons accompagné",
+        vous: "avez accompagné",
+        ils: "ont accompagné",
+      },
+      imparfait: {
+        je: "accompagnais",
+        tu: "accompagnais",
+        il: "accompagnait",
+        nous: "accompagnions",
+        vous: "accompagniez",
+        ils: "accompagnaient",
+      },
+      futur: {
+        je: "accompagnerai",
+        tu: "accompagneras",
+        il: "accompagnera",
+        nous: "accompagnerons",
+        vous: "accompagnerez",
+        ils: "accompagneront",
+      },
+    },
+    examples: [
+      {
+        form: "je t’accompagne",
+        tense: "present",
+        sentence: "Je t’accompagne au rendez-vous.",
+        translationTr: "Randevuna sana eşlik ediyorum.",
+        translationEn: "I’m accompanying you to the appointment.",
+      },
+      {
+        form: "nous avons accompagné",
+        tense: "passéComposé",
+        sentence: "Nous avons accompagné nos amis à la gare.",
+        translationTr: "Arkadaşlarımıza istasyona kadar eşlik ettik.",
+        translationEn: "We accompanied our friends to the station.",
+      },
+      {
+        form: "il accompagnait",
+        tense: "imparfait",
+        sentence: "Il accompagnait souvent sa mère chez le médecin.",
+        translationTr: "Annesine doktora sık sık eşlik ederdi.",
+        translationEn: "He often accompanied his mother to the doctor.",
+      },
+      {
+        form: "vous accompagnerez",
+        tense: "futur",
+        sentence: "Vous accompagnerez les enfants à l’école demain ?",
+        translationTr: "Yarın çocuklara okula kadar eşlik edecek misiniz?",
+        translationEn: "Will you accompany the children to school tomorrow?",
+      },
+    ],
+  },
+  {
+    id: "v12-6",
+    french: "Acheter",
+    turkish: "Satın almak",
+    english: "To buy / To purchase",
+    pronunciation: "a-ʃə-te",
+    description:
+      "Bir ürün veya hizmeti para karşılığı almak anlamında kullanılır. Düzensiz bir fiildir; kök değişimi olur (j’achète, nous achetons).",
+    synonyms: ["acquérir", "se procurer", "payer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "achète",
+        tu: "achètes",
+        il: "achète",
+        nous: "achetons",
+        vous: "achetez",
+        ils: "achètent",
+      },
+      passéComposé: {
+        je: "ai acheté",
+        tu: "as acheté",
+        il: "a acheté",
+        nous: "avons acheté",
+        vous: "avez acheté",
+        ils: "ont acheté",
+      },
+      imparfait: {
+        je: "achetais",
+        tu: "achetais",
+        il: "achetait",
+        nous: "achetions",
+        vous: "achetiez",
+        ils: "achetaient",
+      },
+      futur: {
+        je: "achèterai",
+        tu: "achèteras",
+        il: "achètera",
+        nous: "achèterons",
+        vous: "achèterez",
+        ils: "achèteront",
+      },
+    },
+    examples: [
+      {
+        form: "j’achète",
+        tense: "present",
+        sentence: "J’achète une nouvelle veste pour l’hiver.",
+        translationTr: "Kış için yeni bir ceket alıyorum.",
+        translationEn: "I’m buying a new jacket for winter.",
+      },
+      {
+        form: "tu as acheté",
+        tense: "passéComposé",
+        sentence: "Tu as acheté cette voiture en solde ?",
+        translationTr: "Bu arabayı indirimde mi aldın?",
+        translationEn: "Did you buy this car on sale?",
+      },
+      {
+        form: "ils achetaient",
+        tense: "imparfait",
+        sentence: "Ils achetaient toujours du pain frais.",
+        translationTr: "Her zaman taze ekmek alırlardı.",
+        translationEn: "They always used to buy fresh bread.",
+      },
+      {
+        form: "nous achèterons",
+        tense: "futur",
+        sentence: "Nous achèterons les billets demain.",
+        translationTr: "Biletleri yarın alacağız.",
+        translationEn: "We will buy the tickets tomorrow.",
+      },
+    ],
+  },
+  {
+    id: "v12-7",
+    french: "Couvrir",
+    turkish: "Örtmek / Kaplamak / Kapsamak",
+    english: "To cover",
+    pronunciation: "ku-vʁiʁ",
+    description:
+      "Fiziksel olarak bir şeyi örtmek, korumak veya kapsamak anlamında kullanılır. Düzensiz bir fiildir (je couvre, nous couvrons, j’ai couvert).",
+    synonyms: ["protéger", "envelopper", "masquer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "couvre",
+        tu: "couvres",
+        il: "couvre",
+        nous: "couvrons",
+        vous: "couvrez",
+        ils: "couvrent",
+      },
+      passéComposé: {
+        je: "ai couvert",
+        tu: "as couvert",
+        il: "a couvert",
+        nous: "avons couvert",
+        vous: "avez couvert",
+        ils: "ont couvert",
+      },
+      imparfait: {
+        je: "couvrais",
+        tu: "couvrais",
+        il: "couvrait",
+        nous: "couvrions",
+        vous: "couvriez",
+        ils: "couvraient",
+      },
+      futur: {
+        je: "couvrirai",
+        tu: "couvriras",
+        il: "couvrira",
+        nous: "couvrirons",
+        vous: "couvrirez",
+        ils: "couvriront",
+      },
+    },
+    examples: [
+      {
+        form: "je couvre",
+        tense: "present",
+        sentence: "Je couvre la casserole avec un couvercle.",
+        translationTr: "Tencereyi bir kapakla örtüyorum.",
+        translationEn: "I’m covering the pot with a lid.",
+      },
+      {
+        form: "il a couvert",
+        tense: "passéComposé",
+        sentence: "Il a couvert le bébé avec une couverture.",
+        translationTr: "Bebeği bir battaniyeyle örttü.",
+        translationEn: "He covered the baby with a blanket.",
+      },
+      {
+        form: "nous couvrions",
+        tense: "imparfait",
+        sentence: "Nous couvrions toujours les plantes en hiver.",
+        translationTr: "Kışın bitkileri her zaman örterdik.",
+        translationEn: "We always used to cover the plants in winter.",
+      },
+      {
+        form: "ils couvriront",
+        tense: "futur",
+        sentence: "Ils couvriront les frais de voyage.",
+        translationTr: "Seyahat masraflarını karşılayacaklar.",
+        translationEn: "They will cover the travel expenses.",
+      },
+    ],
+  },
+  {
+    id: "v12-8",
+    french: "Ressembler",
+    turkish: "Benzemek",
+    english: "To resemble / To look like",
+    pronunciation: "ʁə-sɑ̃-ble",
+    description:
+      "Birine ya da bir şeye benzemek, görünüş veya davranış açısından benzerlik taşımak anlamında kullanılır. Genellikle 'à' edatı ile birlikte kullanılır (ressembler à qn/qc).",
+    synonyms: ["s'apparenter", "imiter", "évoquer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "ressemble",
+        tu: "ressembles",
+        il: "ressemble",
+        nous: "ressemblons",
+        vous: "ressemblez",
+        ils: "ressemblent",
+      },
+      passéComposé: {
+        je: "ai ressemblé",
+        tu: "as ressemblé",
+        il: "a ressemblé",
+        nous: "avons ressemblé",
+        vous: "avez ressemblé",
+        ils: "ont ressemblé",
+      },
+      imparfait: {
+        je: "ressemblais",
+        tu: "ressemblais",
+        il: "ressemblait",
+        nous: "ressemblions",
+        vous: "ressembliez",
+        ils: "ressemblaient",
+      },
+      futur: {
+        je: "ressemblerai",
+        tu: "ressembleras",
+        il: "ressemblera",
+        nous: "ressemblerons",
+        vous: "ressemblerez",
+        ils: "ressembleront",
+      },
+    },
+    examples: [
+      {
+        form: "il ressemble",
+        tense: "present",
+        sentence: "Il ressemble beaucoup à son père.",
+        translationTr: "Babasına çok benziyor.",
+        translationEn: "He looks a lot like his father.",
+      },
+      {
+        form: "j’ai ressemblé",
+        tense: "passéComposé",
+        sentence: "J’ai ressemblé à ma mère dans cette photo.",
+        translationTr: "Bu fotoğrafta anneme benzedim.",
+        translationEn: "I looked like my mother in this photo.",
+      },
+      {
+        form: "tu ressemblais",
+        tense: "imparfait",
+        sentence: "Tu ressemblais à un artiste célèbre.",
+        translationTr: "Ünlü bir sanatçıya benziyordun.",
+        translationEn: "You used to resemble a famous artist.",
+      },
+      {
+        form: "nous ressemblerons",
+        tense: "futur",
+        sentence: "Nous ressemblerons à nos parents un jour.",
+        translationTr: "Bir gün ebeveynlerimize benzeyeceğiz.",
+        translationEn: "We will look like our parents one day.",
+      },
+    ],
+  },
+  {
+    id: "v12-9",
+    french: "Signifier",
+    turkish: "Anlamına gelmek / Bildirmek",
+    english: "To mean / To signify",
+    pronunciation: "si-ɲi-fje",
+    description:
+      "Bir kelime, hareket veya olayın taşıdığı anlamı belirtmek ya da resmi olarak bildirmek anlamında kullanılır. Hem gündelik hem de resmi bağlamda kullanılır.",
+    synonyms: ["vouloir dire", "indiquer", "exprimer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "signifie",
+        tu: "signifies",
+        il: "signifie",
+        nous: "signifions",
+        vous: "signifiez",
+        ils: "signifient",
+      },
+      passéComposé: {
+        je: "ai signifié",
+        tu: "as signifié",
+        il: "a signifié",
+        nous: "avons signifié",
+        vous: "avez signifié",
+        ils: "ont signifié",
+      },
+      imparfait: {
+        je: "signifiais",
+        tu: "signifiais",
+        il: "signifiait",
+        nous: "signifiions",
+        vous: "signifiiez",
+        ils: "signifiaient",
+      },
+      futur: {
+        je: "signifierai",
+        tu: "signifieras",
+        il: "signifiera",
+        nous: "signifierons",
+        vous: "signifierez",
+        ils: "signifieront",
+      },
+    },
+    examples: [
+      {
+        form: "cela signifie",
+        tense: "present",
+        sentence: "Cela signifie que tu dois partir.",
+        translationTr: "Bu, gitmen gerektiği anlamına geliyor.",
+        translationEn: "That means you have to leave.",
+      },
+      {
+        form: "nous avons signifié",
+        tense: "passéComposé",
+        sentence: "Nous avons signifié notre désaccord.",
+        translationTr: "Fikrimize katılmadığımızı belirttik.",
+        translationEn: "We signified our disagreement.",
+      },
+      {
+        form: "il signifiait",
+        tense: "imparfait",
+        sentence: "Il signifiait souvent son mécontentement par le silence.",
+        translationTr:
+          "Memnuniyetsizliğini genellikle sessizlikle ifade ederdi.",
+        translationEn:
+          "He often signified his dissatisfaction through silence.",
+      },
+      {
+        form: "je signifierai",
+        tense: "futur",
+        sentence: "Je signifierai ma décision demain.",
+        translationTr: "Kararımı yarın bildireceğim.",
+        translationEn: "I will signify my decision tomorrow.",
+      },
+    ],
+  },
+  {
+    id: "v12-10",
+    french: "Appartenir",
+    turkish: "Ait olmak",
+    english: "To belong",
+    pronunciation: "a-paʁ-tə-niʁ",
+    description:
+      "Genellikle 'à' edatı ile kullanılır (appartenir à qn/qc). Sahiplik veya aidiyet ifade eder. Düzensiz bir fiildir ve 'tenir' fiilinin türevidir.",
+    synonyms: ["être à", "dépendre de", "revenir à"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "appartiens",
+        tu: "appartiens",
+        il: "appartient",
+        nous: "appartenons",
+        vous: "appartenez",
+        ils: "appartiennent",
+      },
+      passéComposé: {
+        je: "ai appartenu",
+        tu: "as appartenu",
+        il: "a appartenu",
+        nous: "avons appartenu",
+        vous: "avez appartenu",
+        ils: "ont appartenu",
+      },
+      imparfait: {
+        je: "appartenais",
+        tu: "appartenais",
+        il: "appartenait",
+        nous: "appartenions",
+        vous: "apparteniez",
+        ils: "appartenaient",
+      },
+      futur: {
+        je: "appartiendrai",
+        tu: "appartiendras",
+        il: "appartiendra",
+        nous: "appartiendrons",
+        vous: "appartiendrez",
+        ils: "appartiendront",
+      },
+    },
+    examples: [
+      {
+        form: "cela appartient",
+        tense: "present",
+        sentence: "Cela appartient au musée.",
+        translationTr: "Bu müzeye aittir.",
+        translationEn: "This belongs to the museum.",
+      },
+      {
+        form: "il a appartenu",
+        tense: "passéComposé",
+        sentence: "Il a appartenu à une famille célèbre.",
+        translationTr: "Ünlü bir aileye aitti.",
+        translationEn: "It belonged to a famous family.",
+      },
+      {
+        form: "tu appartenais",
+        tense: "imparfait",
+        sentence: "Tu appartenais à ce club autrefois.",
+        translationTr: "Eskiden bu kulübe aittin.",
+        translationEn: "You used to belong to this club.",
+      },
+      {
+        form: "elles appartiendront",
+        tense: "futur",
+        sentence: "Elles appartiendront à l’histoire.",
+        translationTr: "Onlar tarihe ait olacaklar.",
+        translationEn: "They will belong to history.",
+      },
+    ],
+  },
+  {
+    id: "v12-11",
+    french: "Désobéir",
+    turkish: "İtaat etmemek / Karşı gelmek",
+    english: "To disobey",
+    pronunciation: "de-zo-be-iʁ",
+    description:
+      "Genellikle 'à' edatı ile birlikte kullanılır (désobéir à qn/qc). Otoriteye, kurallara veya emirlere uymamak anlamındadır. 2. grup düzenli fiildir.",
+    synonyms: ["se rebeller", "transgresser", "contrevenir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "désobéis",
+        tu: "désobéis",
+        il: "désobéit",
+        nous: "désobéissons",
+        vous: "désobéissez",
+        ils: "désobéissent",
+      },
+      passéComposé: {
+        je: "ai désobéi",
+        tu: "as désobéi",
+        il: "a désobéi",
+        nous: "avons désobéi",
+        vous: "avez désobéi",
+        ils: "ont désobéi",
+      },
+      imparfait: {
+        je: "désobéissais",
+        tu: "désobéissais",
+        il: "désobéissait",
+        nous: "désobéissions",
+        vous: "désobéissiez",
+        ils: "désobéissaient",
+      },
+      futur: {
+        je: "désobéirai",
+        tu: "désobéiras",
+        il: "désobéira",
+        nous: "désobéirons",
+        vous: "désobéirez",
+        ils: "désobéiront",
+      },
+    },
+    examples: [
+      {
+        form: "il désobéit",
+        tense: "present",
+        sentence: "Il désobéit à ses parents.",
+        translationTr: "Ailesine itaat etmiyor.",
+        translationEn: "He disobeys his parents.",
+      },
+      {
+        form: "j’ai désobéi",
+        tense: "passéComposé",
+        sentence: "J’ai désobéi aux règles.",
+        translationTr: "Kurallara uymadım.",
+        translationEn: "I disobeyed the rules.",
+      },
+      {
+        form: "vous désobéissiez",
+        tense: "imparfait",
+        sentence: "Vous désobéissiez souvent à l’école.",
+        translationTr: "Okulda sık sık kurallara karşı gelirdiniz.",
+        translationEn: "You used to disobey at school often.",
+      },
+      {
+        form: "nous désobéirons",
+        tense: "futur",
+        sentence: "Nous désobéirons si c’est injuste.",
+        translationTr: "Eğer haksızsa, itaat etmeyeceğiz.",
+        translationEn: "We will disobey if it’s unfair.",
+      },
+    ],
+  },
+  {
+    id: "v12-12",
+    french: "Adorer",
+    turkish: "Bayılmak / Çok sevmek",
+    english: "To adore / To love",
+    pronunciation: "a-dɔ-ʁe",
+    description:
+      "Bir şeyi ya da birini çok sevmek, hayran olmak anlamındadır. Hem insanlar hem de nesneler için kullanılır.",
+    synonyms: ["aimer beaucoup", "chérir", "raffoler de"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "adore",
+        tu: "adores",
+        il: "adore",
+        nous: "adorons",
+        vous: "adorez",
+        ils: "adorent",
+      },
+      passéComposé: {
+        je: "ai adoré",
+        tu: "as adoré",
+        il: "a adoré",
+        nous: "avons adoré",
+        vous: "avez adoré",
+        ils: "ont adoré",
+      },
+      imparfait: {
+        je: "adorais",
+        tu: "adorais",
+        il: "adorait",
+        nous: "adorions",
+        vous: "adoriez",
+        ils: "adoraient",
+      },
+      futur: {
+        je: "adorerai",
+        tu: "adoreras",
+        il: "adorera",
+        nous: "adorerons",
+        vous: "adorerez",
+        ils: "adoreront",
+      },
+    },
+    examples: [
+      {
+        form: "j’adore",
+        tense: "present",
+        sentence: "J’adore les gâteaux au chocolat.",
+        translationTr: "Çikolatalı keklere bayılırım.",
+        translationEn: "I love chocolate cakes.",
+      },
+      {
+        form: "elle a adoré",
+        tense: "passéComposé",
+        sentence: "Elle a adoré le spectacle.",
+        translationTr: "Gösteriye bayıldı.",
+        translationEn: "She loved the show.",
+      },
+      {
+        form: "nous adorions",
+        tense: "imparfait",
+        sentence: "Nous adorions aller à la plage.",
+        translationTr: "Plaja gitmeye bayılırdık.",
+        translationEn: "We used to love going to the beach.",
+      },
+      {
+        form: "ils adoreront",
+        tense: "futur",
+        sentence: "Ils adoreront ce cadeau.",
+        translationTr: "Bu hediyeye bayılacaklar.",
+        translationEn: "They will love this gift.",
+      },
+    ],
+  },
+  {
+    id: "v12-13",
+    french: "Reprendre",
+    turkish: "Tekrar almak / Devam etmek",
+    english: "To resume / To take back",
+    pronunciation: "ʁə-pʁɑ̃dʁ",
+    description:
+      "Yeniden başlamak, devam etmek ya da geri almak anlamında kullanılır. 'Prendre' fiilinden türeyen düzensiz bir fiildir.",
+    synonyms: ["continuer", "récupérer", "reprendre en main"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "reprends",
+        tu: "reprends",
+        il: "reprend",
+        nous: "reprenons",
+        vous: "reprenez",
+        ils: "reprennent",
+      },
+      passéComposé: {
+        je: "ai repris",
+        tu: "as repris",
+        il: "a repris",
+        nous: "avons repris",
+        vous: "avez repris",
+        ils: "ont repris",
+      },
+      imparfait: {
+        je: "reprenais",
+        tu: "reprenais",
+        il: "reprenait",
+        nous: "reprenions",
+        vous: "repreniez",
+        ils: "reprenaient",
+      },
+      futur: {
+        je: "reprendrai",
+        tu: "reprendras",
+        il: "reprendra",
+        nous: "reprendrons",
+        vous: "reprendrez",
+        ils: "reprendront",
+      },
+    },
+    examples: [
+      {
+        form: "je reprends",
+        tense: "present",
+        sentence: "Je reprends le travail demain.",
+        translationTr: "Yarından itibaren işe devam ediyorum.",
+        translationEn: "I’m resuming work tomorrow.",
+      },
+      {
+        form: "elle a repris",
+        tense: "passéComposé",
+        sentence: "Elle a repris ses études après deux ans.",
+        translationTr: "İki yıl sonra eğitimine devam etti.",
+        translationEn: "She resumed her studies after two years.",
+      },
+      {
+        form: "nous reprenions",
+        tense: "imparfait",
+        sentence: "Nous reprenions toujours nos discussions après une pause.",
+        translationTr:
+          "Mola verdikten sonra her zaman sohbetimize devam ederdik.",
+        translationEn: "We always resumed our discussions after a break.",
+      },
+      {
+        form: "ils reprendront",
+        tense: "futur",
+        sentence: "Ils reprendront la route après le déjeuner.",
+        translationTr: "Öğle yemeğinden sonra yola devam edecekler.",
+        translationEn: "They will resume the journey after lunch.",
+      },
+    ],
+  },
+  {
+    id: "v12-14",
+    french: "Disparaître",
+    turkish: "Kaybolmak / Ortadan kaybolmak",
+    english: "To disappear / To vanish",
+    pronunciation: "dis-pa-ʁɛtʁ",
+    description:
+      "Görünür olmaktan çıkmak ya da varlığını yitirmek anlamında kullanılır. Düzensiz bir fiildir ve passé composé'de 'avoir' ile değil 'être' ile çekimlenir.",
+    synonyms: ["s’éclipser", "s’évaporer", "s’évanouir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "disparais",
+        tu: "disparais",
+        il: "disparaît",
+        nous: "disparaissons",
+        vous: "disparaissez",
+        ils: "disparaissent",
+      },
+      passéComposé: {
+        je: "suis disparu",
+        tu: "es disparu",
+        il: "est disparu",
+        nous: "sommes disparus",
+        vous: "êtes disparus",
+        ils: "sont disparus",
+      },
+      imparfait: {
+        je: "disparaissais",
+        tu: "disparaissais",
+        il: "disparaissait",
+        nous: "disparaissions",
+        vous: "disparaissiez",
+        ils: "disparaissaient",
+      },
+      futur: {
+        je: "disparaîtrai",
+        tu: "disparaîtras",
+        il: "disparaîtra",
+        nous: "disparaîtrons",
+        vous: "disparaîtrez",
+        ils: "disparaîtront",
+      },
+    },
+    examples: [
+      {
+        form: "il disparaît",
+        tense: "present",
+        sentence: "Il disparaît toujours sans prévenir.",
+        translationTr: "Her zaman haber vermeden ortadan kaybolur.",
+        translationEn: "He always disappears without warning.",
+      },
+      {
+        form: "je suis disparu",
+        tense: "passéComposé",
+        sentence: "Je suis disparu de la scène pendant un moment.",
+        translationTr: "Bir süre sahneden kayboldum.",
+        translationEn: "I disappeared from the stage for a while.",
+      },
+      {
+        form: "ils disparaissaient",
+        tense: "imparfait",
+        sentence: "Ils disparaissaient à chaque problème.",
+        translationTr: "Her sorun çıktığında ortadan kaybolurlardı.",
+        translationEn: "They used to disappear at every problem.",
+      },
+      {
+        form: "tu disparaîtras",
+        tense: "futur",
+        sentence: "Tu disparaîtras de leur mémoire.",
+        translationTr: "Onların hafızasından silineceksin.",
+        translationEn: "You will disappear from their memory.",
+      },
+    ],
+  },
+  {
+    id: "v12-15",
+    french: "Sourire",
+    turkish: "Gülümsemek",
+    english: "To smile",
+    pronunciation: "su-ʁiʁ",
+    description:
+      "Mutluluk, nezaket veya onay göstergesi olarak yüz ifadesiyle gülümsemek anlamında kullanılır. Düzensiz bir fiildir.",
+    synonyms: ["rire doucement", "esquisser un sourire", "avoir le sourire"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "souris",
+        tu: "souris",
+        il: "sourit",
+        nous: "sourions",
+        vous: "souriez",
+        ils: "sourient",
+      },
+      passéComposé: {
+        je: "ai souri",
+        tu: "as souri",
+        il: "a souri",
+        nous: "avons souri",
+        vous: "avez souri",
+        ils: "ont souri",
+      },
+      imparfait: {
+        je: "souriais",
+        tu: "souriais",
+        il: "souriait",
+        nous: "souriions",
+        vous: "souriiez",
+        ils: "souriaient",
+      },
+      futur: {
+        je: "sourirai",
+        tu: "souriras",
+        il: "sourira",
+        nous: "sourirons",
+        vous: "sourirez",
+        ils: "souriront",
+      },
+    },
+    examples: [
+      {
+        form: "je souris",
+        tense: "present",
+        sentence: "Je souris quand je pense à toi.",
+        translationTr: "Seni düşündüğümde gülümsüyorum.",
+        translationEn: "I smile when I think of you.",
+      },
+      {
+        form: "nous avons souri",
+        tense: "passéComposé",
+        sentence: "Nous avons souri à la caméra.",
+        translationTr: "Kameraya gülümsedik.",
+        translationEn: "We smiled at the camera.",
+      },
+      {
+        form: "elle souriait",
+        tense: "imparfait",
+        sentence: "Elle souriait même quand elle était triste.",
+        translationTr: "Üzgünken bile gülümsüyordu.",
+        translationEn: "She used to smile even when she was sad.",
+      },
+      {
+        form: "ils souriront",
+        tense: "futur",
+        sentence: "Ils souriront à la fin du discours.",
+        translationTr: "Konuşmanın sonunda gülümseyecekler.",
+        translationEn: "They will smile at the end of the speech.",
+      },
+    ],
+  },
+  {
+    id: "v12-16",
+    french: "Partager",
+    turkish: "Paylaşmak",
+    english: "To share",
+    pronunciation: "paʁ-ta-ʒe",
+    description:
+      "Bir şeyi başkasıyla ortak kullanmak ya da duygusal/düşünsel olarak paylaşmak anlamında kullanılır. Hem somut nesneler hem de soyut kavramlar için geçerlidir.",
+    synonyms: ["diviser", "distribuer", "communiquer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "partage",
+        tu: "partages",
+        il: "partage",
+        nous: "partageons",
+        vous: "partagez",
+        ils: "partagent",
+      },
+      passéComposé: {
+        je: "ai partagé",
+        tu: "as partagé",
+        il: "a partagé",
+        nous: "avons partagé",
+        vous: "avez partagé",
+        ils: "ont partagé",
+      },
+      imparfait: {
+        je: "partageais",
+        tu: "partageais",
+        il: "partageait",
+        nous: "partagions",
+        vous: "partagiez",
+        ils: "partageaient",
+      },
+      futur: {
+        je: "partagerai",
+        tu: "partageras",
+        il: "partagera",
+        nous: "partagerons",
+        vous: "partagerez",
+        ils: "partageront",
+      },
+    },
+    examples: [
+      {
+        form: "je partage",
+        tense: "present",
+        sentence: "Je partage mes idées avec mes collègues.",
+        translationTr: "Fikirlerimi meslektaşlarımla paylaşıyorum.",
+        translationEn: "I share my ideas with my colleagues.",
+      },
+      {
+        form: "tu as partagé",
+        tense: "passéComposé",
+        sentence: "Tu as partagé ton repas avec elle.",
+        translationTr: "Yemeğini onunla paylaştın.",
+        translationEn: "You shared your meal with her.",
+      },
+      {
+        form: "nous partagions",
+        tense: "imparfait",
+        sentence: "Nous partagions tout quand nous étions enfants.",
+        translationTr: "Çocukken her şeyi paylaşırdık.",
+        translationEn: "We used to share everything when we were kids.",
+      },
+      {
+        form: "ils partageront",
+        tense: "futur",
+        sentence: "Ils partageront les bénéfices également.",
+        translationTr: "Kârı eşit şekilde paylaşacaklar.",
+        translationEn: "They will share the profits equally.",
+      },
+    ],
+  },
+  {
+    id: "v12-17",
+    french: "Corriger",
+    turkish: "Düzeltmek",
+    english: "To correct / To fix",
+    pronunciation: "kɔ-ʁi-ʒe",
+    description:
+      "Hatalı veya eksik bir durumu düzeltmek, genellikle yazılı metinlerde veya davranışlarda kullanılır.",
+    synonyms: ["rectifier", "réparer", "amender"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "corrige",
+        tu: "corriges",
+        il: "corrige",
+        nous: "corrigeons",
+        vous: "corrigez",
+        ils: "corrigent",
+      },
+      passéComposé: {
+        je: "ai corrigé",
+        tu: "as corrigé",
+        il: "a corrigé",
+        nous: "avons corrigé",
+        vous: "avez corrigé",
+        ils: "ont corrigé",
+      },
+      imparfait: {
+        je: "corrigeais",
+        tu: "corrigeais",
+        il: "corrigeait",
+        nous: "corrigions",
+        vous: "corrigiez",
+        ils: "corrigeaient",
+      },
+      futur: {
+        je: "corrigerai",
+        tu: "corrigeras",
+        il: "corrigera",
+        nous: "corrigerons",
+        vous: "corrigerez",
+        ils: "corrigeront",
+      },
+    },
+    examples: [
+      {
+        form: "il corrige",
+        tense: "present",
+        sentence: "Il corrige les copies des élèves.",
+        translationTr: "Öğrencilerin sınavlarını düzeltiyor.",
+        translationEn: "He is correcting the students' papers.",
+      },
+      {
+        form: "nous avons corrigé",
+        tense: "passéComposé",
+        sentence: "Nous avons corrigé toutes les fautes.",
+        translationTr: "Tüm hataları düzelttik.",
+        translationEn: "We corrected all the mistakes.",
+      },
+      {
+        form: "je corrigeais",
+        tense: "imparfait",
+        sentence: "Je corrigeais mes erreurs immédiatement.",
+        translationTr: "Hatalarımı hemen düzeltirdim.",
+        translationEn: "I used to correct my mistakes immediately.",
+      },
+      {
+        form: "vous corrigerez",
+        tense: "futur",
+        sentence: "Vous corrigerez le document demain.",
+        translationTr: "Belgeyi yarın düzelteceksiniz.",
+        translationEn: "You will correct the document tomorrow.",
+      },
+    ],
+  },
+  {
+    id: "v12-18",
+    french: "Pénétrer",
+    turkish: "Nüfuz etmek / Girmek",
+    english: "To penetrate / To enter",
+    pronunciation: "pe-ne-tʁe",
+    description:
+      "Bir yerin içine girmek, derinlemesine nüfuz etmek anlamında kullanılır. Hem fiziksel hem soyut bağlamlarda kullanılabilir.",
+    synonyms: ["entrer", "s’introduire", "s’infiltrer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "pénètre",
+        tu: "pénètres",
+        il: "pénètre",
+        nous: "pénétrons",
+        vous: "pénétrez",
+        ils: "pénètrent",
+      },
+      passéComposé: {
+        je: "ai pénétré",
+        tu: "as pénétré",
+        il: "a pénétré",
+        nous: "avons pénétré",
+        vous: "avez pénétré",
+        ils: "ont pénétré",
+      },
+      imparfait: {
+        je: "pénétrais",
+        tu: "pénétrais",
+        il: "pénétrait",
+        nous: "pénétrions",
+        vous: "pénétriez",
+        ils: "pénétraient",
+      },
+      futur: {
+        je: "pénétrerai",
+        tu: "pénétreras",
+        il: "pénétrera",
+        nous: "pénétrerons",
+        vous: "pénétrerez",
+        ils: "pénétreront",
+      },
+    },
+    examples: [
+      {
+        form: "il pénètre",
+        tense: "present",
+        sentence: "Il pénètre dans la pièce en silence.",
+        translationTr: "Odaya sessizce giriyor.",
+        translationEn: "He enters the room silently.",
+      },
+      {
+        form: "nous avons pénétré",
+        tense: "passéComposé",
+        sentence: "Nous avons pénétré dans la forêt dense.",
+        translationTr: "Yoğun ormana girdik.",
+        translationEn: "We penetrated the dense forest.",
+      },
+      {
+        form: "tu pénétrais",
+        tense: "imparfait",
+        sentence: "Tu pénétrais dans leurs pensées sans le vouloir.",
+        translationTr: "Farkında olmadan onların düşüncelerine girerdin.",
+        translationEn: "You used to penetrate their thoughts unintentionally.",
+      },
+      {
+        form: "ils pénétreront",
+        tense: "futur",
+        sentence: "Ils pénétreront dans le marché international.",
+        translationTr: "Uluslararası pazara girecekler.",
+        translationEn: "They will enter the international market.",
+      },
+    ],
+  },
+  {
+    id: "v12-19",
+    french: "Habiller",
+    turkish: "Giydirmek / Giyinmek",
+    english: "To dress / To get dressed",
+    pronunciation: "a-bi-je",
+    description:
+      "Hem başkasını giydirmek (habiller quelqu’un) hem de kendini giyinmek anlamında (s’habiller) kullanılır. Günlük hayatta sıkça kullanılır.",
+    synonyms: ["vêtir", "s’habiller", "accoutrer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "habille",
+        tu: "habilles",
+        il: "habille",
+        nous: "habillons",
+        vous: "habillez",
+        ils: "habillent",
+      },
+      passéComposé: {
+        je: "ai habillé",
+        tu: "as habillé",
+        il: "a habillé",
+        nous: "avons habillé",
+        vous: "avez habillé",
+        ils: "ont habillé",
+      },
+      imparfait: {
+        je: "habillais",
+        tu: "habillais",
+        il: "habillait",
+        nous: "habillions",
+        vous: "habilliez",
+        ils: "habillaient",
+      },
+      futur: {
+        je: "habillerai",
+        tu: "habilleras",
+        il: "habillera",
+        nous: "habillerons",
+        vous: "habillerez",
+        ils: "habilleront",
+      },
+    },
+    examples: [
+      {
+        form: "je m’habille",
+        tense: "present",
+        sentence: "Je m’habille rapidement le matin.",
+        translationTr: "Sabahları hızlıca giyinirim.",
+        translationEn: "I get dressed quickly in the morning.",
+      },
+      {
+        form: "tu as habillé",
+        tense: "passéComposé",
+        sentence: "Tu as habillé ton petit frère pour l’école.",
+        translationTr: "Küçük kardeşini okula gitmesi için giydirdin.",
+        translationEn: "You dressed your little brother for school.",
+      },
+      {
+        form: "nous habillions",
+        tense: "imparfait",
+        sentence: "Nous habillions les enfants avant de sortir.",
+        translationTr: "Dışarı çıkmadan önce çocukları giydirirdik.",
+        translationEn: "We used to dress the kids before going out.",
+      },
+      {
+        form: "ils habilleront",
+        tense: "futur",
+        sentence: "Ils habilleront les mannequins pour le défilé.",
+        translationTr: "Defile için mankenleri giydirecekler.",
+        translationEn: "They will dress the models for the fashion show.",
+      },
+    ],
+  },
+  {
+    id: "v12-20",
+    french: "Mériter",
+    turkish: "Hak etmek / Layık olmak",
+    english: "To deserve / To merit",
+    pronunciation: "me-ʁi-te",
+    description:
+      "Övgü, ceza veya bir sonucu hak etmek anlamında kullanılır. Genellikle soyut kavramlarla birlikte görülür.",
+    synonyms: ["valoir", "gagner", "justifier"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "mérite",
+        tu: "mérites",
+        il: "mérite",
+        nous: "méritons",
+        vous: "méritez",
+        ils: "méritent",
+      },
+      passéComposé: {
+        je: "ai mérité",
+        tu: "as mérité",
+        il: "a mérité",
+        nous: "avons mérité",
+        vous: "avez mérité",
+        ils: "ont mérité",
+      },
+      imparfait: {
+        je: "méritais",
+        tu: "méritais",
+        il: "méritait",
+        nous: "méritions",
+        vous: "méritiez",
+        ils: "méritaient",
+      },
+      futur: {
+        je: "mériterai",
+        tu: "mériteras",
+        il: "méritera",
+        nous: "mériterons",
+        vous: "mériterez",
+        ils: "mériteront",
+      },
+    },
+    examples: [
+      {
+        form: "tu mérites",
+        tense: "present",
+        sentence: "Tu mérites une récompense pour ton travail.",
+        translationTr: "Bu işin için bir ödülü hak ediyorsun.",
+        translationEn: "You deserve a reward for your work.",
+      },
+      {
+        form: "il a mérité",
+        tense: "passéComposé",
+        sentence: "Il a mérité cette promotion.",
+        translationTr: "Bu terfiyi hak etti.",
+        translationEn: "He deserved this promotion.",
+      },
+      {
+        form: "je méritais",
+        tense: "imparfait",
+        sentence: "Je méritais plus de respect.",
+        translationTr: "Daha fazla saygıyı hak ediyordum.",
+        translationEn: "I deserved more respect.",
+      },
+      {
+        form: "nous mériterons",
+        tense: "futur",
+        sentence: "Nous mériterons leur confiance.",
+        translationTr: "Onların güvenini kazanacağız.",
+        translationEn: "We will deserve their trust.",
+      },
+    ],
+  },
+  {
+    id: "v12-21",
+    french: "Devenir",
+    turkish: "Olmak / Dönüşmek",
+    english: "To become",
+    pronunciation: "də-və-niʁ",
+    description:
+      "Bir halden başka bir hale geçmek ya da bir şeye dönüşmek anlamında kullanılır. Yardımcı fiil olarak être ile çekimlenir ve düzensizdir.",
+    synonyms: ["se transformer", "évoluer", "se métamorphoser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "deviens",
+        tu: "deviens",
+        il: "devient",
+        nous: "devenons",
+        vous: "devenez",
+        ils: "deviennent",
+      },
+      passéComposé: {
+        je: "suis devenu",
+        tu: "es devenu",
+        il: "est devenu",
+        nous: "sommes devenus",
+        vous: "êtes devenus",
+        ils: "sont devenus",
+      },
+      imparfait: {
+        je: "devenais",
+        tu: "devenais",
+        il: "devenait",
+        nous: "devenions",
+        vous: "deveniez",
+        ils: "devenaient",
+      },
+      futur: {
+        je: "deviendrai",
+        tu: "deviendras",
+        il: "deviendra",
+        nous: "deviendrons",
+        vous: "deviendrez",
+        ils: "deviendront",
+      },
+    },
+    examples: [
+      {
+        form: "je deviens",
+        tense: "present",
+        sentence: "Je deviens plus confiant chaque jour.",
+        translationTr: "Her geçen gün daha özgüvenli oluyorum.",
+        translationEn: "I’m becoming more confident each day.",
+      },
+      {
+        form: "elle est devenue",
+        tense: "passéComposé",
+        sentence: "Elle est devenue médecin.",
+        translationTr: "O, doktor oldu.",
+        translationEn: "She became a doctor.",
+      },
+      {
+        form: "nous devenions",
+        tense: "imparfait",
+        sentence: "Nous devenions amis avec le temps.",
+        translationTr: "Zamanla arkadaş oluyorduk.",
+        translationEn: "We were becoming friends over time.",
+      },
+      {
+        form: "ils deviendront",
+        tense: "futur",
+        sentence: "Ils deviendront célèbres un jour.",
+        translationTr: "Bir gün ünlü olacaklar.",
+        translationEn: "They will become famous one day.",
+      },
+    ],
+  },
+  {
+    id: "v12-22",
+    french: "Conduire",
+    turkish: "Sürmek / Yönlendirmek",
+    english: "To drive / To lead",
+    pronunciation: "kɔ̃-dɥiʁ",
+    description:
+      "Araç kullanmak anlamında yaygın olsa da, soyut anlamda bir grubu yönlendirmek veya bir süreci idare etmek için de kullanılır. Düzensiz fiildir.",
+    synonyms: ["diriger", "mener", "guider"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "conduis",
+        tu: "conduis",
+        il: "conduit",
+        nous: "conduisons",
+        vous: "conduisez",
+        ils: "conduisent",
+      },
+      passéComposé: {
+        je: "ai conduit",
+        tu: "as conduit",
+        il: "a conduit",
+        nous: "avons conduit",
+        vous: "avez conduit",
+        ils: "ont conduit",
+      },
+      imparfait: {
+        je: "conduisais",
+        tu: "conduisais",
+        il: "conduisait",
+        nous: "conduisions",
+        vous: "conduisiez",
+        ils: "conduisaient",
+      },
+      futur: {
+        je: "conduirai",
+        tu: "conduiras",
+        il: "conduira",
+        nous: "conduirons",
+        vous: "conduirez",
+        ils: "conduiront",
+      },
+    },
+    examples: [
+      {
+        form: "je conduis",
+        tense: "present",
+        sentence: "Je conduis vers la montagne.",
+        translationTr: "Dağa doğru araba sürüyorum.",
+        translationEn: "I'm driving towards the mountain.",
+      },
+      {
+        form: "il a conduit",
+        tense: "passéComposé",
+        sentence: "Il a conduit toute la nuit.",
+        translationTr: "Bütün gece araba sürdü.",
+        translationEn: "He drove all night.",
+      },
+      {
+        form: "nous conduisions",
+        tense: "imparfait",
+        sentence: "Nous conduisions souvent au bord de la mer.",
+        translationTr: "Sık sık deniz kenarına sürerdik.",
+        translationEn: "We often used to drive by the sea.",
+      },
+      {
+        form: "ils conduiront",
+        tense: "futur",
+        sentence: "Ils conduiront les invités à la salle.",
+        translationTr: "Misafirleri salona götürecekler.",
+        translationEn: "They will drive the guests to the hall.",
+      },
+    ],
+  },
+  {
+    id: "v12-23",
+    french: "Se souvenir",
+    turkish: "Hatırlamak",
+    english: "To remember",
+    pronunciation: "sə suv-nɪʁ",
+    description:
+      "Refleksif bir fiildir (se souvenir de). Bir kişiyi, olayı ya da bilgiyi hatırlamak için kullanılır. Yardımcı fiil olarak 'être' ile çekimlenir.",
+    synonyms: ["se rappeler", "avoir en mémoire", "remémorer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "me souviens",
+        tu: "te souviens",
+        il: "se souvient",
+        nous: "nous souvenons",
+        vous: "vous souvenez",
+        ils: "se souviennent",
+      },
+      passéComposé: {
+        je: "me suis souvenu",
+        tu: "t’es souvenu",
+        il: "s’est souvenu",
+        nous: "nous sommes souvenus",
+        vous: "vous êtes souvenus",
+        ils: "se sont souvenus",
+      },
+      imparfait: {
+        je: "me souvenais",
+        tu: "te souvenais",
+        il: "se souvenait",
+        nous: "nous souvenions",
+        vous: "vous souveniez",
+        ils: "se souvenaient",
+      },
+      futur: {
+        je: "me souviendrai",
+        tu: "te souviendras",
+        il: "se souviendra",
+        nous: "nous souviendrons",
+        vous: "vous souviendrez",
+        ils: "se souviendront",
+      },
+    },
+    examples: [
+      {
+        form: "je me souviens",
+        tense: "present",
+        sentence: "Je me souviens de cette chanson.",
+        translationTr: "Bu şarkıyı hatırlıyorum.",
+        translationEn: "I remember this song.",
+      },
+      {
+        form: "nous nous sommes souvenus",
+        tense: "passéComposé",
+        sentence: "Nous nous sommes souvenus de notre enfance.",
+        translationTr: "Çocukluğumuzu hatırladık.",
+        translationEn: "We remembered our childhood.",
+      },
+      {
+        form: "il se souvenait",
+        tense: "imparfait",
+        sentence: "Il se souvenait toujours de son professeur.",
+        translationTr: "Öğretmenini hep hatırlardı.",
+        translationEn: "He always remembered his teacher.",
+      },
+      {
+        form: "tu te souviendras",
+        tense: "futur",
+        sentence: "Tu te souviendras de ce jour.",
+        translationTr: "Bu günü hatırlayacaksın.",
+        translationEn: "You will remember this day.",
+      },
+    ],
+  },
+  {
+    id: "v12-24",
+    french: "Fixer",
+    turkish: "Sabit hale getirmek / Belirlemek / Dikmek (göz)",
+    english: "To fix / To set / To stare",
+    pronunciation: "fik-se",
+    description:
+      "Bir nesneyi sabitlemek, bir tarihi veya kuralları belirlemek, ya da birine uzun süre bakmak anlamında kullanılır. Çok anlamlı ve bağlama bağlıdır.",
+    synonyms: ["attacher", "déterminer", "regarder intensément"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "fixe",
+        tu: "fixes",
+        il: "fixe",
+        nous: "fixons",
+        vous: "fixez",
+        ils: "fixent",
+      },
+      passéComposé: {
+        je: "ai fixé",
+        tu: "as fixé",
+        il: "a fixé",
+        nous: "avons fixé",
+        vous: "avez fixé",
+        ils: "ont fixé",
+      },
+      imparfait: {
+        je: "fixais",
+        tu: "fixais",
+        il: "fixait",
+        nous: "fixions",
+        vous: "fixiez",
+        ils: "fixaient",
+      },
+      futur: {
+        je: "fixerai",
+        tu: "fixeras",
+        il: "fixera",
+        nous: "fixerons",
+        vous: "fixerez",
+        ils: "fixeront",
+      },
+    },
+    examples: [
+      {
+        form: "nous fixons",
+        tense: "present",
+        sentence: "Nous fixons la date du mariage.",
+        translationTr: "Düğün tarihini belirliyoruz.",
+        translationEn: "We are setting the wedding date.",
+      },
+      {
+        form: "il a fixé",
+        tense: "passéComposé",
+        sentence: "Il a fixé l’étagère au mur.",
+        translationTr: "Rafı duvara sabitledi.",
+        translationEn: "He fixed the shelf to the wall.",
+      },
+      {
+        form: "je fixais",
+        tense: "imparfait",
+        sentence: "Je fixais l’écran sans cligner des yeux.",
+        translationTr: "Göz kırpmadan ekrana bakıyordum.",
+        translationEn: "I was staring at the screen without blinking.",
+      },
+      {
+        form: "vous fixerez",
+        tense: "futur",
+        sentence: "Vous fixerez les règles demain.",
+        translationTr: "Kuralları yarın belirleyeceksiniz.",
+        translationEn: "You will set the rules tomorrow.",
+      },
+    ],
+  },
+  {
+    id: "v12-25",
+    french: "Redire",
+    turkish: "Yinelemek / Tekrar söylemek",
+    english: "To repeat / To say again",
+    pronunciation: "ʁə-diʁ",
+    description:
+      "Genellikle bir şeyi yeniden söylemek, vurgulamak ya da düzeltmek amacıyla kullanılır. Fiil 'dire' kökünden türemiştir ve benzer çekim yapısına sahiptir.",
+    synonyms: ["répéter", "réaffirmer", "réitérer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-12",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "redis",
+        tu: "redis",
+        il: "redit",
+        nous: "redisons",
+        vous: "redites",
+        ils: "redisent",
+      },
+      passéComposé: {
+        je: "ai redit",
+        tu: "as redit",
+        il: "a redit",
+        nous: "avons redit",
+        vous: "avez redit",
+        ils: "ont redit",
+      },
+      imparfait: {
+        je: "redisais",
+        tu: "redisais",
+        il: "redisait",
+        nous: "redisions",
+        vous: "redisiez",
+        ils: "redisaient",
+      },
+      futur: {
+        je: "redirai",
+        tu: "redirais",
+        il: "redira",
+        nous: "rediras",
+        vous: "redirez",
+        ils: "rediront",
+      },
+    },
+    examples: [
+      {
+        form: "je redis",
+        tense: "present",
+        sentence: "Je redis toujours la même chose.",
+        translationTr: "Hep aynı şeyi tekrar söylüyorum.",
+        translationEn: "I always say the same thing again.",
+      },
+      {
+        form: "elle a redit",
+        tense: "passéComposé",
+        sentence: "Elle a redit son opinion avec fermeté.",
+        translationTr: "Görüşünü kararlılıkla tekrar söyledi.",
+        translationEn: "She repeated her opinion firmly.",
+      },
+      {
+        form: "nous redisions",
+        tense: "imparfait",
+        sentence: "Nous redisions les règles chaque semaine.",
+        translationTr: "Kuralları her hafta tekrar ederdik.",
+        translationEn: "We used to repeat the rules every week.",
+      },
+      {
+        form: "ils rediront",
+        tense: "futur",
+        sentence: "Ils rediront tout lors de la réunion.",
+        translationTr: "Toplantıda her şeyi tekrar söyleyecekler.",
+        translationEn: "They will say everything again during the meeting.",
+      },
+    ],
+  },
+  {
+    id: "v13-1",
+    french: "Admettre",
+    turkish: "Kabul etmek / İzin vermek / İtiraf etmek",
+    english: "To admit / To allow / To confess",
+    pronunciation: "ad-mɛtʁ",
+    description: "Genellikle bir şeyi kabul etmek ya da bir kimseyi içeri almak anlamında kullanılır. 'Avouer' ile itiraf anlamında benzeşir. Geçişli bir fiildir ve bazen edilgen yapıda da kullanılır.",
+    synonyms: ["accepter", "avouer", "autoriser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "admets",
+        tu: "admets",
+        il: "admet",
+        nous: "admettons",
+        vous: "admettez",
+        ils: "admettent"
+      },
+      passéComposé: {
+        je: "ai admis",
+        tu: "as admis",
+        il: "a admis",
+        nous: "avons admis",
+        vous: "avez admis",
+        ils: "ont admis"
+      },
+      imparfait: {
+        je: "admettais",
+        tu: "admettais",
+        il: "admettait",
+        nous: "admettions",
+        vous: "admettiez",
+        ils: "admettaient"
+      },
+      futur: {
+        je: "admettrai",
+        tu: "admettras",
+        il: "admettra",
+        nous: "admettrons",
+        vous: "admettrez",
+        ils: "admettront"
+      }
+    },
+    examples: [
+      {
+        form: "j'admets",
+        tense: "present",
+        sentence: "J’admets que j’ai fait une erreur.",
+        translationTr: "Bir hata yaptığımı kabul ediyorum.",
+        translationEn: "I admit that I made a mistake."
+      },
+      {
+        form: "elle a admis",
+        tense: "passéComposé",
+        sentence: "Elle a admis sa faute.",
+        translationTr: "Hatasını kabul etti.",
+        translationEn: "She admitted her fault."
+      },
+      {
+        form: "nous admettions",
+        tense: "imparfait",
+        sentence: "Nous admettions rarement nos torts.",
+        translationTr: "Hatalarımızı nadiren kabul ederdik.",
+        translationEn: "We rarely admitted our mistakes."
+      },
+      {
+        form: "ils admettront",
+        tense: "futur",
+        sentence: "Ils admettront leur responsabilité tôt ou tard.",
+        translationTr: "Er ya da geç sorumluluklarını kabul edecekler.",
+        translationEn: "They will admit their responsibility sooner or later."
+      }
+    ]
+  },
+  {
+    id: "v13-2",
+    french: "Couper",
+    turkish: "Kesmek / Bölmek / Koparmak",
+    english: "To cut / To interrupt / To disconnect",
+    pronunciation: "ku-pe",
+    description: "Hem fiziksel kesme hem de bir konuşmayı veya bağlantıyı kesme anlamında kullanılır. Bilgisayarda 'kes' komutu olarak da sıkça karşılaşılır ('couper-coller').",
+    synonyms: ["trancher", "sectionner", "interrompre"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "coupe",
+        tu: "coupes",
+        il: "coupe",
+        nous: "coupons",
+        vous: "coupez",
+        ils: "coupent"
+      },
+      passéComposé: {
+        je: "ai coupé",
+        tu: "as coupé",
+        il: "a coupé",
+        nous: "avons coupé",
+        vous: "avez coupé",
+        ils: "ont coupé"
+      },
+      imparfait: {
+        je: "coupais",
+        tu: "coupais",
+        il: "coupait",
+        nous: "coupions",
+        vous: "coupiez",
+        ils: "coupaient"
+      },
+      futur: {
+        je: "couperai",
+        tu: "couperas",
+        il: "coupera",
+        nous: "couperons",
+        vous: "couperez",
+        ils: "couperont"
+      }
+    },
+    examples: [
+      {
+        form: "je coupe",
+        tense: "present",
+        sentence: "Je coupe les légumes pour le dîner.",
+        translationTr: "Akşam yemeği için sebzeleri doğruyorum.",
+        translationEn: "I’m cutting the vegetables for dinner."
+      },
+      {
+        form: "il a coupé",
+        tense: "passéComposé",
+        sentence: "Il a coupé la parole à son ami.",
+        translationTr: "Arkadaşının sözünü kesti.",
+        translationEn: "He interrupted his friend."
+      },
+      {
+        form: "nous coupions",
+        tense: "imparfait",
+        sentence: "Nous coupions souvent la connexion par erreur.",
+        translationTr: "Sık sık bağlantıyı yanlışlıkla keserdik.",
+        translationEn: "We often disconnected the connection by mistake."
+      },
+      {
+        form: "vous couperez",
+        tense: "futur",
+        sentence: "Vous couperez le moteur avant de descendre.",
+        translationTr: "İnmeden önce motoru durduracaksınız.",
+        translationEn: "You will turn off the engine before getting out."
+      }
+    ]
+  },
+  {
+    id: "v13-3",
+    french: "Lire",
+    turkish: "Okumak",
+    english: "To read",
+    pronunciation: "liʁ",
+    description: "Düz metinleri okumak dışında, yüz ifadelerini ya da bir durumu 'okumak' anlamında mecaz olarak da kullanılabilir. Düzensiz bir fiildir.",
+    synonyms: ["consulter", "parcourir", "étudier"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "lis",
+        tu: "lis",
+        il: "lit",
+        nous: "lisons",
+        vous: "lisez",
+        ils: "lisent"
+      },
+      passéComposé: {
+        je: "ai lu",
+        tu: "as lu",
+        il: "a lu",
+        nous: "avons lu",
+        vous: "avez lu",
+        ils: "ont lu"
+      },
+      imparfait: {
+        je: "lisais",
+        tu: "lisais",
+        il: "lisait",
+        nous: "lisions",
+        vous: "lisiez",
+        ils: "lisaient"
+      },
+      futur: {
+        je: "lirai",
+        tu: "liras",
+        il: "lira",
+        nous: "lirons",
+        vous: "lirez",
+        ils: "liront"
+      }
+    },
+    examples: [
+      {
+        form: "je lis",
+        tense: "present",
+        sentence: "Je lis un roman policier.",
+        translationTr: "Bir polisiye roman okuyorum.",
+        translationEn: "I’m reading a detective novel."
+      },
+      {
+        form: "elle a lu",
+        tense: "passéComposé",
+        sentence: "Elle a lu le message à voix haute.",
+        translationTr: "Mesajı yüksek sesle okudu.",
+        translationEn: "She read the message out loud."
+      },
+      {
+        form: "nous lisions",
+        tense: "imparfait",
+        sentence: "Nous lisions ensemble chaque soir.",
+        translationTr: "Her akşam birlikte kitap okurduk.",
+        translationEn: "We used to read together every evening."
+      },
+      {
+        form: "ils liront",
+        tense: "futur",
+        sentence: "Ils liront ce livre à l’école.",
+        translationTr: "Bu kitabı okulda okuyacaklar.",
+        translationEn: "They will read this book at school."
+      }
+    ]
+  },
+  {
+    id: "v13-4",
+    french: "Persuader",
+    turkish: "İkna etmek",
+    english: "To persuade / To convince",
+    pronunciation: "pɛʁ-sɥa-de",
+    description: "Birini bir fikre veya eyleme ikna etmek anlamında kullanılır. 'Convaincre' fiiliyle yakın anlamlıdır, ancak bazen daha yumuşak ya da duygusal bir ikna sürecini ifade eder.",
+    synonyms: ["convaincre", "influencer", "inciter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "persuade",
+        tu: "persuades",
+        il: "persuade",
+        nous: "persuadons",
+        vous: "persuadez",
+        ils: "persuadent"
+      },
+      passéComposé: {
+        je: "ai persuadé",
+        tu: "as persuadé",
+        il: "a persuadé",
+        nous: "avons persuadé",
+        vous: "avez persuadé",
+        ils: "ont persuadé"
+      },
+      imparfait: {
+        je: "persuadais",
+        tu: "persuadais",
+        il: "persuadait",
+        nous: "persuadions",
+        vous: "persuadiez",
+        ils: "persuadaient"
+      },
+      futur: {
+        je: "persuaderai",
+        tu: "persuaderas",
+        il: "persuadera",
+        nous: "persuaderons",
+        vous: "persuaderez",
+        ils: "persuaderont"
+      }
+    },
+    examples: [
+      {
+        form: "je persuade",
+        tense: "present",
+        sentence: "Je persuade mes amis de venir avec moi.",
+        translationTr: "Arkadaşlarımı benimle gelmeye ikna ediyorum.",
+        translationEn: "I am persuading my friends to come with me."
+      },
+      {
+        form: "elle a persuadé",
+        tense: "passéComposé",
+        sentence: "Elle a persuadé son père de dire oui.",
+        translationTr: "Babasını evet demeye ikna etti.",
+        translationEn: "She persuaded her father to say yes."
+      },
+      {
+        form: "nous persuadions",
+        tense: "imparfait",
+        sentence: "Nous persuadions souvent nos collègues avec des faits.",
+        translationTr: "Meslektaşlarımızı sık sık verilerle ikna ederdik.",
+        translationEn: "We often persuaded our colleagues with facts."
+      },
+      {
+        form: "ils persuaderont",
+        tense: "futur",
+        sentence: "Ils persuaderont le jury avec leurs arguments.",
+        translationTr: "Jürüyü argümanlarıyla ikna edecekler.",
+        translationEn: "They will persuade the jury with their arguments."
+      }
+    ]
+  },
+  {
+    id: "v13-5",
+    french: "Soutenir",
+    turkish: "Desteklemek / Sürdürmek / Katlanmak",
+    english: "To support / To maintain / To withstand",
+    pronunciation: "su-tə-niʁ",
+    description: "Fiziksel ya da duygusal destek anlamında kullanılır. Ayrıca bir fikri ya da kişiyi savunmak anlamına da gelir. Bazı durumlarda 'katlanmak' anlamında da kullanılır (soutenir un effort).",
+    synonyms: ["appuyer", "aider", "défendre"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "soutiens",
+        tu: "soutiens",
+        il: "soutient",
+        nous: "soutenons",
+        vous: "soutenez",
+        ils: "soutiennent"
+      },
+      passéComposé: {
+        je: "ai soutenu",
+        tu: "as soutenu",
+        il: "a soutenu",
+        nous: "avons soutenu",
+        vous: "avez soutenu",
+        ils: "ont soutenu"
+      },
+      imparfait: {
+        je: "soutenais",
+        tu: "soutenais",
+        il: "soutenait",
+        nous: "soutenions",
+        vous: "souteniez",
+        ils: "soutenaient"
+      },
+      futur: {
+        je: "soutiendrai",
+        tu: "soutiendras",
+        il: "soutiendra",
+        nous: "soutiendrons",
+        vous: "soutiendrez",
+        ils: "soutiendront"
+      }
+    },
+    examples: [
+      {
+        form: "je soutiens",
+        tense: "present",
+        sentence: "Je soutiens mes amis dans les moments difficiles.",
+        translationTr: "Zor zamanlarda arkadaşlarımı destekliyorum.",
+        translationEn: "I support my friends in difficult times."
+      },
+      {
+        form: "il a soutenu",
+        tense: "passéComposé",
+        sentence: "Il a soutenu sa famille pendant des années.",
+        translationTr: "Ailesini yıllarca destekledi.",
+        translationEn: "He supported his family for years."
+      },
+      {
+        form: "nous soutenions",
+        tense: "imparfait",
+        sentence: "Nous soutenions toujours notre équipe locale.",
+        translationTr: "Her zaman yerel takımımızı desteklerdik.",
+        translationEn: "We always supported our local team."
+      },
+      {
+        form: "elle soutiendra",
+        tense: "futur",
+        sentence: "Elle soutiendra sa candidature jusqu'au bout.",
+        translationTr: "Adaylığını sonuna kadar destekleyecek.",
+        translationEn: "She will support her candidacy until the end."
+      }
+    ]
+  },
+  {
+    id: "v13-6",
+    french: "Reconnaître",
+    turkish: "Tanımak / Kabul etmek / Fark etmek",
+    english: "To recognize / To acknowledge / To admit",
+    pronunciation: "ʁə-kɔ-nɛtʁ",
+    description: "Birini ya da bir şeyi tanımak, bir hatayı veya katkıyı kabul etmek gibi çeşitli anlamlarda kullanılır. Düzensiz bir fiildir. Participe passé'si 'reconnu'dur.",
+    synonyms: ["identifier", "admettre", "accepter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "reconnais",
+        tu: "reconnais",
+        il: "reconnaît",
+        nous: "reconnaissons",
+        vous: "reconnaissez",
+        ils: "reconnaissent"
+      },
+      passéComposé: {
+        je: "ai reconnu",
+        tu: "as reconnu",
+        il: "a reconnu",
+        nous: "avons reconnu",
+        vous: "avez reconnu",
+        ils: "ont reconnu"
+      },
+      imparfait: {
+        je: "reconnaissais",
+        tu: "reconnaissais",
+        il: "reconnaissait",
+        nous: "reconnaissions",
+        vous: "reconnaissiez",
+        ils: "reconnaissaient"
+      },
+      futur: {
+        je: "reconnaîtrai",
+        tu: "reconnaîtras",
+        il: "reconnaîtra",
+        nous: "reconnaîtrons",
+        vous: "reconnaîtrez",
+        ils: "reconnaîtront"
+      }
+    },
+    examples: [
+      {
+        form: "je reconnais",
+        tense: "present",
+        sentence: "Je reconnais cette chanson, elle est célèbre.",
+        translationTr: "Bu şarkıyı tanıyorum, çok ünlü.",
+        translationEn: "I recognize this song, it is famous."
+      },
+      {
+        form: "elle a reconnu",
+        tense: "passéComposé",
+        sentence: "Elle a reconnu son erreur.",
+        translationTr: "Hatasını kabul etti.",
+        translationEn: "She admitted her mistake."
+      },
+      {
+        form: "nous reconnaissions",
+        tense: "imparfait",
+        sentence: "Nous reconnaissions les visages familiers.",
+        translationTr: "Tanıdık yüzleri fark ederdik.",
+        translationEn: "We used to recognize familiar faces."
+      },
+      {
+        form: "ils reconnaîtront",
+        tense: "futur",
+        sentence: "Ils reconnaîtront votre contribution.",
+        translationTr: "Katkınızı kabul edecekler.",
+        translationEn: "They will acknowledge your contribution."
+      }
+    ]
+  },
+  {
+    id: "v13-7",
+    french: "Dépendre",
+    turkish: "Bağlı olmak / Bağlı kalmak / Tabi olmak",
+    english: "To depend / To rely on / To be subject to",
+    pronunciation: "de-pɑ̃-dʁ",
+    description: "Genellikle 'de' edatıyla birlikte kullanılır (dépendre de quelque chose). Bir kişinin ya da durumun başka bir şeye bağlı olduğunu belirtir. Yardımcı fiil olarak 'avoir' kullanılır.",
+    synonyms: ["reposer sur", "être lié à", "être tributaire de"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "dépends",
+        tu: "dépends",
+        il: "dépend",
+        nous: "dépendons",
+        vous: "dépendez",
+        ils: "dépendent"
+      },
+      passéComposé: {
+        je: "ai dépendu",
+        tu: "as dépendu",
+        il: "a dépendu",
+        nous: "avons dépendu",
+        vous: "avez dépendu",
+        ils: "ont dépendu"
+      },
+      imparfait: {
+        je: "dépendais",
+        tu: "dépendais",
+        il: "dépendait",
+        nous: "dépendions",
+        vous: "dépendiez",
+        ils: "dépendaient"
+      },
+      futur: {
+        je: "dépendrai",
+        tu: "dépendras",
+        il: "dépendra",
+        nous: "dépendrons",
+        vous: "dépendrez",
+        ils: "dépendront"
+      }
+    },
+    examples: [
+      {
+        form: "ça dépend",
+        tense: "present",
+        sentence: "Ça dépend de la météo.",
+        translationTr: "Bu, hava durumuna bağlı.",
+        translationEn: "It depends on the weather."
+      },
+      {
+        form: "il a dépendu",
+        tense: "passéComposé",
+        sentence: "Il a longtemps dépendu de ses parents.",
+        translationTr: "Uzun süre ailesine bağımlı kaldı.",
+        translationEn: "He depended on his parents for a long time."
+      },
+      {
+        form: "nous dépendions",
+        tense: "imparfait",
+        sentence: "Nous dépendions de cette aide chaque mois.",
+        translationTr: "Her ay bu yardıma bağımlıydık.",
+        translationEn: "We used to depend on that help every month."
+      },
+      {
+        form: "tu dépendras",
+        tense: "futur",
+        sentence: "Tu dépendras de tes choix.",
+        translationTr: "Seçimlerine bağlı olacaksın.",
+        translationEn: "You will depend on your choices."
+      }
+    ]
+  },
+  {
+    id: "v13-8",
+    french: "Dépasser",
+    turkish: "Aşmak / Geçmek / Üstün gelmek",
+    english: "To exceed / To go beyond / To overtake",
+    pronunciation: "de-pa-se",
+    description: "Bir sınırı veya limiti geçmek, aynı zamanda bir aracı sollamak anlamında da kullanılır. Duygusal veya fiziksel sınırları aşmak için de mecazi olarak kullanılır.",
+    synonyms: ["surpasser", "excéder", "déborder"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "dépasse",
+        tu: "dépasses",
+        il: "dépasse",
+        nous: "dépassons",
+        vous: "dépassez",
+        ils: "dépassent"
+      },
+      passéComposé: {
+        je: "ai dépassé",
+        tu: "as dépassé",
+        il: "a dépassé",
+        nous: "avons dépassé",
+        vous: "avez dépassé",
+        ils: "ont dépassé"
+      },
+      imparfait: {
+        je: "dépassais",
+        tu: "dépassais",
+        il: "dépassait",
+        nous: "dépassions",
+        vous: "dépassiez",
+        ils: "dépassaient"
+      },
+      futur: {
+        je: "dépasserai",
+        tu: "dépasseras",
+        il: "dépassera",
+        nous: "dépasserons",
+        vous: "dépasserez",
+        ils: "dépasseront"
+      }
+    },
+    examples: [
+      {
+        form: "je dépasse",
+        tense: "present",
+        sentence: "Je dépasse souvent la limite de vitesse.",
+        translationTr: "Sıklıkla hız sınırını aşıyorum.",
+        translationEn: "I often exceed the speed limit."
+      },
+      {
+        form: "elle a dépassé",
+        tense: "passéComposé",
+        sentence: "Elle a dépassé toutes les attentes.",
+        translationTr: "Tüm beklentileri aştı.",
+        translationEn: "She exceeded all expectations."
+      },
+      {
+        form: "nous dépassions",
+        tense: "imparfait",
+        sentence: "Nous dépassions les voitures lentement.",
+        translationTr: "Arabaları yavaşça solluyorduk.",
+        translationEn: "We used to overtake the cars slowly."
+      },
+      {
+        form: "ils dépasseront",
+        tense: "futur",
+        sentence: "Ils dépasseront leurs limites.",
+        translationTr: "Sınırlarını aşacaklar.",
+        translationEn: "They will go beyond their limits."
+      }
+    ]
+  },
+  {
+    id: "v13-9",
+    french: "Croire",
+    turkish: "İnanmak / Sanmak / Güvenmek",
+    english: "To believe / To think / To trust",
+    pronunciation: "kʁwaʁ",
+    description: "Hem dinsel hem de kişisel inançları ifade eder. Ayrıca birinin söylediklerine inanmak veya bir şeyi sanmak anlamında da kullanılır. Düzensiz bir fiildir.",
+    synonyms: ["penser", "avoir foi", "estimer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "crois",
+        tu: "crois",
+        il: "croit",
+        nous: "croyons",
+        vous: "croyez",
+        ils: "croient"
+      },
+      passéComposé: {
+        je: "ai cru",
+        tu: "as cru",
+        il: "a cru",
+        nous: "avons cru",
+        vous: "avez cru",
+        ils: "ont cru"
+      },
+      imparfait: {
+        je: "croyais",
+        tu: "croyais",
+        il: "croyait",
+        nous: "croyions",
+        vous: "croyiez",
+        ils: "croyaient"
+      },
+      futur: {
+        je: "croirai",
+        tu: "croiras",
+        il: "croira",
+        nous: "croirons",
+        vous: "croirez",
+        ils: "croiront"
+      }
+    },
+    examples: [
+      {
+        form: "je crois",
+        tense: "present",
+        sentence: "Je crois en toi.",
+        translationTr: "Sana inanıyorum.",
+        translationEn: "I believe in you."
+      },
+      {
+        form: "il a cru",
+        tense: "passéComposé",
+        sentence: "Il a cru que c'était une blague.",
+        translationTr: "Bunun bir şaka olduğunu sandı.",
+        translationEn: "He thought it was a joke."
+      },
+      {
+        form: "nous croyions",
+        tense: "imparfait",
+        sentence: "Nous croyions tout ce qu'on nous disait.",
+        translationTr: "Bize söylenen her şeye inanırdık.",
+        translationEn: "We used to believe everything we were told."
+      },
+      {
+        form: "elles croiront",
+        tense: "futur",
+        sentence: "Elles croiront à un avenir meilleur.",
+        translationTr: "Daha iyi bir geleceğe inanacaklar.",
+        translationEn: "They will believe in a better future."
+      }
+    ]
+  },
+  {
+    id: "v13-10",
+    french: "Éteindre",
+    turkish: "Kapatmak / Söndürmek",
+    english: "To turn off / To extinguish",
+    pronunciation: "e-tɛ̃dʁ",
+    description: "Genellikle bir cihazı kapatmak ya da bir ışığı/yangını söndürmek için kullanılır. Düzensiz bir fiildir. Participe passé hali 'éteint'tir.",
+    synonyms: ["couper", "arrêter", "désactiver"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "éteins",
+        tu: "éteins",
+        il: "éteint",
+        nous: "éteignons",
+        vous: "éteignez",
+        ils: "éteignent"
+      },
+      passéComposé: {
+        je: "ai éteint",
+        tu: "as éteint",
+        il: "a éteint",
+        nous: "avons éteint",
+        vous: "avez éteint",
+        ils: "ont éteint"
+      },
+      imparfait: {
+        je: "éteignais",
+        tu: "éteignais",
+        il: "éteignait",
+        nous: "éteignions",
+        vous: "éteigniez",
+        ils: "éteignaient"
+      },
+      futur: {
+        je: "éteindrai",
+        tu: "éteindras",
+        il: "éteindra",
+        nous: "éteindrons",
+        vous: "éteindrez",
+        ils: "éteindront"
+      }
+    },
+    examples: [
+      {
+        form: "j'éteins",
+        tense: "present",
+        sentence: "J’éteins la lumière avant de dormir.",
+        translationTr: "Uyumadan önce ışığı kapatırım.",
+        translationEn: "I turn off the light before sleeping."
+      },
+      {
+        form: "elle a éteint",
+        tense: "passéComposé",
+        sentence: "Elle a éteint son téléphone pendant le film.",
+        translationTr: "Film sırasında telefonunu kapattı.",
+        translationEn: "She turned off her phone during the movie."
+      },
+      {
+        form: "nous éteignions",
+        tense: "imparfait",
+        sentence: "Nous éteignions toujours les bougies après le dîner.",
+        translationTr: "Akşam yemeğinden sonra hep mumları söndürürdük.",
+        translationEn: "We used to extinguish the candles after dinner."
+      },
+      {
+        form: "ils éteindront",
+        tense: "futur",
+        sentence: "Ils éteindront les machines à la fin de la journée.",
+        translationTr: "Günün sonunda makineleri kapatacaklar.",
+        translationEn: "They will turn off the machines at the end of the day."
+      }
+    ]
+  },
+  {
+    id: "v13-11",
+    french: "Présenter",
+    turkish: "Sunmak / Tanıtmak",
+    english: "To present / To introduce / To show",
+    pronunciation: "pʁe-zɑ̃-te",
+    description: "Bir kişiyi tanıtmak, bir fikir sunmak veya resmi bir şey açıklamak anlamında kullanılır. Nesneyle birlikte geçişli bir fiildir.",
+    synonyms: ["montrer", "exposer", "soumettre"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "présente",
+        tu: "présentes",
+        il: "présente",
+        nous: "présentons",
+        vous: "présentez",
+        ils: "présentent"
+      },
+      passéComposé: {
+        je: "ai présenté",
+        tu: "as présenté",
+        il: "a présenté",
+        nous: "avons présenté",
+        vous: "avez présenté",
+        ils: "ont présenté"
+      },
+      imparfait: {
+        je: "présentais",
+        tu: "présentais",
+        il: "présentait",
+        nous: "présentions",
+        vous: "présentiez",
+        ils: "présentaient"
+      },
+      futur: {
+        je: "présenterai",
+        tu: "présenteras",
+        il: "présentera",
+        nous: "présenterons",
+        vous: "présenterez",
+        ils: "présenteront"
+      }
+    },
+    examples: [
+      {
+        form: "je présente",
+        tense: "present",
+        sentence: "Je vous présente mon ami Paul.",
+        translationTr: "Size arkadaşım Paul’ü tanıtıyorum.",
+        translationEn: "I introduce my friend Paul to you."
+      },
+      {
+        form: "il a présenté",
+        tense: "passéComposé",
+        sentence: "Il a présenté son projet au directeur.",
+        translationTr: "Projesini müdüre sundu.",
+        translationEn: "He presented his project to the director."
+      },
+      {
+        form: "nous présentions",
+        tense: "imparfait",
+        sentence: "Nous présentions nos idées clairement.",
+        translationTr: "Fikirlerimizi açıkça sunardık.",
+        translationEn: "We used to present our ideas clearly."
+      },
+      {
+        form: "vous présenterez",
+        tense: "futur",
+        sentence: "Vous présenterez votre exposé demain.",
+        translationTr: "Sunumunuzu yarın yapacaksınız.",
+        translationEn: "You will present your talk tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v13-12",
+    french: "Habiter",
+    turkish: "Oturmak / Yaşamak / İkamet etmek",
+    english: "To live / To reside / To inhabit",
+    pronunciation: "a-bi-te",
+    description: "Bir yerde yaşamak ya da ikamet etmek anlamında kullanılır. Hem geçişli (j’habite une maison) hem de geçişsiz (j’habite à Paris) olabilir.",
+    synonyms: ["vivre", "résider", "loger"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "habite",
+        tu: "habites",
+        il: "habite",
+        nous: "habitons",
+        vous: "habitez",
+        ils: "habitent"
+      },
+      passéComposé: {
+        je: "ai habité",
+        tu: "as habité",
+        il: "a habité",
+        nous: "avons habité",
+        vous: "avez habité",
+        ils: "ont habité"
+      },
+      imparfait: {
+        je: "habitais",
+        tu: "habitais",
+        il: "habitait",
+        nous: "habitions",
+        vous: "habitiez",
+        ils: "habitaient"
+      },
+      futur: {
+        je: "habiterai",
+        tu: "habiteras",
+        il: "habitera",
+        nous: "habiterons",
+        vous: "habiterez",
+        ils: "habiteront"
+      }
+    },
+    examples: [
+      {
+        form: "j'habite",
+        tense: "present",
+        sentence: "J’habite à Lyon depuis 5 ans.",
+        translationTr: "5 yıldır Lyon’da yaşıyorum.",
+        translationEn: "I have been living in Lyon for 5 years."
+      },
+      {
+        form: "elle a habité",
+        tense: "passéComposé",
+        sentence: "Elle a habité dans plusieurs pays.",
+        translationTr: "Birçok ülkede yaşadı.",
+        translationEn: "She lived in several countries."
+      },
+      {
+        form: "nous habitions",
+        tense: "imparfait",
+        sentence: "Nous habitions dans un petit village.",
+        translationTr: "Küçük bir köyde oturuyorduk.",
+        translationEn: "We used to live in a small village."
+      },
+      {
+        form: "ils habiteront",
+        tense: "futur",
+        sentence: "Ils habiteront bientôt à l'étranger.",
+        translationTr: "Yakında yurtdışında yaşayacaklar.",
+        translationEn: "They will live abroad soon."
+      }
+    ]
+  },
+  {
+    id: "v13-13",
+    french: "Adresser",
+    turkish: "Hitap etmek / Yollamak / Yöneltmek",
+    english: "To address / To send / To direct",
+    pronunciation: "a-dʁe-se",
+    description: "Bir kişiye resmi bir şekilde hitap etmek ya da bir şeyi (mektup, dilekçe vb.) bir yere göndermek anlamında kullanılır. Refleksif haliyle 'birine seslenmek' ya da 'başvurmak' anlamı kazanır (s’adresser à).",
+    synonyms: ["envoyer", "expédier", "diriger"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "adresse",
+        tu: "adresses",
+        il: "adresse",
+        nous: "adressons",
+        vous: "adressez",
+        ils: "adressent"
+      },
+      passéComposé: {
+        je: "ai adressé",
+        tu: "as adressé",
+        il: "a adressé",
+        nous: "avons adressé",
+        vous: "avez adressé",
+        ils: "ont adressé"
+      },
+      imparfait: {
+        je: "adressais",
+        tu: "adressais",
+        il: "adressait",
+        nous: "adressions",
+        vous: "adressiez",
+        ils: "adressaients"
+      },
+      futur: {
+        je: "adresserai",
+        tu: "adresseras",
+        il: "adressera",
+        nous: "adresserons",
+        vous: "adresserez",
+        ils: "adresseront"
+      }
+    },
+    examples: [
+      {
+        form: "j'adresse",
+        tense: "present",
+        sentence: "J’adresse cette lettre au directeur.",
+        translationTr: "Bu mektubu müdüre gönderiyorum.",
+        translationEn: "I am addressing this letter to the director."
+      },
+      {
+        form: "elle a adressé",
+        tense: "passéComposé",
+        sentence: "Elle a adressé une plainte au service client.",
+        translationTr: "Müşteri hizmetlerine bir şikayet yöneltti.",
+        translationEn: "She addressed a complaint to customer service."
+      },
+      {
+        form: "nous adressions",
+        tense: "imparfait",
+        sentence: "Nous adressions nos demandes par courrier.",
+        translationTr: "Taleplerimizi mektupla gönderirdik.",
+        translationEn: "We used to send our requests by mail."
+      },
+      {
+        form: "ils adresseront",
+        tense: "futur",
+        sentence: "Ils adresseront une réponse bientôt.",
+        translationTr: "Yakında bir yanıt gönderecekler.",
+        translationEn: "They will send a reply soon."
+      }
+    ]
+  },
+  {
+    id: "v13-14",
+    french: "Refaire",
+    turkish: "Tekrar yapmak / Yeniden yapmak / Onarmak",
+    english: "To redo / To do again / To fix",
+    pronunciation: "ʁə-fɛʁ",
+    description: "Yapılmış bir şeyi yeniden yapmak ya da düzeltmek anlamında kullanılır. 'Faire' fiilinin türevidir, dolayısıyla benzer düzensiz çekim kalıbına sahiptir.",
+    synonyms: ["recommencer", "répéter", "réparer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "refais",
+        tu: "refais",
+        il: "refait",
+        nous: "refaisons",
+        vous: "refaites",
+        ils: "refont"
+      },
+      passéComposé: {
+        je: "ai refait",
+        tu: "as refait",
+        il: "a refait",
+        nous: "avons refait",
+        vous: "avez refait",
+        ils: "ont refait"
+      },
+      imparfait: {
+        je: "refaisais",
+        tu: "refaisais",
+        il: "refaisait",
+        nous: "refaisions",
+        vous: "refaisiez",
+        ils: "refaisaient"
+      },
+      futur: {
+        je: "referai",
+        tu: "referas",
+        il: "refera",
+        nous: "referons",
+        vous: "referez",
+        ils: "referont"
+      }
+    },
+    examples: [
+      {
+        form: "je refais",
+        tense: "present",
+        sentence: "Je refais mon devoir car j’ai fait une erreur.",
+        translationTr: "Bir hata yaptığım için ödevimi yeniden yapıyorum.",
+        translationEn: "I am redoing my homework because I made a mistake."
+      },
+      {
+        form: "il a refait",
+        tense: "passéComposé",
+        sentence: "Il a refait la peinture du salon.",
+        translationTr: "Salonu yeniden boyadı.",
+        translationEn: "He repainted the living room."
+      },
+      {
+        form: "nous refaisions",
+        tense: "imparfait",
+        sentence: "Nous refaisions le toit chaque été.",
+        translationTr: "Her yaz çatıyı yeniden yapardık.",
+        translationEn: "We used to redo the roof every summer."
+      },
+      {
+        form: "vous referez",
+        tense: "futur",
+        sentence: "Vous referez l’installation électrique demain.",
+        translationTr: "Elektrik tesisatını yarın yeniden yapacaksınız.",
+        translationEn: "You will redo the electrical installation tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v13-15",
+    french: "Savoir",
+    turkish: "Bilmek / Öğrenmek",
+    english: "To know / To find out",
+    pronunciation: "sa-vwaʁ",
+    description: "Bir şeyi bilgi olarak bilmek anlamında kullanılır. 'Connaître' fiilinden farklı olarak teorik ya da zihinsel bilgiye işaret eder. Düzensiz bir fiildir.",
+    synonyms: ["connaître", "comprendre", "maîtriser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "sais",
+        tu: "sais",
+        il: "sait",
+        nous: "savons",
+        vous: "savez",
+        ils: "savent"
+      },
+      passéComposé: {
+        je: "ai su",
+        tu: "as su",
+        il: "a su",
+        nous: "avons su",
+        vous: "avez su",
+        ils: "ont su"
+      },
+      imparfait: {
+        je: "savais",
+        tu: "savais",
+        il: "savait",
+        nous: "savions",
+        vous: "saviez",
+        ils: "savaient"
+      },
+      futur: {
+        je: "saurai",
+        tu: "sauras",
+        il: "saura",
+        nous: "saurons",
+        vous: "saurez",
+        ils: "sauront"
+      }
+    },
+    examples: [
+      {
+        form: "je sais",
+        tense: "present",
+        sentence: "Je sais parler trois langues.",
+        translationTr: "Üç dil konuşabildiğimi biliyorum.",
+        translationEn: "I know how to speak three languages."
+      },
+      {
+        form: "elle a su",
+        tense: "passéComposé",
+        sentence: "Elle a su la vérité hier.",
+        translationTr: "Gerçeği dün öğrendi.",
+        translationEn: "She found out the truth yesterday."
+      },
+      {
+        form: "nous savions",
+        tense: "imparfait",
+        sentence: "Nous savions que c’était risqué.",
+        translationTr: "Bunun riskli olduğunu biliyorduk.",
+        translationEn: "We knew it was risky."
+      },
+      {
+        form: "ils sauront",
+        tense: "futur",
+        sentence: "Ils sauront quoi faire en cas d’urgence.",
+        translationTr: "Acil durumda ne yapacaklarını bilecekler.",
+        translationEn: "They will know what to do in case of emergency."
+      }
+    ]
+  },
+  {
+    id: "v13-16",
+    french: "Intervenir",
+    turkish: "Müdahale etmek / Araya girmek",
+    english: "To intervene / To step in",
+    pronunciation: "ɛ̃-tɛʁ-və-niʁ",
+    description: "Genellikle tartışma, olay veya kriz anlarında bir duruma müdahale etmek anlamında kullanılır. Yardım etmek veya düzeni sağlamak için yapılan müdahaleleri kapsar.",
+    synonyms: ["s'immiscer", "agir", "participer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "advanced",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "interviens",
+        tu: "interviens",
+        il: "intervient",
+        nous: "intervenons",
+        vous: "intervenez",
+        ils: "interviennent"
+      },
+      passéComposé: {
+        je: "suis intervenu",
+        tu: "es intervenu",
+        il: "est intervenu",
+        nous: "sommes intervenus",
+        vous: "êtes intervenus",
+        ils: "sont intervenus"
+      },
+      imparfait: {
+        je: "intervenais",
+        tu: "intervenais",
+        il: "intervenait",
+        nous: "intervenions",
+        vous: "interveniez",
+        ils: "intervenaient"
+      },
+      futur: {
+        je: "interviendrai",
+        tu: "interviendras",
+        il: "interviendra",
+        nous: "interviendrons",
+        vous: "interviendrez",
+        ils: "interviendront"
+      }
+    },
+    examples: [
+      {
+        form: "il intervient",
+        tense: "present",
+        sentence: "Il intervient toujours quand il y a un problème.",
+        translationTr: "Bir sorun olduğunda her zaman müdahale eder.",
+        translationEn: "He always intervenes when there's a problem."
+      },
+      {
+        form: "nous sommes intervenus",
+        tense: "passéComposé",
+        sentence: "Nous sommes intervenus à temps pour éviter le conflit.",
+        translationTr: "Çatışmayı önlemek için zamanında müdahale ettik.",
+        translationEn: "We intervened in time to avoid the conflict."
+      },
+      {
+        form: "je intervenais",
+        tense: "imparfait",
+        sentence: "J’intervenais souvent lors des réunions.",
+        translationTr: "Toplantılarda sık sık müdahale ederdim.",
+        translationEn: "I used to intervene often during meetings."
+      },
+      {
+        form: "ils interviendront",
+        tense: "futur",
+        sentence: "Ils interviendront si la situation empire.",
+        translationTr: "Durum kötüleşirse müdahale edecekler.",
+        translationEn: "They will intervene if the situation worsens."
+      }
+    ]
+  },
+  {
+    id: "v13-17",
+    french: "Peindre",
+    turkish: "Boyamak / Resmetmek",
+    english: "To paint / To depict",
+    pronunciation: "pɛ̃dʁ",
+    description: "Sanatsal bağlamda resim yapmak anlamının yanı sıra bir durumu betimlemek için mecazi olarak da kullanılır. Düzensiz bir fiildir.",
+    synonyms: ["colorier", "illustrer", "représenter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "peins",
+        tu: "peins",
+        il: "peint",
+        nous: "peignons",
+        vous: "peignez",
+        ils: "peignent"
+      },
+      passéComposé: {
+        je: "ai peint",
+        tu: "as peint",
+        il: "a peint",
+        nous: "avons peint",
+        vous: "avez peint",
+        ils: "ont peint"
+      },
+      imparfait: {
+        je: "peignais",
+        tu: "peignais",
+        il: "peignait",
+        nous: "peignions",
+        vous: "peigniez",
+        ils: "peignaient"
+      },
+      futur: {
+        je: "peindrai",
+        tu: "peindras",
+        il: "peindra",
+        nous: "peindrons",
+        vous: "peindrez",
+        ils: "peindront"
+      }
+    },
+    examples: [
+      {
+        form: "je peins",
+        tense: "present",
+        sentence: "Je peins un paysage de montagne.",
+        translationTr: "Bir dağ manzarası boyuyorum.",
+        translationEn: "I am painting a mountain landscape."
+      },
+      {
+        form: "il a peint",
+        tense: "passéComposé",
+        sentence: "Il a peint le mur en bleu.",
+        translationTr: "Duvarı maviye boyadı.",
+        translationEn: "He painted the wall blue."
+      },
+      {
+        form: "nous peignions",
+        tense: "imparfait",
+        sentence: "Nous peignions ensemble chaque dimanche.",
+        translationTr: "Her pazar birlikte resim yapardık.",
+        translationEn: "We used to paint together every Sunday."
+      },
+      {
+        form: "ils peindront",
+        tense: "futur",
+        sentence: "Ils peindront la maison cet été.",
+        translationTr: "Bu yaz evi boyayacaklar.",
+        translationEn: "They will paint the house this summer."
+      }
+    ]
+  },
+  {
+    id: "v13-18",
+    french: "Compter",
+    turkish: "Saymak / Hesaba katmak / Güvenmek",
+    english: "To count / To include / To rely on",
+    pronunciation: "kɔ̃p-te",
+    description: "Hem nesnel sayma anlamında hem de birine güvenmek (compter sur) veya dahil etmek (compter parmi) gibi deyimsel kullanımları vardır.",
+    synonyms: ["dénombrer", "calculer", "se fier à"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "compte",
+        tu: "comptes",
+        il: "compte",
+        nous: "comptons",
+        vous: "comptez",
+        ils: "comptent"
+      },
+      passéComposé: {
+        je: "ai compté",
+        tu: "as compté",
+        il: "a compté",
+        nous: "avons compté",
+        vous: "avez compté",
+        ils: "ont compté"
+      },
+      imparfait: {
+        je: "comptais",
+        tu: "comptais",
+        il: "comptait",
+        nous: "comptions",
+        vous: "comptiez",
+        ils: "comptaient"
+      },
+      futur: {
+        je: "compterai",
+        tu: "compteras",
+        il: "comptera",
+        nous: "compterons",
+        vous: "compterez",
+        ils: "compteront"
+      }
+    },
+    examples: [
+      {
+        form: "tu comptes",
+        tense: "present",
+        sentence: "Tu comptes les pièces dans la boîte.",
+        translationTr: "Kutudaki paraları sayıyorsun.",
+        translationEn: "You are counting the coins in the box."
+      },
+      {
+        form: "j’ai compté",
+        tense: "passéComposé",
+        sentence: "J’ai compté sur lui pour finir le travail.",
+        translationTr: "İşi bitirmesi için ona güvendim.",
+        translationEn: "I relied on him to finish the job."
+      },
+      {
+        form: "nous comptions",
+        tense: "imparfait",
+        sentence: "Nous comptions les jours jusqu’aux vacances.",
+        translationTr: "Tatile kadar günleri sayıyorduk.",
+        translationEn: "We were counting the days until the holidays."
+      },
+      {
+        form: "ils compteront",
+        tense: "futur",
+        sentence: "Ils compteront les résultats après le test.",
+        translationTr: "Testten sonra sonuçları sayacaklar.",
+        translationEn: "They will count the results after the test."
+      }
+    ]
+  },
+  {
+    id: "v13-19",
+    french: "Arriver",
+    turkish: "Varmak / Gelmek / Olmak",
+    english: "To arrive / To come / To happen",
+    pronunciation: "a-ʁi-ve",
+    description: "En yaygın kullanımı bir yere varmak anlamındadır. Yardımcı fiil olarak 'être' ile kullanılır. Ayrıca beklenmeyen bir olayın gerçekleşmesi anlamında da kullanılabilir (il est arrivé un accident).",
+    synonyms: ["venir", "atteindre", "se produire"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "arrive",
+        tu: "arrives",
+        il: "arrive",
+        nous: "arrivons",
+        vous: "arrivez",
+        ils: "arrivent"
+      },
+      passéComposé: {
+        je: "suis arrivé",
+        tu: "es arrivé",
+        il: "est arrivé",
+        nous: "sommes arrivés",
+        vous: "êtes arrivés",
+        ils: "sont arrivés"
+      },
+      imparfait: {
+        je: "arrivais",
+        tu: "arrivais",
+        il: "arrivait",
+        nous: "arrivions",
+        vous: "arriviez",
+        ils: "arrivaient"
+      },
+      futur: {
+        je: "arriverai",
+        tu: "arriveras",
+        il: "arrivera",
+        nous: "arriverons",
+        vous: "arriverez",
+        ils: "arriveront"
+      }
+    },
+    examples: [
+      {
+        form: "je suis arrivé",
+        tense: "passéComposé",
+        sentence: "Je suis arrivé à l’heure au rendez-vous.",
+        translationTr: "Randevuya zamanında geldim.",
+        translationEn: "I arrived on time for the meeting."
+      },
+      {
+        form: "il arrive",
+        tense: "present",
+        sentence: "Il arrive souvent en retard.",
+        translationTr: "Sıklıkla geç gelir.",
+        translationEn: "He often arrives late."
+      },
+      {
+        form: "nous arrivions",
+        tense: "imparfait",
+        sentence: "Nous arrivions toujours ensemble à l’école.",
+        translationTr: "Her zaman okula birlikte varırdık.",
+        translationEn: "We always arrived at school together."
+      },
+      {
+        form: "ils arriveront",
+        tense: "futur",
+        sentence: "Ils arriveront demain matin.",
+        translationTr: "Yarın sabah varacaklar.",
+        translationEn: "They will arrive tomorrow morning."
+      }
+    ]
+  },
+  {
+    id: "v13-20",
+    french: "Doubler",
+    turkish: "İki katına çıkarmak / Sollamak / Dublaj yapmak",
+    english: "To double / To overtake / To dub",
+    pronunciation: "du-ble",
+    description: "Bir şeyi iki katına çıkarmak, trafikte bir aracı geçmek ya da bir filmi dublajlamak anlamlarında kullanılır. Kullanımı bağlama bağlıdır.",
+    synonyms: ["augmenter", "dépasser", "synchroniser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "double",
+        tu: "doubles",
+        il: "double",
+        nous: "doublons",
+        vous: "doublez",
+        ils: "doublent"
+      },
+      passéComposé: {
+        je: "ai doublé",
+        tu: "as doublé",
+        il: "a doublé",
+        nous: "avons doublé",
+        vous: "avez doublé",
+        ils: "ont doublé"
+      },
+      imparfait: {
+        je: "doublais",
+        tu: "doublais",
+        il: "doublait",
+        nous: "doublions",
+        vous: "doubliez",
+        ils: "doublaient"
+      },
+      futur: {
+        je: "doublerai",
+        tu: "doubleras",
+        il: "doublera",
+        nous: "doublerons",
+        vous: "doublerez",
+        ils: "doubleront"
+      }
+    },
+    examples: [
+      {
+        form: "il double",
+        tense: "present",
+        sentence: "Il double la voiture devant lui.",
+        translationTr: "Önündeki arabayı solluyor.",
+        translationEn: "He is overtaking the car in front of him."
+      },
+      {
+        form: "j’ai doublé",
+        tense: "passéComposé",
+        sentence: "J’ai doublé ma consommation d’eau cette semaine.",
+        translationTr: "Bu hafta su tüketimimi iki katına çıkardım.",
+        translationEn: "I doubled my water intake this week."
+      },
+      {
+        form: "nous doublions",
+        tense: "imparfait",
+        sentence: "Nous doublions souvent les scènes de film à l’école.",
+        translationTr: "Okulda sık sık film sahnelerini dublaj yapardık.",
+        translationEn: "We often dubbed movie scenes at school."
+      },
+      {
+        form: "ils doubleront",
+        tense: "futur",
+        sentence: "Ils doubleront leur production l’année prochaine.",
+        translationTr: "Gelecek yıl üretimlerini iki katına çıkaracaklar.",
+        translationEn: "They will double their production next year."
+      }
+    ]
+  },
+  {
+    id: "v13-21",
+    french: "Travailler",
+    turkish: "Çalışmak",
+    english: "To work",
+    pronunciation: "tʁa-va-je",
+    description: "Hem zihinsel hem fiziksel emek için kullanılır. Okul, iş veya kişisel gelişim gibi birçok bağlamda yaygın bir fiildir.",
+    synonyms: ["bosser", "œuvrer", "étudier"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "travaille",
+        tu: "travailles",
+        il: "travaille",
+        nous: "travaillons",
+        vous: "travaillez",
+        ils: "travaillent"
+      },
+      passéComposé: {
+        je: "ai travaillé",
+        tu: "as travaillé",
+        il: "a travaillé",
+        nous: "avons travaillé",
+        vous: "avez travaillé",
+        ils: "ont travaillé"
+      },
+      imparfait: {
+        je: "travaillais",
+        tu: "travaillais",
+        il: "travaillait",
+        nous: "travaillions",
+        vous: "travailliez",
+        ils: "travaillaient"
+      },
+      futur: {
+        je: "travaillerai",
+        tu: "travailleras",
+        il: "travaillera",
+        nous: "travaillerons",
+        vous: "travaillerez",
+        ils: "travailleront"
+      }
+    },
+    examples: [
+      {
+        form: "je travaille",
+        tense: "present",
+        sentence: "Je travaille dans une entreprise de technologie.",
+        translationTr: "Bir teknoloji şirketinde çalışıyorum.",
+        translationEn: "I work in a technology company."
+      },
+      {
+        form: "elle a travaillé",
+        tense: "passéComposé",
+        sentence: "Elle a travaillé toute la nuit.",
+        translationTr: "Tüm gece boyunca çalıştı.",
+        translationEn: "She worked all night."
+      },
+      {
+        form: "nous travaillions",
+        tense: "imparfait",
+        sentence: "Nous travaillions sur ce projet depuis un an.",
+        translationTr: "Bu proje üzerinde bir yıldır çalışıyorduk.",
+        translationEn: "We had been working on this project for a year."
+      },
+      {
+        form: "vous travaillerez",
+        tense: "futur",
+        sentence: "Vous travaillerez demain matin à 8h.",
+        translationTr: "Yarın sabah saat 8’de çalışacaksınız.",
+        translationEn: "You will work tomorrow morning at 8 a.m."
+      }
+    ]
+  },
+  {
+    id: "v13-22",
+    french: "Agacer",
+    turkish: "Sinirlendirmek / Kızdırmak / Rahatsız etmek",
+    english: "To annoy / To irritate",
+    pronunciation: "a-ga-se",
+    description: "Hafif rahatsızlık ya da sinir hali yaratmak anlamında kullanılır. 'Énerver' ile benzer ama daha az yoğunluk taşır. 1. tekil şahısta 'ç' benzeri sesle yazılır: j’agace.",
+    synonyms: ["énerver", "irriter", "embêter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "agace",
+        tu: "agaces",
+        il: "agace",
+        nous: "agaçons",
+        vous: "agacez",
+        ils: "agacent"
+      },
+      passéComposé: {
+        je: "ai agacé",
+        tu: "as agacé",
+        il: "a agacé",
+        nous: "avons agacé",
+        vous: "avez agacé",
+        ils: "ont agacé"
+      },
+      imparfait: {
+        je: "agaçais",
+        tu: "agaçais",
+        il: "agaçait",
+        nous: "agaçions",
+        vous: "agaçiez",
+        ils: "agaçaient"
+      },
+      futur: {
+        je: "agacerai",
+        tu: "agaceras",
+        il: "agacera",
+        nous: "agacerons",
+        vous: "agacerez",
+        ils: "agaceront"
+      }
+    },
+    examples: [
+      {
+        form: "tu agaces",
+        tense: "present",
+        sentence: "Tu agaces tout le monde avec tes blagues.",
+        translationTr: "Şakalarınla herkesi sinirlendiriyorsun.",
+        translationEn: "You're annoying everyone with your jokes."
+      },
+      {
+        form: "j’ai agacé",
+        tense: "passéComposé",
+        sentence: "J’ai agacé mon frère en chantant fort.",
+        translationTr: "Yüksek sesle şarkı söyleyerek kardeşimi sinirlendirdim.",
+        translationEn: "I annoyed my brother by singing loudly."
+      },
+      {
+        form: "il agaçait",
+        tense: "imparfait",
+        sentence: "Il agaçait ses collègues avec ses critiques constantes.",
+        translationTr: "Sürekli eleştirileriyle iş arkadaşlarını rahatsız ediyordu.",
+        translationEn: "He was annoying his colleagues with his constant criticism."
+      },
+      {
+        form: "ils agaceront",
+        tense: "futur",
+        sentence: "Ils agaceront le professeur s’ils parlent encore.",
+        translationTr: "Tekrar konuşurlarsa öğretmeni kızdıracaklar.",
+        translationEn: "They will annoy the teacher if they talk again."
+      }
+    ]
+  },
+  {
+    id: "v13-23",
+    french: "Déjeuner",
+    turkish: "Öğle yemeği yemek",
+    english: "To have lunch",
+    pronunciation: "de-ʒœ-ne",
+    description: "Fransa’da 'déjeuner' öğle yemeği anlamında kullanılır. Ancak Kanada ve bazı Frankofon ülkelerde kahvaltı anlamında da gelebilir. Günlük konuşmalarda yaygındır.",
+    synonyms: ["manger", "prendre le repas", "casser la croûte"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "déjeune",
+        tu: "déjeunes",
+        il: "déjeune",
+        nous: "déjeunons",
+        vous: "déjeunez",
+        ils: "déjeunent"
+      },
+      passéComposé: {
+        je: "ai déjeuné",
+        tu: "as déjeuné",
+        il: "a déjeuné",
+        nous: "avons déjeuné",
+        vous: "avez déjeuné",
+        ils: "ont déjeuné"
+      },
+      imparfait: {
+        je: "déjeunais",
+        tu: "déjeunais",
+        il: "déjeunait",
+        nous: "déjeunions",
+        vous: "déjeuniez",
+        ils: "déjeunaient"
+      },
+      futur: {
+        je: "déjeunerai",
+        tu: "déjeunerais",
+        il: "déjeunera",
+        nous: "déjeunerons",
+        vous: "déjeunerez",
+        ils: "déjeuneront"
+      }
+    },
+    examples: [
+      {
+        form: "nous déjeunons",
+        tense: "present",
+        sentence: "Nous déjeunons souvent au parc le midi.",
+        translationTr: "Öğleleri sık sık parkta yemek yeriz.",
+        translationEn: "We often have lunch in the park at noon."
+      },
+      {
+        form: "il a déjeuné",
+        tense: "passéComposé",
+        sentence: "Il a déjeuné avec ses collègues.",
+        translationTr: "İş arkadaşlarıyla öğle yemeği yedi.",
+        translationEn: "He had lunch with his colleagues."
+      },
+      {
+        form: "je déjeunais",
+        tense: "imparfait",
+        sentence: "Je déjeunais toujours à midi pile.",
+        translationTr: "Her zaman tam öğlen yemeğimi yerdim.",
+        translationEn: "I always used to have lunch at exactly noon."
+      },
+      {
+        form: "vous déjeunerez",
+        tense: "futur",
+        sentence: "Vous déjeunerez après la réunion.",
+        translationTr: "Toplantıdan sonra öğle yemeği yiyeceksiniz.",
+        translationEn: "You will have lunch after the meeting."
+      }
+    ]
+  },
+  {
+    id: "v13-24",
+    french: "Ennuyer",
+    turkish: "Can sıkmak / Sıkılmak / Rahatsız etmek",
+    english: "To bore / To annoy / To bother",
+    pronunciation: "ɑ̃-nɥi-je",
+    description: "Refleksif formuyla (s’ennuyer) 'sıkılmak' anlamında kullanılır. Normal formuyla ise birini canından bezdirmek ya da rahatsız etmek anlamındadır. Yazımında 'y' harfi çekimlerde 'i' olur (j’ennuie).",
+    synonyms: ["embêter", "agacer", "lasser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "ennuie",
+        tu: "ennuies",
+        il: "ennuie",
+        nous: "ennuyons",
+        vous: "ennuyez",
+        ils: "ennuient"
+      },
+      passéComposé: {
+        je: "ai ennuyé",
+        tu: "as ennuyé",
+        il: "a ennuyé",
+        nous: "avons ennuyé",
+        vous: "avez ennuyé",
+        ils: "ont ennuyé"
+      },
+      imparfait: {
+        je: "ennuyais",
+        tu: "ennuyais",
+        il: "ennuyait",
+        nous: "ennuyions",
+        vous: "ennuyiez",
+        ils: "ennuyaient"
+      },
+      futur: {
+        je: "ennuierai",
+        tu: "ennuieras",
+        il: "ennuiera",
+        nous: "ennuierons",
+        vous: "ennuieriez",
+        ils: "ennuieront"
+      }
+    },
+    examples: [
+      {
+        form: "je m’ennuie",
+        tense: "present",
+        sentence: "Je m’ennuie pendant les longues réunions.",
+        translationTr: "Uzun toplantılarda sıkılıyorum.",
+        translationEn: "I get bored during long meetings."
+      },
+      {
+        form: "tu as ennuyé",
+        tense: "passéComposé",
+        sentence: "Tu as ennuyé tout le monde avec ton histoire.",
+        translationTr: "Hikâyenle herkesi sıktın.",
+        translationEn: "You bored everyone with your story."
+      },
+      {
+        form: "nous ennuyions",
+        tense: "imparfait",
+        sentence: "Nous nous ennuyions pendant les vacances pluvieuses.",
+        translationTr: "Yağmurlu tatillerde sıkılırdık.",
+        translationEn: "We used to get bored during rainy holidays."
+      },
+      {
+        form: "ils ennuieront",
+        tense: "futur",
+        sentence: "Ils ennuieront leurs invités s’ils parlent trop.",
+        translationTr: "Çok konuşurlarsa misafirlerini sıkacaklar.",
+        translationEn: "They will bore their guests if they talk too much."
+      }
+    ]
+  },
+  {
+    id: "v13-25",
+    french: "Mettre",
+    turkish: "Koymak / Takmak / Giymek / Yerleştirmek",
+    english: "To put / To place / To wear / To set",
+    pronunciation: "mɛtʁ",
+    description: "Çok yönlü ve sık kullanılan bir fiildir. Hem fiziksel olarak bir şeyi bir yere koymak hem de soyut kullanımlarda (mettre en valeur = ön plana çıkarmak) anlam kazanır. Düzensiz fiildir. Yardımcı fiil 'avoir' ile çekimlenir.",
+    synonyms: ["poser", "placer", "installer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-13",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "mets",
+        tu: "mets",
+        il: "met",
+        nous: "mettons",
+        vous: "mettez",
+        ils: "mettent"
+      },
+      passéComposé: {
+        je: "ai mis",
+        tu: "as mis",
+        il: "a mis",
+        nous: "avons mis",
+        vous: "avez mis",
+        ils: "ont mis"
+      },
+      imparfait: {
+        je: "mettais",
+        tu: "mettais",
+        il: "mettait",
+        nous: "mettions",
+        vous: "mettiez",
+        ils: "mettaient"
+      },
+      futur: {
+        je: "mettrai",
+        tu: "mettras",
+        il: "mettra",
+        nous: "mettrons",
+        vous: "mettrez",
+        ils: "mettront"
+      }
+    },
+    examples: [
+      {
+        form: "je mets",
+        tense: "present",
+        sentence: "Je mets mon manteau avant de sortir.",
+        translationTr: "Dışarı çıkmadan önce montumu giyiyorum.",
+        translationEn: "I put on my coat before going out."
+      },
+      {
+        form: "elle a mis",
+        tense: "passéComposé",
+        sentence: "Elle a mis le livre sur la table.",
+        translationTr: "Kitabı masanın üzerine koydu.",
+        translationEn: "She put the book on the table."
+      },
+      {
+        form: "nous mettions",
+        tense: "imparfait",
+        sentence: "Nous mettions toujours la même chanson le matin.",
+        translationTr: "Sabahları hep aynı şarkıyı açardık.",
+        translationEn: "We used to play the same song every morning."
+      },
+      {
+        form: "ils mettront",
+        tense: "futur",
+        sentence: "Ils mettront la table pour le dîner.",
+        translationTr: "Akşam yemeği için masayı hazırlayacaklar.",
+        translationEn: "They will set the table for dinner."
+      }
+    ]
+  },
+  {
+    id: "v14-1",
+    french: "Fouiller",
+    turkish: "Didik didik aramak / Karıştırmak",
+    english: "To search / To rummage / To dig through",
+    pronunciation: "fu-je",
+    description: "Genellikle detaylı şekilde aramak anlamında kullanılır. Çoğu zaman polis araması gibi resmi bağlamlarda geçer (fouiller une valise, fouiller quelqu’un).",
+    synonyms: ["inspecter", "examiner", "sonder"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "fouille",
+        tu: "fouilles",
+        il: "fouille",
+        nous: "fouillons",
+        vous: "fouillez",
+        ils: "fouillent"
+      },
+      passéComposé: {
+        je: "ai fouillé",
+        tu: "as fouillé",
+        il: "a fouillé",
+        nous: "avons fouillé",
+        vous: "avez fouillé",
+        ils: "ont fouillé"
+      },
+      imparfait: {
+        je: "fouillais",
+        tu: "fouillais",
+        il: "fouillait",
+        nous: "fouillions",
+        vous: "fouilliez",
+        ils: "fouillaient"
+      },
+      futur: {
+        je: "fouillerai",
+        tu: "fouilleras",
+        il: "fouillera",
+        nous: "fouillerons",
+        vous: "fouillerez",
+        ils: "fouilleront"
+      }
+    },
+    examples: [
+      {
+        form: "je fouille",
+        tense: "present",
+        sentence: "Je fouille dans mon sac pour trouver mes clés.",
+        translationTr: "Anahtarlarımı bulmak için çantamı karıştırıyorum.",
+        translationEn: "I’m rummaging through my bag to find my keys."
+      },
+      {
+        form: "ils ont fouillé",
+        tense: "passéComposé",
+        sentence: "Les policiers ont fouillé la maison.",
+        translationTr: "Polisler evi aradı.",
+        translationEn: "The police searched the house."
+      }
+    ]
+  },
+  {
+    id: "v14-2",
+    french: "Payer",
+    turkish: "Ödemek",
+    english: "To pay",
+    pronunciation: "pe-je",
+    description: "'Y' harfi bazı çekimlerde 'i' harfine dönüşür (je paie, nous payons). 'Payer en espèces' (nakit ödemek), 'payer par carte' gibi sabit ifadelerle sıkça kullanılır.",
+    synonyms: ["régler", "verser", "s’acquitter de"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "paie",
+        tu: "paies",
+        il: "paie",
+        nous: "payons",
+        vous: "payez",
+        ils: "paient"
+      },
+      passéComposé: {
+        je: "ai payé",
+        tu: "as payé",
+        il: "a payé",
+        nous: "avons payé",
+        vous: "avez payé",
+        ils: "ont payé"
+      },
+      imparfait: {
+        je: "payais",
+        tu: "payais",
+        il: "payait",
+        nous: "payions",
+        vous: "payiez",
+        ils: "payaient"
+      },
+      futur: {
+        je: "paierai",
+        tu: "paieras",
+        il: "paiera",
+        nous: "paierons",
+        vous: "paierez",
+        ils: "paieront"
+      }
+    },
+    examples: [
+      {
+        form: "je paie",
+        tense: "present",
+        sentence: "Je paie toujours par carte bancaire.",
+        translationTr: "Her zaman banka kartıyla öderim.",
+        translationEn: "I always pay by bank card."
+      },
+      {
+        form: "elle a payé",
+        tense: "passéComposé",
+        sentence: "Elle a payé le dîner pour tout le monde.",
+        translationTr: "Herkesin yemeğini o ödedi.",
+        translationEn: "She paid for everyone’s dinner."
+      }
+    ]
+  },
+  {
+    id: "v14-3",
+    french: "Employer",
+    turkish: "Kullanmak / İşe almak",
+    english: "To use / To employ / To hire",
+    pronunciation: "ɑ̃-plwa-je",
+    description: "Hem birini işe almak (employer quelqu’un) hem de bir şeyi belli bir amaçla kullanmak anlamına gelir. Bazı çekimlerde 'y' harfi 'i' olur (j’emploie).",
+    synonyms: ["utiliser", "recruter", "engager"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "emploie",
+        tu: "emploies",
+        il: "emploie",
+        nous: "employons",
+        vous: "employez",
+        ils: "emploient"
+      },
+      passéComposé: {
+        je: "ai employé",
+        tu: "as employé",
+        il: "a employé",
+        nous: "avons employé",
+        vous: "avez employé",
+        ils: "ont employé"
+      },
+      imparfait: {
+        je: "employais",
+        tu: "employais",
+        il: "employait",
+        nous: "employions",
+        vous: "employiez",
+        ils: "employaient"
+      },
+      futur: {
+        je: "emploierai",
+        tu: "emploieras",
+        il: "emploiera",
+        nous: "emploierons",
+        vous: "emploirez",
+        ils: "emploieront"
+      }
+    },
+    examples: [
+      {
+        form: "nous employons",
+        tense: "present",
+        sentence: "Nous employons des méthodes modernes.",
+        translationTr: "Modern yöntemler kullanıyoruz.",
+        translationEn: "We use modern methods."
+      },
+      {
+        form: "ils ont employé",
+        tense: "passéComposé",
+        sentence: "Ils ont employé dix nouveaux ouvriers.",
+        translationTr: "On yeni işçi işe aldılar.",
+        translationEn: "They hired ten new workers."
+      }
+    ]
+  },
+  {
+    id: "v14-4",
+    french: "Remplacer",
+    turkish: "Yerine geçmek / Değiştirmek",
+    english: "To replace / To substitute",
+    pronunciation: "ʁɑ̃-plɑ-se",
+    description: "Bir kişiyi veya nesneyi başka biriyle ya da başka bir şeyle değiştirmek anlamında kullanılır. 'Remplacer quelqu’un' ifadesi sık geçer.",
+    synonyms: ["substituer", "échanger", "succéder"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "remplace",
+        tu: "remplaces",
+        il: "remplace",
+        nous: "remplaçons",
+        vous: "remplacez",
+        ils: "remplacent"
+      },
+      passéComposé: {
+        je: "ai remplacé",
+        tu: "as remplacé",
+        il: "a remplacé",
+        nous: "avons remplacé",
+        vous: "avez remplacé",
+        ils: "ont remplacé"
+      },
+      imparfait: {
+        je: "remplaçais",
+        tu: "remplaçais",
+        il: "remplaçait",
+        nous: "remplacions",
+        vous: "remplaciez",
+        ils: "remplaçaient"
+      },
+      futur: {
+        je: "remplacerai",
+        tu: "remplaceras",
+        il: "remplacera",
+        nous: "remplacerons",
+        vous: "remplacerez",
+        ils: "remplaceront"
+      }
+    },
+    examples: [
+      {
+        form: "je remplace",
+        tense: "present",
+        sentence: "Je remplace mon collègue aujourd’hui.",
+        translationTr: "Bugün meslektaşımın yerini alıyorum.",
+        translationEn: "I'm replacing my colleague today."
+      },
+      {
+        form: "ils ont remplacé",
+        tense: "passéComposé",
+        sentence: "Ils ont remplacé l'ancien système.",
+        translationTr: "Eski sistemi değiştirdiler.",
+        translationEn: "They replaced the old system."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-5",
+    french: "Venir",
+    turkish: "Gelmek",
+    english: "To come",
+    pronunciation: "və-niʁ",
+    description: "Düzensiz bir fiildir. Yardımcı fiil 'être' ile çekimlenir. 'Venir de' yapısıyla geçmişte yeni olmuş eylemleri anlatmak için de kullanılır (venir de faire quelque chose).",
+    synonyms: ["arriver", "se rendre", "accourir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "viens",
+        tu: "viens",
+        il: "vient",
+        nous: "venons",
+        vous: "venez",
+        ils: "viennent"
+      },
+      passéComposé: {
+        je: "suis venu",
+        tu: "es venu",
+        il: "est venu",
+        nous: "sommes venus",
+        vous: "êtes venus",
+        ils: "sont venus"
+      },
+      imparfait: {
+        je: "venais",
+        tu: "venais",
+        il: "venait",
+        nous: "venions",
+        vous: "veniez",
+        ils: "venaient"
+      },
+      futur: {
+        je: "viendrai",
+        tu: "viendras",
+        il: "viendra",
+        nous: "viendrons",
+        vous: "viendrez",
+        ils: "viendront"
+      }
+    },
+    examples: [
+      {
+        form: "je viens",
+        tense: "present",
+        sentence: "Je viens du marché.",
+        translationTr: "Pazardan geliyorum.",
+        translationEn: "I’m coming from the market."
+      },
+      {
+        form: "nous sommes venus",
+        tense: "passéComposé",
+        sentence: "Nous sommes venus vous aider.",
+        translationTr: "Size yardım etmeye geldik.",
+        translationEn: "We came to help you."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-6",
+    french: "Renoncer",
+    turkish: "Vazgeçmek / Bırakmak",
+    english: "To give up / To renounce",
+    pronunciation: "ʁə-nɔ̃-se",
+    description: "‘Renoncer à’ yapısıyla kullanılır. Bir haktan, fikirden veya hedeften vazgeçmek anlamında geçer.",
+    synonyms: ["abandonner", "se désister", "laisser tomber"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "renonce",
+        tu: "renonces",
+        il: "renonce",
+        nous: "renonçons",
+        vous: "renoncez",
+        ils: "renoncent"
+      },
+      passéComposé: {
+        je: "ai renoncé",
+        tu: "as renoncé",
+        il: "a renoncé",
+        nous: "avons renoncé",
+        vous: "avez renoncé",
+        ils: "ont renoncé"
+      },
+      imparfait: {
+        je: "renonçais",
+        tu: "renonçais",
+        il: "renonçait",
+        nous: "renoncions",
+        vous: "renonciez",
+        ils: "renonçaient"
+      },
+      futur: {
+        je: "renoncerai",
+        tu: "renonceras",
+        il: "renoncera",
+        nous: "renoncerons",
+        vous: "renoncerez",
+        ils: "renonceront"
+      }
+    },
+    examples: [
+      {
+        form: "elle renonce",
+        tense: "present",
+        sentence: "Elle renonce à son rêve.",
+        translationTr: "Hayalinden vazgeçiyor.",
+        translationEn: "She is giving up on her dream."
+      },
+      {
+        form: "nous avons renoncé",
+        tense: "passéComposé",
+        sentence: "Nous avons renoncé à participer.",
+        translationTr: "Katılmaktan vazgeçtik.",
+        translationEn: "We gave up on participating."
+      }
+    ]
+  },
+  {
+    id: "v14-7",
+    french: "Partir",
+    turkish: "Ayrılmak / Gitmek / Yola çıkmak",
+    english: "To leave / To go / To depart",
+    pronunciation: "paʁ-tiʁ",
+    description: "Düzensiz bir fiildir ve yardımcı fiil 'être' ile çekimlenir. Fiziksel olarak bir yerden ayrılmayı ifade eder. 'Partir de' ya da 'partir pour' yapıları yaygındır.",
+    synonyms: ["quitter", "s’en aller", "décoller"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "pars",
+        tu: "pars",
+        il: "part",
+        nous: "partons",
+        vous: "partiez",
+        ils: "partent"
+      },
+      passéComposé: {
+        je: "suis parti",
+        tu: "es parti",
+        il: "est parti",
+        nous: "sommes partis",
+        vous: "êtes partis",
+        ils: "sont partis"
+      },
+      imparfait: {
+        je: "partais",
+        tu: "partais",
+        il: "partait",
+        nous: "partions",
+        vous: "partiez",
+        ils: "partaient"
+      },
+      futur: {
+        je: "partirai",
+        tu: "partiras",
+        il: "partira",
+        nous: "partirons",
+        vous: "partirez",
+        ils: "partiront"
+      }
+    },
+    examples: [
+      {
+        form: "je pars",
+        tense: "present",
+        sentence: "Je pars demain matin.",
+        translationTr: "Yarın sabah ayrılıyorum.",
+        translationEn: "I'm leaving tomorrow morning."
+      },
+      {
+        form: "ils sont partis",
+        tense: "passéComposé",
+        sentence: "Ils sont partis en vacances.",
+        translationTr: "Tatile gittiler.",
+        translationEn: "They went on vacation."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-8",
+    french: "Relire",
+    turkish: "Yeniden okumak / Gözden geçirmek",
+    english: "To reread / To proofread",
+    pronunciation: "ʁə-liʁ",
+    description: "Bir metni veya yazıyı tekrar okumak anlamında kullanılır. 'Relire un texte' veya 'relire ses notes' gibi ifadeler yaygındır. Düzensiz bir fiildir, 'lire' fiilinden türemiştir.",
+    synonyms: ["réexaminer", "réétudier", "reconsidérer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "relis",
+        tu: "relis",
+        il: "relit",
+        nous: "relisons",
+        vous: "relisez",
+        ils: "relisent"
+      },
+      passéComposé: {
+        je: "ai relu",
+        tu: "as relu",
+        il: "a relu",
+        nous: "avons relu",
+        vous: "avez relu",
+        ils: "ont relu"
+      },
+      imparfait: {
+        je: "relais",
+        tu: "relais",
+        il: "relait",
+        nous: "relions",
+        vous: "reliez",
+        ils: "relaient"
+      },
+      futur: {
+        je: "relirai",
+        tu: "reliras",
+        il: "relira",
+        nous: "relirons",
+        vous: "relirez",
+        ils: "reliront"
+      }
+    },
+    examples: [
+      {
+        form: "elle relit",
+        tense: "present",
+        sentence: "Elle relit toujours ses e-mails avant de les envoyer.",
+        translationTr: "E-postalarını göndermeden önce her zaman tekrar okur.",
+        translationEn: "She always rereads her emails before sending them."
+      },
+      {
+        form: "j’ai relu",
+        tense: "passéComposé",
+        sentence: "J’ai relu mon devoir pour corriger les fautes.",
+        translationTr: "Hataları düzeltmek için ödevimi tekrar okudum.",
+        translationEn: "I reread my assignment to fix the mistakes."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-9",
+    french: "Obtenir",
+    turkish: "Elde etmek / Almak",
+    english: "To obtain / To get / To achieve",
+    pronunciation: "ɔb-tə-niʁ",
+    description: "Resmî veya çaba gerektiren bir şeyi elde etmek anlamında kullanılır. Düzensiz fiildir ve bazı çekimlerinde kök değişikliği olur (j’obtiens).",
+    synonyms: ["acquérir", "recevoir", "atteindre"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "obtiens",
+        tu: "obtiens",
+        il: "obtient",
+        nous: "obtenons",
+        vous: "obtenez",
+        ils: "obtiennent"
+      },
+      passéComposé: {
+        je: "ai obtenu",
+        tu: "as obtenu",
+        il: "a obtenu",
+        nous: "avons obtenu",
+        vous: "avez obtenu",
+        ils: "ont obtenu"
+      },
+      imparfait: {
+        je: "obtenais",
+        tu: "obtenais",
+        il: "obtenait",
+        nous: "obtenions",
+        vous: "obteniez",
+        ils: "obtenaient"
+      },
+      futur: {
+        je: "obtiendrai",
+        tu: "obtiendras",
+        il: "obtiendra",
+        nous: "obtiendrons",
+        vous: "obtiendrez",
+        ils: "obtiendront"
+      }
+    },
+    examples: [
+      {
+        form: "il obtient",
+        tense: "present",
+        sentence: "Il obtient toujours ce qu’il veut.",
+        translationTr: "Ne isterse her zaman elde eder.",
+        translationEn: "He always gets what he wants."
+      },
+      {
+        form: "nous avons obtenu",
+        tense: "passéComposé",
+        sentence: "Nous avons obtenu une réponse positive.",
+        translationTr: "Olumlu bir yanıt aldık.",
+        translationEn: "We received a positive response."
+      }
+    ]
+  },
+  {
+    id: "v14-10",
+    french: "Utiliser",
+    turkish: "Kullanmak / Yararlanmak",
+    english: "To use / To utilize",
+    pronunciation: "y-ti-li-ze",
+    description: "Günlük hayatta çok sık kullanılan bir fiildir. Bir aracı, kaynağı ya da yöntemi kullanmak anlamındadır. 'Utiliser quelque chose pour...' yapısı yaygındır.",
+    synonyms: ["employer", "se servir de", "manipuler"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "utilise",
+        tu: "utilises",
+        il: "utilise",
+        nous: "utilisons",
+        vous: "utilisez",
+        ils: "utilisent"
+      },
+      passéComposé: {
+        je: "ai utilisé",
+        tu: "as utilisé",
+        il: "a utilisé",
+        nous: "avons utilisé",
+        vous: "avez utilisé",
+        ils: "ont utilisé"
+      },
+      imparfait: {
+        je: "utilisais",
+        tu: "utilisais",
+        il: "utilisait",
+        nous: "utilisions",
+        vous: "utilisiez",
+        ils: "utilisaient"
+      },
+      futur: {
+        je: "utiliserai",
+        tu: "utiliseras",
+        il: "utilisera",
+        nous: "utiliserons",
+        vous: "utiliserez",
+        ils: "utiliseront"
+      }
+    },
+    examples: [
+      {
+        form: "nous utilisons",
+        tense: "present",
+        sentence: "Nous utilisons cette méthode depuis des années.",
+        translationTr: "Bu yöntemi yıllardır kullanıyoruz.",
+        translationEn: "We’ve been using this method for years."
+      },
+      {
+        form: "il a utilisé",
+        tense: "passéComposé",
+        sentence: "Il a utilisé tout son argent.",
+        translationTr: "Tüm parasını kullandı.",
+        translationEn: "He used all his money."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-11",
+    french: "Subvenir",
+    turkish: "Karşılamak / Yardım etmek (ihtiyacı)",
+    english: "To provide for / To meet (needs)",
+    pronunciation: "syb-və-niʁ",
+    description: "Genellikle 'subvenir aux besoins de quelqu’un' şeklinde kullanılır. Fiil düzensizdir ve passé composé'de yardımcı fiil 'avoir' kullanılır.",
+    synonyms: ["pourvoir", "assurer", "soutenir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "advanced",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "subviens",
+        tu: "subviens",
+        il: "subvient",
+        nous: "subvenons",
+        vous: "subvenez",
+        ils: "subviennent"
+      },
+      passéComposé: {
+        je: "ai subvenu",
+        tu: "as subvenu",
+        il: "a subvenu",
+        nous: "avons subvenu",
+        vous: "avez subvenu",
+        ils: "ont subvenu"
+      },
+      imparfait: {
+        je: "subvenais",
+        tu: "subvenais",
+        il: "subvenait",
+        nous: "subvenions",
+        vous: "subveniez",
+        ils: "subvenaient"
+      },
+      futur: {
+        je: "subviendrai",
+        tu: "subviendras",
+        il: "subviendra",
+        nous: "subviendrons",
+        vous: "subviendrez",
+        ils: "subviendront"
+      }
+    },
+    examples: [
+      {
+        form: "il subvient",
+        tense: "present",
+        sentence: "Il subvient aux besoins de sa famille.",
+        translationTr: "Ailesinin ihtiyaçlarını karşılıyor.",
+        translationEn: "He provides for his family."
+      },
+      {
+        form: "nous avons subvenu",
+        tense: "passéComposé",
+        sentence: "Nous avons subvenu à leurs besoins essentiels.",
+        translationTr: "Onların temel ihtiyaçlarını karşıladık.",
+        translationEn: "We provided for their basic needs."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-12",
+    french: "Donner",
+    turkish: "Vermek",
+    english: "To give",
+    pronunciation: "dɔ-ne",
+    description: "Temel ve çok yaygın bir fiildir. 'Donner quelque chose à quelqu’un' yapısı en sık kullanılan formudur. Hem somut hem soyut şeyler için geçerlidir.",
+    synonyms: ["offrir", "remettre", "accorder"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "donne",
+        tu: "donnes",
+        il: "donne",
+        nous: "donnons",
+        vous: "donnez",
+        ils: "donnent"
+      },
+      passéComposé: {
+        je: "ai donné",
+        tu: "as donné",
+        il: "a donné",
+        nous: "avons donné",
+        vous: "avez donné",
+        ils: "ont donné"
+      },
+      imparfait: {
+        je: "donnais",
+        tu: "donnais",
+        il: "donnait",
+        nous: "donnions",
+        vous: "donniez",
+        ils: "donnaient"
+      },
+      futur: {
+        je: "donnerai",
+        tu: "donneras",
+        il: "donnera",
+        nous: "donnerons",
+        vous: "donnerez",
+        ils: "donneront"
+      }
+    },
+    examples: [
+      {
+        form: "je donne",
+        tense: "present",
+        sentence: "Je donne un cadeau à mon ami.",
+        translationTr: "Arkadaşıma hediye veriyorum.",
+        translationEn: "I’m giving a gift to my friend."
+      },
+      {
+        form: "ils ont donné",
+        tense: "passéComposé",
+        sentence: "Ils ont donné beaucoup d’argent.",
+        translationTr: "Çok para verdiler.",
+        translationEn: "They gave a lot of money."
+      }
+    ]
+  },
+  {
+    id: "v14-13",
+    french: "Demander",
+    turkish: "Sormak / İstemek / Talep etmek",
+    english: "To ask / To request / To demand",
+    pronunciation: "də-mɑ̃-de",
+    description: "En sık kullanılan fiillerden biridir. 'Demander à quelqu’un de faire quelque chose' yapısıyla kullanılır. Hem rica hem de resmi taleplerde kullanılır.",
+    synonyms: ["solliciter", "requérir", "interroger"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "demande",
+        tu: "demandes",
+        il: "demande",
+        nous: "demandons",
+        vous: "demandez",
+        ils: "demandent"
+      },
+      passéComposé: {
+        je: "ai demandé",
+        tu: "as demandé",
+        il: "a demandé",
+        nous: "avons demandé",
+        vous: "avez demandé",
+        ils: "ont demandé"
+      },
+      imparfait: {
+        je: "demandais",
+        tu: "demandais",
+        il: "demandait",
+        nous: "demandions",
+        vous: "demandiez",
+        ils: "demandaient"
+      },
+      futur: {
+        je: "demanderai",
+        tu: "demanderas",
+        il: "demandera",
+        nous: "demanderons",
+        vous: "demanderez",
+        ils: "demanderont"
+      }
+    },
+    examples: [
+      {
+        form: "elle demande",
+        tense: "present",
+        sentence: "Elle demande de l’aide.",
+        translationTr: "Yardım istiyor.",
+        translationEn: "She is asking for help."
+      },
+      {
+        form: "nous avons demandé",
+        tense: "passéComposé",
+        sentence: "Nous avons demandé une explication.",
+        translationTr: "Bir açıklama talep ettik.",
+        translationEn: "We requested an explanation."
+      }
+    ]
+  }
+  
+  {
+    id: "v14-14",
+    french: "Tenter",
+    turkish: "Denedmek / Girişimde bulunmak / Cezbetmek",
+    english: "To try / To attempt / To tempt",
+    pronunciation: "tɑ̃-te",
+    description: "‘Essayer’ ile eş anlamlıdır ancak daha resmi veya yazılı dilde yaygındır. Aynı zamanda birini cezbetmek anlamında da kullanılır: 'Cela me tente.'",
+    synonyms: ["essayer", "entreprendre", "séduire"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "tente",
+        tu: "tentes",
+        il: "tente",
+        nous: "tentons",
+        vous: "tentez",
+        ils: "tentent"
+      },
+      passéComposé: {
+        je: "ai tenté",
+        tu: "as tenté",
+        il: "a tenté",
+        nous: "avons tenté",
+        vous: "avez tenté",
+        ils: "ont tenté"
+      },
+      imparfait: {
+        je: "tentais",
+        tu: "tentais",
+        il: "tentait",
+        nous: "tentions",
+        vous: "tentiez",
+        ils: "tentaient"
+      },
+      futur: {
+        je: "tenterai",
+        tu: "tenteras",
+        il: "tentera",
+        nous: "tenterons",
+        vous: "tenterez",
+        ils: "tenteront"
+      }
+    },
+    examples: [
+      {
+        form: "j’ai tenté",
+        tense: "passéComposé",
+        sentence: "J’ai tenté de le convaincre.",
+        translationTr: "Onu ikna etmeye çalıştım.",
+        translationEn: "I tried to convince him."
+      },
+      {
+        form: "cela me tente",
+        tense: "present",
+        sentence: "Ce voyage me tente beaucoup.",
+        translationTr: "Bu seyahat beni çok cezbediyor.",
+        translationEn: "This trip really tempts me."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-15",
+    french: "Jurer",
+    turkish: "Yemin etmek / Küfretmek",
+    english: "To swear / To vow / To curse",
+    pronunciation: "ʒy-ʁe",
+    description: "Hem ciddi yemin anlamında ('jurer fidélité') hem de argo veya kızgınlıkla edilen küfür anlamında kullanılır. Bağlama göre anlamı değişebilir.",
+    synonyms: ["promettre", "affirmer", "blasphémer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "jure",
+        tu: "jures",
+        il: "jure",
+        nous: "jurons",
+        vous: "jurez",
+        ils: "jurent"
+      },
+      passéComposé: {
+        je: "ai juré",
+        tu: "as juré",
+        il: "a juré",
+        nous: "avons juré",
+        vous: "avez juré",
+        ils: "ont juré"
+      },
+      imparfait: {
+        je: "jurais",
+        tu: "jurais",
+        il: "jurait",
+        nous: "jurions",
+        vous: "juriez",
+        ils: "juraient"
+      },
+      futur: {
+        je: "jurerai",
+        tu: "jureras",
+        il: "jurera",
+        nous: "jurerons",
+        vous: "jurerez",
+        ils: "jureront"
+      }
+    },
+    examples: [
+      {
+        form: "je jure",
+        tense: "present",
+        sentence: "Je jure de dire la vérité.",
+        translationTr: "Gerçeği söylemeye yemin ederim.",
+        translationEn: "I swear to tell the truth."
+      },
+      {
+        form: "il a juré",
+        tense: "passéComposé",
+        sentence: "Il a juré contre son patron.",
+        translationTr: "Patronuna küfretti.",
+        translationEn: "He cursed at his boss."
+      }
+    ]
+  },
+  {
+    id: "v14-16",
+    french: "Rendre",
+    turkish: "Geri vermek / Sağlamak / Hale getirmek",
+    english: "To give back / To render / To make (something become)",
+    pronunciation: "ʁɑ̃dʁ",
+    description: "‘Rendre quelque chose à quelqu’un’ kalıbıyla 'geri vermek' anlamına gelir. Ayrıca 'birini mutlu hale getirmek' gibi soyut anlamlarda da kullanılır ('rendre heureux'). Düzensiz fiildir.",
+    synonyms: ["restituer", "livrer", "faire devenir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "rends",
+        tu: "rends",
+        il: "rend",
+        nous: "rendons",
+        vous: "rendez",
+        ils: "rendent"
+      },
+      passéComposé: {
+        je: "ai rendu",
+        tu: "as rendu",
+        il: "a rendu",
+        nous: "avons rendu",
+        vous: "avez rendu",
+        ils: "ont rendu"
+      },
+      imparfait: {
+        je: "rendais",
+        tu: "rendais",
+        il: "rendait",
+        nous: "rendions",
+        vous: "rendiez",
+        ils: "rendaient"
+      },
+      futur: {
+        je: "rendrai",
+        tu: "rendras",
+        il: "rendra",
+        nous: "rendrons",
+        vous: "rendrez",
+        ils: "rendront"
+      }
+    },
+    examples: [
+      {
+        form: "je rends",
+        tense: "present",
+        sentence: "Je rends le livre à la bibliothèque.",
+        translationTr: "Kitabı kütüphaneye geri veriyorum.",
+        translationEn: "I’m returning the book to the library."
+      },
+      {
+        form: "ça m’a rendu triste",
+        tense: "passéComposé",
+        sentence: "Cette nouvelle m’a rendu triste.",
+        translationTr: "Bu haber beni üzdü.",
+        translationEn: "That news made me sad."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-17",
+    french: "Sucer",
+    turkish: "Emmek / Yalamak",
+    english: "To suck / To lick",
+    pronunciation: "sy-se",
+    description: "Fiziksel anlamda bir şeyi emmek ya da yalamak için kullanılır. Özellikle çocuklar için biberon, emzik gibi bağlamlarda yaygındır.",
+    synonyms: ["téter", "lécher", "aspirer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "suce",
+        tu: "suces",
+        il: "suce",
+        nous: "suçons",
+        vous: "sucez",
+        ils: "sucent"
+      },
+      passéComposé: {
+        je: "ai sucé",
+        tu: "as sucé",
+        il: "a sucé",
+        nous: "avons sucé",
+        vous: "avez sucé",
+        ils: "ont sucé"
+      },
+      imparfait: {
+        je: "sucais",
+        tu: "sucais",
+        il: "sucait",
+        nous: "sucions",
+        vous: "suciez",
+        ils: "sucaient"
+      },
+      futur: {
+        je: "sucerai",
+        tu: "suceras",
+        il: "sucera",
+        nous: "sucerons",
+        vous: "sucerez",
+        ils: "suceront"
+      }
+    },
+    examples: [
+      {
+        form: "le bébé suce",
+        tense: "present",
+        sentence: "Le bébé suce son pouce.",
+        translationTr: "Bebek başparmağını emiyor.",
+        translationEn: "The baby is sucking its thumb."
+      },
+      {
+        form: "j’ai sucé",
+        tense: "passéComposé",
+        sentence: "J’ai sucé un bonbon au citron.",
+        translationTr: "Limonlu bir şeker emdim.",
+        translationEn: "I sucked on a lemon candy."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-18",
+    french: "Nourrir",
+    turkish: "Beslemek / Yedirmek / Büyütmek",
+    english: "To feed / To nourish / To nurture",
+    pronunciation: "nu-ʁiʁ",
+    description: "Hem fiziksel besleme hem de mecaz anlamda (bir fikri beslemek) kullanılır. Refleksif formu (se nourrir) ile kendi kendini beslemek ya da beslenmek anlamına gelir.",
+    synonyms: ["alimenter", "entretenir", "soutenir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "nourris",
+        tu: "nourris",
+        il: "nourrit",
+        nous: "nourrissons",
+        vous: "nourrissez",
+        ils: "nourrissent"
+      },
+      passéComposé: {
+        je: "ai nourri",
+        tu: "as nourri",
+        il: "a nourri",
+        nous: "avons nourri",
+        vous: "avez nourri",
+        ils: "ont nourri"
+      },
+      imparfait: {
+        je: "nourrissais",
+        tu: "nourrissais",
+        il: "nourrissait",
+        nous: "nourrissions",
+        vous: "nourrissiez",
+        ils: "nourrissaient"
+      },
+      futur: {
+        je: "nourrirai",
+        tu: "nourriras",
+        il: "nourrira",
+        nous: "nourrirons",
+        vous: "nourrirez",
+        ils: "nourriront"
+      }
+    },
+    examples: [
+      {
+        form: "nous nourrissons",
+        tense: "present",
+        sentence: "Nous nourrissons nos animaux chaque matin.",
+        translationTr: "Hayvanlarımızı her sabah besliyoruz.",
+        translationEn: "We feed our animals every morning."
+      },
+      {
+        form: "elle a nourri",
+        tense: "passéComposé",
+        sentence: "Elle a nourri son bébé pendant six mois.",
+        translationTr: "Bebeğini altı ay boyunca besledi.",
+        translationEn: "She fed her baby for six months."
+      }
+    ]
+  },
+  {
+    id: "v14-19",
+    french: "Survivre",
+    turkish: "Hayatta kalmak / Sağ kalmak",
+    english: "To survive / To outlive",
+    pronunciation: "syʁ-vivʁ",
+    description: "Düzensiz bir fiildir. Zorlu bir durumdan ya da tehlikeden sağ çıkmak anlamında kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
+    synonyms: ["résister", "subsister", "endurer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "advanced",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "survis",
+        tu: "survis",
+        il: "survit",
+        nous: "survivons",
+        vous: "survivez",
+        ils: "survivent"
+      },
+      passéComposé: {
+        je: "ai survécu",
+        tu: "as survécu",
+        il: "a survécu",
+        nous: "avons survécu",
+        vous: "avez survécu",
+        ils: "ont survécu"
+      },
+      imparfait: {
+        je: "survivais",
+        tu: "survivais",
+        il: "survivait",
+        nous: "survivions",
+        vous: "surviviez",
+        ils: "survivaient"
+      },
+      futur: {
+        je: "survivrai",
+        tu: "survivras",
+        il: "survivra",
+        nous: "survivrons",
+        vous: "survivrez",
+        ils: "survivront"
+      }
+    },
+    examples: [
+      {
+        form: "il survit",
+        tense: "present",
+        sentence: "Il survit grâce à sa détermination.",
+        translationTr: "Azmi sayesinde hayatta kalıyor.",
+        translationEn: "He survives thanks to his determination."
+      },
+      {
+        form: "j’ai survécu",
+        tense: "passéComposé",
+        sentence: "J’ai survécu à un grave accident.",
+        translationTr: "Ağır bir kazadan sağ çıktım.",
+        translationEn: "I survived a serious accident."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-20",
+    french: "Négocier",
+    turkish: "Pazarlık yapmak / Müzakere etmek",
+    english: "To negotiate / To bargain",
+    pronunciation: "ne-ɡɔ-sje",
+    description: "Ekonomik ya da diplomatik pazarlıklar için kullanılır. Hem resmi hem de günlük dilde geçer. 'Négocier un contrat' gibi kullanımlar yaygındır.",
+    synonyms: ["marchander", "discuter", "transiger"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "négocie",
+        tu: "négocies",
+        il: "négocie",
+        nous: "négocions",
+        vous: "négociez",
+        ils: "négocient"
+      },
+      passéComposé: {
+        je: "ai négocié",
+        tu: "as négocié",
+        il: "a négocié",
+        nous: "avons négocié",
+        vous: "avez négocié",
+        ils: "ont négocié"
+      },
+      imparfait: {
+        je: "négociais",
+        tu: "négociais",
+        il: "négociait",
+        nous: "négociions",
+        vous: "négociiez",
+        ils: "négociaient"
+      },
+      futur: {
+        je: "négocierai",
+        tu: "négocieras",
+        il: "négociera",
+        nous: "négocierons",
+        vous: "négocierez",
+        ils: "négocieront"
+      }
+    },
+    examples: [
+      {
+        form: "nous négocions",
+        tense: "present",
+        sentence: "Nous négocions un nouvel accord.",
+        translationTr: "Yeni bir anlaşma müzakere ediyoruz.",
+        translationEn: "We are negotiating a new agreement."
+      },
+      {
+        form: "elle a négocié",
+        tense: "passéComposé",
+        sentence: "Elle a négocié le prix de la voiture.",
+        translationTr: "Arabanın fiyatını pazarlık etti.",
+        translationEn: "She negotiated the price of the car."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-21",
+    french: "Atteindre",
+    turkish: "Ulaşmak / Elde etmek / Varmak",
+    english: "To reach / To achieve / To attain",
+    pronunciation: "a-tɛ̃dʁ",
+    description: "Düzensiz fiildir. Hem fiziksel (bir yere ulaşmak) hem de soyut (bir hedefe ulaşmak) anlamlarda kullanılır. Geçişli fiildir.",
+    synonyms: ["parvenir", "toucher", "réaliser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "advanced",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "atteins",
+        tu: "atteins",
+        il: "atteint",
+        nous: "atteignons",
+        vous: "atteignez",
+        ils: "atteignent"
+      },
+      passéComposé: {
+        je: "ai atteint",
+        tu: "as atteint",
+        il: "a atteint",
+        nous: "avons atteint",
+        vous: "avez atteint",
+        ils: "ont atteint"
+      },
+      imparfait: {
+        je: "atteignais",
+        tu: "atteignais",
+        il: "atteignait",
+        nous: "atteignions",
+        vous: "atteigniez",
+        ils: "atteignaient"
+      },
+      futur: {
+        je: "atteindrai",
+        tu: "atteindras",
+        il: "atteindra",
+        nous: "atteindrons",
+        vous: "atteindrez",
+        ils: "atteindront"
+      }
+    },
+    examples: [
+      {
+        form: "nous atteignons",
+        tense: "present",
+        sentence: "Nous atteignons enfin notre objectif.",
+        translationTr: "Sonunda hedefimize ulaşıyoruz.",
+        translationEn: "We are finally reaching our goal."
+      },
+      {
+        form: "j’ai atteint",
+        tense: "passéComposé",
+        sentence: "J’ai atteint le sommet de la montagne.",
+        translationTr: "Dağın zirvesine ulaştım.",
+        translationEn: "I reached the top of the mountain."
+      }
+    ]
+  },
+  {
+    id: "v14-22",
+    french: "Dire",
+    turkish: "Söylemek / Demek",
+    english: "To say / To tell",
+    pronunciation: "diʁ",
+    description: "Düzensiz bir fiildir. ‘Dire quelque chose à quelqu’un’ kalıbı yaygındır. Sözlü ifade ve aktarma anlamlarında kullanılır.",
+    synonyms: ["affirmer", "déclarer", "exprimer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "dis",
+        tu: "dis",
+        il: "dit",
+        nous: "disons",
+        vous: "dites",
+        ils: "disent"
+      },
+      passéComposé: {
+        je: "ai dit",
+        tu: "as dit",
+        il: "a dit",
+        nous: "avons dit",
+        vous: "avez dit",
+        ils: "ont dit"
+      },
+      imparfait: {
+        je: "disais",
+        tu: "disais",
+        il: "disait",
+        nous: "disions",
+        vous: "disiez",
+        ils: "disaient"
+      },
+      futur: {
+        je: "dirai",
+        tu: "diras",
+        il: "dira",
+        nous: "dirons",
+        vous: "direz",
+        ils: "diront"
+      }
+    },
+    examples: [
+      {
+        form: "je dis",
+        tense: "present",
+        sentence: "Je dis toujours la vérité.",
+        translationTr: "Her zaman gerçeği söylerim.",
+        translationEn: "I always tell the truth."
+      },
+      {
+        form: "ils ont dit",
+        tense: "passéComposé",
+        sentence: "Ils ont dit qu’ils viendraient.",
+        translationTr: "Geleceklerini söylediler.",
+        translationEn: "They said they would come."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-23",
+    french: "Dépenser",
+    turkish: "Harcamak / Tüketmek",
+    english: "To spend / To use up",
+    pronunciation: "de-pɑ̃-se",
+    description: "Zaman, para ya da enerji harcamak için kullanılır. ‘Dépenser de l’argent’ en yaygın kullanım şeklidir.",
+    synonyms: ["consommer", "utiliser", "gaspiller"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "dépense",
+        tu: "dépenses",
+        il: "dépense",
+        nous: "dépensons",
+        vous: "dépensez",
+        ils: "dépensent"
+      },
+      passéComposé: {
+        je: "ai dépensé",
+        tu: "as dépensé",
+        il: "a dépensé",
+        nous: "avons dépensé",
+        vous: "avez dépensé",
+        ils: "ont dépensé"
+      },
+      imparfait: {
+        je: "dépensais",
+        tu: "dépensais",
+        il: "dépensait",
+        nous: "dépensions",
+        vous: "dépensiez",
+        ils: "dépensaient"
+      },
+      futur: {
+        je: "dépenserai",
+        tu: "dépenseras",
+        il: "dépensera",
+        nous: "dépenserons",
+        vous: "dépenserez",
+        ils: "dépenseront"
+      }
+    },
+    examples: [
+      {
+        form: "je dépense",
+        tense: "present",
+        sentence: "Je dépense trop d’argent en vêtements.",
+        translationTr: "Kıyafetlere çok fazla para harcıyorum.",
+        translationEn: "I spend too much money on clothes."
+      },
+      {
+        form: "nous avons dépensé",
+        tense: "passéComposé",
+        sentence: "Nous avons dépensé tout notre budget.",
+        translationTr: "Tüm bütçemizi harcadık.",
+        translationEn: "We spent all our budget."
+      }
+    ]
+  },
+  
+  {
+    id: "v14-24",
+    french: "Coûter",
+    turkish: "Mal olmak / Tutmak (fiyat)",
+    english: "To cost",
+    pronunciation: "ku-te",
+    description: "Genellikle özne cansızdır (ce produit coûte…). Fiil, bir şeyin maddi ya da manevi bedelini belirtmek için kullanılır.",
+    synonyms: ["valoir", "revenir à", "nécessiter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "coûte",
+        tu: "coûtes",
+        il: "coûte",
+        nous: "coûtons",
+        vous: "coûtez",
+        ils: "coûtent"
+      },
+      passéComposé: {
+        je: "ai coûté",
+        tu: "as coûté",
+        il: "a coûté",
+        nous: "avons coûté",
+        vous: "avez coûté",
+        ils: "ont coûté"
+      },
+      imparfait: {
+        je: "coûtais",
+        tu: "coûais",
+        il: "coûtait",
+        nous: "coûtions",
+        vous: "coûtiez",
+        ils: "coûtaient"
+      },
+      futur: {
+        je: "coûterai",
+        tu: "coûteras",
+        il: "coûtera",
+        nous: "coûterons",
+        vous: "coûterez",
+        ils: "coûteront"
+      }
+    },
+    examples: [
+      {
+        form: "ça coûte",
+        tense: "present",
+        sentence: "Ça coûte très cher.",
+        translationTr: "Bu çok pahalıya mal oluyor.",
+        translationEn: "It costs a lot."
+      },
+      {
+        form: "cela a coûté",
+        tense: "passéComposé",
+        sentence: "Cela a coûté la vie à plusieurs personnes.",
+        translationTr: "Bu, birçok kişinin hayatına mal oldu.",
+        translationEn: "It cost several people their lives."
+      }
+    ]
+  },
+  {
+    id: "v14-25",
+    french: "Sonner",
+    turkish: "Çalmak / Zil çalmak / Tınlamak",
+    english: "To ring / To sound",
+    pronunciation: "sɔ-ne",
+    description: "Kapı zili, telefon gibi nesnelerin çıkardığı ses için kullanılır. Aynı zamanda bir sesin kulağa nasıl geldiğini tarif etmek için mecazi anlamda da kullanılabilir (ça sonne faux = kulağa yanlış geliyor).",
+    synonyms: ["retentir", "résonner", "clocheter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-14",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "sonne",
+        tu: "sonnes",
+        il: "sonne",
+        nous: "sonnons",
+        vous: "sonnez",
+        ils: "sonnent"
+      },
+      passéComposé: {
+        je: "ai sonné",
+        tu: "as sonné",
+        il: "a sonné",
+        nous: "avons sonné",
+        vous: "avez sonné",
+        ils: "ont sonné"
+      },
+      imparfait: {
+        je: "sonnais",
+        tu: "sonnais",
+        il: "sonnait",
+        nous: "sonnions",
+        vous: "sonniez",
+        ils: "sonnaient"
+      },
+      futur: {
+        je: "sonnerai",
+        tu: "sonneras",
+        il: "sonnera",
+        nous: "sonnerons",
+        vous: "sonnerez",
+        ils: "sonneront"
+      }
+    },
+    examples: [
+      {
+        form: "ça sonne",
+        tense: "present",
+        sentence: "Ça sonne à la porte.",
+        translationTr: "Kapı çalıyor.",
+        translationEn: "Someone is ringing the doorbell."
+      },
+      {
+        form: "le téléphone a sonné",
+        tense: "passéComposé",
+        sentence: "Le téléphone a sonné toute la nuit.",
+        translationTr: "Telefon bütün gece boyunca çaldı.",
+        translationEn: "The phone rang all night."
+      },
+      {
+        form: "ça sonnera",
+        tense: "futur",
+        sentence: "Ça sonnera à 8 heures pile.",
+        translationTr: "Saat tam sekizde çalacak.",
+        translationEn: "It will ring at exactly 8 o'clock."
+      }
+    ]
+  },
+  {
+    id: "v15-1",
+    french: "Cesser",
+    turkish: "Durmak / Bırakmak / Kesmek",
+    english: "To stop / To cease",
+    pronunciation: "se-se",
+    description: "Bir eylemin sona erdiğini veya durdurulduğunu belirtir. 'Cesser de + fiil' yapısıyla kullanılır (örneğin: cesser de parler).",
+    synonyms: ["arrêter", "interrompre", "terminer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "cesse",
+        tu: "cesses",
+        il: "cesse",
+        nous: "cessons",
+        vous: "cessez",
+        ils: "cessent"
+      },
+      passéComposé: {
+        je: "ai cessé",
+        tu: "as cessé",
+        il: "a cessé",
+        nous: "avons cessé",
+        vous: "avez cessé",
+        ils: "ont cessé"
+      },
+      imparfait: {
+        je: "cessais",
+        tu: "cessais",
+        il: "cessait",
+        nous: "cessions",
+        vous: "cessiez",
+        ils: "cessaient"
+      },
+      futur: {
+        je: "cesserai",
+        tu: "cesseras",
+        il: "cessera",
+        nous: "cesserons",
+        vous: "cesserez",
+        ils: "cesseront"
+      }
+    },
+    examples: [
+      {
+        form: "cesse",
+        tense: "present",
+        sentence: "Il cesse de parler quand le professeur entre.",
+        translationTr: "Öğretmen girince konuşmayı kesiyor.",
+        translationEn: "He stops talking when the teacher enters."
+      },
+      {
+        form: "a cessé",
+        tense: "passéComposé",
+        sentence: "La pluie a cessé soudainement.",
+        translationTr: "Yağmur aniden durdu.",
+        translationEn: "The rain suddenly stopped."
+      },
+      {
+        form: "cessera",
+        tense: "futur",
+        sentence: "La musique cessera à minuit.",
+        translationTr: "Müzik gece yarısında duracak.",
+        translationEn: "The music will stop at midnight."
+      }
+    ]
+  },
+  {
+    id: "v15-2",
+    french: "Vivre",
+    turkish: "Yaşamak",
+    english: "To live",
+    pronunciation: "vivʁ",
+    description: "Düzensiz bir fiildir. Hem fiziksel yaşamı hem de deneyimsel yaşamı (vivre une expérience) anlatmak için kullanılır.",
+    synonyms: ["exister", "habiter", "survivre"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "vis",
+        tu: "vis",
+        il: "vit",
+        nous: "vivons",
+        vous: "vivez",
+        ils: "vivent"
+      },
+      passéComposé: {
+        je: "ai vécu",
+        tu: "as vécu",
+        il: "a vécu",
+        nous: "avons vécu",
+        vous: "avez vécu",
+        ils: "ont vécu"
+      },
+      imparfait: {
+        je: "vivais",
+        tu: "vivais",
+        il: "vivait",
+        nous: "vivions",
+        vous: "viviez",
+        ils: "vivaient"
+      },
+      futur: {
+        je: "vivrai",
+        tu: "vivras",
+        il: "vivra",
+        nous: "vivrons",
+        vous: "vivrez",
+        ils: "vivront"
+      }
+    },
+    examples: [
+      {
+        form: "vis",
+        tense: "present",
+        sentence: "Je vis à Paris depuis cinq ans.",
+        translationTr: "Beş yıldır Paris'te yaşıyorum.",
+        translationEn: "I have been living in Paris for five years."
+      },
+      {
+        form: "a vécu",
+        tense: "passéComposé",
+        sentence: "Elle a vécu une belle aventure.",
+        translationTr: "Güzel bir macera yaşadı.",
+        translationEn: "She lived a beautiful adventure."
+      },
+      {
+        form: "vivront",
+        tense: "futur",
+        sentence: "Ils vivront heureux ensemble.",
+        translationTr: "Birlikte mutlu yaşayacaklar.",
+        translationEn: "They will live happily together."
+      }
+    ]
+  },
+  {
+    id: "v15-3",
+    french: "Entreprendre",
+    turkish: "Girişmek / Başlamak / Üstlenmek",
+    english: "To undertake / To start / To initiate",
+    pronunciation: "ɑ̃-tʁə-pʁɑ̃-dʁ",
+    description: "Özellikle projelere, işlere ya da büyük eylemlere başlamak için kullanılır. Düzensiz fiildir, çoğunlukla resmi bağlamda görülür (entreprendre une tâche).",
+    synonyms: ["commencer", "initier", "lancer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "entreprends",
+        tu: "entreprends",
+        il: "entreprend",
+        nous: "entreprenons",
+        vous: "entreprenez",
+        ils: "entreprennent"
+      },
+      passéComposé: {
+        je: "ai entrepris",
+        tu: "as entrepris",
+        il: "a entrepris",
+        nous: "avons entrepris",
+        vous: "avez entrepris",
+        ils: "ont entrepris"
+      },
+      imparfait: {
+        je: "entreprenais",
+        tu: "entreprenais",
+        il: "entreprenait",
+        nous: "entreprenions",
+        vous: "entrepreniez",
+        ils: "entreprenaient"
+      },
+      futur: {
+        je: "entreprendrai",
+        tu: "entreprendras",
+        il: "entreprendra",
+        nous: "entreprendrons",
+        vous: "entreprendrez",
+        ils: "entreprendront"
+      }
+    },
+    examples: [
+      {
+        form: "entreprends",
+        tense: "present",
+        sentence: "J’entreprends un nouveau projet cette semaine.",
+        translationTr: "Bu hafta yeni bir projeye başlıyorum.",
+        translationEn: "I am undertaking a new project this week."
+      },
+      {
+        form: "a entrepris",
+        tense: "passéComposé",
+        sentence: "Elle a entrepris des études de médecine.",
+        translationTr: "Tıp eğitimine başladı.",
+        translationEn: "She started studying medicine."
+      },
+      {
+        form: "entreprendra",
+        tense: "futur",
+        sentence: "Il entreprendra ce travail dès demain.",
+        translationTr: "Bu işe yarından itibaren başlayacak.",
+        translationEn: "He will start this job as of tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v15-4",
+    french: "Blanchir",
+    turkish: "Beyazlatmak / Ağartmak / Beyazlamak",
+    english: "To whiten / To bleach / To turn white",
+    pronunciation: "blɑ̃-ʃiʁ",
+    description: "Geçişli veya geçişsiz kullanılabilir. Saç, diş, giysi gibi nesneleri beyazlatmak ya da korku, hastalık gibi nedenlerle yüzün beyazlaması anlamında da kullanılır.",
+    synonyms: ["éclaircir", "décolorer", "pâlir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "blanchis",
+        tu: "blanchis",
+        il: "blanchit",
+        nous: "blanchissons",
+        vous: "blanchissez",
+        ils: "blanchissent"
+      },
+      passéComposé: {
+        je: "ai blanchi",
+        tu: "as blanchi",
+        il: "a blanchi",
+        nous: "avons blanchi",
+        vous: "avez blanchi",
+        ils: "ont blanchi"
+      },
+      imparfait: {
+        je: "blanchissais",
+        tu: "blanchissais",
+        il: "blanchissait",
+        nous: "blanchissions",
+        vous: "blanchissiez",
+        ils: "blanchissaient"
+      },
+      futur: {
+        je: "blanchirai",
+        tu: "blanchiras",
+        il: "blanchira",
+        nous: "blanchirons",
+        vous: "blanchirez",
+        ils: "blanchiront"
+      }
+    },
+    examples: [
+      {
+        form: "blanchis",
+        tense: "present",
+        sentence: "Je blanchis mes chemises avec un produit spécial.",
+        translationTr: "Gömleklerimi özel bir ürünle beyazlatıyorum.",
+        translationEn: "I whiten my shirts with a special product."
+      },
+      {
+        form: "a blanchi",
+        tense: "passéComposé",
+        sentence: "Il a blanchi de peur en entendant le cri.",
+        translationTr: "Çığlığı duyunca korkudan bembeyaz oldu.",
+        translationEn: "He turned white with fear upon hearing the scream."
+      },
+      {
+        form: "blanchira",
+        tense: "futur",
+        sentence: "La neige blanchira toute la ville demain.",
+        translationTr: "Yarın kar tüm şehri beyazlatacak.",
+        translationEn: "The snow will whiten the whole city tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v15-5",
+    french: "Ralentir",
+    turkish: "Yavaşlamak / Yavaşlatmak",
+    english: "To slow down / To reduce speed",
+    pronunciation: "ʁa-lɑ̃-tiʁ",
+    description: "Hem araç, hareket, konuşma gibi şeylerin hızını azaltmak anlamında kullanılır hem de figüratif olarak süreçlerin yavaşlamasını belirtir.",
+    synonyms: ["freiner", "modérer", "ralenti"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "ralentis",
+        tu: "ralentis",
+        il: "ralentit",
+        nous: "ralentissons",
+        vous: "ralentissez",
+        ils: "ralentissent"
+      },
+      passéComposé: {
+        je: "ai ralenti",
+        tu: "as ralenti",
+        il: "a ralenti",
+        nous: "avons ralenti",
+        vous: "avez ralenti",
+        ils: "ont ralenti"
+      },
+      imparfait: {
+        je: "ralentissais",
+        tu: "ralentissais",
+        il: "ralentissait",
+        nous: "ralentissions",
+        vous: "ralentissiez",
+        ils: "ralentissaient"
+      },
+      futur: {
+        je: "ralentirai",
+        tu: "ralentiras",
+        il: "ralentira",
+        nous: "ralentirons",
+        vous: "ralentirez",
+        ils: "ralentiront"
+      }
+    },
+    examples: [
+      {
+        form: "ralentis",
+        tense: "present",
+        sentence: "Je ralentis quand je vois un panneau de danger.",
+        translationTr: "Tehlike levhası görünce yavaşlıyorum.",
+        translationEn: "I slow down when I see a danger sign."
+      },
+      {
+        form: "a ralenti",
+        tense: "passéComposé",
+        sentence: "Le train a ralenti avant d’entrer en gare.",
+        translationTr: "Tren istasyona girmeden önce yavaşladı.",
+        translationEn: "The train slowed down before entering the station."
+      },
+      {
+        form: "ralentira",
+        tense: "futur",
+        sentence: "La circulation ralentira pendant les heures de pointe.",
+        translationTr: "Trafik yoğun saatlerde yavaşlayacak.",
+        translationEn: "Traffic will slow down during rush hours."
+      }
+    ]
+  },
+  {
+    id: "v15-6",
+    french: "Coucher",
+    turkish: "Yatırmak / Yatmak / Güneşin batması",
+    english: "To lay down / To go to bed / To set (sun)",
+    pronunciation: "ku-ʃe",
+    description: "Refleksif haliyle (se coucher) 'yatmak' anlamında yaygındır. Aynı zamanda güneşin batması anlamında da kullanılır (le soleil se couche).",
+    synonyms: ["allonger", "dormir", "étendre"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "couche",
+        tu: "couches",
+        il: "couche",
+        nous: "couchons",
+        vous: "couchez",
+        ils: "couchent"
+      },
+      passéComposé: {
+        je: "ai couché",
+        tu: "as couché",
+        il: "a couché",
+        nous: "avons couché",
+        vous: "avez couché",
+        ils: "ont couché"
+      },
+      imparfait: {
+        je: "couchais",
+        tu: "couchais",
+        il: "couchait",
+        nous: "couchions",
+        vous: "couchiez",
+        ils: "couchaient"
+      },
+      futur: {
+        je: "coucherai",
+        tu: "coucheras",
+        il: "couchera",
+        nous: "coucherons",
+        vous: "coucherez",
+        ils: "coucheront"
+      }
+    },
+    examples: [
+      {
+        form: "se couche",
+        tense: "present",
+        sentence: "Elle se couche toujours à 22 heures.",
+        translationTr: "Her zaman saat 10'da yatar.",
+        translationEn: "She always goes to bed at 10 PM."
+      },
+      {
+        form: "s’est couché",
+        tense: "passéComposé",
+        sentence: "Le soleil s’est couché derrière les montagnes.",
+        translationTr: "Güneş dağların arkasında battı.",
+        translationEn: "The sun set behind the mountains."
+      },
+      {
+        form: "se couchera",
+        tense: "futur",
+        sentence: "Il se couchera tôt ce soir.",
+        translationTr: "Bu akşam erken yatacak.",
+        translationEn: "He will go to bed early tonight."
+      }
+    ]
+  },
+  {
+    id: "v15-7",
+    french: "Enterrer",
+    turkish: "Gömmek / Toprağa vermek",
+    english: "To bury",
+    pronunciation: "ɑ̃-tə-ʁe",
+    description: "Çoğunlukla cenaze bağlamında ölen kişiyi gömmek anlamında kullanılır. Ayrıca mecazi olarak bir konuyu sonsuza dek kapatmak için de kullanılır (enterrer un projet).",
+    synonyms: ["inhumer", "ensevelir", "cacher"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "enterre",
+        tu: "enterres",
+        il: "enterre",
+        nous: "enterrons",
+        vous: "enterrez",
+        ils: "enterrent"
+      },
+      passéComposé: {
+        je: "ai enterré",
+        tu: "as enterré",
+        il: "a enterré",
+        nous: "avons enterré",
+        vous: "avez enterré",
+        ils: "ont enterré"
+      },
+      imparfait: {
+        je: "enterrais",
+        tu: "enterrais",
+        il: "enterrait",
+        nous: "enterrions",
+        vous: "enterriez",
+        ils: "enterraient"
+      },
+      futur: {
+        je: "enterrerai",
+        tu: "enterreras",
+        il: "enterrera",
+        nous: "enterrerons",
+        vous: "enterrerez",
+        ils: "enterreront"
+      }
+    },
+    examples: [
+      {
+        form: "enterre",
+        tense: "present",
+        sentence: "Il enterre son chien dans le jardin.",
+        translationTr: "Köpeğini bahçeye gömüyor.",
+        translationEn: "He is burying his dog in the garden."
+      },
+      {
+        form: "a enterré",
+        tense: "passéComposé",
+        sentence: "Elle a enterré son père la semaine dernière.",
+        translationTr: "Geçen hafta babasını toprağa verdi.",
+        translationEn: "She buried her father last week."
+      },
+      {
+        form: "enterrera",
+        tense: "futur",
+        sentence: "On enterrera la capsule temporelle demain.",
+        translationTr: "Yarın zaman kapsülünü gömeceğiz.",
+        translationEn: "We will bury the time capsule tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v15-8",
+    french: "Informer",
+    turkish: "Bilgilendirmek / Haber vermek",
+    english: "To inform / To notify",
+    pronunciation: "ɛ̃-fɔʁ-me",
+    description: "Bir kişiye bilgi vermek ya da resmi olarak bir şey hakkında haberdar etmek anlamında kullanılır. 'Informer de/que' yapısıyla sıkça kullanılır.",
+    synonyms: ["avertir", "notifier", "annoncer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "informe",
+        tu: "informes",
+        il: "informe",
+        nous: "informons",
+        vous: "informez",
+        ils: "informent"
+      },
+      passéComposé: {
+        je: "ai informé",
+        tu: "as informé",
+        il: "a informé",
+        nous: "avons informé",
+        vous: "avez informé",
+        ils: "ont informé"
+      },
+      imparfait: {
+        je: "informais",
+        tu: "informais",
+        il: "informait",
+        nous: "informions",
+        vous: "informiez",
+        ils: "informaient"
+      },
+      futur: {
+        je: "informerai",
+        tu: "informeras",
+        il: "informera",
+        nous: "informerons",
+        vous: "informerez",
+        ils: "informeront"
+      }
+    },
+    examples: [
+      {
+        form: "informe",
+        tense: "present",
+        sentence: "Je vous informe de la situation actuelle.",
+        translationTr: "Sizi mevcut durum hakkında bilgilendiriyorum.",
+        translationEn: "I am informing you of the current situation."
+      },
+      {
+        form: "a informé",
+        tense: "passéComposé",
+        sentence: "Il nous a informés du changement de date.",
+        translationTr: "Tarih değişikliğinden bizi haberdar etti.",
+        translationEn: "He informed us of the date change."
+      },
+      {
+        form: "informera",
+        tense: "futur",
+        sentence: "L'école vous informera par e-mail.",
+        translationTr: "Okul sizi e-posta yoluyla bilgilendirecek.",
+        translationEn: "The school will inform you by email."
+      }
+    ]
+  },
+  {
+    id: "v15-9",
+    french: "Grandir",
+    turkish: "Büyümek / Gelişmek",
+    english: "To grow / To grow up",
+    pronunciation: "ɡʁɑ̃-diʁ",
+    description: "Fiziksel olarak büyümek veya soyut anlamda gelişmek (kişilik, şirket vs.) için kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
+    synonyms: ["croître", "se développer", "s’agrandir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "grandis",
+        tu: "grandis",
+        il: "grandit",
+        nous: "grandissons",
+        vous: "grandissez",
+        ils: "grandissent"
+      },
+      passéComposé: {
+        je: "ai grandi",
+        tu: "as grandi",
+        il: "a grandi",
+        nous: "avons grandi",
+        vous: "avez grandi",
+        ils: "ont grandi"
+      },
+      imparfait: {
+        je: "grandissais",
+        tu: "grandissais",
+        il: "grandissait",
+        nous: "grandissions",
+        vous: "grandissiez",
+        ils: "grandissaient"
+      },
+      futur: {
+        je: "grandirai",
+        tu: "grandiras",
+        il: "grandira",
+        nous: "grandirons",
+        vous: "grandirez",
+        ils: "grandiront"
+      }
+    },
+    examples: [
+      {
+        form: "grandit",
+        tense: "present",
+        sentence: "L’enfant grandit vite cette année.",
+        translationTr: "Çocuk bu yıl hızlı büyüyor.",
+        translationEn: "The child is growing fast this year."
+      },
+      {
+        form: "a grandi",
+        tense: "passéComposé",
+        sentence: "Elle a grandi dans une petite ville.",
+        translationTr: "Küçük bir şehirde büyüdü.",
+        translationEn: "She grew up in a small town."
+      },
+      {
+        form: "grandira",
+        tense: "futur",
+        sentence: "Il grandira entouré d’amour.",
+        translationTr: "Sevgiyle çevrili bir ortamda büyüyecek.",
+        translationEn: "He will grow up surrounded by love."
+      }
+    ]
+  },
+  {
+    id: "v15-10",
+    french: "Supposer",
+    turkish: "Varsaymak / Farz etmek / Tahmin etmek",
+    english: "To suppose / To assume",
+    pronunciation: "sy-po-ze",
+    description: "Genellikle varsayım yaparken veya bir olasılığı hesaba katarken kullanılır. 'Supposer que' yapısıyla sıkça görülür.",
+    synonyms: ["présumer", "imaginer", "penser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "suppose",
+        tu: "supposes",
+        il: "suppose",
+        nous: "supposons",
+        vous: "supposez",
+        ils: "supposent"
+      },
+      passéComposé: {
+        je: "ai supposé",
+        tu: "as supposé",
+        il: "a supposé",
+        nous: "avons supposé",
+        vous: "avez supposé",
+        ils: "ont supposé"
+      },
+      imparfait: {
+        je: "supposais",
+        tu: "supposais",
+        il: "supposait",
+        nous: "supposions",
+        vous: "supposiez",
+        ils: "supposaient"
+      },
+      futur: {
+        je: "supposerai",
+        tu: "supposeras",
+        il: "supposera",
+        nous: "supposerons",
+        vous: "supposerez",
+        ils: "supposeront"
+      }
+    },
+    examples: [
+      {
+        form: "suppose",
+        tense: "present",
+        sentence: "Je suppose qu’il est déjà parti.",
+        translationTr: "Onun çoktan gitmiş olduğunu varsayıyorum.",
+        translationEn: "I suppose he has already left."
+      },
+      {
+        form: "a supposé",
+        tense: "passéComposé",
+        sentence: "Elle a supposé que tout allait bien.",
+        translationTr: "Her şeyin yolunda olduğunu varsaydı.",
+        translationEn: "She assumed that everything was fine."
+      },
+      {
+        form: "supposera",
+        tense: "futur",
+        sentence: "On supposera une augmentation des prix.",
+        translationTr: "Fiyat artışı olacağı varsayılacak.",
+        translationEn: "A price increase will be assumed."
+      }
+    ]
+  },
+  {
+    id: "v15-11",
+    french: "Jeter",
+    turkish: "Atmak / Fırlatmak",
+    english: "To throw / To discard",
+    pronunciation: "ʒə-te",
+    description: "Bazı şahıslarla 't' harfi iki katına çıkar (je jette, tu jettes). Hem fiziksel hem de mecazi anlamda kullanılır (jeter un regard, jeter un sort vb.).",
+    synonyms: ["lancer", "projeter", "rejeter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "jette",
+        tu: "jettes",
+        il: "jette",
+        nous: "jetons",
+        vous: "jetez",
+        ils: "jettent"
+      },
+      passéComposé: {
+        je: "ai jeté",
+        tu: "as jeté",
+        il: "a jeté",
+        nous: "avons jeté",
+        vous: "avez jeté",
+        ils: "ont jeté"
+      },
+      imparfait: {
+        je: "jetais",
+        tu: "jetais",
+        il: "jetait",
+        nous: "jetions",
+        vous: "jetiez",
+        ils: "jetaient"
+      },
+      futur: {
+        je: "jetterai",
+        tu: "jetteras",
+        il: "jettera",
+        nous: "jetterons",
+        vous: "jetterez",
+        ils: "jetteront"
+      }
+    },
+    examples: [
+      {
+        form: "jette",
+        tense: "present",
+        sentence: "Je jette la balle à mon frère.",
+        translationTr: "Topu erkek kardeşime atıyorum.",
+        translationEn: "I throw the ball to my brother."
+      },
+      {
+        form: "a jeté",
+        tense: "passéComposé",
+        sentence: "Il a jeté les papiers à la poubelle.",
+        translationTr: "Kağıtları çöp kutusuna attı.",
+        translationEn: "He threw the papers in the trash."
+      },
+      {
+        form: "jettera",
+        tense: "futur",
+        sentence: "Elle jettera les fleurs fanées demain.",
+        translationTr: "Yarın solmuş çiçekleri atacak.",
+        translationEn: "She will throw away the wilted flowers tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v15-12",
+    french: "Avoir",
+    turkish: "Sahip olmak",
+    english: "To have",
+    pronunciation: "a-vwaʁ",
+    description: "Yardımcı fiil olarak passé composé zamanında birçok fiilin çekiminde kullanılır. En temel düzensiz fiillerden biridir.",
+    synonyms: ["posséder", "tenir", "détenir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "ai",
+        tu: "as",
+        il: "a",
+        nous: "avons",
+        vous: "avez",
+        ils: "ont"
+      },
+      passéComposé: {
+        je: "ai eu",
+        tu: "as eu",
+        il: "a eu",
+        nous: "avons eu",
+        vous: "avez eu",
+        ils: "ont eu"
+      },
+      imparfait: {
+        je: "avais",
+        tu: "avais",
+        il: "avait",
+        nous: "avions",
+        vous: "aviez",
+        ils: "avaient"
+      },
+      futur: {
+        je: "aurai",
+        tu: "auras",
+        il: "aura",
+        nous: "aurons",
+        vous: "aurez",
+        ils: "auront"
+      }
+    },
+    examples: [
+      {
+        form: "ai",
+        tense: "present",
+        sentence: "J’ai deux chats et un chien.",
+        translationTr: "İki kedim ve bir köpeğim var.",
+        translationEn: "I have two cats and a dog."
+      },
+      {
+        form: "a eu",
+        tense: "passéComposé",
+        sentence: "Elle a eu un accident hier soir.",
+        translationTr: "Dün gece bir kaza geçirdi.",
+        translationEn: "She had an accident last night."
+      },
+      {
+        form: "auront",
+        tense: "futur",
+        sentence: "Ils auront besoin de ton aide demain.",
+        translationTr: "Yarın senin yardımına ihtiyaçları olacak.",
+        translationEn: "They will need your help tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v15-13",
+    french: "Chanter",
+    turkish: "Şarkı söylemek",
+    english: "To sing",
+    pronunciation: "ʃɑ̃-te",
+    description: "Hem profesyonel hem de günlük durumlar için kullanılır. Ayrıca kuşların ötmesi gibi doğa sesleri için de kullanılabilir.",
+    synonyms: ["interpréter", "vocaliser", "fredonner"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "chante",
+        tu: "chantes",
+        il: "chante",
+        nous: "chantons",
+        vous: "chantez",
+        ils: "chantent"
+      },
+      passéComposé: {
+        je: "ai chanté",
+        tu: "as chanté",
+        il: "a chanté",
+        nous: "avons chanté",
+        vous: "avez chanté",
+        ils: "ont chanté"
+      },
+      imparfait: {
+        je: "chantais",
+        tu: "chantais",
+        il: "chantait",
+        nous: "chantions",
+        vous: "chantiez",
+        ils: "chantaient"
+      },
+      futur: {
+        je: "chanterai",
+        tu: "chanteras",
+        il: "chantera",
+        nous: "chanterons",
+        vous: "chanterez",
+        ils: "chanteront"
+      }
+    },
+    examples: [
+      {
+        form: "chante",
+        tense: "present",
+        sentence: "Elle chante une chanson douce à son bébé.",
+        translationTr: "Bebeğine tatlı bir şarkı söylüyor.",
+        translationEn: "She sings a sweet song to her baby."
+      },
+      {
+        form: "a chanté",
+        tense: "passéComposé",
+        sentence: "Il a chanté à la fête hier soir.",
+        translationTr: "Dün gece partide şarkı söyledi.",
+        translationEn: "He sang at the party last night."
+      },
+      {
+        form: "chantera",
+        tense: "futur",
+        sentence: "Je chanterai à ton mariage.",
+        translationTr: "Senin düğününde şarkı söyleyeceğim.",
+        translationEn: "I will sing at your wedding."
+      }
+    ]
+  },
+  {
+    id: "v15-14",
+    french: "Visiter",
+    turkish: "Ziyaret etmek / Gezmek",
+    english: "To visit / To tour",
+    pronunciation: "vi-zi-te",
+    description: "Kişileri veya yerleri ziyaret etmek için kullanılır. Resmi olmayan bağlamda 'aller voir' ile eş anlamlı olabilir.",
+    synonyms: ["voir", "découvrir", "explorer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "visite",
+        tu: "visites",
+        il: "visite",
+        nous: "visitons",
+        vous: "visitez",
+        ils: "visitent"
+      },
+      passéComposé: {
+        je: "ai visité",
+        tu: "as visité",
+        il: "a visité",
+        nous: "avons visité",
+        vous: "avez visité",
+        ils: "ont visité"
+      },
+      imparfait: {
+        je: "visitais",
+        tu: "visitais",
+        il: "visitait",
+        nous: "visitons",
+        vous: "visitiez",
+        ils: "visitaient"
+      },
+      futur: {
+        je: "visiterai",
+        tu: "visiteras",
+        il: "visitera",
+        nous: "visiterons",
+        vous: "visiterez",
+        ils: "visiteront"
+      }
+    },
+    examples: [
+      {
+        form: "visite",
+        tense: "present",
+        sentence: "Je visite le musée chaque dimanche.",
+        translationTr: "Her pazar müzeyi ziyaret ediyorum.",
+        translationEn: "I visit the museum every Sunday."
+      },
+      {
+        form: "a visité",
+        tense: "passéComposé",
+        sentence: "Nous avons visité Paris en été.",
+        translationTr: "Yazın Paris’i gezdik.",
+        translationEn: "We visited Paris in the summer."
+      },
+      {
+        form: "visitera",
+        tense: "futur",
+        sentence: "Elle visitera sa grand-mère demain.",
+        translationTr: "Yarın büyükannesini ziyaret edecek.",
+        translationEn: "She will visit her grandmother tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v15-15",
+    french: "Recouvrir",
+    turkish: "Kaplamak / Örtmek / Yeniden kaplamak",
+    english: "To cover / To recover / To coat",
+    pronunciation: "ʁə-ku-vʁiʁ",
+    description: "Tamamen kaplamak, üstünü örtmek anlamında kullanılır. Fiziksel (karla örtmek) ya da mecazi anlamı olabilir (duygularını örtmek).",
+    synonyms: ["couvrir", "masquer", "envelopper"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "recouvre",
+        tu: "recouvres",
+        il: "recouvre",
+        nous: "recouvrons",
+        vous: "recouvrez",
+        ils: "recouvrent"
+      },
+      passéComposé: {
+        je: "ai recouvert",
+        tu: "as recouvert",
+        il: "a recouvert",
+        nous: "avons recouvert",
+        vous: "avez recouvert",
+        ils: "ont recouvert"
+      },
+      imparfait: {
+        je: "recouvrais",
+        tu: "recouvrais",
+        il: "recouvrait",
+        nous: "recouvrions",
+        vous: "recouvriez",
+        ils: "recouvraient"
+      },
+      futur: {
+        je: "recouvrirai",
+        tu: "recouvriras",
+        il: "recouvrira",
+        nous: "recouvrirons",
+        vous: "recouvrirez",
+        ils: "recouvriront"
+      }
+    },
+    examples: [
+      {
+        form: "recouvre",
+        tense: "present",
+        sentence: "La neige recouvre les toits des maisons.",
+        translationTr: "Kar evlerin çatılarını örtüyor.",
+        translationEn: "Snow covers the roofs of the houses."
+      },
+      {
+        form: "a recouvert",
+        tense: "passéComposé",
+        sentence: "Il a recouvert la table d’une nappe blanche.",
+        translationTr: "Masayı beyaz bir örtüyle kapladı.",
+        translationEn: "He covered the table with a white cloth."
+      },
+      {
+        form: "recouvrira",
+        tense: "futur",
+        sentence: "Le brouillard recouvrira la ville demain matin.",
+        translationTr: "Yarın sabah sis şehri kaplayacak.",
+        translationEn: "The fog will cover the city tomorrow morning."
+      }
+    ]
+  },
+  {
+    id: "v15-16",
+    french: "Pouvoir",
+    turkish: "E -bilmek / Gücü olmak / Yapabilmek",
+    english: "Can / To be able to",
+    pronunciation: "pu-vwaʁ",
+    description: "Yetenek, izin ya da olasılık belirtir. Yardımcı fiil olarak da kullanılır. Düzensiz bir fiildir.",
+    synonyms: ["être capable de", "avoir la possibilité de"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "peux",
+        tu: "peux",
+        il: "peut",
+        nous: "pouvons",
+        vous: "pouvez",
+        ils: "peuvent"
+      },
+      passéComposé: {
+        je: "ai pu",
+        tu: "as pu",
+        il: "a pu",
+        nous: "avons pu",
+        vous: "avez pu",
+        ils: "ont pu"
+      },
+      imparfait: {
+        je: "pouvais",
+        tu: "pouvais",
+        il: "pouvait",
+        nous: "pouvions",
+        vous: "pouviez",
+        ils: "pouvaient"
+      },
+      futur: {
+        je: "pourrai",
+        tu: "pourras",
+        il: "pourra",
+        nous: "pourrons",
+        vous: "pourrez",
+        ils: "pourront"
+      }
+    },
+    examples: [
+      {
+        form: "peut",
+        tense: "present",
+        sentence: "Il peut venir ce soir.",
+        translationTr: "Bu akşam gelebilir.",
+        translationEn: "He can come tonight."
+      },
+      {
+        form: "a pu",
+        tense: "passéComposé",
+        sentence: "Elle a pu finir son travail à temps.",
+        translationTr: "İşini zamanında bitirebildi.",
+        translationEn: "She was able to finish her work on time."
+      },
+      {
+        form: "pourrons",
+        tense: "futur",
+        sentence: "Nous pourrons voyager cet été.",
+        translationTr: "Bu yaz seyahat edebileceğiz.",
+        translationEn: "We will be able to travel this summer."
+      }
+    ]
+  },
+  {
+    id: "v15-17",
+    french: "Détenir",
+    turkish: "Elde tutmak / Elinde bulundurmak / Gözaltında tutmak",
+    english: "To hold / To possess / To detain",
+    pronunciation: "de-tə-niʁ",
+    description: "Hem somut hem soyut nesnelerin sahipliğini veya kontrolünü belirtmek için kullanılır. Hukuki bağlamda da sıkça geçer.",
+    synonyms: ["posséder", "avoir", "garder"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "détiens",
+        tu: "détiens",
+        il: "détient",
+        nous: "détenons",
+        vous: "détenez",
+        ils: "détiennent"
+      },
+      passéComposé: {
+        je: "ai détenu",
+        tu: "as détenu",
+        il: "a détenu",
+        nous: "avons détenu",
+        vous: "avez détenu",
+        ils: "ont détenu"
+      },
+      imparfait: {
+        je: "détenais",
+        tu: "détenais",
+        il: "détenait",
+        nous: "détenions",
+        vous: "déteniez",
+        ils: "détenaient"
+      },
+      futur: {
+        je: "détiendrai",
+        tu: "détiendras",
+        il: "détiendra",
+        nous: "détiendrons",
+        vous: "détiendrez",
+        ils: "détiendront"
+      }
+    },
+    examples: [
+      {
+        form: "détient",
+        tense: "present",
+        sentence: "La police détient des preuves solides.",
+        translationTr: "Polis sağlam delillere sahip.",
+        translationEn: "The police hold solid evidence."
+      },
+      {
+        form: "a détenu",
+        tense: "passéComposé",
+        sentence: "Il a détenu ce record pendant dix ans.",
+        translationTr: "Bu rekoru on yıl boyunca elinde tuttu.",
+        translationEn: "He held this record for ten years."
+      },
+      {
+        form: "détiendra",
+        tense: "futur",
+        sentence: "Elle détiendra bientôt le pouvoir.",
+        translationTr: "Yakında gücü elinde bulunduracak.",
+        translationEn: "She will soon hold the power."
+      }
+    ]
+  },
+  {
+    id: "v15-18",
+    french: "Promener",
+    turkish: "Gezdirmek",
+    english: "To walk (someone/something) / To take for a walk",
+    pronunciation: "pʁɔ-mə-ne",
+    description: "Refleksif hali (se promener) 'gezmek' anlamında kullanılır. Normal hali birini ya da bir hayvanı gezdirmek içindir. 'Je promène le chien' (köpeği gezdiriyorum) gibi.",
+    synonyms: ["balader", "déambuler", "flâner"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "promène",
+        tu: "promènes",
+        il: "promène",
+        nous: "promenons",
+        vous: "promenez",
+        ils: "promènent"
+      },
+      passéComposé: {
+        je: "ai promené",
+        tu: "as promené",
+        il: "a promené",
+        nous: "avons promené",
+        vous: "avez promené",
+        ils: "ont promené"
+      },
+      imparfait: {
+        je: "promenais",
+        tu: "promenais",
+        il: "promenait",
+        nous: "promenions",
+        vous: "promeniez",
+        ils: "promenaient"
+      },
+      futur: {
+        je: "promènerai",
+        tu: "promèneras",
+        il: "promènera",
+        nous: "promènerons",
+        vous: "promènerez",
+        ils: "promèneront"
+      }
+    },
+    examples: [
+      {
+        form: "promène",
+        tense: "present",
+        sentence: "Je promène mon chien tous les matins.",
+        translationTr: "Her sabah köpeğimi gezdiriyorum.",
+        translationEn: "I walk my dog every morning."
+      },
+      {
+        form: "a promené",
+        tense: "passéComposé",
+        sentence: "Il a promené son fils au parc.",
+        translationTr: "Oğlunu parkta gezdirdi.",
+        translationEn: "He took his son for a walk in the park."
+      },
+      {
+        form: "promèneront",
+        tense: "futur",
+        sentence: "Ils promèneront les enfants après le déjeuner.",
+        translationTr: "Öğle yemeğinden sonra çocukları gezdirecekler.",
+        translationEn: "They will take the children for a walk after lunch."
+      }
+    ]
+  },
+  {
+    id: "v15-19",
+    french: "Rentrer",
+    turkish: "Geri dönmek / Eve dönmek / İçeri sokmak",
+    english: "To return / To go back / To bring in",
+    pronunciation: "ʁɑ̃-tʁe",
+    description: "Hem geçişsiz (eve dönmek) hem geçişli (arabayı garaja sokmak) olarak kullanılabilir. Yardımcı fiil olarak 'être' ya da 'avoir' alabilir, kullanıma göre değişir.",
+    synonyms: ["revenir", "retourner", "rapporter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "rentre",
+        tu: "rentres",
+        il: "rentre",
+        nous: "rentrons",
+        vous: "rentrez",
+        ils: "rentrent"
+      },
+      passéComposé: {
+        je: "suis rentré",
+        tu: "es rentré",
+        il: "est rentré",
+        nous: "sommes rentrés",
+        vous: "êtes rentrés",
+        ils: "sont rentrés"
+      },
+      imparfait: {
+        je: "rentrais",
+        tu: "rentrais",
+        il: "rentrait",
+        nous: "rentrions",
+        vous: "rentriez",
+        ils: "rentraient"
+      },
+      futur: {
+        je: "rentrerai",
+        tu: "rentreras",
+        il: "rentrera",
+        nous: "rentrerons",
+        vous: "rentrerez",
+        ils: "rentreront"
+      }
+    },
+    examples: [
+      {
+        form: "rentre",
+        tense: "present",
+        sentence: "Je rentre à la maison après le travail.",
+        translationTr: "İşten sonra eve dönüyorum.",
+        translationEn: "I go back home after work."
+      },
+      {
+        form: "est rentré",
+        tense: "passéComposé",
+        sentence: "Il est rentré tard hier soir.",
+        translationTr: "Dün gece geç döndü.",
+        translationEn: "He came home late last night."
+      },
+      {
+        form: "rentreront",
+        tense: "futur",
+        sentence: "Ils rentreront demain de leurs vacances.",
+        translationTr: "Tatilinden yarın dönecekler.",
+        translationEn: "They will return from their vacation tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v15-20",
+    french: "Indiquer",
+    turkish: "Göstermek / Belirtmek / İşaret etmek",
+    english: "To indicate / To point out / To state",
+    pronunciation: "ɛ̃-di-ke",
+    description: "Hem fiziksel işaret etme hem de bilgi verme bağlamında kullanılır. 'Indiquer que' veya 'indiquer à quelqu’un' yapısıyla görülür.",
+    synonyms: ["signaler", "montrer", "désigner"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "indique",
+        tu: "indiques",
+        il: "indique",
+        nous: "indiquons",
+        vous: "indiquez",
+        ils: "indiquent"
+      },
+      passéComposé: {
+        je: "ai indiqué",
+        tu: "as indiqué",
+        il: "a indiqué",
+        nous: "avons indiqué",
+        vous: "avez indiqué",
+        ils: "ont indiqué"
+      },
+      imparfait: {
+        je: "indiquais",
+        tu: "indiquais",
+        il: "indiquait",
+        nous: "indiquions",
+        vous: "indiquiez",
+        ils: "indiquaient"
+      },
+      futur: {
+        je: "indiquerai",
+        tu: "indiqueras",
+        il: "indiquera",
+        nous: "indiquerons",
+        vous: "indiquerez",
+        ils: "indiqueront"
+      }
+    },
+    examples: [
+      {
+        form: "indique",
+        tense: "present",
+        sentence: "Ce panneau indique la direction du centre-ville.",
+        translationTr: "Bu tabela şehir merkezinin yönünü gösteriyor.",
+        translationEn: "This sign indicates the direction to the city center."
+      },
+      {
+        form: "a indiqué",
+        tense: "passéComposé",
+        sentence: "Le médecin a indiqué la dose à prendre.",
+        translationTr: "Doktor alınması gereken dozu belirtti.",
+        translationEn: "The doctor indicated the dosage to take."
+      },
+      {
+        form: "indiquera",
+        tense: "futur",
+        sentence: "Il indiquera la route sur la carte.",
+        translationTr: "Harita üzerinde yolu gösterecek.",
+        translationEn: "He will point out the route on the map."
+      }
+    ]
+  },
+  {
+    id: "v15-21",
+    french: "Produire",
+    turkish: "Üretmek / Ortaya çıkarmak / Sunmak",
+    english: "To produce / To generate / To yield",
+    pronunciation: "pʁɔ-dɥiʁ",
+    description: "Sanayi, enerji, tarım gibi alanlarda üretim için kullanılır. Aynı zamanda soyut anlamda da (effet, émotion) kullanılabilir. Düzensiz fiildir.",
+    synonyms: ["fabriquer", "créer", "engendrer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "produis",
+        tu: "produis",
+        il: "produit",
+        nous: "produisons",
+        vous: "produisez",
+        ils: "produisent"
+      },
+      passéComposé: {
+        je: "ai produit",
+        tu: "as produit",
+        il: "a produit",
+        nous: "avons produit",
+        vous: "avez produit",
+        ils: "ont produit"
+      },
+      imparfait: {
+        je: "produisais",
+        tu: "produisais",
+        il: "produisait",
+        nous: "produisions",
+        vous: "produisiez",
+        ils: "produisaient"
+      },
+      futur: {
+        je: "produirai",
+        tu: "produiras",
+        il: "produira",
+        nous: "produirons",
+        vous: "produirez",
+        ils: "produiront"
+      }
+    },
+    examples: [
+      {
+        form: "produit",
+        tense: "present",
+        sentence: "Cette usine produit des pièces automobiles.",
+        translationTr: "Bu fabrika otomobil parçaları üretiyor.",
+        translationEn: "This factory produces car parts."
+      },
+      {
+        form: "a produit",
+        tense: "passéComposé",
+        sentence: "Le film a produit un grand impact sur le public.",
+        translationTr: "Film izleyici üzerinde büyük etki yarattı.",
+        translationEn: "The film produced a big impact on the audience."
+      },
+      {
+        form: "produira",
+        tense: "futur",
+        sentence: "L’entreprise produira plus d’énergie verte l’année prochaine.",
+        translationTr: "Şirket gelecek yıl daha fazla yeşil enerji üretecek.",
+        translationEn: "The company will produce more green energy next year."
+      }
+    ]
+  },
+  {
+    id: "v15-22",
+    french: "Pardonner",
+    turkish: "Affetmek / Bağışlamak",
+    english: "To forgive / To pardon",
+    pronunciation: "paʁ-dɔ-ne",
+    description: "Hem kişisel hem de dini ya da resmi bağlamlarda kullanılabilir. 'Pardonner à quelqu’un' kalıbı ile birlikte kullanılır.",
+    synonyms: ["excuser", "absoudre", "gracier"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "pardonne",
+        tu: "pardonnes",
+        il: "pardonne",
+        nous: "pardonnons",
+        vous: "pardonnez",
+        ils: "pardonnent"
+      },
+      passéComposé: {
+        je: "ai pardonné",
+        tu: "as pardonné",
+        il: "a pardonné",
+        nous: "avons pardonné",
+        vous: "avez pardonné",
+        ils: "ont pardonné"
+      },
+      imparfait: {
+        je: "pardonnai",
+        tu: "pardonnai",
+        il: "pardonnait",
+        nous: "pardonnions",
+        vous: "pardonniez",
+        ils: "pardonniaient"
+      },
+      futur: {
+        je: "pardonnerai",
+        tu: "pardonneras",
+        il: "pardonnera",
+        nous: "pardonnerons",
+        vous: "pardonnerez",
+        ils: "pardonneront"
+      }
+    },
+    examples: [
+      {
+        form: "pardonne",
+        tense: "present",
+        sentence: "Je te pardonne pour ton erreur.",
+        translationTr: "Hatanı affediyorum.",
+        translationEn: "I forgive you for your mistake."
+      },
+      {
+        form: "a pardonné",
+        tense: "passéComposé",
+        sentence: "Elle a pardonné à son frère.",
+        translationTr: "Kardeşini affetti.",
+        translationEn: "She forgave her brother."
+      },
+      {
+        form: "pardonneront",
+        tense: "futur",
+        sentence: "Ils te pardonneront un jour.",
+        translationTr: "Bir gün seni affedecekler.",
+        translationEn: "They will forgive you one day."
+      }
+    ]
+  },
+  {
+    id: "v15-23",
+    french: "Chasser",
+    turkish: "Avlamak / Kovmak / Kovalamak",
+    english: "To hunt / To chase away / To expel",
+    pronunciation: "ʃa-se",
+    description: "Hayvan avlamak, birini kovmak ya da düşünceleri uzaklaştırmak anlamında kullanılabilir. 'Chasser quelqu’un / quelque chose' kalıbı yaygındır.",
+    synonyms: ["poursuivre", "expulser", "repousser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "chasse",
+        tu: "chasses",
+        il: "chasse",
+        nous: "chassons",
+        vous: "chassez",
+        ils: "chassent"
+      },
+      passéComposé: {
+        je: "ai chassé",
+        tu: "as chassé",
+        il: "a chassé",
+        nous: "avons chassé",
+        vous: "avez chassé",
+        ils: "ont chassé"
+      },
+      imparfait: {
+        je: "chassais",
+        tu: "chassais",
+        il: "chassait",
+        nous: "chassions",
+        vous: "chassiez",
+        ils: "chassaient"
+      },
+      futur: {
+        je: "chasserai",
+        tu: "chasseras",
+        il: "chassera",
+        nous: "chasserons",
+        vous: "chasserez",
+        ils: "chasseront"
+      }
+    },
+    examples: [
+      {
+        form: "chassent",
+        tense: "present",
+        sentence: "Ils chassent dans la forêt chaque automne.",
+        translationTr: "Her sonbahar ormanda avlanırlar.",
+        translationEn: "They hunt in the forest every autumn."
+      },
+      {
+        form: "a chassé",
+        tense: "passéComposé",
+        sentence: "Le roi a chassé l’ennemi du royaume.",
+        translationTr: "Kral düşmanı krallıktan kovdu.",
+        translationEn: "The king drove the enemy out of the kingdom."
+      },
+      {
+        form: "chassera",
+        tense: "futur",
+        sentence: "Le chat chassera les souris pendant la nuit.",
+        translationTr: "Kedi gece boyunca fareleri kovalayacak.",
+        translationEn: "The cat will chase the mice during the night."
+      }
+    ]
+  },
+  {
+    id: "v15-24",
+    french: "Entraîner",
+    turkish: "Eğitmek / Sürüklemek / Yol açmak",
+    english: "To train / To lead to / To drag along",
+    pronunciation: "ɑ̃-tʁe-ne",
+    description: "Spor, askeri ve teknik bağlamlarda eğitmek anlamında, ayrıca olayların sonuç doğurması anlamında da kullanılır. Hem olumlu hem olumsuz çağrışımlı olabilir.",
+    synonyms: ["former", "exercer", "provoquer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "entraîne",
+        tu: "entraînes",
+        il: "entraîne",
+        nous: "entraînons",
+        vous: "entraînez",
+        ils: "entraînent"
+      },
+      passéComposé: {
+        je: "ai entraîné",
+        tu: "as entraîné",
+        il: "a entraîné",
+        nous: "avons entraîné",
+        vous: "avez entraîné",
+        ils: "ont entraîné"
+      },
+      imparfait: {
+        je: "entraînais",
+        tu: "entraînais",
+        il: "entraînait",
+        nous: "entraînions",
+        vous: "entraîniez",
+        ils: "entraînaient"
+      },
+      futur: {
+        je: "entraînerai",
+        tu: "entraîneras",
+        il: "entraînera",
+        nous: "entraînerons",
+        vous: "entraînerez",
+        ils: "entraîneront"
+      }
+    },
+    examples: [
+      {
+        form: "entraîne",
+        tense: "present",
+        sentence: "Il entraîne une équipe de jeunes joueurs.",
+        translationTr: "Genç oyunculardan oluşan bir takımı çalıştırıyor.",
+        translationEn: "He trains a team of young players."
+      },
+      {
+        form: "a entraîné",
+        tense: "passéComposé",
+        sentence: "La négligence a entraîné un accident grave.",
+        translationTr: "İhmalkarlık ciddi bir kazaya yol açtı.",
+        translationEn: "Negligence caused a serious accident."
+      },
+      {
+        form: "entraînera",
+        tense: "futur",
+        sentence: "Ce changement entraînera des conséquences inattendues.",
+        translationTr: "Bu değişiklik beklenmedik sonuçlara yol açacak.",
+        translationEn: "This change will lead to unexpected consequences."
+      }
+    ]
+  },
+  {
+    id: "v15-25",
+    french: "Revenir",
+    turkish: "Geri dönmek / Tekrar gelmek",
+    english: "To come back / To return",
+    pronunciation: "ʁə-və-niʁ",
+    description: "‘Venir’ fiilinden türetilmiş düzensiz bir fiildir. Yardımcı fiil olarak 'être' ile çekimlenir. Fiziksel olarak bir yere geri dönmek ya da bir konuyu tekrar gündeme getirmek anlamında kullanılır.",
+    synonyms: ["retourner", "rentrer", "faire demi-tour"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-15",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "reviens",
+        tu: "reviens",
+        il: "revient",
+        nous: "revenons",
+        vous: "revenez",
+        ils: "reviennent"
+      },
+      passéComposé: {
+        je: "suis revenu",
+        tu: "es revenu",
+        il: "est revenu",
+        nous: "sommes revenus",
+        vous: "êtes revenus",
+        ils: "sont revenus"
+      },
+      imparfait: {
+        je: "revenais",
+        tu: "revenais",
+        il: "revenait",
+        nous: "revenions",
+        vous: "reveniez",
+        ils: "revenaient"
+      },
+      futur: {
+        je: "reviendrai",
+        tu: "reviendras",
+        il: "reviendra",
+        nous: "reviendrons",
+        vous: "reviendrez",
+        ils: "reviendront"
+      }
+    },
+    examples: [
+      {
+        form: "revient",
+        tense: "present",
+        sentence: "Elle revient toujours à la même idée.",
+        translationTr: "Hep aynı fikre geri dönüyor.",
+        translationEn: "She always comes back to the same idea."
+      },
+      {
+        form: "est revenu",
+        tense: "passéComposé",
+        sentence: "Il est revenu de vacances hier soir.",
+        translationTr: "Tatil dönüşü dün gece geldi.",
+        translationEn: "He came back from vacation last night."
+      },
+      {
+        form: "reviendra",
+        tense: "futur",
+        sentence: "Le train reviendra dans une heure.",
+        translationTr: "Tren bir saat içinde geri dönecek.",
+        translationEn: "The train will come back in an hour."
+      }
+    ]
+  },
+  {
+    id: "v16-1",
+    french: "Découvrir",
+    turkish: "Keşfetmek / Ortaya çıkarmak",
+    english: "To discover / To uncover / To find out",
+    pronunciation: "de-ku-vʁiʁ",
+    description: "Düzensiz bir fiildir. Yeni bir şeyi keşfetmek, gizli bir şeyi açığa çıkarmak veya bilgi edinmek anlamında kullanılır. ‘Couvrir’ fiilinden türetilmiştir.",
+    synonyms: ["trouver", "révéler", "déceler"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "découvre",
+        tu: "découvres",
+        il: "découvre",
+        nous: "découvrons",
+        vous: "découvrez",
+        ils: "découvrent"
+      },
+      passéComposé: {
+        je: "ai découvert",
+        tu: "as découvert",
+        il: "a découvert",
+        nous: "avons découvert",
+        vous: "avez découvert",
+        ils: "ont découvert"
+      },
+      imparfait: {
+        je: "découvrais",
+        tu: "découvrais",
+        il: "découvrait",
+        nous: "découvrions",
+        vous: "découvriez",
+        ils: "découvraient"
+      },
+      futur: {
+        je: "découvrirai",
+        tu: "découvriras",
+        il: "découvrira",
+        nous: "découvrirons",
+        vous: "découvrirez",
+        ils: "découvriront"
+      }
+    },
+    examples: [
+      {
+        form: "découvre",
+        tense: "present",
+        sentence: "Je découvre un nouveau restaurant en ville.",
+        translationTr: "Şehirde yeni bir restoran keşfediyorum.",
+        translationEn: "I’m discovering a new restaurant in town."
+      },
+      {
+        form: "a découvert",
+        tense: "passéComposé",
+        sentence: "Elle a découvert la vérité par hasard.",
+        translationTr: "Gerçeği tesadüfen öğrendi.",
+        translationEn: "She discovered the truth by chance."
+      },
+      {
+        form: "découvrira",
+        tense: "futur",
+        sentence: "Il découvrira un talent caché.",
+        translationTr: "Gizli bir yetenek keşfedecek.",
+        translationEn: "He will discover a hidden talent."
+      }
+    ]
+  },
+  {
+    id: "v16-2",
+    french: "Maigrir",
+    turkish: "Kilo vermek / Zayıflamak",
+    english: "To lose weight / To slim down",
+    pronunciation: "mɛ-ɡʁiʁ",
+    description: "Zayıflama veya kilo verme durumunu ifade eder. Düzenli -ir fiilidir. Fiziksel değişimin yanı sıra mecazi olarak etkisini kaybetmek anlamında da kullanılabilir.",
+    synonyms: ["mincir", "s’alléger", "dégringoler"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "maigris",
+        tu: "maigris",
+        il: "maigrit",
+        nous: "maigrissons",
+        vous: "maigrissez",
+        ils: "maigrissent"
+      },
+      passéComposé: {
+        je: "ai maigri",
+        tu: "as maigri",
+        il: "a maigri",
+        nous: "avons maigri",
+        vous: "avez maigri",
+        ils: "ont maigri"
+      },
+      imparfait: {
+        je: "maigrissais",
+        tu: "maigrissais",
+        il: "maigrissait",
+        nous: "maigrissions",
+        vous: "maigrissiez",
+        ils: "maigrissaient"
+      },
+      futur: {
+        je: "maigrirai",
+        tu: "maigriras",
+        il: "maigrira",
+        nous: "maigrirons",
+        vous: "maigrirez",
+        ils: "maigriront"
+      }
+    },
+    examples: [
+      {
+        form: "maigris",
+        tense: "present",
+        sentence: "Je maigris petit à petit.",
+        translationTr: "Yavaş yavaş kilo veriyorum.",
+        translationEn: "I am slowly losing weight."
+      },
+      {
+        form: "a maigri",
+        tense: "passéComposé",
+        sentence: "Il a beaucoup maigri après sa maladie.",
+        translationTr: "Hastalığından sonra çok zayıfladı.",
+        translationEn: "He lost a lot of weight after his illness."
+      },
+      {
+        form: "maigrira",
+        tense: "futur",
+        sentence: "Elle maigrira avec ce nouveau régime.",
+        translationTr: "Bu yeni diyetle zayıflayacak.",
+        translationEn: "She will lose weight with this new diet."
+      }
+    ]
+  },
+  {
+    id: "v16-3",
+    french: "Étendre",
+    turkish: "Yaymak / Uzatmak / Serip germek",
+    english: "To spread / To extend / To hang out",
+    pronunciation: "e-tɑ̃-dʁ",
+    description: "Fiziksel olarak bir nesneyi yaymak ya da zaman, etki alanı gibi soyut kavramları genişletmek anlamında kullanılır. Düzensiz bir -re fiilidir.",
+    synonyms: ["allonger", "déployer", "élargir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "étends",
+        tu: "étends",
+        il: "étend",
+        nous: "étendons",
+        vous: "étendez",
+        ils: "étendent"
+      },
+      passéComposé: {
+        je: "ai étendu",
+        tu: "as étendu",
+        il: "a étendu",
+        nous: "avons étendu",
+        vous: "avez étendu",
+        ils: "ont étendu"
+      },
+      imparfait: {
+        je: "étendais",
+        tu: "étendais",
+        il: "étendait",
+        nous: "étendions",
+        vous: "étendiez",
+        ils: "étendaient"
+      },
+      futur: {
+        je: "étendrai",
+        tu: "étendras",
+        il: "étendra",
+        nous: "étendrons",
+        vous: "étendrez",
+        ils: "étendront"
+      }
+    },
+    examples: [
+      {
+        form: "étends",
+        tense: "present",
+        sentence: "J’étends le linge au soleil.",
+        translationTr: "Çamaşırları güneşe seriyorum.",
+        translationEn: "I’m hanging the laundry in the sun."
+      },
+      {
+        form: "a étendu",
+        tense: "passéComposé",
+        sentence: "Il a étendu sa couverture sur l’herbe.",
+        translationTr: "Battaniyesini çimenlerin üstüne serdi.",
+        translationEn: "He spread his blanket on the grass."
+      },
+      {
+        form: "étendra",
+        tense: "futur",
+        sentence: "L’entreprise étendra ses activités en Europe.",
+        translationTr: "Şirket faaliyetlerini Avrupa'ya genişletecek.",
+        translationEn: "The company will expand its operations in Europe."
+      }
+    ]
+  },
+  {
+    id: "v16-4",
+    french: "Répondre",
+    turkish: "Cevap vermek / Yanıtlamak",
+    english: "To answer / To reply / To respond",
+    pronunciation: "ʁe-pɔ̃-dʁ",
+    description: "Bir kişiye ya da bir soruya yanıt vermek anlamında kullanılır. ‘Répondre à’ yapısı ile kullanılır. Düzensiz bir -re fiilidir.",
+    synonyms: ["réagir", "dire", "rétorquer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "réponds",
+        tu: "réponds",
+        il: "répond",
+        nous: "répondons",
+        vous: "répondez",
+        ils: "répondent"
+      },
+      passéComposé: {
+        je: "ai répondu",
+        tu: "as répondu",
+        il: "a répondu",
+        nous: "avons répondu",
+        vous: "avez répondu",
+        ils: "ont répondu"
+      },
+      imparfait: {
+        je: "répondais",
+        tu: "répondais",
+        il: "répondait",
+        nous: "répondions",
+        vous: "répondiez",
+        ils: "répondaient"
+      },
+      futur: {
+        je: "répondrai",
+        tu: "répondras",
+        il: "répondra",
+        nous: "répondrons",
+        vous: "répondrez",
+        ils: "répondront"
+      }
+    },
+    examples: [
+      {
+        form: "réponds",
+        tense: "present",
+        sentence: "Je réponds toujours aux e-mails rapidement.",
+        translationTr: "E-postalara her zaman hızlı cevap veririm.",
+        translationEn: "I always respond to emails quickly."
+      },
+      {
+        form: "a répondu",
+        tense: "passéComposé",
+        sentence: "Elle a répondu à la question sans hésiter.",
+        translationTr: "Soruyu tereddüt etmeden yanıtladı.",
+        translationEn: "She answered the question without hesitation."
+      },
+      {
+        form: "répondra",
+        tense: "futur",
+        sentence: "Il répondra demain à ta demande.",
+        translationTr: "Yarın talebine cevap verecek.",
+        translationEn: "He will respond to your request tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v16-5",
+    french: "Encourager",
+    turkish: "Teşvik etmek / Cesaretlendirmek",
+    english: "To encourage / To support / To cheer",
+    pronunciation: "ɑ̃-ku-ʁa-ʒe",
+    description: "Birini moral olarak desteklemek ya da cesaret vermek için kullanılır. Kimi şahıslarda 'e' harfi aksan almaz ama 'g' harfi önünde 'e' ile yumuşatılır (nous encourageons).",
+    synonyms: ["soutenir", "motiver", "stimuler"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "encourage",
+        tu: "encourages",
+        il: "encourage",
+        nous: "encourageons",
+        vous: "encouragez",
+        ils: "encouragent"
+      },
+      passéComposé: {
+        je: "ai encouragé",
+        tu: "as encouragé",
+        il: "a encouragé",
+        nous: "avons encouragé",
+        vous: "avez encouragé",
+        ils: "ont encouragé"
+      },
+      imparfait: {
+        je: "encourageais",
+        tu: "encourageais",
+        il: "encourageait",
+        nous: "encouragions",
+        vous: "encouragiez",
+        ils: "encourageaient"
+      },
+      futur: {
+        je: "encouragerai",
+        tu: "encourageras",
+        il: "encouragera",
+        nous: "encouragerons",
+        vous: "encouragerez",
+        ils: "encourageront"
+      }
+    },
+    examples: [
+      {
+        form: "encourage",
+        tense: "present",
+        sentence: "Je t’encourage à continuer tes efforts.",
+        translationTr: "Çabalarını sürdürmen için seni cesaretlendiriyorum.",
+        translationEn: "I encourage you to keep trying."
+      },
+      {
+        form: "a encouragé",
+        tense: "passéComposé",
+        sentence: "Le professeur a encouragé ses élèves avant l’examen.",
+        translationTr: "Öğretmen sınavdan önce öğrencilerini cesaretlendirdi.",
+        translationEn: "The teacher encouraged his students before the exam."
+      },
+      {
+        form: "encouragera",
+        tense: "futur",
+        sentence: "Le coach encouragera son équipe jusqu’à la fin.",
+        translationTr: "Koç sonuna kadar takımını destekleyecek.",
+        translationEn: "The coach will encourage his team until the end."
+      }
+    ]
+  },
+  {
+    id: "v16-6",
+    french: "Surprendre",
+    turkish: "Şaşırtmak / Yakalamak (beklenmedik şekilde)",
+    english: "To surprise / To catch off guard",
+    pronunciation: "syʁ-pʁɑ̃-dʁ",
+    description: "Düzensiz fiildir. Genellikle ani bir olay veya beklenmedik bir durum karşısında duyulan şaşkınlığı ifade eder. Aynı zamanda birini habersiz yakalamak anlamında da kullanılır.",
+    synonyms: ["étonner", "choquer", "interloquer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "surprends",
+        tu: "surprends",
+        il: "surprend",
+        nous: "surprenons",
+        vous: "surprenez",
+        ils: "surprennent"
+      },
+      passéComposé: {
+        je: "ai surpris",
+        tu: "as surpris",
+        il: "a surpris",
+        nous: "avons surpris",
+        vous: "avez surpris",
+        ils: "ont surpris"
+      },
+      imparfait: {
+        je: "surprenais",
+        tu: "surprenais",
+        il: "surprenait",
+        nous: "surprenions",
+        vous: "surpreniez",
+        ils: "surprenaient"
+      },
+      futur: {
+        je: "surprendrai",
+        tu: "surprendras",
+        il: "surprendra",
+        nous: "surprendrons",
+        vous: "surprendrez",
+        ils: "surprendront"
+      }
+    },
+    examples: [
+      {
+        form: "surprend",
+        tense: "present",
+        sentence: "Ton idée me surprend beaucoup.",
+        translationTr: "Fikrin beni çok şaşırtıyor.",
+        translationEn: "Your idea surprises me a lot."
+      },
+      {
+        form: "a surpris",
+        tense: "passéComposé",
+        sentence: "Il a surpris tout le monde avec son discours.",
+        translationTr: "Konuşmasıyla herkesi şaşırttı.",
+        translationEn: "He surprised everyone with his speech."
+      },
+      {
+        form: "surprendra",
+        tense: "futur",
+        sentence: "Cette nouvelle surprendra ses parents.",
+        translationTr: "Bu haber ailesini şaşırtacak.",
+        translationEn: "This news will surprise his parents."
+      }
+    ]
+  },
+  {
+    id: "v16-7",
+    french: "Considérer",
+    turkish: "Düşünmek / Göz önünde bulundurmak / Saymak",
+    english: "To consider / To regard / To take into account",
+    pronunciation: "kɔ̃-si-de-ʁe",
+    description: "Karar verme sürecinde veya değerlendirme yaparken bir şeyi dikkate almak anlamında kullanılır. Bazı çekimlerde 'é' aksanına dikkat edilmelidir.",
+    synonyms: ["réfléchir à", "examiner", "estimer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "considère",
+        tu: "considères",
+        il: "considère",
+        nous: "considérons",
+        vous: "considérez",
+        ils: "considèrent"
+      },
+      passéComposé: {
+        je: "ai considéré",
+        tu: "as considéré",
+        il: "a considéré",
+        nous: "avons considéré",
+        vous: "avez considéré",
+        ils: "ont considéré"
+      },
+      imparfait: {
+        je: "considérais",
+        tu: "considérais",
+        il: "considérait",
+        nous: "considérions",
+        vous: "considériez",
+        ils: "considéraient"
+      },
+      futur: {
+        je: "considérerai",
+        tu: "considéreras",
+        il: "considérera",
+        nous: "considérerons",
+        vous: "considérerez",
+        ils: "considéreront"
+      }
+    },
+    examples: [
+      {
+        form: "considère",
+        tense: "present",
+        sentence: "Je considère cette option comme la meilleure.",
+        translationTr: "Bu seçeneği en iyisi olarak değerlendiriyorum.",
+        translationEn: "I consider this option the best."
+      },
+      {
+        form: "a considéré",
+        tense: "passéComposé",
+        sentence: "Il a considéré toutes les possibilités.",
+        translationTr: "Tüm olasılıkları göz önünde bulundurdu.",
+        translationEn: "He considered all the possibilities."
+      },
+      {
+        form: "considérera",
+        tense: "futur",
+        sentence: "Elle considérera ta demande avec attention.",
+        translationTr: "Talebini dikkatle değerlendirecek.",
+        translationEn: "She will consider your request carefully."
+      }
+    ]
+  },
+  {
+    id: "v16-8",
+    french: "Fournir",
+    turkish: "Sağlamak / Tedarik etmek / Vermek",
+    english: "To provide / To supply / To furnish",
+    pronunciation: "fuʁ-niʁ",
+    description: "Malzeme, bilgi, hizmet gibi somut ya da soyut şeyleri sağlamak anlamında kullanılır. 'Fournir à quelqu’un quelque chose' şeklinde yapı alır.",
+    synonyms: ["approvisionner", "donner", "offrir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "fournis",
+        tu: "fournis",
+        il: "fournit",
+        nous: "fournissons",
+        vous: "fournissez",
+        ils: "fournissent"
+      },
+      passéComposé: {
+        je: "ai fourni",
+        tu: "as fourni",
+        il: "a fourni",
+        nous: "avons fourni",
+        vous: "avez fourni",
+        ils: "ont fourni"
+      },
+      imparfait: {
+        je: "fournissais",
+        tu: "fournissais",
+        il: "fournissait",
+        nous: "fournissions",
+        vous: "fournissiez",
+        ils: "fournissaient"
+      },
+      futur: {
+        je: "fournirai",
+        tu: "fourniras",
+        il: "fournira",
+        nous: "fournirons",
+        vous: "fournirez",
+        ils: "fourniront"
+      }
+    },
+    examples: [
+      {
+        form: "fournit",
+        tense: "present",
+        sentence: "Cette entreprise fournit l’électricité de la ville.",
+        translationTr: "Bu şirket şehrin elektriğini sağlıyor.",
+        translationEn: "This company supplies the city's electricity."
+      },
+      {
+        form: "a fourni",
+        tense: "passéComposé",
+        sentence: "Il a fourni toutes les informations nécessaires.",
+        translationTr: "Gerekli tüm bilgileri sağladı.",
+        translationEn: "He provided all the necessary information."
+      },
+      {
+        form: "fourniront",
+        tense: "futur",
+        sentence: "Ils fourniront les documents demain matin.",
+        translationTr: "Belgeleri yarın sabah sağlayacaklar.",
+        translationEn: "They will provide the documents tomorrow morning."
+      }
+    ]
+  },
+  {
+    id: "v16-9",
+    french: "Exagérer",
+    turkish: "Abartmak / Şişirmek",
+    english: "To exaggerate / To overstate",
+    pronunciation: "ɛɡ-za-ʒe-ʁe",
+    description: "Olayları, duyguları ya da anlatımları olduğundan büyük göstermek için kullanılır. Yazımda 'é' aksanı tüm çekimlerde korunur.",
+    synonyms: ["amplifier", "grossir", "dramatiser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "exagère",
+        tu: "exagères",
+        il: "exagère",
+        nous: "exagérons",
+        vous: "exagérez",
+        ils: "exagèrent"
+      },
+      passéComposé: {
+        je: "ai exagéré",
+        tu: "as exagéré",
+        il: "a exagéré",
+        nous: "avons exagéré",
+        vous: "avez exagéré",
+        ils: "ont exagéré"
+      },
+      imparfait: {
+        je: "exagérais",
+        tu: "exagérais",
+        il: "exagérait",
+        nous: "exagérions",
+        vous: "exagériez",
+        ils: "exagéraient"
+      },
+      futur: {
+        je: "exagérerai",
+        tu: "exagéreras",
+        il: "exagérera",
+        nous: "exagérerons",
+        vous: "exagérerez",
+        ils: "exagéreront"
+      }
+    },
+    examples: [
+      {
+        form: "exagères",
+        tense: "present",
+        sentence: "Tu exagères toujours tes histoires.",
+        translationTr: "Hikâyelerini hep abartırsın.",
+        translationEn: "You always exaggerate your stories."
+      },
+      {
+        form: "a exagéré",
+        tense: "passéComposé",
+        sentence: "Elle a exagéré la gravité de la situation.",
+        translationTr: "Durumun ciddiyetini abarttı.",
+        translationEn: "She exaggerated the seriousness of the situation."
+      },
+      {
+        form: "exagérera",
+        tense: "futur",
+        sentence: "Il exagérera sûrement encore une fois.",
+        translationTr: "Muhtemelen yine abartacak.",
+        translationEn: "He will surely exaggerate again."
+      }
+    ]
+  },{
+    id: "v16-10",
+    french: "Parler",
+    turkish: "Konuşmak",
+    english: "To speak / To talk",
+    pronunciation: "paʁ-le",
+    description: "Günlük konuşma dilinde en yaygın kullanılan fiillerden biridir. 'Parler à quelqu’un' ya da 'parler de quelque chose' gibi yapılarla kullanılır.",
+    synonyms: ["discuter", "dire", "exprimer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "parle",
+        tu: "parles",
+        il: "parle",
+        nous: "parlons",
+        vous: "parlez",
+        ils: "parlent"
+      },
+      passéComposé: {
+        je: "ai parlé",
+        tu: "as parlé",
+        il: "a parlé",
+        nous: "avons parlé",
+        vous: "avez parlé",
+        ils: "ont parlé"
+      },
+      imparfait: {
+        je: "parlais",
+        tu: "parlais",
+        il: "parlait",
+        nous: "parlions",
+        vous: "parliez",
+        ils: "parlaient"
+      },
+      futur: {
+        je: "parlerai",
+        tu: "parleras",
+        il: "parlera",
+        nous: "parlerons",
+        vous: "parlerez",
+        ils: "parleront"
+      }
+    },
+    examples: [
+      {
+        form: "parle",
+        tense: "present",
+        sentence: "Je parle trois langues.",
+        translationTr: "Üç dil konuşuyorum.",
+        translationEn: "I speak three languages."
+      },
+      {
+        form: "a parlé",
+        tense: "passéComposé",
+        sentence: "Elle a parlé avec son professeur.",
+        translationTr: "Öğretmeniyle konuştu.",
+        translationEn: "She spoke with her teacher."
+      },
+      {
+        form: "parleront",
+        tense: "futur",
+        sentence: "Ils parleront du projet demain.",
+        translationTr: "Projeyi yarın konuşacaklar.",
+        translationEn: "They will talk about the project tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v16-11",
+    french: "Sauter",
+    turkish: "Zıplamak / Atlamak / Patlamak",
+    english: "To jump / To skip / To explode",
+    pronunciation: "so-te",
+    description: "Hem fiziksel sıçrama hem de sıra atlama ya da patlama anlamlarında kullanılır. Bağlama göre anlam değiştirir.",
+    synonyms: ["bondir", "franchir", "exploser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "saute",
+        tu: "sautes",
+        il: "saute",
+        nous: "sautons",
+        vous: "sautez",
+        ils: "sautent"
+      },
+      passéComposé: {
+        je: "ai sauté",
+        tu: "as sauté",
+        il: "a sauté",
+        nous: "avons sauté",
+        vous: "avez sauté",
+        ils: "ont sauté"
+      },
+      imparfait: {
+        je: "sautais",
+        tu: "sautais",
+        il: "sautait",
+        nous: "sautions",
+        vous: "sautiez",
+        ils: "sautaient"
+      },
+      futur: {
+        je: "sauterai",
+        tu: "sauteras",
+        il: "sautera",
+        nous: "sauterons",
+        vous: "sauterez",
+        ils: "sauteront"
+      }
+    },
+    examples: [
+      {
+        form: "saute",
+        tense: "present",
+        sentence: "Le chat saute sur la table.",
+        translationTr: "Kedi masanın üstüne zıplıyor.",
+        translationEn: "The cat jumps on the table."
+      },
+      {
+        form: "a sauté",
+        tense: "passéComposé",
+        sentence: "Il a sauté le paragraphe suivant.",
+        translationTr: "Sonraki paragrafı atladı.",
+        translationEn: "He skipped the next paragraph."
+      },
+      {
+        form: "sauteront",
+        tense: "futur",
+        sentence: "Les enfants sauteront dans le jardin.",
+        translationTr: "Çocuklar bahçede zıplayacaklar.",
+        translationEn: "The children will jump in the garden."
+      }
+    ]
+  },
+  {
+    id: "v16-12",
+    french: "Penser",
+    turkish: "Düşünmek / Sanmak",
+    english: "To think / To believe",
+    pronunciation: "pɑ̃-se",
+    description: "Zihinsel faaliyetleri ifade eder. 'Penser à' (bir şeyi düşünmek) ve 'penser que' (bir şeyi sanmak) gibi kullanımları vardır.",
+    synonyms: ["réfléchir", "croire", "supposer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "pense",
+        tu: "penses",
+        il: "pense",
+        nous: "pensons",
+        vous: "pensez",
+        ils: "pensent"
+      },
+      passéComposé: {
+        je: "ai pensé",
+        tu: "as pensé",
+        il: "a pensé",
+        nous: "avons pensé",
+        vous: "avez pensé",
+        ils: "ont pensé"
+      },
+      imparfait: {
+        je: "pensais",
+        tu: "pensais",
+        il: "pensait",
+        nous: "pensions",
+        vous: "pensiez",
+        ils: "pensaient"
+      },
+      futur: {
+        je: "penserai",
+        tu: "penseras",
+        il: "pensera",
+        nous: "penserons",
+        vous: "penserez",
+        ils: "penseront"
+      }
+    },
+    examples: [
+      {
+        form: "pense",
+        tense: "present",
+        sentence: "Je pense à toi chaque jour.",
+        translationTr: "Seni her gün düşünüyorum.",
+        translationEn: "I think about you every day."
+      },
+      {
+        form: "a pensé",
+        tense: "passéComposé",
+        sentence: "Elle a pensé que tu étais parti.",
+        translationTr: "Senin gittiğini sandı.",
+        translationEn: "She thought you had left."
+      },
+      {
+        form: "penseront",
+        tense: "futur",
+        sentence: "Ils penseront à leurs erreurs.",
+        translationTr: "Hatalarını düşünecekler.",
+        translationEn: "They will think about their mistakes."
+      }
+    ]
+  },
+  {
+    id: "v16-13",
+    french: "Arranger",
+    turkish: "Düzenlemek / Ayarlamak / Onarmak",
+    english: "To arrange / To fix / To set up",
+    pronunciation: "a-ʁɑ̃-ʒe",
+    description: "Hem somut nesneleri düzene koymak hem de sosyal ilişkileri düzeltmek için kullanılır. 'S'arranger' haliyle 'işleri yoluna koymak' anlamına gelir.",
+    synonyms: ["organiser", "préparer", "réparer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "arrange",
+        tu: "arranges",
+        il: "arrange",
+        nous: "arrangeons",
+        vous: "arrangez",
+        ils: "arrangent"
+      },
+      passéComposé: {
+        je: "ai arrangé",
+        tu: "as arrangé",
+        il: "a arrangé",
+        nous: "avons arrangé",
+        vous: "avez arrangé",
+        ils: "ont arrangé"
+      },
+      imparfait: {
+        je: "arrangeais",
+        tu: "arrangeais",
+        il: "arrangeait",
+        nous: "arrangions",
+        vous: "arrangiez",
+        ils: "arrangeaient"
+      },
+      futur: {
+        je: "arrangerai",
+        tu: "arrangeras",
+        il: "arrangera",
+        nous: "arrangerons",
+        vous: "arrangerez",
+        ils: "arrangeront"
+      }
+    },
+    examples: [
+      {
+        form: "arrange",
+        tense: "present",
+        sentence: "Je range et j’arrange ma chambre chaque semaine.",
+        translationTr: "Her hafta odamı toplar ve düzenlerim.",
+        translationEn: "I tidy and arrange my room every week."
+      },
+      {
+        form: "a arrangé",
+        tense: "passéComposé",
+        sentence: "Elle a arrangé un rendez-vous pour demain.",
+        translationTr: "Yarın için bir randevu ayarladı.",
+        translationEn: "She arranged an appointment for tomorrow."
+      },
+      {
+        form: "arrangeront",
+        tense: "futur",
+        sentence: "Ils arrangeront la fête ce week-end.",
+        translationTr: "Bu hafta sonu partiyi düzenleyecekler.",
+        translationEn: "They will arrange the party this weekend."
+      }
+    ]
+  },
+  {
+    id: "v16-14",
+    french: "Explorer",
+    turkish: "Keşfetmek / Araştırmak",
+    english: "To explore / To investigate",
+    pronunciation: "ɛk-splɔ-ʁe",
+    description: "Genellikle yeni yerler veya konular hakkında bilgi edinmek anlamında kullanılır. Hem fiziksel keşif hem de zihinsel araştırmalar için uygundur.",
+    synonyms: ["découvrir", "analyser", "examiner"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "explore",
+        tu: "explores",
+        il: "explore",
+        nous: "explorons",
+        vous: "explorez",
+        ils: "explorent"
+      },
+      passéComposé: {
+        je: "ai exploré",
+        tu: "as exploré",
+        il: "a exploré",
+        nous: "avons exploré",
+        vous: "avez exploré",
+        ils: "ont exploré"
+      },
+      imparfait: {
+        je: "explorais",
+        tu: "explorais",
+        il: "explorait",
+        nous: "explorions",
+        vous: "exploriez",
+        ils: "exploraient"
+      },
+      futur: {
+        je: "explorerai",
+        tu: "exploreras",
+        il: "explorera",
+        nous: "explorerons",
+        vous: "explorerez",
+        ils: "exploreront"
+      }
+    },
+    examples: [
+      {
+        form: "explore",
+        tense: "present",
+        sentence: "Il explore les montagnes du nord.",
+        translationTr: "Kuzeydeki dağları keşfediyor.",
+        translationEn: "He is exploring the northern mountains."
+      },
+      {
+        form: "a exploré",
+        tense: "passéComposé",
+        sentence: "L’équipe a exploré une nouvelle grotte.",
+        translationTr: "Ekip yeni bir mağara keşfetti.",
+        translationEn: "The team explored a new cave."
+      },
+      {
+        form: "exploreront",
+        tense: "futur",
+        sentence: "Ils exploreront l’océan en été.",
+        translationTr: "Yazın okyanusu keşfedecekler.",
+        translationEn: "They will explore the ocean in the summer."
+      }
+    ]
+  },
+  {
+    id: "v16-15",
+    french: "Tuer",
+    turkish: "Öldürmek",
+    english: "To kill",
+    pronunciation: "tɥe",
+    description: "Fiziksel öldürmenin yanı sıra mecaz anlamda 'yormak, bitkin düşürmek' gibi anlamlarda da kullanılabilir. Örneğin: 'ce travail me tue'.",
+    synonyms: ["abattre", "assassiner", "éliminer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "tue",
+        tu: "tues",
+        il: "tue",
+        nous: "tuons",
+        vous: "tuez",
+        ils: "tuent"
+      },
+      passéComposé: {
+        je: "ai tué",
+        tu: "as tué",
+        il: "a tué",
+        nous: "avons tué",
+        vous: "avez tué",
+        ils: "ont tué"
+      },
+      imparfait: {
+        je: "tuais",
+        tu: "tuais",
+        il: "tuait",
+        nous: "tuions",
+        vous: "tuiez",
+        ils: "tuaient"
+      },
+      futur: {
+        je: "tuerai",
+        tu: "tueras",
+        il: "tuera",
+        nous: "tuerons",
+        vous: "tuerez",
+        ils: "tueront"
+      }
+    },
+    examples: [
+      {
+        form: "tue",
+        tense: "present",
+        sentence: "Il tue le temps en lisant.",
+        translationTr: "Zamanını kitap okuyarak öldürüyor.",
+        translationEn: "He kills time by reading."
+      },
+      {
+        form: "a tué",
+        tense: "passéComposé",
+        sentence: "Le lion a tué sa proie.",
+        translationTr: "Aslan avını öldürdü.",
+        translationEn: "The lion killed its prey."
+      },
+      {
+        form: "tuera",
+        tense: "futur",
+        sentence: "Ce poison tuera en quelques secondes.",
+        translationTr: "Bu zehir birkaç saniye içinde öldürecek.",
+        translationEn: "This poison will kill in a few seconds."
+      }
+    ]
+  },
+  {
+    id: "v16-16",
+    french: "Loger",
+    turkish: "Barındırmak / Konaklamak",
+    english: "To accommodate / To stay (lodging)",
+    pronunciation: "lɔ-ʒe",
+    description: "Birinin bir yerde yaşamasını sağlamak ya da geçici olarak konaklamak anlamında kullanılır. 'Se loger' haliyle 'konaklamak' anlamına gelir.",
+    synonyms: ["héberger", "logement", "abriter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "loge",
+        tu: "loges",
+        il: "loge",
+        nous: "logeons",
+        vous: "logez",
+        ils: "logent"
+      },
+      passéComposé: {
+        je: "ai logé",
+        tu: "as logé",
+        il: "a logé",
+        nous: "avons logé",
+        vous: "avez logé",
+        ils: "ont logé"
+      },
+      imparfait: {
+        je: "logais",
+        tu: "logais",
+        il: "logait",
+        nous: "logions",
+        vous: "logiez",
+        ils: "logeaient"
+      },
+      futur: {
+        je: "logerai",
+        tu: "logeras",
+        il: "logera",
+        nous: "logerons",
+        vous: "logerez",
+        ils: "logeront"
+      }
+    },
+    examples: [
+      {
+        form: "loge",
+        tense: "present",
+        sentence: "Il loge chez ses parents.",
+        translationTr: "Ailesinin evinde kalıyor.",
+        translationEn: "He is staying at his parents' house."
+      },
+      {
+        form: "a logé",
+        tense: "passéComposé",
+        sentence: "Nous avons logé dans un hôtel charmant.",
+        translationTr: "Şirin bir otelde konakladık.",
+        translationEn: "We stayed in a charming hotel."
+      },
+      {
+        form: "logeront",
+        tense: "futur",
+        sentence: "Ils logeront chez un ami pendant les vacances.",
+        translationTr: "Tatil boyunca bir arkadaşlarının evinde kalacaklar.",
+        translationEn: "They will stay at a friend's house during the holidays."
+      }
+    ]
+  },
+  {
+    id: "v16-17",
+    french: "Annoncer",
+    turkish: "Duyurmak / Bildirmek",
+    english: "To announce / To inform",
+    pronunciation: "a-nɔ̃-se",
+    description: "Resmi ya da özel bir bilgiyi duyurmak amacıyla kullanılır. 'S'annoncer' haliyle de bir olayın yaklaşmakta olduğunu belirtir.",
+    synonyms: ["déclarer", "informer", "proclamer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "annonce",
+        tu: "annonces",
+        il: "annonce",
+        nous: "annonçons",
+        vous: "annoncez",
+        ils: "annoncent"
+      },
+      passéComposé: {
+        je: "ai annoncé",
+        tu: "as annoncé",
+        il: "a annoncé",
+        nous: "avons annoncé",
+        vous: "avez annoncé",
+        ils: "ont annoncé"
+      },
+      imparfait: {
+        je: "annonçais",
+        tu: "annonçais",
+        il: "annonçait",
+        nous: "annoncions",
+        vous: "annonciez",
+        ils: "annonçaient"
+      },
+      futur: {
+        je: "annoncerai",
+        tu: "annonceras",
+        il: "annoncera",
+        nous: "annoncerons",
+        vous: "annoncerez",
+        ils: "annonceront"
+      }
+    },
+    examples: [
+      {
+        form: "annonce",
+        tense: "present",
+        sentence: "Le président annonce une nouvelle mesure.",
+        translationTr: "Başkan yeni bir önlem duyuruyor.",
+        translationEn: "The president announces a new measure."
+      },
+      {
+        form: "a annoncé",
+        tense: "passéComposé",
+        sentence: "Elle a annoncé son départ hier.",
+        translationTr: "Dün ayrılacağını duyurdu.",
+        translationEn: "She announced her departure yesterday."
+      },
+      {
+        form: "annoncera",
+        tense: "futur",
+        sentence: "Le maire annoncera les résultats demain.",
+        translationTr: "Belediye başkanı sonuçları yarın açıklayacak.",
+        translationEn: "The mayor will announce the results tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v16-18",
+    french: "Contrôler",
+    turkish: "Kontrol etmek / Denetlemek",
+    english: "To control / To inspect",
+    pronunciation: "kɔ̃-tʁo-le",
+    description: "Fiziksel, zihinsel veya yönetsel bir kontrol anlamına gelir. Bilet kontrolü, finansal denetim veya duyguların kontrolü gibi birçok bağlamda kullanılabilir.",
+    synonyms: ["vérifier", "superviser", "maîtriser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "contrôle",
+        tu: "contrôles",
+        il: "contrôle",
+        nous: "contrôlons",
+        vous: "contrôlez",
+        ils: "contrôlent"
+      },
+      passéComposé: {
+        je: "ai contrôlé",
+        tu: "as contrôlé",
+        il: "a contrôlé",
+        nous: "avons contrôlé",
+        vous: "avez contrôlé",
+        ils: "ont contrôlé"
+      },
+      imparfait: {
+        je: "contrôlais",
+        tu: "contrôlais",
+        il: "contrôlait",
+        nous: "contrôlions",
+        vous: "contrôliez",
+        ils: "contrôlaient"
+      },
+      futur: {
+        je: "contrôlerai",
+        tu: "contrôleras",
+        il: "contrôlera",
+        nous: "contrôlerons",
+        vous: "contrôlerez",
+        ils: "contrôleront"
+      }
+    },
+    examples: [
+      {
+        form: "contrôle",
+        tense: "present",
+        sentence: "Il contrôle toutes les factures.",
+        translationTr: "Tüm faturaları denetliyor.",
+        translationEn: "He controls all the invoices."
+      },
+      {
+        form: "a contrôlé",
+        tense: "passéComposé",
+        sentence: "La police a contrôlé les papiers des conducteurs.",
+        translationTr: "Polis, sürücülerin evraklarını kontrol etti.",
+        translationEn: "The police checked the drivers' documents."
+      },
+      {
+        form: "contrôlera",
+        tense: "futur",
+        sentence: "L’enseignant contrôlera les devoirs demain.",
+        translationTr: "Öğretmen yarın ödevleri kontrol edecek.",
+        translationEn: "The teacher will check the homework tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v16-19",
+    french: "Menacer",
+    turkish: "Tehdit etmek",
+    english: "To threaten",
+    pronunciation: "mə-na-se",
+    description: "Bir kişiyi korkutarak istediğini yaptırmaya çalışmak anlamında kullanılır. Hem fiziksel hem de psikolojik tehditlerde kullanılabilir.",
+    synonyms: ["intimider", "effrayer", "terroriser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "menace",
+        tu: "menaces",
+        il: "menace",
+        nous: "menaçons",
+        vous: "menacez",
+        ils: "menacent"
+      },
+      passéComposé: {
+        je: "ai menacé",
+        tu: "as menacé",
+        il: "a menacé",
+        nous: "avons menacé",
+        vous: "avez menacé",
+        ils: "ont menacé"
+      },
+      imparfait: {
+        je: "menaçais",
+        tu: "menaçais",
+        il: "menaçait",
+        nous: "menacions",
+        vous: "menaciez",
+        ils: "menaçaient"
+      },
+      futur: {
+        je: "menacerai",
+        tu: "menaceras",
+        il: "menacera",
+        nous: "menacerons",
+        vous: "menacerez",
+        ils: "menaceront"
+      }
+    },
+    examples: [
+      {
+        form: "menace",
+        tense: "present",
+        sentence: "Il menace de tout révéler.",
+        translationTr: "Her şeyi ifşa etmekle tehdit ediyor.",
+        translationEn: "He threatens to reveal everything."
+      },
+      {
+        form: "a menacé",
+        tense: "passéComposé",
+        sentence: "Le voleur a menacé le caissier avec une arme.",
+        translationTr: "Hırsız kasiyeri silahla tehdit etti.",
+        translationEn: "The thief threatened the cashier with a weapon."
+      },
+      {
+        form: "menacera",
+        tense: "futur",
+        sentence: "Elle menacera de partir si on insiste.",
+        translationTr: "Israr edersek gitmekle tehdit edecek.",
+        translationEn: "She will threaten to leave if we insist."
+      }
+    ]
+  },
+  {
+    id: "v16-20",
+    french: "Skier",
+    turkish: "Kayak yapmak",
+    english: "To ski",
+    pronunciation: "ski-je",
+    description: "Dağlık alanlarda kar üstünde yapılan kayak sporunu ifade eder. Yardımcı fiil 'avoir' ile çekimlenir.",
+    synonyms: ["faire du ski", "descendre les pistes"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "skie",
+        tu: "skies",
+        il: "skie",
+        nous: "skions",
+        vous: "skiez",
+        ils: "skient"
+      },
+      passéComposé: {
+        je: "ai skié",
+        tu: "as skié",
+        il: "a skié",
+        nous: "avons skié",
+        vous: "avez skié",
+        ils: "ont skié"
+      },
+      imparfait: {
+        je: "skiais",
+        tu: "skiais",
+        il: "skiait",
+        nous: "skiions",
+        vous: "skiiez",
+        ils: "skiaient"
+      },
+      futur: {
+        je: "skierai",
+        tu: "skieras",
+        il: "skiera",
+        nous: "skierons",
+        vous: "skierez",
+        ils: "skieront"
+      }
+    },
+    examples: [
+      {
+        form: "skie",
+        tense: "present",
+        sentence: "Je skie chaque hiver dans les Alpes.",
+        translationTr: "Her kış Alplerde kayak yaparım.",
+        translationEn: "I ski every winter in the Alps."
+      },
+      {
+        form: "a skié",
+        tense: "passéComposé",
+        sentence: "Elle a skié toute la journée.",
+        translationTr: "Bütün gün kayak yaptı.",
+        translationEn: "She skied all day."
+      },
+      {
+        form: "skieront",
+        tense: "futur",
+        sentence: "Ils skieront pendant les vacances de Noël.",
+        translationTr: "Noel tatilinde kayak yapacaklar.",
+        translationEn: "They will ski during the Christmas holidays."
+      }
+    ]
+  },
+  {
+    id: "v16-21",
+    french: "Assister",
+    turkish: "Katılmak / Yardım etmek",
+    english: "To attend / To assist",
+    pronunciation: "a-sis-te",
+    description: "‘Assister à’ ile bir etkinliğe katılmak, ‘assister quelqu’un’ ile yardım etmek anlamında kullanılır. Bağlama göre anlamı değişebilir.",
+    synonyms: ["participer", "aider", "soutenir"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "assiste",
+        tu: "assistes",
+        il: "assiste",
+        nous: "assistons",
+        vous: "assistez",
+        ils: "assistent"
+      },
+      passéComposé: {
+        je: "ai assisté",
+        tu: "as assisté",
+        il: "a assisté",
+        nous: "avons assisté",
+        vous: "avez assisté",
+        ils: "ont assisté"
+      },
+      imparfait: {
+        je: "assistais",
+        tu: "assistais",
+        il: "assistait",
+        nous: "assistions",
+        vous: "assistiez",
+        ils: "assistaient"
+      },
+      futur: {
+        je: "assisterai",
+        tu: "assisteras",
+        il: "assistera",
+        nous: "assisterons",
+        vous: "assisterez",
+        ils: "assisteront"
+      }
+    },
+    examples: [
+      {
+        form: "assiste",
+        tense: "present",
+        sentence: "Il assiste à une conférence importante.",
+        translationTr: "Önemli bir konferansa katılıyor.",
+        translationEn: "He is attending an important conference."
+      },
+      {
+        form: "a assisté",
+        tense: "passéComposé",
+        sentence: "J’ai assisté mon ami pendant son déménagement.",
+        translationTr: "Arkadaşımın taşınmasına yardım ettim.",
+        translationEn: "I assisted my friend during his move."
+      },
+      {
+        form: "assisteront",
+        tense: "futur",
+        sentence: "Ils assisteront au mariage ce week-end.",
+        translationTr: "Bu hafta sonu düğüne katılacaklar.",
+        translationEn: "They will attend the wedding this weekend."
+      }
+    ]
+  },
+  {
+    id: "v16-22",
+    french: "Secouer",
+    turkish: "Sallamak / Sarsmak",
+    english: "To shake",
+    pronunciation: "sə-ku-e",
+    description: "Fiziksel olarak bir nesneyi ya da kişiyi sarsmak veya duygusal olarak etkilenmek anlamında kullanılır. Örneğin: 'être secoué par une nouvelle'.",
+    synonyms: ["agiter", "remuer", "bouger"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "secoue",
+        tu: "secoues",
+        il: "secoue",
+        nous: "secouons",
+        vous: "secouez",
+        ils: "secouent"
+      },
+      passéComposé: {
+        je: "ai secoué",
+        tu: "as secoué",
+        il: "a secoué",
+        nous: "avons secoué",
+        vous: "avez secoué",
+        ils: "ont secoué"
+      },
+      imparfait: {
+        je: "secouais",
+        tu: "secouais",
+        il: "secouait",
+        nous: "secouions",
+        vous: "secouiez",
+        ils: "secouaient"
+      },
+      futur: {
+        je: "secouerai",
+        tu: "secoueras",
+        il: "secouera",
+        nous: "secouerons",
+        vous: "secouerez",
+        ils: "secoueront"
+      }
+    },
+    examples: [
+      {
+        form: "secoue",
+        tense: "present",
+        sentence: "Elle secoue la bouteille avant de l’ouvrir.",
+        translationTr: "Şişeyi açmadan önce sallıyor.",
+        translationEn: "She shakes the bottle before opening it."
+      },
+      {
+        form: "a secoué",
+        tense: "passéComposé",
+        sentence: "Le tremblement de terre a secoué tout le village.",
+        translationTr: "Deprem tüm köyü sarstı.",
+        translationEn: "The earthquake shook the entire village."
+      },
+      {
+        form: "secouera",
+        tense: "futur",
+        sentence: "Le scandale secouera le gouvernement.",
+        translationTr: "Skandal hükümeti sarsacak.",
+        translationEn: "The scandal will shake the government."
+      }
+    ]
+  },
+  {
+    id: "v16-23",
+    french: "Décrire",
+    turkish: "Tanımlamak / Betimlemek",
+    english: "To describe",
+    pronunciation: "de-kʁiʁ",
+    description: "Bir kişi, nesne ya da durumu ayrıntılı şekilde anlatmak için kullanılır. Düzensiz fiildir. Yardımcı fiil 'avoir' ile çekimlenir.",
+    synonyms: ["expliquer", "illustrer", "présenter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "décris",
+        tu: "décris",
+        il: "décrit",
+        nous: "décrivons",
+        vous: "décrivez",
+        ils: "décrivent"
+      },
+      passéComposé: {
+        je: "ai décrit",
+        tu: "as décrit",
+        il: "a décrit",
+        nous: "avons décrit",
+        vous: "avez décrit",
+        ils: "ont décrit"
+      },
+      imparfait: {
+        je: "décrivais",
+        tu: "décrivais",
+        il: "décrivait",
+        nous: "décrivions",
+        vous: "décriviez",
+        ils: "décrivaient"
+      },
+      futur: {
+        je: "décrirai",
+        tu: "décriras",
+        il: "décrira",
+        nous: "décrirons",
+        vous: "décrirez",
+        ils: "décriront"
+      }
+    },
+    examples: [
+      {
+        form: "décris",
+        tense: "present",
+        sentence: "Je décris la scène avec précision.",
+        translationTr: "Sahneyi ayrıntılı şekilde betimliyorum.",
+        translationEn: "I describe the scene precisely."
+      },
+      {
+        form: "a décrit",
+        tense: "passéComposé",
+        sentence: "Elle a décrit le suspect à la police.",
+        translationTr: "Şüpheliyi polise tarif etti.",
+        translationEn: "She described the suspect to the police."
+      },
+      {
+        form: "décrira",
+        tense: "futur",
+        sentence: "Il décrira son expérience dans son livre.",
+        translationTr: "Deneyimini kitabında betimleyecek.",
+        translationEn: "He will describe his experience in his book."
+      }
+    ]
+  },
+  {
+    id: "v16-24",
+    french: "Planter",
+    turkish: "Dikmek / Ekmek / Saplamak",
+    english: "To plant / To stick / To crash (informal, software)",
+    pronunciation: "plɑ̃-te",
+    description: "Fiziksel olarak bir şeyi toprağa ya da yüzeye yerleştirmek. Bilgisayar diliyle 'sistemin çökmesi' anlamında mecazî kullanımı da vardır.",
+    synonyms: ["enraciner", "insérer", "installer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "plante",
+        tu: "plantes",
+        il: "plante",
+        nous: "plantons",
+        vous: "plantez",
+        ils: "plantent"
+      },
+      passéComposé: {
+        je: "ai planté",
+        tu: "as planté",
+        il: "a planté",
+        nous: "avons planté",
+        vous: "avez planté",
+        ils: "ont planté"
+      },
+      imparfait: {
+        je: "plantais",
+        tu: "plantais",
+        il: "plantait",
+        nous: "plantions",
+        vous: "plantiez",
+        ils: "plantaient"
+      },
+      futur: {
+        je: "planterai",
+        tu: "planteras",
+        il: "plantera",
+        nous: "planterons",
+        vous: "planterez",
+        ils: "planteront"
+      }
+    },
+    examples: [
+      {
+        form: "plante",
+        tense: "present",
+        sentence: "Il plante des tomates dans son jardin.",
+        translationTr: "Bahçesine domates ekiyor.",
+        translationEn: "He plants tomatoes in his garden."
+      },
+      {
+        form: "a planté",
+        tense: "passéComposé",
+        sentence: "Elle a planté un arbre ce matin.",
+        translationTr: "Bu sabah bir ağaç dikti.",
+        translationEn: "She planted a tree this morning."
+      },
+      {
+        form: "planteront",
+        tense: "futur",
+        sentence: "Ils planteront des fleurs au printemps.",
+        translationTr: "İlkbaharda çiçek dikecekler.",
+        translationEn: "They will plant flowers in spring."
+      }
+    ]
+  },
+  {
+    id: "v16-25",
+    french: "Rédiger",
+    turkish: "Yazmak / Kaleme almak",
+    english: "To write / To draft / To compose",
+    pronunciation: "ʁe-di-ʒe",
+    description: "Resmî veya yapısal olarak yazılı metin oluşturmak anlamında kullanılır. 'Rédiger un article', 'rédiger un rapport' gibi kalıplaşmış kullanımlar yaygındır.",
+    synonyms: ["écrire", "composer", "formuler"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-16",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "rédige",
+        tu: "rédiges",
+        il: "rédige",
+        nous: "rédigeons",
+        vous: "rédigez",
+        ils: "rédigent"
+      },
+      passéComposé: {
+        je: "ai rédigé",
+        tu: "as rédigé",
+        il: "a rédigé",
+        nous: "avons rédigé",
+        vous: "avez rédigé",
+        ils: "ont rédigé"
+      },
+      imparfait: {
+        je: "rédigeais",
+        tu: "rédigeais",
+        il: "rédigeait",
+        nous: "rédigions",
+        vous: "rédigiez",
+        ils: "rédigeaient"
+      },
+      futur: {
+        je: "rédigerai",
+        tu: "rédigeras",
+        il: "rédigera",
+        nous: "rédigerons",
+        vous: "rédigerez",
+        ils: "rédigeront"
+      }
+    },
+    examples: [
+      {
+        form: "rédige",
+        tense: "present",
+        sentence: "Je rédige un article pour le journal.",
+        translationTr: "Gazete için bir makale yazıyorum.",
+        translationEn: "I am writing an article for the newspaper."
+      },
+      {
+        form: "a rédigé",
+        tense: "passéComposé",
+        sentence: "Elle a rédigé une lettre de motivation.",
+        translationTr: "Bir motivasyon mektubu kaleme aldı.",
+        translationEn: "She drafted a cover letter."
+      },
+      {
+        form: "rédigeront",
+        tense: "futur",
+        sentence: "Les étudiants rédigeront un rapport final.",
+        translationTr: "Öğrenciler bir final raporu yazacak.",
+        translationEn: "The students will write a final report."
+      },
+    ],
+  },
+  {
+    id: "v17-1",
+    french: "Gérer",
+    turkish: "Yönetmek / İdare etmek",
+    english: "To manage / To handle",
+    pronunciation: "ʒe-ʁe",
+    description: "İşleri, zamanı, kaynakları ya da duyguları idare etmek anlamında kullanılır. 'Gérer une entreprise', 'gérer son stress' gibi kullanımları yaygındır.",
+    synonyms: ["administrer", "organiser", "diriger"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "gère",
+        tu: "gères",
+        il: "gère",
+        nous: "gérons",
+        vous: "gérez",
+        ils: "gèrent"
+      },
+      passéComposé: {
+        je: "ai géré",
+        tu: "as géré",
+        il: "a géré",
+        nous: "avons géré",
+        vous: "avez géré",
+        ils: "ont géré"
+      },
+      imparfait: {
+        je: "gérais",
+        tu: "gérais",
+        il: "gérait",
+        nous: "gérions",
+        vous: "gériez",
+        ils: "géraient"
+      },
+      futur: {
+        je: "gérerai",
+        tu: "géreras",
+        il: "gérera",
+        nous: "gérerons",
+        vous: "gérerez",
+        ils: "géreront"
+      }
+    },
+    examples: [
+      {
+        form: "gère",
+        tense: "present",
+        sentence: "Il gère une petite entreprise.",
+        translationTr: "Küçük bir işletmeyi yönetiyor.",
+        translationEn: "He manages a small business."
+      },
+      {
+        form: "a géré",
+        tense: "passéComposé",
+        sentence: "Elle a bien géré la situation.",
+        translationTr: "Durumu iyi yönetti.",
+        translationEn: "She handled the situation well."
+      },
+      {
+        form: "géreront",
+        tense: "futur",
+        sentence: "Ils géreront le projet ensemble.",
+        translationTr: "Projeyi birlikte yönetecekler.",
+        translationEn: "They will manage the project together."
+      }
+    ]
+  },
+  {
+    id: "v17-2",
+    french: "Manquer",
+    turkish: "Kaçırmak / Eksik olmak / Özlemek",
+    english: "To miss / To lack",
+    pronunciation: "mɑ̃-ke",
+    description: "Yapısına göre anlamı değişir: 'manquer un train' (treni kaçırmak), 'manquer de respect' (saygısızlık etmek), 'tu me manques' (seni özlüyorum) gibi çok yönlü bir fiildir.",
+    synonyms: ["rater", "louper", "faire défaut"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "manque",
+        tu: "manques",
+        il: "manque",
+        nous: "manquons",
+        vous: "manquez",
+        ils: "manquent"
+      },
+      passéComposé: {
+        je: "ai manqué",
+        tu: "as manqué",
+        il: "a manqué",
+        nous: "avons manqué",
+        vous: "avez manqué",
+        ils: "ont manqué"
+      },
+      imparfait: {
+        je: "manquais",
+        tu: "manquais",
+        il: "manquait",
+        nous: "manquions",
+        vous: "manquiez",
+        ils: "manquaient"
+      },
+      futur: {
+        je: "manquerai",
+        tu: "manqueras",
+        il: "manquera",
+        nous: "manquerons",
+        vous: "manquerez",
+        ils: "manqueront"
+      }
+    },
+    examples: [
+      {
+        form: "manques",
+        tense: "present",
+        sentence: "Tu me manques énormément.",
+        translationTr: "Seni çok özlüyorum.",
+        translationEn: "I miss you a lot."
+      },
+      {
+        form: "a manqué",
+        tense: "passéComposé",
+        sentence: "Il a manqué le train de justesse.",
+        translationTr: "Treni kıl payı kaçırdı.",
+        translationEn: "He just missed the train."
+      },
+      {
+        form: "manqueront",
+        tense: "futur",
+        sentence: "Ils manqueront de temps pour finir.",
+        translationTr: "Bitirmek için zamanları yetersiz olacak.",
+        translationEn: "They will lack time to finish."
+      }
+    ]
+  },
+  {
+    id: "v17-3",
+    french: "Blaguer",
+    turkish: "Şaka yapmak / Dalga geçmek",
+    english: "To joke / To kid",
+    pronunciation: "bla-ge",
+    description: "Gündelik ve samimi ortamlarda sık kullanılır. 'Arrête de blaguer !' ifadesiyle çok karşılaşılır.",
+    synonyms: ["plaisanter", "rire", "taquiner"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "blague",
+        tu: "blagues",
+        il: "blague",
+        nous: "blaguons",
+        vous: "blaguez",
+        ils: "blaguent"
+      },
+      passéComposé: {
+        je: "ai blagué",
+        tu: "as blagué",
+        il: "a blagué",
+        nous: "avons blagué",
+        vous: "avez blagué",
+        ils: "ont blagué"
+      },
+      imparfait: {
+        je: "blaguais",
+        tu: "blaguais",
+        il: "blaguait",
+        nous: "blaguions",
+        vous: "blaguiez",
+        ils: "blaguaient"
+      },
+      futur: {
+        je: "blaguerai",
+        tu: "blagueras",
+        il: "blaguera",
+        nous: "blaguerons",
+        vous: "blaguerez",
+        ils: "blagueront"
+      }
+    },
+    examples: [
+      {
+        form: "blagues",
+        tense: "present",
+        sentence: "Tu blagues tout le temps en classe.",
+        translationTr: "Derslerde hep şaka yapıyorsun.",
+        translationEn: "You always joke in class."
+      },
+      {
+        form: "a blagué",
+        tense: "passéComposé",
+        sentence: "Il a blagué sur son professeur.",
+        translationTr: "Öğretmeni hakkında şaka yaptı.",
+        translationEn: "He joked about his teacher."
+      },
+      {
+        form: "blagueront",
+        tense: "futur",
+        sentence: "Ils blagueront pendant la pause.",
+        translationTr: "Teneffüste şaka yapacaklar.",
+        translationEn: "They will joke during the break."
+      }
+    ]
+  },
+  {
+    id: "v17-4",
+    french: "Se reposer",
+    turkish: "Dinlenmek",
+    english: "To rest / To relax",
+    pronunciation: "sə ʁə-po-ze",
+    description: "Refleksif bir fiildir. Fiziksel ya da zihinsel olarak dinlenme anlamında kullanılır. Özellikle yorucu bir işten sonra kullanımı yaygındır.",
+    synonyms: ["se détendre", "se relaxer", "paresser"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "me repose",
+        tu: "te reposes",
+        il: "se repose",
+        nous: "nous reposons",
+        vous: "vous reposez",
+        ils: "se reposent"
+      },
+      passéComposé: {
+        je: "me suis reposé",
+        tu: "t’es reposé",
+        il: "s’est reposé",
+        nous: "nous sommes reposés",
+        vous: "vous êtes reposés",
+        ils: "se sont reposés"
+      },
+      imparfait: {
+        je: "me reposais",
+        tu: "te reposais",
+        il: "se reposait",
+        nous: "nous reposions",
+        vous: "vous reposiez",
+        ils: "se reposaient"
+      },
+      futur: {
+        je: "me reposerai",
+        tu: "te reposeras",
+        il: "se reposera",
+        nous: "nous reposerons",
+        vous: "vous reposerez",
+        ils: "se reposeront"
+      }
+    },
+    examples: [
+      {
+        form: "me repose",
+        tense: "present",
+        sentence: "Je me repose après une longue journée.",
+        translationTr: "Uzun bir günün ardından dinleniyorum.",
+        translationEn: "I rest after a long day."
+      },
+      {
+        form: "s’est reposé",
+        tense: "passéComposé",
+        sentence: "Il s’est bien reposé pendant le week-end.",
+        translationTr: "Hafta sonu boyunca iyi dinlendi.",
+        translationEn: "He rested well during the weekend."
+      },
+      {
+        form: "se reposeront",
+        tense: "futur",
+        sentence: "Ils se reposeront après le match.",
+        translationTr: "Maçtan sonra dinlenecekler.",
+        translationEn: "They will rest after the match."
+      }
+    ]
+  },
+  {
+    id: "v17-5",
+    french: "Pousser",
+    turkish: "İtmek / Zorlamak",
+    english: "To push / To urge",
+    pronunciation: "pu-se",
+    description: "Fiziksel olarak bir şeyi itmek ya da mecaz anlamda birini bir şeyi yapmaya zorlamak için kullanılır.",
+    synonyms: ["presser", "forcer", "bousculer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "pousse",
+        tu: "pousses",
+        il: "pousse",
+        nous: "poussons",
+        vous: "poussez",
+        ils: "poussent"
+      },
+      passéComposé: {
+        je: "ai poussé",
+        tu: "as poussé",
+        il: "a poussé",
+        nous: "avons poussé",
+        vous: "avez poussé",
+        ils: "ont poussé"
+      },
+      imparfait: {
+        je: "pousais",
+        tu: "pousais",
+        il: "pousait",
+        nous: "poussions",
+        vous: "poussiez",
+        ils: "poussaient"
+      },
+      futur: {
+        je: "pousserai",
+        tu: "pousseras",
+        il: "poussera",
+        nous: "pousserons",
+        vous: "pousserez",
+        ils: "pousseront"
+      }
+    },
+    examples: [
+      {
+        form: "pousse",
+        tense: "present",
+        sentence: "Il pousse la porte avec force.",
+        translationTr: "Kapıyı kuvvetle itiyor.",
+        translationEn: "He is pushing the door forcefully."
+      },
+      {
+        form: "a poussé",
+        tense: "passéComposé",
+        sentence: "Elle a poussé la voiture en panne.",
+        translationTr: "Arızalanan arabayı itti.",
+        translationEn: "She pushed the broken car."
+      },
+      {
+        form: "pousseront",
+        tense: "futur",
+        sentence: "Ils pousseront les limites de leur capacité.",
+        translationTr: "Kapasitelerinin sınırlarını zorlayacaklar.",
+        translationEn: "They will push their limits."
+      }
+    ]
+  },
+  {
+    id: "v17-6",
+    french: "Reconstruire",
+    turkish: "Yeniden inşa etmek / Onarmak",
+    english: "To rebuild / To reconstruct",
+    pronunciation: "ʁə-kɔ̃-stʁɥiʁ",
+    description: "Yıkılmış veya zarar görmüş bir şeyi yeniden kurmak anlamında kullanılır. Hem fiziksel yapılar hem de mecazî anlamlar için kullanılabilir (güven, hayat vs.).",
+    synonyms: ["rebâtir", "réparer", "restaurer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "reconstruis",
+        tu: "reconstruis",
+        il: "reconstruit",
+        nous: "reconstruisons",
+        vous: "reconstruisez",
+        ils: "reconstruisent"
+      },
+      passéComposé: {
+        je: "ai reconstruit",
+        tu: "as reconstruit",
+        il: "a reconstruit",
+        nous: "avons reconstruit",
+        vous: "avez reconstruit",
+        ils: "ont reconstruit"
+      },
+      imparfait: {
+        je: "reconstruisais",
+        tu: "reconstruisais",
+        il: "reconstruisait",
+        nous: "reconstruisions",
+        vous: "reconstruisiez",
+        ils: "reconstruisaient"
+      },
+      futur: {
+        je: "reconstruirai",
+        tu: "reconstruiras",
+        il: "reconstruira",
+        nous: "reconstruirons",
+        vous: "reconstruirez",
+        ils: "reconstruiront"
+      }
+    },
+    examples: [
+      {
+        form: "reconstruit",
+        tense: "present",
+        sentence: "Il reconstruit sa maison après l’incendie.",
+        translationTr: "Yangından sonra evini yeniden inşa ediyor.",
+        translationEn: "He is rebuilding his house after the fire."
+      },
+      {
+        form: "a reconstruit",
+        tense: "passéComposé",
+        sentence: "Le gouvernement a reconstruit le pont détruit.",
+        translationTr: "Hükümet yıkılan köprüyü yeniden inşa etti.",
+        translationEn: "The government rebuilt the destroyed bridge."
+      },
+      {
+        form: "reconstruiront",
+        tense: "futur",
+        sentence: "Ils reconstruiront la ville après la guerre.",
+        translationTr: "Savaştan sonra şehri yeniden inşa edecekler.",
+        translationEn: "They will rebuild the city after the war."
+      }
+    ]
+  },
+  {
+    id: "v17-7",
+    french: "Bavarder",
+    turkish: "Sohbet etmek / Gevezelik etmek",
+    english: "To chat / To talk / To gossip",
+    pronunciation: "ba-vaʁ-de",
+    description: "Gündelik konuşmalar veya hafif gevezelik anlamında kullanılır. Olumsuz anlamda da kullanılabilir (çok konuşmak).",
+    synonyms: ["papoter", "discuter", "causer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "bavarde",
+        tu: "bavardes",
+        il: "bavarde",
+        nous: "bavardons",
+        vous: "bavardez",
+        ils: "bavardent"
+      },
+      passéComposé: {
+        je: "ai bavardé",
+        tu: "as bavardé",
+        il: "a bavardé",
+        nous: "avons bavardé",
+        vous: "avez bavardé",
+        ils: "ont bavardé"
+      },
+      imparfait: {
+        je: "bavardais",
+        tu: "bavardais",
+        il: "bavardait",
+        nous: "bavardions",
+        vous: "bavardiez",
+        ils: "bavardaient"
+      },
+      futur: {
+        je: "bavarderai",
+        tu: "bavarderas",
+        il: "bavardera",
+        nous: "bavarderons",
+        vous: "bavarderez",
+        ils: "bavarderont"
+      }
+    },
+    examples: [
+      {
+        form: "bavardons",
+        tense: "present",
+        sentence: "Nous bavardons souvent après les cours.",
+        translationTr: "Derslerden sonra sık sık sohbet ederiz.",
+        translationEn: "We often chat after class."
+      },
+      {
+        form: "a bavardé",
+        tense: "passéComposé",
+        sentence: "Elle a bavardé pendant des heures.",
+        translationTr: "Saatlerce sohbet etti.",
+        translationEn: "She chatted for hours."
+      },
+      {
+        form: "bavarderont",
+        tense: "futur",
+        sentence: "Les enfants bavarderont pendant la récréation.",
+        translationTr: "Çocuklar teneffüste sohbet edecekler.",
+        translationEn: "The children will chat during recess."
+      }
+    ]
+  },
+  {
+    id: "v17-8",
+    french: "Refuser",
+    turkish: "Reddetmek / Kabul etmemek",
+    english: "To refuse / To decline",
+    pronunciation: "ʁə-fy-ze",
+    description: "Teklif, davet veya önerileri reddetmek anlamında kullanılır. 'Refuser de faire quelque chose' şeklinde yapı alabilir.",
+    synonyms: ["rejeter", "décliner", "désapprouver"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "refuse",
+        tu: "refuses",
+        il: "refuse",
+        nous: "refusons",
+        vous: "refusez",
+        ils: "refusent"
+      },
+      passéComposé: {
+        je: "ai refusé",
+        tu: "as refusé",
+        il: "a refusé",
+        nous: "avons refusé",
+        vous: "avez refusé",
+        ils: "ont refusé"
+      },
+      imparfait: {
+        je: "refusais",
+        tu: "refusais",
+        il: "refusait",
+        nous: "refusions",
+        vous: "refusiez",
+        ils: "refusaient"
+      },
+      futur: {
+        je: "refuserai",
+        tu: "refuseras",
+        il: "refusera",
+        nous: "refuserons",
+        vous: "refuserez",
+        ils: "refuseront"
+      }
+    },
+    examples: [
+      {
+        form: "refuse",
+        tense: "present",
+        sentence: "Il refuse de manger des légumes.",
+        translationTr: "Sebze yemeyi reddediyor.",
+        translationEn: "He refuses to eat vegetables."
+      },
+      {
+        form: "a refusé",
+        tense: "passéComposé",
+        sentence: "Elle a refusé l’invitation.",
+        translationTr: "Daveti reddetti.",
+        translationEn: "She refused the invitation."
+      },
+      {
+        form: "refuseront",
+        tense: "futur",
+        sentence: "Ils refuseront de participer à la réunion.",
+        translationTr: "Toplantıya katılmayı reddedecekler.",
+        translationEn: "They will refuse to attend the meeting."
+      }
+    ]
+  },
+  {
+    id: "v17-9",
+    french: "Confondre",
+    turkish: "Karıştırmak / Yanlış anlamak",
+    english: "To confuse / To mix up",
+    pronunciation: "kɔ̃-fɔ̃-dʁ",
+    description: "İki şeyi birbiriyle karıştırmak ya da yanlış değerlendirmek anlamında kullanılır. Genellikle 'confondre X avec Y' yapısıyla kullanılır.",
+    synonyms: ["mélanger", "tromper", "embrouiller"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "confonds",
+        tu: "confonds",
+        il: "confond",
+        nous: "confondons",
+        vous: "confondez",
+        ils: "confondent"
+      },
+      passéComposé: {
+        je: "ai confondu",
+        tu: "as confondu",
+        il: "a confondu",
+        nous: "avons confondu",
+        vous: "avez confondu",
+        ils: "ont confondu"
+      },
+      imparfait: {
+        je: "confondais",
+        tu: "confondais",
+        il: "confondait",
+        nous: "confondions",
+        vous: "confondiez",
+        ils: "confondaient"
+      },
+      futur: {
+        je: "confondrai",
+        tu: "confondras",
+        il: "confondra",
+        nous: "confondrons",
+        vous: "confondrez",
+        ils: "confondront"
+      }
+    },
+    examples: [
+      {
+        form: "confonds",
+        tense: "present",
+        sentence: "Je confonds toujours ces deux mots.",
+        translationTr: "Bu iki kelimeyi hep karıştırıyorum.",
+        translationEn: "I always confuse these two words."
+      },
+      {
+        form: "a confondu",
+        tense: "passéComposé",
+        sentence: "Il a confondu son sac avec celui d’un autre.",
+        translationTr: "Çantasını başka birininkiyle karıştırdı.",
+        translationEn: "He mixed up his bag with someone else's."
+      },
+      {
+        form: "confondront",
+        tense: "futur",
+        sentence: "Les nouveaux élèves confondront sûrement les prénoms.",
+        translationTr: "Yeni öğrenciler büyük ihtimalle isimleri karıştıracak.",
+        translationEn: "The new students will surely confuse the names."
+      }
+    ]
+  },
+  {
+    id: "v17-10",
+    french: "Entretenir",
+    turkish: "Bakım yapmak / Sürdürmek",
+    english: "To maintain / To sustain",
+    pronunciation: "ɑ̃-tʁə-tə-niʁ",
+    description: "Hem fiziksel bakım (entretenir une voiture) hem de soyut ilişkileri sürdürmek (entretenir une relation) için kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
+    synonyms: ["maintenir", "conserver", "prolonger"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "advanced",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "entretiens",
+        tu: "entretiens",
+        il: "entretient",
+        nous: "entretenons",
+        vous: "entretenez",
+        ils: "entretiennent"
+      },
+      passéComposé: {
+        je: "ai entretenu",
+        tu: "as entretenu",
+        il: "a entretenu",
+        nous: "avons entretenu",
+        vous: "avez entretenu",
+        ils: "ont entretenu"
+      },
+      imparfait: {
+        je: "entretenais",
+        tu: "entretenais",
+        il: "entretenait",
+        nous: "entretenions",
+        vous: "entreteniez",
+        ils: "entretenaient"
+      },
+      futur: {
+        je: "entretiendrai",
+        tu: "entretiendras",
+        il: "entretiendra",
+        nous: "entretiendrons",
+        vous: "entretiendrez",
+        ils: "entretiendront"
+      }
+    },
+    examples: [
+      {
+        form: "entretient",
+        tense: "present",
+        sentence: "Il entretient de bonnes relations avec ses collègues.",
+        translationTr: "İş arkadaşlarıyla iyi ilişkiler sürdürüyor.",
+        translationEn: "He maintains good relationships with his colleagues."
+      },
+      {
+        form: "a entretenu",
+        tense: "passéComposé",
+        sentence: "Elle a entretenu sa voiture pendant des années.",
+        translationTr: "Arabasına yıllarca bakım yaptı.",
+        translationEn: "She maintained her car for years."
+      },
+      {
+        form: "entretiendront",
+        tense: "futur",
+        sentence: "Ils entretiendront le bâtiment régulièrement.",
+        translationTr: "Binayı düzenli olarak bakımda tutacaklar.",
+        translationEn: "They will maintain the building regularly."
+      }
+    ]
+  },
+  {
+    id: "v17-11",
+    french: "Se moquer",
+    turkish: "Alay etmek / Umursamamak",
+    english: "To make fun of / To not care",
+    pronunciation: "sə mo-ke",
+    description: "‘Se moquer de’ ifadesiyle birini küçümseyerek alaya almak anlamında kullanılır. Aynı zamanda ‘je m’en moque’ şeklinde ‘umursamamak’ anlamına gelir.",
+    synonyms: ["ridiculiser", "railler", "ignorer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "me moque",
+        tu: "te moques",
+        il: "se moque",
+        nous: "nous moquons",
+        vous: "vous moquez",
+        ils: "se moquent"
+      },
+      passéComposé: {
+        je: "me suis moqué",
+        tu: "t’es moqué",
+        il: "s’est moqué",
+        nous: "nous sommes moqués",
+        vous: "vous êtes moqués",
+        ils: "se sont moqués"
+      },
+      imparfait: {
+        je: "me moquais",
+        tu: "te moquais",
+        il: "se moquait",
+        nous: "nous moquions",
+        vous: "vous moquiez",
+        ils: "se moquaient"
+      },
+      futur: {
+        je: "me moquerai",
+        tu: "te moqueras",
+        il: "se moquera",
+        nous: "nous moquerons",
+        vous: "vous moquerez",
+        ils: "se moqueront"
+      }
+    },
+    examples: [
+      {
+        form: "se moque",
+        tense: "present",
+        sentence: "Il se moque toujours de moi.",
+        translationTr: "Hep benimle alay ediyor.",
+        translationEn: "He always makes fun of me."
+      },
+      {
+        form: "s’est moqué",
+        tense: "passéComposé",
+        sentence: "Elle s’est moquée de sa coiffure.",
+        translationTr: "Saç modeliyle alay etti.",
+        translationEn: "She made fun of his hairstyle."
+      },
+      {
+        form: "se moqueront",
+        tense: "futur",
+        sentence: "Ils se moqueront de cette vieille blague.",
+        translationTr: "Bu eski şakayla alay edecekler.",
+        translationEn: "They will make fun of that old joke."
+      }
+    ]
+  },
+  {
+    id: "v17-12",
+    french: "Traverser",
+    turkish: "Karşıdan karşıya geçmek / Aşmak",
+    english: "To cross / To go through",
+    pronunciation: "tʁa-vɛʁ-se",
+    description: "Fiziksel olarak bir yerden karşıya geçmek ya da zor bir durumu atlatmak anlamında kullanılabilir.",
+    synonyms: ["franchir", "passer", "pénétrer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "traverse",
+        tu: "traverses",
+        il: "traverse",
+        nous: "traversons",
+        vous: "traversez",
+        ils: "traversent"
+      },
+      passéComposé: {
+        je: "ai traversé",
+        tu: "as traversé",
+        il: "a traversé",
+        nous: "avons traversé",
+        vous: "avez traversé",
+        ils: "ont traversé"
+      },
+      imparfait: {
+        je: "traversais",
+        tu: "traversais",
+        il: "traversait",
+        nous: "traversions",
+        vous: "traversiez",
+        ils: "traversaient"
+      },
+      futur: {
+        je: "traverserai",
+        tu: "traverseras",
+        il: "traversera",
+        nous: "traverserons",
+        vous: "traverserez",
+        ils: "traverseront"
+      }
+    },
+    examples: [
+      {
+        form: "traverse",
+        tense: "present",
+        sentence: "Elle traverse la rue prudemment.",
+        translationTr: "Caddeden dikkatlice geçiyor.",
+        translationEn: "She crosses the street carefully."
+      },
+      {
+        form: "a traversé",
+        tense: "passéComposé",
+        sentence: "Nous avons traversé une période difficile.",
+        translationTr: "Zor bir dönemden geçtik.",
+        translationEn: "We went through a difficult period."
+      },
+      {
+        form: "traverseront",
+        tense: "futur",
+        sentence: "Ils traverseront la forêt demain.",
+        translationTr: "Yarın ormanı geçecekler.",
+        translationEn: "They will cross the forest tomorrow."
+      }
+    ]
+  },
+  {
+    id: "v17-13",
+    french: "Remplir",
+    turkish: "Doldurmak / Yerine getirmek",
+    english: "To fill / To fulfill",
+    pronunciation: "ʁɑ̃-pliʁ",
+    description: "Bir kabı, bir formu veya bir görevi doldurmak anlamında kullanılır. Hem somut hem soyut anlamlarda geçerlidir.",
+    synonyms: ["bourrer", "satisfaire", "compléter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "remplis",
+        tu: "remplis",
+        il: "remplit",
+        nous: "remplissons",
+        vous: "remplissez",
+        ils: "remplissent"
+      },
+      passéComposé: {
+        je: "ai rempli",
+        tu: "as rempli",
+        il: "a rempli",
+        nous: "avons rempli",
+        vous: "avez rempli",
+        ils: "ont rempli"
+      },
+      imparfait: {
+        je: "remplissais",
+        tu: "remplissais",
+        il: "remplissait",
+        nous: "remplissions",
+        vous: "remplissiez",
+        ils: "remplissaient"
+      },
+      futur: {
+        je: "remplirai",
+        tu: "rempliras",
+        il: "remplira",
+        nous: "remplirons",
+        vous: "remplirez",
+        ils: "rempliront"
+      }
+    },
+    examples: [
+      {
+        form: "remplit",
+        tense: "present",
+        sentence: "Elle remplit son verre d'eau.",
+        translationTr: "Bardağını suyla dolduruyor.",
+        translationEn: "She is filling her glass with water."
+      },
+      {
+        form: "a rempli",
+        tense: "passéComposé",
+        sentence: "J’ai rempli le formulaire en ligne.",
+        translationTr: "Formu çevrimiçi doldurdum.",
+        translationEn: "I filled out the form online."
+      },
+      {
+        form: "rempliront",
+        tense: "futur",
+        sentence: "Ils rempliront leurs obligations professionnelles.",
+        translationTr: "Mesleki yükümlülüklerini yerine getirecekler.",
+        translationEn: "They will fulfill their professional duties."
+      }
+    ]
+  },
+  {
+    id: "v17-14",
+    french: "Éloigner",
+    turkish: "Uzaklaştırmak / Uzak durmak",
+    english: "To move away / To distance",
+    pronunciation: "e-lwa-ɲe",
+    description: "Fiziksel ya da duygusal olarak uzaklaştırmak anlamında kullanılır. Refleksif haliyle 's’éloigner' uzaklaşmak anlamı taşır.",
+    synonyms: ["écarter", "échapper", "séparer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "éloigne",
+        tu: "éloignes",
+        il: "éloigne",
+        nous: "éloignons",
+        vous: "éloignez",
+        ils: "éloignent"
+      },
+      passéComposé: {
+        je: "ai éloigné",
+        tu: "as éloigné",
+        il: "a éloigné",
+        nous: "avons éloigné",
+        vous: "avez éloigné",
+        ils: "ont éloigné"
+      },
+      imparfait: {
+        je: "éloignais",
+        tu: "éloignais",
+        il: "éloignait",
+        nous: "éloignions",
+        vous: "éloigniez",
+        ils: "éloignaient"
+      },
+      futur: {
+        je: "éloignerai",
+        tu: "éloigneras",
+        il: "éloignera",
+        nous: "éloignerons",
+        vous: "éloignerez",
+        ils: "éloigneront"
+      }
+    },
+    examples: [
+      {
+        form: "éloigne",
+        tense: "present",
+        sentence: "Il éloigne les enfants du feu.",
+        translationTr: "Çocukları ateşten uzaklaştırıyor.",
+        translationEn: "He is keeping the children away from the fire."
+      },
+      {
+        form: "a éloigné",
+        tense: "passéComposé",
+        sentence: "La tempête a éloigné les bateaux du rivage.",
+        translationTr: "Fırtına tekneleri kıyıdan uzaklaştırdı.",
+        translationEn: "The storm drove the boats away from the shore."
+      },
+      {
+        form: "éloigneront",
+        tense: "futur",
+        sentence: "Ils éloigneront les meubles du mur.",
+        translationTr: "Mobilyaları duvardan uzaklaştıracaklar.",
+        translationEn: "They will move the furniture away from the wall."
+      }
+    ]
+  },
+  {
+    id: "v17-15",
+    french: "Affaiblir",
+    turkish: "Zayıflatmak / Güçsüzleştirmek",
+    english: "To weaken / To diminish",
+    pronunciation: "a-fɛ-bliʁ",
+    description: "Hem fiziksel hem de ruhsal/zihinsel güçsüzleştirme anlamında kullanılır. Mecazi olarak da geçerlidir.",
+    synonyms: ["affaiblir", "épuiser", "diminuer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "advanced",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "affaiblis",
+        tu: "affaiblis",
+        il: "affaiblit",
+        nous: "affaiblissons",
+        vous: "affaiblissez",
+        ils: "affaiblissent"
+      },
+      passéComposé: {
+        je: "ai affaibli",
+        tu: "as affaibli",
+        il: "a affaibli",
+        nous: "avons affaibli",
+        vous: "avez affaibli",
+        ils: "ont affaibli"
+      },
+      imparfait: {
+        je: "affaiblissais",
+        tu: "affaiblissais",
+        il: "affaiblissait",
+        nous: "affaiblissions",
+        vous: "affaiblissiez",
+        ils: "affaiblissaient"
+      },
+      futur: {
+        je: "affaiblirai",
+        tu: "affaibliras",
+        il: "affaiblira",
+        nous: "affaiblirons",
+        vous: "affaiblirez",
+        ils: "affaibliront"
+      }
+    },
+    examples: [
+      {
+        form: "affaiblit",
+        tense: "present",
+        sentence: "La maladie l’affaiblit chaque jour.",
+        translationTr: "Hastalık onu her gün zayıflatıyor.",
+        translationEn: "The illness weakens him every day."
+      },
+      {
+        form: "a affaibli",
+        tense: "passéComposé",
+        sentence: "Cette expérience a affaibli leur confiance.",
+        translationTr: "Bu deneyim güvenlerini zayıflattı.",
+        translationEn: "This experience weakened their confidence."
+      },
+      {
+        form: "affaibliront",
+        tense: "futur",
+        sentence: "Les mauvaises décisions affaibliront l’équipe.",
+        translationTr: "Kötü kararlar takımı zayıflatacak.",
+        translationEn: "Bad decisions will weaken the team."
+      }
+    ]
+  },
+  {
+    id: "v17-16",
+    french: "Mélanger",
+    turkish: "Karıştırmak / Harmanlamak",
+    english: "To mix / To blend",
+    pronunciation: "me-lɑ̃-ʒe",
+    description: "Farklı şeyleri bir araya getirerek homojen hale getirmek. Somut (malzeme) ve soyut (duygu, düşünce) olarak kullanılabilir.",
+    synonyms: ["mixer", "combiner", "fusionner"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "mélange",
+        tu: "mélanges",
+        il: "mélange",
+        nous: "mélangeons",
+        vous: "mélangez",
+        ils: "mélangent"
+      },
+      passéComposé: {
+        je: "ai mélangé",
+        tu: "as mélangé",
+        il: "a mélangé",
+        nous: "avons mélangé",
+        vous: "avez mélangé",
+        ils: "ont mélangé"
+      },
+      imparfait: {
+        je: "mélangeais",
+        tu: "mélangeais",
+        il: "mélangeait",
+        nous: "mélangions",
+        vous: "mélangiez",
+        ils: "mélangeaient"
+      },
+      futur: {
+        je: "mélangerai",
+        tu: "mélangeras",
+        il: "mélangera",
+        nous: "mélangerons",
+        vous: "mélangerez",
+        ils: "mélangeront"
+      }
+    },
+    examples: [
+      {
+        form: "mélange",
+        tense: "present",
+        sentence: "Je mélange les ingrédients dans un bol.",
+        translationTr: "Malzemeleri bir kasede karıştırıyorum.",
+        translationEn: "I mix the ingredients in a bowl."
+      },
+      {
+        form: "a mélangé",
+        tense: "passéComposé",
+        sentence: "Elle a mélangé la peinture rouge avec du blanc.",
+        translationTr: "Kırmızı boyayı beyazla karıştırdı.",
+        translationEn: "She mixed red paint with white."
+      },
+      {
+        form: "mélangeront",
+        tense: "futur",
+        sentence: "Les enfants mélangeront les couleurs pour créer du violet.",
+        translationTr: "Çocuklar mor rengi oluşturmak için renkleri karıştıracak.",
+        translationEn: "The children will mix colors to create purple."
+      }
+    ]
+  },
+  {
+    id: "v17-17",
+    french: "Songer",
+    turkish: "Düşünmek / Hayal etmek",
+    english: "To think / To dream / To consider",
+    pronunciation: "sɔ̃-ʒe",
+    description: "Derinlemesine düşünmek veya geleceğe yönelik plan yapmak anlamındadır. Genellikle 'songer à' yapısıyla kullanılır.",
+    synonyms: ["penser", "réfléchir", "envisager"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "songe",
+        tu: "songes",
+        il: "songe",
+        nous: "songeons",
+        vous: "songez",
+        ils: "songent"
+      },
+      passéComposé: {
+        je: "ai songé",
+        tu: "as songé",
+        il: "a songé",
+        nous: "avons songé",
+        vous: "avez songé",
+        ils: "ont songé"
+      },
+      imparfait: {
+        je: "songeais",
+        tu: "songeais",
+        il: "songeait",
+        nous: "songeions",
+        vous: "songeiez",
+        ils: "songeaient"
+      },
+      futur: {
+        je: "songerai",
+        tu: "songeras",
+        il: "songera",
+        nous: "songerons",
+        vous: "songerez",
+        ils: "songeront"
+      }
+    },
+    examples: [
+      {
+        form: "songe",
+        tense: "present",
+        sentence: "Je songe à changer de travail.",
+        translationTr: "İş değiştirmeyi düşünüyorum.",
+        translationEn: "I’m thinking about changing jobs."
+      },
+      {
+        form: "a songé",
+        tense: "passéComposé",
+        sentence: "Il a songé à partir en voyage.",
+        translationTr: "Seyahate çıkmayı düşündü.",
+        translationEn: "He thought about going on a trip."
+      },
+      {
+        form: "songeront",
+        tense: "futur",
+        sentence: "Ils songeront à leur avenir.",
+        translationTr: "Geleceklerini düşünecekler.",
+        translationEn: "They will think about their future."
+      }
+    ]
+  },
+  {
+    id: "v17-18",
+    french: "Obéir",
+    turkish: "İtaat etmek / Uymak",
+    english: "To obey / To comply",
+    pronunciation: "ɔ-be-iʁ",
+    description: "Birine ya da kurala uymak anlamındadır. Genellikle 'obéir à' şeklinde kullanılır. Düzensiz fiildir ve '-ir' grubu içinde yer alır.",
+    synonyms: ["se soumettre", "respecter", "écouter"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "obéis",
+        tu: "obéis",
+        il: "obéit",
+        nous: "obéissons",
+        vous: "obéissez",
+        ils: "obéissent"
+      },
+      passéComposé: {
+        je: "ai obéi",
+        tu: "as obéi",
+        il: "a obéi",
+        nous: "avons obéi",
+        vous: "avez obéi",
+        ils: "ont obéi"
+      },
+      imparfait: {
+        je: "obéissais",
+        tu: "obéissais",
+        il: "obéissait",
+        nous: "obéissions",
+        vous: "obéissiez",
+        ils: "obéissaient"
+      },
+      futur: {
+        je: "obéirai",
+        tu: "obéiras",
+        il: "obéira",
+        nous: "obéirons",
+        vous: "obéirez",
+        ils: "obéiront"
+      }
+    },
+    examples: [
+      {
+        form: "obéit",
+        tense: "present",
+        sentence: "Il obéit toujours à ses parents.",
+        translationTr: "Her zaman ailesine itaat eder.",
+        translationEn: "He always obeys his parents."
+      },
+      {
+        form: "a obéi",
+        tense: "passéComposé",
+        sentence: "L’enfant a obéi sans discuter.",
+        translationTr: "Çocuk tartışmadan itaat etti.",
+        translationEn: "The child obeyed without arguing."
+      },
+      {
+        form: "obéiront",
+        tense: "futur",
+        sentence: "Les soldats obéiront aux ordres.",
+        translationTr: "Askerler emirlere itaat edecek.",
+        translationEn: "The soldiers will obey the orders."
+      }
+    ]
+  },
+  {
+    id: "v17-19",
+    french: "Parcourir",
+    turkish: "Katetmek / Göz gezdirmek / Dolaşmak",
+    english: "To travel through / To browse / To scan",
+    pronunciation: "paʁ-ku-ʁiʁ",
+    description: "Bir mesafeyi katetmek, bir metne göz gezdirmek ya da bir yeri gezmek anlamında kullanılır. Hem fiziksel hem dijital bağlamda geçerlidir.",
+    synonyms: ["traverser", "visiter", "examiner"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "parcours",
+        tu: "parcours",
+        il: "parcourt",
+        nous: "parcourons",
+        vous: "parcourez",
+        ils: "parcourent"
+      },
+      passéComposé: {
+        je: "ai parcouru",
+        tu: "as parcouru",
+        il: "a parcouru",
+        nous: "avons parcouru",
+        vous: "avez parcouru",
+        ils: "ont parcouru"
+      },
+      imparfait: {
+        je: "parcourais",
+        tu: "parcourais",
+        il: "parcourait",
+        nous: "parcourions",
+        vous: "parcouriez",
+        ils: "parcouraient"
+      },
+      futur: {
+        je: "parcourrai",
+        tu: "parcourras",
+        il: "parcourra",
+        nous: "parcourrons",
+        vous: "parcourrez",
+        ils: "parcourront"
+      }
+    },
+    examples: [
+      {
+        form: "parcourt",
+        tense: "present",
+        sentence: "Il parcourt le monde entier pour son travail.",
+        translationTr: "İşi için tüm dünyayı dolaşıyor.",
+        translationEn: "He travels the whole world for his work."
+      },
+      {
+        form: "a parcouru",
+        tense: "passéComposé",
+        sentence: "J’ai parcouru le livre en une heure.",
+        translationTr: "Kitaba bir saatte göz gezdirdim.",
+        translationEn: "I browsed through the book in one hour."
+      },
+      {
+        form: "parcourront",
+        tense: "futur",
+        sentence: "Les athlètes parcourront 10 kilomètres.",
+        translationTr: "Sporcular 10 kilometre koşacak.",
+        translationEn: "The athletes will run 10 kilometers."
+      }
+    ]
+  },
+  {
+    id: "v17-20",
+    french: "Fuir",
+    turkish: "Kaçmak / Uzaklaşmak",
+    english: "To flee / To escape / To avoid",
+    pronunciation: "fɥiʁ",
+    description: "Tehlike, sorumluluk veya istenmeyen durumlardan uzaklaşmak anlamında kullanılır. 'Fuir de' veya 'fuir + nesne' yapısıyla gelir.",
+    synonyms: ["s’échapper", "éviter", "se sauver"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "intermediate",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "fuis",
+        tu: "fuis",
+        il: "fuit",
+        nous: "fuyons",
+        vous: "fuyez",
+        ils: "fuient"
+      },
+      passéComposé: {
+        je: "ai fui",
+        tu: "as fui",
+        il: "a fui",
+        nous: "avons fui",
+        vous: "avez fui",
+        ils: "ont fui"
+      },
+      imparfait: {
+        je: "fuyais",
+        tu: "fuyais",
+        il: "fuyait",
+        nous: "fuyions",
+        vous: "fuyiez",
+        ils: "fuyaient"
+      },
+      futur: {
+        je: "fuirai",
+        tu: "fuiras",
+        il: "fuira",
+        nous: "fuirons",
+        vous: "fuirez",
+        ils: "fuiront"
+      }
+    },
+    examples: [
+      {
+        form: "fuit",
+        tense: "present",
+        sentence: "Il fuit ses responsabilités.",
+        translationTr: "Sorumluluklarından kaçıyor.",
+        translationEn: "He avoids his responsibilities."
+      },
+      {
+        form: "a fui",
+        tense: "passéComposé",
+        sentence: "Ils ont fui la ville en feu.",
+        translationTr: "Yanan şehirden kaçtılar.",
+        translationEn: "They fled the burning city."
+      },
+      {
+        form: "fuiront",
+        tense: "futur",
+        sentence: "Les animaux fuiront le bruit.",
+        translationTr: "Hayvanlar sesten kaçacak.",
+        translationEn: "The animals will flee the noise."
+      }
+    ]
+  },
+  {
+    id: "v17-21",
+    french: "Résoudre",
+    turkish: "Çözmek / Halletmek",
+    english: "To solve / To resolve",
+    pronunciation: "ʁe-zudʁ",
+    description: "Bir problemi ya da durumu çözmek için kullanılır. Genellikle zihinsel ya da teknik çözümlemelerle ilgilidir. Düzensiz fiildir.",
+    synonyms: ["solutionner", "clarifier", "trancher"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "advanced",
+    isLearned: false,
+    isDifficult: true,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "résous",
+        tu: "résous",
+        il: "résout",
+        nous: "résolvons",
+        vous: "résolvez",
+        ils: "résolvent"
+      },
+      passéComposé: {
+        je: "ai résolu",
+        tu: "as résolu",
+        il: "a résolu",
+        nous: "avons résolu",
+        vous: "avez résolu",
+        ils: "ont résolu"
+      },
+      imparfait: {
+        je: "résolvais",
+        tu: "résolvais",
+        il: "résolvait",
+        nous: "résolvions",
+        vous: "résolviez",
+        ils: "résolvaient"
+      },
+      futur: {
+        je: "résoudrai",
+        tu: "résoudras",
+        il: "résoudra",
+        nous: "résoudrons",
+        vous: "résoudrez",
+        ils: "résoudront"
+      }
+    },
+    examples: [
+      {
+        form: "résout",
+        tense: "present",
+        sentence: "Elle résout les problèmes rapidement.",
+        translationTr: "Sorunları hızlıca çözüyor.",
+        translationEn: "She solves problems quickly."
+      },
+      {
+        form: "a résolu",
+        tense: "passéComposé",
+        sentence: "Le technicien a résolu la panne.",
+        translationTr: "Teknisyen arızayı çözdü.",
+        translationEn: "The technician resolved the breakdown."
+      },
+      {
+        form: "résoudront",
+        tense: "futur",
+        sentence: "Ils résoudront ce conflit bientôt.",
+        translationTr: "Bu çatışmayı yakında çözecekler.",
+        translationEn: "They will resolve this conflict soon."
+      }
+    ]
+  },
+  {
+    id: "v17-22",
+    french: "Créer",
+    turkish: "Yaratmak / Oluşturmak",
+    english: "To create / To generate",
+    pronunciation: "kʁe-e",
+    description: "Yeni bir şey meydana getirmek anlamında kullanılır. Sanatsal, teknik ya da soyut anlamlarda kullanılabilir.",
+    synonyms: ["produire", "inventer", "élaborer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "crée",
+        tu: "crées",
+        il: "crée",
+        nous: "créons",
+        vous: "créez",
+        ils: "créent"
+      },
+      passéComposé: {
+        je: "ai créé",
+        tu: "as créé",
+        il: "a créé",
+        nous: "avons créé",
+        vous: "avez créé",
+        ils: "ont créé"
+      },
+      imparfait: {
+        je: "créais",
+        tu: "créais",
+        il: "créait",
+        nous: "créions",
+        vous: "créiez",
+        ils: "créaient"
+      },
+      futur: {
+        je: "créerai",
+        tu: "créeras",
+        il: "créera",
+        nous: "créerons",
+        vous: "créerez",
+        ils: "créeront"
+      }
+    },
+    examples: [
+      {
+        form: "crée",
+        tense: "present",
+        sentence: "L’artiste crée une nouvelle sculpture.",
+        translationTr: "Sanatçı yeni bir heykel yaratıyor.",
+        translationEn: "The artist is creating a new sculpture."
+      },
+      {
+        form: "a créé",
+        tense: "passéComposé",
+        sentence: "Elle a créé sa propre entreprise.",
+        translationTr: "Kendi şirketini kurdu.",
+        translationEn: "She created her own company."
+      },
+      {
+        form: "créeront",
+        tense: "futur",
+        sentence: "Ils créeront un site web pour leur projet.",
+        translationTr: "Projeleri için bir web sitesi oluşturacaklar.",
+        translationEn: "They will create a website for their project."
+      }
+    ]
+  },
+  {
+    id: "v17-23",
+    french: "Oublier",
+    turkish: "Unutmak",
+    english: "To forget",
+    pronunciation: "u-bli-je",
+    description: "Zihinde tutmamak ya da hatırlamamak anlamında kullanılır. Kasıtlı ya da istemsiz olabilir.",
+    synonyms: ["négliger", "omettre", "laisser de côté"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "oublie",
+        tu: "oublies",
+        il: "oublie",
+        nous: "oublions",
+        vous: "oubliez",
+        ils: "oublient"
+      },
+      passéComposé: {
+        je: "ai oublié",
+        tu: "as oublié",
+        il: "a oublié",
+        nous: "avons oublié",
+        vous: "avez oublié",
+        ils: "ont oublié"
+      },
+      imparfait: {
+        je: "oubliais",
+        tu: "oubliais",
+        il: "oubliait",
+        nous: "oubliions",
+        vous: "oubliiez",
+        ils: "oubliaient"
+      },
+      futur: {
+        je: "oublierai",
+        tu: "oublieras",
+        il: "oubliera",
+        nous: "oublierons",
+        vous: "oublierez",
+        ils: "oublieront"
+      }
+    },
+    examples: [
+      {
+        form: "oublie",
+        tense: "present",
+        sentence: "Je t’oublie jamais.",
+        translationTr: "Seni asla unutmam.",
+        translationEn: "I never forget you."
+      },
+      {
+        form: "a oublié",
+        tense: "passéComposé",
+        sentence: "Elle a oublié son sac à la maison.",
+        translationTr: "Çantasını evde unuttu.",
+        translationEn: "She forgot her bag at home."
+      },
+      {
+        form: "oublieront",
+        tense: "futur",
+        sentence: "Ils n’oublieront jamais cette journée.",
+        translationTr: "Bu günü asla unutmayacaklar.",
+        translationEn: "They will never forget this day."
+      }
+    ]
+  },
+  {
+    id: "v17-24",
+    french: "Rouler",
+    turkish: "Yuvarlanmak / Sürmek (araç)",
+    english: "To roll / To drive",
+    pronunciation: "ʁu-le",
+    description: "Hem nesnelerin yuvarlanması hem de taşıtların ilerlemesi anlamında kullanılır. Günlük dilde araç sürmek için de kullanılır.",
+    synonyms: ["avancer", "conduire", "se déplacer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "roule",
+        tu: "roules",
+        il: "roule",
+        nous: "roulons",
+        vous: "roulez",
+        ils: "roulent"
+      },
+      passéComposé: {
+        je: "ai roulé",
+        tu: "as roulé",
+        il: "a roulé",
+        nous: "avons roulé",
+        vous: "avez roulé",
+        ils: "ont roulé"
+      },
+      imparfait: {
+        je: "roulais",
+        tu: "roulais",
+        il: "roulait",
+        nous: "roulions",
+        vous: "rouliez",
+        ils: "roulaient"
+      },
+      futur: {
+        je: "roulerai",
+        tu: "rouleras",
+        il: "roulera",
+        nous: "roulerons",
+        vous: "roulerez",
+        ils: "rouleront"
+      }
+    },
+    examples: [
+      {
+        form: "roule",
+        tense: "present",
+        sentence: "La voiture roule trop vite.",
+        translationTr: "Araba çok hızlı gidiyor.",
+        translationEn: "The car is going too fast."
+      },
+      {
+        form: "a roulé",
+        tense: "passéComposé",
+        sentence: "Il a roulé toute la nuit.",
+        translationTr: "Tüm gece boyunca araç sürdü.",
+        translationEn: "He drove all night."
+      },
+      {
+        form: "rouleront",
+        tense: "futur",
+        sentence: "Les camions rouleront demain matin.",
+        translationTr: "Kamyonlar yarın sabah yola çıkacak.",
+        translationEn: "The trucks will roll tomorrow morning."
+      }
+    ]
+  },
+  {
+    id: "v17-25",
+    french: "Appeler",
+    turkish: "Aramak / Çağırmak / Seslenmek",
+    english: "To call / To name",
+    pronunciation: "a-pə-le",
+    description: "Hem telefonla birini aramak hem de birine seslenmek ya da çağırmak anlamında kullanılır. Zamirle kullanıldığında ortada 'll' çiftlenir: j'appelle, tu appelles vs.",
+    synonyms: ["téléphoner", "crier", "nommer"],
+    image: null,
+    category: "verbs",
+    unit: "verbs-unit-17",
+    difficulty: "beginner",
+    isLearned: false,
+    isDifficult: false,
+    createdAt: "2024-01-01T00:00:00.000Z",
+    knowledgeLevel: undefined,
+    conjugations: {
+      present: {
+        je: "appelle",
+        tu: "appelles",
+        il: "appelle",
+        nous: "appelons",
+        vous: "appelez",
+        ils: "appellent"
+      },
+      passéComposé: {
+        je: "ai appelé",
+        tu: "as appelé",
+        il: "a appelé",
+        nous: "avons appelé",
+        vous: "avez appelé",
+        ils: "ont appelé"
+      },
+      imparfait: {
+        je: "appelais",
+        tu: "appelais",
+        il: "appelait",
+        nous: "appelions",
+        vous: "appeliez",
+        ils: "appelaient"
+      },
+      futur: {
+        je: "appellerai",
+        tu: "appelleras",
+        il: "appellera",
+        nous: "appellerons",
+        vous: "appelerez",
+        ils: "appelleront"
+      }
+    },
+    examples: [
+      {
+        form: "appelle",
+        tense: "present",
+        sentence: "Je t’appelle ce soir.",
+        translationTr: "Bu akşam seni arıyorum.",
+        translationEn: "I’ll call you tonight."
+      },
+      {
+        form: "a appelé",
+        tense: "passéComposé",
+        sentence: "Elle a appelé son frère pour l’aider.",
+        translationTr: "Yardım etmesi için kardeşini aradı.",
+        translationEn: "She called her brother for help."
+      },
+      {
+        form: "appelleront",
+        tense: "futur",
+        sentence: "Ils appelleront les secours si nécessaire.",
+        translationTr: "Gerekirse yardım çağıracaklar.",
+        translationEn: "They will call for help if needed."
+      }
+    ]
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
   //----------------------------------
 
   //----------------------------------
@@ -20775,7 +34299,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     examples: [
       {
@@ -20806,7 +34330,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     forms: {
       masculine: "grand",
@@ -20849,7 +34373,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     examples: [
       {
@@ -20874,7 +34398,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
     knowledgeLevel: undefined,
     examples: [
       {
@@ -20900,7 +34424,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "10",
@@ -20915,7 +34439,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // SIFATLAR - ÜNİTE 2: Nitelik Sıfatları (mevcut)
@@ -20932,7 +34456,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "12",
@@ -20947,7 +34471,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // SIFATLAR - ÜNİTE 3: Zaman Sıfatları (mevcut)
@@ -20964,7 +34488,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "14",
@@ -20979,7 +34503,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // İSİMLER - ÜNİTE 1: Ev ve Aile (mevcut)
@@ -20996,7 +34520,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // İSİMLER - ÜNİTE 2: Eğitim (mevcut)
@@ -21013,7 +34537,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "17",
@@ -21028,7 +34552,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // İSİMLER - ÜNİTE 3: İş ve Ulaşım (mevcut)
@@ -21045,7 +34569,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "19",
@@ -21060,7 +34584,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // İSİMLER - ÜNİTE 4: Zaman ve Hava (mevcut)
@@ -21077,7 +34601,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // ZARFLAR - ÜNİTE 1: Miktar Zarfları (mevcut)
@@ -21094,7 +34618,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "22",
@@ -21109,7 +34633,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "23",
@@ -21124,7 +34648,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // ZARFLAR - ÜNİTE 2: Durum Zarfları (mevcut)
@@ -21141,7 +34665,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "25",
@@ -21156,7 +34680,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // BAĞLAÇLAR - ÜNİTE 1: Temel Bağlaçlar (mevcut)
@@ -21173,7 +34697,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "27",
@@ -21188,7 +34712,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "28",
@@ -21203,7 +34727,7 @@ export const mockWords: Word[] = [
     difficulty: "beginner",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 
   // BAĞLAÇLAR - ÜNİTE 2: Zaman ve Sebep (mevcut)
@@ -21220,7 +34744,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
   {
     id: "30",
@@ -21235,7 +34759,7 @@ export const mockWords: Word[] = [
     difficulty: "intermediate",
     isLearned: false,
     isDifficult: false,
-    createdAt: new Date("2024-01-01"),
+    createdAt: "2024-01-01T00:00:00.000Z",
   },
 ];
 

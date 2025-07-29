@@ -16,8 +16,8 @@ export interface Word {
   difficulty: "beginner" | "intermediate" | "advanced";
   isLearned: boolean;
   isDifficult: boolean;
-  createdAt: Date;
-  lastReviewed?: Date;
+  createdAt: string;
+  lastReviewed?: string;
   knowledgeLevel?: "dont-know" | "somewhat" | "learned"; // Yeni: bilgi seviyesi
   correctStreak?: number;
   conjugations?: {
@@ -82,7 +82,7 @@ export interface UserProgress {
   streak: number;
   completedUnits: number;
   totalUnits: number;
-  lastStudyDate?: Date;
+  lastStudyDate?: string;
 }
 
 export interface QuizQuestion {
