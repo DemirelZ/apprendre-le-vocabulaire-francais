@@ -326,7 +326,7 @@ export const mockUnits: Unit[] = [
 ];
 
 export const mockWords: Word[] = [
-  // FİİLLER - ÜNİTE 1: Temel Fiiller
+  // FİİLLER
 
   {
     id: "v1-1",
@@ -343,7 +343,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "exige",
@@ -424,7 +424,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "consomme",
@@ -505,7 +505,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "aménage",
@@ -586,7 +586,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "fonde",
@@ -667,7 +667,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "félicite",
@@ -748,7 +748,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "charge",
@@ -829,7 +829,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "réveille",
@@ -910,7 +910,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "bois",
@@ -991,7 +991,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "recueille",
@@ -1072,7 +1072,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "corresonds",
@@ -1153,7 +1153,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "quitte",
@@ -1234,7 +1234,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "trompe",
@@ -1315,7 +1315,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "explique",
@@ -1396,7 +1396,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "cède",
@@ -1477,7 +1477,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pose",
@@ -1558,7 +1558,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "conclus",
@@ -1639,7 +1639,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "garde",
@@ -1721,7 +1721,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "plains",
@@ -1803,7 +1803,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "descends",
@@ -1885,7 +1885,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "fonds",
@@ -1967,7 +1967,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "célèbre",
@@ -2049,7 +2049,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "satisfais",
@@ -2131,7 +2131,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "range",
@@ -2213,7 +2213,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "nais",
@@ -2295,7 +2295,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "arrache",
@@ -2377,7 +2377,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "supporte",
@@ -2459,7 +2459,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "signale",
@@ -2541,7 +2541,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "nettoie",
@@ -2623,7 +2623,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "cueille",
@@ -2705,7 +2705,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "passe",
@@ -2787,7 +2787,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vaincs",
@@ -2869,7 +2869,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "téléphone",
@@ -2951,7 +2951,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "reconduis",
@@ -3033,7 +3033,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "sépare",
@@ -3115,7 +3115,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "importe",
@@ -3197,7 +3197,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "casse",
@@ -3279,7 +3279,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "cherche",
@@ -3361,7 +3361,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "enseigne",
@@ -3443,7 +3443,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "semble",
@@ -3525,7 +3525,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rêve",
@@ -3607,7 +3607,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "blâme",
@@ -3689,7 +3689,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "oblige",
@@ -3771,7 +3771,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "arrête",
@@ -3853,7 +3853,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "m’abstiens",
@@ -3935,7 +3935,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "préfère",
@@ -4017,7 +4017,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "gagne",
@@ -4099,7 +4099,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "étudie",
@@ -4181,7 +4181,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "épouse",
@@ -4264,7 +4264,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "apparais",
@@ -4346,7 +4346,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tords",
@@ -4428,7 +4428,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "traduis",
@@ -4510,7 +4510,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "couds",
@@ -4592,7 +4592,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "devine",
@@ -4674,7 +4674,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "m’endors",
@@ -4756,7 +4756,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "remercie",
@@ -4838,7 +4838,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "permets",
@@ -4921,7 +4921,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "introduis",
@@ -5003,7 +5003,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "cause",
@@ -5086,7 +5086,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "entends",
@@ -5168,7 +5168,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "accroche",
@@ -5250,7 +5250,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tousse",
@@ -5332,7 +5332,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "augmente",
@@ -5416,7 +5416,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "m’aventure",
@@ -5498,7 +5498,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "avance",
@@ -5580,7 +5580,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "efface",
@@ -5662,7 +5662,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "siffle",
@@ -5744,7 +5744,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "désire",
@@ -5826,7 +5826,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "exprime",
@@ -5908,7 +5908,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dois",
@@ -5990,7 +5990,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "élis",
@@ -6072,7 +6072,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rejette",
@@ -6154,7 +6154,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rougis",
@@ -6236,7 +6236,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tire",
@@ -6318,7 +6318,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vole",
@@ -6400,7 +6400,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "conseille",
@@ -6482,7 +6482,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "balance",
@@ -6564,7 +6564,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pue",
@@ -6646,7 +6646,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "saisis",
@@ -6728,7 +6728,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "décide",
@@ -6810,7 +6810,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "conçois",
@@ -6892,7 +6892,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "connais",
@@ -6974,7 +6974,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "suis",
@@ -7056,7 +7056,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "colle",
@@ -7138,7 +7138,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "bâtis",
@@ -7220,7 +7220,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "séjourne",
@@ -7302,7 +7302,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "brûle",
@@ -7384,7 +7384,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "frappe",
@@ -7466,7 +7466,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "déménage",
@@ -7548,7 +7548,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vote",
@@ -7630,7 +7630,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "traite",
@@ -7712,7 +7712,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "crains",
@@ -7794,7 +7794,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "touche",
@@ -7876,7 +7876,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "prononce",
@@ -7958,7 +7958,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "reçois",
@@ -8040,7 +8040,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "reste",
@@ -8122,7 +8122,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "défais",
@@ -8204,7 +8204,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "trahis",
@@ -8286,7 +8286,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "aime",
@@ -8368,7 +8368,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dirige",
@@ -8450,7 +8450,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "commande",
@@ -8532,7 +8532,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tiens",
@@ -8614,7 +8614,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "hésite",
@@ -8696,7 +8696,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "baisse",
@@ -8778,7 +8778,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "prends",
@@ -8860,7 +8860,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "effraie",
@@ -8942,7 +8942,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "cuis",
@@ -9024,7 +9024,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dîne",
@@ -9106,7 +9106,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "voyage",
@@ -9188,7 +9188,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "m'amuse",
@@ -9270,7 +9270,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "convins",
@@ -9352,7 +9352,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pleure",
@@ -9434,7 +9434,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "raconte",
@@ -9516,7 +9516,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "approuve",
@@ -9598,7 +9598,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "démolis",
@@ -9680,7 +9680,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "possède",
@@ -9762,7 +9762,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "épelle",
@@ -9844,7 +9844,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dévêts",
@@ -9926,7 +9926,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "conquiers",
@@ -10008,7 +10008,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "lance",
@@ -10090,7 +10090,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "complète",
@@ -10172,7 +10172,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "blesse",
@@ -10254,7 +10254,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "sers",
@@ -10336,7 +10336,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "achève",
@@ -10418,7 +10418,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "approche",
@@ -10500,7 +10500,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "subis",
@@ -10582,7 +10582,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "mange",
@@ -10664,7 +10664,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "fume",
@@ -10746,7 +10746,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "peigne",
@@ -10828,7 +10828,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "existe",
@@ -10910,7 +10910,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "réfléchis",
@@ -10992,7 +10992,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "accuse",
@@ -11074,7 +11074,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "arme",
@@ -11156,7 +11156,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "joue",
@@ -11238,7 +11238,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "détourne",
@@ -11320,7 +11320,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "poursuis",
@@ -11402,7 +11402,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "goûte",
@@ -11485,7 +11485,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "remets",
@@ -11567,7 +11567,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "représente",
@@ -11649,7 +11649,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "balaye",
@@ -11731,7 +11731,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "gratte",
@@ -11813,7 +11813,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "gaspille",
@@ -11897,7 +11897,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "veux",
@@ -11979,7 +11979,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         "j’": "acquiers",
@@ -12061,7 +12061,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         "j’": "agis",
@@ -12143,7 +12143,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "mens",
@@ -12225,7 +12225,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "mesure",
@@ -12307,7 +12307,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         "j’": "égaye",
@@ -12389,7 +12389,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         il: "pleut",
@@ -12451,7 +12451,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "embrasse",
@@ -12533,7 +12533,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "construis",
@@ -12615,7 +12615,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "doute",
@@ -12697,7 +12697,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "accorde",
@@ -12779,7 +12779,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "termine",
@@ -12861,7 +12861,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "relève",
@@ -12943,7 +12943,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "parviens",
@@ -13025,7 +13025,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "prépare",
@@ -13107,7 +13107,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "contredis",
@@ -13189,7 +13189,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "suis",
@@ -13271,7 +13271,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "discute",
@@ -13353,7 +13353,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "regrette",
@@ -13435,7 +13435,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "retiens",
@@ -13517,7 +13517,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "répète",
@@ -13600,7 +13600,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "repasse",
@@ -13682,7 +13682,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "accueille",
@@ -13764,7 +13764,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "revêts",
@@ -13846,7 +13846,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "insiste",
@@ -13928,7 +13928,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "déchire",
@@ -14010,7 +14010,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rencontre",
@@ -14092,7 +14092,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "retrouve",
@@ -14174,7 +14174,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "suggère",
@@ -14256,7 +14256,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "regarde",
@@ -14338,7 +14338,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "attire",
@@ -14420,7 +14420,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "nomme",
@@ -14502,7 +14502,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ignore",
@@ -14584,7 +14584,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "combats",
@@ -14666,7 +14666,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "enregistre",
@@ -14748,7 +14748,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pêche",
@@ -14830,7 +14830,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "déteste",
@@ -14914,7 +14914,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rejoins",
@@ -14996,7 +14996,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "excuse",
@@ -15078,7 +15078,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "échappe",
@@ -15161,7 +15161,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tourne",
@@ -15243,7 +15243,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "prête",
@@ -15325,7 +15325,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "bouge",
@@ -15408,7 +15408,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "inscris",
@@ -15490,7 +15490,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "interroge",
@@ -15573,7 +15573,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "abats",
@@ -15656,7 +15656,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "accepte",
@@ -15738,7 +15738,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "offre",
@@ -15820,7 +15820,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "consens",
@@ -15903,7 +15903,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vouvoie",
@@ -15987,7 +15987,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ris",
@@ -16069,7 +16069,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "échoue",
@@ -16154,7 +16154,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "renouvelle",
@@ -16236,7 +16236,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "souffre",
@@ -16318,7 +16318,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "gèle",
@@ -16401,7 +16401,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "essaie",
@@ -16483,7 +16483,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ferme",
@@ -16565,7 +16565,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "mène",
@@ -16647,7 +16647,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "apporte",
@@ -16730,7 +16730,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "déplais",
@@ -16812,7 +16812,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "trace",
@@ -16894,7 +16894,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "varie",
@@ -16977,7 +16977,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "prie",
@@ -17059,7 +17059,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dégage",
@@ -17141,7 +17141,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "promets",
@@ -17224,7 +17224,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "apprends",
@@ -17306,7 +17306,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "lève",
@@ -17388,7 +17388,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "diminue",
@@ -17471,7 +17471,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "concerne",
@@ -17553,7 +17553,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tombe",
@@ -17635,7 +17635,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "sédus",
@@ -17718,7 +17718,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "porte",
@@ -17800,7 +17800,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "me fie",
@@ -17882,7 +17882,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "écris",
@@ -17965,7 +17965,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "renvoie",
@@ -18047,7 +18047,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "répare",
@@ -18129,7 +18129,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "développe",
@@ -18212,7 +18212,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "jouis",
@@ -18294,7 +18294,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "déçois",
@@ -18377,7 +18377,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "contiens",
@@ -18460,7 +18460,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "réussis",
@@ -18542,7 +18542,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "propose",
@@ -18624,7 +18624,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "aide",
@@ -18706,7 +18706,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "souscris",
@@ -18789,7 +18789,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "interdis",
@@ -18871,7 +18871,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "lave",
@@ -18953,7 +18953,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rassure",
@@ -19036,7 +19036,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "venge",
@@ -19119,7 +19119,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "invite",
@@ -19201,7 +19201,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dors",
@@ -19284,7 +19284,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vais",
@@ -19366,7 +19366,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "aperçois",
@@ -19448,7 +19448,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "participe",
@@ -19531,7 +19531,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ressens",
@@ -19613,7 +19613,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pends",
@@ -19695,7 +19695,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "invente",
@@ -19778,7 +19778,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "entre",
@@ -19860,7 +19860,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "recours",
@@ -19942,7 +19942,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "sors",
@@ -20025,7 +20025,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "élève",
@@ -20107,7 +20107,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "change",
@@ -20189,7 +20189,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "guéris",
@@ -20272,7 +20272,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "attends",
@@ -20354,7 +20354,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "m’assieds",
@@ -20436,7 +20436,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "occupe",
@@ -20519,7 +20519,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "souhaite",
@@ -20601,7 +20601,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "m’inquiète",
@@ -20683,7 +20683,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "nage",
@@ -20765,7 +20765,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "plonge",
@@ -20848,7 +20848,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "grimpe",
@@ -20930,7 +20930,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "amène",
@@ -21013,7 +21013,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "risque",
@@ -21096,7 +21096,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "cache",
@@ -21178,7 +21178,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tends",
@@ -21260,7 +21260,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pèse",
@@ -21343,7 +21343,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "monte",
@@ -21425,7 +21425,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "nie",
@@ -21507,7 +21507,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vieillis",
@@ -21590,7 +21590,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "loue",
@@ -21672,7 +21672,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "m’enfuis",
@@ -21754,7 +21754,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ouvre",
@@ -21837,7 +21837,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "demeure",
@@ -21919,7 +21919,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "attaque",
@@ -22001,7 +22001,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dissous",
@@ -22084,7 +22084,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "admire",
@@ -22166,7 +22166,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "secours",
@@ -22248,7 +22248,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "évite",
@@ -22331,7 +22331,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "convaincs",
@@ -22413,7 +22413,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rappelle",
@@ -22495,7 +22495,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "plaisante",
@@ -22578,7 +22578,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "continue",
@@ -22660,7 +22660,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ajoute",
@@ -22742,7 +22742,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tutoye",
@@ -22825,7 +22825,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "espère",
@@ -22907,7 +22907,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "montre",
@@ -22989,7 +22989,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "jaunis",
@@ -23071,7 +23071,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vois",
@@ -23153,7 +23153,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "culpabilise",
@@ -23235,7 +23235,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "accompagne",
@@ -23317,7 +23317,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "achète",
@@ -23399,7 +23399,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "couvre",
@@ -23481,7 +23481,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ressemble",
@@ -23563,7 +23563,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "signifie",
@@ -23647,7 +23647,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "appartiens",
@@ -23729,7 +23729,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "désobéis",
@@ -23811,7 +23811,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "adore",
@@ -23893,7 +23893,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "reprends",
@@ -23976,7 +23976,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "disparais",
@@ -24058,7 +24058,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "souris",
@@ -24140,7 +24140,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "partage",
@@ -24222,7 +24222,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "corrige",
@@ -24304,7 +24304,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pénètre",
@@ -24386,7 +24386,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "habille",
@@ -24468,7 +24468,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "mérite",
@@ -24550,7 +24550,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "deviens",
@@ -24632,7 +24632,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "conduis",
@@ -24714,7 +24714,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "me souviens",
@@ -24796,7 +24796,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "fixe",
@@ -24878,7 +24878,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "redis",
@@ -24950,7 +24950,8 @@ export const mockWords: Word[] = [
     turkish: "Kabul etmek / İzin vermek / İtiraf etmek",
     english: "To admit / To allow / To confess",
     pronunciation: "ad-mɛtʁ",
-    description: "Genellikle bir şeyi kabul etmek ya da bir kimseyi içeri almak anlamında kullanılır. 'Avouer' ile itiraf anlamında benzeşir. Geçişli bir fiildir ve bazen edilgen yapıda da kullanılır.",
+    description:
+      "Genellikle bir şeyi kabul etmek ya da bir kimseyi içeri almak anlamında kullanılır. 'Avouer' ile itiraf anlamında benzeşir. Geçişli bir fiildir ve bazen edilgen yapıda da kullanılır.",
     synonyms: ["accepter", "avouer", "autoriser"],
     image: null,
     category: "verbs",
@@ -24959,7 +24960,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "admets",
@@ -24967,7 +24968,7 @@ export const mockWords: Word[] = [
         il: "admet",
         nous: "admettons",
         vous: "admettez",
-        ils: "admettent"
+        ils: "admettent",
       },
       passéComposé: {
         je: "ai admis",
@@ -24975,7 +24976,7 @@ export const mockWords: Word[] = [
         il: "a admis",
         nous: "avons admis",
         vous: "avez admis",
-        ils: "ont admis"
+        ils: "ont admis",
       },
       imparfait: {
         je: "admettais",
@@ -24983,7 +24984,7 @@ export const mockWords: Word[] = [
         il: "admettait",
         nous: "admettions",
         vous: "admettiez",
-        ils: "admettaient"
+        ils: "admettaient",
       },
       futur: {
         je: "admettrai",
@@ -24991,8 +24992,8 @@ export const mockWords: Word[] = [
         il: "admettra",
         nous: "admettrons",
         vous: "admettrez",
-        ils: "admettront"
-      }
+        ils: "admettront",
+      },
     },
     examples: [
       {
@@ -25000,30 +25001,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "J’admets que j’ai fait une erreur.",
         translationTr: "Bir hata yaptığımı kabul ediyorum.",
-        translationEn: "I admit that I made a mistake."
+        translationEn: "I admit that I made a mistake.",
       },
       {
         form: "elle a admis",
         tense: "passéComposé",
         sentence: "Elle a admis sa faute.",
         translationTr: "Hatasını kabul etti.",
-        translationEn: "She admitted her fault."
+        translationEn: "She admitted her fault.",
       },
       {
         form: "nous admettions",
         tense: "imparfait",
         sentence: "Nous admettions rarement nos torts.",
         translationTr: "Hatalarımızı nadiren kabul ederdik.",
-        translationEn: "We rarely admitted our mistakes."
+        translationEn: "We rarely admitted our mistakes.",
       },
       {
         form: "ils admettront",
         tense: "futur",
         sentence: "Ils admettront leur responsabilité tôt ou tard.",
         translationTr: "Er ya da geç sorumluluklarını kabul edecekler.",
-        translationEn: "They will admit their responsibility sooner or later."
-      }
-    ]
+        translationEn: "They will admit their responsibility sooner or later.",
+      },
+    ],
   },
   {
     id: "v13-2",
@@ -25031,7 +25032,8 @@ export const mockWords: Word[] = [
     turkish: "Kesmek / Bölmek / Koparmak",
     english: "To cut / To interrupt / To disconnect",
     pronunciation: "ku-pe",
-    description: "Hem fiziksel kesme hem de bir konuşmayı veya bağlantıyı kesme anlamında kullanılır. Bilgisayarda 'kes' komutu olarak da sıkça karşılaşılır ('couper-coller').",
+    description:
+      "Hem fiziksel kesme hem de bir konuşmayı veya bağlantıyı kesme anlamında kullanılır. Bilgisayarda 'kes' komutu olarak da sıkça karşılaşılır ('couper-coller').",
     synonyms: ["trancher", "sectionner", "interrompre"],
     image: null,
     category: "verbs",
@@ -25040,7 +25042,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "coupe",
@@ -25048,7 +25050,7 @@ export const mockWords: Word[] = [
         il: "coupe",
         nous: "coupons",
         vous: "coupez",
-        ils: "coupent"
+        ils: "coupent",
       },
       passéComposé: {
         je: "ai coupé",
@@ -25056,7 +25058,7 @@ export const mockWords: Word[] = [
         il: "a coupé",
         nous: "avons coupé",
         vous: "avez coupé",
-        ils: "ont coupé"
+        ils: "ont coupé",
       },
       imparfait: {
         je: "coupais",
@@ -25064,7 +25066,7 @@ export const mockWords: Word[] = [
         il: "coupait",
         nous: "coupions",
         vous: "coupiez",
-        ils: "coupaient"
+        ils: "coupaient",
       },
       futur: {
         je: "couperai",
@@ -25072,8 +25074,8 @@ export const mockWords: Word[] = [
         il: "coupera",
         nous: "couperons",
         vous: "couperez",
-        ils: "couperont"
-      }
+        ils: "couperont",
+      },
     },
     examples: [
       {
@@ -25081,30 +25083,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je coupe les légumes pour le dîner.",
         translationTr: "Akşam yemeği için sebzeleri doğruyorum.",
-        translationEn: "I’m cutting the vegetables for dinner."
+        translationEn: "I’m cutting the vegetables for dinner.",
       },
       {
         form: "il a coupé",
         tense: "passéComposé",
         sentence: "Il a coupé la parole à son ami.",
         translationTr: "Arkadaşının sözünü kesti.",
-        translationEn: "He interrupted his friend."
+        translationEn: "He interrupted his friend.",
       },
       {
         form: "nous coupions",
         tense: "imparfait",
         sentence: "Nous coupions souvent la connexion par erreur.",
         translationTr: "Sık sık bağlantıyı yanlışlıkla keserdik.",
-        translationEn: "We often disconnected the connection by mistake."
+        translationEn: "We often disconnected the connection by mistake.",
       },
       {
         form: "vous couperez",
         tense: "futur",
         sentence: "Vous couperez le moteur avant de descendre.",
         translationTr: "İnmeden önce motoru durduracaksınız.",
-        translationEn: "You will turn off the engine before getting out."
-      }
-    ]
+        translationEn: "You will turn off the engine before getting out.",
+      },
+    ],
   },
   {
     id: "v13-3",
@@ -25112,7 +25114,8 @@ export const mockWords: Word[] = [
     turkish: "Okumak",
     english: "To read",
     pronunciation: "liʁ",
-    description: "Düz metinleri okumak dışında, yüz ifadelerini ya da bir durumu 'okumak' anlamında mecaz olarak da kullanılabilir. Düzensiz bir fiildir.",
+    description:
+      "Düz metinleri okumak dışında, yüz ifadelerini ya da bir durumu 'okumak' anlamında mecaz olarak da kullanılabilir. Düzensiz bir fiildir.",
     synonyms: ["consulter", "parcourir", "étudier"],
     image: null,
     category: "verbs",
@@ -25121,7 +25124,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "lis",
@@ -25129,7 +25132,7 @@ export const mockWords: Word[] = [
         il: "lit",
         nous: "lisons",
         vous: "lisez",
-        ils: "lisent"
+        ils: "lisent",
       },
       passéComposé: {
         je: "ai lu",
@@ -25137,7 +25140,7 @@ export const mockWords: Word[] = [
         il: "a lu",
         nous: "avons lu",
         vous: "avez lu",
-        ils: "ont lu"
+        ils: "ont lu",
       },
       imparfait: {
         je: "lisais",
@@ -25145,7 +25148,7 @@ export const mockWords: Word[] = [
         il: "lisait",
         nous: "lisions",
         vous: "lisiez",
-        ils: "lisaient"
+        ils: "lisaient",
       },
       futur: {
         je: "lirai",
@@ -25153,8 +25156,8 @@ export const mockWords: Word[] = [
         il: "lira",
         nous: "lirons",
         vous: "lirez",
-        ils: "liront"
-      }
+        ils: "liront",
+      },
     },
     examples: [
       {
@@ -25162,30 +25165,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je lis un roman policier.",
         translationTr: "Bir polisiye roman okuyorum.",
-        translationEn: "I’m reading a detective novel."
+        translationEn: "I’m reading a detective novel.",
       },
       {
         form: "elle a lu",
         tense: "passéComposé",
         sentence: "Elle a lu le message à voix haute.",
         translationTr: "Mesajı yüksek sesle okudu.",
-        translationEn: "She read the message out loud."
+        translationEn: "She read the message out loud.",
       },
       {
         form: "nous lisions",
         tense: "imparfait",
         sentence: "Nous lisions ensemble chaque soir.",
         translationTr: "Her akşam birlikte kitap okurduk.",
-        translationEn: "We used to read together every evening."
+        translationEn: "We used to read together every evening.",
       },
       {
         form: "ils liront",
         tense: "futur",
         sentence: "Ils liront ce livre à l’école.",
         translationTr: "Bu kitabı okulda okuyacaklar.",
-        translationEn: "They will read this book at school."
-      }
-    ]
+        translationEn: "They will read this book at school.",
+      },
+    ],
   },
   {
     id: "v13-4",
@@ -25193,7 +25196,8 @@ export const mockWords: Word[] = [
     turkish: "İkna etmek",
     english: "To persuade / To convince",
     pronunciation: "pɛʁ-sɥa-de",
-    description: "Birini bir fikre veya eyleme ikna etmek anlamında kullanılır. 'Convaincre' fiiliyle yakın anlamlıdır, ancak bazen daha yumuşak ya da duygusal bir ikna sürecini ifade eder.",
+    description:
+      "Birini bir fikre veya eyleme ikna etmek anlamında kullanılır. 'Convaincre' fiiliyle yakın anlamlıdır, ancak bazen daha yumuşak ya da duygusal bir ikna sürecini ifade eder.",
     synonyms: ["convaincre", "influencer", "inciter"],
     image: null,
     category: "verbs",
@@ -25202,7 +25206,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "persuade",
@@ -25210,7 +25214,7 @@ export const mockWords: Word[] = [
         il: "persuade",
         nous: "persuadons",
         vous: "persuadez",
-        ils: "persuadent"
+        ils: "persuadent",
       },
       passéComposé: {
         je: "ai persuadé",
@@ -25218,7 +25222,7 @@ export const mockWords: Word[] = [
         il: "a persuadé",
         nous: "avons persuadé",
         vous: "avez persuadé",
-        ils: "ont persuadé"
+        ils: "ont persuadé",
       },
       imparfait: {
         je: "persuadais",
@@ -25226,7 +25230,7 @@ export const mockWords: Word[] = [
         il: "persuadait",
         nous: "persuadions",
         vous: "persuadiez",
-        ils: "persuadaient"
+        ils: "persuadaient",
       },
       futur: {
         je: "persuaderai",
@@ -25234,8 +25238,8 @@ export const mockWords: Word[] = [
         il: "persuadera",
         nous: "persuaderons",
         vous: "persuaderez",
-        ils: "persuaderont"
-      }
+        ils: "persuaderont",
+      },
     },
     examples: [
       {
@@ -25243,30 +25247,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je persuade mes amis de venir avec moi.",
         translationTr: "Arkadaşlarımı benimle gelmeye ikna ediyorum.",
-        translationEn: "I am persuading my friends to come with me."
+        translationEn: "I am persuading my friends to come with me.",
       },
       {
         form: "elle a persuadé",
         tense: "passéComposé",
         sentence: "Elle a persuadé son père de dire oui.",
         translationTr: "Babasını evet demeye ikna etti.",
-        translationEn: "She persuaded her father to say yes."
+        translationEn: "She persuaded her father to say yes.",
       },
       {
         form: "nous persuadions",
         tense: "imparfait",
         sentence: "Nous persuadions souvent nos collègues avec des faits.",
         translationTr: "Meslektaşlarımızı sık sık verilerle ikna ederdik.",
-        translationEn: "We often persuaded our colleagues with facts."
+        translationEn: "We often persuaded our colleagues with facts.",
       },
       {
         form: "ils persuaderont",
         tense: "futur",
         sentence: "Ils persuaderont le jury avec leurs arguments.",
         translationTr: "Jürüyü argümanlarıyla ikna edecekler.",
-        translationEn: "They will persuade the jury with their arguments."
-      }
-    ]
+        translationEn: "They will persuade the jury with their arguments.",
+      },
+    ],
   },
   {
     id: "v13-5",
@@ -25274,7 +25278,8 @@ export const mockWords: Word[] = [
     turkish: "Desteklemek / Sürdürmek / Katlanmak",
     english: "To support / To maintain / To withstand",
     pronunciation: "su-tə-niʁ",
-    description: "Fiziksel ya da duygusal destek anlamında kullanılır. Ayrıca bir fikri ya da kişiyi savunmak anlamına da gelir. Bazı durumlarda 'katlanmak' anlamında da kullanılır (soutenir un effort).",
+    description:
+      "Fiziksel ya da duygusal destek anlamında kullanılır. Ayrıca bir fikri ya da kişiyi savunmak anlamına da gelir. Bazı durumlarda 'katlanmak' anlamında da kullanılır (soutenir un effort).",
     synonyms: ["appuyer", "aider", "défendre"],
     image: null,
     category: "verbs",
@@ -25283,7 +25288,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "soutiens",
@@ -25291,7 +25296,7 @@ export const mockWords: Word[] = [
         il: "soutient",
         nous: "soutenons",
         vous: "soutenez",
-        ils: "soutiennent"
+        ils: "soutiennent",
       },
       passéComposé: {
         je: "ai soutenu",
@@ -25299,7 +25304,7 @@ export const mockWords: Word[] = [
         il: "a soutenu",
         nous: "avons soutenu",
         vous: "avez soutenu",
-        ils: "ont soutenu"
+        ils: "ont soutenu",
       },
       imparfait: {
         je: "soutenais",
@@ -25307,7 +25312,7 @@ export const mockWords: Word[] = [
         il: "soutenait",
         nous: "soutenions",
         vous: "souteniez",
-        ils: "soutenaient"
+        ils: "soutenaient",
       },
       futur: {
         je: "soutiendrai",
@@ -25315,8 +25320,8 @@ export const mockWords: Word[] = [
         il: "soutiendra",
         nous: "soutiendrons",
         vous: "soutiendrez",
-        ils: "soutiendront"
-      }
+        ils: "soutiendront",
+      },
     },
     examples: [
       {
@@ -25324,30 +25329,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je soutiens mes amis dans les moments difficiles.",
         translationTr: "Zor zamanlarda arkadaşlarımı destekliyorum.",
-        translationEn: "I support my friends in difficult times."
+        translationEn: "I support my friends in difficult times.",
       },
       {
         form: "il a soutenu",
         tense: "passéComposé",
         sentence: "Il a soutenu sa famille pendant des années.",
         translationTr: "Ailesini yıllarca destekledi.",
-        translationEn: "He supported his family for years."
+        translationEn: "He supported his family for years.",
       },
       {
         form: "nous soutenions",
         tense: "imparfait",
         sentence: "Nous soutenions toujours notre équipe locale.",
         translationTr: "Her zaman yerel takımımızı desteklerdik.",
-        translationEn: "We always supported our local team."
+        translationEn: "We always supported our local team.",
       },
       {
         form: "elle soutiendra",
         tense: "futur",
         sentence: "Elle soutiendra sa candidature jusqu'au bout.",
         translationTr: "Adaylığını sonuna kadar destekleyecek.",
-        translationEn: "She will support her candidacy until the end."
-      }
-    ]
+        translationEn: "She will support her candidacy until the end.",
+      },
+    ],
   },
   {
     id: "v13-6",
@@ -25355,7 +25360,8 @@ export const mockWords: Word[] = [
     turkish: "Tanımak / Kabul etmek / Fark etmek",
     english: "To recognize / To acknowledge / To admit",
     pronunciation: "ʁə-kɔ-nɛtʁ",
-    description: "Birini ya da bir şeyi tanımak, bir hatayı veya katkıyı kabul etmek gibi çeşitli anlamlarda kullanılır. Düzensiz bir fiildir. Participe passé'si 'reconnu'dur.",
+    description:
+      "Birini ya da bir şeyi tanımak, bir hatayı veya katkıyı kabul etmek gibi çeşitli anlamlarda kullanılır. Düzensiz bir fiildir. Participe passé'si 'reconnu'dur.",
     synonyms: ["identifier", "admettre", "accepter"],
     image: null,
     category: "verbs",
@@ -25364,7 +25370,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "reconnais",
@@ -25372,7 +25378,7 @@ export const mockWords: Word[] = [
         il: "reconnaît",
         nous: "reconnaissons",
         vous: "reconnaissez",
-        ils: "reconnaissent"
+        ils: "reconnaissent",
       },
       passéComposé: {
         je: "ai reconnu",
@@ -25380,7 +25386,7 @@ export const mockWords: Word[] = [
         il: "a reconnu",
         nous: "avons reconnu",
         vous: "avez reconnu",
-        ils: "ont reconnu"
+        ils: "ont reconnu",
       },
       imparfait: {
         je: "reconnaissais",
@@ -25388,7 +25394,7 @@ export const mockWords: Word[] = [
         il: "reconnaissait",
         nous: "reconnaissions",
         vous: "reconnaissiez",
-        ils: "reconnaissaient"
+        ils: "reconnaissaient",
       },
       futur: {
         je: "reconnaîtrai",
@@ -25396,8 +25402,8 @@ export const mockWords: Word[] = [
         il: "reconnaîtra",
         nous: "reconnaîtrons",
         vous: "reconnaîtrez",
-        ils: "reconnaîtront"
-      }
+        ils: "reconnaîtront",
+      },
     },
     examples: [
       {
@@ -25405,30 +25411,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je reconnais cette chanson, elle est célèbre.",
         translationTr: "Bu şarkıyı tanıyorum, çok ünlü.",
-        translationEn: "I recognize this song, it is famous."
+        translationEn: "I recognize this song, it is famous.",
       },
       {
         form: "elle a reconnu",
         tense: "passéComposé",
         sentence: "Elle a reconnu son erreur.",
         translationTr: "Hatasını kabul etti.",
-        translationEn: "She admitted her mistake."
+        translationEn: "She admitted her mistake.",
       },
       {
         form: "nous reconnaissions",
         tense: "imparfait",
         sentence: "Nous reconnaissions les visages familiers.",
         translationTr: "Tanıdık yüzleri fark ederdik.",
-        translationEn: "We used to recognize familiar faces."
+        translationEn: "We used to recognize familiar faces.",
       },
       {
         form: "ils reconnaîtront",
         tense: "futur",
         sentence: "Ils reconnaîtront votre contribution.",
         translationTr: "Katkınızı kabul edecekler.",
-        translationEn: "They will acknowledge your contribution."
-      }
-    ]
+        translationEn: "They will acknowledge your contribution.",
+      },
+    ],
   },
   {
     id: "v13-7",
@@ -25436,7 +25442,8 @@ export const mockWords: Word[] = [
     turkish: "Bağlı olmak / Bağlı kalmak / Tabi olmak",
     english: "To depend / To rely on / To be subject to",
     pronunciation: "de-pɑ̃-dʁ",
-    description: "Genellikle 'de' edatıyla birlikte kullanılır (dépendre de quelque chose). Bir kişinin ya da durumun başka bir şeye bağlı olduğunu belirtir. Yardımcı fiil olarak 'avoir' kullanılır.",
+    description:
+      "Genellikle 'de' edatıyla birlikte kullanılır (dépendre de quelque chose). Bir kişinin ya da durumun başka bir şeye bağlı olduğunu belirtir. Yardımcı fiil olarak 'avoir' kullanılır.",
     synonyms: ["reposer sur", "être lié à", "être tributaire de"],
     image: null,
     category: "verbs",
@@ -25445,7 +25452,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dépends",
@@ -25453,7 +25460,7 @@ export const mockWords: Word[] = [
         il: "dépend",
         nous: "dépendons",
         vous: "dépendez",
-        ils: "dépendent"
+        ils: "dépendent",
       },
       passéComposé: {
         je: "ai dépendu",
@@ -25461,7 +25468,7 @@ export const mockWords: Word[] = [
         il: "a dépendu",
         nous: "avons dépendu",
         vous: "avez dépendu",
-        ils: "ont dépendu"
+        ils: "ont dépendu",
       },
       imparfait: {
         je: "dépendais",
@@ -25469,7 +25476,7 @@ export const mockWords: Word[] = [
         il: "dépendait",
         nous: "dépendions",
         vous: "dépendiez",
-        ils: "dépendaient"
+        ils: "dépendaient",
       },
       futur: {
         je: "dépendrai",
@@ -25477,8 +25484,8 @@ export const mockWords: Word[] = [
         il: "dépendra",
         nous: "dépendrons",
         vous: "dépendrez",
-        ils: "dépendront"
-      }
+        ils: "dépendront",
+      },
     },
     examples: [
       {
@@ -25486,30 +25493,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Ça dépend de la météo.",
         translationTr: "Bu, hava durumuna bağlı.",
-        translationEn: "It depends on the weather."
+        translationEn: "It depends on the weather.",
       },
       {
         form: "il a dépendu",
         tense: "passéComposé",
         sentence: "Il a longtemps dépendu de ses parents.",
         translationTr: "Uzun süre ailesine bağımlı kaldı.",
-        translationEn: "He depended on his parents for a long time."
+        translationEn: "He depended on his parents for a long time.",
       },
       {
         form: "nous dépendions",
         tense: "imparfait",
         sentence: "Nous dépendions de cette aide chaque mois.",
         translationTr: "Her ay bu yardıma bağımlıydık.",
-        translationEn: "We used to depend on that help every month."
+        translationEn: "We used to depend on that help every month.",
       },
       {
         form: "tu dépendras",
         tense: "futur",
         sentence: "Tu dépendras de tes choix.",
         translationTr: "Seçimlerine bağlı olacaksın.",
-        translationEn: "You will depend on your choices."
-      }
-    ]
+        translationEn: "You will depend on your choices.",
+      },
+    ],
   },
   {
     id: "v13-8",
@@ -25517,7 +25524,8 @@ export const mockWords: Word[] = [
     turkish: "Aşmak / Geçmek / Üstün gelmek",
     english: "To exceed / To go beyond / To overtake",
     pronunciation: "de-pa-se",
-    description: "Bir sınırı veya limiti geçmek, aynı zamanda bir aracı sollamak anlamında da kullanılır. Duygusal veya fiziksel sınırları aşmak için de mecazi olarak kullanılır.",
+    description:
+      "Bir sınırı veya limiti geçmek, aynı zamanda bir aracı sollamak anlamında da kullanılır. Duygusal veya fiziksel sınırları aşmak için de mecazi olarak kullanılır.",
     synonyms: ["surpasser", "excéder", "déborder"],
     image: null,
     category: "verbs",
@@ -25526,7 +25534,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dépasse",
@@ -25534,7 +25542,7 @@ export const mockWords: Word[] = [
         il: "dépasse",
         nous: "dépassons",
         vous: "dépassez",
-        ils: "dépassent"
+        ils: "dépassent",
       },
       passéComposé: {
         je: "ai dépassé",
@@ -25542,7 +25550,7 @@ export const mockWords: Word[] = [
         il: "a dépassé",
         nous: "avons dépassé",
         vous: "avez dépassé",
-        ils: "ont dépassé"
+        ils: "ont dépassé",
       },
       imparfait: {
         je: "dépassais",
@@ -25550,7 +25558,7 @@ export const mockWords: Word[] = [
         il: "dépassait",
         nous: "dépassions",
         vous: "dépassiez",
-        ils: "dépassaient"
+        ils: "dépassaient",
       },
       futur: {
         je: "dépasserai",
@@ -25558,8 +25566,8 @@ export const mockWords: Word[] = [
         il: "dépassera",
         nous: "dépasserons",
         vous: "dépasserez",
-        ils: "dépasseront"
-      }
+        ils: "dépasseront",
+      },
     },
     examples: [
       {
@@ -25567,30 +25575,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je dépasse souvent la limite de vitesse.",
         translationTr: "Sıklıkla hız sınırını aşıyorum.",
-        translationEn: "I often exceed the speed limit."
+        translationEn: "I often exceed the speed limit.",
       },
       {
         form: "elle a dépassé",
         tense: "passéComposé",
         sentence: "Elle a dépassé toutes les attentes.",
         translationTr: "Tüm beklentileri aştı.",
-        translationEn: "She exceeded all expectations."
+        translationEn: "She exceeded all expectations.",
       },
       {
         form: "nous dépassions",
         tense: "imparfait",
         sentence: "Nous dépassions les voitures lentement.",
         translationTr: "Arabaları yavaşça solluyorduk.",
-        translationEn: "We used to overtake the cars slowly."
+        translationEn: "We used to overtake the cars slowly.",
       },
       {
         form: "ils dépasseront",
         tense: "futur",
         sentence: "Ils dépasseront leurs limites.",
         translationTr: "Sınırlarını aşacaklar.",
-        translationEn: "They will go beyond their limits."
-      }
-    ]
+        translationEn: "They will go beyond their limits.",
+      },
+    ],
   },
   {
     id: "v13-9",
@@ -25598,7 +25606,8 @@ export const mockWords: Word[] = [
     turkish: "İnanmak / Sanmak / Güvenmek",
     english: "To believe / To think / To trust",
     pronunciation: "kʁwaʁ",
-    description: "Hem dinsel hem de kişisel inançları ifade eder. Ayrıca birinin söylediklerine inanmak veya bir şeyi sanmak anlamında da kullanılır. Düzensiz bir fiildir.",
+    description:
+      "Hem dinsel hem de kişisel inançları ifade eder. Ayrıca birinin söylediklerine inanmak veya bir şeyi sanmak anlamında da kullanılır. Düzensiz bir fiildir.",
     synonyms: ["penser", "avoir foi", "estimer"],
     image: null,
     category: "verbs",
@@ -25607,7 +25616,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "crois",
@@ -25615,7 +25624,7 @@ export const mockWords: Word[] = [
         il: "croit",
         nous: "croyons",
         vous: "croyez",
-        ils: "croient"
+        ils: "croient",
       },
       passéComposé: {
         je: "ai cru",
@@ -25623,7 +25632,7 @@ export const mockWords: Word[] = [
         il: "a cru",
         nous: "avons cru",
         vous: "avez cru",
-        ils: "ont cru"
+        ils: "ont cru",
       },
       imparfait: {
         je: "croyais",
@@ -25631,7 +25640,7 @@ export const mockWords: Word[] = [
         il: "croyait",
         nous: "croyions",
         vous: "croyiez",
-        ils: "croyaient"
+        ils: "croyaient",
       },
       futur: {
         je: "croirai",
@@ -25639,8 +25648,8 @@ export const mockWords: Word[] = [
         il: "croira",
         nous: "croirons",
         vous: "croirez",
-        ils: "croiront"
-      }
+        ils: "croiront",
+      },
     },
     examples: [
       {
@@ -25648,30 +25657,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je crois en toi.",
         translationTr: "Sana inanıyorum.",
-        translationEn: "I believe in you."
+        translationEn: "I believe in you.",
       },
       {
         form: "il a cru",
         tense: "passéComposé",
         sentence: "Il a cru que c'était une blague.",
         translationTr: "Bunun bir şaka olduğunu sandı.",
-        translationEn: "He thought it was a joke."
+        translationEn: "He thought it was a joke.",
       },
       {
         form: "nous croyions",
         tense: "imparfait",
         sentence: "Nous croyions tout ce qu'on nous disait.",
         translationTr: "Bize söylenen her şeye inanırdık.",
-        translationEn: "We used to believe everything we were told."
+        translationEn: "We used to believe everything we were told.",
       },
       {
         form: "elles croiront",
         tense: "futur",
         sentence: "Elles croiront à un avenir meilleur.",
         translationTr: "Daha iyi bir geleceğe inanacaklar.",
-        translationEn: "They will believe in a better future."
-      }
-    ]
+        translationEn: "They will believe in a better future.",
+      },
+    ],
   },
   {
     id: "v13-10",
@@ -25679,7 +25688,8 @@ export const mockWords: Word[] = [
     turkish: "Kapatmak / Söndürmek",
     english: "To turn off / To extinguish",
     pronunciation: "e-tɛ̃dʁ",
-    description: "Genellikle bir cihazı kapatmak ya da bir ışığı/yangını söndürmek için kullanılır. Düzensiz bir fiildir. Participe passé hali 'éteint'tir.",
+    description:
+      "Genellikle bir cihazı kapatmak ya da bir ışığı/yangını söndürmek için kullanılır. Düzensiz bir fiildir. Participe passé hali 'éteint'tir.",
     synonyms: ["couper", "arrêter", "désactiver"],
     image: null,
     category: "verbs",
@@ -25688,7 +25698,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "éteins",
@@ -25696,7 +25706,7 @@ export const mockWords: Word[] = [
         il: "éteint",
         nous: "éteignons",
         vous: "éteignez",
-        ils: "éteignent"
+        ils: "éteignent",
       },
       passéComposé: {
         je: "ai éteint",
@@ -25704,7 +25714,7 @@ export const mockWords: Word[] = [
         il: "a éteint",
         nous: "avons éteint",
         vous: "avez éteint",
-        ils: "ont éteint"
+        ils: "ont éteint",
       },
       imparfait: {
         je: "éteignais",
@@ -25712,7 +25722,7 @@ export const mockWords: Word[] = [
         il: "éteignait",
         nous: "éteignions",
         vous: "éteigniez",
-        ils: "éteignaient"
+        ils: "éteignaient",
       },
       futur: {
         je: "éteindrai",
@@ -25720,8 +25730,8 @@ export const mockWords: Word[] = [
         il: "éteindra",
         nous: "éteindrons",
         vous: "éteindrez",
-        ils: "éteindront"
-      }
+        ils: "éteindront",
+      },
     },
     examples: [
       {
@@ -25729,30 +25739,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "J’éteins la lumière avant de dormir.",
         translationTr: "Uyumadan önce ışığı kapatırım.",
-        translationEn: "I turn off the light before sleeping."
+        translationEn: "I turn off the light before sleeping.",
       },
       {
         form: "elle a éteint",
         tense: "passéComposé",
         sentence: "Elle a éteint son téléphone pendant le film.",
         translationTr: "Film sırasında telefonunu kapattı.",
-        translationEn: "She turned off her phone during the movie."
+        translationEn: "She turned off her phone during the movie.",
       },
       {
         form: "nous éteignions",
         tense: "imparfait",
         sentence: "Nous éteignions toujours les bougies après le dîner.",
         translationTr: "Akşam yemeğinden sonra hep mumları söndürürdük.",
-        translationEn: "We used to extinguish the candles after dinner."
+        translationEn: "We used to extinguish the candles after dinner.",
       },
       {
         form: "ils éteindront",
         tense: "futur",
         sentence: "Ils éteindront les machines à la fin de la journée.",
         translationTr: "Günün sonunda makineleri kapatacaklar.",
-        translationEn: "They will turn off the machines at the end of the day."
-      }
-    ]
+        translationEn: "They will turn off the machines at the end of the day.",
+      },
+    ],
   },
   {
     id: "v13-11",
@@ -25760,7 +25770,8 @@ export const mockWords: Word[] = [
     turkish: "Sunmak / Tanıtmak",
     english: "To present / To introduce / To show",
     pronunciation: "pʁe-zɑ̃-te",
-    description: "Bir kişiyi tanıtmak, bir fikir sunmak veya resmi bir şey açıklamak anlamında kullanılır. Nesneyle birlikte geçişli bir fiildir.",
+    description:
+      "Bir kişiyi tanıtmak, bir fikir sunmak veya resmi bir şey açıklamak anlamında kullanılır. Nesneyle birlikte geçişli bir fiildir.",
     synonyms: ["montrer", "exposer", "soumettre"],
     image: null,
     category: "verbs",
@@ -25769,7 +25780,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "présente",
@@ -25777,7 +25788,7 @@ export const mockWords: Word[] = [
         il: "présente",
         nous: "présentons",
         vous: "présentez",
-        ils: "présentent"
+        ils: "présentent",
       },
       passéComposé: {
         je: "ai présenté",
@@ -25785,7 +25796,7 @@ export const mockWords: Word[] = [
         il: "a présenté",
         nous: "avons présenté",
         vous: "avez présenté",
-        ils: "ont présenté"
+        ils: "ont présenté",
       },
       imparfait: {
         je: "présentais",
@@ -25793,7 +25804,7 @@ export const mockWords: Word[] = [
         il: "présentait",
         nous: "présentions",
         vous: "présentiez",
-        ils: "présentaient"
+        ils: "présentaient",
       },
       futur: {
         je: "présenterai",
@@ -25801,8 +25812,8 @@ export const mockWords: Word[] = [
         il: "présentera",
         nous: "présenterons",
         vous: "présenterez",
-        ils: "présenteront"
-      }
+        ils: "présenteront",
+      },
     },
     examples: [
       {
@@ -25810,30 +25821,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je vous présente mon ami Paul.",
         translationTr: "Size arkadaşım Paul’ü tanıtıyorum.",
-        translationEn: "I introduce my friend Paul to you."
+        translationEn: "I introduce my friend Paul to you.",
       },
       {
         form: "il a présenté",
         tense: "passéComposé",
         sentence: "Il a présenté son projet au directeur.",
         translationTr: "Projesini müdüre sundu.",
-        translationEn: "He presented his project to the director."
+        translationEn: "He presented his project to the director.",
       },
       {
         form: "nous présentions",
         tense: "imparfait",
         sentence: "Nous présentions nos idées clairement.",
         translationTr: "Fikirlerimizi açıkça sunardık.",
-        translationEn: "We used to present our ideas clearly."
+        translationEn: "We used to present our ideas clearly.",
       },
       {
         form: "vous présenterez",
         tense: "futur",
         sentence: "Vous présenterez votre exposé demain.",
         translationTr: "Sunumunuzu yarın yapacaksınız.",
-        translationEn: "You will present your talk tomorrow."
-      }
-    ]
+        translationEn: "You will present your talk tomorrow.",
+      },
+    ],
   },
   {
     id: "v13-12",
@@ -25841,7 +25852,8 @@ export const mockWords: Word[] = [
     turkish: "Oturmak / Yaşamak / İkamet etmek",
     english: "To live / To reside / To inhabit",
     pronunciation: "a-bi-te",
-    description: "Bir yerde yaşamak ya da ikamet etmek anlamında kullanılır. Hem geçişli (j’habite une maison) hem de geçişsiz (j’habite à Paris) olabilir.",
+    description:
+      "Bir yerde yaşamak ya da ikamet etmek anlamında kullanılır. Hem geçişli (j’habite une maison) hem de geçişsiz (j’habite à Paris) olabilir.",
     synonyms: ["vivre", "résider", "loger"],
     image: null,
     category: "verbs",
@@ -25850,7 +25862,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "habite",
@@ -25858,7 +25870,7 @@ export const mockWords: Word[] = [
         il: "habite",
         nous: "habitons",
         vous: "habitez",
-        ils: "habitent"
+        ils: "habitent",
       },
       passéComposé: {
         je: "ai habité",
@@ -25866,7 +25878,7 @@ export const mockWords: Word[] = [
         il: "a habité",
         nous: "avons habité",
         vous: "avez habité",
-        ils: "ont habité"
+        ils: "ont habité",
       },
       imparfait: {
         je: "habitais",
@@ -25874,7 +25886,7 @@ export const mockWords: Word[] = [
         il: "habitait",
         nous: "habitions",
         vous: "habitiez",
-        ils: "habitaient"
+        ils: "habitaient",
       },
       futur: {
         je: "habiterai",
@@ -25882,8 +25894,8 @@ export const mockWords: Word[] = [
         il: "habitera",
         nous: "habiterons",
         vous: "habiterez",
-        ils: "habiteront"
-      }
+        ils: "habiteront",
+      },
     },
     examples: [
       {
@@ -25891,30 +25903,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "J’habite à Lyon depuis 5 ans.",
         translationTr: "5 yıldır Lyon’da yaşıyorum.",
-        translationEn: "I have been living in Lyon for 5 years."
+        translationEn: "I have been living in Lyon for 5 years.",
       },
       {
         form: "elle a habité",
         tense: "passéComposé",
         sentence: "Elle a habité dans plusieurs pays.",
         translationTr: "Birçok ülkede yaşadı.",
-        translationEn: "She lived in several countries."
+        translationEn: "She lived in several countries.",
       },
       {
         form: "nous habitions",
         tense: "imparfait",
         sentence: "Nous habitions dans un petit village.",
         translationTr: "Küçük bir köyde oturuyorduk.",
-        translationEn: "We used to live in a small village."
+        translationEn: "We used to live in a small village.",
       },
       {
         form: "ils habiteront",
         tense: "futur",
         sentence: "Ils habiteront bientôt à l'étranger.",
         translationTr: "Yakında yurtdışında yaşayacaklar.",
-        translationEn: "They will live abroad soon."
-      }
-    ]
+        translationEn: "They will live abroad soon.",
+      },
+    ],
   },
   {
     id: "v13-13",
@@ -25922,7 +25934,8 @@ export const mockWords: Word[] = [
     turkish: "Hitap etmek / Yollamak / Yöneltmek",
     english: "To address / To send / To direct",
     pronunciation: "a-dʁe-se",
-    description: "Bir kişiye resmi bir şekilde hitap etmek ya da bir şeyi (mektup, dilekçe vb.) bir yere göndermek anlamında kullanılır. Refleksif haliyle 'birine seslenmek' ya da 'başvurmak' anlamı kazanır (s’adresser à).",
+    description:
+      "Bir kişiye resmi bir şekilde hitap etmek ya da bir şeyi (mektup, dilekçe vb.) bir yere göndermek anlamında kullanılır. Refleksif haliyle 'birine seslenmek' ya da 'başvurmak' anlamı kazanır (s’adresser à).",
     synonyms: ["envoyer", "expédier", "diriger"],
     image: null,
     category: "verbs",
@@ -25931,7 +25944,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "adresse",
@@ -25939,7 +25952,7 @@ export const mockWords: Word[] = [
         il: "adresse",
         nous: "adressons",
         vous: "adressez",
-        ils: "adressent"
+        ils: "adressent",
       },
       passéComposé: {
         je: "ai adressé",
@@ -25947,7 +25960,7 @@ export const mockWords: Word[] = [
         il: "a adressé",
         nous: "avons adressé",
         vous: "avez adressé",
-        ils: "ont adressé"
+        ils: "ont adressé",
       },
       imparfait: {
         je: "adressais",
@@ -25955,7 +25968,7 @@ export const mockWords: Word[] = [
         il: "adressait",
         nous: "adressions",
         vous: "adressiez",
-        ils: "adressaients"
+        ils: "adressaients",
       },
       futur: {
         je: "adresserai",
@@ -25963,8 +25976,8 @@ export const mockWords: Word[] = [
         il: "adressera",
         nous: "adresserons",
         vous: "adresserez",
-        ils: "adresseront"
-      }
+        ils: "adresseront",
+      },
     },
     examples: [
       {
@@ -25972,30 +25985,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "J’adresse cette lettre au directeur.",
         translationTr: "Bu mektubu müdüre gönderiyorum.",
-        translationEn: "I am addressing this letter to the director."
+        translationEn: "I am addressing this letter to the director.",
       },
       {
         form: "elle a adressé",
         tense: "passéComposé",
         sentence: "Elle a adressé une plainte au service client.",
         translationTr: "Müşteri hizmetlerine bir şikayet yöneltti.",
-        translationEn: "She addressed a complaint to customer service."
+        translationEn: "She addressed a complaint to customer service.",
       },
       {
         form: "nous adressions",
         tense: "imparfait",
         sentence: "Nous adressions nos demandes par courrier.",
         translationTr: "Taleplerimizi mektupla gönderirdik.",
-        translationEn: "We used to send our requests by mail."
+        translationEn: "We used to send our requests by mail.",
       },
       {
         form: "ils adresseront",
         tense: "futur",
         sentence: "Ils adresseront une réponse bientôt.",
         translationTr: "Yakında bir yanıt gönderecekler.",
-        translationEn: "They will send a reply soon."
-      }
-    ]
+        translationEn: "They will send a reply soon.",
+      },
+    ],
   },
   {
     id: "v13-14",
@@ -26003,7 +26016,8 @@ export const mockWords: Word[] = [
     turkish: "Tekrar yapmak / Yeniden yapmak / Onarmak",
     english: "To redo / To do again / To fix",
     pronunciation: "ʁə-fɛʁ",
-    description: "Yapılmış bir şeyi yeniden yapmak ya da düzeltmek anlamında kullanılır. 'Faire' fiilinin türevidir, dolayısıyla benzer düzensiz çekim kalıbına sahiptir.",
+    description:
+      "Yapılmış bir şeyi yeniden yapmak ya da düzeltmek anlamında kullanılır. 'Faire' fiilinin türevidir, dolayısıyla benzer düzensiz çekim kalıbına sahiptir.",
     synonyms: ["recommencer", "répéter", "réparer"],
     image: null,
     category: "verbs",
@@ -26012,7 +26026,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "refais",
@@ -26020,7 +26034,7 @@ export const mockWords: Word[] = [
         il: "refait",
         nous: "refaisons",
         vous: "refaites",
-        ils: "refont"
+        ils: "refont",
       },
       passéComposé: {
         je: "ai refait",
@@ -26028,7 +26042,7 @@ export const mockWords: Word[] = [
         il: "a refait",
         nous: "avons refait",
         vous: "avez refait",
-        ils: "ont refait"
+        ils: "ont refait",
       },
       imparfait: {
         je: "refaisais",
@@ -26036,7 +26050,7 @@ export const mockWords: Word[] = [
         il: "refaisait",
         nous: "refaisions",
         vous: "refaisiez",
-        ils: "refaisaient"
+        ils: "refaisaient",
       },
       futur: {
         je: "referai",
@@ -26044,8 +26058,8 @@ export const mockWords: Word[] = [
         il: "refera",
         nous: "referons",
         vous: "referez",
-        ils: "referont"
-      }
+        ils: "referont",
+      },
     },
     examples: [
       {
@@ -26053,30 +26067,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je refais mon devoir car j’ai fait une erreur.",
         translationTr: "Bir hata yaptığım için ödevimi yeniden yapıyorum.",
-        translationEn: "I am redoing my homework because I made a mistake."
+        translationEn: "I am redoing my homework because I made a mistake.",
       },
       {
         form: "il a refait",
         tense: "passéComposé",
         sentence: "Il a refait la peinture du salon.",
         translationTr: "Salonu yeniden boyadı.",
-        translationEn: "He repainted the living room."
+        translationEn: "He repainted the living room.",
       },
       {
         form: "nous refaisions",
         tense: "imparfait",
         sentence: "Nous refaisions le toit chaque été.",
         translationTr: "Her yaz çatıyı yeniden yapardık.",
-        translationEn: "We used to redo the roof every summer."
+        translationEn: "We used to redo the roof every summer.",
       },
       {
         form: "vous referez",
         tense: "futur",
         sentence: "Vous referez l’installation électrique demain.",
         translationTr: "Elektrik tesisatını yarın yeniden yapacaksınız.",
-        translationEn: "You will redo the electrical installation tomorrow."
-      }
-    ]
+        translationEn: "You will redo the electrical installation tomorrow.",
+      },
+    ],
   },
   {
     id: "v13-15",
@@ -26084,7 +26098,8 @@ export const mockWords: Word[] = [
     turkish: "Bilmek / Öğrenmek",
     english: "To know / To find out",
     pronunciation: "sa-vwaʁ",
-    description: "Bir şeyi bilgi olarak bilmek anlamında kullanılır. 'Connaître' fiilinden farklı olarak teorik ya da zihinsel bilgiye işaret eder. Düzensiz bir fiildir.",
+    description:
+      "Bir şeyi bilgi olarak bilmek anlamında kullanılır. 'Connaître' fiilinden farklı olarak teorik ya da zihinsel bilgiye işaret eder. Düzensiz bir fiildir.",
     synonyms: ["connaître", "comprendre", "maîtriser"],
     image: null,
     category: "verbs",
@@ -26093,7 +26108,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "sais",
@@ -26101,7 +26116,7 @@ export const mockWords: Word[] = [
         il: "sait",
         nous: "savons",
         vous: "savez",
-        ils: "savent"
+        ils: "savent",
       },
       passéComposé: {
         je: "ai su",
@@ -26109,7 +26124,7 @@ export const mockWords: Word[] = [
         il: "a su",
         nous: "avons su",
         vous: "avez su",
-        ils: "ont su"
+        ils: "ont su",
       },
       imparfait: {
         je: "savais",
@@ -26117,7 +26132,7 @@ export const mockWords: Word[] = [
         il: "savait",
         nous: "savions",
         vous: "saviez",
-        ils: "savaient"
+        ils: "savaient",
       },
       futur: {
         je: "saurai",
@@ -26125,8 +26140,8 @@ export const mockWords: Word[] = [
         il: "saura",
         nous: "saurons",
         vous: "saurez",
-        ils: "sauront"
-      }
+        ils: "sauront",
+      },
     },
     examples: [
       {
@@ -26134,30 +26149,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je sais parler trois langues.",
         translationTr: "Üç dil konuşabildiğimi biliyorum.",
-        translationEn: "I know how to speak three languages."
+        translationEn: "I know how to speak three languages.",
       },
       {
         form: "elle a su",
         tense: "passéComposé",
         sentence: "Elle a su la vérité hier.",
         translationTr: "Gerçeği dün öğrendi.",
-        translationEn: "She found out the truth yesterday."
+        translationEn: "She found out the truth yesterday.",
       },
       {
         form: "nous savions",
         tense: "imparfait",
         sentence: "Nous savions que c’était risqué.",
         translationTr: "Bunun riskli olduğunu biliyorduk.",
-        translationEn: "We knew it was risky."
+        translationEn: "We knew it was risky.",
       },
       {
         form: "ils sauront",
         tense: "futur",
         sentence: "Ils sauront quoi faire en cas d’urgence.",
         translationTr: "Acil durumda ne yapacaklarını bilecekler.",
-        translationEn: "They will know what to do in case of emergency."
-      }
-    ]
+        translationEn: "They will know what to do in case of emergency.",
+      },
+    ],
   },
   {
     id: "v13-16",
@@ -26165,7 +26180,8 @@ export const mockWords: Word[] = [
     turkish: "Müdahale etmek / Araya girmek",
     english: "To intervene / To step in",
     pronunciation: "ɛ̃-tɛʁ-və-niʁ",
-    description: "Genellikle tartışma, olay veya kriz anlarında bir duruma müdahale etmek anlamında kullanılır. Yardım etmek veya düzeni sağlamak için yapılan müdahaleleri kapsar.",
+    description:
+      "Genellikle tartışma, olay veya kriz anlarında bir duruma müdahale etmek anlamında kullanılır. Yardım etmek veya düzeni sağlamak için yapılan müdahaleleri kapsar.",
     synonyms: ["s'immiscer", "agir", "participer"],
     image: null,
     category: "verbs",
@@ -26174,7 +26190,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "interviens",
@@ -26182,7 +26198,7 @@ export const mockWords: Word[] = [
         il: "intervient",
         nous: "intervenons",
         vous: "intervenez",
-        ils: "interviennent"
+        ils: "interviennent",
       },
       passéComposé: {
         je: "suis intervenu",
@@ -26190,7 +26206,7 @@ export const mockWords: Word[] = [
         il: "est intervenu",
         nous: "sommes intervenus",
         vous: "êtes intervenus",
-        ils: "sont intervenus"
+        ils: "sont intervenus",
       },
       imparfait: {
         je: "intervenais",
@@ -26198,7 +26214,7 @@ export const mockWords: Word[] = [
         il: "intervenait",
         nous: "intervenions",
         vous: "interveniez",
-        ils: "intervenaient"
+        ils: "intervenaient",
       },
       futur: {
         je: "interviendrai",
@@ -26206,8 +26222,8 @@ export const mockWords: Word[] = [
         il: "interviendra",
         nous: "interviendrons",
         vous: "interviendrez",
-        ils: "interviendront"
-      }
+        ils: "interviendront",
+      },
     },
     examples: [
       {
@@ -26215,30 +26231,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il intervient toujours quand il y a un problème.",
         translationTr: "Bir sorun olduğunda her zaman müdahale eder.",
-        translationEn: "He always intervenes when there's a problem."
+        translationEn: "He always intervenes when there's a problem.",
       },
       {
         form: "nous sommes intervenus",
         tense: "passéComposé",
         sentence: "Nous sommes intervenus à temps pour éviter le conflit.",
         translationTr: "Çatışmayı önlemek için zamanında müdahale ettik.",
-        translationEn: "We intervened in time to avoid the conflict."
+        translationEn: "We intervened in time to avoid the conflict.",
       },
       {
         form: "je intervenais",
         tense: "imparfait",
         sentence: "J’intervenais souvent lors des réunions.",
         translationTr: "Toplantılarda sık sık müdahale ederdim.",
-        translationEn: "I used to intervene often during meetings."
+        translationEn: "I used to intervene often during meetings.",
       },
       {
         form: "ils interviendront",
         tense: "futur",
         sentence: "Ils interviendront si la situation empire.",
         translationTr: "Durum kötüleşirse müdahale edecekler.",
-        translationEn: "They will intervene if the situation worsens."
-      }
-    ]
+        translationEn: "They will intervene if the situation worsens.",
+      },
+    ],
   },
   {
     id: "v13-17",
@@ -26246,7 +26262,8 @@ export const mockWords: Word[] = [
     turkish: "Boyamak / Resmetmek",
     english: "To paint / To depict",
     pronunciation: "pɛ̃dʁ",
-    description: "Sanatsal bağlamda resim yapmak anlamının yanı sıra bir durumu betimlemek için mecazi olarak da kullanılır. Düzensiz bir fiildir.",
+    description:
+      "Sanatsal bağlamda resim yapmak anlamının yanı sıra bir durumu betimlemek için mecazi olarak da kullanılır. Düzensiz bir fiildir.",
     synonyms: ["colorier", "illustrer", "représenter"],
     image: null,
     category: "verbs",
@@ -26255,7 +26272,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "peins",
@@ -26263,7 +26280,7 @@ export const mockWords: Word[] = [
         il: "peint",
         nous: "peignons",
         vous: "peignez",
-        ils: "peignent"
+        ils: "peignent",
       },
       passéComposé: {
         je: "ai peint",
@@ -26271,7 +26288,7 @@ export const mockWords: Word[] = [
         il: "a peint",
         nous: "avons peint",
         vous: "avez peint",
-        ils: "ont peint"
+        ils: "ont peint",
       },
       imparfait: {
         je: "peignais",
@@ -26279,7 +26296,7 @@ export const mockWords: Word[] = [
         il: "peignait",
         nous: "peignions",
         vous: "peigniez",
-        ils: "peignaient"
+        ils: "peignaient",
       },
       futur: {
         je: "peindrai",
@@ -26287,8 +26304,8 @@ export const mockWords: Word[] = [
         il: "peindra",
         nous: "peindrons",
         vous: "peindrez",
-        ils: "peindront"
-      }
+        ils: "peindront",
+      },
     },
     examples: [
       {
@@ -26296,30 +26313,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je peins un paysage de montagne.",
         translationTr: "Bir dağ manzarası boyuyorum.",
-        translationEn: "I am painting a mountain landscape."
+        translationEn: "I am painting a mountain landscape.",
       },
       {
         form: "il a peint",
         tense: "passéComposé",
         sentence: "Il a peint le mur en bleu.",
         translationTr: "Duvarı maviye boyadı.",
-        translationEn: "He painted the wall blue."
+        translationEn: "He painted the wall blue.",
       },
       {
         form: "nous peignions",
         tense: "imparfait",
         sentence: "Nous peignions ensemble chaque dimanche.",
         translationTr: "Her pazar birlikte resim yapardık.",
-        translationEn: "We used to paint together every Sunday."
+        translationEn: "We used to paint together every Sunday.",
       },
       {
         form: "ils peindront",
         tense: "futur",
         sentence: "Ils peindront la maison cet été.",
         translationTr: "Bu yaz evi boyayacaklar.",
-        translationEn: "They will paint the house this summer."
-      }
-    ]
+        translationEn: "They will paint the house this summer.",
+      },
+    ],
   },
   {
     id: "v13-18",
@@ -26327,7 +26344,8 @@ export const mockWords: Word[] = [
     turkish: "Saymak / Hesaba katmak / Güvenmek",
     english: "To count / To include / To rely on",
     pronunciation: "kɔ̃p-te",
-    description: "Hem nesnel sayma anlamında hem de birine güvenmek (compter sur) veya dahil etmek (compter parmi) gibi deyimsel kullanımları vardır.",
+    description:
+      "Hem nesnel sayma anlamında hem de birine güvenmek (compter sur) veya dahil etmek (compter parmi) gibi deyimsel kullanımları vardır.",
     synonyms: ["dénombrer", "calculer", "se fier à"],
     image: null,
     category: "verbs",
@@ -26336,7 +26354,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "compte",
@@ -26344,7 +26362,7 @@ export const mockWords: Word[] = [
         il: "compte",
         nous: "comptons",
         vous: "comptez",
-        ils: "comptent"
+        ils: "comptent",
       },
       passéComposé: {
         je: "ai compté",
@@ -26352,7 +26370,7 @@ export const mockWords: Word[] = [
         il: "a compté",
         nous: "avons compté",
         vous: "avez compté",
-        ils: "ont compté"
+        ils: "ont compté",
       },
       imparfait: {
         je: "comptais",
@@ -26360,7 +26378,7 @@ export const mockWords: Word[] = [
         il: "comptait",
         nous: "comptions",
         vous: "comptiez",
-        ils: "comptaient"
+        ils: "comptaient",
       },
       futur: {
         je: "compterai",
@@ -26368,8 +26386,8 @@ export const mockWords: Word[] = [
         il: "comptera",
         nous: "compterons",
         vous: "compterez",
-        ils: "compteront"
-      }
+        ils: "compteront",
+      },
     },
     examples: [
       {
@@ -26377,30 +26395,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Tu comptes les pièces dans la boîte.",
         translationTr: "Kutudaki paraları sayıyorsun.",
-        translationEn: "You are counting the coins in the box."
+        translationEn: "You are counting the coins in the box.",
       },
       {
         form: "j’ai compté",
         tense: "passéComposé",
         sentence: "J’ai compté sur lui pour finir le travail.",
         translationTr: "İşi bitirmesi için ona güvendim.",
-        translationEn: "I relied on him to finish the job."
+        translationEn: "I relied on him to finish the job.",
       },
       {
         form: "nous comptions",
         tense: "imparfait",
         sentence: "Nous comptions les jours jusqu’aux vacances.",
         translationTr: "Tatile kadar günleri sayıyorduk.",
-        translationEn: "We were counting the days until the holidays."
+        translationEn: "We were counting the days until the holidays.",
       },
       {
         form: "ils compteront",
         tense: "futur",
         sentence: "Ils compteront les résultats après le test.",
         translationTr: "Testten sonra sonuçları sayacaklar.",
-        translationEn: "They will count the results after the test."
-      }
-    ]
+        translationEn: "They will count the results after the test.",
+      },
+    ],
   },
   {
     id: "v13-19",
@@ -26408,7 +26426,8 @@ export const mockWords: Word[] = [
     turkish: "Varmak / Gelmek / Olmak",
     english: "To arrive / To come / To happen",
     pronunciation: "a-ʁi-ve",
-    description: "En yaygın kullanımı bir yere varmak anlamındadır. Yardımcı fiil olarak 'être' ile kullanılır. Ayrıca beklenmeyen bir olayın gerçekleşmesi anlamında da kullanılabilir (il est arrivé un accident).",
+    description:
+      "En yaygın kullanımı bir yere varmak anlamındadır. Yardımcı fiil olarak 'être' ile kullanılır. Ayrıca beklenmeyen bir olayın gerçekleşmesi anlamında da kullanılabilir (il est arrivé un accident).",
     synonyms: ["venir", "atteindre", "se produire"],
     image: null,
     category: "verbs",
@@ -26417,7 +26436,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "arrive",
@@ -26425,7 +26444,7 @@ export const mockWords: Word[] = [
         il: "arrive",
         nous: "arrivons",
         vous: "arrivez",
-        ils: "arrivent"
+        ils: "arrivent",
       },
       passéComposé: {
         je: "suis arrivé",
@@ -26433,7 +26452,7 @@ export const mockWords: Word[] = [
         il: "est arrivé",
         nous: "sommes arrivés",
         vous: "êtes arrivés",
-        ils: "sont arrivés"
+        ils: "sont arrivés",
       },
       imparfait: {
         je: "arrivais",
@@ -26441,7 +26460,7 @@ export const mockWords: Word[] = [
         il: "arrivait",
         nous: "arrivions",
         vous: "arriviez",
-        ils: "arrivaient"
+        ils: "arrivaient",
       },
       futur: {
         je: "arriverai",
@@ -26449,8 +26468,8 @@ export const mockWords: Word[] = [
         il: "arrivera",
         nous: "arriverons",
         vous: "arriverez",
-        ils: "arriveront"
-      }
+        ils: "arriveront",
+      },
     },
     examples: [
       {
@@ -26458,30 +26477,30 @@ export const mockWords: Word[] = [
         tense: "passéComposé",
         sentence: "Je suis arrivé à l’heure au rendez-vous.",
         translationTr: "Randevuya zamanında geldim.",
-        translationEn: "I arrived on time for the meeting."
+        translationEn: "I arrived on time for the meeting.",
       },
       {
         form: "il arrive",
         tense: "present",
         sentence: "Il arrive souvent en retard.",
         translationTr: "Sıklıkla geç gelir.",
-        translationEn: "He often arrives late."
+        translationEn: "He often arrives late.",
       },
       {
         form: "nous arrivions",
         tense: "imparfait",
         sentence: "Nous arrivions toujours ensemble à l’école.",
         translationTr: "Her zaman okula birlikte varırdık.",
-        translationEn: "We always arrived at school together."
+        translationEn: "We always arrived at school together.",
       },
       {
         form: "ils arriveront",
         tense: "futur",
         sentence: "Ils arriveront demain matin.",
         translationTr: "Yarın sabah varacaklar.",
-        translationEn: "They will arrive tomorrow morning."
-      }
-    ]
+        translationEn: "They will arrive tomorrow morning.",
+      },
+    ],
   },
   {
     id: "v13-20",
@@ -26489,7 +26508,8 @@ export const mockWords: Word[] = [
     turkish: "İki katına çıkarmak / Sollamak / Dublaj yapmak",
     english: "To double / To overtake / To dub",
     pronunciation: "du-ble",
-    description: "Bir şeyi iki katına çıkarmak, trafikte bir aracı geçmek ya da bir filmi dublajlamak anlamlarında kullanılır. Kullanımı bağlama bağlıdır.",
+    description:
+      "Bir şeyi iki katına çıkarmak, trafikte bir aracı geçmek ya da bir filmi dublajlamak anlamlarında kullanılır. Kullanımı bağlama bağlıdır.",
     synonyms: ["augmenter", "dépasser", "synchroniser"],
     image: null,
     category: "verbs",
@@ -26498,7 +26518,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "double",
@@ -26506,7 +26526,7 @@ export const mockWords: Word[] = [
         il: "double",
         nous: "doublons",
         vous: "doublez",
-        ils: "doublent"
+        ils: "doublent",
       },
       passéComposé: {
         je: "ai doublé",
@@ -26514,7 +26534,7 @@ export const mockWords: Word[] = [
         il: "a doublé",
         nous: "avons doublé",
         vous: "avez doublé",
-        ils: "ont doublé"
+        ils: "ont doublé",
       },
       imparfait: {
         je: "doublais",
@@ -26522,7 +26542,7 @@ export const mockWords: Word[] = [
         il: "doublait",
         nous: "doublions",
         vous: "doubliez",
-        ils: "doublaient"
+        ils: "doublaient",
       },
       futur: {
         je: "doublerai",
@@ -26530,8 +26550,8 @@ export const mockWords: Word[] = [
         il: "doublera",
         nous: "doublerons",
         vous: "doublerez",
-        ils: "doubleront"
-      }
+        ils: "doubleront",
+      },
     },
     examples: [
       {
@@ -26539,30 +26559,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il double la voiture devant lui.",
         translationTr: "Önündeki arabayı solluyor.",
-        translationEn: "He is overtaking the car in front of him."
+        translationEn: "He is overtaking the car in front of him.",
       },
       {
         form: "j’ai doublé",
         tense: "passéComposé",
         sentence: "J’ai doublé ma consommation d’eau cette semaine.",
         translationTr: "Bu hafta su tüketimimi iki katına çıkardım.",
-        translationEn: "I doubled my water intake this week."
+        translationEn: "I doubled my water intake this week.",
       },
       {
         form: "nous doublions",
         tense: "imparfait",
         sentence: "Nous doublions souvent les scènes de film à l’école.",
         translationTr: "Okulda sık sık film sahnelerini dublaj yapardık.",
-        translationEn: "We often dubbed movie scenes at school."
+        translationEn: "We often dubbed movie scenes at school.",
       },
       {
         form: "ils doubleront",
         tense: "futur",
         sentence: "Ils doubleront leur production l’année prochaine.",
         translationTr: "Gelecek yıl üretimlerini iki katına çıkaracaklar.",
-        translationEn: "They will double their production next year."
-      }
-    ]
+        translationEn: "They will double their production next year.",
+      },
+    ],
   },
   {
     id: "v13-21",
@@ -26570,7 +26590,8 @@ export const mockWords: Word[] = [
     turkish: "Çalışmak",
     english: "To work",
     pronunciation: "tʁa-va-je",
-    description: "Hem zihinsel hem fiziksel emek için kullanılır. Okul, iş veya kişisel gelişim gibi birçok bağlamda yaygın bir fiildir.",
+    description:
+      "Hem zihinsel hem fiziksel emek için kullanılır. Okul, iş veya kişisel gelişim gibi birçok bağlamda yaygın bir fiildir.",
     synonyms: ["bosser", "œuvrer", "étudier"],
     image: null,
     category: "verbs",
@@ -26579,7 +26600,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "travaille",
@@ -26587,7 +26608,7 @@ export const mockWords: Word[] = [
         il: "travaille",
         nous: "travaillons",
         vous: "travaillez",
-        ils: "travaillent"
+        ils: "travaillent",
       },
       passéComposé: {
         je: "ai travaillé",
@@ -26595,7 +26616,7 @@ export const mockWords: Word[] = [
         il: "a travaillé",
         nous: "avons travaillé",
         vous: "avez travaillé",
-        ils: "ont travaillé"
+        ils: "ont travaillé",
       },
       imparfait: {
         je: "travaillais",
@@ -26603,7 +26624,7 @@ export const mockWords: Word[] = [
         il: "travaillait",
         nous: "travaillions",
         vous: "travailliez",
-        ils: "travaillaient"
+        ils: "travaillaient",
       },
       futur: {
         je: "travaillerai",
@@ -26611,8 +26632,8 @@ export const mockWords: Word[] = [
         il: "travaillera",
         nous: "travaillerons",
         vous: "travaillerez",
-        ils: "travailleront"
-      }
+        ils: "travailleront",
+      },
     },
     examples: [
       {
@@ -26620,30 +26641,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je travaille dans une entreprise de technologie.",
         translationTr: "Bir teknoloji şirketinde çalışıyorum.",
-        translationEn: "I work in a technology company."
+        translationEn: "I work in a technology company.",
       },
       {
         form: "elle a travaillé",
         tense: "passéComposé",
         sentence: "Elle a travaillé toute la nuit.",
         translationTr: "Tüm gece boyunca çalıştı.",
-        translationEn: "She worked all night."
+        translationEn: "She worked all night.",
       },
       {
         form: "nous travaillions",
         tense: "imparfait",
         sentence: "Nous travaillions sur ce projet depuis un an.",
         translationTr: "Bu proje üzerinde bir yıldır çalışıyorduk.",
-        translationEn: "We had been working on this project for a year."
+        translationEn: "We had been working on this project for a year.",
       },
       {
         form: "vous travaillerez",
         tense: "futur",
         sentence: "Vous travaillerez demain matin à 8h.",
         translationTr: "Yarın sabah saat 8’de çalışacaksınız.",
-        translationEn: "You will work tomorrow morning at 8 a.m."
-      }
-    ]
+        translationEn: "You will work tomorrow morning at 8 a.m.",
+      },
+    ],
   },
   {
     id: "v13-22",
@@ -26651,7 +26672,8 @@ export const mockWords: Word[] = [
     turkish: "Sinirlendirmek / Kızdırmak / Rahatsız etmek",
     english: "To annoy / To irritate",
     pronunciation: "a-ga-se",
-    description: "Hafif rahatsızlık ya da sinir hali yaratmak anlamında kullanılır. 'Énerver' ile benzer ama daha az yoğunluk taşır. 1. tekil şahısta 'ç' benzeri sesle yazılır: j’agace.",
+    description:
+      "Hafif rahatsızlık ya da sinir hali yaratmak anlamında kullanılır. 'Énerver' ile benzer ama daha az yoğunluk taşır. 1. tekil şahısta 'ç' benzeri sesle yazılır: j’agace.",
     synonyms: ["énerver", "irriter", "embêter"],
     image: null,
     category: "verbs",
@@ -26660,7 +26682,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "agace",
@@ -26668,7 +26690,7 @@ export const mockWords: Word[] = [
         il: "agace",
         nous: "agaçons",
         vous: "agacez",
-        ils: "agacent"
+        ils: "agacent",
       },
       passéComposé: {
         je: "ai agacé",
@@ -26676,7 +26698,7 @@ export const mockWords: Word[] = [
         il: "a agacé",
         nous: "avons agacé",
         vous: "avez agacé",
-        ils: "ont agacé"
+        ils: "ont agacé",
       },
       imparfait: {
         je: "agaçais",
@@ -26684,7 +26706,7 @@ export const mockWords: Word[] = [
         il: "agaçait",
         nous: "agaçions",
         vous: "agaçiez",
-        ils: "agaçaient"
+        ils: "agaçaient",
       },
       futur: {
         je: "agacerai",
@@ -26692,8 +26714,8 @@ export const mockWords: Word[] = [
         il: "agacera",
         nous: "agacerons",
         vous: "agacerez",
-        ils: "agaceront"
-      }
+        ils: "agaceront",
+      },
     },
     examples: [
       {
@@ -26701,30 +26723,33 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Tu agaces tout le monde avec tes blagues.",
         translationTr: "Şakalarınla herkesi sinirlendiriyorsun.",
-        translationEn: "You're annoying everyone with your jokes."
+        translationEn: "You're annoying everyone with your jokes.",
       },
       {
         form: "j’ai agacé",
         tense: "passéComposé",
         sentence: "J’ai agacé mon frère en chantant fort.",
-        translationTr: "Yüksek sesle şarkı söyleyerek kardeşimi sinirlendirdim.",
-        translationEn: "I annoyed my brother by singing loudly."
+        translationTr:
+          "Yüksek sesle şarkı söyleyerek kardeşimi sinirlendirdim.",
+        translationEn: "I annoyed my brother by singing loudly.",
       },
       {
         form: "il agaçait",
         tense: "imparfait",
         sentence: "Il agaçait ses collègues avec ses critiques constantes.",
-        translationTr: "Sürekli eleştirileriyle iş arkadaşlarını rahatsız ediyordu.",
-        translationEn: "He was annoying his colleagues with his constant criticism."
+        translationTr:
+          "Sürekli eleştirileriyle iş arkadaşlarını rahatsız ediyordu.",
+        translationEn:
+          "He was annoying his colleagues with his constant criticism.",
       },
       {
         form: "ils agaceront",
         tense: "futur",
         sentence: "Ils agaceront le professeur s’ils parlent encore.",
         translationTr: "Tekrar konuşurlarsa öğretmeni kızdıracaklar.",
-        translationEn: "They will annoy the teacher if they talk again."
-      }
-    ]
+        translationEn: "They will annoy the teacher if they talk again.",
+      },
+    ],
   },
   {
     id: "v13-23",
@@ -26732,7 +26757,8 @@ export const mockWords: Word[] = [
     turkish: "Öğle yemeği yemek",
     english: "To have lunch",
     pronunciation: "de-ʒœ-ne",
-    description: "Fransa’da 'déjeuner' öğle yemeği anlamında kullanılır. Ancak Kanada ve bazı Frankofon ülkelerde kahvaltı anlamında da gelebilir. Günlük konuşmalarda yaygındır.",
+    description:
+      "Fransa’da 'déjeuner' öğle yemeği anlamında kullanılır. Ancak Kanada ve bazı Frankofon ülkelerde kahvaltı anlamında da gelebilir. Günlük konuşmalarda yaygındır.",
     synonyms: ["manger", "prendre le repas", "casser la croûte"],
     image: null,
     category: "verbs",
@@ -26741,7 +26767,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "déjeune",
@@ -26749,7 +26775,7 @@ export const mockWords: Word[] = [
         il: "déjeune",
         nous: "déjeunons",
         vous: "déjeunez",
-        ils: "déjeunent"
+        ils: "déjeunent",
       },
       passéComposé: {
         je: "ai déjeuné",
@@ -26757,7 +26783,7 @@ export const mockWords: Word[] = [
         il: "a déjeuné",
         nous: "avons déjeuné",
         vous: "avez déjeuné",
-        ils: "ont déjeuné"
+        ils: "ont déjeuné",
       },
       imparfait: {
         je: "déjeunais",
@@ -26765,7 +26791,7 @@ export const mockWords: Word[] = [
         il: "déjeunait",
         nous: "déjeunions",
         vous: "déjeuniez",
-        ils: "déjeunaient"
+        ils: "déjeunaient",
       },
       futur: {
         je: "déjeunerai",
@@ -26773,8 +26799,8 @@ export const mockWords: Word[] = [
         il: "déjeunera",
         nous: "déjeunerons",
         vous: "déjeunerez",
-        ils: "déjeuneront"
-      }
+        ils: "déjeuneront",
+      },
     },
     examples: [
       {
@@ -26782,30 +26808,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Nous déjeunons souvent au parc le midi.",
         translationTr: "Öğleleri sık sık parkta yemek yeriz.",
-        translationEn: "We often have lunch in the park at noon."
+        translationEn: "We often have lunch in the park at noon.",
       },
       {
         form: "il a déjeuné",
         tense: "passéComposé",
         sentence: "Il a déjeuné avec ses collègues.",
         translationTr: "İş arkadaşlarıyla öğle yemeği yedi.",
-        translationEn: "He had lunch with his colleagues."
+        translationEn: "He had lunch with his colleagues.",
       },
       {
         form: "je déjeunais",
         tense: "imparfait",
         sentence: "Je déjeunais toujours à midi pile.",
         translationTr: "Her zaman tam öğlen yemeğimi yerdim.",
-        translationEn: "I always used to have lunch at exactly noon."
+        translationEn: "I always used to have lunch at exactly noon.",
       },
       {
         form: "vous déjeunerez",
         tense: "futur",
         sentence: "Vous déjeunerez après la réunion.",
         translationTr: "Toplantıdan sonra öğle yemeği yiyeceksiniz.",
-        translationEn: "You will have lunch after the meeting."
-      }
-    ]
+        translationEn: "You will have lunch after the meeting.",
+      },
+    ],
   },
   {
     id: "v13-24",
@@ -26813,7 +26839,8 @@ export const mockWords: Word[] = [
     turkish: "Can sıkmak / Sıkılmak / Rahatsız etmek",
     english: "To bore / To annoy / To bother",
     pronunciation: "ɑ̃-nɥi-je",
-    description: "Refleksif formuyla (s’ennuyer) 'sıkılmak' anlamında kullanılır. Normal formuyla ise birini canından bezdirmek ya da rahatsız etmek anlamındadır. Yazımında 'y' harfi çekimlerde 'i' olur (j’ennuie).",
+    description:
+      "Refleksif formuyla (s’ennuyer) 'sıkılmak' anlamında kullanılır. Normal formuyla ise birini canından bezdirmek ya da rahatsız etmek anlamındadır. Yazımında 'y' harfi çekimlerde 'i' olur (j’ennuie).",
     synonyms: ["embêter", "agacer", "lasser"],
     image: null,
     category: "verbs",
@@ -26822,7 +26849,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ennuie",
@@ -26830,7 +26857,7 @@ export const mockWords: Word[] = [
         il: "ennuie",
         nous: "ennuyons",
         vous: "ennuyez",
-        ils: "ennuient"
+        ils: "ennuient",
       },
       passéComposé: {
         je: "ai ennuyé",
@@ -26838,7 +26865,7 @@ export const mockWords: Word[] = [
         il: "a ennuyé",
         nous: "avons ennuyé",
         vous: "avez ennuyé",
-        ils: "ont ennuyé"
+        ils: "ont ennuyé",
       },
       imparfait: {
         je: "ennuyais",
@@ -26846,7 +26873,7 @@ export const mockWords: Word[] = [
         il: "ennuyait",
         nous: "ennuyions",
         vous: "ennuyiez",
-        ils: "ennuyaient"
+        ils: "ennuyaient",
       },
       futur: {
         je: "ennuierai",
@@ -26854,8 +26881,8 @@ export const mockWords: Word[] = [
         il: "ennuiera",
         nous: "ennuierons",
         vous: "ennuieriez",
-        ils: "ennuieront"
-      }
+        ils: "ennuieront",
+      },
     },
     examples: [
       {
@@ -26863,30 +26890,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je m’ennuie pendant les longues réunions.",
         translationTr: "Uzun toplantılarda sıkılıyorum.",
-        translationEn: "I get bored during long meetings."
+        translationEn: "I get bored during long meetings.",
       },
       {
         form: "tu as ennuyé",
         tense: "passéComposé",
         sentence: "Tu as ennuyé tout le monde avec ton histoire.",
         translationTr: "Hikâyenle herkesi sıktın.",
-        translationEn: "You bored everyone with your story."
+        translationEn: "You bored everyone with your story.",
       },
       {
         form: "nous ennuyions",
         tense: "imparfait",
         sentence: "Nous nous ennuyions pendant les vacances pluvieuses.",
         translationTr: "Yağmurlu tatillerde sıkılırdık.",
-        translationEn: "We used to get bored during rainy holidays."
+        translationEn: "We used to get bored during rainy holidays.",
       },
       {
         form: "ils ennuieront",
         tense: "futur",
         sentence: "Ils ennuieront leurs invités s’ils parlent trop.",
         translationTr: "Çok konuşurlarsa misafirlerini sıkacaklar.",
-        translationEn: "They will bore their guests if they talk too much."
-      }
-    ]
+        translationEn: "They will bore their guests if they talk too much.",
+      },
+    ],
   },
   {
     id: "v13-25",
@@ -26894,7 +26921,8 @@ export const mockWords: Word[] = [
     turkish: "Koymak / Takmak / Giymek / Yerleştirmek",
     english: "To put / To place / To wear / To set",
     pronunciation: "mɛtʁ",
-    description: "Çok yönlü ve sık kullanılan bir fiildir. Hem fiziksel olarak bir şeyi bir yere koymak hem de soyut kullanımlarda (mettre en valeur = ön plana çıkarmak) anlam kazanır. Düzensiz fiildir. Yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Çok yönlü ve sık kullanılan bir fiildir. Hem fiziksel olarak bir şeyi bir yere koymak hem de soyut kullanımlarda (mettre en valeur = ön plana çıkarmak) anlam kazanır. Düzensiz fiildir. Yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["poser", "placer", "installer"],
     image: null,
     category: "verbs",
@@ -26903,7 +26931,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "mets",
@@ -26911,7 +26939,7 @@ export const mockWords: Word[] = [
         il: "met",
         nous: "mettons",
         vous: "mettez",
-        ils: "mettent"
+        ils: "mettent",
       },
       passéComposé: {
         je: "ai mis",
@@ -26919,7 +26947,7 @@ export const mockWords: Word[] = [
         il: "a mis",
         nous: "avons mis",
         vous: "avez mis",
-        ils: "ont mis"
+        ils: "ont mis",
       },
       imparfait: {
         je: "mettais",
@@ -26927,7 +26955,7 @@ export const mockWords: Word[] = [
         il: "mettait",
         nous: "mettions",
         vous: "mettiez",
-        ils: "mettaient"
+        ils: "mettaient",
       },
       futur: {
         je: "mettrai",
@@ -26935,8 +26963,8 @@ export const mockWords: Word[] = [
         il: "mettra",
         nous: "mettrons",
         vous: "mettrez",
-        ils: "mettront"
-      }
+        ils: "mettront",
+      },
     },
     examples: [
       {
@@ -26944,30 +26972,30 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je mets mon manteau avant de sortir.",
         translationTr: "Dışarı çıkmadan önce montumu giyiyorum.",
-        translationEn: "I put on my coat before going out."
+        translationEn: "I put on my coat before going out.",
       },
       {
         form: "elle a mis",
         tense: "passéComposé",
         sentence: "Elle a mis le livre sur la table.",
         translationTr: "Kitabı masanın üzerine koydu.",
-        translationEn: "She put the book on the table."
+        translationEn: "She put the book on the table.",
       },
       {
         form: "nous mettions",
         tense: "imparfait",
         sentence: "Nous mettions toujours la même chanson le matin.",
         translationTr: "Sabahları hep aynı şarkıyı açardık.",
-        translationEn: "We used to play the same song every morning."
+        translationEn: "We used to play the same song every morning.",
       },
       {
         form: "ils mettront",
         tense: "futur",
         sentence: "Ils mettront la table pour le dîner.",
         translationTr: "Akşam yemeği için masayı hazırlayacaklar.",
-        translationEn: "They will set the table for dinner."
-      }
-    ]
+        translationEn: "They will set the table for dinner.",
+      },
+    ],
   },
   {
     id: "v14-1",
@@ -26975,7 +27003,8 @@ export const mockWords: Word[] = [
     turkish: "Didik didik aramak / Karıştırmak",
     english: "To search / To rummage / To dig through",
     pronunciation: "fu-je",
-    description: "Genellikle detaylı şekilde aramak anlamında kullanılır. Çoğu zaman polis araması gibi resmi bağlamlarda geçer (fouiller une valise, fouiller quelqu’un).",
+    description:
+      "Genellikle detaylı şekilde aramak anlamında kullanılır. Çoğu zaman polis araması gibi resmi bağlamlarda geçer (fouiller une valise, fouiller quelqu’un).",
     synonyms: ["inspecter", "examiner", "sonder"],
     image: null,
     category: "verbs",
@@ -26984,7 +27013,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "fouille",
@@ -26992,7 +27021,7 @@ export const mockWords: Word[] = [
         il: "fouille",
         nous: "fouillons",
         vous: "fouillez",
-        ils: "fouillent"
+        ils: "fouillent",
       },
       passéComposé: {
         je: "ai fouillé",
@@ -27000,7 +27029,7 @@ export const mockWords: Word[] = [
         il: "a fouillé",
         nous: "avons fouillé",
         vous: "avez fouillé",
-        ils: "ont fouillé"
+        ils: "ont fouillé",
       },
       imparfait: {
         je: "fouillais",
@@ -27008,7 +27037,7 @@ export const mockWords: Word[] = [
         il: "fouillait",
         nous: "fouillions",
         vous: "fouilliez",
-        ils: "fouillaient"
+        ils: "fouillaient",
       },
       futur: {
         je: "fouillerai",
@@ -27016,8 +27045,8 @@ export const mockWords: Word[] = [
         il: "fouillera",
         nous: "fouillerons",
         vous: "fouillerez",
-        ils: "fouilleront"
-      }
+        ils: "fouilleront",
+      },
     },
     examples: [
       {
@@ -27025,16 +27054,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je fouille dans mon sac pour trouver mes clés.",
         translationTr: "Anahtarlarımı bulmak için çantamı karıştırıyorum.",
-        translationEn: "I’m rummaging through my bag to find my keys."
+        translationEn: "I’m rummaging through my bag to find my keys.",
       },
       {
         form: "ils ont fouillé",
         tense: "passéComposé",
         sentence: "Les policiers ont fouillé la maison.",
         translationTr: "Polisler evi aradı.",
-        translationEn: "The police searched the house."
-      }
-    ]
+        translationEn: "The police searched the house.",
+      },
+    ],
   },
   {
     id: "v14-2",
@@ -27042,7 +27071,8 @@ export const mockWords: Word[] = [
     turkish: "Ödemek",
     english: "To pay",
     pronunciation: "pe-je",
-    description: "'Y' harfi bazı çekimlerde 'i' harfine dönüşür (je paie, nous payons). 'Payer en espèces' (nakit ödemek), 'payer par carte' gibi sabit ifadelerle sıkça kullanılır.",
+    description:
+      "'Y' harfi bazı çekimlerde 'i' harfine dönüşür (je paie, nous payons). 'Payer en espèces' (nakit ödemek), 'payer par carte' gibi sabit ifadelerle sıkça kullanılır.",
     synonyms: ["régler", "verser", "s’acquitter de"],
     image: null,
     category: "verbs",
@@ -27051,7 +27081,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "paie",
@@ -27059,7 +27089,7 @@ export const mockWords: Word[] = [
         il: "paie",
         nous: "payons",
         vous: "payez",
-        ils: "paient"
+        ils: "paient",
       },
       passéComposé: {
         je: "ai payé",
@@ -27067,7 +27097,7 @@ export const mockWords: Word[] = [
         il: "a payé",
         nous: "avons payé",
         vous: "avez payé",
-        ils: "ont payé"
+        ils: "ont payé",
       },
       imparfait: {
         je: "payais",
@@ -27075,7 +27105,7 @@ export const mockWords: Word[] = [
         il: "payait",
         nous: "payions",
         vous: "payiez",
-        ils: "payaient"
+        ils: "payaient",
       },
       futur: {
         je: "paierai",
@@ -27083,8 +27113,8 @@ export const mockWords: Word[] = [
         il: "paiera",
         nous: "paierons",
         vous: "paierez",
-        ils: "paieront"
-      }
+        ils: "paieront",
+      },
     },
     examples: [
       {
@@ -27092,16 +27122,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je paie toujours par carte bancaire.",
         translationTr: "Her zaman banka kartıyla öderim.",
-        translationEn: "I always pay by bank card."
+        translationEn: "I always pay by bank card.",
       },
       {
         form: "elle a payé",
         tense: "passéComposé",
         sentence: "Elle a payé le dîner pour tout le monde.",
         translationTr: "Herkesin yemeğini o ödedi.",
-        translationEn: "She paid for everyone’s dinner."
-      }
-    ]
+        translationEn: "She paid for everyone’s dinner.",
+      },
+    ],
   },
   {
     id: "v14-3",
@@ -27109,7 +27139,8 @@ export const mockWords: Word[] = [
     turkish: "Kullanmak / İşe almak",
     english: "To use / To employ / To hire",
     pronunciation: "ɑ̃-plwa-je",
-    description: "Hem birini işe almak (employer quelqu’un) hem de bir şeyi belli bir amaçla kullanmak anlamına gelir. Bazı çekimlerde 'y' harfi 'i' olur (j’emploie).",
+    description:
+      "Hem birini işe almak (employer quelqu’un) hem de bir şeyi belli bir amaçla kullanmak anlamına gelir. Bazı çekimlerde 'y' harfi 'i' olur (j’emploie).",
     synonyms: ["utiliser", "recruter", "engager"],
     image: null,
     category: "verbs",
@@ -27118,7 +27149,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "emploie",
@@ -27126,7 +27157,7 @@ export const mockWords: Word[] = [
         il: "emploie",
         nous: "employons",
         vous: "employez",
-        ils: "emploient"
+        ils: "emploient",
       },
       passéComposé: {
         je: "ai employé",
@@ -27134,7 +27165,7 @@ export const mockWords: Word[] = [
         il: "a employé",
         nous: "avons employé",
         vous: "avez employé",
-        ils: "ont employé"
+        ils: "ont employé",
       },
       imparfait: {
         je: "employais",
@@ -27142,7 +27173,7 @@ export const mockWords: Word[] = [
         il: "employait",
         nous: "employions",
         vous: "employiez",
-        ils: "employaient"
+        ils: "employaient",
       },
       futur: {
         je: "emploierai",
@@ -27150,8 +27181,8 @@ export const mockWords: Word[] = [
         il: "emploiera",
         nous: "emploierons",
         vous: "emploirez",
-        ils: "emploieront"
-      }
+        ils: "emploieront",
+      },
     },
     examples: [
       {
@@ -27159,16 +27190,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Nous employons des méthodes modernes.",
         translationTr: "Modern yöntemler kullanıyoruz.",
-        translationEn: "We use modern methods."
+        translationEn: "We use modern methods.",
       },
       {
         form: "ils ont employé",
         tense: "passéComposé",
         sentence: "Ils ont employé dix nouveaux ouvriers.",
         translationTr: "On yeni işçi işe aldılar.",
-        translationEn: "They hired ten new workers."
-      }
-    ]
+        translationEn: "They hired ten new workers.",
+      },
+    ],
   },
   {
     id: "v14-4",
@@ -27176,7 +27207,8 @@ export const mockWords: Word[] = [
     turkish: "Yerine geçmek / Değiştirmek",
     english: "To replace / To substitute",
     pronunciation: "ʁɑ̃-plɑ-se",
-    description: "Bir kişiyi veya nesneyi başka biriyle ya da başka bir şeyle değiştirmek anlamında kullanılır. 'Remplacer quelqu’un' ifadesi sık geçer.",
+    description:
+      "Bir kişiyi veya nesneyi başka biriyle ya da başka bir şeyle değiştirmek anlamında kullanılır. 'Remplacer quelqu’un' ifadesi sık geçer.",
     synonyms: ["substituer", "échanger", "succéder"],
     image: null,
     category: "verbs",
@@ -27185,7 +27217,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "remplace",
@@ -27193,7 +27225,7 @@ export const mockWords: Word[] = [
         il: "remplace",
         nous: "remplaçons",
         vous: "remplacez",
-        ils: "remplacent"
+        ils: "remplacent",
       },
       passéComposé: {
         je: "ai remplacé",
@@ -27201,7 +27233,7 @@ export const mockWords: Word[] = [
         il: "a remplacé",
         nous: "avons remplacé",
         vous: "avez remplacé",
-        ils: "ont remplacé"
+        ils: "ont remplacé",
       },
       imparfait: {
         je: "remplaçais",
@@ -27209,7 +27241,7 @@ export const mockWords: Word[] = [
         il: "remplaçait",
         nous: "remplacions",
         vous: "remplaciez",
-        ils: "remplaçaient"
+        ils: "remplaçaient",
       },
       futur: {
         je: "remplacerai",
@@ -27217,8 +27249,8 @@ export const mockWords: Word[] = [
         il: "remplacera",
         nous: "remplacerons",
         vous: "remplacerez",
-        ils: "remplaceront"
-      }
+        ils: "remplaceront",
+      },
     },
     examples: [
       {
@@ -27226,25 +27258,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je remplace mon collègue aujourd’hui.",
         translationTr: "Bugün meslektaşımın yerini alıyorum.",
-        translationEn: "I'm replacing my colleague today."
+        translationEn: "I'm replacing my colleague today.",
       },
       {
         form: "ils ont remplacé",
         tense: "passéComposé",
         sentence: "Ils ont remplacé l'ancien système.",
         translationTr: "Eski sistemi değiştirdiler.",
-        translationEn: "They replaced the old system."
-      }
-    ]
+        translationEn: "They replaced the old system.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-5",
     french: "Venir",
     turkish: "Gelmek",
     english: "To come",
     pronunciation: "və-niʁ",
-    description: "Düzensiz bir fiildir. Yardımcı fiil 'être' ile çekimlenir. 'Venir de' yapısıyla geçmişte yeni olmuş eylemleri anlatmak için de kullanılır (venir de faire quelque chose).",
+    description:
+      "Düzensiz bir fiildir. Yardımcı fiil 'être' ile çekimlenir. 'Venir de' yapısıyla geçmişte yeni olmuş eylemleri anlatmak için de kullanılır (venir de faire quelque chose).",
     synonyms: ["arriver", "se rendre", "accourir"],
     image: null,
     category: "verbs",
@@ -27253,7 +27286,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "viens",
@@ -27261,7 +27294,7 @@ export const mockWords: Word[] = [
         il: "vient",
         nous: "venons",
         vous: "venez",
-        ils: "viennent"
+        ils: "viennent",
       },
       passéComposé: {
         je: "suis venu",
@@ -27269,7 +27302,7 @@ export const mockWords: Word[] = [
         il: "est venu",
         nous: "sommes venus",
         vous: "êtes venus",
-        ils: "sont venus"
+        ils: "sont venus",
       },
       imparfait: {
         je: "venais",
@@ -27277,7 +27310,7 @@ export const mockWords: Word[] = [
         il: "venait",
         nous: "venions",
         vous: "veniez",
-        ils: "venaient"
+        ils: "venaient",
       },
       futur: {
         je: "viendrai",
@@ -27285,8 +27318,8 @@ export const mockWords: Word[] = [
         il: "viendra",
         nous: "viendrons",
         vous: "viendrez",
-        ils: "viendront"
-      }
+        ils: "viendront",
+      },
     },
     examples: [
       {
@@ -27294,25 +27327,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je viens du marché.",
         translationTr: "Pazardan geliyorum.",
-        translationEn: "I’m coming from the market."
+        translationEn: "I’m coming from the market.",
       },
       {
         form: "nous sommes venus",
         tense: "passéComposé",
         sentence: "Nous sommes venus vous aider.",
         translationTr: "Size yardım etmeye geldik.",
-        translationEn: "We came to help you."
-      }
-    ]
+        translationEn: "We came to help you.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-6",
     french: "Renoncer",
     turkish: "Vazgeçmek / Bırakmak",
     english: "To give up / To renounce",
     pronunciation: "ʁə-nɔ̃-se",
-    description: "‘Renoncer à’ yapısıyla kullanılır. Bir haktan, fikirden veya hedeften vazgeçmek anlamında geçer.",
+    description:
+      "‘Renoncer à’ yapısıyla kullanılır. Bir haktan, fikirden veya hedeften vazgeçmek anlamında geçer.",
     synonyms: ["abandonner", "se désister", "laisser tomber"],
     image: null,
     category: "verbs",
@@ -27321,7 +27355,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "renonce",
@@ -27329,7 +27363,7 @@ export const mockWords: Word[] = [
         il: "renonce",
         nous: "renonçons",
         vous: "renoncez",
-        ils: "renoncent"
+        ils: "renoncent",
       },
       passéComposé: {
         je: "ai renoncé",
@@ -27337,7 +27371,7 @@ export const mockWords: Word[] = [
         il: "a renoncé",
         nous: "avons renoncé",
         vous: "avez renoncé",
-        ils: "ont renoncé"
+        ils: "ont renoncé",
       },
       imparfait: {
         je: "renonçais",
@@ -27345,7 +27379,7 @@ export const mockWords: Word[] = [
         il: "renonçait",
         nous: "renoncions",
         vous: "renonciez",
-        ils: "renonçaient"
+        ils: "renonçaient",
       },
       futur: {
         je: "renoncerai",
@@ -27353,8 +27387,8 @@ export const mockWords: Word[] = [
         il: "renoncera",
         nous: "renoncerons",
         vous: "renoncerez",
-        ils: "renonceront"
-      }
+        ils: "renonceront",
+      },
     },
     examples: [
       {
@@ -27362,16 +27396,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle renonce à son rêve.",
         translationTr: "Hayalinden vazgeçiyor.",
-        translationEn: "She is giving up on her dream."
+        translationEn: "She is giving up on her dream.",
       },
       {
         form: "nous avons renoncé",
         tense: "passéComposé",
         sentence: "Nous avons renoncé à participer.",
         translationTr: "Katılmaktan vazgeçtik.",
-        translationEn: "We gave up on participating."
-      }
-    ]
+        translationEn: "We gave up on participating.",
+      },
+    ],
   },
   {
     id: "v14-7",
@@ -27379,7 +27413,8 @@ export const mockWords: Word[] = [
     turkish: "Ayrılmak / Gitmek / Yola çıkmak",
     english: "To leave / To go / To depart",
     pronunciation: "paʁ-tiʁ",
-    description: "Düzensiz bir fiildir ve yardımcı fiil 'être' ile çekimlenir. Fiziksel olarak bir yerden ayrılmayı ifade eder. 'Partir de' ya da 'partir pour' yapıları yaygındır.",
+    description:
+      "Düzensiz bir fiildir ve yardımcı fiil 'être' ile çekimlenir. Fiziksel olarak bir yerden ayrılmayı ifade eder. 'Partir de' ya da 'partir pour' yapıları yaygındır.",
     synonyms: ["quitter", "s’en aller", "décoller"],
     image: null,
     category: "verbs",
@@ -27388,7 +27423,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pars",
@@ -27396,7 +27431,7 @@ export const mockWords: Word[] = [
         il: "part",
         nous: "partons",
         vous: "partiez",
-        ils: "partent"
+        ils: "partent",
       },
       passéComposé: {
         je: "suis parti",
@@ -27404,7 +27439,7 @@ export const mockWords: Word[] = [
         il: "est parti",
         nous: "sommes partis",
         vous: "êtes partis",
-        ils: "sont partis"
+        ils: "sont partis",
       },
       imparfait: {
         je: "partais",
@@ -27412,7 +27447,7 @@ export const mockWords: Word[] = [
         il: "partait",
         nous: "partions",
         vous: "partiez",
-        ils: "partaient"
+        ils: "partaient",
       },
       futur: {
         je: "partirai",
@@ -27420,8 +27455,8 @@ export const mockWords: Word[] = [
         il: "partira",
         nous: "partirons",
         vous: "partirez",
-        ils: "partiront"
-      }
+        ils: "partiront",
+      },
     },
     examples: [
       {
@@ -27429,25 +27464,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je pars demain matin.",
         translationTr: "Yarın sabah ayrılıyorum.",
-        translationEn: "I'm leaving tomorrow morning."
+        translationEn: "I'm leaving tomorrow morning.",
       },
       {
         form: "ils sont partis",
         tense: "passéComposé",
         sentence: "Ils sont partis en vacances.",
         translationTr: "Tatile gittiler.",
-        translationEn: "They went on vacation."
-      }
-    ]
+        translationEn: "They went on vacation.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-8",
     french: "Relire",
     turkish: "Yeniden okumak / Gözden geçirmek",
     english: "To reread / To proofread",
     pronunciation: "ʁə-liʁ",
-    description: "Bir metni veya yazıyı tekrar okumak anlamında kullanılır. 'Relire un texte' veya 'relire ses notes' gibi ifadeler yaygındır. Düzensiz bir fiildir, 'lire' fiilinden türemiştir.",
+    description:
+      "Bir metni veya yazıyı tekrar okumak anlamında kullanılır. 'Relire un texte' veya 'relire ses notes' gibi ifadeler yaygındır. Düzensiz bir fiildir, 'lire' fiilinden türemiştir.",
     synonyms: ["réexaminer", "réétudier", "reconsidérer"],
     image: null,
     category: "verbs",
@@ -27456,7 +27492,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "relis",
@@ -27464,7 +27500,7 @@ export const mockWords: Word[] = [
         il: "relit",
         nous: "relisons",
         vous: "relisez",
-        ils: "relisent"
+        ils: "relisent",
       },
       passéComposé: {
         je: "ai relu",
@@ -27472,7 +27508,7 @@ export const mockWords: Word[] = [
         il: "a relu",
         nous: "avons relu",
         vous: "avez relu",
-        ils: "ont relu"
+        ils: "ont relu",
       },
       imparfait: {
         je: "relais",
@@ -27480,7 +27516,7 @@ export const mockWords: Word[] = [
         il: "relait",
         nous: "relions",
         vous: "reliez",
-        ils: "relaient"
+        ils: "relaient",
       },
       futur: {
         je: "relirai",
@@ -27488,8 +27524,8 @@ export const mockWords: Word[] = [
         il: "relira",
         nous: "relirons",
         vous: "relirez",
-        ils: "reliront"
-      }
+        ils: "reliront",
+      },
     },
     examples: [
       {
@@ -27497,25 +27533,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle relit toujours ses e-mails avant de les envoyer.",
         translationTr: "E-postalarını göndermeden önce her zaman tekrar okur.",
-        translationEn: "She always rereads her emails before sending them."
+        translationEn: "She always rereads her emails before sending them.",
       },
       {
         form: "j’ai relu",
         tense: "passéComposé",
         sentence: "J’ai relu mon devoir pour corriger les fautes.",
         translationTr: "Hataları düzeltmek için ödevimi tekrar okudum.",
-        translationEn: "I reread my assignment to fix the mistakes."
-      }
-    ]
+        translationEn: "I reread my assignment to fix the mistakes.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-9",
     french: "Obtenir",
     turkish: "Elde etmek / Almak",
     english: "To obtain / To get / To achieve",
     pronunciation: "ɔb-tə-niʁ",
-    description: "Resmî veya çaba gerektiren bir şeyi elde etmek anlamında kullanılır. Düzensiz fiildir ve bazı çekimlerinde kök değişikliği olur (j’obtiens).",
+    description:
+      "Resmî veya çaba gerektiren bir şeyi elde etmek anlamında kullanılır. Düzensiz fiildir ve bazı çekimlerinde kök değişikliği olur (j’obtiens).",
     synonyms: ["acquérir", "recevoir", "atteindre"],
     image: null,
     category: "verbs",
@@ -27524,7 +27561,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "obtiens",
@@ -27532,7 +27569,7 @@ export const mockWords: Word[] = [
         il: "obtient",
         nous: "obtenons",
         vous: "obtenez",
-        ils: "obtiennent"
+        ils: "obtiennent",
       },
       passéComposé: {
         je: "ai obtenu",
@@ -27540,7 +27577,7 @@ export const mockWords: Word[] = [
         il: "a obtenu",
         nous: "avons obtenu",
         vous: "avez obtenu",
-        ils: "ont obtenu"
+        ils: "ont obtenu",
       },
       imparfait: {
         je: "obtenais",
@@ -27548,7 +27585,7 @@ export const mockWords: Word[] = [
         il: "obtenait",
         nous: "obtenions",
         vous: "obteniez",
-        ils: "obtenaient"
+        ils: "obtenaient",
       },
       futur: {
         je: "obtiendrai",
@@ -27556,8 +27593,8 @@ export const mockWords: Word[] = [
         il: "obtiendra",
         nous: "obtiendrons",
         vous: "obtiendrez",
-        ils: "obtiendront"
-      }
+        ils: "obtiendront",
+      },
     },
     examples: [
       {
@@ -27565,16 +27602,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il obtient toujours ce qu’il veut.",
         translationTr: "Ne isterse her zaman elde eder.",
-        translationEn: "He always gets what he wants."
+        translationEn: "He always gets what he wants.",
       },
       {
         form: "nous avons obtenu",
         tense: "passéComposé",
         sentence: "Nous avons obtenu une réponse positive.",
         translationTr: "Olumlu bir yanıt aldık.",
-        translationEn: "We received a positive response."
-      }
-    ]
+        translationEn: "We received a positive response.",
+      },
+    ],
   },
   {
     id: "v14-10",
@@ -27582,7 +27619,8 @@ export const mockWords: Word[] = [
     turkish: "Kullanmak / Yararlanmak",
     english: "To use / To utilize",
     pronunciation: "y-ti-li-ze",
-    description: "Günlük hayatta çok sık kullanılan bir fiildir. Bir aracı, kaynağı ya da yöntemi kullanmak anlamındadır. 'Utiliser quelque chose pour...' yapısı yaygındır.",
+    description:
+      "Günlük hayatta çok sık kullanılan bir fiildir. Bir aracı, kaynağı ya da yöntemi kullanmak anlamındadır. 'Utiliser quelque chose pour...' yapısı yaygındır.",
     synonyms: ["employer", "se servir de", "manipuler"],
     image: null,
     category: "verbs",
@@ -27591,7 +27629,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "utilise",
@@ -27599,7 +27637,7 @@ export const mockWords: Word[] = [
         il: "utilise",
         nous: "utilisons",
         vous: "utilisez",
-        ils: "utilisent"
+        ils: "utilisent",
       },
       passéComposé: {
         je: "ai utilisé",
@@ -27607,7 +27645,7 @@ export const mockWords: Word[] = [
         il: "a utilisé",
         nous: "avons utilisé",
         vous: "avez utilisé",
-        ils: "ont utilisé"
+        ils: "ont utilisé",
       },
       imparfait: {
         je: "utilisais",
@@ -27615,7 +27653,7 @@ export const mockWords: Word[] = [
         il: "utilisait",
         nous: "utilisions",
         vous: "utilisiez",
-        ils: "utilisaient"
+        ils: "utilisaient",
       },
       futur: {
         je: "utiliserai",
@@ -27623,8 +27661,8 @@ export const mockWords: Word[] = [
         il: "utilisera",
         nous: "utiliserons",
         vous: "utiliserez",
-        ils: "utiliseront"
-      }
+        ils: "utiliseront",
+      },
     },
     examples: [
       {
@@ -27632,25 +27670,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Nous utilisons cette méthode depuis des années.",
         translationTr: "Bu yöntemi yıllardır kullanıyoruz.",
-        translationEn: "We’ve been using this method for years."
+        translationEn: "We’ve been using this method for years.",
       },
       {
         form: "il a utilisé",
         tense: "passéComposé",
         sentence: "Il a utilisé tout son argent.",
         translationTr: "Tüm parasını kullandı.",
-        translationEn: "He used all his money."
-      }
-    ]
+        translationEn: "He used all his money.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-11",
     french: "Subvenir",
     turkish: "Karşılamak / Yardım etmek (ihtiyacı)",
     english: "To provide for / To meet (needs)",
     pronunciation: "syb-və-niʁ",
-    description: "Genellikle 'subvenir aux besoins de quelqu’un' şeklinde kullanılır. Fiil düzensizdir ve passé composé'de yardımcı fiil 'avoir' kullanılır.",
+    description:
+      "Genellikle 'subvenir aux besoins de quelqu’un' şeklinde kullanılır. Fiil düzensizdir ve passé composé'de yardımcı fiil 'avoir' kullanılır.",
     synonyms: ["pourvoir", "assurer", "soutenir"],
     image: null,
     category: "verbs",
@@ -27659,7 +27698,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "subviens",
@@ -27667,7 +27706,7 @@ export const mockWords: Word[] = [
         il: "subvient",
         nous: "subvenons",
         vous: "subvenez",
-        ils: "subviennent"
+        ils: "subviennent",
       },
       passéComposé: {
         je: "ai subvenu",
@@ -27675,7 +27714,7 @@ export const mockWords: Word[] = [
         il: "a subvenu",
         nous: "avons subvenu",
         vous: "avez subvenu",
-        ils: "ont subvenu"
+        ils: "ont subvenu",
       },
       imparfait: {
         je: "subvenais",
@@ -27683,7 +27722,7 @@ export const mockWords: Word[] = [
         il: "subvenait",
         nous: "subvenions",
         vous: "subveniez",
-        ils: "subvenaient"
+        ils: "subvenaient",
       },
       futur: {
         je: "subviendrai",
@@ -27691,8 +27730,8 @@ export const mockWords: Word[] = [
         il: "subviendra",
         nous: "subviendrons",
         vous: "subviendrez",
-        ils: "subviendront"
-      }
+        ils: "subviendront",
+      },
     },
     examples: [
       {
@@ -27700,25 +27739,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il subvient aux besoins de sa famille.",
         translationTr: "Ailesinin ihtiyaçlarını karşılıyor.",
-        translationEn: "He provides for his family."
+        translationEn: "He provides for his family.",
       },
       {
         form: "nous avons subvenu",
         tense: "passéComposé",
         sentence: "Nous avons subvenu à leurs besoins essentiels.",
         translationTr: "Onların temel ihtiyaçlarını karşıladık.",
-        translationEn: "We provided for their basic needs."
-      }
-    ]
+        translationEn: "We provided for their basic needs.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-12",
     french: "Donner",
     turkish: "Vermek",
     english: "To give",
     pronunciation: "dɔ-ne",
-    description: "Temel ve çok yaygın bir fiildir. 'Donner quelque chose à quelqu’un' yapısı en sık kullanılan formudur. Hem somut hem soyut şeyler için geçerlidir.",
+    description:
+      "Temel ve çok yaygın bir fiildir. 'Donner quelque chose à quelqu’un' yapısı en sık kullanılan formudur. Hem somut hem soyut şeyler için geçerlidir.",
     synonyms: ["offrir", "remettre", "accorder"],
     image: null,
     category: "verbs",
@@ -27727,7 +27767,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "donne",
@@ -27735,7 +27775,7 @@ export const mockWords: Word[] = [
         il: "donne",
         nous: "donnons",
         vous: "donnez",
-        ils: "donnent"
+        ils: "donnent",
       },
       passéComposé: {
         je: "ai donné",
@@ -27743,7 +27783,7 @@ export const mockWords: Word[] = [
         il: "a donné",
         nous: "avons donné",
         vous: "avez donné",
-        ils: "ont donné"
+        ils: "ont donné",
       },
       imparfait: {
         je: "donnais",
@@ -27751,7 +27791,7 @@ export const mockWords: Word[] = [
         il: "donnait",
         nous: "donnions",
         vous: "donniez",
-        ils: "donnaient"
+        ils: "donnaient",
       },
       futur: {
         je: "donnerai",
@@ -27759,8 +27799,8 @@ export const mockWords: Word[] = [
         il: "donnera",
         nous: "donnerons",
         vous: "donnerez",
-        ils: "donneront"
-      }
+        ils: "donneront",
+      },
     },
     examples: [
       {
@@ -27768,16 +27808,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je donne un cadeau à mon ami.",
         translationTr: "Arkadaşıma hediye veriyorum.",
-        translationEn: "I’m giving a gift to my friend."
+        translationEn: "I’m giving a gift to my friend.",
       },
       {
         form: "ils ont donné",
         tense: "passéComposé",
         sentence: "Ils ont donné beaucoup d’argent.",
         translationTr: "Çok para verdiler.",
-        translationEn: "They gave a lot of money."
-      }
-    ]
+        translationEn: "They gave a lot of money.",
+      },
+    ],
   },
   {
     id: "v14-13",
@@ -27785,7 +27825,8 @@ export const mockWords: Word[] = [
     turkish: "Sormak / İstemek / Talep etmek",
     english: "To ask / To request / To demand",
     pronunciation: "də-mɑ̃-de",
-    description: "En sık kullanılan fiillerden biridir. 'Demander à quelqu’un de faire quelque chose' yapısıyla kullanılır. Hem rica hem de resmi taleplerde kullanılır.",
+    description:
+      "En sık kullanılan fiillerden biridir. 'Demander à quelqu’un de faire quelque chose' yapısıyla kullanılır. Hem rica hem de resmi taleplerde kullanılır.",
     synonyms: ["solliciter", "requérir", "interroger"],
     image: null,
     category: "verbs",
@@ -27794,7 +27835,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "demande",
@@ -27802,7 +27843,7 @@ export const mockWords: Word[] = [
         il: "demande",
         nous: "demandons",
         vous: "demandez",
-        ils: "demandent"
+        ils: "demandent",
       },
       passéComposé: {
         je: "ai demandé",
@@ -27810,7 +27851,7 @@ export const mockWords: Word[] = [
         il: "a demandé",
         nous: "avons demandé",
         vous: "avez demandé",
-        ils: "ont demandé"
+        ils: "ont demandé",
       },
       imparfait: {
         je: "demandais",
@@ -27818,7 +27859,7 @@ export const mockWords: Word[] = [
         il: "demandait",
         nous: "demandions",
         vous: "demandiez",
-        ils: "demandaient"
+        ils: "demandaient",
       },
       futur: {
         je: "demanderai",
@@ -27826,8 +27867,8 @@ export const mockWords: Word[] = [
         il: "demandera",
         nous: "demanderons",
         vous: "demanderez",
-        ils: "demanderont"
-      }
+        ils: "demanderont",
+      },
     },
     examples: [
       {
@@ -27835,25 +27876,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle demande de l’aide.",
         translationTr: "Yardım istiyor.",
-        translationEn: "She is asking for help."
+        translationEn: "She is asking for help.",
       },
       {
         form: "nous avons demandé",
         tense: "passéComposé",
         sentence: "Nous avons demandé une explication.",
         translationTr: "Bir açıklama talep ettik.",
-        translationEn: "We requested an explanation."
-      }
-    ]
-  }
-  
+        translationEn: "We requested an explanation.",
+      },
+    ],
+  },
+
   {
     id: "v14-14",
     french: "Tenter",
     turkish: "Denedmek / Girişimde bulunmak / Cezbetmek",
     english: "To try / To attempt / To tempt",
     pronunciation: "tɑ̃-te",
-    description: "‘Essayer’ ile eş anlamlıdır ancak daha resmi veya yazılı dilde yaygındır. Aynı zamanda birini cezbetmek anlamında da kullanılır: 'Cela me tente.'",
+    description:
+      "‘Essayer’ ile eş anlamlıdır ancak daha resmi veya yazılı dilde yaygındır. Aynı zamanda birini cezbetmek anlamında da kullanılır: 'Cela me tente.'",
     synonyms: ["essayer", "entreprendre", "séduire"],
     image: null,
     category: "verbs",
@@ -27862,7 +27904,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tente",
@@ -27870,7 +27912,7 @@ export const mockWords: Word[] = [
         il: "tente",
         nous: "tentons",
         vous: "tentez",
-        ils: "tentent"
+        ils: "tentent",
       },
       passéComposé: {
         je: "ai tenté",
@@ -27878,7 +27920,7 @@ export const mockWords: Word[] = [
         il: "a tenté",
         nous: "avons tenté",
         vous: "avez tenté",
-        ils: "ont tenté"
+        ils: "ont tenté",
       },
       imparfait: {
         je: "tentais",
@@ -27886,7 +27928,7 @@ export const mockWords: Word[] = [
         il: "tentait",
         nous: "tentions",
         vous: "tentiez",
-        ils: "tentaient"
+        ils: "tentaient",
       },
       futur: {
         je: "tenterai",
@@ -27894,8 +27936,8 @@ export const mockWords: Word[] = [
         il: "tentera",
         nous: "tenterons",
         vous: "tenterez",
-        ils: "tenteront"
-      }
+        ils: "tenteront",
+      },
     },
     examples: [
       {
@@ -27903,25 +27945,26 @@ export const mockWords: Word[] = [
         tense: "passéComposé",
         sentence: "J’ai tenté de le convaincre.",
         translationTr: "Onu ikna etmeye çalıştım.",
-        translationEn: "I tried to convince him."
+        translationEn: "I tried to convince him.",
       },
       {
         form: "cela me tente",
         tense: "present",
         sentence: "Ce voyage me tente beaucoup.",
         translationTr: "Bu seyahat beni çok cezbediyor.",
-        translationEn: "This trip really tempts me."
-      }
-    ]
+        translationEn: "This trip really tempts me.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-15",
     french: "Jurer",
     turkish: "Yemin etmek / Küfretmek",
     english: "To swear / To vow / To curse",
     pronunciation: "ʒy-ʁe",
-    description: "Hem ciddi yemin anlamında ('jurer fidélité') hem de argo veya kızgınlıkla edilen küfür anlamında kullanılır. Bağlama göre anlamı değişebilir.",
+    description:
+      "Hem ciddi yemin anlamında ('jurer fidélité') hem de argo veya kızgınlıkla edilen küfür anlamında kullanılır. Bağlama göre anlamı değişebilir.",
     synonyms: ["promettre", "affirmer", "blasphémer"],
     image: null,
     category: "verbs",
@@ -27930,7 +27973,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "jure",
@@ -27938,7 +27981,7 @@ export const mockWords: Word[] = [
         il: "jure",
         nous: "jurons",
         vous: "jurez",
-        ils: "jurent"
+        ils: "jurent",
       },
       passéComposé: {
         je: "ai juré",
@@ -27946,7 +27989,7 @@ export const mockWords: Word[] = [
         il: "a juré",
         nous: "avons juré",
         vous: "avez juré",
-        ils: "ont juré"
+        ils: "ont juré",
       },
       imparfait: {
         je: "jurais",
@@ -27954,7 +27997,7 @@ export const mockWords: Word[] = [
         il: "jurait",
         nous: "jurions",
         vous: "juriez",
-        ils: "juraient"
+        ils: "juraient",
       },
       futur: {
         je: "jurerai",
@@ -27962,8 +28005,8 @@ export const mockWords: Word[] = [
         il: "jurera",
         nous: "jurerons",
         vous: "jurerez",
-        ils: "jureront"
-      }
+        ils: "jureront",
+      },
     },
     examples: [
       {
@@ -27971,16 +28014,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je jure de dire la vérité.",
         translationTr: "Gerçeği söylemeye yemin ederim.",
-        translationEn: "I swear to tell the truth."
+        translationEn: "I swear to tell the truth.",
       },
       {
         form: "il a juré",
         tense: "passéComposé",
         sentence: "Il a juré contre son patron.",
         translationTr: "Patronuna küfretti.",
-        translationEn: "He cursed at his boss."
-      }
-    ]
+        translationEn: "He cursed at his boss.",
+      },
+    ],
   },
   {
     id: "v14-16",
@@ -27988,7 +28031,8 @@ export const mockWords: Word[] = [
     turkish: "Geri vermek / Sağlamak / Hale getirmek",
     english: "To give back / To render / To make (something become)",
     pronunciation: "ʁɑ̃dʁ",
-    description: "‘Rendre quelque chose à quelqu’un’ kalıbıyla 'geri vermek' anlamına gelir. Ayrıca 'birini mutlu hale getirmek' gibi soyut anlamlarda da kullanılır ('rendre heureux'). Düzensiz fiildir.",
+    description:
+      "‘Rendre quelque chose à quelqu’un’ kalıbıyla 'geri vermek' anlamına gelir. Ayrıca 'birini mutlu hale getirmek' gibi soyut anlamlarda da kullanılır ('rendre heureux'). Düzensiz fiildir.",
     synonyms: ["restituer", "livrer", "faire devenir"],
     image: null,
     category: "verbs",
@@ -27997,7 +28041,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rends",
@@ -28005,7 +28049,7 @@ export const mockWords: Word[] = [
         il: "rend",
         nous: "rendons",
         vous: "rendez",
-        ils: "rendent"
+        ils: "rendent",
       },
       passéComposé: {
         je: "ai rendu",
@@ -28013,7 +28057,7 @@ export const mockWords: Word[] = [
         il: "a rendu",
         nous: "avons rendu",
         vous: "avez rendu",
-        ils: "ont rendu"
+        ils: "ont rendu",
       },
       imparfait: {
         je: "rendais",
@@ -28021,7 +28065,7 @@ export const mockWords: Word[] = [
         il: "rendait",
         nous: "rendions",
         vous: "rendiez",
-        ils: "rendaient"
+        ils: "rendaient",
       },
       futur: {
         je: "rendrai",
@@ -28029,8 +28073,8 @@ export const mockWords: Word[] = [
         il: "rendra",
         nous: "rendrons",
         vous: "rendrez",
-        ils: "rendront"
-      }
+        ils: "rendront",
+      },
     },
     examples: [
       {
@@ -28038,25 +28082,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je rends le livre à la bibliothèque.",
         translationTr: "Kitabı kütüphaneye geri veriyorum.",
-        translationEn: "I’m returning the book to the library."
+        translationEn: "I’m returning the book to the library.",
       },
       {
         form: "ça m’a rendu triste",
         tense: "passéComposé",
         sentence: "Cette nouvelle m’a rendu triste.",
         translationTr: "Bu haber beni üzdü.",
-        translationEn: "That news made me sad."
-      }
-    ]
+        translationEn: "That news made me sad.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-17",
     french: "Sucer",
     turkish: "Emmek / Yalamak",
     english: "To suck / To lick",
     pronunciation: "sy-se",
-    description: "Fiziksel anlamda bir şeyi emmek ya da yalamak için kullanılır. Özellikle çocuklar için biberon, emzik gibi bağlamlarda yaygındır.",
+    description:
+      "Fiziksel anlamda bir şeyi emmek ya da yalamak için kullanılır. Özellikle çocuklar için biberon, emzik gibi bağlamlarda yaygındır.",
     synonyms: ["téter", "lécher", "aspirer"],
     image: null,
     category: "verbs",
@@ -28065,7 +28110,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "suce",
@@ -28073,7 +28118,7 @@ export const mockWords: Word[] = [
         il: "suce",
         nous: "suçons",
         vous: "sucez",
-        ils: "sucent"
+        ils: "sucent",
       },
       passéComposé: {
         je: "ai sucé",
@@ -28081,7 +28126,7 @@ export const mockWords: Word[] = [
         il: "a sucé",
         nous: "avons sucé",
         vous: "avez sucé",
-        ils: "ont sucé"
+        ils: "ont sucé",
       },
       imparfait: {
         je: "sucais",
@@ -28089,7 +28134,7 @@ export const mockWords: Word[] = [
         il: "sucait",
         nous: "sucions",
         vous: "suciez",
-        ils: "sucaient"
+        ils: "sucaient",
       },
       futur: {
         je: "sucerai",
@@ -28097,8 +28142,8 @@ export const mockWords: Word[] = [
         il: "sucera",
         nous: "sucerons",
         vous: "sucerez",
-        ils: "suceront"
-      }
+        ils: "suceront",
+      },
     },
     examples: [
       {
@@ -28106,25 +28151,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Le bébé suce son pouce.",
         translationTr: "Bebek başparmağını emiyor.",
-        translationEn: "The baby is sucking its thumb."
+        translationEn: "The baby is sucking its thumb.",
       },
       {
         form: "j’ai sucé",
         tense: "passéComposé",
         sentence: "J’ai sucé un bonbon au citron.",
         translationTr: "Limonlu bir şeker emdim.",
-        translationEn: "I sucked on a lemon candy."
-      }
-    ]
+        translationEn: "I sucked on a lemon candy.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-18",
     french: "Nourrir",
     turkish: "Beslemek / Yedirmek / Büyütmek",
     english: "To feed / To nourish / To nurture",
     pronunciation: "nu-ʁiʁ",
-    description: "Hem fiziksel besleme hem de mecaz anlamda (bir fikri beslemek) kullanılır. Refleksif formu (se nourrir) ile kendi kendini beslemek ya da beslenmek anlamına gelir.",
+    description:
+      "Hem fiziksel besleme hem de mecaz anlamda (bir fikri beslemek) kullanılır. Refleksif formu (se nourrir) ile kendi kendini beslemek ya da beslenmek anlamına gelir.",
     synonyms: ["alimenter", "entretenir", "soutenir"],
     image: null,
     category: "verbs",
@@ -28133,7 +28179,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "nourris",
@@ -28141,7 +28187,7 @@ export const mockWords: Word[] = [
         il: "nourrit",
         nous: "nourrissons",
         vous: "nourrissez",
-        ils: "nourrissent"
+        ils: "nourrissent",
       },
       passéComposé: {
         je: "ai nourri",
@@ -28149,7 +28195,7 @@ export const mockWords: Word[] = [
         il: "a nourri",
         nous: "avons nourri",
         vous: "avez nourri",
-        ils: "ont nourri"
+        ils: "ont nourri",
       },
       imparfait: {
         je: "nourrissais",
@@ -28157,7 +28203,7 @@ export const mockWords: Word[] = [
         il: "nourrissait",
         nous: "nourrissions",
         vous: "nourrissiez",
-        ils: "nourrissaient"
+        ils: "nourrissaient",
       },
       futur: {
         je: "nourrirai",
@@ -28165,8 +28211,8 @@ export const mockWords: Word[] = [
         il: "nourrira",
         nous: "nourrirons",
         vous: "nourrirez",
-        ils: "nourriront"
-      }
+        ils: "nourriront",
+      },
     },
     examples: [
       {
@@ -28174,16 +28220,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Nous nourrissons nos animaux chaque matin.",
         translationTr: "Hayvanlarımızı her sabah besliyoruz.",
-        translationEn: "We feed our animals every morning."
+        translationEn: "We feed our animals every morning.",
       },
       {
         form: "elle a nourri",
         tense: "passéComposé",
         sentence: "Elle a nourri son bébé pendant six mois.",
         translationTr: "Bebeğini altı ay boyunca besledi.",
-        translationEn: "She fed her baby for six months."
-      }
-    ]
+        translationEn: "She fed her baby for six months.",
+      },
+    ],
   },
   {
     id: "v14-19",
@@ -28191,7 +28237,8 @@ export const mockWords: Word[] = [
     turkish: "Hayatta kalmak / Sağ kalmak",
     english: "To survive / To outlive",
     pronunciation: "syʁ-vivʁ",
-    description: "Düzensiz bir fiildir. Zorlu bir durumdan ya da tehlikeden sağ çıkmak anlamında kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Düzensiz bir fiildir. Zorlu bir durumdan ya da tehlikeden sağ çıkmak anlamında kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["résister", "subsister", "endurer"],
     image: null,
     category: "verbs",
@@ -28200,7 +28247,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "survis",
@@ -28208,7 +28255,7 @@ export const mockWords: Word[] = [
         il: "survit",
         nous: "survivons",
         vous: "survivez",
-        ils: "survivent"
+        ils: "survivent",
       },
       passéComposé: {
         je: "ai survécu",
@@ -28216,7 +28263,7 @@ export const mockWords: Word[] = [
         il: "a survécu",
         nous: "avons survécu",
         vous: "avez survécu",
-        ils: "ont survécu"
+        ils: "ont survécu",
       },
       imparfait: {
         je: "survivais",
@@ -28224,7 +28271,7 @@ export const mockWords: Word[] = [
         il: "survivait",
         nous: "survivions",
         vous: "surviviez",
-        ils: "survivaient"
+        ils: "survivaient",
       },
       futur: {
         je: "survivrai",
@@ -28232,8 +28279,8 @@ export const mockWords: Word[] = [
         il: "survivra",
         nous: "survivrons",
         vous: "survivrez",
-        ils: "survivront"
-      }
+        ils: "survivront",
+      },
     },
     examples: [
       {
@@ -28241,25 +28288,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il survit grâce à sa détermination.",
         translationTr: "Azmi sayesinde hayatta kalıyor.",
-        translationEn: "He survives thanks to his determination."
+        translationEn: "He survives thanks to his determination.",
       },
       {
         form: "j’ai survécu",
         tense: "passéComposé",
         sentence: "J’ai survécu à un grave accident.",
         translationTr: "Ağır bir kazadan sağ çıktım.",
-        translationEn: "I survived a serious accident."
-      }
-    ]
+        translationEn: "I survived a serious accident.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-20",
     french: "Négocier",
     turkish: "Pazarlık yapmak / Müzakere etmek",
     english: "To negotiate / To bargain",
     pronunciation: "ne-ɡɔ-sje",
-    description: "Ekonomik ya da diplomatik pazarlıklar için kullanılır. Hem resmi hem de günlük dilde geçer. 'Négocier un contrat' gibi kullanımlar yaygındır.",
+    description:
+      "Ekonomik ya da diplomatik pazarlıklar için kullanılır. Hem resmi hem de günlük dilde geçer. 'Négocier un contrat' gibi kullanımlar yaygındır.",
     synonyms: ["marchander", "discuter", "transiger"],
     image: null,
     category: "verbs",
@@ -28268,7 +28316,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "négocie",
@@ -28276,7 +28324,7 @@ export const mockWords: Word[] = [
         il: "négocie",
         nous: "négocions",
         vous: "négociez",
-        ils: "négocient"
+        ils: "négocient",
       },
       passéComposé: {
         je: "ai négocié",
@@ -28284,7 +28332,7 @@ export const mockWords: Word[] = [
         il: "a négocié",
         nous: "avons négocié",
         vous: "avez négocié",
-        ils: "ont négocié"
+        ils: "ont négocié",
       },
       imparfait: {
         je: "négociais",
@@ -28292,7 +28340,7 @@ export const mockWords: Word[] = [
         il: "négociait",
         nous: "négociions",
         vous: "négociiez",
-        ils: "négociaient"
+        ils: "négociaient",
       },
       futur: {
         je: "négocierai",
@@ -28300,8 +28348,8 @@ export const mockWords: Word[] = [
         il: "négociera",
         nous: "négocierons",
         vous: "négocierez",
-        ils: "négocieront"
-      }
+        ils: "négocieront",
+      },
     },
     examples: [
       {
@@ -28309,25 +28357,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Nous négocions un nouvel accord.",
         translationTr: "Yeni bir anlaşma müzakere ediyoruz.",
-        translationEn: "We are negotiating a new agreement."
+        translationEn: "We are negotiating a new agreement.",
       },
       {
         form: "elle a négocié",
         tense: "passéComposé",
         sentence: "Elle a négocié le prix de la voiture.",
         translationTr: "Arabanın fiyatını pazarlık etti.",
-        translationEn: "She negotiated the price of the car."
-      }
-    ]
+        translationEn: "She negotiated the price of the car.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-21",
     french: "Atteindre",
     turkish: "Ulaşmak / Elde etmek / Varmak",
     english: "To reach / To achieve / To attain",
     pronunciation: "a-tɛ̃dʁ",
-    description: "Düzensiz fiildir. Hem fiziksel (bir yere ulaşmak) hem de soyut (bir hedefe ulaşmak) anlamlarda kullanılır. Geçişli fiildir.",
+    description:
+      "Düzensiz fiildir. Hem fiziksel (bir yere ulaşmak) hem de soyut (bir hedefe ulaşmak) anlamlarda kullanılır. Geçişli fiildir.",
     synonyms: ["parvenir", "toucher", "réaliser"],
     image: null,
     category: "verbs",
@@ -28336,7 +28385,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "atteins",
@@ -28344,7 +28393,7 @@ export const mockWords: Word[] = [
         il: "atteint",
         nous: "atteignons",
         vous: "atteignez",
-        ils: "atteignent"
+        ils: "atteignent",
       },
       passéComposé: {
         je: "ai atteint",
@@ -28352,7 +28401,7 @@ export const mockWords: Word[] = [
         il: "a atteint",
         nous: "avons atteint",
         vous: "avez atteint",
-        ils: "ont atteint"
+        ils: "ont atteint",
       },
       imparfait: {
         je: "atteignais",
@@ -28360,7 +28409,7 @@ export const mockWords: Word[] = [
         il: "atteignait",
         nous: "atteignions",
         vous: "atteigniez",
-        ils: "atteignaient"
+        ils: "atteignaient",
       },
       futur: {
         je: "atteindrai",
@@ -28368,8 +28417,8 @@ export const mockWords: Word[] = [
         il: "atteindra",
         nous: "atteindrons",
         vous: "atteindrez",
-        ils: "atteindront"
-      }
+        ils: "atteindront",
+      },
     },
     examples: [
       {
@@ -28377,16 +28426,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Nous atteignons enfin notre objectif.",
         translationTr: "Sonunda hedefimize ulaşıyoruz.",
-        translationEn: "We are finally reaching our goal."
+        translationEn: "We are finally reaching our goal.",
       },
       {
         form: "j’ai atteint",
         tense: "passéComposé",
         sentence: "J’ai atteint le sommet de la montagne.",
         translationTr: "Dağın zirvesine ulaştım.",
-        translationEn: "I reached the top of the mountain."
-      }
-    ]
+        translationEn: "I reached the top of the mountain.",
+      },
+    ],
   },
   {
     id: "v14-22",
@@ -28394,7 +28443,8 @@ export const mockWords: Word[] = [
     turkish: "Söylemek / Demek",
     english: "To say / To tell",
     pronunciation: "diʁ",
-    description: "Düzensiz bir fiildir. ‘Dire quelque chose à quelqu’un’ kalıbı yaygındır. Sözlü ifade ve aktarma anlamlarında kullanılır.",
+    description:
+      "Düzensiz bir fiildir. ‘Dire quelque chose à quelqu’un’ kalıbı yaygındır. Sözlü ifade ve aktarma anlamlarında kullanılır.",
     synonyms: ["affirmer", "déclarer", "exprimer"],
     image: null,
     category: "verbs",
@@ -28403,7 +28453,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dis",
@@ -28411,7 +28461,7 @@ export const mockWords: Word[] = [
         il: "dit",
         nous: "disons",
         vous: "dites",
-        ils: "disent"
+        ils: "disent",
       },
       passéComposé: {
         je: "ai dit",
@@ -28419,7 +28469,7 @@ export const mockWords: Word[] = [
         il: "a dit",
         nous: "avons dit",
         vous: "avez dit",
-        ils: "ont dit"
+        ils: "ont dit",
       },
       imparfait: {
         je: "disais",
@@ -28427,7 +28477,7 @@ export const mockWords: Word[] = [
         il: "disait",
         nous: "disions",
         vous: "disiez",
-        ils: "disaient"
+        ils: "disaient",
       },
       futur: {
         je: "dirai",
@@ -28435,8 +28485,8 @@ export const mockWords: Word[] = [
         il: "dira",
         nous: "dirons",
         vous: "direz",
-        ils: "diront"
-      }
+        ils: "diront",
+      },
     },
     examples: [
       {
@@ -28444,25 +28494,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je dis toujours la vérité.",
         translationTr: "Her zaman gerçeği söylerim.",
-        translationEn: "I always tell the truth."
+        translationEn: "I always tell the truth.",
       },
       {
         form: "ils ont dit",
         tense: "passéComposé",
         sentence: "Ils ont dit qu’ils viendraient.",
         translationTr: "Geleceklerini söylediler.",
-        translationEn: "They said they would come."
-      }
-    ]
+        translationEn: "They said they would come.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-23",
     french: "Dépenser",
     turkish: "Harcamak / Tüketmek",
     english: "To spend / To use up",
     pronunciation: "de-pɑ̃-se",
-    description: "Zaman, para ya da enerji harcamak için kullanılır. ‘Dépenser de l’argent’ en yaygın kullanım şeklidir.",
+    description:
+      "Zaman, para ya da enerji harcamak için kullanılır. ‘Dépenser de l’argent’ en yaygın kullanım şeklidir.",
     synonyms: ["consommer", "utiliser", "gaspiller"],
     image: null,
     category: "verbs",
@@ -28471,7 +28522,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dépense",
@@ -28479,7 +28530,7 @@ export const mockWords: Word[] = [
         il: "dépense",
         nous: "dépensons",
         vous: "dépensez",
-        ils: "dépensent"
+        ils: "dépensent",
       },
       passéComposé: {
         je: "ai dépensé",
@@ -28487,7 +28538,7 @@ export const mockWords: Word[] = [
         il: "a dépensé",
         nous: "avons dépensé",
         vous: "avez dépensé",
-        ils: "ont dépensé"
+        ils: "ont dépensé",
       },
       imparfait: {
         je: "dépensais",
@@ -28495,7 +28546,7 @@ export const mockWords: Word[] = [
         il: "dépensait",
         nous: "dépensions",
         vous: "dépensiez",
-        ils: "dépensaient"
+        ils: "dépensaient",
       },
       futur: {
         je: "dépenserai",
@@ -28503,8 +28554,8 @@ export const mockWords: Word[] = [
         il: "dépensera",
         nous: "dépenserons",
         vous: "dépenserez",
-        ils: "dépenseront"
-      }
+        ils: "dépenseront",
+      },
     },
     examples: [
       {
@@ -28512,25 +28563,26 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je dépense trop d’argent en vêtements.",
         translationTr: "Kıyafetlere çok fazla para harcıyorum.",
-        translationEn: "I spend too much money on clothes."
+        translationEn: "I spend too much money on clothes.",
       },
       {
         form: "nous avons dépensé",
         tense: "passéComposé",
         sentence: "Nous avons dépensé tout notre budget.",
         translationTr: "Tüm bütçemizi harcadık.",
-        translationEn: "We spent all our budget."
-      }
-    ]
+        translationEn: "We spent all our budget.",
+      },
+    ],
   },
-  
+
   {
     id: "v14-24",
     french: "Coûter",
     turkish: "Mal olmak / Tutmak (fiyat)",
     english: "To cost",
     pronunciation: "ku-te",
-    description: "Genellikle özne cansızdır (ce produit coûte…). Fiil, bir şeyin maddi ya da manevi bedelini belirtmek için kullanılır.",
+    description:
+      "Genellikle özne cansızdır (ce produit coûte…). Fiil, bir şeyin maddi ya da manevi bedelini belirtmek için kullanılır.",
     synonyms: ["valoir", "revenir à", "nécessiter"],
     image: null,
     category: "verbs",
@@ -28539,7 +28591,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "coûte",
@@ -28547,7 +28599,7 @@ export const mockWords: Word[] = [
         il: "coûte",
         nous: "coûtons",
         vous: "coûtez",
-        ils: "coûtent"
+        ils: "coûtent",
       },
       passéComposé: {
         je: "ai coûté",
@@ -28555,7 +28607,7 @@ export const mockWords: Word[] = [
         il: "a coûté",
         nous: "avons coûté",
         vous: "avez coûté",
-        ils: "ont coûté"
+        ils: "ont coûté",
       },
       imparfait: {
         je: "coûtais",
@@ -28563,7 +28615,7 @@ export const mockWords: Word[] = [
         il: "coûtait",
         nous: "coûtions",
         vous: "coûtiez",
-        ils: "coûtaient"
+        ils: "coûtaient",
       },
       futur: {
         je: "coûterai",
@@ -28571,8 +28623,8 @@ export const mockWords: Word[] = [
         il: "coûtera",
         nous: "coûterons",
         vous: "coûterez",
-        ils: "coûteront"
-      }
+        ils: "coûteront",
+      },
     },
     examples: [
       {
@@ -28580,16 +28632,16 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Ça coûte très cher.",
         translationTr: "Bu çok pahalıya mal oluyor.",
-        translationEn: "It costs a lot."
+        translationEn: "It costs a lot.",
       },
       {
         form: "cela a coûté",
         tense: "passéComposé",
         sentence: "Cela a coûté la vie à plusieurs personnes.",
         translationTr: "Bu, birçok kişinin hayatına mal oldu.",
-        translationEn: "It cost several people their lives."
-      }
-    ]
+        translationEn: "It cost several people their lives.",
+      },
+    ],
   },
   {
     id: "v14-25",
@@ -28597,7 +28649,8 @@ export const mockWords: Word[] = [
     turkish: "Çalmak / Zil çalmak / Tınlamak",
     english: "To ring / To sound",
     pronunciation: "sɔ-ne",
-    description: "Kapı zili, telefon gibi nesnelerin çıkardığı ses için kullanılır. Aynı zamanda bir sesin kulağa nasıl geldiğini tarif etmek için mecazi anlamda da kullanılabilir (ça sonne faux = kulağa yanlış geliyor).",
+    description:
+      "Kapı zili, telefon gibi nesnelerin çıkardığı ses için kullanılır. Aynı zamanda bir sesin kulağa nasıl geldiğini tarif etmek için mecazi anlamda da kullanılabilir (ça sonne faux = kulağa yanlış geliyor).",
     synonyms: ["retentir", "résonner", "clocheter"],
     image: null,
     category: "verbs",
@@ -28606,7 +28659,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "sonne",
@@ -28614,7 +28667,7 @@ export const mockWords: Word[] = [
         il: "sonne",
         nous: "sonnons",
         vous: "sonnez",
-        ils: "sonnent"
+        ils: "sonnent",
       },
       passéComposé: {
         je: "ai sonné",
@@ -28622,7 +28675,7 @@ export const mockWords: Word[] = [
         il: "a sonné",
         nous: "avons sonné",
         vous: "avez sonné",
-        ils: "ont sonné"
+        ils: "ont sonné",
       },
       imparfait: {
         je: "sonnais",
@@ -28630,7 +28683,7 @@ export const mockWords: Word[] = [
         il: "sonnait",
         nous: "sonnions",
         vous: "sonniez",
-        ils: "sonnaient"
+        ils: "sonnaient",
       },
       futur: {
         je: "sonnerai",
@@ -28638,8 +28691,8 @@ export const mockWords: Word[] = [
         il: "sonnera",
         nous: "sonnerons",
         vous: "sonnerez",
-        ils: "sonneront"
-      }
+        ils: "sonneront",
+      },
     },
     examples: [
       {
@@ -28647,23 +28700,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Ça sonne à la porte.",
         translationTr: "Kapı çalıyor.",
-        translationEn: "Someone is ringing the doorbell."
+        translationEn: "Someone is ringing the doorbell.",
       },
       {
         form: "le téléphone a sonné",
         tense: "passéComposé",
         sentence: "Le téléphone a sonné toute la nuit.",
         translationTr: "Telefon bütün gece boyunca çaldı.",
-        translationEn: "The phone rang all night."
+        translationEn: "The phone rang all night.",
       },
       {
         form: "ça sonnera",
         tense: "futur",
         sentence: "Ça sonnera à 8 heures pile.",
         translationTr: "Saat tam sekizde çalacak.",
-        translationEn: "It will ring at exactly 8 o'clock."
-      }
-    ]
+        translationEn: "It will ring at exactly 8 o'clock.",
+      },
+    ],
   },
   {
     id: "v15-1",
@@ -28671,7 +28724,8 @@ export const mockWords: Word[] = [
     turkish: "Durmak / Bırakmak / Kesmek",
     english: "To stop / To cease",
     pronunciation: "se-se",
-    description: "Bir eylemin sona erdiğini veya durdurulduğunu belirtir. 'Cesser de + fiil' yapısıyla kullanılır (örneğin: cesser de parler).",
+    description:
+      "Bir eylemin sona erdiğini veya durdurulduğunu belirtir. 'Cesser de + fiil' yapısıyla kullanılır (örneğin: cesser de parler).",
     synonyms: ["arrêter", "interrompre", "terminer"],
     image: null,
     category: "verbs",
@@ -28680,7 +28734,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "cesse",
@@ -28688,7 +28742,7 @@ export const mockWords: Word[] = [
         il: "cesse",
         nous: "cessons",
         vous: "cessez",
-        ils: "cessent"
+        ils: "cessent",
       },
       passéComposé: {
         je: "ai cessé",
@@ -28696,7 +28750,7 @@ export const mockWords: Word[] = [
         il: "a cessé",
         nous: "avons cessé",
         vous: "avez cessé",
-        ils: "ont cessé"
+        ils: "ont cessé",
       },
       imparfait: {
         je: "cessais",
@@ -28704,7 +28758,7 @@ export const mockWords: Word[] = [
         il: "cessait",
         nous: "cessions",
         vous: "cessiez",
-        ils: "cessaient"
+        ils: "cessaient",
       },
       futur: {
         je: "cesserai",
@@ -28712,8 +28766,8 @@ export const mockWords: Word[] = [
         il: "cessera",
         nous: "cesserons",
         vous: "cesserez",
-        ils: "cesseront"
-      }
+        ils: "cesseront",
+      },
     },
     examples: [
       {
@@ -28721,23 +28775,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il cesse de parler quand le professeur entre.",
         translationTr: "Öğretmen girince konuşmayı kesiyor.",
-        translationEn: "He stops talking when the teacher enters."
+        translationEn: "He stops talking when the teacher enters.",
       },
       {
         form: "a cessé",
         tense: "passéComposé",
         sentence: "La pluie a cessé soudainement.",
         translationTr: "Yağmur aniden durdu.",
-        translationEn: "The rain suddenly stopped."
+        translationEn: "The rain suddenly stopped.",
       },
       {
         form: "cessera",
         tense: "futur",
         sentence: "La musique cessera à minuit.",
         translationTr: "Müzik gece yarısında duracak.",
-        translationEn: "The music will stop at midnight."
-      }
-    ]
+        translationEn: "The music will stop at midnight.",
+      },
+    ],
   },
   {
     id: "v15-2",
@@ -28745,7 +28799,8 @@ export const mockWords: Word[] = [
     turkish: "Yaşamak",
     english: "To live",
     pronunciation: "vivʁ",
-    description: "Düzensiz bir fiildir. Hem fiziksel yaşamı hem de deneyimsel yaşamı (vivre une expérience) anlatmak için kullanılır.",
+    description:
+      "Düzensiz bir fiildir. Hem fiziksel yaşamı hem de deneyimsel yaşamı (vivre une expérience) anlatmak için kullanılır.",
     synonyms: ["exister", "habiter", "survivre"],
     image: null,
     category: "verbs",
@@ -28754,7 +28809,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vis",
@@ -28762,7 +28817,7 @@ export const mockWords: Word[] = [
         il: "vit",
         nous: "vivons",
         vous: "vivez",
-        ils: "vivent"
+        ils: "vivent",
       },
       passéComposé: {
         je: "ai vécu",
@@ -28770,7 +28825,7 @@ export const mockWords: Word[] = [
         il: "a vécu",
         nous: "avons vécu",
         vous: "avez vécu",
-        ils: "ont vécu"
+        ils: "ont vécu",
       },
       imparfait: {
         je: "vivais",
@@ -28778,7 +28833,7 @@ export const mockWords: Word[] = [
         il: "vivait",
         nous: "vivions",
         vous: "viviez",
-        ils: "vivaient"
+        ils: "vivaient",
       },
       futur: {
         je: "vivrai",
@@ -28786,8 +28841,8 @@ export const mockWords: Word[] = [
         il: "vivra",
         nous: "vivrons",
         vous: "vivrez",
-        ils: "vivront"
-      }
+        ils: "vivront",
+      },
     },
     examples: [
       {
@@ -28795,23 +28850,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je vis à Paris depuis cinq ans.",
         translationTr: "Beş yıldır Paris'te yaşıyorum.",
-        translationEn: "I have been living in Paris for five years."
+        translationEn: "I have been living in Paris for five years.",
       },
       {
         form: "a vécu",
         tense: "passéComposé",
         sentence: "Elle a vécu une belle aventure.",
         translationTr: "Güzel bir macera yaşadı.",
-        translationEn: "She lived a beautiful adventure."
+        translationEn: "She lived a beautiful adventure.",
       },
       {
         form: "vivront",
         tense: "futur",
         sentence: "Ils vivront heureux ensemble.",
         translationTr: "Birlikte mutlu yaşayacaklar.",
-        translationEn: "They will live happily together."
-      }
-    ]
+        translationEn: "They will live happily together.",
+      },
+    ],
   },
   {
     id: "v15-3",
@@ -28819,7 +28874,8 @@ export const mockWords: Word[] = [
     turkish: "Girişmek / Başlamak / Üstlenmek",
     english: "To undertake / To start / To initiate",
     pronunciation: "ɑ̃-tʁə-pʁɑ̃-dʁ",
-    description: "Özellikle projelere, işlere ya da büyük eylemlere başlamak için kullanılır. Düzensiz fiildir, çoğunlukla resmi bağlamda görülür (entreprendre une tâche).",
+    description:
+      "Özellikle projelere, işlere ya da büyük eylemlere başlamak için kullanılır. Düzensiz fiildir, çoğunlukla resmi bağlamda görülür (entreprendre une tâche).",
     synonyms: ["commencer", "initier", "lancer"],
     image: null,
     category: "verbs",
@@ -28828,7 +28884,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "entreprends",
@@ -28836,7 +28892,7 @@ export const mockWords: Word[] = [
         il: "entreprend",
         nous: "entreprenons",
         vous: "entreprenez",
-        ils: "entreprennent"
+        ils: "entreprennent",
       },
       passéComposé: {
         je: "ai entrepris",
@@ -28844,7 +28900,7 @@ export const mockWords: Word[] = [
         il: "a entrepris",
         nous: "avons entrepris",
         vous: "avez entrepris",
-        ils: "ont entrepris"
+        ils: "ont entrepris",
       },
       imparfait: {
         je: "entreprenais",
@@ -28852,7 +28908,7 @@ export const mockWords: Word[] = [
         il: "entreprenait",
         nous: "entreprenions",
         vous: "entrepreniez",
-        ils: "entreprenaient"
+        ils: "entreprenaient",
       },
       futur: {
         je: "entreprendrai",
@@ -28860,8 +28916,8 @@ export const mockWords: Word[] = [
         il: "entreprendra",
         nous: "entreprendrons",
         vous: "entreprendrez",
-        ils: "entreprendront"
-      }
+        ils: "entreprendront",
+      },
     },
     examples: [
       {
@@ -28869,23 +28925,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "J’entreprends un nouveau projet cette semaine.",
         translationTr: "Bu hafta yeni bir projeye başlıyorum.",
-        translationEn: "I am undertaking a new project this week."
+        translationEn: "I am undertaking a new project this week.",
       },
       {
         form: "a entrepris",
         tense: "passéComposé",
         sentence: "Elle a entrepris des études de médecine.",
         translationTr: "Tıp eğitimine başladı.",
-        translationEn: "She started studying medicine."
+        translationEn: "She started studying medicine.",
       },
       {
         form: "entreprendra",
         tense: "futur",
         sentence: "Il entreprendra ce travail dès demain.",
         translationTr: "Bu işe yarından itibaren başlayacak.",
-        translationEn: "He will start this job as of tomorrow."
-      }
-    ]
+        translationEn: "He will start this job as of tomorrow.",
+      },
+    ],
   },
   {
     id: "v15-4",
@@ -28893,7 +28949,8 @@ export const mockWords: Word[] = [
     turkish: "Beyazlatmak / Ağartmak / Beyazlamak",
     english: "To whiten / To bleach / To turn white",
     pronunciation: "blɑ̃-ʃiʁ",
-    description: "Geçişli veya geçişsiz kullanılabilir. Saç, diş, giysi gibi nesneleri beyazlatmak ya da korku, hastalık gibi nedenlerle yüzün beyazlaması anlamında da kullanılır.",
+    description:
+      "Geçişli veya geçişsiz kullanılabilir. Saç, diş, giysi gibi nesneleri beyazlatmak ya da korku, hastalık gibi nedenlerle yüzün beyazlaması anlamında da kullanılır.",
     synonyms: ["éclaircir", "décolorer", "pâlir"],
     image: null,
     category: "verbs",
@@ -28902,7 +28959,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "blanchis",
@@ -28910,7 +28967,7 @@ export const mockWords: Word[] = [
         il: "blanchit",
         nous: "blanchissons",
         vous: "blanchissez",
-        ils: "blanchissent"
+        ils: "blanchissent",
       },
       passéComposé: {
         je: "ai blanchi",
@@ -28918,7 +28975,7 @@ export const mockWords: Word[] = [
         il: "a blanchi",
         nous: "avons blanchi",
         vous: "avez blanchi",
-        ils: "ont blanchi"
+        ils: "ont blanchi",
       },
       imparfait: {
         je: "blanchissais",
@@ -28926,7 +28983,7 @@ export const mockWords: Word[] = [
         il: "blanchissait",
         nous: "blanchissions",
         vous: "blanchissiez",
-        ils: "blanchissaient"
+        ils: "blanchissaient",
       },
       futur: {
         je: "blanchirai",
@@ -28934,8 +28991,8 @@ export const mockWords: Word[] = [
         il: "blanchira",
         nous: "blanchirons",
         vous: "blanchirez",
-        ils: "blanchiront"
-      }
+        ils: "blanchiront",
+      },
     },
     examples: [
       {
@@ -28943,23 +29000,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je blanchis mes chemises avec un produit spécial.",
         translationTr: "Gömleklerimi özel bir ürünle beyazlatıyorum.",
-        translationEn: "I whiten my shirts with a special product."
+        translationEn: "I whiten my shirts with a special product.",
       },
       {
         form: "a blanchi",
         tense: "passéComposé",
         sentence: "Il a blanchi de peur en entendant le cri.",
         translationTr: "Çığlığı duyunca korkudan bembeyaz oldu.",
-        translationEn: "He turned white with fear upon hearing the scream."
+        translationEn: "He turned white with fear upon hearing the scream.",
       },
       {
         form: "blanchira",
         tense: "futur",
         sentence: "La neige blanchira toute la ville demain.",
         translationTr: "Yarın kar tüm şehri beyazlatacak.",
-        translationEn: "The snow will whiten the whole city tomorrow."
-      }
-    ]
+        translationEn: "The snow will whiten the whole city tomorrow.",
+      },
+    ],
   },
   {
     id: "v15-5",
@@ -28967,7 +29024,8 @@ export const mockWords: Word[] = [
     turkish: "Yavaşlamak / Yavaşlatmak",
     english: "To slow down / To reduce speed",
     pronunciation: "ʁa-lɑ̃-tiʁ",
-    description: "Hem araç, hareket, konuşma gibi şeylerin hızını azaltmak anlamında kullanılır hem de figüratif olarak süreçlerin yavaşlamasını belirtir.",
+    description:
+      "Hem araç, hareket, konuşma gibi şeylerin hızını azaltmak anlamında kullanılır hem de figüratif olarak süreçlerin yavaşlamasını belirtir.",
     synonyms: ["freiner", "modérer", "ralenti"],
     image: null,
     category: "verbs",
@@ -28976,7 +29034,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ralentis",
@@ -28984,7 +29042,7 @@ export const mockWords: Word[] = [
         il: "ralentit",
         nous: "ralentissons",
         vous: "ralentissez",
-        ils: "ralentissent"
+        ils: "ralentissent",
       },
       passéComposé: {
         je: "ai ralenti",
@@ -28992,7 +29050,7 @@ export const mockWords: Word[] = [
         il: "a ralenti",
         nous: "avons ralenti",
         vous: "avez ralenti",
-        ils: "ont ralenti"
+        ils: "ont ralenti",
       },
       imparfait: {
         je: "ralentissais",
@@ -29000,7 +29058,7 @@ export const mockWords: Word[] = [
         il: "ralentissait",
         nous: "ralentissions",
         vous: "ralentissiez",
-        ils: "ralentissaient"
+        ils: "ralentissaient",
       },
       futur: {
         je: "ralentirai",
@@ -29008,8 +29066,8 @@ export const mockWords: Word[] = [
         il: "ralentira",
         nous: "ralentirons",
         vous: "ralentirez",
-        ils: "ralentiront"
-      }
+        ils: "ralentiront",
+      },
     },
     examples: [
       {
@@ -29017,23 +29075,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je ralentis quand je vois un panneau de danger.",
         translationTr: "Tehlike levhası görünce yavaşlıyorum.",
-        translationEn: "I slow down when I see a danger sign."
+        translationEn: "I slow down when I see a danger sign.",
       },
       {
         form: "a ralenti",
         tense: "passéComposé",
         sentence: "Le train a ralenti avant d’entrer en gare.",
         translationTr: "Tren istasyona girmeden önce yavaşladı.",
-        translationEn: "The train slowed down before entering the station."
+        translationEn: "The train slowed down before entering the station.",
       },
       {
         form: "ralentira",
         tense: "futur",
         sentence: "La circulation ralentira pendant les heures de pointe.",
         translationTr: "Trafik yoğun saatlerde yavaşlayacak.",
-        translationEn: "Traffic will slow down during rush hours."
-      }
-    ]
+        translationEn: "Traffic will slow down during rush hours.",
+      },
+    ],
   },
   {
     id: "v15-6",
@@ -29041,7 +29099,8 @@ export const mockWords: Word[] = [
     turkish: "Yatırmak / Yatmak / Güneşin batması",
     english: "To lay down / To go to bed / To set (sun)",
     pronunciation: "ku-ʃe",
-    description: "Refleksif haliyle (se coucher) 'yatmak' anlamında yaygındır. Aynı zamanda güneşin batması anlamında da kullanılır (le soleil se couche).",
+    description:
+      "Refleksif haliyle (se coucher) 'yatmak' anlamında yaygındır. Aynı zamanda güneşin batması anlamında da kullanılır (le soleil se couche).",
     synonyms: ["allonger", "dormir", "étendre"],
     image: null,
     category: "verbs",
@@ -29050,7 +29109,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "couche",
@@ -29058,7 +29117,7 @@ export const mockWords: Word[] = [
         il: "couche",
         nous: "couchons",
         vous: "couchez",
-        ils: "couchent"
+        ils: "couchent",
       },
       passéComposé: {
         je: "ai couché",
@@ -29066,7 +29125,7 @@ export const mockWords: Word[] = [
         il: "a couché",
         nous: "avons couché",
         vous: "avez couché",
-        ils: "ont couché"
+        ils: "ont couché",
       },
       imparfait: {
         je: "couchais",
@@ -29074,7 +29133,7 @@ export const mockWords: Word[] = [
         il: "couchait",
         nous: "couchions",
         vous: "couchiez",
-        ils: "couchaient"
+        ils: "couchaient",
       },
       futur: {
         je: "coucherai",
@@ -29082,8 +29141,8 @@ export const mockWords: Word[] = [
         il: "couchera",
         nous: "coucherons",
         vous: "coucherez",
-        ils: "coucheront"
-      }
+        ils: "coucheront",
+      },
     },
     examples: [
       {
@@ -29091,23 +29150,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle se couche toujours à 22 heures.",
         translationTr: "Her zaman saat 10'da yatar.",
-        translationEn: "She always goes to bed at 10 PM."
+        translationEn: "She always goes to bed at 10 PM.",
       },
       {
         form: "s’est couché",
         tense: "passéComposé",
         sentence: "Le soleil s’est couché derrière les montagnes.",
         translationTr: "Güneş dağların arkasında battı.",
-        translationEn: "The sun set behind the mountains."
+        translationEn: "The sun set behind the mountains.",
       },
       {
         form: "se couchera",
         tense: "futur",
         sentence: "Il se couchera tôt ce soir.",
         translationTr: "Bu akşam erken yatacak.",
-        translationEn: "He will go to bed early tonight."
-      }
-    ]
+        translationEn: "He will go to bed early tonight.",
+      },
+    ],
   },
   {
     id: "v15-7",
@@ -29115,7 +29174,8 @@ export const mockWords: Word[] = [
     turkish: "Gömmek / Toprağa vermek",
     english: "To bury",
     pronunciation: "ɑ̃-tə-ʁe",
-    description: "Çoğunlukla cenaze bağlamında ölen kişiyi gömmek anlamında kullanılır. Ayrıca mecazi olarak bir konuyu sonsuza dek kapatmak için de kullanılır (enterrer un projet).",
+    description:
+      "Çoğunlukla cenaze bağlamında ölen kişiyi gömmek anlamında kullanılır. Ayrıca mecazi olarak bir konuyu sonsuza dek kapatmak için de kullanılır (enterrer un projet).",
     synonyms: ["inhumer", "ensevelir", "cacher"],
     image: null,
     category: "verbs",
@@ -29124,7 +29184,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "enterre",
@@ -29132,7 +29192,7 @@ export const mockWords: Word[] = [
         il: "enterre",
         nous: "enterrons",
         vous: "enterrez",
-        ils: "enterrent"
+        ils: "enterrent",
       },
       passéComposé: {
         je: "ai enterré",
@@ -29140,7 +29200,7 @@ export const mockWords: Word[] = [
         il: "a enterré",
         nous: "avons enterré",
         vous: "avez enterré",
-        ils: "ont enterré"
+        ils: "ont enterré",
       },
       imparfait: {
         je: "enterrais",
@@ -29148,7 +29208,7 @@ export const mockWords: Word[] = [
         il: "enterrait",
         nous: "enterrions",
         vous: "enterriez",
-        ils: "enterraient"
+        ils: "enterraient",
       },
       futur: {
         je: "enterrerai",
@@ -29156,8 +29216,8 @@ export const mockWords: Word[] = [
         il: "enterrera",
         nous: "enterrerons",
         vous: "enterrerez",
-        ils: "enterreront"
-      }
+        ils: "enterreront",
+      },
     },
     examples: [
       {
@@ -29165,23 +29225,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il enterre son chien dans le jardin.",
         translationTr: "Köpeğini bahçeye gömüyor.",
-        translationEn: "He is burying his dog in the garden."
+        translationEn: "He is burying his dog in the garden.",
       },
       {
         form: "a enterré",
         tense: "passéComposé",
         sentence: "Elle a enterré son père la semaine dernière.",
         translationTr: "Geçen hafta babasını toprağa verdi.",
-        translationEn: "She buried her father last week."
+        translationEn: "She buried her father last week.",
       },
       {
         form: "enterrera",
         tense: "futur",
         sentence: "On enterrera la capsule temporelle demain.",
         translationTr: "Yarın zaman kapsülünü gömeceğiz.",
-        translationEn: "We will bury the time capsule tomorrow."
-      }
-    ]
+        translationEn: "We will bury the time capsule tomorrow.",
+      },
+    ],
   },
   {
     id: "v15-8",
@@ -29189,7 +29249,8 @@ export const mockWords: Word[] = [
     turkish: "Bilgilendirmek / Haber vermek",
     english: "To inform / To notify",
     pronunciation: "ɛ̃-fɔʁ-me",
-    description: "Bir kişiye bilgi vermek ya da resmi olarak bir şey hakkında haberdar etmek anlamında kullanılır. 'Informer de/que' yapısıyla sıkça kullanılır.",
+    description:
+      "Bir kişiye bilgi vermek ya da resmi olarak bir şey hakkında haberdar etmek anlamında kullanılır. 'Informer de/que' yapısıyla sıkça kullanılır.",
     synonyms: ["avertir", "notifier", "annoncer"],
     image: null,
     category: "verbs",
@@ -29198,7 +29259,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "informe",
@@ -29206,7 +29267,7 @@ export const mockWords: Word[] = [
         il: "informe",
         nous: "informons",
         vous: "informez",
-        ils: "informent"
+        ils: "informent",
       },
       passéComposé: {
         je: "ai informé",
@@ -29214,7 +29275,7 @@ export const mockWords: Word[] = [
         il: "a informé",
         nous: "avons informé",
         vous: "avez informé",
-        ils: "ont informé"
+        ils: "ont informé",
       },
       imparfait: {
         je: "informais",
@@ -29222,7 +29283,7 @@ export const mockWords: Word[] = [
         il: "informait",
         nous: "informions",
         vous: "informiez",
-        ils: "informaient"
+        ils: "informaient",
       },
       futur: {
         je: "informerai",
@@ -29230,8 +29291,8 @@ export const mockWords: Word[] = [
         il: "informera",
         nous: "informerons",
         vous: "informerez",
-        ils: "informeront"
-      }
+        ils: "informeront",
+      },
     },
     examples: [
       {
@@ -29239,23 +29300,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je vous informe de la situation actuelle.",
         translationTr: "Sizi mevcut durum hakkında bilgilendiriyorum.",
-        translationEn: "I am informing you of the current situation."
+        translationEn: "I am informing you of the current situation.",
       },
       {
         form: "a informé",
         tense: "passéComposé",
         sentence: "Il nous a informés du changement de date.",
         translationTr: "Tarih değişikliğinden bizi haberdar etti.",
-        translationEn: "He informed us of the date change."
+        translationEn: "He informed us of the date change.",
       },
       {
         form: "informera",
         tense: "futur",
         sentence: "L'école vous informera par e-mail.",
         translationTr: "Okul sizi e-posta yoluyla bilgilendirecek.",
-        translationEn: "The school will inform you by email."
-      }
-    ]
+        translationEn: "The school will inform you by email.",
+      },
+    ],
   },
   {
     id: "v15-9",
@@ -29263,7 +29324,8 @@ export const mockWords: Word[] = [
     turkish: "Büyümek / Gelişmek",
     english: "To grow / To grow up",
     pronunciation: "ɡʁɑ̃-diʁ",
-    description: "Fiziksel olarak büyümek veya soyut anlamda gelişmek (kişilik, şirket vs.) için kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Fiziksel olarak büyümek veya soyut anlamda gelişmek (kişilik, şirket vs.) için kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["croître", "se développer", "s’agrandir"],
     image: null,
     category: "verbs",
@@ -29272,7 +29334,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "grandis",
@@ -29280,7 +29342,7 @@ export const mockWords: Word[] = [
         il: "grandit",
         nous: "grandissons",
         vous: "grandissez",
-        ils: "grandissent"
+        ils: "grandissent",
       },
       passéComposé: {
         je: "ai grandi",
@@ -29288,7 +29350,7 @@ export const mockWords: Word[] = [
         il: "a grandi",
         nous: "avons grandi",
         vous: "avez grandi",
-        ils: "ont grandi"
+        ils: "ont grandi",
       },
       imparfait: {
         je: "grandissais",
@@ -29296,7 +29358,7 @@ export const mockWords: Word[] = [
         il: "grandissait",
         nous: "grandissions",
         vous: "grandissiez",
-        ils: "grandissaient"
+        ils: "grandissaient",
       },
       futur: {
         je: "grandirai",
@@ -29304,8 +29366,8 @@ export const mockWords: Word[] = [
         il: "grandira",
         nous: "grandirons",
         vous: "grandirez",
-        ils: "grandiront"
-      }
+        ils: "grandiront",
+      },
     },
     examples: [
       {
@@ -29313,23 +29375,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "L’enfant grandit vite cette année.",
         translationTr: "Çocuk bu yıl hızlı büyüyor.",
-        translationEn: "The child is growing fast this year."
+        translationEn: "The child is growing fast this year.",
       },
       {
         form: "a grandi",
         tense: "passéComposé",
         sentence: "Elle a grandi dans une petite ville.",
         translationTr: "Küçük bir şehirde büyüdü.",
-        translationEn: "She grew up in a small town."
+        translationEn: "She grew up in a small town.",
       },
       {
         form: "grandira",
         tense: "futur",
         sentence: "Il grandira entouré d’amour.",
         translationTr: "Sevgiyle çevrili bir ortamda büyüyecek.",
-        translationEn: "He will grow up surrounded by love."
-      }
-    ]
+        translationEn: "He will grow up surrounded by love.",
+      },
+    ],
   },
   {
     id: "v15-10",
@@ -29337,7 +29399,8 @@ export const mockWords: Word[] = [
     turkish: "Varsaymak / Farz etmek / Tahmin etmek",
     english: "To suppose / To assume",
     pronunciation: "sy-po-ze",
-    description: "Genellikle varsayım yaparken veya bir olasılığı hesaba katarken kullanılır. 'Supposer que' yapısıyla sıkça görülür.",
+    description:
+      "Genellikle varsayım yaparken veya bir olasılığı hesaba katarken kullanılır. 'Supposer que' yapısıyla sıkça görülür.",
     synonyms: ["présumer", "imaginer", "penser"],
     image: null,
     category: "verbs",
@@ -29346,7 +29409,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "suppose",
@@ -29354,7 +29417,7 @@ export const mockWords: Word[] = [
         il: "suppose",
         nous: "supposons",
         vous: "supposez",
-        ils: "supposent"
+        ils: "supposent",
       },
       passéComposé: {
         je: "ai supposé",
@@ -29362,7 +29425,7 @@ export const mockWords: Word[] = [
         il: "a supposé",
         nous: "avons supposé",
         vous: "avez supposé",
-        ils: "ont supposé"
+        ils: "ont supposé",
       },
       imparfait: {
         je: "supposais",
@@ -29370,7 +29433,7 @@ export const mockWords: Word[] = [
         il: "supposait",
         nous: "supposions",
         vous: "supposiez",
-        ils: "supposaient"
+        ils: "supposaient",
       },
       futur: {
         je: "supposerai",
@@ -29378,8 +29441,8 @@ export const mockWords: Word[] = [
         il: "supposera",
         nous: "supposerons",
         vous: "supposerez",
-        ils: "supposeront"
-      }
+        ils: "supposeront",
+      },
     },
     examples: [
       {
@@ -29387,23 +29450,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je suppose qu’il est déjà parti.",
         translationTr: "Onun çoktan gitmiş olduğunu varsayıyorum.",
-        translationEn: "I suppose he has already left."
+        translationEn: "I suppose he has already left.",
       },
       {
         form: "a supposé",
         tense: "passéComposé",
         sentence: "Elle a supposé que tout allait bien.",
         translationTr: "Her şeyin yolunda olduğunu varsaydı.",
-        translationEn: "She assumed that everything was fine."
+        translationEn: "She assumed that everything was fine.",
       },
       {
         form: "supposera",
         tense: "futur",
         sentence: "On supposera une augmentation des prix.",
         translationTr: "Fiyat artışı olacağı varsayılacak.",
-        translationEn: "A price increase will be assumed."
-      }
-    ]
+        translationEn: "A price increase will be assumed.",
+      },
+    ],
   },
   {
     id: "v15-11",
@@ -29411,7 +29474,8 @@ export const mockWords: Word[] = [
     turkish: "Atmak / Fırlatmak",
     english: "To throw / To discard",
     pronunciation: "ʒə-te",
-    description: "Bazı şahıslarla 't' harfi iki katına çıkar (je jette, tu jettes). Hem fiziksel hem de mecazi anlamda kullanılır (jeter un regard, jeter un sort vb.).",
+    description:
+      "Bazı şahıslarla 't' harfi iki katına çıkar (je jette, tu jettes). Hem fiziksel hem de mecazi anlamda kullanılır (jeter un regard, jeter un sort vb.).",
     synonyms: ["lancer", "projeter", "rejeter"],
     image: null,
     category: "verbs",
@@ -29420,7 +29484,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "jette",
@@ -29428,7 +29492,7 @@ export const mockWords: Word[] = [
         il: "jette",
         nous: "jetons",
         vous: "jetez",
-        ils: "jettent"
+        ils: "jettent",
       },
       passéComposé: {
         je: "ai jeté",
@@ -29436,7 +29500,7 @@ export const mockWords: Word[] = [
         il: "a jeté",
         nous: "avons jeté",
         vous: "avez jeté",
-        ils: "ont jeté"
+        ils: "ont jeté",
       },
       imparfait: {
         je: "jetais",
@@ -29444,7 +29508,7 @@ export const mockWords: Word[] = [
         il: "jetait",
         nous: "jetions",
         vous: "jetiez",
-        ils: "jetaient"
+        ils: "jetaient",
       },
       futur: {
         je: "jetterai",
@@ -29452,8 +29516,8 @@ export const mockWords: Word[] = [
         il: "jettera",
         nous: "jetterons",
         vous: "jetterez",
-        ils: "jetteront"
-      }
+        ils: "jetteront",
+      },
     },
     examples: [
       {
@@ -29461,23 +29525,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je jette la balle à mon frère.",
         translationTr: "Topu erkek kardeşime atıyorum.",
-        translationEn: "I throw the ball to my brother."
+        translationEn: "I throw the ball to my brother.",
       },
       {
         form: "a jeté",
         tense: "passéComposé",
         sentence: "Il a jeté les papiers à la poubelle.",
         translationTr: "Kağıtları çöp kutusuna attı.",
-        translationEn: "He threw the papers in the trash."
+        translationEn: "He threw the papers in the trash.",
       },
       {
         form: "jettera",
         tense: "futur",
         sentence: "Elle jettera les fleurs fanées demain.",
         translationTr: "Yarın solmuş çiçekleri atacak.",
-        translationEn: "She will throw away the wilted flowers tomorrow."
-      }
-    ]
+        translationEn: "She will throw away the wilted flowers tomorrow.",
+      },
+    ],
   },
   {
     id: "v15-12",
@@ -29485,7 +29549,8 @@ export const mockWords: Word[] = [
     turkish: "Sahip olmak",
     english: "To have",
     pronunciation: "a-vwaʁ",
-    description: "Yardımcı fiil olarak passé composé zamanında birçok fiilin çekiminde kullanılır. En temel düzensiz fiillerden biridir.",
+    description:
+      "Yardımcı fiil olarak passé composé zamanında birçok fiilin çekiminde kullanılır. En temel düzensiz fiillerden biridir.",
     synonyms: ["posséder", "tenir", "détenir"],
     image: null,
     category: "verbs",
@@ -29494,7 +29559,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "ai",
@@ -29502,7 +29567,7 @@ export const mockWords: Word[] = [
         il: "a",
         nous: "avons",
         vous: "avez",
-        ils: "ont"
+        ils: "ont",
       },
       passéComposé: {
         je: "ai eu",
@@ -29510,7 +29575,7 @@ export const mockWords: Word[] = [
         il: "a eu",
         nous: "avons eu",
         vous: "avez eu",
-        ils: "ont eu"
+        ils: "ont eu",
       },
       imparfait: {
         je: "avais",
@@ -29518,7 +29583,7 @@ export const mockWords: Word[] = [
         il: "avait",
         nous: "avions",
         vous: "aviez",
-        ils: "avaient"
+        ils: "avaient",
       },
       futur: {
         je: "aurai",
@@ -29526,8 +29591,8 @@ export const mockWords: Word[] = [
         il: "aura",
         nous: "aurons",
         vous: "aurez",
-        ils: "auront"
-      }
+        ils: "auront",
+      },
     },
     examples: [
       {
@@ -29535,23 +29600,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "J’ai deux chats et un chien.",
         translationTr: "İki kedim ve bir köpeğim var.",
-        translationEn: "I have two cats and a dog."
+        translationEn: "I have two cats and a dog.",
       },
       {
         form: "a eu",
         tense: "passéComposé",
         sentence: "Elle a eu un accident hier soir.",
         translationTr: "Dün gece bir kaza geçirdi.",
-        translationEn: "She had an accident last night."
+        translationEn: "She had an accident last night.",
       },
       {
         form: "auront",
         tense: "futur",
         sentence: "Ils auront besoin de ton aide demain.",
         translationTr: "Yarın senin yardımına ihtiyaçları olacak.",
-        translationEn: "They will need your help tomorrow."
-      }
-    ]
+        translationEn: "They will need your help tomorrow.",
+      },
+    ],
   },
   {
     id: "v15-13",
@@ -29559,7 +29624,8 @@ export const mockWords: Word[] = [
     turkish: "Şarkı söylemek",
     english: "To sing",
     pronunciation: "ʃɑ̃-te",
-    description: "Hem profesyonel hem de günlük durumlar için kullanılır. Ayrıca kuşların ötmesi gibi doğa sesleri için de kullanılabilir.",
+    description:
+      "Hem profesyonel hem de günlük durumlar için kullanılır. Ayrıca kuşların ötmesi gibi doğa sesleri için de kullanılabilir.",
     synonyms: ["interpréter", "vocaliser", "fredonner"],
     image: null,
     category: "verbs",
@@ -29568,7 +29634,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "chante",
@@ -29576,7 +29642,7 @@ export const mockWords: Word[] = [
         il: "chante",
         nous: "chantons",
         vous: "chantez",
-        ils: "chantent"
+        ils: "chantent",
       },
       passéComposé: {
         je: "ai chanté",
@@ -29584,7 +29650,7 @@ export const mockWords: Word[] = [
         il: "a chanté",
         nous: "avons chanté",
         vous: "avez chanté",
-        ils: "ont chanté"
+        ils: "ont chanté",
       },
       imparfait: {
         je: "chantais",
@@ -29592,7 +29658,7 @@ export const mockWords: Word[] = [
         il: "chantait",
         nous: "chantions",
         vous: "chantiez",
-        ils: "chantaient"
+        ils: "chantaient",
       },
       futur: {
         je: "chanterai",
@@ -29600,8 +29666,8 @@ export const mockWords: Word[] = [
         il: "chantera",
         nous: "chanterons",
         vous: "chanterez",
-        ils: "chanteront"
-      }
+        ils: "chanteront",
+      },
     },
     examples: [
       {
@@ -29609,23 +29675,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle chante une chanson douce à son bébé.",
         translationTr: "Bebeğine tatlı bir şarkı söylüyor.",
-        translationEn: "She sings a sweet song to her baby."
+        translationEn: "She sings a sweet song to her baby.",
       },
       {
         form: "a chanté",
         tense: "passéComposé",
         sentence: "Il a chanté à la fête hier soir.",
         translationTr: "Dün gece partide şarkı söyledi.",
-        translationEn: "He sang at the party last night."
+        translationEn: "He sang at the party last night.",
       },
       {
         form: "chantera",
         tense: "futur",
         sentence: "Je chanterai à ton mariage.",
         translationTr: "Senin düğününde şarkı söyleyeceğim.",
-        translationEn: "I will sing at your wedding."
-      }
-    ]
+        translationEn: "I will sing at your wedding.",
+      },
+    ],
   },
   {
     id: "v15-14",
@@ -29633,7 +29699,8 @@ export const mockWords: Word[] = [
     turkish: "Ziyaret etmek / Gezmek",
     english: "To visit / To tour",
     pronunciation: "vi-zi-te",
-    description: "Kişileri veya yerleri ziyaret etmek için kullanılır. Resmi olmayan bağlamda 'aller voir' ile eş anlamlı olabilir.",
+    description:
+      "Kişileri veya yerleri ziyaret etmek için kullanılır. Resmi olmayan bağlamda 'aller voir' ile eş anlamlı olabilir.",
     synonyms: ["voir", "découvrir", "explorer"],
     image: null,
     category: "verbs",
@@ -29642,7 +29709,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "visite",
@@ -29650,7 +29717,7 @@ export const mockWords: Word[] = [
         il: "visite",
         nous: "visitons",
         vous: "visitez",
-        ils: "visitent"
+        ils: "visitent",
       },
       passéComposé: {
         je: "ai visité",
@@ -29658,7 +29725,7 @@ export const mockWords: Word[] = [
         il: "a visité",
         nous: "avons visité",
         vous: "avez visité",
-        ils: "ont visité"
+        ils: "ont visité",
       },
       imparfait: {
         je: "visitais",
@@ -29666,7 +29733,7 @@ export const mockWords: Word[] = [
         il: "visitait",
         nous: "visitons",
         vous: "visitiez",
-        ils: "visitaient"
+        ils: "visitaient",
       },
       futur: {
         je: "visiterai",
@@ -29674,8 +29741,8 @@ export const mockWords: Word[] = [
         il: "visitera",
         nous: "visiterons",
         vous: "visiterez",
-        ils: "visiteront"
-      }
+        ils: "visiteront",
+      },
     },
     examples: [
       {
@@ -29683,23 +29750,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je visite le musée chaque dimanche.",
         translationTr: "Her pazar müzeyi ziyaret ediyorum.",
-        translationEn: "I visit the museum every Sunday."
+        translationEn: "I visit the museum every Sunday.",
       },
       {
         form: "a visité",
         tense: "passéComposé",
         sentence: "Nous avons visité Paris en été.",
         translationTr: "Yazın Paris’i gezdik.",
-        translationEn: "We visited Paris in the summer."
+        translationEn: "We visited Paris in the summer.",
       },
       {
         form: "visitera",
         tense: "futur",
         sentence: "Elle visitera sa grand-mère demain.",
         translationTr: "Yarın büyükannesini ziyaret edecek.",
-        translationEn: "She will visit her grandmother tomorrow."
-      }
-    ]
+        translationEn: "She will visit her grandmother tomorrow.",
+      },
+    ],
   },
   {
     id: "v15-15",
@@ -29707,7 +29774,8 @@ export const mockWords: Word[] = [
     turkish: "Kaplamak / Örtmek / Yeniden kaplamak",
     english: "To cover / To recover / To coat",
     pronunciation: "ʁə-ku-vʁiʁ",
-    description: "Tamamen kaplamak, üstünü örtmek anlamında kullanılır. Fiziksel (karla örtmek) ya da mecazi anlamı olabilir (duygularını örtmek).",
+    description:
+      "Tamamen kaplamak, üstünü örtmek anlamında kullanılır. Fiziksel (karla örtmek) ya da mecazi anlamı olabilir (duygularını örtmek).",
     synonyms: ["couvrir", "masquer", "envelopper"],
     image: null,
     category: "verbs",
@@ -29716,7 +29784,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "recouvre",
@@ -29724,7 +29792,7 @@ export const mockWords: Word[] = [
         il: "recouvre",
         nous: "recouvrons",
         vous: "recouvrez",
-        ils: "recouvrent"
+        ils: "recouvrent",
       },
       passéComposé: {
         je: "ai recouvert",
@@ -29732,7 +29800,7 @@ export const mockWords: Word[] = [
         il: "a recouvert",
         nous: "avons recouvert",
         vous: "avez recouvert",
-        ils: "ont recouvert"
+        ils: "ont recouvert",
       },
       imparfait: {
         je: "recouvrais",
@@ -29740,7 +29808,7 @@ export const mockWords: Word[] = [
         il: "recouvrait",
         nous: "recouvrions",
         vous: "recouvriez",
-        ils: "recouvraient"
+        ils: "recouvraient",
       },
       futur: {
         je: "recouvrirai",
@@ -29748,8 +29816,8 @@ export const mockWords: Word[] = [
         il: "recouvrira",
         nous: "recouvrirons",
         vous: "recouvrirez",
-        ils: "recouvriront"
-      }
+        ils: "recouvriront",
+      },
     },
     examples: [
       {
@@ -29757,23 +29825,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "La neige recouvre les toits des maisons.",
         translationTr: "Kar evlerin çatılarını örtüyor.",
-        translationEn: "Snow covers the roofs of the houses."
+        translationEn: "Snow covers the roofs of the houses.",
       },
       {
         form: "a recouvert",
         tense: "passéComposé",
         sentence: "Il a recouvert la table d’une nappe blanche.",
         translationTr: "Masayı beyaz bir örtüyle kapladı.",
-        translationEn: "He covered the table with a white cloth."
+        translationEn: "He covered the table with a white cloth.",
       },
       {
         form: "recouvrira",
         tense: "futur",
         sentence: "Le brouillard recouvrira la ville demain matin.",
         translationTr: "Yarın sabah sis şehri kaplayacak.",
-        translationEn: "The fog will cover the city tomorrow morning."
-      }
-    ]
+        translationEn: "The fog will cover the city tomorrow morning.",
+      },
+    ],
   },
   {
     id: "v15-16",
@@ -29781,7 +29849,8 @@ export const mockWords: Word[] = [
     turkish: "E -bilmek / Gücü olmak / Yapabilmek",
     english: "Can / To be able to",
     pronunciation: "pu-vwaʁ",
-    description: "Yetenek, izin ya da olasılık belirtir. Yardımcı fiil olarak da kullanılır. Düzensiz bir fiildir.",
+    description:
+      "Yetenek, izin ya da olasılık belirtir. Yardımcı fiil olarak da kullanılır. Düzensiz bir fiildir.",
     synonyms: ["être capable de", "avoir la possibilité de"],
     image: null,
     category: "verbs",
@@ -29790,7 +29859,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "peux",
@@ -29798,7 +29867,7 @@ export const mockWords: Word[] = [
         il: "peut",
         nous: "pouvons",
         vous: "pouvez",
-        ils: "peuvent"
+        ils: "peuvent",
       },
       passéComposé: {
         je: "ai pu",
@@ -29806,7 +29875,7 @@ export const mockWords: Word[] = [
         il: "a pu",
         nous: "avons pu",
         vous: "avez pu",
-        ils: "ont pu"
+        ils: "ont pu",
       },
       imparfait: {
         je: "pouvais",
@@ -29814,7 +29883,7 @@ export const mockWords: Word[] = [
         il: "pouvait",
         nous: "pouvions",
         vous: "pouviez",
-        ils: "pouvaient"
+        ils: "pouvaient",
       },
       futur: {
         je: "pourrai",
@@ -29822,8 +29891,8 @@ export const mockWords: Word[] = [
         il: "pourra",
         nous: "pourrons",
         vous: "pourrez",
-        ils: "pourront"
-      }
+        ils: "pourront",
+      },
     },
     examples: [
       {
@@ -29831,23 +29900,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il peut venir ce soir.",
         translationTr: "Bu akşam gelebilir.",
-        translationEn: "He can come tonight."
+        translationEn: "He can come tonight.",
       },
       {
         form: "a pu",
         tense: "passéComposé",
         sentence: "Elle a pu finir son travail à temps.",
         translationTr: "İşini zamanında bitirebildi.",
-        translationEn: "She was able to finish her work on time."
+        translationEn: "She was able to finish her work on time.",
       },
       {
         form: "pourrons",
         tense: "futur",
         sentence: "Nous pourrons voyager cet été.",
         translationTr: "Bu yaz seyahat edebileceğiz.",
-        translationEn: "We will be able to travel this summer."
-      }
-    ]
+        translationEn: "We will be able to travel this summer.",
+      },
+    ],
   },
   {
     id: "v15-17",
@@ -29855,7 +29924,8 @@ export const mockWords: Word[] = [
     turkish: "Elde tutmak / Elinde bulundurmak / Gözaltında tutmak",
     english: "To hold / To possess / To detain",
     pronunciation: "de-tə-niʁ",
-    description: "Hem somut hem soyut nesnelerin sahipliğini veya kontrolünü belirtmek için kullanılır. Hukuki bağlamda da sıkça geçer.",
+    description:
+      "Hem somut hem soyut nesnelerin sahipliğini veya kontrolünü belirtmek için kullanılır. Hukuki bağlamda da sıkça geçer.",
     synonyms: ["posséder", "avoir", "garder"],
     image: null,
     category: "verbs",
@@ -29864,7 +29934,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "détiens",
@@ -29872,7 +29942,7 @@ export const mockWords: Word[] = [
         il: "détient",
         nous: "détenons",
         vous: "détenez",
-        ils: "détiennent"
+        ils: "détiennent",
       },
       passéComposé: {
         je: "ai détenu",
@@ -29880,7 +29950,7 @@ export const mockWords: Word[] = [
         il: "a détenu",
         nous: "avons détenu",
         vous: "avez détenu",
-        ils: "ont détenu"
+        ils: "ont détenu",
       },
       imparfait: {
         je: "détenais",
@@ -29888,7 +29958,7 @@ export const mockWords: Word[] = [
         il: "détenait",
         nous: "détenions",
         vous: "déteniez",
-        ils: "détenaient"
+        ils: "détenaient",
       },
       futur: {
         je: "détiendrai",
@@ -29896,8 +29966,8 @@ export const mockWords: Word[] = [
         il: "détiendra",
         nous: "détiendrons",
         vous: "détiendrez",
-        ils: "détiendront"
-      }
+        ils: "détiendront",
+      },
     },
     examples: [
       {
@@ -29905,23 +29975,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "La police détient des preuves solides.",
         translationTr: "Polis sağlam delillere sahip.",
-        translationEn: "The police hold solid evidence."
+        translationEn: "The police hold solid evidence.",
       },
       {
         form: "a détenu",
         tense: "passéComposé",
         sentence: "Il a détenu ce record pendant dix ans.",
         translationTr: "Bu rekoru on yıl boyunca elinde tuttu.",
-        translationEn: "He held this record for ten years."
+        translationEn: "He held this record for ten years.",
       },
       {
         form: "détiendra",
         tense: "futur",
         sentence: "Elle détiendra bientôt le pouvoir.",
         translationTr: "Yakında gücü elinde bulunduracak.",
-        translationEn: "She will soon hold the power."
-      }
-    ]
+        translationEn: "She will soon hold the power.",
+      },
+    ],
   },
   {
     id: "v15-18",
@@ -29929,7 +29999,8 @@ export const mockWords: Word[] = [
     turkish: "Gezdirmek",
     english: "To walk (someone/something) / To take for a walk",
     pronunciation: "pʁɔ-mə-ne",
-    description: "Refleksif hali (se promener) 'gezmek' anlamında kullanılır. Normal hali birini ya da bir hayvanı gezdirmek içindir. 'Je promène le chien' (köpeği gezdiriyorum) gibi.",
+    description:
+      "Refleksif hali (se promener) 'gezmek' anlamında kullanılır. Normal hali birini ya da bir hayvanı gezdirmek içindir. 'Je promène le chien' (köpeği gezdiriyorum) gibi.",
     synonyms: ["balader", "déambuler", "flâner"],
     image: null,
     category: "verbs",
@@ -29938,7 +30009,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "promène",
@@ -29946,7 +30017,7 @@ export const mockWords: Word[] = [
         il: "promène",
         nous: "promenons",
         vous: "promenez",
-        ils: "promènent"
+        ils: "promènent",
       },
       passéComposé: {
         je: "ai promené",
@@ -29954,7 +30025,7 @@ export const mockWords: Word[] = [
         il: "a promené",
         nous: "avons promené",
         vous: "avez promené",
-        ils: "ont promené"
+        ils: "ont promené",
       },
       imparfait: {
         je: "promenais",
@@ -29962,7 +30033,7 @@ export const mockWords: Word[] = [
         il: "promenait",
         nous: "promenions",
         vous: "promeniez",
-        ils: "promenaient"
+        ils: "promenaient",
       },
       futur: {
         je: "promènerai",
@@ -29970,8 +30041,8 @@ export const mockWords: Word[] = [
         il: "promènera",
         nous: "promènerons",
         vous: "promènerez",
-        ils: "promèneront"
-      }
+        ils: "promèneront",
+      },
     },
     examples: [
       {
@@ -29979,23 +30050,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je promène mon chien tous les matins.",
         translationTr: "Her sabah köpeğimi gezdiriyorum.",
-        translationEn: "I walk my dog every morning."
+        translationEn: "I walk my dog every morning.",
       },
       {
         form: "a promené",
         tense: "passéComposé",
         sentence: "Il a promené son fils au parc.",
         translationTr: "Oğlunu parkta gezdirdi.",
-        translationEn: "He took his son for a walk in the park."
+        translationEn: "He took his son for a walk in the park.",
       },
       {
         form: "promèneront",
         tense: "futur",
         sentence: "Ils promèneront les enfants après le déjeuner.",
         translationTr: "Öğle yemeğinden sonra çocukları gezdirecekler.",
-        translationEn: "They will take the children for a walk after lunch."
-      }
-    ]
+        translationEn: "They will take the children for a walk after lunch.",
+      },
+    ],
   },
   {
     id: "v15-19",
@@ -30003,7 +30074,8 @@ export const mockWords: Word[] = [
     turkish: "Geri dönmek / Eve dönmek / İçeri sokmak",
     english: "To return / To go back / To bring in",
     pronunciation: "ʁɑ̃-tʁe",
-    description: "Hem geçişsiz (eve dönmek) hem geçişli (arabayı garaja sokmak) olarak kullanılabilir. Yardımcı fiil olarak 'être' ya da 'avoir' alabilir, kullanıma göre değişir.",
+    description:
+      "Hem geçişsiz (eve dönmek) hem geçişli (arabayı garaja sokmak) olarak kullanılabilir. Yardımcı fiil olarak 'être' ya da 'avoir' alabilir, kullanıma göre değişir.",
     synonyms: ["revenir", "retourner", "rapporter"],
     image: null,
     category: "verbs",
@@ -30012,7 +30084,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rentre",
@@ -30020,7 +30092,7 @@ export const mockWords: Word[] = [
         il: "rentre",
         nous: "rentrons",
         vous: "rentrez",
-        ils: "rentrent"
+        ils: "rentrent",
       },
       passéComposé: {
         je: "suis rentré",
@@ -30028,7 +30100,7 @@ export const mockWords: Word[] = [
         il: "est rentré",
         nous: "sommes rentrés",
         vous: "êtes rentrés",
-        ils: "sont rentrés"
+        ils: "sont rentrés",
       },
       imparfait: {
         je: "rentrais",
@@ -30036,7 +30108,7 @@ export const mockWords: Word[] = [
         il: "rentrait",
         nous: "rentrions",
         vous: "rentriez",
-        ils: "rentraient"
+        ils: "rentraient",
       },
       futur: {
         je: "rentrerai",
@@ -30044,8 +30116,8 @@ export const mockWords: Word[] = [
         il: "rentrera",
         nous: "rentrerons",
         vous: "rentrerez",
-        ils: "rentreront"
-      }
+        ils: "rentreront",
+      },
     },
     examples: [
       {
@@ -30053,23 +30125,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je rentre à la maison après le travail.",
         translationTr: "İşten sonra eve dönüyorum.",
-        translationEn: "I go back home after work."
+        translationEn: "I go back home after work.",
       },
       {
         form: "est rentré",
         tense: "passéComposé",
         sentence: "Il est rentré tard hier soir.",
         translationTr: "Dün gece geç döndü.",
-        translationEn: "He came home late last night."
+        translationEn: "He came home late last night.",
       },
       {
         form: "rentreront",
         tense: "futur",
         sentence: "Ils rentreront demain de leurs vacances.",
         translationTr: "Tatilinden yarın dönecekler.",
-        translationEn: "They will return from their vacation tomorrow."
-      }
-    ]
+        translationEn: "They will return from their vacation tomorrow.",
+      },
+    ],
   },
   {
     id: "v15-20",
@@ -30077,7 +30149,8 @@ export const mockWords: Word[] = [
     turkish: "Göstermek / Belirtmek / İşaret etmek",
     english: "To indicate / To point out / To state",
     pronunciation: "ɛ̃-di-ke",
-    description: "Hem fiziksel işaret etme hem de bilgi verme bağlamında kullanılır. 'Indiquer que' veya 'indiquer à quelqu’un' yapısıyla görülür.",
+    description:
+      "Hem fiziksel işaret etme hem de bilgi verme bağlamında kullanılır. 'Indiquer que' veya 'indiquer à quelqu’un' yapısıyla görülür.",
     synonyms: ["signaler", "montrer", "désigner"],
     image: null,
     category: "verbs",
@@ -30086,7 +30159,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "indique",
@@ -30094,7 +30167,7 @@ export const mockWords: Word[] = [
         il: "indique",
         nous: "indiquons",
         vous: "indiquez",
-        ils: "indiquent"
+        ils: "indiquent",
       },
       passéComposé: {
         je: "ai indiqué",
@@ -30102,7 +30175,7 @@ export const mockWords: Word[] = [
         il: "a indiqué",
         nous: "avons indiqué",
         vous: "avez indiqué",
-        ils: "ont indiqué"
+        ils: "ont indiqué",
       },
       imparfait: {
         je: "indiquais",
@@ -30110,7 +30183,7 @@ export const mockWords: Word[] = [
         il: "indiquait",
         nous: "indiquions",
         vous: "indiquiez",
-        ils: "indiquaient"
+        ils: "indiquaient",
       },
       futur: {
         je: "indiquerai",
@@ -30118,8 +30191,8 @@ export const mockWords: Word[] = [
         il: "indiquera",
         nous: "indiquerons",
         vous: "indiquerez",
-        ils: "indiqueront"
-      }
+        ils: "indiqueront",
+      },
     },
     examples: [
       {
@@ -30127,23 +30200,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Ce panneau indique la direction du centre-ville.",
         translationTr: "Bu tabela şehir merkezinin yönünü gösteriyor.",
-        translationEn: "This sign indicates the direction to the city center."
+        translationEn: "This sign indicates the direction to the city center.",
       },
       {
         form: "a indiqué",
         tense: "passéComposé",
         sentence: "Le médecin a indiqué la dose à prendre.",
         translationTr: "Doktor alınması gereken dozu belirtti.",
-        translationEn: "The doctor indicated the dosage to take."
+        translationEn: "The doctor indicated the dosage to take.",
       },
       {
         form: "indiquera",
         tense: "futur",
         sentence: "Il indiquera la route sur la carte.",
         translationTr: "Harita üzerinde yolu gösterecek.",
-        translationEn: "He will point out the route on the map."
-      }
-    ]
+        translationEn: "He will point out the route on the map.",
+      },
+    ],
   },
   {
     id: "v15-21",
@@ -30151,7 +30224,8 @@ export const mockWords: Word[] = [
     turkish: "Üretmek / Ortaya çıkarmak / Sunmak",
     english: "To produce / To generate / To yield",
     pronunciation: "pʁɔ-dɥiʁ",
-    description: "Sanayi, enerji, tarım gibi alanlarda üretim için kullanılır. Aynı zamanda soyut anlamda da (effet, émotion) kullanılabilir. Düzensiz fiildir.",
+    description:
+      "Sanayi, enerji, tarım gibi alanlarda üretim için kullanılır. Aynı zamanda soyut anlamda da (effet, émotion) kullanılabilir. Düzensiz fiildir.",
     synonyms: ["fabriquer", "créer", "engendrer"],
     image: null,
     category: "verbs",
@@ -30160,7 +30234,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "produis",
@@ -30168,7 +30242,7 @@ export const mockWords: Word[] = [
         il: "produit",
         nous: "produisons",
         vous: "produisez",
-        ils: "produisent"
+        ils: "produisent",
       },
       passéComposé: {
         je: "ai produit",
@@ -30176,7 +30250,7 @@ export const mockWords: Word[] = [
         il: "a produit",
         nous: "avons produit",
         vous: "avez produit",
-        ils: "ont produit"
+        ils: "ont produit",
       },
       imparfait: {
         je: "produisais",
@@ -30184,7 +30258,7 @@ export const mockWords: Word[] = [
         il: "produisait",
         nous: "produisions",
         vous: "produisiez",
-        ils: "produisaient"
+        ils: "produisaient",
       },
       futur: {
         je: "produirai",
@@ -30192,8 +30266,8 @@ export const mockWords: Word[] = [
         il: "produira",
         nous: "produirons",
         vous: "produirez",
-        ils: "produiront"
-      }
+        ils: "produiront",
+      },
     },
     examples: [
       {
@@ -30201,23 +30275,24 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Cette usine produit des pièces automobiles.",
         translationTr: "Bu fabrika otomobil parçaları üretiyor.",
-        translationEn: "This factory produces car parts."
+        translationEn: "This factory produces car parts.",
       },
       {
         form: "a produit",
         tense: "passéComposé",
         sentence: "Le film a produit un grand impact sur le public.",
         translationTr: "Film izleyici üzerinde büyük etki yarattı.",
-        translationEn: "The film produced a big impact on the audience."
+        translationEn: "The film produced a big impact on the audience.",
       },
       {
         form: "produira",
         tense: "futur",
-        sentence: "L’entreprise produira plus d’énergie verte l’année prochaine.",
+        sentence:
+          "L’entreprise produira plus d’énergie verte l’année prochaine.",
         translationTr: "Şirket gelecek yıl daha fazla yeşil enerji üretecek.",
-        translationEn: "The company will produce more green energy next year."
-      }
-    ]
+        translationEn: "The company will produce more green energy next year.",
+      },
+    ],
   },
   {
     id: "v15-22",
@@ -30225,7 +30300,8 @@ export const mockWords: Word[] = [
     turkish: "Affetmek / Bağışlamak",
     english: "To forgive / To pardon",
     pronunciation: "paʁ-dɔ-ne",
-    description: "Hem kişisel hem de dini ya da resmi bağlamlarda kullanılabilir. 'Pardonner à quelqu’un' kalıbı ile birlikte kullanılır.",
+    description:
+      "Hem kişisel hem de dini ya da resmi bağlamlarda kullanılabilir. 'Pardonner à quelqu’un' kalıbı ile birlikte kullanılır.",
     synonyms: ["excuser", "absoudre", "gracier"],
     image: null,
     category: "verbs",
@@ -30234,7 +30310,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pardonne",
@@ -30242,7 +30318,7 @@ export const mockWords: Word[] = [
         il: "pardonne",
         nous: "pardonnons",
         vous: "pardonnez",
-        ils: "pardonnent"
+        ils: "pardonnent",
       },
       passéComposé: {
         je: "ai pardonné",
@@ -30250,7 +30326,7 @@ export const mockWords: Word[] = [
         il: "a pardonné",
         nous: "avons pardonné",
         vous: "avez pardonné",
-        ils: "ont pardonné"
+        ils: "ont pardonné",
       },
       imparfait: {
         je: "pardonnai",
@@ -30258,7 +30334,7 @@ export const mockWords: Word[] = [
         il: "pardonnait",
         nous: "pardonnions",
         vous: "pardonniez",
-        ils: "pardonniaient"
+        ils: "pardonniaient",
       },
       futur: {
         je: "pardonnerai",
@@ -30266,8 +30342,8 @@ export const mockWords: Word[] = [
         il: "pardonnera",
         nous: "pardonnerons",
         vous: "pardonnerez",
-        ils: "pardonneront"
-      }
+        ils: "pardonneront",
+      },
     },
     examples: [
       {
@@ -30275,23 +30351,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je te pardonne pour ton erreur.",
         translationTr: "Hatanı affediyorum.",
-        translationEn: "I forgive you for your mistake."
+        translationEn: "I forgive you for your mistake.",
       },
       {
         form: "a pardonné",
         tense: "passéComposé",
         sentence: "Elle a pardonné à son frère.",
         translationTr: "Kardeşini affetti.",
-        translationEn: "She forgave her brother."
+        translationEn: "She forgave her brother.",
       },
       {
         form: "pardonneront",
         tense: "futur",
         sentence: "Ils te pardonneront un jour.",
         translationTr: "Bir gün seni affedecekler.",
-        translationEn: "They will forgive you one day."
-      }
-    ]
+        translationEn: "They will forgive you one day.",
+      },
+    ],
   },
   {
     id: "v15-23",
@@ -30299,7 +30375,8 @@ export const mockWords: Word[] = [
     turkish: "Avlamak / Kovmak / Kovalamak",
     english: "To hunt / To chase away / To expel",
     pronunciation: "ʃa-se",
-    description: "Hayvan avlamak, birini kovmak ya da düşünceleri uzaklaştırmak anlamında kullanılabilir. 'Chasser quelqu’un / quelque chose' kalıbı yaygındır.",
+    description:
+      "Hayvan avlamak, birini kovmak ya da düşünceleri uzaklaştırmak anlamında kullanılabilir. 'Chasser quelqu’un / quelque chose' kalıbı yaygındır.",
     synonyms: ["poursuivre", "expulser", "repousser"],
     image: null,
     category: "verbs",
@@ -30308,7 +30385,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "chasse",
@@ -30316,7 +30393,7 @@ export const mockWords: Word[] = [
         il: "chasse",
         nous: "chassons",
         vous: "chassez",
-        ils: "chassent"
+        ils: "chassent",
       },
       passéComposé: {
         je: "ai chassé",
@@ -30324,7 +30401,7 @@ export const mockWords: Word[] = [
         il: "a chassé",
         nous: "avons chassé",
         vous: "avez chassé",
-        ils: "ont chassé"
+        ils: "ont chassé",
       },
       imparfait: {
         je: "chassais",
@@ -30332,7 +30409,7 @@ export const mockWords: Word[] = [
         il: "chassait",
         nous: "chassions",
         vous: "chassiez",
-        ils: "chassaient"
+        ils: "chassaient",
       },
       futur: {
         je: "chasserai",
@@ -30340,8 +30417,8 @@ export const mockWords: Word[] = [
         il: "chassera",
         nous: "chasserons",
         vous: "chasserez",
-        ils: "chasseront"
-      }
+        ils: "chasseront",
+      },
     },
     examples: [
       {
@@ -30349,23 +30426,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Ils chassent dans la forêt chaque automne.",
         translationTr: "Her sonbahar ormanda avlanırlar.",
-        translationEn: "They hunt in the forest every autumn."
+        translationEn: "They hunt in the forest every autumn.",
       },
       {
         form: "a chassé",
         tense: "passéComposé",
         sentence: "Le roi a chassé l’ennemi du royaume.",
         translationTr: "Kral düşmanı krallıktan kovdu.",
-        translationEn: "The king drove the enemy out of the kingdom."
+        translationEn: "The king drove the enemy out of the kingdom.",
       },
       {
         form: "chassera",
         tense: "futur",
         sentence: "Le chat chassera les souris pendant la nuit.",
         translationTr: "Kedi gece boyunca fareleri kovalayacak.",
-        translationEn: "The cat will chase the mice during the night."
-      }
-    ]
+        translationEn: "The cat will chase the mice during the night.",
+      },
+    ],
   },
   {
     id: "v15-24",
@@ -30373,7 +30450,8 @@ export const mockWords: Word[] = [
     turkish: "Eğitmek / Sürüklemek / Yol açmak",
     english: "To train / To lead to / To drag along",
     pronunciation: "ɑ̃-tʁe-ne",
-    description: "Spor, askeri ve teknik bağlamlarda eğitmek anlamında, ayrıca olayların sonuç doğurması anlamında da kullanılır. Hem olumlu hem olumsuz çağrışımlı olabilir.",
+    description:
+      "Spor, askeri ve teknik bağlamlarda eğitmek anlamında, ayrıca olayların sonuç doğurması anlamında da kullanılır. Hem olumlu hem olumsuz çağrışımlı olabilir.",
     synonyms: ["former", "exercer", "provoquer"],
     image: null,
     category: "verbs",
@@ -30382,7 +30460,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "entraîne",
@@ -30390,7 +30468,7 @@ export const mockWords: Word[] = [
         il: "entraîne",
         nous: "entraînons",
         vous: "entraînez",
-        ils: "entraînent"
+        ils: "entraînent",
       },
       passéComposé: {
         je: "ai entraîné",
@@ -30398,7 +30476,7 @@ export const mockWords: Word[] = [
         il: "a entraîné",
         nous: "avons entraîné",
         vous: "avez entraîné",
-        ils: "ont entraîné"
+        ils: "ont entraîné",
       },
       imparfait: {
         je: "entraînais",
@@ -30406,7 +30484,7 @@ export const mockWords: Word[] = [
         il: "entraînait",
         nous: "entraînions",
         vous: "entraîniez",
-        ils: "entraînaient"
+        ils: "entraînaient",
       },
       futur: {
         je: "entraînerai",
@@ -30414,8 +30492,8 @@ export const mockWords: Word[] = [
         il: "entraînera",
         nous: "entraînerons",
         vous: "entraînerez",
-        ils: "entraîneront"
-      }
+        ils: "entraîneront",
+      },
     },
     examples: [
       {
@@ -30423,23 +30501,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il entraîne une équipe de jeunes joueurs.",
         translationTr: "Genç oyunculardan oluşan bir takımı çalıştırıyor.",
-        translationEn: "He trains a team of young players."
+        translationEn: "He trains a team of young players.",
       },
       {
         form: "a entraîné",
         tense: "passéComposé",
         sentence: "La négligence a entraîné un accident grave.",
         translationTr: "İhmalkarlık ciddi bir kazaya yol açtı.",
-        translationEn: "Negligence caused a serious accident."
+        translationEn: "Negligence caused a serious accident.",
       },
       {
         form: "entraînera",
         tense: "futur",
         sentence: "Ce changement entraînera des conséquences inattendues.",
         translationTr: "Bu değişiklik beklenmedik sonuçlara yol açacak.",
-        translationEn: "This change will lead to unexpected consequences."
-      }
-    ]
+        translationEn: "This change will lead to unexpected consequences.",
+      },
+    ],
   },
   {
     id: "v15-25",
@@ -30447,7 +30525,8 @@ export const mockWords: Word[] = [
     turkish: "Geri dönmek / Tekrar gelmek",
     english: "To come back / To return",
     pronunciation: "ʁə-və-niʁ",
-    description: "‘Venir’ fiilinden türetilmiş düzensiz bir fiildir. Yardımcı fiil olarak 'être' ile çekimlenir. Fiziksel olarak bir yere geri dönmek ya da bir konuyu tekrar gündeme getirmek anlamında kullanılır.",
+    description:
+      "‘Venir’ fiilinden türetilmiş düzensiz bir fiildir. Yardımcı fiil olarak 'être' ile çekimlenir. Fiziksel olarak bir yere geri dönmek ya da bir konuyu tekrar gündeme getirmek anlamında kullanılır.",
     synonyms: ["retourner", "rentrer", "faire demi-tour"],
     image: null,
     category: "verbs",
@@ -30456,7 +30535,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "reviens",
@@ -30464,7 +30543,7 @@ export const mockWords: Word[] = [
         il: "revient",
         nous: "revenons",
         vous: "revenez",
-        ils: "reviennent"
+        ils: "reviennent",
       },
       passéComposé: {
         je: "suis revenu",
@@ -30472,7 +30551,7 @@ export const mockWords: Word[] = [
         il: "est revenu",
         nous: "sommes revenus",
         vous: "êtes revenus",
-        ils: "sont revenus"
+        ils: "sont revenus",
       },
       imparfait: {
         je: "revenais",
@@ -30480,7 +30559,7 @@ export const mockWords: Word[] = [
         il: "revenait",
         nous: "revenions",
         vous: "reveniez",
-        ils: "revenaient"
+        ils: "revenaient",
       },
       futur: {
         je: "reviendrai",
@@ -30488,8 +30567,8 @@ export const mockWords: Word[] = [
         il: "reviendra",
         nous: "reviendrons",
         vous: "reviendrez",
-        ils: "reviendront"
-      }
+        ils: "reviendront",
+      },
     },
     examples: [
       {
@@ -30497,23 +30576,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle revient toujours à la même idée.",
         translationTr: "Hep aynı fikre geri dönüyor.",
-        translationEn: "She always comes back to the same idea."
+        translationEn: "She always comes back to the same idea.",
       },
       {
         form: "est revenu",
         tense: "passéComposé",
         sentence: "Il est revenu de vacances hier soir.",
         translationTr: "Tatil dönüşü dün gece geldi.",
-        translationEn: "He came back from vacation last night."
+        translationEn: "He came back from vacation last night.",
       },
       {
         form: "reviendra",
         tense: "futur",
         sentence: "Le train reviendra dans une heure.",
         translationTr: "Tren bir saat içinde geri dönecek.",
-        translationEn: "The train will come back in an hour."
-      }
-    ]
+        translationEn: "The train will come back in an hour.",
+      },
+    ],
   },
   {
     id: "v16-1",
@@ -30521,7 +30600,8 @@ export const mockWords: Word[] = [
     turkish: "Keşfetmek / Ortaya çıkarmak",
     english: "To discover / To uncover / To find out",
     pronunciation: "de-ku-vʁiʁ",
-    description: "Düzensiz bir fiildir. Yeni bir şeyi keşfetmek, gizli bir şeyi açığa çıkarmak veya bilgi edinmek anlamında kullanılır. ‘Couvrir’ fiilinden türetilmiştir.",
+    description:
+      "Düzensiz bir fiildir. Yeni bir şeyi keşfetmek, gizli bir şeyi açığa çıkarmak veya bilgi edinmek anlamında kullanılır. ‘Couvrir’ fiilinden türetilmiştir.",
     synonyms: ["trouver", "révéler", "déceler"],
     image: null,
     category: "verbs",
@@ -30530,7 +30610,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "découvre",
@@ -30538,7 +30618,7 @@ export const mockWords: Word[] = [
         il: "découvre",
         nous: "découvrons",
         vous: "découvrez",
-        ils: "découvrent"
+        ils: "découvrent",
       },
       passéComposé: {
         je: "ai découvert",
@@ -30546,7 +30626,7 @@ export const mockWords: Word[] = [
         il: "a découvert",
         nous: "avons découvert",
         vous: "avez découvert",
-        ils: "ont découvert"
+        ils: "ont découvert",
       },
       imparfait: {
         je: "découvrais",
@@ -30554,7 +30634,7 @@ export const mockWords: Word[] = [
         il: "découvrait",
         nous: "découvrions",
         vous: "découvriez",
-        ils: "découvraient"
+        ils: "découvraient",
       },
       futur: {
         je: "découvrirai",
@@ -30562,8 +30642,8 @@ export const mockWords: Word[] = [
         il: "découvrira",
         nous: "découvrirons",
         vous: "découvrirez",
-        ils: "découvriront"
-      }
+        ils: "découvriront",
+      },
     },
     examples: [
       {
@@ -30571,23 +30651,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je découvre un nouveau restaurant en ville.",
         translationTr: "Şehirde yeni bir restoran keşfediyorum.",
-        translationEn: "I’m discovering a new restaurant in town."
+        translationEn: "I’m discovering a new restaurant in town.",
       },
       {
         form: "a découvert",
         tense: "passéComposé",
         sentence: "Elle a découvert la vérité par hasard.",
         translationTr: "Gerçeği tesadüfen öğrendi.",
-        translationEn: "She discovered the truth by chance."
+        translationEn: "She discovered the truth by chance.",
       },
       {
         form: "découvrira",
         tense: "futur",
         sentence: "Il découvrira un talent caché.",
         translationTr: "Gizli bir yetenek keşfedecek.",
-        translationEn: "He will discover a hidden talent."
-      }
-    ]
+        translationEn: "He will discover a hidden talent.",
+      },
+    ],
   },
   {
     id: "v16-2",
@@ -30595,7 +30675,8 @@ export const mockWords: Word[] = [
     turkish: "Kilo vermek / Zayıflamak",
     english: "To lose weight / To slim down",
     pronunciation: "mɛ-ɡʁiʁ",
-    description: "Zayıflama veya kilo verme durumunu ifade eder. Düzenli -ir fiilidir. Fiziksel değişimin yanı sıra mecazi olarak etkisini kaybetmek anlamında da kullanılabilir.",
+    description:
+      "Zayıflama veya kilo verme durumunu ifade eder. Düzenli -ir fiilidir. Fiziksel değişimin yanı sıra mecazi olarak etkisini kaybetmek anlamında da kullanılabilir.",
     synonyms: ["mincir", "s’alléger", "dégringoler"],
     image: null,
     category: "verbs",
@@ -30604,7 +30685,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "maigris",
@@ -30612,7 +30693,7 @@ export const mockWords: Word[] = [
         il: "maigrit",
         nous: "maigrissons",
         vous: "maigrissez",
-        ils: "maigrissent"
+        ils: "maigrissent",
       },
       passéComposé: {
         je: "ai maigri",
@@ -30620,7 +30701,7 @@ export const mockWords: Word[] = [
         il: "a maigri",
         nous: "avons maigri",
         vous: "avez maigri",
-        ils: "ont maigri"
+        ils: "ont maigri",
       },
       imparfait: {
         je: "maigrissais",
@@ -30628,7 +30709,7 @@ export const mockWords: Word[] = [
         il: "maigrissait",
         nous: "maigrissions",
         vous: "maigrissiez",
-        ils: "maigrissaient"
+        ils: "maigrissaient",
       },
       futur: {
         je: "maigrirai",
@@ -30636,8 +30717,8 @@ export const mockWords: Word[] = [
         il: "maigrira",
         nous: "maigrirons",
         vous: "maigrirez",
-        ils: "maigriront"
-      }
+        ils: "maigriront",
+      },
     },
     examples: [
       {
@@ -30645,23 +30726,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je maigris petit à petit.",
         translationTr: "Yavaş yavaş kilo veriyorum.",
-        translationEn: "I am slowly losing weight."
+        translationEn: "I am slowly losing weight.",
       },
       {
         form: "a maigri",
         tense: "passéComposé",
         sentence: "Il a beaucoup maigri après sa maladie.",
         translationTr: "Hastalığından sonra çok zayıfladı.",
-        translationEn: "He lost a lot of weight after his illness."
+        translationEn: "He lost a lot of weight after his illness.",
       },
       {
         form: "maigrira",
         tense: "futur",
         sentence: "Elle maigrira avec ce nouveau régime.",
         translationTr: "Bu yeni diyetle zayıflayacak.",
-        translationEn: "She will lose weight with this new diet."
-      }
-    ]
+        translationEn: "She will lose weight with this new diet.",
+      },
+    ],
   },
   {
     id: "v16-3",
@@ -30669,7 +30750,8 @@ export const mockWords: Word[] = [
     turkish: "Yaymak / Uzatmak / Serip germek",
     english: "To spread / To extend / To hang out",
     pronunciation: "e-tɑ̃-dʁ",
-    description: "Fiziksel olarak bir nesneyi yaymak ya da zaman, etki alanı gibi soyut kavramları genişletmek anlamında kullanılır. Düzensiz bir -re fiilidir.",
+    description:
+      "Fiziksel olarak bir nesneyi yaymak ya da zaman, etki alanı gibi soyut kavramları genişletmek anlamında kullanılır. Düzensiz bir -re fiilidir.",
     synonyms: ["allonger", "déployer", "élargir"],
     image: null,
     category: "verbs",
@@ -30678,7 +30760,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "étends",
@@ -30686,7 +30768,7 @@ export const mockWords: Word[] = [
         il: "étend",
         nous: "étendons",
         vous: "étendez",
-        ils: "étendent"
+        ils: "étendent",
       },
       passéComposé: {
         je: "ai étendu",
@@ -30694,7 +30776,7 @@ export const mockWords: Word[] = [
         il: "a étendu",
         nous: "avons étendu",
         vous: "avez étendu",
-        ils: "ont étendu"
+        ils: "ont étendu",
       },
       imparfait: {
         je: "étendais",
@@ -30702,7 +30784,7 @@ export const mockWords: Word[] = [
         il: "étendait",
         nous: "étendions",
         vous: "étendiez",
-        ils: "étendaient"
+        ils: "étendaient",
       },
       futur: {
         je: "étendrai",
@@ -30710,8 +30792,8 @@ export const mockWords: Word[] = [
         il: "étendra",
         nous: "étendrons",
         vous: "étendrez",
-        ils: "étendront"
-      }
+        ils: "étendront",
+      },
     },
     examples: [
       {
@@ -30719,23 +30801,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "J’étends le linge au soleil.",
         translationTr: "Çamaşırları güneşe seriyorum.",
-        translationEn: "I’m hanging the laundry in the sun."
+        translationEn: "I’m hanging the laundry in the sun.",
       },
       {
         form: "a étendu",
         tense: "passéComposé",
         sentence: "Il a étendu sa couverture sur l’herbe.",
         translationTr: "Battaniyesini çimenlerin üstüne serdi.",
-        translationEn: "He spread his blanket on the grass."
+        translationEn: "He spread his blanket on the grass.",
       },
       {
         form: "étendra",
         tense: "futur",
         sentence: "L’entreprise étendra ses activités en Europe.",
         translationTr: "Şirket faaliyetlerini Avrupa'ya genişletecek.",
-        translationEn: "The company will expand its operations in Europe."
-      }
-    ]
+        translationEn: "The company will expand its operations in Europe.",
+      },
+    ],
   },
   {
     id: "v16-4",
@@ -30743,7 +30825,8 @@ export const mockWords: Word[] = [
     turkish: "Cevap vermek / Yanıtlamak",
     english: "To answer / To reply / To respond",
     pronunciation: "ʁe-pɔ̃-dʁ",
-    description: "Bir kişiye ya da bir soruya yanıt vermek anlamında kullanılır. ‘Répondre à’ yapısı ile kullanılır. Düzensiz bir -re fiilidir.",
+    description:
+      "Bir kişiye ya da bir soruya yanıt vermek anlamında kullanılır. ‘Répondre à’ yapısı ile kullanılır. Düzensiz bir -re fiilidir.",
     synonyms: ["réagir", "dire", "rétorquer"],
     image: null,
     category: "verbs",
@@ -30752,7 +30835,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "réponds",
@@ -30760,7 +30843,7 @@ export const mockWords: Word[] = [
         il: "répond",
         nous: "répondons",
         vous: "répondez",
-        ils: "répondent"
+        ils: "répondent",
       },
       passéComposé: {
         je: "ai répondu",
@@ -30768,7 +30851,7 @@ export const mockWords: Word[] = [
         il: "a répondu",
         nous: "avons répondu",
         vous: "avez répondu",
-        ils: "ont répondu"
+        ils: "ont répondu",
       },
       imparfait: {
         je: "répondais",
@@ -30776,7 +30859,7 @@ export const mockWords: Word[] = [
         il: "répondait",
         nous: "répondions",
         vous: "répondiez",
-        ils: "répondaient"
+        ils: "répondaient",
       },
       futur: {
         je: "répondrai",
@@ -30784,8 +30867,8 @@ export const mockWords: Word[] = [
         il: "répondra",
         nous: "répondrons",
         vous: "répondrez",
-        ils: "répondront"
-      }
+        ils: "répondront",
+      },
     },
     examples: [
       {
@@ -30793,23 +30876,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je réponds toujours aux e-mails rapidement.",
         translationTr: "E-postalara her zaman hızlı cevap veririm.",
-        translationEn: "I always respond to emails quickly."
+        translationEn: "I always respond to emails quickly.",
       },
       {
         form: "a répondu",
         tense: "passéComposé",
         sentence: "Elle a répondu à la question sans hésiter.",
         translationTr: "Soruyu tereddüt etmeden yanıtladı.",
-        translationEn: "She answered the question without hesitation."
+        translationEn: "She answered the question without hesitation.",
       },
       {
         form: "répondra",
         tense: "futur",
         sentence: "Il répondra demain à ta demande.",
         translationTr: "Yarın talebine cevap verecek.",
-        translationEn: "He will respond to your request tomorrow."
-      }
-    ]
+        translationEn: "He will respond to your request tomorrow.",
+      },
+    ],
   },
   {
     id: "v16-5",
@@ -30817,7 +30900,8 @@ export const mockWords: Word[] = [
     turkish: "Teşvik etmek / Cesaretlendirmek",
     english: "To encourage / To support / To cheer",
     pronunciation: "ɑ̃-ku-ʁa-ʒe",
-    description: "Birini moral olarak desteklemek ya da cesaret vermek için kullanılır. Kimi şahıslarda 'e' harfi aksan almaz ama 'g' harfi önünde 'e' ile yumuşatılır (nous encourageons).",
+    description:
+      "Birini moral olarak desteklemek ya da cesaret vermek için kullanılır. Kimi şahıslarda 'e' harfi aksan almaz ama 'g' harfi önünde 'e' ile yumuşatılır (nous encourageons).",
     synonyms: ["soutenir", "motiver", "stimuler"],
     image: null,
     category: "verbs",
@@ -30826,7 +30910,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "encourage",
@@ -30834,7 +30918,7 @@ export const mockWords: Word[] = [
         il: "encourage",
         nous: "encourageons",
         vous: "encouragez",
-        ils: "encouragent"
+        ils: "encouragent",
       },
       passéComposé: {
         je: "ai encouragé",
@@ -30842,7 +30926,7 @@ export const mockWords: Word[] = [
         il: "a encouragé",
         nous: "avons encouragé",
         vous: "avez encouragé",
-        ils: "ont encouragé"
+        ils: "ont encouragé",
       },
       imparfait: {
         je: "encourageais",
@@ -30850,7 +30934,7 @@ export const mockWords: Word[] = [
         il: "encourageait",
         nous: "encouragions",
         vous: "encouragiez",
-        ils: "encourageaient"
+        ils: "encourageaient",
       },
       futur: {
         je: "encouragerai",
@@ -30858,8 +30942,8 @@ export const mockWords: Word[] = [
         il: "encouragera",
         nous: "encouragerons",
         vous: "encouragerez",
-        ils: "encourageront"
-      }
+        ils: "encourageront",
+      },
     },
     examples: [
       {
@@ -30867,23 +30951,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je t’encourage à continuer tes efforts.",
         translationTr: "Çabalarını sürdürmen için seni cesaretlendiriyorum.",
-        translationEn: "I encourage you to keep trying."
+        translationEn: "I encourage you to keep trying.",
       },
       {
         form: "a encouragé",
         tense: "passéComposé",
         sentence: "Le professeur a encouragé ses élèves avant l’examen.",
         translationTr: "Öğretmen sınavdan önce öğrencilerini cesaretlendirdi.",
-        translationEn: "The teacher encouraged his students before the exam."
+        translationEn: "The teacher encouraged his students before the exam.",
       },
       {
         form: "encouragera",
         tense: "futur",
         sentence: "Le coach encouragera son équipe jusqu’à la fin.",
         translationTr: "Koç sonuna kadar takımını destekleyecek.",
-        translationEn: "The coach will encourage his team until the end."
-      }
-    ]
+        translationEn: "The coach will encourage his team until the end.",
+      },
+    ],
   },
   {
     id: "v16-6",
@@ -30891,7 +30975,8 @@ export const mockWords: Word[] = [
     turkish: "Şaşırtmak / Yakalamak (beklenmedik şekilde)",
     english: "To surprise / To catch off guard",
     pronunciation: "syʁ-pʁɑ̃-dʁ",
-    description: "Düzensiz fiildir. Genellikle ani bir olay veya beklenmedik bir durum karşısında duyulan şaşkınlığı ifade eder. Aynı zamanda birini habersiz yakalamak anlamında da kullanılır.",
+    description:
+      "Düzensiz fiildir. Genellikle ani bir olay veya beklenmedik bir durum karşısında duyulan şaşkınlığı ifade eder. Aynı zamanda birini habersiz yakalamak anlamında da kullanılır.",
     synonyms: ["étonner", "choquer", "interloquer"],
     image: null,
     category: "verbs",
@@ -30900,7 +30985,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "surprends",
@@ -30908,7 +30993,7 @@ export const mockWords: Word[] = [
         il: "surprend",
         nous: "surprenons",
         vous: "surprenez",
-        ils: "surprennent"
+        ils: "surprennent",
       },
       passéComposé: {
         je: "ai surpris",
@@ -30916,7 +31001,7 @@ export const mockWords: Word[] = [
         il: "a surpris",
         nous: "avons surpris",
         vous: "avez surpris",
-        ils: "ont surpris"
+        ils: "ont surpris",
       },
       imparfait: {
         je: "surprenais",
@@ -30924,7 +31009,7 @@ export const mockWords: Word[] = [
         il: "surprenait",
         nous: "surprenions",
         vous: "surpreniez",
-        ils: "surprenaient"
+        ils: "surprenaient",
       },
       futur: {
         je: "surprendrai",
@@ -30932,8 +31017,8 @@ export const mockWords: Word[] = [
         il: "surprendra",
         nous: "surprendrons",
         vous: "surprendrez",
-        ils: "surprendront"
-      }
+        ils: "surprendront",
+      },
     },
     examples: [
       {
@@ -30941,23 +31026,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Ton idée me surprend beaucoup.",
         translationTr: "Fikrin beni çok şaşırtıyor.",
-        translationEn: "Your idea surprises me a lot."
+        translationEn: "Your idea surprises me a lot.",
       },
       {
         form: "a surpris",
         tense: "passéComposé",
         sentence: "Il a surpris tout le monde avec son discours.",
         translationTr: "Konuşmasıyla herkesi şaşırttı.",
-        translationEn: "He surprised everyone with his speech."
+        translationEn: "He surprised everyone with his speech.",
       },
       {
         form: "surprendra",
         tense: "futur",
         sentence: "Cette nouvelle surprendra ses parents.",
         translationTr: "Bu haber ailesini şaşırtacak.",
-        translationEn: "This news will surprise his parents."
-      }
-    ]
+        translationEn: "This news will surprise his parents.",
+      },
+    ],
   },
   {
     id: "v16-7",
@@ -30965,7 +31050,8 @@ export const mockWords: Word[] = [
     turkish: "Düşünmek / Göz önünde bulundurmak / Saymak",
     english: "To consider / To regard / To take into account",
     pronunciation: "kɔ̃-si-de-ʁe",
-    description: "Karar verme sürecinde veya değerlendirme yaparken bir şeyi dikkate almak anlamında kullanılır. Bazı çekimlerde 'é' aksanına dikkat edilmelidir.",
+    description:
+      "Karar verme sürecinde veya değerlendirme yaparken bir şeyi dikkate almak anlamında kullanılır. Bazı çekimlerde 'é' aksanına dikkat edilmelidir.",
     synonyms: ["réfléchir à", "examiner", "estimer"],
     image: null,
     category: "verbs",
@@ -30974,7 +31060,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "considère",
@@ -30982,7 +31068,7 @@ export const mockWords: Word[] = [
         il: "considère",
         nous: "considérons",
         vous: "considérez",
-        ils: "considèrent"
+        ils: "considèrent",
       },
       passéComposé: {
         je: "ai considéré",
@@ -30990,7 +31076,7 @@ export const mockWords: Word[] = [
         il: "a considéré",
         nous: "avons considéré",
         vous: "avez considéré",
-        ils: "ont considéré"
+        ils: "ont considéré",
       },
       imparfait: {
         je: "considérais",
@@ -30998,7 +31084,7 @@ export const mockWords: Word[] = [
         il: "considérait",
         nous: "considérions",
         vous: "considériez",
-        ils: "considéraient"
+        ils: "considéraient",
       },
       futur: {
         je: "considérerai",
@@ -31006,8 +31092,8 @@ export const mockWords: Word[] = [
         il: "considérera",
         nous: "considérerons",
         vous: "considérerez",
-        ils: "considéreront"
-      }
+        ils: "considéreront",
+      },
     },
     examples: [
       {
@@ -31015,23 +31101,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je considère cette option comme la meilleure.",
         translationTr: "Bu seçeneği en iyisi olarak değerlendiriyorum.",
-        translationEn: "I consider this option the best."
+        translationEn: "I consider this option the best.",
       },
       {
         form: "a considéré",
         tense: "passéComposé",
         sentence: "Il a considéré toutes les possibilités.",
         translationTr: "Tüm olasılıkları göz önünde bulundurdu.",
-        translationEn: "He considered all the possibilities."
+        translationEn: "He considered all the possibilities.",
       },
       {
         form: "considérera",
         tense: "futur",
         sentence: "Elle considérera ta demande avec attention.",
         translationTr: "Talebini dikkatle değerlendirecek.",
-        translationEn: "She will consider your request carefully."
-      }
-    ]
+        translationEn: "She will consider your request carefully.",
+      },
+    ],
   },
   {
     id: "v16-8",
@@ -31039,7 +31125,8 @@ export const mockWords: Word[] = [
     turkish: "Sağlamak / Tedarik etmek / Vermek",
     english: "To provide / To supply / To furnish",
     pronunciation: "fuʁ-niʁ",
-    description: "Malzeme, bilgi, hizmet gibi somut ya da soyut şeyleri sağlamak anlamında kullanılır. 'Fournir à quelqu’un quelque chose' şeklinde yapı alır.",
+    description:
+      "Malzeme, bilgi, hizmet gibi somut ya da soyut şeyleri sağlamak anlamında kullanılır. 'Fournir à quelqu’un quelque chose' şeklinde yapı alır.",
     synonyms: ["approvisionner", "donner", "offrir"],
     image: null,
     category: "verbs",
@@ -31048,7 +31135,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "fournis",
@@ -31056,7 +31143,7 @@ export const mockWords: Word[] = [
         il: "fournit",
         nous: "fournissons",
         vous: "fournissez",
-        ils: "fournissent"
+        ils: "fournissent",
       },
       passéComposé: {
         je: "ai fourni",
@@ -31064,7 +31151,7 @@ export const mockWords: Word[] = [
         il: "a fourni",
         nous: "avons fourni",
         vous: "avez fourni",
-        ils: "ont fourni"
+        ils: "ont fourni",
       },
       imparfait: {
         je: "fournissais",
@@ -31072,7 +31159,7 @@ export const mockWords: Word[] = [
         il: "fournissait",
         nous: "fournissions",
         vous: "fournissiez",
-        ils: "fournissaient"
+        ils: "fournissaient",
       },
       futur: {
         je: "fournirai",
@@ -31080,8 +31167,8 @@ export const mockWords: Word[] = [
         il: "fournira",
         nous: "fournirons",
         vous: "fournirez",
-        ils: "fourniront"
-      }
+        ils: "fourniront",
+      },
     },
     examples: [
       {
@@ -31089,23 +31176,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Cette entreprise fournit l’électricité de la ville.",
         translationTr: "Bu şirket şehrin elektriğini sağlıyor.",
-        translationEn: "This company supplies the city's electricity."
+        translationEn: "This company supplies the city's electricity.",
       },
       {
         form: "a fourni",
         tense: "passéComposé",
         sentence: "Il a fourni toutes les informations nécessaires.",
         translationTr: "Gerekli tüm bilgileri sağladı.",
-        translationEn: "He provided all the necessary information."
+        translationEn: "He provided all the necessary information.",
       },
       {
         form: "fourniront",
         tense: "futur",
         sentence: "Ils fourniront les documents demain matin.",
         translationTr: "Belgeleri yarın sabah sağlayacaklar.",
-        translationEn: "They will provide the documents tomorrow morning."
-      }
-    ]
+        translationEn: "They will provide the documents tomorrow morning.",
+      },
+    ],
   },
   {
     id: "v16-9",
@@ -31113,7 +31200,8 @@ export const mockWords: Word[] = [
     turkish: "Abartmak / Şişirmek",
     english: "To exaggerate / To overstate",
     pronunciation: "ɛɡ-za-ʒe-ʁe",
-    description: "Olayları, duyguları ya da anlatımları olduğundan büyük göstermek için kullanılır. Yazımda 'é' aksanı tüm çekimlerde korunur.",
+    description:
+      "Olayları, duyguları ya da anlatımları olduğundan büyük göstermek için kullanılır. Yazımda 'é' aksanı tüm çekimlerde korunur.",
     synonyms: ["amplifier", "grossir", "dramatiser"],
     image: null,
     category: "verbs",
@@ -31122,7 +31210,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "exagère",
@@ -31130,7 +31218,7 @@ export const mockWords: Word[] = [
         il: "exagère",
         nous: "exagérons",
         vous: "exagérez",
-        ils: "exagèrent"
+        ils: "exagèrent",
       },
       passéComposé: {
         je: "ai exagéré",
@@ -31138,7 +31226,7 @@ export const mockWords: Word[] = [
         il: "a exagéré",
         nous: "avons exagéré",
         vous: "avez exagéré",
-        ils: "ont exagéré"
+        ils: "ont exagéré",
       },
       imparfait: {
         je: "exagérais",
@@ -31146,7 +31234,7 @@ export const mockWords: Word[] = [
         il: "exagérait",
         nous: "exagérions",
         vous: "exagériez",
-        ils: "exagéraient"
+        ils: "exagéraient",
       },
       futur: {
         je: "exagérerai",
@@ -31154,8 +31242,8 @@ export const mockWords: Word[] = [
         il: "exagérera",
         nous: "exagérerons",
         vous: "exagérerez",
-        ils: "exagéreront"
-      }
+        ils: "exagéreront",
+      },
     },
     examples: [
       {
@@ -31163,30 +31251,32 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Tu exagères toujours tes histoires.",
         translationTr: "Hikâyelerini hep abartırsın.",
-        translationEn: "You always exaggerate your stories."
+        translationEn: "You always exaggerate your stories.",
       },
       {
         form: "a exagéré",
         tense: "passéComposé",
         sentence: "Elle a exagéré la gravité de la situation.",
         translationTr: "Durumun ciddiyetini abarttı.",
-        translationEn: "She exaggerated the seriousness of the situation."
+        translationEn: "She exaggerated the seriousness of the situation.",
       },
       {
         form: "exagérera",
         tense: "futur",
         sentence: "Il exagérera sûrement encore une fois.",
         translationTr: "Muhtemelen yine abartacak.",
-        translationEn: "He will surely exaggerate again."
-      }
-    ]
-  },{
+        translationEn: "He will surely exaggerate again.",
+      },
+    ],
+  },
+  {
     id: "v16-10",
     french: "Parler",
     turkish: "Konuşmak",
     english: "To speak / To talk",
     pronunciation: "paʁ-le",
-    description: "Günlük konuşma dilinde en yaygın kullanılan fiillerden biridir. 'Parler à quelqu’un' ya da 'parler de quelque chose' gibi yapılarla kullanılır.",
+    description:
+      "Günlük konuşma dilinde en yaygın kullanılan fiillerden biridir. 'Parler à quelqu’un' ya da 'parler de quelque chose' gibi yapılarla kullanılır.",
     synonyms: ["discuter", "dire", "exprimer"],
     image: null,
     category: "verbs",
@@ -31195,7 +31285,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "parle",
@@ -31203,7 +31293,7 @@ export const mockWords: Word[] = [
         il: "parle",
         nous: "parlons",
         vous: "parlez",
-        ils: "parlent"
+        ils: "parlent",
       },
       passéComposé: {
         je: "ai parlé",
@@ -31211,7 +31301,7 @@ export const mockWords: Word[] = [
         il: "a parlé",
         nous: "avons parlé",
         vous: "avez parlé",
-        ils: "ont parlé"
+        ils: "ont parlé",
       },
       imparfait: {
         je: "parlais",
@@ -31219,7 +31309,7 @@ export const mockWords: Word[] = [
         il: "parlait",
         nous: "parlions",
         vous: "parliez",
-        ils: "parlaient"
+        ils: "parlaient",
       },
       futur: {
         je: "parlerai",
@@ -31227,8 +31317,8 @@ export const mockWords: Word[] = [
         il: "parlera",
         nous: "parlerons",
         vous: "parlerez",
-        ils: "parleront"
-      }
+        ils: "parleront",
+      },
     },
     examples: [
       {
@@ -31236,23 +31326,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je parle trois langues.",
         translationTr: "Üç dil konuşuyorum.",
-        translationEn: "I speak three languages."
+        translationEn: "I speak three languages.",
       },
       {
         form: "a parlé",
         tense: "passéComposé",
         sentence: "Elle a parlé avec son professeur.",
         translationTr: "Öğretmeniyle konuştu.",
-        translationEn: "She spoke with her teacher."
+        translationEn: "She spoke with her teacher.",
       },
       {
         form: "parleront",
         tense: "futur",
         sentence: "Ils parleront du projet demain.",
         translationTr: "Projeyi yarın konuşacaklar.",
-        translationEn: "They will talk about the project tomorrow."
-      }
-    ]
+        translationEn: "They will talk about the project tomorrow.",
+      },
+    ],
   },
   {
     id: "v16-11",
@@ -31260,7 +31350,8 @@ export const mockWords: Word[] = [
     turkish: "Zıplamak / Atlamak / Patlamak",
     english: "To jump / To skip / To explode",
     pronunciation: "so-te",
-    description: "Hem fiziksel sıçrama hem de sıra atlama ya da patlama anlamlarında kullanılır. Bağlama göre anlam değiştirir.",
+    description:
+      "Hem fiziksel sıçrama hem de sıra atlama ya da patlama anlamlarında kullanılır. Bağlama göre anlam değiştirir.",
     synonyms: ["bondir", "franchir", "exploser"],
     image: null,
     category: "verbs",
@@ -31269,7 +31360,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "saute",
@@ -31277,7 +31368,7 @@ export const mockWords: Word[] = [
         il: "saute",
         nous: "sautons",
         vous: "sautez",
-        ils: "sautent"
+        ils: "sautent",
       },
       passéComposé: {
         je: "ai sauté",
@@ -31285,7 +31376,7 @@ export const mockWords: Word[] = [
         il: "a sauté",
         nous: "avons sauté",
         vous: "avez sauté",
-        ils: "ont sauté"
+        ils: "ont sauté",
       },
       imparfait: {
         je: "sautais",
@@ -31293,7 +31384,7 @@ export const mockWords: Word[] = [
         il: "sautait",
         nous: "sautions",
         vous: "sautiez",
-        ils: "sautaient"
+        ils: "sautaient",
       },
       futur: {
         je: "sauterai",
@@ -31301,8 +31392,8 @@ export const mockWords: Word[] = [
         il: "sautera",
         nous: "sauterons",
         vous: "sauterez",
-        ils: "sauteront"
-      }
+        ils: "sauteront",
+      },
     },
     examples: [
       {
@@ -31310,23 +31401,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Le chat saute sur la table.",
         translationTr: "Kedi masanın üstüne zıplıyor.",
-        translationEn: "The cat jumps on the table."
+        translationEn: "The cat jumps on the table.",
       },
       {
         form: "a sauté",
         tense: "passéComposé",
         sentence: "Il a sauté le paragraphe suivant.",
         translationTr: "Sonraki paragrafı atladı.",
-        translationEn: "He skipped the next paragraph."
+        translationEn: "He skipped the next paragraph.",
       },
       {
         form: "sauteront",
         tense: "futur",
         sentence: "Les enfants sauteront dans le jardin.",
         translationTr: "Çocuklar bahçede zıplayacaklar.",
-        translationEn: "The children will jump in the garden."
-      }
-    ]
+        translationEn: "The children will jump in the garden.",
+      },
+    ],
   },
   {
     id: "v16-12",
@@ -31334,7 +31425,8 @@ export const mockWords: Word[] = [
     turkish: "Düşünmek / Sanmak",
     english: "To think / To believe",
     pronunciation: "pɑ̃-se",
-    description: "Zihinsel faaliyetleri ifade eder. 'Penser à' (bir şeyi düşünmek) ve 'penser que' (bir şeyi sanmak) gibi kullanımları vardır.",
+    description:
+      "Zihinsel faaliyetleri ifade eder. 'Penser à' (bir şeyi düşünmek) ve 'penser que' (bir şeyi sanmak) gibi kullanımları vardır.",
     synonyms: ["réfléchir", "croire", "supposer"],
     image: null,
     category: "verbs",
@@ -31343,7 +31435,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pense",
@@ -31351,7 +31443,7 @@ export const mockWords: Word[] = [
         il: "pense",
         nous: "pensons",
         vous: "pensez",
-        ils: "pensent"
+        ils: "pensent",
       },
       passéComposé: {
         je: "ai pensé",
@@ -31359,7 +31451,7 @@ export const mockWords: Word[] = [
         il: "a pensé",
         nous: "avons pensé",
         vous: "avez pensé",
-        ils: "ont pensé"
+        ils: "ont pensé",
       },
       imparfait: {
         je: "pensais",
@@ -31367,7 +31459,7 @@ export const mockWords: Word[] = [
         il: "pensait",
         nous: "pensions",
         vous: "pensiez",
-        ils: "pensaient"
+        ils: "pensaient",
       },
       futur: {
         je: "penserai",
@@ -31375,8 +31467,8 @@ export const mockWords: Word[] = [
         il: "pensera",
         nous: "penserons",
         vous: "penserez",
-        ils: "penseront"
-      }
+        ils: "penseront",
+      },
     },
     examples: [
       {
@@ -31384,23 +31476,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je pense à toi chaque jour.",
         translationTr: "Seni her gün düşünüyorum.",
-        translationEn: "I think about you every day."
+        translationEn: "I think about you every day.",
       },
       {
         form: "a pensé",
         tense: "passéComposé",
         sentence: "Elle a pensé que tu étais parti.",
         translationTr: "Senin gittiğini sandı.",
-        translationEn: "She thought you had left."
+        translationEn: "She thought you had left.",
       },
       {
         form: "penseront",
         tense: "futur",
         sentence: "Ils penseront à leurs erreurs.",
         translationTr: "Hatalarını düşünecekler.",
-        translationEn: "They will think about their mistakes."
-      }
-    ]
+        translationEn: "They will think about their mistakes.",
+      },
+    ],
   },
   {
     id: "v16-13",
@@ -31408,7 +31500,8 @@ export const mockWords: Word[] = [
     turkish: "Düzenlemek / Ayarlamak / Onarmak",
     english: "To arrange / To fix / To set up",
     pronunciation: "a-ʁɑ̃-ʒe",
-    description: "Hem somut nesneleri düzene koymak hem de sosyal ilişkileri düzeltmek için kullanılır. 'S'arranger' haliyle 'işleri yoluna koymak' anlamına gelir.",
+    description:
+      "Hem somut nesneleri düzene koymak hem de sosyal ilişkileri düzeltmek için kullanılır. 'S'arranger' haliyle 'işleri yoluna koymak' anlamına gelir.",
     synonyms: ["organiser", "préparer", "réparer"],
     image: null,
     category: "verbs",
@@ -31417,7 +31510,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "arrange",
@@ -31425,7 +31518,7 @@ export const mockWords: Word[] = [
         il: "arrange",
         nous: "arrangeons",
         vous: "arrangez",
-        ils: "arrangent"
+        ils: "arrangent",
       },
       passéComposé: {
         je: "ai arrangé",
@@ -31433,7 +31526,7 @@ export const mockWords: Word[] = [
         il: "a arrangé",
         nous: "avons arrangé",
         vous: "avez arrangé",
-        ils: "ont arrangé"
+        ils: "ont arrangé",
       },
       imparfait: {
         je: "arrangeais",
@@ -31441,7 +31534,7 @@ export const mockWords: Word[] = [
         il: "arrangeait",
         nous: "arrangions",
         vous: "arrangiez",
-        ils: "arrangeaient"
+        ils: "arrangeaient",
       },
       futur: {
         je: "arrangerai",
@@ -31449,8 +31542,8 @@ export const mockWords: Word[] = [
         il: "arrangera",
         nous: "arrangerons",
         vous: "arrangerez",
-        ils: "arrangeront"
-      }
+        ils: "arrangeront",
+      },
     },
     examples: [
       {
@@ -31458,23 +31551,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je range et j’arrange ma chambre chaque semaine.",
         translationTr: "Her hafta odamı toplar ve düzenlerim.",
-        translationEn: "I tidy and arrange my room every week."
+        translationEn: "I tidy and arrange my room every week.",
       },
       {
         form: "a arrangé",
         tense: "passéComposé",
         sentence: "Elle a arrangé un rendez-vous pour demain.",
         translationTr: "Yarın için bir randevu ayarladı.",
-        translationEn: "She arranged an appointment for tomorrow."
+        translationEn: "She arranged an appointment for tomorrow.",
       },
       {
         form: "arrangeront",
         tense: "futur",
         sentence: "Ils arrangeront la fête ce week-end.",
         translationTr: "Bu hafta sonu partiyi düzenleyecekler.",
-        translationEn: "They will arrange the party this weekend."
-      }
-    ]
+        translationEn: "They will arrange the party this weekend.",
+      },
+    ],
   },
   {
     id: "v16-14",
@@ -31482,7 +31575,8 @@ export const mockWords: Word[] = [
     turkish: "Keşfetmek / Araştırmak",
     english: "To explore / To investigate",
     pronunciation: "ɛk-splɔ-ʁe",
-    description: "Genellikle yeni yerler veya konular hakkında bilgi edinmek anlamında kullanılır. Hem fiziksel keşif hem de zihinsel araştırmalar için uygundur.",
+    description:
+      "Genellikle yeni yerler veya konular hakkında bilgi edinmek anlamında kullanılır. Hem fiziksel keşif hem de zihinsel araştırmalar için uygundur.",
     synonyms: ["découvrir", "analyser", "examiner"],
     image: null,
     category: "verbs",
@@ -31491,7 +31585,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "explore",
@@ -31499,7 +31593,7 @@ export const mockWords: Word[] = [
         il: "explore",
         nous: "explorons",
         vous: "explorez",
-        ils: "explorent"
+        ils: "explorent",
       },
       passéComposé: {
         je: "ai exploré",
@@ -31507,7 +31601,7 @@ export const mockWords: Word[] = [
         il: "a exploré",
         nous: "avons exploré",
         vous: "avez exploré",
-        ils: "ont exploré"
+        ils: "ont exploré",
       },
       imparfait: {
         je: "explorais",
@@ -31515,7 +31609,7 @@ export const mockWords: Word[] = [
         il: "explorait",
         nous: "explorions",
         vous: "exploriez",
-        ils: "exploraient"
+        ils: "exploraient",
       },
       futur: {
         je: "explorerai",
@@ -31523,8 +31617,8 @@ export const mockWords: Word[] = [
         il: "explorera",
         nous: "explorerons",
         vous: "explorerez",
-        ils: "exploreront"
-      }
+        ils: "exploreront",
+      },
     },
     examples: [
       {
@@ -31532,23 +31626,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il explore les montagnes du nord.",
         translationTr: "Kuzeydeki dağları keşfediyor.",
-        translationEn: "He is exploring the northern mountains."
+        translationEn: "He is exploring the northern mountains.",
       },
       {
         form: "a exploré",
         tense: "passéComposé",
         sentence: "L’équipe a exploré une nouvelle grotte.",
         translationTr: "Ekip yeni bir mağara keşfetti.",
-        translationEn: "The team explored a new cave."
+        translationEn: "The team explored a new cave.",
       },
       {
         form: "exploreront",
         tense: "futur",
         sentence: "Ils exploreront l’océan en été.",
         translationTr: "Yazın okyanusu keşfedecekler.",
-        translationEn: "They will explore the ocean in the summer."
-      }
-    ]
+        translationEn: "They will explore the ocean in the summer.",
+      },
+    ],
   },
   {
     id: "v16-15",
@@ -31556,7 +31650,8 @@ export const mockWords: Word[] = [
     turkish: "Öldürmek",
     english: "To kill",
     pronunciation: "tɥe",
-    description: "Fiziksel öldürmenin yanı sıra mecaz anlamda 'yormak, bitkin düşürmek' gibi anlamlarda da kullanılabilir. Örneğin: 'ce travail me tue'.",
+    description:
+      "Fiziksel öldürmenin yanı sıra mecaz anlamda 'yormak, bitkin düşürmek' gibi anlamlarda da kullanılabilir. Örneğin: 'ce travail me tue'.",
     synonyms: ["abattre", "assassiner", "éliminer"],
     image: null,
     category: "verbs",
@@ -31565,7 +31660,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tue",
@@ -31573,7 +31668,7 @@ export const mockWords: Word[] = [
         il: "tue",
         nous: "tuons",
         vous: "tuez",
-        ils: "tuent"
+        ils: "tuent",
       },
       passéComposé: {
         je: "ai tué",
@@ -31581,7 +31676,7 @@ export const mockWords: Word[] = [
         il: "a tué",
         nous: "avons tué",
         vous: "avez tué",
-        ils: "ont tué"
+        ils: "ont tué",
       },
       imparfait: {
         je: "tuais",
@@ -31589,7 +31684,7 @@ export const mockWords: Word[] = [
         il: "tuait",
         nous: "tuions",
         vous: "tuiez",
-        ils: "tuaient"
+        ils: "tuaient",
       },
       futur: {
         je: "tuerai",
@@ -31597,8 +31692,8 @@ export const mockWords: Word[] = [
         il: "tuera",
         nous: "tuerons",
         vous: "tuerez",
-        ils: "tueront"
-      }
+        ils: "tueront",
+      },
     },
     examples: [
       {
@@ -31606,23 +31701,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il tue le temps en lisant.",
         translationTr: "Zamanını kitap okuyarak öldürüyor.",
-        translationEn: "He kills time by reading."
+        translationEn: "He kills time by reading.",
       },
       {
         form: "a tué",
         tense: "passéComposé",
         sentence: "Le lion a tué sa proie.",
         translationTr: "Aslan avını öldürdü.",
-        translationEn: "The lion killed its prey."
+        translationEn: "The lion killed its prey.",
       },
       {
         form: "tuera",
         tense: "futur",
         sentence: "Ce poison tuera en quelques secondes.",
         translationTr: "Bu zehir birkaç saniye içinde öldürecek.",
-        translationEn: "This poison will kill in a few seconds."
-      }
-    ]
+        translationEn: "This poison will kill in a few seconds.",
+      },
+    ],
   },
   {
     id: "v16-16",
@@ -31630,7 +31725,8 @@ export const mockWords: Word[] = [
     turkish: "Barındırmak / Konaklamak",
     english: "To accommodate / To stay (lodging)",
     pronunciation: "lɔ-ʒe",
-    description: "Birinin bir yerde yaşamasını sağlamak ya da geçici olarak konaklamak anlamında kullanılır. 'Se loger' haliyle 'konaklamak' anlamına gelir.",
+    description:
+      "Birinin bir yerde yaşamasını sağlamak ya da geçici olarak konaklamak anlamında kullanılır. 'Se loger' haliyle 'konaklamak' anlamına gelir.",
     synonyms: ["héberger", "logement", "abriter"],
     image: null,
     category: "verbs",
@@ -31639,7 +31735,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "loge",
@@ -31647,7 +31743,7 @@ export const mockWords: Word[] = [
         il: "loge",
         nous: "logeons",
         vous: "logez",
-        ils: "logent"
+        ils: "logent",
       },
       passéComposé: {
         je: "ai logé",
@@ -31655,7 +31751,7 @@ export const mockWords: Word[] = [
         il: "a logé",
         nous: "avons logé",
         vous: "avez logé",
-        ils: "ont logé"
+        ils: "ont logé",
       },
       imparfait: {
         je: "logais",
@@ -31663,7 +31759,7 @@ export const mockWords: Word[] = [
         il: "logait",
         nous: "logions",
         vous: "logiez",
-        ils: "logeaient"
+        ils: "logeaient",
       },
       futur: {
         je: "logerai",
@@ -31671,8 +31767,8 @@ export const mockWords: Word[] = [
         il: "logera",
         nous: "logerons",
         vous: "logerez",
-        ils: "logeront"
-      }
+        ils: "logeront",
+      },
     },
     examples: [
       {
@@ -31680,23 +31776,24 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il loge chez ses parents.",
         translationTr: "Ailesinin evinde kalıyor.",
-        translationEn: "He is staying at his parents' house."
+        translationEn: "He is staying at his parents' house.",
       },
       {
         form: "a logé",
         tense: "passéComposé",
         sentence: "Nous avons logé dans un hôtel charmant.",
         translationTr: "Şirin bir otelde konakladık.",
-        translationEn: "We stayed in a charming hotel."
+        translationEn: "We stayed in a charming hotel.",
       },
       {
         form: "logeront",
         tense: "futur",
         sentence: "Ils logeront chez un ami pendant les vacances.",
         translationTr: "Tatil boyunca bir arkadaşlarının evinde kalacaklar.",
-        translationEn: "They will stay at a friend's house during the holidays."
-      }
-    ]
+        translationEn:
+          "They will stay at a friend's house during the holidays.",
+      },
+    ],
   },
   {
     id: "v16-17",
@@ -31704,7 +31801,8 @@ export const mockWords: Word[] = [
     turkish: "Duyurmak / Bildirmek",
     english: "To announce / To inform",
     pronunciation: "a-nɔ̃-se",
-    description: "Resmi ya da özel bir bilgiyi duyurmak amacıyla kullanılır. 'S'annoncer' haliyle de bir olayın yaklaşmakta olduğunu belirtir.",
+    description:
+      "Resmi ya da özel bir bilgiyi duyurmak amacıyla kullanılır. 'S'annoncer' haliyle de bir olayın yaklaşmakta olduğunu belirtir.",
     synonyms: ["déclarer", "informer", "proclamer"],
     image: null,
     category: "verbs",
@@ -31713,7 +31811,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "annonce",
@@ -31721,7 +31819,7 @@ export const mockWords: Word[] = [
         il: "annonce",
         nous: "annonçons",
         vous: "annoncez",
-        ils: "annoncent"
+        ils: "annoncent",
       },
       passéComposé: {
         je: "ai annoncé",
@@ -31729,7 +31827,7 @@ export const mockWords: Word[] = [
         il: "a annoncé",
         nous: "avons annoncé",
         vous: "avez annoncé",
-        ils: "ont annoncé"
+        ils: "ont annoncé",
       },
       imparfait: {
         je: "annonçais",
@@ -31737,7 +31835,7 @@ export const mockWords: Word[] = [
         il: "annonçait",
         nous: "annoncions",
         vous: "annonciez",
-        ils: "annonçaient"
+        ils: "annonçaient",
       },
       futur: {
         je: "annoncerai",
@@ -31745,8 +31843,8 @@ export const mockWords: Word[] = [
         il: "annoncera",
         nous: "annoncerons",
         vous: "annoncerez",
-        ils: "annonceront"
-      }
+        ils: "annonceront",
+      },
     },
     examples: [
       {
@@ -31754,23 +31852,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Le président annonce une nouvelle mesure.",
         translationTr: "Başkan yeni bir önlem duyuruyor.",
-        translationEn: "The president announces a new measure."
+        translationEn: "The president announces a new measure.",
       },
       {
         form: "a annoncé",
         tense: "passéComposé",
         sentence: "Elle a annoncé son départ hier.",
         translationTr: "Dün ayrılacağını duyurdu.",
-        translationEn: "She announced her departure yesterday."
+        translationEn: "She announced her departure yesterday.",
       },
       {
         form: "annoncera",
         tense: "futur",
         sentence: "Le maire annoncera les résultats demain.",
         translationTr: "Belediye başkanı sonuçları yarın açıklayacak.",
-        translationEn: "The mayor will announce the results tomorrow."
-      }
-    ]
+        translationEn: "The mayor will announce the results tomorrow.",
+      },
+    ],
   },
   {
     id: "v16-18",
@@ -31778,7 +31876,8 @@ export const mockWords: Word[] = [
     turkish: "Kontrol etmek / Denetlemek",
     english: "To control / To inspect",
     pronunciation: "kɔ̃-tʁo-le",
-    description: "Fiziksel, zihinsel veya yönetsel bir kontrol anlamına gelir. Bilet kontrolü, finansal denetim veya duyguların kontrolü gibi birçok bağlamda kullanılabilir.",
+    description:
+      "Fiziksel, zihinsel veya yönetsel bir kontrol anlamına gelir. Bilet kontrolü, finansal denetim veya duyguların kontrolü gibi birçok bağlamda kullanılabilir.",
     synonyms: ["vérifier", "superviser", "maîtriser"],
     image: null,
     category: "verbs",
@@ -31787,7 +31886,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "contrôle",
@@ -31795,7 +31894,7 @@ export const mockWords: Word[] = [
         il: "contrôle",
         nous: "contrôlons",
         vous: "contrôlez",
-        ils: "contrôlent"
+        ils: "contrôlent",
       },
       passéComposé: {
         je: "ai contrôlé",
@@ -31803,7 +31902,7 @@ export const mockWords: Word[] = [
         il: "a contrôlé",
         nous: "avons contrôlé",
         vous: "avez contrôlé",
-        ils: "ont contrôlé"
+        ils: "ont contrôlé",
       },
       imparfait: {
         je: "contrôlais",
@@ -31811,7 +31910,7 @@ export const mockWords: Word[] = [
         il: "contrôlait",
         nous: "contrôlions",
         vous: "contrôliez",
-        ils: "contrôlaient"
+        ils: "contrôlaient",
       },
       futur: {
         je: "contrôlerai",
@@ -31819,8 +31918,8 @@ export const mockWords: Word[] = [
         il: "contrôlera",
         nous: "contrôlerons",
         vous: "contrôlerez",
-        ils: "contrôleront"
-      }
+        ils: "contrôleront",
+      },
     },
     examples: [
       {
@@ -31828,23 +31927,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il contrôle toutes les factures.",
         translationTr: "Tüm faturaları denetliyor.",
-        translationEn: "He controls all the invoices."
+        translationEn: "He controls all the invoices.",
       },
       {
         form: "a contrôlé",
         tense: "passéComposé",
         sentence: "La police a contrôlé les papiers des conducteurs.",
         translationTr: "Polis, sürücülerin evraklarını kontrol etti.",
-        translationEn: "The police checked the drivers' documents."
+        translationEn: "The police checked the drivers' documents.",
       },
       {
         form: "contrôlera",
         tense: "futur",
         sentence: "L’enseignant contrôlera les devoirs demain.",
         translationTr: "Öğretmen yarın ödevleri kontrol edecek.",
-        translationEn: "The teacher will check the homework tomorrow."
-      }
-    ]
+        translationEn: "The teacher will check the homework tomorrow.",
+      },
+    ],
   },
   {
     id: "v16-19",
@@ -31852,7 +31951,8 @@ export const mockWords: Word[] = [
     turkish: "Tehdit etmek",
     english: "To threaten",
     pronunciation: "mə-na-se",
-    description: "Bir kişiyi korkutarak istediğini yaptırmaya çalışmak anlamında kullanılır. Hem fiziksel hem de psikolojik tehditlerde kullanılabilir.",
+    description:
+      "Bir kişiyi korkutarak istediğini yaptırmaya çalışmak anlamında kullanılır. Hem fiziksel hem de psikolojik tehditlerde kullanılabilir.",
     synonyms: ["intimider", "effrayer", "terroriser"],
     image: null,
     category: "verbs",
@@ -31861,7 +31961,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "menace",
@@ -31869,7 +31969,7 @@ export const mockWords: Word[] = [
         il: "menace",
         nous: "menaçons",
         vous: "menacez",
-        ils: "menacent"
+        ils: "menacent",
       },
       passéComposé: {
         je: "ai menacé",
@@ -31877,7 +31977,7 @@ export const mockWords: Word[] = [
         il: "a menacé",
         nous: "avons menacé",
         vous: "avez menacé",
-        ils: "ont menacé"
+        ils: "ont menacé",
       },
       imparfait: {
         je: "menaçais",
@@ -31885,7 +31985,7 @@ export const mockWords: Word[] = [
         il: "menaçait",
         nous: "menacions",
         vous: "menaciez",
-        ils: "menaçaient"
+        ils: "menaçaient",
       },
       futur: {
         je: "menacerai",
@@ -31893,8 +31993,8 @@ export const mockWords: Word[] = [
         il: "menacera",
         nous: "menacerons",
         vous: "menacerez",
-        ils: "menaceront"
-      }
+        ils: "menaceront",
+      },
     },
     examples: [
       {
@@ -31902,23 +32002,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il menace de tout révéler.",
         translationTr: "Her şeyi ifşa etmekle tehdit ediyor.",
-        translationEn: "He threatens to reveal everything."
+        translationEn: "He threatens to reveal everything.",
       },
       {
         form: "a menacé",
         tense: "passéComposé",
         sentence: "Le voleur a menacé le caissier avec une arme.",
         translationTr: "Hırsız kasiyeri silahla tehdit etti.",
-        translationEn: "The thief threatened the cashier with a weapon."
+        translationEn: "The thief threatened the cashier with a weapon.",
       },
       {
         form: "menacera",
         tense: "futur",
         sentence: "Elle menacera de partir si on insiste.",
         translationTr: "Israr edersek gitmekle tehdit edecek.",
-        translationEn: "She will threaten to leave if we insist."
-      }
-    ]
+        translationEn: "She will threaten to leave if we insist.",
+      },
+    ],
   },
   {
     id: "v16-20",
@@ -31926,7 +32026,8 @@ export const mockWords: Word[] = [
     turkish: "Kayak yapmak",
     english: "To ski",
     pronunciation: "ski-je",
-    description: "Dağlık alanlarda kar üstünde yapılan kayak sporunu ifade eder. Yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Dağlık alanlarda kar üstünde yapılan kayak sporunu ifade eder. Yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["faire du ski", "descendre les pistes"],
     image: null,
     category: "verbs",
@@ -31935,7 +32036,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "skie",
@@ -31943,7 +32044,7 @@ export const mockWords: Word[] = [
         il: "skie",
         nous: "skions",
         vous: "skiez",
-        ils: "skient"
+        ils: "skient",
       },
       passéComposé: {
         je: "ai skié",
@@ -31951,7 +32052,7 @@ export const mockWords: Word[] = [
         il: "a skié",
         nous: "avons skié",
         vous: "avez skié",
-        ils: "ont skié"
+        ils: "ont skié",
       },
       imparfait: {
         je: "skiais",
@@ -31959,7 +32060,7 @@ export const mockWords: Word[] = [
         il: "skiait",
         nous: "skiions",
         vous: "skiiez",
-        ils: "skiaient"
+        ils: "skiaient",
       },
       futur: {
         je: "skierai",
@@ -31967,8 +32068,8 @@ export const mockWords: Word[] = [
         il: "skiera",
         nous: "skierons",
         vous: "skierez",
-        ils: "skieront"
-      }
+        ils: "skieront",
+      },
     },
     examples: [
       {
@@ -31976,23 +32077,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je skie chaque hiver dans les Alpes.",
         translationTr: "Her kış Alplerde kayak yaparım.",
-        translationEn: "I ski every winter in the Alps."
+        translationEn: "I ski every winter in the Alps.",
       },
       {
         form: "a skié",
         tense: "passéComposé",
         sentence: "Elle a skié toute la journée.",
         translationTr: "Bütün gün kayak yaptı.",
-        translationEn: "She skied all day."
+        translationEn: "She skied all day.",
       },
       {
         form: "skieront",
         tense: "futur",
         sentence: "Ils skieront pendant les vacances de Noël.",
         translationTr: "Noel tatilinde kayak yapacaklar.",
-        translationEn: "They will ski during the Christmas holidays."
-      }
-    ]
+        translationEn: "They will ski during the Christmas holidays.",
+      },
+    ],
   },
   {
     id: "v16-21",
@@ -32000,7 +32101,8 @@ export const mockWords: Word[] = [
     turkish: "Katılmak / Yardım etmek",
     english: "To attend / To assist",
     pronunciation: "a-sis-te",
-    description: "‘Assister à’ ile bir etkinliğe katılmak, ‘assister quelqu’un’ ile yardım etmek anlamında kullanılır. Bağlama göre anlamı değişebilir.",
+    description:
+      "‘Assister à’ ile bir etkinliğe katılmak, ‘assister quelqu’un’ ile yardım etmek anlamında kullanılır. Bağlama göre anlamı değişebilir.",
     synonyms: ["participer", "aider", "soutenir"],
     image: null,
     category: "verbs",
@@ -32009,7 +32111,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "assiste",
@@ -32017,7 +32119,7 @@ export const mockWords: Word[] = [
         il: "assiste",
         nous: "assistons",
         vous: "assistez",
-        ils: "assistent"
+        ils: "assistent",
       },
       passéComposé: {
         je: "ai assisté",
@@ -32025,7 +32127,7 @@ export const mockWords: Word[] = [
         il: "a assisté",
         nous: "avons assisté",
         vous: "avez assisté",
-        ils: "ont assisté"
+        ils: "ont assisté",
       },
       imparfait: {
         je: "assistais",
@@ -32033,7 +32135,7 @@ export const mockWords: Word[] = [
         il: "assistait",
         nous: "assistions",
         vous: "assistiez",
-        ils: "assistaient"
+        ils: "assistaient",
       },
       futur: {
         je: "assisterai",
@@ -32041,8 +32143,8 @@ export const mockWords: Word[] = [
         il: "assistera",
         nous: "assisterons",
         vous: "assisterez",
-        ils: "assisteront"
-      }
+        ils: "assisteront",
+      },
     },
     examples: [
       {
@@ -32050,23 +32152,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il assiste à une conférence importante.",
         translationTr: "Önemli bir konferansa katılıyor.",
-        translationEn: "He is attending an important conference."
+        translationEn: "He is attending an important conference.",
       },
       {
         form: "a assisté",
         tense: "passéComposé",
         sentence: "J’ai assisté mon ami pendant son déménagement.",
         translationTr: "Arkadaşımın taşınmasına yardım ettim.",
-        translationEn: "I assisted my friend during his move."
+        translationEn: "I assisted my friend during his move.",
       },
       {
         form: "assisteront",
         tense: "futur",
         sentence: "Ils assisteront au mariage ce week-end.",
         translationTr: "Bu hafta sonu düğüne katılacaklar.",
-        translationEn: "They will attend the wedding this weekend."
-      }
-    ]
+        translationEn: "They will attend the wedding this weekend.",
+      },
+    ],
   },
   {
     id: "v16-22",
@@ -32074,7 +32176,8 @@ export const mockWords: Word[] = [
     turkish: "Sallamak / Sarsmak",
     english: "To shake",
     pronunciation: "sə-ku-e",
-    description: "Fiziksel olarak bir nesneyi ya da kişiyi sarsmak veya duygusal olarak etkilenmek anlamında kullanılır. Örneğin: 'être secoué par une nouvelle'.",
+    description:
+      "Fiziksel olarak bir nesneyi ya da kişiyi sarsmak veya duygusal olarak etkilenmek anlamında kullanılır. Örneğin: 'être secoué par une nouvelle'.",
     synonyms: ["agiter", "remuer", "bouger"],
     image: null,
     category: "verbs",
@@ -32083,7 +32186,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "secoue",
@@ -32091,7 +32194,7 @@ export const mockWords: Word[] = [
         il: "secoue",
         nous: "secouons",
         vous: "secouez",
-        ils: "secouent"
+        ils: "secouent",
       },
       passéComposé: {
         je: "ai secoué",
@@ -32099,7 +32202,7 @@ export const mockWords: Word[] = [
         il: "a secoué",
         nous: "avons secoué",
         vous: "avez secoué",
-        ils: "ont secoué"
+        ils: "ont secoué",
       },
       imparfait: {
         je: "secouais",
@@ -32107,7 +32210,7 @@ export const mockWords: Word[] = [
         il: "secouait",
         nous: "secouions",
         vous: "secouiez",
-        ils: "secouaient"
+        ils: "secouaient",
       },
       futur: {
         je: "secouerai",
@@ -32115,8 +32218,8 @@ export const mockWords: Word[] = [
         il: "secouera",
         nous: "secouerons",
         vous: "secouerez",
-        ils: "secoueront"
-      }
+        ils: "secoueront",
+      },
     },
     examples: [
       {
@@ -32124,23 +32227,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle secoue la bouteille avant de l’ouvrir.",
         translationTr: "Şişeyi açmadan önce sallıyor.",
-        translationEn: "She shakes the bottle before opening it."
+        translationEn: "She shakes the bottle before opening it.",
       },
       {
         form: "a secoué",
         tense: "passéComposé",
         sentence: "Le tremblement de terre a secoué tout le village.",
         translationTr: "Deprem tüm köyü sarstı.",
-        translationEn: "The earthquake shook the entire village."
+        translationEn: "The earthquake shook the entire village.",
       },
       {
         form: "secouera",
         tense: "futur",
         sentence: "Le scandale secouera le gouvernement.",
         translationTr: "Skandal hükümeti sarsacak.",
-        translationEn: "The scandal will shake the government."
-      }
-    ]
+        translationEn: "The scandal will shake the government.",
+      },
+    ],
   },
   {
     id: "v16-23",
@@ -32148,7 +32251,8 @@ export const mockWords: Word[] = [
     turkish: "Tanımlamak / Betimlemek",
     english: "To describe",
     pronunciation: "de-kʁiʁ",
-    description: "Bir kişi, nesne ya da durumu ayrıntılı şekilde anlatmak için kullanılır. Düzensiz fiildir. Yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Bir kişi, nesne ya da durumu ayrıntılı şekilde anlatmak için kullanılır. Düzensiz fiildir. Yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["expliquer", "illustrer", "présenter"],
     image: null,
     category: "verbs",
@@ -32157,7 +32261,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "décris",
@@ -32165,7 +32269,7 @@ export const mockWords: Word[] = [
         il: "décrit",
         nous: "décrivons",
         vous: "décrivez",
-        ils: "décrivent"
+        ils: "décrivent",
       },
       passéComposé: {
         je: "ai décrit",
@@ -32173,7 +32277,7 @@ export const mockWords: Word[] = [
         il: "a décrit",
         nous: "avons décrit",
         vous: "avez décrit",
-        ils: "ont décrit"
+        ils: "ont décrit",
       },
       imparfait: {
         je: "décrivais",
@@ -32181,7 +32285,7 @@ export const mockWords: Word[] = [
         il: "décrivait",
         nous: "décrivions",
         vous: "décriviez",
-        ils: "décrivaient"
+        ils: "décrivaient",
       },
       futur: {
         je: "décrirai",
@@ -32189,8 +32293,8 @@ export const mockWords: Word[] = [
         il: "décrira",
         nous: "décrirons",
         vous: "décrirez",
-        ils: "décriront"
-      }
+        ils: "décriront",
+      },
     },
     examples: [
       {
@@ -32198,23 +32302,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je décris la scène avec précision.",
         translationTr: "Sahneyi ayrıntılı şekilde betimliyorum.",
-        translationEn: "I describe the scene precisely."
+        translationEn: "I describe the scene precisely.",
       },
       {
         form: "a décrit",
         tense: "passéComposé",
         sentence: "Elle a décrit le suspect à la police.",
         translationTr: "Şüpheliyi polise tarif etti.",
-        translationEn: "She described the suspect to the police."
+        translationEn: "She described the suspect to the police.",
       },
       {
         form: "décrira",
         tense: "futur",
         sentence: "Il décrira son expérience dans son livre.",
         translationTr: "Deneyimini kitabında betimleyecek.",
-        translationEn: "He will describe his experience in his book."
-      }
-    ]
+        translationEn: "He will describe his experience in his book.",
+      },
+    ],
   },
   {
     id: "v16-24",
@@ -32222,7 +32326,8 @@ export const mockWords: Word[] = [
     turkish: "Dikmek / Ekmek / Saplamak",
     english: "To plant / To stick / To crash (informal, software)",
     pronunciation: "plɑ̃-te",
-    description: "Fiziksel olarak bir şeyi toprağa ya da yüzeye yerleştirmek. Bilgisayar diliyle 'sistemin çökmesi' anlamında mecazî kullanımı da vardır.",
+    description:
+      "Fiziksel olarak bir şeyi toprağa ya da yüzeye yerleştirmek. Bilgisayar diliyle 'sistemin çökmesi' anlamında mecazî kullanımı da vardır.",
     synonyms: ["enraciner", "insérer", "installer"],
     image: null,
     category: "verbs",
@@ -32231,7 +32336,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "plante",
@@ -32239,7 +32344,7 @@ export const mockWords: Word[] = [
         il: "plante",
         nous: "plantons",
         vous: "plantez",
-        ils: "plantent"
+        ils: "plantent",
       },
       passéComposé: {
         je: "ai planté",
@@ -32247,7 +32352,7 @@ export const mockWords: Word[] = [
         il: "a planté",
         nous: "avons planté",
         vous: "avez planté",
-        ils: "ont planté"
+        ils: "ont planté",
       },
       imparfait: {
         je: "plantais",
@@ -32255,7 +32360,7 @@ export const mockWords: Word[] = [
         il: "plantait",
         nous: "plantions",
         vous: "plantiez",
-        ils: "plantaient"
+        ils: "plantaient",
       },
       futur: {
         je: "planterai",
@@ -32263,8 +32368,8 @@ export const mockWords: Word[] = [
         il: "plantera",
         nous: "planterons",
         vous: "planterez",
-        ils: "planteront"
-      }
+        ils: "planteront",
+      },
     },
     examples: [
       {
@@ -32272,23 +32377,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il plante des tomates dans son jardin.",
         translationTr: "Bahçesine domates ekiyor.",
-        translationEn: "He plants tomatoes in his garden."
+        translationEn: "He plants tomatoes in his garden.",
       },
       {
         form: "a planté",
         tense: "passéComposé",
         sentence: "Elle a planté un arbre ce matin.",
         translationTr: "Bu sabah bir ağaç dikti.",
-        translationEn: "She planted a tree this morning."
+        translationEn: "She planted a tree this morning.",
       },
       {
         form: "planteront",
         tense: "futur",
         sentence: "Ils planteront des fleurs au printemps.",
         translationTr: "İlkbaharda çiçek dikecekler.",
-        translationEn: "They will plant flowers in spring."
-      }
-    ]
+        translationEn: "They will plant flowers in spring.",
+      },
+    ],
   },
   {
     id: "v16-25",
@@ -32296,7 +32401,8 @@ export const mockWords: Word[] = [
     turkish: "Yazmak / Kaleme almak",
     english: "To write / To draft / To compose",
     pronunciation: "ʁe-di-ʒe",
-    description: "Resmî veya yapısal olarak yazılı metin oluşturmak anlamında kullanılır. 'Rédiger un article', 'rédiger un rapport' gibi kalıplaşmış kullanımlar yaygındır.",
+    description:
+      "Resmî veya yapısal olarak yazılı metin oluşturmak anlamında kullanılır. 'Rédiger un article', 'rédiger un rapport' gibi kalıplaşmış kullanımlar yaygındır.",
     synonyms: ["écrire", "composer", "formuler"],
     image: null,
     category: "verbs",
@@ -32305,7 +32411,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "rédige",
@@ -32313,7 +32419,7 @@ export const mockWords: Word[] = [
         il: "rédige",
         nous: "rédigeons",
         vous: "rédigez",
-        ils: "rédigent"
+        ils: "rédigent",
       },
       passéComposé: {
         je: "ai rédigé",
@@ -32321,7 +32427,7 @@ export const mockWords: Word[] = [
         il: "a rédigé",
         nous: "avons rédigé",
         vous: "avez rédigé",
-        ils: "ont rédigé"
+        ils: "ont rédigé",
       },
       imparfait: {
         je: "rédigeais",
@@ -32329,7 +32435,7 @@ export const mockWords: Word[] = [
         il: "rédigeait",
         nous: "rédigions",
         vous: "rédigiez",
-        ils: "rédigeaient"
+        ils: "rédigeaient",
       },
       futur: {
         je: "rédigerai",
@@ -32337,8 +32443,8 @@ export const mockWords: Word[] = [
         il: "rédigera",
         nous: "rédigerons",
         vous: "rédigerez",
-        ils: "rédigeront"
-      }
+        ils: "rédigeront",
+      },
     },
     examples: [
       {
@@ -32346,21 +32452,21 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je rédige un article pour le journal.",
         translationTr: "Gazete için bir makale yazıyorum.",
-        translationEn: "I am writing an article for the newspaper."
+        translationEn: "I am writing an article for the newspaper.",
       },
       {
         form: "a rédigé",
         tense: "passéComposé",
         sentence: "Elle a rédigé une lettre de motivation.",
         translationTr: "Bir motivasyon mektubu kaleme aldı.",
-        translationEn: "She drafted a cover letter."
+        translationEn: "She drafted a cover letter.",
       },
       {
         form: "rédigeront",
         tense: "futur",
         sentence: "Les étudiants rédigeront un rapport final.",
         translationTr: "Öğrenciler bir final raporu yazacak.",
-        translationEn: "The students will write a final report."
+        translationEn: "The students will write a final report.",
       },
     ],
   },
@@ -32370,7 +32476,8 @@ export const mockWords: Word[] = [
     turkish: "Yönetmek / İdare etmek",
     english: "To manage / To handle",
     pronunciation: "ʒe-ʁe",
-    description: "İşleri, zamanı, kaynakları ya da duyguları idare etmek anlamında kullanılır. 'Gérer une entreprise', 'gérer son stress' gibi kullanımları yaygındır.",
+    description:
+      "İşleri, zamanı, kaynakları ya da duyguları idare etmek anlamında kullanılır. 'Gérer une entreprise', 'gérer son stress' gibi kullanımları yaygındır.",
     synonyms: ["administrer", "organiser", "diriger"],
     image: null,
     category: "verbs",
@@ -32379,7 +32486,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "gère",
@@ -32387,7 +32494,7 @@ export const mockWords: Word[] = [
         il: "gère",
         nous: "gérons",
         vous: "gérez",
-        ils: "gèrent"
+        ils: "gèrent",
       },
       passéComposé: {
         je: "ai géré",
@@ -32395,7 +32502,7 @@ export const mockWords: Word[] = [
         il: "a géré",
         nous: "avons géré",
         vous: "avez géré",
-        ils: "ont géré"
+        ils: "ont géré",
       },
       imparfait: {
         je: "gérais",
@@ -32403,7 +32510,7 @@ export const mockWords: Word[] = [
         il: "gérait",
         nous: "gérions",
         vous: "gériez",
-        ils: "géraient"
+        ils: "géraient",
       },
       futur: {
         je: "gérerai",
@@ -32411,8 +32518,8 @@ export const mockWords: Word[] = [
         il: "gérera",
         nous: "gérerons",
         vous: "gérerez",
-        ils: "géreront"
-      }
+        ils: "géreront",
+      },
     },
     examples: [
       {
@@ -32420,23 +32527,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il gère une petite entreprise.",
         translationTr: "Küçük bir işletmeyi yönetiyor.",
-        translationEn: "He manages a small business."
+        translationEn: "He manages a small business.",
       },
       {
         form: "a géré",
         tense: "passéComposé",
         sentence: "Elle a bien géré la situation.",
         translationTr: "Durumu iyi yönetti.",
-        translationEn: "She handled the situation well."
+        translationEn: "She handled the situation well.",
       },
       {
         form: "géreront",
         tense: "futur",
         sentence: "Ils géreront le projet ensemble.",
         translationTr: "Projeyi birlikte yönetecekler.",
-        translationEn: "They will manage the project together."
-      }
-    ]
+        translationEn: "They will manage the project together.",
+      },
+    ],
   },
   {
     id: "v17-2",
@@ -32444,7 +32551,8 @@ export const mockWords: Word[] = [
     turkish: "Kaçırmak / Eksik olmak / Özlemek",
     english: "To miss / To lack",
     pronunciation: "mɑ̃-ke",
-    description: "Yapısına göre anlamı değişir: 'manquer un train' (treni kaçırmak), 'manquer de respect' (saygısızlık etmek), 'tu me manques' (seni özlüyorum) gibi çok yönlü bir fiildir.",
+    description:
+      "Yapısına göre anlamı değişir: 'manquer un train' (treni kaçırmak), 'manquer de respect' (saygısızlık etmek), 'tu me manques' (seni özlüyorum) gibi çok yönlü bir fiildir.",
     synonyms: ["rater", "louper", "faire défaut"],
     image: null,
     category: "verbs",
@@ -32453,7 +32561,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "manque",
@@ -32461,7 +32569,7 @@ export const mockWords: Word[] = [
         il: "manque",
         nous: "manquons",
         vous: "manquez",
-        ils: "manquent"
+        ils: "manquent",
       },
       passéComposé: {
         je: "ai manqué",
@@ -32469,7 +32577,7 @@ export const mockWords: Word[] = [
         il: "a manqué",
         nous: "avons manqué",
         vous: "avez manqué",
-        ils: "ont manqué"
+        ils: "ont manqué",
       },
       imparfait: {
         je: "manquais",
@@ -32477,7 +32585,7 @@ export const mockWords: Word[] = [
         il: "manquait",
         nous: "manquions",
         vous: "manquiez",
-        ils: "manquaient"
+        ils: "manquaient",
       },
       futur: {
         je: "manquerai",
@@ -32485,8 +32593,8 @@ export const mockWords: Word[] = [
         il: "manquera",
         nous: "manquerons",
         vous: "manquerez",
-        ils: "manqueront"
-      }
+        ils: "manqueront",
+      },
     },
     examples: [
       {
@@ -32494,23 +32602,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Tu me manques énormément.",
         translationTr: "Seni çok özlüyorum.",
-        translationEn: "I miss you a lot."
+        translationEn: "I miss you a lot.",
       },
       {
         form: "a manqué",
         tense: "passéComposé",
         sentence: "Il a manqué le train de justesse.",
         translationTr: "Treni kıl payı kaçırdı.",
-        translationEn: "He just missed the train."
+        translationEn: "He just missed the train.",
       },
       {
         form: "manqueront",
         tense: "futur",
         sentence: "Ils manqueront de temps pour finir.",
         translationTr: "Bitirmek için zamanları yetersiz olacak.",
-        translationEn: "They will lack time to finish."
-      }
-    ]
+        translationEn: "They will lack time to finish.",
+      },
+    ],
   },
   {
     id: "v17-3",
@@ -32518,7 +32626,8 @@ export const mockWords: Word[] = [
     turkish: "Şaka yapmak / Dalga geçmek",
     english: "To joke / To kid",
     pronunciation: "bla-ge",
-    description: "Gündelik ve samimi ortamlarda sık kullanılır. 'Arrête de blaguer !' ifadesiyle çok karşılaşılır.",
+    description:
+      "Gündelik ve samimi ortamlarda sık kullanılır. 'Arrête de blaguer !' ifadesiyle çok karşılaşılır.",
     synonyms: ["plaisanter", "rire", "taquiner"],
     image: null,
     category: "verbs",
@@ -32527,7 +32636,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "blague",
@@ -32535,7 +32644,7 @@ export const mockWords: Word[] = [
         il: "blague",
         nous: "blaguons",
         vous: "blaguez",
-        ils: "blaguent"
+        ils: "blaguent",
       },
       passéComposé: {
         je: "ai blagué",
@@ -32543,7 +32652,7 @@ export const mockWords: Word[] = [
         il: "a blagué",
         nous: "avons blagué",
         vous: "avez blagué",
-        ils: "ont blagué"
+        ils: "ont blagué",
       },
       imparfait: {
         je: "blaguais",
@@ -32551,7 +32660,7 @@ export const mockWords: Word[] = [
         il: "blaguait",
         nous: "blaguions",
         vous: "blaguiez",
-        ils: "blaguaient"
+        ils: "blaguaient",
       },
       futur: {
         je: "blaguerai",
@@ -32559,8 +32668,8 @@ export const mockWords: Word[] = [
         il: "blaguera",
         nous: "blaguerons",
         vous: "blaguerez",
-        ils: "blagueront"
-      }
+        ils: "blagueront",
+      },
     },
     examples: [
       {
@@ -32568,23 +32677,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Tu blagues tout le temps en classe.",
         translationTr: "Derslerde hep şaka yapıyorsun.",
-        translationEn: "You always joke in class."
+        translationEn: "You always joke in class.",
       },
       {
         form: "a blagué",
         tense: "passéComposé",
         sentence: "Il a blagué sur son professeur.",
         translationTr: "Öğretmeni hakkında şaka yaptı.",
-        translationEn: "He joked about his teacher."
+        translationEn: "He joked about his teacher.",
       },
       {
         form: "blagueront",
         tense: "futur",
         sentence: "Ils blagueront pendant la pause.",
         translationTr: "Teneffüste şaka yapacaklar.",
-        translationEn: "They will joke during the break."
-      }
-    ]
+        translationEn: "They will joke during the break.",
+      },
+    ],
   },
   {
     id: "v17-4",
@@ -32592,7 +32701,8 @@ export const mockWords: Word[] = [
     turkish: "Dinlenmek",
     english: "To rest / To relax",
     pronunciation: "sə ʁə-po-ze",
-    description: "Refleksif bir fiildir. Fiziksel ya da zihinsel olarak dinlenme anlamında kullanılır. Özellikle yorucu bir işten sonra kullanımı yaygındır.",
+    description:
+      "Refleksif bir fiildir. Fiziksel ya da zihinsel olarak dinlenme anlamında kullanılır. Özellikle yorucu bir işten sonra kullanımı yaygındır.",
     synonyms: ["se détendre", "se relaxer", "paresser"],
     image: null,
     category: "verbs",
@@ -32601,7 +32711,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "me repose",
@@ -32609,7 +32719,7 @@ export const mockWords: Word[] = [
         il: "se repose",
         nous: "nous reposons",
         vous: "vous reposez",
-        ils: "se reposent"
+        ils: "se reposent",
       },
       passéComposé: {
         je: "me suis reposé",
@@ -32617,7 +32727,7 @@ export const mockWords: Word[] = [
         il: "s’est reposé",
         nous: "nous sommes reposés",
         vous: "vous êtes reposés",
-        ils: "se sont reposés"
+        ils: "se sont reposés",
       },
       imparfait: {
         je: "me reposais",
@@ -32625,7 +32735,7 @@ export const mockWords: Word[] = [
         il: "se reposait",
         nous: "nous reposions",
         vous: "vous reposiez",
-        ils: "se reposaient"
+        ils: "se reposaient",
       },
       futur: {
         je: "me reposerai",
@@ -32633,8 +32743,8 @@ export const mockWords: Word[] = [
         il: "se reposera",
         nous: "nous reposerons",
         vous: "vous reposerez",
-        ils: "se reposeront"
-      }
+        ils: "se reposeront",
+      },
     },
     examples: [
       {
@@ -32642,23 +32752,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je me repose après une longue journée.",
         translationTr: "Uzun bir günün ardından dinleniyorum.",
-        translationEn: "I rest after a long day."
+        translationEn: "I rest after a long day.",
       },
       {
         form: "s’est reposé",
         tense: "passéComposé",
         sentence: "Il s’est bien reposé pendant le week-end.",
         translationTr: "Hafta sonu boyunca iyi dinlendi.",
-        translationEn: "He rested well during the weekend."
+        translationEn: "He rested well during the weekend.",
       },
       {
         form: "se reposeront",
         tense: "futur",
         sentence: "Ils se reposeront après le match.",
         translationTr: "Maçtan sonra dinlenecekler.",
-        translationEn: "They will rest after the match."
-      }
-    ]
+        translationEn: "They will rest after the match.",
+      },
+    ],
   },
   {
     id: "v17-5",
@@ -32666,7 +32776,8 @@ export const mockWords: Word[] = [
     turkish: "İtmek / Zorlamak",
     english: "To push / To urge",
     pronunciation: "pu-se",
-    description: "Fiziksel olarak bir şeyi itmek ya da mecaz anlamda birini bir şeyi yapmaya zorlamak için kullanılır.",
+    description:
+      "Fiziksel olarak bir şeyi itmek ya da mecaz anlamda birini bir şeyi yapmaya zorlamak için kullanılır.",
     synonyms: ["presser", "forcer", "bousculer"],
     image: null,
     category: "verbs",
@@ -32675,7 +32786,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "pousse",
@@ -32683,7 +32794,7 @@ export const mockWords: Word[] = [
         il: "pousse",
         nous: "poussons",
         vous: "poussez",
-        ils: "poussent"
+        ils: "poussent",
       },
       passéComposé: {
         je: "ai poussé",
@@ -32691,7 +32802,7 @@ export const mockWords: Word[] = [
         il: "a poussé",
         nous: "avons poussé",
         vous: "avez poussé",
-        ils: "ont poussé"
+        ils: "ont poussé",
       },
       imparfait: {
         je: "pousais",
@@ -32699,7 +32810,7 @@ export const mockWords: Word[] = [
         il: "pousait",
         nous: "poussions",
         vous: "poussiez",
-        ils: "poussaient"
+        ils: "poussaient",
       },
       futur: {
         je: "pousserai",
@@ -32707,8 +32818,8 @@ export const mockWords: Word[] = [
         il: "poussera",
         nous: "pousserons",
         vous: "pousserez",
-        ils: "pousseront"
-      }
+        ils: "pousseront",
+      },
     },
     examples: [
       {
@@ -32716,23 +32827,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il pousse la porte avec force.",
         translationTr: "Kapıyı kuvvetle itiyor.",
-        translationEn: "He is pushing the door forcefully."
+        translationEn: "He is pushing the door forcefully.",
       },
       {
         form: "a poussé",
         tense: "passéComposé",
         sentence: "Elle a poussé la voiture en panne.",
         translationTr: "Arızalanan arabayı itti.",
-        translationEn: "She pushed the broken car."
+        translationEn: "She pushed the broken car.",
       },
       {
         form: "pousseront",
         tense: "futur",
         sentence: "Ils pousseront les limites de leur capacité.",
         translationTr: "Kapasitelerinin sınırlarını zorlayacaklar.",
-        translationEn: "They will push their limits."
-      }
-    ]
+        translationEn: "They will push their limits.",
+      },
+    ],
   },
   {
     id: "v17-6",
@@ -32740,7 +32851,8 @@ export const mockWords: Word[] = [
     turkish: "Yeniden inşa etmek / Onarmak",
     english: "To rebuild / To reconstruct",
     pronunciation: "ʁə-kɔ̃-stʁɥiʁ",
-    description: "Yıkılmış veya zarar görmüş bir şeyi yeniden kurmak anlamında kullanılır. Hem fiziksel yapılar hem de mecazî anlamlar için kullanılabilir (güven, hayat vs.).",
+    description:
+      "Yıkılmış veya zarar görmüş bir şeyi yeniden kurmak anlamında kullanılır. Hem fiziksel yapılar hem de mecazî anlamlar için kullanılabilir (güven, hayat vs.).",
     synonyms: ["rebâtir", "réparer", "restaurer"],
     image: null,
     category: "verbs",
@@ -32749,7 +32861,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "reconstruis",
@@ -32757,7 +32869,7 @@ export const mockWords: Word[] = [
         il: "reconstruit",
         nous: "reconstruisons",
         vous: "reconstruisez",
-        ils: "reconstruisent"
+        ils: "reconstruisent",
       },
       passéComposé: {
         je: "ai reconstruit",
@@ -32765,7 +32877,7 @@ export const mockWords: Word[] = [
         il: "a reconstruit",
         nous: "avons reconstruit",
         vous: "avez reconstruit",
-        ils: "ont reconstruit"
+        ils: "ont reconstruit",
       },
       imparfait: {
         je: "reconstruisais",
@@ -32773,7 +32885,7 @@ export const mockWords: Word[] = [
         il: "reconstruisait",
         nous: "reconstruisions",
         vous: "reconstruisiez",
-        ils: "reconstruisaient"
+        ils: "reconstruisaient",
       },
       futur: {
         je: "reconstruirai",
@@ -32781,8 +32893,8 @@ export const mockWords: Word[] = [
         il: "reconstruira",
         nous: "reconstruirons",
         vous: "reconstruirez",
-        ils: "reconstruiront"
-      }
+        ils: "reconstruiront",
+      },
     },
     examples: [
       {
@@ -32790,23 +32902,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il reconstruit sa maison après l’incendie.",
         translationTr: "Yangından sonra evini yeniden inşa ediyor.",
-        translationEn: "He is rebuilding his house after the fire."
+        translationEn: "He is rebuilding his house after the fire.",
       },
       {
         form: "a reconstruit",
         tense: "passéComposé",
         sentence: "Le gouvernement a reconstruit le pont détruit.",
         translationTr: "Hükümet yıkılan köprüyü yeniden inşa etti.",
-        translationEn: "The government rebuilt the destroyed bridge."
+        translationEn: "The government rebuilt the destroyed bridge.",
       },
       {
         form: "reconstruiront",
         tense: "futur",
         sentence: "Ils reconstruiront la ville après la guerre.",
         translationTr: "Savaştan sonra şehri yeniden inşa edecekler.",
-        translationEn: "They will rebuild the city after the war."
-      }
-    ]
+        translationEn: "They will rebuild the city after the war.",
+      },
+    ],
   },
   {
     id: "v17-7",
@@ -32814,7 +32926,8 @@ export const mockWords: Word[] = [
     turkish: "Sohbet etmek / Gevezelik etmek",
     english: "To chat / To talk / To gossip",
     pronunciation: "ba-vaʁ-de",
-    description: "Gündelik konuşmalar veya hafif gevezelik anlamında kullanılır. Olumsuz anlamda da kullanılabilir (çok konuşmak).",
+    description:
+      "Gündelik konuşmalar veya hafif gevezelik anlamında kullanılır. Olumsuz anlamda da kullanılabilir (çok konuşmak).",
     synonyms: ["papoter", "discuter", "causer"],
     image: null,
     category: "verbs",
@@ -32823,7 +32936,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "bavarde",
@@ -32831,7 +32944,7 @@ export const mockWords: Word[] = [
         il: "bavarde",
         nous: "bavardons",
         vous: "bavardez",
-        ils: "bavardent"
+        ils: "bavardent",
       },
       passéComposé: {
         je: "ai bavardé",
@@ -32839,7 +32952,7 @@ export const mockWords: Word[] = [
         il: "a bavardé",
         nous: "avons bavardé",
         vous: "avez bavardé",
-        ils: "ont bavardé"
+        ils: "ont bavardé",
       },
       imparfait: {
         je: "bavardais",
@@ -32847,7 +32960,7 @@ export const mockWords: Word[] = [
         il: "bavardait",
         nous: "bavardions",
         vous: "bavardiez",
-        ils: "bavardaient"
+        ils: "bavardaient",
       },
       futur: {
         je: "bavarderai",
@@ -32855,8 +32968,8 @@ export const mockWords: Word[] = [
         il: "bavardera",
         nous: "bavarderons",
         vous: "bavarderez",
-        ils: "bavarderont"
-      }
+        ils: "bavarderont",
+      },
     },
     examples: [
       {
@@ -32864,23 +32977,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Nous bavardons souvent après les cours.",
         translationTr: "Derslerden sonra sık sık sohbet ederiz.",
-        translationEn: "We often chat after class."
+        translationEn: "We often chat after class.",
       },
       {
         form: "a bavardé",
         tense: "passéComposé",
         sentence: "Elle a bavardé pendant des heures.",
         translationTr: "Saatlerce sohbet etti.",
-        translationEn: "She chatted for hours."
+        translationEn: "She chatted for hours.",
       },
       {
         form: "bavarderont",
         tense: "futur",
         sentence: "Les enfants bavarderont pendant la récréation.",
         translationTr: "Çocuklar teneffüste sohbet edecekler.",
-        translationEn: "The children will chat during recess."
-      }
-    ]
+        translationEn: "The children will chat during recess.",
+      },
+    ],
   },
   {
     id: "v17-8",
@@ -32888,7 +33001,8 @@ export const mockWords: Word[] = [
     turkish: "Reddetmek / Kabul etmemek",
     english: "To refuse / To decline",
     pronunciation: "ʁə-fy-ze",
-    description: "Teklif, davet veya önerileri reddetmek anlamında kullanılır. 'Refuser de faire quelque chose' şeklinde yapı alabilir.",
+    description:
+      "Teklif, davet veya önerileri reddetmek anlamında kullanılır. 'Refuser de faire quelque chose' şeklinde yapı alabilir.",
     synonyms: ["rejeter", "décliner", "désapprouver"],
     image: null,
     category: "verbs",
@@ -32897,7 +33011,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "refuse",
@@ -32905,7 +33019,7 @@ export const mockWords: Word[] = [
         il: "refuse",
         nous: "refusons",
         vous: "refusez",
-        ils: "refusent"
+        ils: "refusent",
       },
       passéComposé: {
         je: "ai refusé",
@@ -32913,7 +33027,7 @@ export const mockWords: Word[] = [
         il: "a refusé",
         nous: "avons refusé",
         vous: "avez refusé",
-        ils: "ont refusé"
+        ils: "ont refusé",
       },
       imparfait: {
         je: "refusais",
@@ -32921,7 +33035,7 @@ export const mockWords: Word[] = [
         il: "refusait",
         nous: "refusions",
         vous: "refusiez",
-        ils: "refusaient"
+        ils: "refusaient",
       },
       futur: {
         je: "refuserai",
@@ -32929,8 +33043,8 @@ export const mockWords: Word[] = [
         il: "refusera",
         nous: "refuserons",
         vous: "refuserez",
-        ils: "refuseront"
-      }
+        ils: "refuseront",
+      },
     },
     examples: [
       {
@@ -32938,23 +33052,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il refuse de manger des légumes.",
         translationTr: "Sebze yemeyi reddediyor.",
-        translationEn: "He refuses to eat vegetables."
+        translationEn: "He refuses to eat vegetables.",
       },
       {
         form: "a refusé",
         tense: "passéComposé",
         sentence: "Elle a refusé l’invitation.",
         translationTr: "Daveti reddetti.",
-        translationEn: "She refused the invitation."
+        translationEn: "She refused the invitation.",
       },
       {
         form: "refuseront",
         tense: "futur",
         sentence: "Ils refuseront de participer à la réunion.",
         translationTr: "Toplantıya katılmayı reddedecekler.",
-        translationEn: "They will refuse to attend the meeting."
-      }
-    ]
+        translationEn: "They will refuse to attend the meeting.",
+      },
+    ],
   },
   {
     id: "v17-9",
@@ -32962,7 +33076,8 @@ export const mockWords: Word[] = [
     turkish: "Karıştırmak / Yanlış anlamak",
     english: "To confuse / To mix up",
     pronunciation: "kɔ̃-fɔ̃-dʁ",
-    description: "İki şeyi birbiriyle karıştırmak ya da yanlış değerlendirmek anlamında kullanılır. Genellikle 'confondre X avec Y' yapısıyla kullanılır.",
+    description:
+      "İki şeyi birbiriyle karıştırmak ya da yanlış değerlendirmek anlamında kullanılır. Genellikle 'confondre X avec Y' yapısıyla kullanılır.",
     synonyms: ["mélanger", "tromper", "embrouiller"],
     image: null,
     category: "verbs",
@@ -32971,7 +33086,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "confonds",
@@ -32979,7 +33094,7 @@ export const mockWords: Word[] = [
         il: "confond",
         nous: "confondons",
         vous: "confondez",
-        ils: "confondent"
+        ils: "confondent",
       },
       passéComposé: {
         je: "ai confondu",
@@ -32987,7 +33102,7 @@ export const mockWords: Word[] = [
         il: "a confondu",
         nous: "avons confondu",
         vous: "avez confondu",
-        ils: "ont confondu"
+        ils: "ont confondu",
       },
       imparfait: {
         je: "confondais",
@@ -32995,7 +33110,7 @@ export const mockWords: Word[] = [
         il: "confondait",
         nous: "confondions",
         vous: "confondiez",
-        ils: "confondaient"
+        ils: "confondaient",
       },
       futur: {
         je: "confondrai",
@@ -33003,8 +33118,8 @@ export const mockWords: Word[] = [
         il: "confondra",
         nous: "confondrons",
         vous: "confondrez",
-        ils: "confondront"
-      }
+        ils: "confondront",
+      },
     },
     examples: [
       {
@@ -33012,23 +33127,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je confonds toujours ces deux mots.",
         translationTr: "Bu iki kelimeyi hep karıştırıyorum.",
-        translationEn: "I always confuse these two words."
+        translationEn: "I always confuse these two words.",
       },
       {
         form: "a confondu",
         tense: "passéComposé",
         sentence: "Il a confondu son sac avec celui d’un autre.",
         translationTr: "Çantasını başka birininkiyle karıştırdı.",
-        translationEn: "He mixed up his bag with someone else's."
+        translationEn: "He mixed up his bag with someone else's.",
       },
       {
         form: "confondront",
         tense: "futur",
         sentence: "Les nouveaux élèves confondront sûrement les prénoms.",
         translationTr: "Yeni öğrenciler büyük ihtimalle isimleri karıştıracak.",
-        translationEn: "The new students will surely confuse the names."
-      }
-    ]
+        translationEn: "The new students will surely confuse the names.",
+      },
+    ],
   },
   {
     id: "v17-10",
@@ -33036,7 +33151,8 @@ export const mockWords: Word[] = [
     turkish: "Bakım yapmak / Sürdürmek",
     english: "To maintain / To sustain",
     pronunciation: "ɑ̃-tʁə-tə-niʁ",
-    description: "Hem fiziksel bakım (entretenir une voiture) hem de soyut ilişkileri sürdürmek (entretenir une relation) için kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Hem fiziksel bakım (entretenir une voiture) hem de soyut ilişkileri sürdürmek (entretenir une relation) için kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["maintenir", "conserver", "prolonger"],
     image: null,
     category: "verbs",
@@ -33045,7 +33161,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "entretiens",
@@ -33053,7 +33169,7 @@ export const mockWords: Word[] = [
         il: "entretient",
         nous: "entretenons",
         vous: "entretenez",
-        ils: "entretiennent"
+        ils: "entretiennent",
       },
       passéComposé: {
         je: "ai entretenu",
@@ -33061,7 +33177,7 @@ export const mockWords: Word[] = [
         il: "a entretenu",
         nous: "avons entretenu",
         vous: "avez entretenu",
-        ils: "ont entretenu"
+        ils: "ont entretenu",
       },
       imparfait: {
         je: "entretenais",
@@ -33069,7 +33185,7 @@ export const mockWords: Word[] = [
         il: "entretenait",
         nous: "entretenions",
         vous: "entreteniez",
-        ils: "entretenaient"
+        ils: "entretenaient",
       },
       futur: {
         je: "entretiendrai",
@@ -33077,8 +33193,8 @@ export const mockWords: Word[] = [
         il: "entretiendra",
         nous: "entretiendrons",
         vous: "entretiendrez",
-        ils: "entretiendront"
-      }
+        ils: "entretiendront",
+      },
     },
     examples: [
       {
@@ -33086,23 +33202,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il entretient de bonnes relations avec ses collègues.",
         translationTr: "İş arkadaşlarıyla iyi ilişkiler sürdürüyor.",
-        translationEn: "He maintains good relationships with his colleagues."
+        translationEn: "He maintains good relationships with his colleagues.",
       },
       {
         form: "a entretenu",
         tense: "passéComposé",
         sentence: "Elle a entretenu sa voiture pendant des années.",
         translationTr: "Arabasına yıllarca bakım yaptı.",
-        translationEn: "She maintained her car for years."
+        translationEn: "She maintained her car for years.",
       },
       {
         form: "entretiendront",
         tense: "futur",
         sentence: "Ils entretiendront le bâtiment régulièrement.",
         translationTr: "Binayı düzenli olarak bakımda tutacaklar.",
-        translationEn: "They will maintain the building regularly."
-      }
-    ]
+        translationEn: "They will maintain the building regularly.",
+      },
+    ],
   },
   {
     id: "v17-11",
@@ -33110,7 +33226,8 @@ export const mockWords: Word[] = [
     turkish: "Alay etmek / Umursamamak",
     english: "To make fun of / To not care",
     pronunciation: "sə mo-ke",
-    description: "‘Se moquer de’ ifadesiyle birini küçümseyerek alaya almak anlamında kullanılır. Aynı zamanda ‘je m’en moque’ şeklinde ‘umursamamak’ anlamına gelir.",
+    description:
+      "‘Se moquer de’ ifadesiyle birini küçümseyerek alaya almak anlamında kullanılır. Aynı zamanda ‘je m’en moque’ şeklinde ‘umursamamak’ anlamına gelir.",
     synonyms: ["ridiculiser", "railler", "ignorer"],
     image: null,
     category: "verbs",
@@ -33119,7 +33236,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "me moque",
@@ -33127,7 +33244,7 @@ export const mockWords: Word[] = [
         il: "se moque",
         nous: "nous moquons",
         vous: "vous moquez",
-        ils: "se moquent"
+        ils: "se moquent",
       },
       passéComposé: {
         je: "me suis moqué",
@@ -33135,7 +33252,7 @@ export const mockWords: Word[] = [
         il: "s’est moqué",
         nous: "nous sommes moqués",
         vous: "vous êtes moqués",
-        ils: "se sont moqués"
+        ils: "se sont moqués",
       },
       imparfait: {
         je: "me moquais",
@@ -33143,7 +33260,7 @@ export const mockWords: Word[] = [
         il: "se moquait",
         nous: "nous moquions",
         vous: "vous moquiez",
-        ils: "se moquaient"
+        ils: "se moquaient",
       },
       futur: {
         je: "me moquerai",
@@ -33151,8 +33268,8 @@ export const mockWords: Word[] = [
         il: "se moquera",
         nous: "nous moquerons",
         vous: "vous moquerez",
-        ils: "se moqueront"
-      }
+        ils: "se moqueront",
+      },
     },
     examples: [
       {
@@ -33160,23 +33277,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il se moque toujours de moi.",
         translationTr: "Hep benimle alay ediyor.",
-        translationEn: "He always makes fun of me."
+        translationEn: "He always makes fun of me.",
       },
       {
         form: "s’est moqué",
         tense: "passéComposé",
         sentence: "Elle s’est moquée de sa coiffure.",
         translationTr: "Saç modeliyle alay etti.",
-        translationEn: "She made fun of his hairstyle."
+        translationEn: "She made fun of his hairstyle.",
       },
       {
         form: "se moqueront",
         tense: "futur",
         sentence: "Ils se moqueront de cette vieille blague.",
         translationTr: "Bu eski şakayla alay edecekler.",
-        translationEn: "They will make fun of that old joke."
-      }
-    ]
+        translationEn: "They will make fun of that old joke.",
+      },
+    ],
   },
   {
     id: "v17-12",
@@ -33184,7 +33301,8 @@ export const mockWords: Word[] = [
     turkish: "Karşıdan karşıya geçmek / Aşmak",
     english: "To cross / To go through",
     pronunciation: "tʁa-vɛʁ-se",
-    description: "Fiziksel olarak bir yerden karşıya geçmek ya da zor bir durumu atlatmak anlamında kullanılabilir.",
+    description:
+      "Fiziksel olarak bir yerden karşıya geçmek ya da zor bir durumu atlatmak anlamında kullanılabilir.",
     synonyms: ["franchir", "passer", "pénétrer"],
     image: null,
     category: "verbs",
@@ -33193,7 +33311,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "traverse",
@@ -33201,7 +33319,7 @@ export const mockWords: Word[] = [
         il: "traverse",
         nous: "traversons",
         vous: "traversez",
-        ils: "traversent"
+        ils: "traversent",
       },
       passéComposé: {
         je: "ai traversé",
@@ -33209,7 +33327,7 @@ export const mockWords: Word[] = [
         il: "a traversé",
         nous: "avons traversé",
         vous: "avez traversé",
-        ils: "ont traversé"
+        ils: "ont traversé",
       },
       imparfait: {
         je: "traversais",
@@ -33217,7 +33335,7 @@ export const mockWords: Word[] = [
         il: "traversait",
         nous: "traversions",
         vous: "traversiez",
-        ils: "traversaient"
+        ils: "traversaient",
       },
       futur: {
         je: "traverserai",
@@ -33225,8 +33343,8 @@ export const mockWords: Word[] = [
         il: "traversera",
         nous: "traverserons",
         vous: "traverserez",
-        ils: "traverseront"
-      }
+        ils: "traverseront",
+      },
     },
     examples: [
       {
@@ -33234,23 +33352,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle traverse la rue prudemment.",
         translationTr: "Caddeden dikkatlice geçiyor.",
-        translationEn: "She crosses the street carefully."
+        translationEn: "She crosses the street carefully.",
       },
       {
         form: "a traversé",
         tense: "passéComposé",
         sentence: "Nous avons traversé une période difficile.",
         translationTr: "Zor bir dönemden geçtik.",
-        translationEn: "We went through a difficult period."
+        translationEn: "We went through a difficult period.",
       },
       {
         form: "traverseront",
         tense: "futur",
         sentence: "Ils traverseront la forêt demain.",
         translationTr: "Yarın ormanı geçecekler.",
-        translationEn: "They will cross the forest tomorrow."
-      }
-    ]
+        translationEn: "They will cross the forest tomorrow.",
+      },
+    ],
   },
   {
     id: "v17-13",
@@ -33258,7 +33376,8 @@ export const mockWords: Word[] = [
     turkish: "Doldurmak / Yerine getirmek",
     english: "To fill / To fulfill",
     pronunciation: "ʁɑ̃-pliʁ",
-    description: "Bir kabı, bir formu veya bir görevi doldurmak anlamında kullanılır. Hem somut hem soyut anlamlarda geçerlidir.",
+    description:
+      "Bir kabı, bir formu veya bir görevi doldurmak anlamında kullanılır. Hem somut hem soyut anlamlarda geçerlidir.",
     synonyms: ["bourrer", "satisfaire", "compléter"],
     image: null,
     category: "verbs",
@@ -33267,7 +33386,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "remplis",
@@ -33275,7 +33394,7 @@ export const mockWords: Word[] = [
         il: "remplit",
         nous: "remplissons",
         vous: "remplissez",
-        ils: "remplissent"
+        ils: "remplissent",
       },
       passéComposé: {
         je: "ai rempli",
@@ -33283,7 +33402,7 @@ export const mockWords: Word[] = [
         il: "a rempli",
         nous: "avons rempli",
         vous: "avez rempli",
-        ils: "ont rempli"
+        ils: "ont rempli",
       },
       imparfait: {
         je: "remplissais",
@@ -33291,7 +33410,7 @@ export const mockWords: Word[] = [
         il: "remplissait",
         nous: "remplissions",
         vous: "remplissiez",
-        ils: "remplissaient"
+        ils: "remplissaient",
       },
       futur: {
         je: "remplirai",
@@ -33299,8 +33418,8 @@ export const mockWords: Word[] = [
         il: "remplira",
         nous: "remplirons",
         vous: "remplirez",
-        ils: "rempliront"
-      }
+        ils: "rempliront",
+      },
     },
     examples: [
       {
@@ -33308,23 +33427,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle remplit son verre d'eau.",
         translationTr: "Bardağını suyla dolduruyor.",
-        translationEn: "She is filling her glass with water."
+        translationEn: "She is filling her glass with water.",
       },
       {
         form: "a rempli",
         tense: "passéComposé",
         sentence: "J’ai rempli le formulaire en ligne.",
         translationTr: "Formu çevrimiçi doldurdum.",
-        translationEn: "I filled out the form online."
+        translationEn: "I filled out the form online.",
       },
       {
         form: "rempliront",
         tense: "futur",
         sentence: "Ils rempliront leurs obligations professionnelles.",
         translationTr: "Mesleki yükümlülüklerini yerine getirecekler.",
-        translationEn: "They will fulfill their professional duties."
-      }
-    ]
+        translationEn: "They will fulfill their professional duties.",
+      },
+    ],
   },
   {
     id: "v17-14",
@@ -33332,7 +33451,8 @@ export const mockWords: Word[] = [
     turkish: "Uzaklaştırmak / Uzak durmak",
     english: "To move away / To distance",
     pronunciation: "e-lwa-ɲe",
-    description: "Fiziksel ya da duygusal olarak uzaklaştırmak anlamında kullanılır. Refleksif haliyle 's’éloigner' uzaklaşmak anlamı taşır.",
+    description:
+      "Fiziksel ya da duygusal olarak uzaklaştırmak anlamında kullanılır. Refleksif haliyle 's’éloigner' uzaklaşmak anlamı taşır.",
     synonyms: ["écarter", "échapper", "séparer"],
     image: null,
     category: "verbs",
@@ -33341,7 +33461,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "éloigne",
@@ -33349,7 +33469,7 @@ export const mockWords: Word[] = [
         il: "éloigne",
         nous: "éloignons",
         vous: "éloignez",
-        ils: "éloignent"
+        ils: "éloignent",
       },
       passéComposé: {
         je: "ai éloigné",
@@ -33357,7 +33477,7 @@ export const mockWords: Word[] = [
         il: "a éloigné",
         nous: "avons éloigné",
         vous: "avez éloigné",
-        ils: "ont éloigné"
+        ils: "ont éloigné",
       },
       imparfait: {
         je: "éloignais",
@@ -33365,7 +33485,7 @@ export const mockWords: Word[] = [
         il: "éloignait",
         nous: "éloignions",
         vous: "éloigniez",
-        ils: "éloignaient"
+        ils: "éloignaient",
       },
       futur: {
         je: "éloignerai",
@@ -33373,8 +33493,8 @@ export const mockWords: Word[] = [
         il: "éloignera",
         nous: "éloignerons",
         vous: "éloignerez",
-        ils: "éloigneront"
-      }
+        ils: "éloigneront",
+      },
     },
     examples: [
       {
@@ -33382,23 +33502,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il éloigne les enfants du feu.",
         translationTr: "Çocukları ateşten uzaklaştırıyor.",
-        translationEn: "He is keeping the children away from the fire."
+        translationEn: "He is keeping the children away from the fire.",
       },
       {
         form: "a éloigné",
         tense: "passéComposé",
         sentence: "La tempête a éloigné les bateaux du rivage.",
         translationTr: "Fırtına tekneleri kıyıdan uzaklaştırdı.",
-        translationEn: "The storm drove the boats away from the shore."
+        translationEn: "The storm drove the boats away from the shore.",
       },
       {
         form: "éloigneront",
         tense: "futur",
         sentence: "Ils éloigneront les meubles du mur.",
         translationTr: "Mobilyaları duvardan uzaklaştıracaklar.",
-        translationEn: "They will move the furniture away from the wall."
-      }
-    ]
+        translationEn: "They will move the furniture away from the wall.",
+      },
+    ],
   },
   {
     id: "v17-15",
@@ -33406,7 +33526,8 @@ export const mockWords: Word[] = [
     turkish: "Zayıflatmak / Güçsüzleştirmek",
     english: "To weaken / To diminish",
     pronunciation: "a-fɛ-bliʁ",
-    description: "Hem fiziksel hem de ruhsal/zihinsel güçsüzleştirme anlamında kullanılır. Mecazi olarak da geçerlidir.",
+    description:
+      "Hem fiziksel hem de ruhsal/zihinsel güçsüzleştirme anlamında kullanılır. Mecazi olarak da geçerlidir.",
     synonyms: ["affaiblir", "épuiser", "diminuer"],
     image: null,
     category: "verbs",
@@ -33415,7 +33536,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "affaiblis",
@@ -33423,7 +33544,7 @@ export const mockWords: Word[] = [
         il: "affaiblit",
         nous: "affaiblissons",
         vous: "affaiblissez",
-        ils: "affaiblissent"
+        ils: "affaiblissent",
       },
       passéComposé: {
         je: "ai affaibli",
@@ -33431,7 +33552,7 @@ export const mockWords: Word[] = [
         il: "a affaibli",
         nous: "avons affaibli",
         vous: "avez affaibli",
-        ils: "ont affaibli"
+        ils: "ont affaibli",
       },
       imparfait: {
         je: "affaiblissais",
@@ -33439,7 +33560,7 @@ export const mockWords: Word[] = [
         il: "affaiblissait",
         nous: "affaiblissions",
         vous: "affaiblissiez",
-        ils: "affaiblissaient"
+        ils: "affaiblissaient",
       },
       futur: {
         je: "affaiblirai",
@@ -33447,8 +33568,8 @@ export const mockWords: Word[] = [
         il: "affaiblira",
         nous: "affaiblirons",
         vous: "affaiblirez",
-        ils: "affaibliront"
-      }
+        ils: "affaibliront",
+      },
     },
     examples: [
       {
@@ -33456,23 +33577,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "La maladie l’affaiblit chaque jour.",
         translationTr: "Hastalık onu her gün zayıflatıyor.",
-        translationEn: "The illness weakens him every day."
+        translationEn: "The illness weakens him every day.",
       },
       {
         form: "a affaibli",
         tense: "passéComposé",
         sentence: "Cette expérience a affaibli leur confiance.",
         translationTr: "Bu deneyim güvenlerini zayıflattı.",
-        translationEn: "This experience weakened their confidence."
+        translationEn: "This experience weakened their confidence.",
       },
       {
         form: "affaibliront",
         tense: "futur",
         sentence: "Les mauvaises décisions affaibliront l’équipe.",
         translationTr: "Kötü kararlar takımı zayıflatacak.",
-        translationEn: "Bad decisions will weaken the team."
-      }
-    ]
+        translationEn: "Bad decisions will weaken the team.",
+      },
+    ],
   },
   {
     id: "v17-16",
@@ -33480,7 +33601,8 @@ export const mockWords: Word[] = [
     turkish: "Karıştırmak / Harmanlamak",
     english: "To mix / To blend",
     pronunciation: "me-lɑ̃-ʒe",
-    description: "Farklı şeyleri bir araya getirerek homojen hale getirmek. Somut (malzeme) ve soyut (duygu, düşünce) olarak kullanılabilir.",
+    description:
+      "Farklı şeyleri bir araya getirerek homojen hale getirmek. Somut (malzeme) ve soyut (duygu, düşünce) olarak kullanılabilir.",
     synonyms: ["mixer", "combiner", "fusionner"],
     image: null,
     category: "verbs",
@@ -33489,7 +33611,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "mélange",
@@ -33497,7 +33619,7 @@ export const mockWords: Word[] = [
         il: "mélange",
         nous: "mélangeons",
         vous: "mélangez",
-        ils: "mélangent"
+        ils: "mélangent",
       },
       passéComposé: {
         je: "ai mélangé",
@@ -33505,7 +33627,7 @@ export const mockWords: Word[] = [
         il: "a mélangé",
         nous: "avons mélangé",
         vous: "avez mélangé",
-        ils: "ont mélangé"
+        ils: "ont mélangé",
       },
       imparfait: {
         je: "mélangeais",
@@ -33513,7 +33635,7 @@ export const mockWords: Word[] = [
         il: "mélangeait",
         nous: "mélangions",
         vous: "mélangiez",
-        ils: "mélangeaient"
+        ils: "mélangeaient",
       },
       futur: {
         je: "mélangerai",
@@ -33521,8 +33643,8 @@ export const mockWords: Word[] = [
         il: "mélangera",
         nous: "mélangerons",
         vous: "mélangerez",
-        ils: "mélangeront"
-      }
+        ils: "mélangeront",
+      },
     },
     examples: [
       {
@@ -33530,23 +33652,24 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je mélange les ingrédients dans un bol.",
         translationTr: "Malzemeleri bir kasede karıştırıyorum.",
-        translationEn: "I mix the ingredients in a bowl."
+        translationEn: "I mix the ingredients in a bowl.",
       },
       {
         form: "a mélangé",
         tense: "passéComposé",
         sentence: "Elle a mélangé la peinture rouge avec du blanc.",
         translationTr: "Kırmızı boyayı beyazla karıştırdı.",
-        translationEn: "She mixed red paint with white."
+        translationEn: "She mixed red paint with white.",
       },
       {
         form: "mélangeront",
         tense: "futur",
         sentence: "Les enfants mélangeront les couleurs pour créer du violet.",
-        translationTr: "Çocuklar mor rengi oluşturmak için renkleri karıştıracak.",
-        translationEn: "The children will mix colors to create purple."
-      }
-    ]
+        translationTr:
+          "Çocuklar mor rengi oluşturmak için renkleri karıştıracak.",
+        translationEn: "The children will mix colors to create purple.",
+      },
+    ],
   },
   {
     id: "v17-17",
@@ -33554,7 +33677,8 @@ export const mockWords: Word[] = [
     turkish: "Düşünmek / Hayal etmek",
     english: "To think / To dream / To consider",
     pronunciation: "sɔ̃-ʒe",
-    description: "Derinlemesine düşünmek veya geleceğe yönelik plan yapmak anlamındadır. Genellikle 'songer à' yapısıyla kullanılır.",
+    description:
+      "Derinlemesine düşünmek veya geleceğe yönelik plan yapmak anlamındadır. Genellikle 'songer à' yapısıyla kullanılır.",
     synonyms: ["penser", "réfléchir", "envisager"],
     image: null,
     category: "verbs",
@@ -33563,7 +33687,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "songe",
@@ -33571,7 +33695,7 @@ export const mockWords: Word[] = [
         il: "songe",
         nous: "songeons",
         vous: "songez",
-        ils: "songent"
+        ils: "songent",
       },
       passéComposé: {
         je: "ai songé",
@@ -33579,7 +33703,7 @@ export const mockWords: Word[] = [
         il: "a songé",
         nous: "avons songé",
         vous: "avez songé",
-        ils: "ont songé"
+        ils: "ont songé",
       },
       imparfait: {
         je: "songeais",
@@ -33587,7 +33711,7 @@ export const mockWords: Word[] = [
         il: "songeait",
         nous: "songeions",
         vous: "songeiez",
-        ils: "songeaient"
+        ils: "songeaient",
       },
       futur: {
         je: "songerai",
@@ -33595,8 +33719,8 @@ export const mockWords: Word[] = [
         il: "songera",
         nous: "songerons",
         vous: "songerez",
-        ils: "songeront"
-      }
+        ils: "songeront",
+      },
     },
     examples: [
       {
@@ -33604,23 +33728,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je songe à changer de travail.",
         translationTr: "İş değiştirmeyi düşünüyorum.",
-        translationEn: "I’m thinking about changing jobs."
+        translationEn: "I’m thinking about changing jobs.",
       },
       {
         form: "a songé",
         tense: "passéComposé",
         sentence: "Il a songé à partir en voyage.",
         translationTr: "Seyahate çıkmayı düşündü.",
-        translationEn: "He thought about going on a trip."
+        translationEn: "He thought about going on a trip.",
       },
       {
         form: "songeront",
         tense: "futur",
         sentence: "Ils songeront à leur avenir.",
         translationTr: "Geleceklerini düşünecekler.",
-        translationEn: "They will think about their future."
-      }
-    ]
+        translationEn: "They will think about their future.",
+      },
+    ],
   },
   {
     id: "v17-18",
@@ -33628,7 +33752,8 @@ export const mockWords: Word[] = [
     turkish: "İtaat etmek / Uymak",
     english: "To obey / To comply",
     pronunciation: "ɔ-be-iʁ",
-    description: "Birine ya da kurala uymak anlamındadır. Genellikle 'obéir à' şeklinde kullanılır. Düzensiz fiildir ve '-ir' grubu içinde yer alır.",
+    description:
+      "Birine ya da kurala uymak anlamındadır. Genellikle 'obéir à' şeklinde kullanılır. Düzensiz fiildir ve '-ir' grubu içinde yer alır.",
     synonyms: ["se soumettre", "respecter", "écouter"],
     image: null,
     category: "verbs",
@@ -33637,7 +33762,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "obéis",
@@ -33645,7 +33770,7 @@ export const mockWords: Word[] = [
         il: "obéit",
         nous: "obéissons",
         vous: "obéissez",
-        ils: "obéissent"
+        ils: "obéissent",
       },
       passéComposé: {
         je: "ai obéi",
@@ -33653,7 +33778,7 @@ export const mockWords: Word[] = [
         il: "a obéi",
         nous: "avons obéi",
         vous: "avez obéi",
-        ils: "ont obéi"
+        ils: "ont obéi",
       },
       imparfait: {
         je: "obéissais",
@@ -33661,7 +33786,7 @@ export const mockWords: Word[] = [
         il: "obéissait",
         nous: "obéissions",
         vous: "obéissiez",
-        ils: "obéissaient"
+        ils: "obéissaient",
       },
       futur: {
         je: "obéirai",
@@ -33669,8 +33794,8 @@ export const mockWords: Word[] = [
         il: "obéira",
         nous: "obéirons",
         vous: "obéirez",
-        ils: "obéiront"
-      }
+        ils: "obéiront",
+      },
     },
     examples: [
       {
@@ -33678,23 +33803,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il obéit toujours à ses parents.",
         translationTr: "Her zaman ailesine itaat eder.",
-        translationEn: "He always obeys his parents."
+        translationEn: "He always obeys his parents.",
       },
       {
         form: "a obéi",
         tense: "passéComposé",
         sentence: "L’enfant a obéi sans discuter.",
         translationTr: "Çocuk tartışmadan itaat etti.",
-        translationEn: "The child obeyed without arguing."
+        translationEn: "The child obeyed without arguing.",
       },
       {
         form: "obéiront",
         tense: "futur",
         sentence: "Les soldats obéiront aux ordres.",
         translationTr: "Askerler emirlere itaat edecek.",
-        translationEn: "The soldiers will obey the orders."
-      }
-    ]
+        translationEn: "The soldiers will obey the orders.",
+      },
+    ],
   },
   {
     id: "v17-19",
@@ -33702,7 +33827,8 @@ export const mockWords: Word[] = [
     turkish: "Katetmek / Göz gezdirmek / Dolaşmak",
     english: "To travel through / To browse / To scan",
     pronunciation: "paʁ-ku-ʁiʁ",
-    description: "Bir mesafeyi katetmek, bir metne göz gezdirmek ya da bir yeri gezmek anlamında kullanılır. Hem fiziksel hem dijital bağlamda geçerlidir.",
+    description:
+      "Bir mesafeyi katetmek, bir metne göz gezdirmek ya da bir yeri gezmek anlamında kullanılır. Hem fiziksel hem dijital bağlamda geçerlidir.",
     synonyms: ["traverser", "visiter", "examiner"],
     image: null,
     category: "verbs",
@@ -33711,7 +33837,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "parcours",
@@ -33719,7 +33845,7 @@ export const mockWords: Word[] = [
         il: "parcourt",
         nous: "parcourons",
         vous: "parcourez",
-        ils: "parcourent"
+        ils: "parcourent",
       },
       passéComposé: {
         je: "ai parcouru",
@@ -33727,7 +33853,7 @@ export const mockWords: Word[] = [
         il: "a parcouru",
         nous: "avons parcouru",
         vous: "avez parcouru",
-        ils: "ont parcouru"
+        ils: "ont parcouru",
       },
       imparfait: {
         je: "parcourais",
@@ -33735,7 +33861,7 @@ export const mockWords: Word[] = [
         il: "parcourait",
         nous: "parcourions",
         vous: "parcouriez",
-        ils: "parcouraient"
+        ils: "parcouraient",
       },
       futur: {
         je: "parcourrai",
@@ -33743,8 +33869,8 @@ export const mockWords: Word[] = [
         il: "parcourra",
         nous: "parcourrons",
         vous: "parcourrez",
-        ils: "parcourront"
-      }
+        ils: "parcourront",
+      },
     },
     examples: [
       {
@@ -33752,23 +33878,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il parcourt le monde entier pour son travail.",
         translationTr: "İşi için tüm dünyayı dolaşıyor.",
-        translationEn: "He travels the whole world for his work."
+        translationEn: "He travels the whole world for his work.",
       },
       {
         form: "a parcouru",
         tense: "passéComposé",
         sentence: "J’ai parcouru le livre en une heure.",
         translationTr: "Kitaba bir saatte göz gezdirdim.",
-        translationEn: "I browsed through the book in one hour."
+        translationEn: "I browsed through the book in one hour.",
       },
       {
         form: "parcourront",
         tense: "futur",
         sentence: "Les athlètes parcourront 10 kilomètres.",
         translationTr: "Sporcular 10 kilometre koşacak.",
-        translationEn: "The athletes will run 10 kilometers."
-      }
-    ]
+        translationEn: "The athletes will run 10 kilometers.",
+      },
+    ],
   },
   {
     id: "v17-20",
@@ -33776,7 +33902,8 @@ export const mockWords: Word[] = [
     turkish: "Kaçmak / Uzaklaşmak",
     english: "To flee / To escape / To avoid",
     pronunciation: "fɥiʁ",
-    description: "Tehlike, sorumluluk veya istenmeyen durumlardan uzaklaşmak anlamında kullanılır. 'Fuir de' veya 'fuir + nesne' yapısıyla gelir.",
+    description:
+      "Tehlike, sorumluluk veya istenmeyen durumlardan uzaklaşmak anlamında kullanılır. 'Fuir de' veya 'fuir + nesne' yapısıyla gelir.",
     synonyms: ["s’échapper", "éviter", "se sauver"],
     image: null,
     category: "verbs",
@@ -33785,7 +33912,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "fuis",
@@ -33793,7 +33920,7 @@ export const mockWords: Word[] = [
         il: "fuit",
         nous: "fuyons",
         vous: "fuyez",
-        ils: "fuient"
+        ils: "fuient",
       },
       passéComposé: {
         je: "ai fui",
@@ -33801,7 +33928,7 @@ export const mockWords: Word[] = [
         il: "a fui",
         nous: "avons fui",
         vous: "avez fui",
-        ils: "ont fui"
+        ils: "ont fui",
       },
       imparfait: {
         je: "fuyais",
@@ -33809,7 +33936,7 @@ export const mockWords: Word[] = [
         il: "fuyait",
         nous: "fuyions",
         vous: "fuyiez",
-        ils: "fuyaient"
+        ils: "fuyaient",
       },
       futur: {
         je: "fuirai",
@@ -33817,8 +33944,8 @@ export const mockWords: Word[] = [
         il: "fuira",
         nous: "fuirons",
         vous: "fuirez",
-        ils: "fuiront"
-      }
+        ils: "fuiront",
+      },
     },
     examples: [
       {
@@ -33826,23 +33953,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il fuit ses responsabilités.",
         translationTr: "Sorumluluklarından kaçıyor.",
-        translationEn: "He avoids his responsibilities."
+        translationEn: "He avoids his responsibilities.",
       },
       {
         form: "a fui",
         tense: "passéComposé",
         sentence: "Ils ont fui la ville en feu.",
         translationTr: "Yanan şehirden kaçtılar.",
-        translationEn: "They fled the burning city."
+        translationEn: "They fled the burning city.",
       },
       {
         form: "fuiront",
         tense: "futur",
         sentence: "Les animaux fuiront le bruit.",
         translationTr: "Hayvanlar sesten kaçacak.",
-        translationEn: "The animals will flee the noise."
-      }
-    ]
+        translationEn: "The animals will flee the noise.",
+      },
+    ],
   },
   {
     id: "v17-21",
@@ -33850,7 +33977,8 @@ export const mockWords: Word[] = [
     turkish: "Çözmek / Halletmek",
     english: "To solve / To resolve",
     pronunciation: "ʁe-zudʁ",
-    description: "Bir problemi ya da durumu çözmek için kullanılır. Genellikle zihinsel ya da teknik çözümlemelerle ilgilidir. Düzensiz fiildir.",
+    description:
+      "Bir problemi ya da durumu çözmek için kullanılır. Genellikle zihinsel ya da teknik çözümlemelerle ilgilidir. Düzensiz fiildir.",
     synonyms: ["solutionner", "clarifier", "trancher"],
     image: null,
     category: "verbs",
@@ -33859,7 +33987,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "résous",
@@ -33867,7 +33995,7 @@ export const mockWords: Word[] = [
         il: "résout",
         nous: "résolvons",
         vous: "résolvez",
-        ils: "résolvent"
+        ils: "résolvent",
       },
       passéComposé: {
         je: "ai résolu",
@@ -33875,7 +34003,7 @@ export const mockWords: Word[] = [
         il: "a résolu",
         nous: "avons résolu",
         vous: "avez résolu",
-        ils: "ont résolu"
+        ils: "ont résolu",
       },
       imparfait: {
         je: "résolvais",
@@ -33883,7 +34011,7 @@ export const mockWords: Word[] = [
         il: "résolvait",
         nous: "résolvions",
         vous: "résolviez",
-        ils: "résolvaient"
+        ils: "résolvaient",
       },
       futur: {
         je: "résoudrai",
@@ -33891,8 +34019,8 @@ export const mockWords: Word[] = [
         il: "résoudra",
         nous: "résoudrons",
         vous: "résoudrez",
-        ils: "résoudront"
-      }
+        ils: "résoudront",
+      },
     },
     examples: [
       {
@@ -33900,23 +34028,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle résout les problèmes rapidement.",
         translationTr: "Sorunları hızlıca çözüyor.",
-        translationEn: "She solves problems quickly."
+        translationEn: "She solves problems quickly.",
       },
       {
         form: "a résolu",
         tense: "passéComposé",
         sentence: "Le technicien a résolu la panne.",
         translationTr: "Teknisyen arızayı çözdü.",
-        translationEn: "The technician resolved the breakdown."
+        translationEn: "The technician resolved the breakdown.",
       },
       {
         form: "résoudront",
         tense: "futur",
         sentence: "Ils résoudront ce conflit bientôt.",
         translationTr: "Bu çatışmayı yakında çözecekler.",
-        translationEn: "They will resolve this conflict soon."
-      }
-    ]
+        translationEn: "They will resolve this conflict soon.",
+      },
+    ],
   },
   {
     id: "v17-22",
@@ -33924,7 +34052,8 @@ export const mockWords: Word[] = [
     turkish: "Yaratmak / Oluşturmak",
     english: "To create / To generate",
     pronunciation: "kʁe-e",
-    description: "Yeni bir şey meydana getirmek anlamında kullanılır. Sanatsal, teknik ya da soyut anlamlarda kullanılabilir.",
+    description:
+      "Yeni bir şey meydana getirmek anlamında kullanılır. Sanatsal, teknik ya da soyut anlamlarda kullanılabilir.",
     synonyms: ["produire", "inventer", "élaborer"],
     image: null,
     category: "verbs",
@@ -33933,7 +34062,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "crée",
@@ -33941,7 +34070,7 @@ export const mockWords: Word[] = [
         il: "crée",
         nous: "créons",
         vous: "créez",
-        ils: "créent"
+        ils: "créent",
       },
       passéComposé: {
         je: "ai créé",
@@ -33949,7 +34078,7 @@ export const mockWords: Word[] = [
         il: "a créé",
         nous: "avons créé",
         vous: "avez créé",
-        ils: "ont créé"
+        ils: "ont créé",
       },
       imparfait: {
         je: "créais",
@@ -33957,7 +34086,7 @@ export const mockWords: Word[] = [
         il: "créait",
         nous: "créions",
         vous: "créiez",
-        ils: "créaient"
+        ils: "créaient",
       },
       futur: {
         je: "créerai",
@@ -33965,8 +34094,8 @@ export const mockWords: Word[] = [
         il: "créera",
         nous: "créerons",
         vous: "créerez",
-        ils: "créeront"
-      }
+        ils: "créeront",
+      },
     },
     examples: [
       {
@@ -33974,23 +34103,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "L’artiste crée une nouvelle sculpture.",
         translationTr: "Sanatçı yeni bir heykel yaratıyor.",
-        translationEn: "The artist is creating a new sculpture."
+        translationEn: "The artist is creating a new sculpture.",
       },
       {
         form: "a créé",
         tense: "passéComposé",
         sentence: "Elle a créé sa propre entreprise.",
         translationTr: "Kendi şirketini kurdu.",
-        translationEn: "She created her own company."
+        translationEn: "She created her own company.",
       },
       {
         form: "créeront",
         tense: "futur",
         sentence: "Ils créeront un site web pour leur projet.",
         translationTr: "Projeleri için bir web sitesi oluşturacaklar.",
-        translationEn: "They will create a website for their project."
-      }
-    ]
+        translationEn: "They will create a website for their project.",
+      },
+    ],
   },
   {
     id: "v17-23",
@@ -33998,7 +34127,8 @@ export const mockWords: Word[] = [
     turkish: "Unutmak",
     english: "To forget",
     pronunciation: "u-bli-je",
-    description: "Zihinde tutmamak ya da hatırlamamak anlamında kullanılır. Kasıtlı ya da istemsiz olabilir.",
+    description:
+      "Zihinde tutmamak ya da hatırlamamak anlamında kullanılır. Kasıtlı ya da istemsiz olabilir.",
     synonyms: ["négliger", "omettre", "laisser de côté"],
     image: null,
     category: "verbs",
@@ -34007,7 +34137,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "oublie",
@@ -34015,7 +34145,7 @@ export const mockWords: Word[] = [
         il: "oublie",
         nous: "oublions",
         vous: "oubliez",
-        ils: "oublient"
+        ils: "oublient",
       },
       passéComposé: {
         je: "ai oublié",
@@ -34023,7 +34153,7 @@ export const mockWords: Word[] = [
         il: "a oublié",
         nous: "avons oublié",
         vous: "avez oublié",
-        ils: "ont oublié"
+        ils: "ont oublié",
       },
       imparfait: {
         je: "oubliais",
@@ -34031,7 +34161,7 @@ export const mockWords: Word[] = [
         il: "oubliait",
         nous: "oubliions",
         vous: "oubliiez",
-        ils: "oubliaient"
+        ils: "oubliaient",
       },
       futur: {
         je: "oublierai",
@@ -34039,8 +34169,8 @@ export const mockWords: Word[] = [
         il: "oubliera",
         nous: "oublierons",
         vous: "oublierez",
-        ils: "oublieront"
-      }
+        ils: "oublieront",
+      },
     },
     examples: [
       {
@@ -34048,23 +34178,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je t’oublie jamais.",
         translationTr: "Seni asla unutmam.",
-        translationEn: "I never forget you."
+        translationEn: "I never forget you.",
       },
       {
         form: "a oublié",
         tense: "passéComposé",
         sentence: "Elle a oublié son sac à la maison.",
         translationTr: "Çantasını evde unuttu.",
-        translationEn: "She forgot her bag at home."
+        translationEn: "She forgot her bag at home.",
       },
       {
         form: "oublieront",
         tense: "futur",
         sentence: "Ils n’oublieront jamais cette journée.",
         translationTr: "Bu günü asla unutmayacaklar.",
-        translationEn: "They will never forget this day."
-      }
-    ]
+        translationEn: "They will never forget this day.",
+      },
+    ],
   },
   {
     id: "v17-24",
@@ -34072,7 +34202,8 @@ export const mockWords: Word[] = [
     turkish: "Yuvarlanmak / Sürmek (araç)",
     english: "To roll / To drive",
     pronunciation: "ʁu-le",
-    description: "Hem nesnelerin yuvarlanması hem de taşıtların ilerlemesi anlamında kullanılır. Günlük dilde araç sürmek için de kullanılır.",
+    description:
+      "Hem nesnelerin yuvarlanması hem de taşıtların ilerlemesi anlamında kullanılır. Günlük dilde araç sürmek için de kullanılır.",
     synonyms: ["avancer", "conduire", "se déplacer"],
     image: null,
     category: "verbs",
@@ -34081,7 +34212,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "roule",
@@ -34089,7 +34220,7 @@ export const mockWords: Word[] = [
         il: "roule",
         nous: "roulons",
         vous: "roulez",
-        ils: "roulent"
+        ils: "roulent",
       },
       passéComposé: {
         je: "ai roulé",
@@ -34097,7 +34228,7 @@ export const mockWords: Word[] = [
         il: "a roulé",
         nous: "avons roulé",
         vous: "avez roulé",
-        ils: "ont roulé"
+        ils: "ont roulé",
       },
       imparfait: {
         je: "roulais",
@@ -34105,7 +34236,7 @@ export const mockWords: Word[] = [
         il: "roulait",
         nous: "roulions",
         vous: "rouliez",
-        ils: "roulaient"
+        ils: "roulaient",
       },
       futur: {
         je: "roulerai",
@@ -34113,8 +34244,8 @@ export const mockWords: Word[] = [
         il: "roulera",
         nous: "roulerons",
         vous: "roulerez",
-        ils: "rouleront"
-      }
+        ils: "rouleront",
+      },
     },
     examples: [
       {
@@ -34122,23 +34253,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "La voiture roule trop vite.",
         translationTr: "Araba çok hızlı gidiyor.",
-        translationEn: "The car is going too fast."
+        translationEn: "The car is going too fast.",
       },
       {
         form: "a roulé",
         tense: "passéComposé",
         sentence: "Il a roulé toute la nuit.",
         translationTr: "Tüm gece boyunca araç sürdü.",
-        translationEn: "He drove all night."
+        translationEn: "He drove all night.",
       },
       {
         form: "rouleront",
         tense: "futur",
         sentence: "Les camions rouleront demain matin.",
         translationTr: "Kamyonlar yarın sabah yola çıkacak.",
-        translationEn: "The trucks will roll tomorrow morning."
-      }
-    ]
+        translationEn: "The trucks will roll tomorrow morning.",
+      },
+    ],
   },
   {
     id: "v17-25",
@@ -34146,7 +34277,8 @@ export const mockWords: Word[] = [
     turkish: "Aramak / Çağırmak / Seslenmek",
     english: "To call / To name",
     pronunciation: "a-pə-le",
-    description: "Hem telefonla birini aramak hem de birine seslenmek ya da çağırmak anlamında kullanılır. Zamirle kullanıldığında ortada 'll' çiftlenir: j'appelle, tu appelles vs.",
+    description:
+      "Hem telefonla birini aramak hem de birine seslenmek ya da çağırmak anlamında kullanılır. Zamirle kullanıldığında ortada 'll' çiftlenir: j'appelle, tu appelles vs.",
     synonyms: ["téléphoner", "crier", "nommer"],
     image: null,
     category: "verbs",
@@ -34155,7 +34287,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "appelle",
@@ -34163,7 +34295,7 @@ export const mockWords: Word[] = [
         il: "appelle",
         nous: "appelons",
         vous: "appelez",
-        ils: "appellent"
+        ils: "appellent",
       },
       passéComposé: {
         je: "ai appelé",
@@ -34171,7 +34303,7 @@ export const mockWords: Word[] = [
         il: "a appelé",
         nous: "avons appelé",
         vous: "avez appelé",
-        ils: "ont appelé"
+        ils: "ont appelé",
       },
       imparfait: {
         je: "appelais",
@@ -34179,7 +34311,7 @@ export const mockWords: Word[] = [
         il: "appelait",
         nous: "appelions",
         vous: "appeliez",
-        ils: "appelaient"
+        ils: "appelaient",
       },
       futur: {
         je: "appellerai",
@@ -34187,8 +34319,8 @@ export const mockWords: Word[] = [
         il: "appellera",
         nous: "appellerons",
         vous: "appelerez",
-        ils: "appelleront"
-      }
+        ils: "appelleront",
+      },
     },
     examples: [
       {
@@ -34196,23 +34328,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je t’appelle ce soir.",
         translationTr: "Bu akşam seni arıyorum.",
-        translationEn: "I’ll call you tonight."
+        translationEn: "I’ll call you tonight.",
       },
       {
         form: "a appelé",
         tense: "passéComposé",
         sentence: "Elle a appelé son frère pour l’aider.",
         translationTr: "Yardım etmesi için kardeşini aradı.",
-        translationEn: "She called her brother for help."
+        translationEn: "She called her brother for help.",
       },
       {
         form: "appelleront",
         tense: "futur",
         sentence: "Ils appelleront les secours si nécessaire.",
         translationTr: "Gerekirse yardım çağıracaklar.",
-        translationEn: "They will call for help if needed."
-      }
-    ]
+        translationEn: "They will call for help if needed.",
+      },
+    ],
   },
   {
     id: "v18-1",
@@ -34220,7 +34352,8 @@ export const mockWords: Word[] = [
     turkish: "Uyarmak / Önceden haber vermek",
     english: "To warn / To inform in advance",
     pronunciation: "pʁe-və-niʁ",
-    description: "Bir durumu ya da tehlikeyi önceden bildirmek anlamındadır. Genellikle 'prévenir quelqu’un de quelque chose' kalıbıyla kullanılır.",
+    description:
+      "Bir durumu ya da tehlikeyi önceden bildirmek anlamındadır. Genellikle 'prévenir quelqu’un de quelque chose' kalıbıyla kullanılır.",
     synonyms: ["avertir", "informer", "alerter"],
     image: null,
     category: "verbs",
@@ -34229,7 +34362,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "préviens",
@@ -34237,7 +34370,7 @@ export const mockWords: Word[] = [
         il: "prévient",
         nous: "prévenons",
         vous: "prévenez",
-        ils: "préviennent"
+        ils: "préviennent",
       },
       passéComposé: {
         je: "ai prévenu",
@@ -34245,7 +34378,7 @@ export const mockWords: Word[] = [
         il: "a prévenu",
         nous: "avons prévenu",
         vous: "avez prévenu",
-        ils: "ont prévenu"
+        ils: "ont prévenu",
       },
       imparfait: {
         je: "prévenais",
@@ -34253,7 +34386,7 @@ export const mockWords: Word[] = [
         il: "prévenait",
         nous: "prévenions",
         vous: "préveniez",
-        ils: "prévenaient"
+        ils: "prévenaient",
       },
       futur: {
         je: "préviendrai",
@@ -34261,8 +34394,8 @@ export const mockWords: Word[] = [
         il: "préviendra",
         nous: "préviendrons",
         vous: "préviendrez",
-        ils: "préviendront"
-      }
+        ils: "préviendront",
+      },
     },
     examples: [
       {
@@ -34270,23 +34403,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je te préviens si quelque chose change.",
         translationTr: "Bir şey değişirse sana haber veririm.",
-        translationEn: "I'll let you know if anything changes."
+        translationEn: "I'll let you know if anything changes.",
       },
       {
         form: "a prévenu",
         tense: "passéComposé",
         sentence: "Elle a prévenu ses amis du retard.",
         translationTr: "Arkadaşlarını gecikme konusunda uyardı.",
-        translationEn: "She warned her friends about the delay."
+        translationEn: "She warned her friends about the delay.",
       },
       {
         form: "préviendront",
         tense: "futur",
         sentence: "Ils te préviendront à l’avance.",
         translationTr: "Seni önceden bilgilendirecekler.",
-        translationEn: "They will inform you in advance."
-      }
-    ]
+        translationEn: "They will inform you in advance.",
+      },
+    ],
   },
   {
     id: "v18-2",
@@ -34294,7 +34427,8 @@ export const mockWords: Word[] = [
     turkish: "Bitirmek / Sona ermek",
     english: "To finish / To end",
     pronunciation: "fi-niʁ",
-    description: "Bireysel ya da ortak bir eylemi tamamlamak, sona erdirmek için kullanılır. Yardımcı fiil 'avoir' ile çekimlenir ama bazı kullanımlarda refleksif de olabilir.",
+    description:
+      "Bireysel ya da ortak bir eylemi tamamlamak, sona erdirmek için kullanılır. Yardımcı fiil 'avoir' ile çekimlenir ama bazı kullanımlarda refleksif de olabilir.",
     synonyms: ["terminer", "compléter", "achever"],
     image: null,
     category: "verbs",
@@ -34303,7 +34437,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "finis",
@@ -34311,7 +34445,7 @@ export const mockWords: Word[] = [
         il: "finit",
         nous: "finissons",
         vous: "finissez",
-        ils: "finissent"
+        ils: "finissent",
       },
       passéComposé: {
         je: "ai fini",
@@ -34319,7 +34453,7 @@ export const mockWords: Word[] = [
         il: "a fini",
         nous: "avons fini",
         vous: "avez fini",
-        ils: "ont fini"
+        ils: "ont fini",
       },
       imparfait: {
         je: "finissais",
@@ -34327,7 +34461,7 @@ export const mockWords: Word[] = [
         il: "finissait",
         nous: "finissions",
         vous: "finissiez",
-        ils: "finissaient"
+        ils: "finissaient",
       },
       futur: {
         je: "finirai",
@@ -34335,8 +34469,8 @@ export const mockWords: Word[] = [
         il: "finira",
         nous: "finirons",
         vous: "finirez",
-        ils: "finiront"
-      }
+        ils: "finiront",
+      },
     },
     examples: [
       {
@@ -34344,23 +34478,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je finis mon devoir maintenant.",
         translationTr: "Şu anda ödevimi bitiriyorum.",
-        translationEn: "I'm finishing my homework now."
+        translationEn: "I'm finishing my homework now.",
       },
       {
         form: "a fini",
         tense: "passéComposé",
         sentence: "Il a fini le projet hier.",
         translationTr: "Projeyi dün bitirdi.",
-        translationEn: "He finished the project yesterday."
+        translationEn: "He finished the project yesterday.",
       },
       {
         form: "finiront",
         tense: "futur",
         sentence: "Ils finiront le travail demain.",
         translationTr: "İşi yarın bitirecekler.",
-        translationEn: "They will finish the job tomorrow."
-      }
-    ]
+        translationEn: "They will finish the job tomorrow.",
+      },
+    ],
   },
   {
     id: "v18-3",
@@ -34368,7 +34502,8 @@ export const mockWords: Word[] = [
     turkish: "Yakalamak / Kapmak",
     english: "To catch / To grab",
     pronunciation: "a-tʁa-pe",
-    description: "Hem fiziksel olarak bir şeyi yakalamak hem de hastalık, fırsat gibi şeyleri kapmak anlamında kullanılır.",
+    description:
+      "Hem fiziksel olarak bir şeyi yakalamak hem de hastalık, fırsat gibi şeyleri kapmak anlamında kullanılır.",
     synonyms: ["saisir", "prendre", "choper"],
     image: null,
     category: "verbs",
@@ -34377,7 +34512,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "attrape",
@@ -34385,7 +34520,7 @@ export const mockWords: Word[] = [
         il: "attrape",
         nous: "attrapons",
         vous: "attrapez",
-        ils: "attrapent"
+        ils: "attrapent",
       },
       passéComposé: {
         je: "ai attrapé",
@@ -34393,7 +34528,7 @@ export const mockWords: Word[] = [
         il: "a attrapé",
         nous: "avons attrapé",
         vous: "avez attrapé",
-        ils: "ont attrapé"
+        ils: "ont attrapé",
       },
       imparfait: {
         je: "attrapais",
@@ -34401,7 +34536,7 @@ export const mockWords: Word[] = [
         il: "attrapait",
         nous: "attrapions",
         vous: "attrapiez",
-        ils: "attrapaient"
+        ils: "attrapaient",
       },
       futur: {
         je: "attraperai",
@@ -34409,8 +34544,8 @@ export const mockWords: Word[] = [
         il: "attrapera",
         nous: "attraperons",
         vous: "attraperez",
-        ils: "attraperont"
-      }
+        ils: "attraperont",
+      },
     },
     examples: [
       {
@@ -34418,23 +34553,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il attrape la balle avec une seule main.",
         translationTr: "Topu tek eliyle yakalıyor.",
-        translationEn: "He catches the ball with one hand."
+        translationEn: "He catches the ball with one hand.",
       },
       {
         form: "a attrapé",
         tense: "passéComposé",
         sentence: "Elle a attrapé un rhume.",
         translationTr: "O soğuk algınlığına yakalandı.",
-        translationEn: "She caught a cold."
+        translationEn: "She caught a cold.",
       },
       {
         form: "attraperont",
         tense: "futur",
         sentence: "Ils attraperont le voleur.",
         translationTr: "Hırsızı yakalayacaklar.",
-        translationEn: "They will catch the thief."
-      }
-    ]
+        translationEn: "They will catch the thief.",
+      },
+    ],
   },
   {
     id: "v18-4",
@@ -34442,7 +34577,8 @@ export const mockWords: Word[] = [
     turkish: "Kanıtlamak / İspat etmek",
     english: "To prove / To demonstrate",
     pronunciation: "pʁu-ve",
-    description: "Bir düşünceyi, gerçeği ya da teoriyi kanıtlamak için kullanılır. Genellikle soyut bağlamlarda geçer.",
+    description:
+      "Bir düşünceyi, gerçeği ya da teoriyi kanıtlamak için kullanılır. Genellikle soyut bağlamlarda geçer.",
     synonyms: ["démontrer", "justifier", "attester"],
     image: null,
     category: "verbs",
@@ -34451,7 +34587,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "prouve",
@@ -34459,7 +34595,7 @@ export const mockWords: Word[] = [
         il: "prouve",
         nous: "prouvons",
         vous: "prouvez",
-        ils: "prouvent"
+        ils: "prouvent",
       },
       passéComposé: {
         je: "ai prouvé",
@@ -34467,7 +34603,7 @@ export const mockWords: Word[] = [
         il: "a prouvé",
         nous: "avons prouvé",
         vous: "avez prouvé",
-        ils: "ont prouvé"
+        ils: "ont prouvé",
       },
       imparfait: {
         je: "prouvais",
@@ -34475,7 +34611,7 @@ export const mockWords: Word[] = [
         il: "prouvait",
         nous: "prouvions",
         vous: "prouviez",
-        ils: "prouvaient"
+        ils: "prouvaient",
       },
       futur: {
         je: "prouverai",
@@ -34483,8 +34619,8 @@ export const mockWords: Word[] = [
         il: "prouvera",
         nous: "prouverons",
         vous: "prouverez",
-        ils: "prouveront"
-      }
+        ils: "prouveront",
+      },
     },
     examples: [
       {
@@ -34492,23 +34628,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il prouve sa loyauté chaque jour.",
         translationTr: "Sadakatini her gün kanıtlıyor.",
-        translationEn: "He proves his loyalty every day."
+        translationEn: "He proves his loyalty every day.",
       },
       {
         form: "a prouvé",
         tense: "passéComposé",
         sentence: "Elle a prouvé que c’était possible.",
         translationTr: "Bunun mümkün olduğunu kanıtladı.",
-        translationEn: "She proved it was possible."
+        translationEn: "She proved it was possible.",
       },
       {
         form: "prouveront",
         tense: "futur",
         sentence: "Ils prouveront leur innocence.",
         translationTr: "Masumiyetlerini kanıtlayacaklar.",
-        translationEn: "They will prove their innocence."
-      }
-    ]
+        translationEn: "They will prove their innocence.",
+      },
+    ],
   },
   {
     id: "v18-5",
@@ -34516,7 +34652,8 @@ export const mockWords: Word[] = [
     turkish: "Birleştirmek / Bir araya getirmek",
     english: "To unite / To join",
     pronunciation: "y-niʁ",
-    description: "İki veya daha fazla unsuru bir araya getirmek anlamındadır. Soyut anlamda birlik oluşturmak için de kullanılır.",
+    description:
+      "İki veya daha fazla unsuru bir araya getirmek anlamındadır. Soyut anlamda birlik oluşturmak için de kullanılır.",
     synonyms: ["assembler", "réunir", "fusionner"],
     image: null,
     category: "verbs",
@@ -34525,7 +34662,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "unis",
@@ -34533,7 +34670,7 @@ export const mockWords: Word[] = [
         il: "unit",
         nous: "unissons",
         vous: "unissez",
-        ils: "unissent"
+        ils: "unissent",
       },
       passéComposé: {
         je: "ai uni",
@@ -34541,7 +34678,7 @@ export const mockWords: Word[] = [
         il: "a uni",
         nous: "avons uni",
         vous: "avez uni",
-        ils: "ont uni"
+        ils: "ont uni",
       },
       imparfait: {
         je: "unissais",
@@ -34549,7 +34686,7 @@ export const mockWords: Word[] = [
         il: "unissait",
         nous: "unissions",
         vous: "unissiez",
-        ils: "unissaient"
+        ils: "unissaient",
       },
       futur: {
         je: "unirai",
@@ -34557,8 +34694,8 @@ export const mockWords: Word[] = [
         il: "unira",
         nous: "unirons",
         vous: "unirez",
-        ils: "uniront"
-      }
+        ils: "uniront",
+      },
     },
     examples: [
       {
@@ -34566,23 +34703,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je t’unis à moi pour toujours.",
         translationTr: "Seni sonsuza kadar kendime bağlıyorum.",
-        translationEn: "I unite you with me forever."
+        translationEn: "I unite you with me forever.",
       },
       {
         form: "a uni",
         tense: "passéComposé",
         sentence: "La cérémonie a uni les deux familles.",
         translationTr: "Tören iki aileyi birleştirdi.",
-        translationEn: "The ceremony united the two families."
+        translationEn: "The ceremony united the two families.",
       },
       {
         form: "uniront",
         tense: "futur",
         sentence: "Les efforts communs uniront les nations.",
         translationTr: "Ortak çabalar milletleri birleştirecek.",
-        translationEn: "The joint efforts will unite the nations."
-      }
-    ]
+        translationEn: "The joint efforts will unite the nations.",
+      },
+    ],
   },
   {
     id: "v18-6",
@@ -34590,7 +34727,8 @@ export const mockWords: Word[] = [
     turkish: "Ortaya çıkmak / Meydana gelmek",
     english: "To occur / To happen",
     pronunciation: "syʁ-və-niʁ",
-    description: "Genellikle beklenmedik olaylar için kullanılır. Yardımcı fiil 'être' ile çekimlenir. Düzensiz fiildir.",
+    description:
+      "Genellikle beklenmedik olaylar için kullanılır. Yardımcı fiil 'être' ile çekimlenir. Düzensiz fiildir.",
     synonyms: ["arriver", "se produire", "émerger"],
     image: null,
     category: "verbs",
@@ -34599,7 +34737,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "surviens",
@@ -34607,7 +34745,7 @@ export const mockWords: Word[] = [
         il: "survient",
         nous: "survenons",
         vous: "survenez",
-        ils: "surviennent"
+        ils: "surviennent",
       },
       passéComposé: {
         je: "suis survenu",
@@ -34615,7 +34753,7 @@ export const mockWords: Word[] = [
         il: "est survenu",
         nous: "sommes survenus",
         vous: "êtes survenus",
-        ils: "sont survenus"
+        ils: "sont survenus",
       },
       imparfait: {
         je: "survenais",
@@ -34623,7 +34761,7 @@ export const mockWords: Word[] = [
         il: "survenait",
         nous: "survenions",
         vous: "surveniez",
-        ils: "survenaient"
+        ils: "survenaient",
       },
       futur: {
         je: "surviendrai",
@@ -34631,8 +34769,8 @@ export const mockWords: Word[] = [
         il: "surviendra",
         nous: "surviendrons",
         vous: "surviendrez",
-        ils: "surviendront"
-      }
+        ils: "surviendront",
+      },
     },
     examples: [
       {
@@ -34640,23 +34778,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Un problème survient toujours au dernier moment.",
         translationTr: "Bir sorun her zaman son anda ortaya çıkar.",
-        translationEn: "A problem always occurs at the last moment."
+        translationEn: "A problem always occurs at the last moment.",
       },
       {
         form: "est survenu",
         tense: "passéComposé",
         sentence: "Un accident est survenu sur l’autoroute.",
         translationTr: "Otobanda bir kaza meydana geldi.",
-        translationEn: "An accident occurred on the highway."
+        translationEn: "An accident occurred on the highway.",
       },
       {
         form: "surviendra",
         tense: "futur",
         sentence: "Un changement important surviendra bientôt.",
         translationTr: "Önemli bir değişiklik yakında meydana gelecek.",
-        translationEn: "A major change will occur soon."
-      }
-    ]
+        translationEn: "A major change will occur soon.",
+      },
+    ],
   },
   {
     id: "v18-7",
@@ -34664,7 +34802,8 @@ export const mockWords: Word[] = [
     turkish: "Tekrar görmek / Gözden geçirmek",
     english: "To see again / To review",
     pronunciation: "ʁə-vwaʁ",
-    description: "Hem bir kişiyi veya yeri tekrar görmek hem de ders, plan vb. şeyleri gözden geçirmek anlamında kullanılır. Düzensiz fiildir.",
+    description:
+      "Hem bir kişiyi veya yeri tekrar görmek hem de ders, plan vb. şeyleri gözden geçirmek anlamında kullanılır. Düzensiz fiildir.",
     synonyms: ["réexaminer", "retrouver", "reconsidérer"],
     image: null,
     category: "verbs",
@@ -34673,7 +34812,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "revois",
@@ -34681,7 +34820,7 @@ export const mockWords: Word[] = [
         il: "revoit",
         nous: "revoyons",
         vous: "revoyez",
-        ils: "revoient"
+        ils: "revoient",
       },
       passéComposé: {
         je: "ai revu",
@@ -34689,7 +34828,7 @@ export const mockWords: Word[] = [
         il: "a revu",
         nous: "avons revu",
         vous: "avez revu",
-        ils: "ont revu"
+        ils: "ont revu",
       },
       imparfait: {
         je: "revoyais",
@@ -34697,7 +34836,7 @@ export const mockWords: Word[] = [
         il: "revoyait",
         nous: "revoyions",
         vous: "revoyiez",
-        ils: "revoyaient"
+        ils: "revoyaient",
       },
       futur: {
         je: "reverrai",
@@ -34705,8 +34844,8 @@ export const mockWords: Word[] = [
         il: "reverra",
         nous: "reverrons",
         vous: "reverrez",
-        ils: "reverront"
-      }
+        ils: "reverront",
+      },
     },
     examples: [
       {
@@ -34714,23 +34853,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il revoit ses amis d’enfance.",
         translationTr: "Çocukluk arkadaşlarını tekrar görüyor.",
-        translationEn: "He sees his childhood friends again."
+        translationEn: "He sees his childhood friends again.",
       },
       {
         form: "a revu",
         tense: "passéComposé",
         sentence: "Elle a revu son plan de voyage.",
         translationTr: "Seyahat planını gözden geçirdi.",
-        translationEn: "She reviewed her travel plan."
+        translationEn: "She reviewed her travel plan.",
       },
       {
         form: "reverront",
         tense: "futur",
         sentence: "Ils reverront le film demain.",
         translationTr: "Filmi yarın tekrar izleyecekler.",
-        translationEn: "They will see the movie again tomorrow."
-      }
-    ]
+        translationEn: "They will see the movie again tomorrow.",
+      },
+    ],
   },
   {
     id: "v18-8",
@@ -34738,7 +34877,8 @@ export const mockWords: Word[] = [
     turkish: "İşe almak / Başlatmak / Girişmek",
     english: "To hire / To engage / To initiate",
     pronunciation: "ɑ̃-ɡa-ʒe",
-    description: "Birini işe almak, bir süreci başlatmak veya bir işe kalkışmak anlamında çok yönlü bir fiildir. Refleksif kullanımı da yaygındır (s'engager).",
+    description:
+      "Birini işe almak, bir süreci başlatmak veya bir işe kalkışmak anlamında çok yönlü bir fiildir. Refleksif kullanımı da yaygındır (s'engager).",
     synonyms: ["embaucher", "commencer", "initier"],
     image: null,
     category: "verbs",
@@ -34747,7 +34887,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "engage",
@@ -34755,7 +34895,7 @@ export const mockWords: Word[] = [
         il: "engage",
         nous: "engageons",
         vous: "engagez",
-        ils: "engagent"
+        ils: "engagent",
       },
       passéComposé: {
         je: "ai engagé",
@@ -34763,7 +34903,7 @@ export const mockWords: Word[] = [
         il: "a engagé",
         nous: "avons engagé",
         vous: "avez engagé",
-        ils: "ont engagé"
+        ils: "ont engagé",
       },
       imparfait: {
         je: "engageais",
@@ -34771,7 +34911,7 @@ export const mockWords: Word[] = [
         il: "engageait",
         nous: "engagions",
         vous: "engagiez",
-        ils: "engageaient"
+        ils: "engageaient",
       },
       futur: {
         je: "engagerai",
@@ -34779,8 +34919,8 @@ export const mockWords: Word[] = [
         il: "engagera",
         nous: "engagerons",
         vous: "engagerez",
-        ils: "engageront"
-      }
+        ils: "engageront",
+      },
     },
     examples: [
       {
@@ -34788,23 +34928,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "L’entreprise engage de nouveaux employés.",
         translationTr: "Şirket yeni çalışanlar işe alıyor.",
-        translationEn: "The company is hiring new employees."
+        translationEn: "The company is hiring new employees.",
       },
       {
         form: "a engagé",
         tense: "passéComposé",
         sentence: "Elle a engagé une discussion importante.",
         translationTr: "Önemli bir tartışma başlattı.",
-        translationEn: "She initiated an important discussion."
+        translationEn: "She initiated an important discussion.",
       },
       {
         form: "engageront",
         tense: "futur",
         sentence: "Ils engageront un avocat.",
         translationTr: "Bir avukat tutacaklar.",
-        translationEn: "They will hire a lawyer."
-      }
-    ]
+        translationEn: "They will hire a lawyer.",
+      },
+    ],
   },
   {
     id: "v18-9",
@@ -34812,7 +34952,8 @@ export const mockWords: Word[] = [
     turkish: "Ölmek",
     english: "To die",
     pronunciation: "mu-ʁiʁ",
-    description: "Fiziksel ölüm anlamında kullanılır. Yardımcı fiil 'être' ile çekimlenir. Düzensiz ve yaygın bir fiildir.",
+    description:
+      "Fiziksel ölüm anlamında kullanılır. Yardımcı fiil 'être' ile çekimlenir. Düzensiz ve yaygın bir fiildir.",
     synonyms: ["décéder", "périr", "s’éteindre"],
     image: null,
     category: "verbs",
@@ -34821,7 +34962,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "meurs",
@@ -34829,7 +34970,7 @@ export const mockWords: Word[] = [
         il: "meurt",
         nous: "mourons",
         vous: "mourez",
-        ils: "meurent"
+        ils: "meurent",
       },
       passéComposé: {
         je: "suis mort",
@@ -34837,7 +34978,7 @@ export const mockWords: Word[] = [
         il: "est mort",
         nous: "sommes morts",
         vous: "êtes morts",
-        ils: "sont morts"
+        ils: "sont morts",
       },
       imparfait: {
         je: "mourais",
@@ -34845,7 +34986,7 @@ export const mockWords: Word[] = [
         il: "mourait",
         nous: "mourions",
         vous: "mouriez",
-        ils: "mouraient"
+        ils: "mouraient",
       },
       futur: {
         je: "mourrai",
@@ -34853,8 +34994,8 @@ export const mockWords: Word[] = [
         il: "mourra",
         nous: "mourrons",
         vous: "mourrez",
-        ils: "mourront"
-      }
+        ils: "mourront",
+      },
     },
     examples: [
       {
@@ -34862,23 +35003,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il meurt de rire.",
         translationTr: "Gülmekten ölüyor.",
-        translationEn: "He is dying of laughter."
+        translationEn: "He is dying of laughter.",
       },
       {
         form: "est mort",
         tense: "passéComposé",
         sentence: "Le héros est mort dans le dernier chapitre.",
         translationTr: "Kahraman son bölümde öldü.",
-        translationEn: "The hero died in the last chapter."
+        translationEn: "The hero died in the last chapter.",
       },
       {
         form: "mourront",
         tense: "futur",
         sentence: "Un jour, tous les êtres vivants mourront.",
         translationTr: "Bir gün tüm canlılar ölecek.",
-        translationEn: "One day, all living beings will die."
-      }
-    ]
+        translationEn: "One day, all living beings will die.",
+      },
+    ],
   },
   {
     id: "v18-10",
@@ -34886,7 +35027,8 @@ export const mockWords: Word[] = [
     turkish: "Anlamak",
     english: "To understand",
     pronunciation: "kɔ̃-pʁɑ̃-dʁ",
-    description: "Hem dil anlamında hem de genel olarak kavramak, idrak etmek anlamında yaygın olarak kullanılır. Düzensiz fiildir. 'Prendre' fiilinden türetilmiştir.",
+    description:
+      "Hem dil anlamında hem de genel olarak kavramak, idrak etmek anlamında yaygın olarak kullanılır. Düzensiz fiildir. 'Prendre' fiilinden türetilmiştir.",
     synonyms: ["saisir", "piger", "entendre"],
     image: null,
     category: "verbs",
@@ -34895,7 +35037,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "comprends",
@@ -34903,7 +35045,7 @@ export const mockWords: Word[] = [
         il: "comprend",
         nous: "comprenons",
         vous: "comprenez",
-        ils: "comprennent"
+        ils: "comprennent",
       },
       passéComposé: {
         je: "ai compris",
@@ -34911,7 +35053,7 @@ export const mockWords: Word[] = [
         il: "a compris",
         nous: "avons compris",
         vous: "avez compris",
-        ils: "ont compris"
+        ils: "ont compris",
       },
       imparfait: {
         je: "comprenais",
@@ -34919,7 +35061,7 @@ export const mockWords: Word[] = [
         il: "comprenait",
         nous: "comprenions",
         vous: "compreniez",
-        ils: "comprenaient"
+        ils: "comprenaient",
       },
       futur: {
         je: "comprendrai",
@@ -34927,8 +35069,8 @@ export const mockWords: Word[] = [
         il: "comprendra",
         nous: "comprendrons",
         vous: "comprendrez",
-        ils: "comprendront"
-      }
+        ils: "comprendront",
+      },
     },
     examples: [
       {
@@ -34936,23 +35078,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je ne comprends pas cette règle.",
         translationTr: "Bu kuralı anlamıyorum.",
-        translationEn: "I don't understand this rule."
+        translationEn: "I don't understand this rule.",
       },
       {
         form: "a compris",
         tense: "passéComposé",
         sentence: "Elle a enfin compris le problème.",
         translationTr: "Sonunda sorunu anladı.",
-        translationEn: "She finally understood the problem."
+        translationEn: "She finally understood the problem.",
       },
       {
         form: "comprendront",
         tense: "futur",
         sentence: "Ils comprendront quand il sera trop tard.",
         translationTr: "Çok geç olduğunda anlayacaklar.",
-        translationEn: "They will understand when it's too late."
-      }
-    ]
+        translationEn: "They will understand when it's too late.",
+      },
+    ],
   },
   {
     id: "v18-11",
@@ -34960,7 +35102,8 @@ export const mockWords: Word[] = [
     turkish: "Yerleştirmek / Koymak",
     english: "To place / To position",
     pronunciation: "pla-se",
-    description: "Bir şeyi bir yere koymak veya yerleştirmek anlamında kullanılır. '-cer' ile bittiği için nous çekiminde 'ç' sesi için 'ç' eklenir (nous plaçons).",
+    description:
+      "Bir şeyi bir yere koymak veya yerleştirmek anlamında kullanılır. '-cer' ile bittiği için nous çekiminde 'ç' sesi için 'ç' eklenir (nous plaçons).",
     synonyms: ["mettre", "poser", "installer"],
     image: null,
     category: "verbs",
@@ -34969,7 +35112,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "place",
@@ -34977,7 +35120,7 @@ export const mockWords: Word[] = [
         il: "place",
         nous: "plaçons",
         vous: "placez",
-        ils: "placent"
+        ils: "placent",
       },
       passéComposé: {
         je: "ai placé",
@@ -34985,7 +35128,7 @@ export const mockWords: Word[] = [
         il: "a placé",
         nous: "avons placé",
         vous: "avez placé",
-        ils: "ont placé"
+        ils: "ont placé",
       },
       imparfait: {
         je: "plaçais",
@@ -34993,7 +35136,7 @@ export const mockWords: Word[] = [
         il: "plaçait",
         nous: "placions",
         vous: "placiez",
-        ils: "plaçaient"
+        ils: "plaçaient",
       },
       futur: {
         je: "placerai",
@@ -35001,8 +35144,8 @@ export const mockWords: Word[] = [
         il: "placera",
         nous: "placerons",
         vous: "placerez",
-        ils: "placeront"
-      }
+        ils: "placeront",
+      },
     },
     examples: [
       {
@@ -35010,23 +35153,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il place les livres sur l’étagère.",
         translationTr: "Kitapları rafa yerleştiriyor.",
-        translationEn: "He places the books on the shelf."
+        translationEn: "He places the books on the shelf.",
       },
       {
         form: "a placé",
         tense: "passéComposé",
         sentence: "J’ai placé ma confiance en toi.",
         translationTr: "Sana güvenimi verdim.",
-        translationEn: "I placed my trust in you."
+        translationEn: "I placed my trust in you.",
       },
       {
         form: "placeront",
         tense: "futur",
         sentence: "Ils placeront les chaises dans la salle.",
         translationTr: "Sandalyeleri salona yerleştirecekler.",
-        translationEn: "They will place the chairs in the room."
-      }
-    ]
+        translationEn: "They will place the chairs in the room.",
+      },
+    ],
   },
   {
     id: "v18-12",
@@ -35034,7 +35177,8 @@ export const mockWords: Word[] = [
     turkish: "Bırakmak / Terketmek / İzin vermek",
     english: "To leave / To let / To allow",
     pronunciation: "lɛ-se",
-    description: "Fiziksel olarak bir şeyi bırakmak ya da birine izin vermek anlamında yaygın kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Fiziksel olarak bir şeyi bırakmak ya da birine izin vermek anlamında yaygın kullanılır. Yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["abandonner", "permettre", "quitter"],
     image: null,
     category: "verbs",
@@ -35043,7 +35187,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "laisse",
@@ -35051,7 +35195,7 @@ export const mockWords: Word[] = [
         il: "laisse",
         nous: "laissons",
         vous: "laissez",
-        ils: "laissent"
+        ils: "laissent",
       },
       passéComposé: {
         je: "ai laissé",
@@ -35059,7 +35203,7 @@ export const mockWords: Word[] = [
         il: "a laissé",
         nous: "avons laissé",
         vous: "avez laissé",
-        ils: "ont laissé"
+        ils: "ont laissé",
       },
       imparfait: {
         je: "laissais",
@@ -35067,7 +35211,7 @@ export const mockWords: Word[] = [
         il: "laissait",
         nous: "laissions",
         vous: "laissiez",
-        ils: "laissaient"
+        ils: "laissaient",
       },
       futur: {
         je: "laisserai",
@@ -35075,8 +35219,8 @@ export const mockWords: Word[] = [
         il: "laissera",
         nous: "laisserons",
         vous: "laisserez",
-        ils: "laisseront"
-      }
+        ils: "laisseront",
+      },
     },
     examples: [
       {
@@ -35084,23 +35228,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je te laisse décider.",
         translationTr: "Karar vermeni sana bırakıyorum.",
-        translationEn: "I let you decide."
+        translationEn: "I let you decide.",
       },
       {
         form: "a laissé",
         tense: "passéComposé",
         sentence: "Elle a laissé ses clés à la maison.",
         translationTr: "Anahtarlarını evde bıraktı.",
-        translationEn: "She left her keys at home."
+        translationEn: "She left her keys at home.",
       },
       {
         form: "laisseront",
         tense: "futur",
         sentence: "Ils laisseront les enfants jouer dehors.",
         translationTr: "Çocukların dışarıda oynamasına izin verecekler.",
-        translationEn: "They will let the children play outside."
-      }
-    ]
+        translationEn: "They will let the children play outside.",
+      },
+    ],
   },
   {
     id: "v18-13",
@@ -35108,7 +35252,8 @@ export const mockWords: Word[] = [
     turkish: "Aşağı indirmek / Alçaltmak",
     english: "To lower / To pull down",
     pronunciation: "a-bɛ-se",
-    description: "Hem fiziksel olarak bir nesneyi indirmek hem de mecaz anlamda birini küçük düşürmek için kullanılır.",
+    description:
+      "Hem fiziksel olarak bir nesneyi indirmek hem de mecaz anlamda birini küçük düşürmek için kullanılır.",
     synonyms: ["baisser", "rabaisser", "diminuer"],
     image: null,
     category: "verbs",
@@ -35117,7 +35262,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "abaisse",
@@ -35125,7 +35270,7 @@ export const mockWords: Word[] = [
         il: "abaisse",
         nous: "abaissons",
         vous: "abaissez",
-        ils: "abaissent"
+        ils: "abaissent",
       },
       passéComposé: {
         je: "ai abaissé",
@@ -35133,7 +35278,7 @@ export const mockWords: Word[] = [
         il: "a abaissé",
         nous: "avons abaissé",
         vous: "avez abaissé",
-        ils: "ont abaissé"
+        ils: "ont abaissé",
       },
       imparfait: {
         je: "abaissais",
@@ -35141,7 +35286,7 @@ export const mockWords: Word[] = [
         il: "abaissait",
         nous: "abaissions",
         vous: "abaissiez",
-        ils: "abaissaient"
+        ils: "abaissaient",
       },
       futur: {
         je: "abaisserai",
@@ -35149,8 +35294,8 @@ export const mockWords: Word[] = [
         il: "abaissera",
         nous: "abaisserons",
         vous: "abaisserez",
-        ils: "abaisseront"
-      }
+        ils: "abaisseront",
+      },
     },
     examples: [
       {
@@ -35158,23 +35303,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il abaisse la vitre de la voiture.",
         translationTr: "Arabanın camını indiriyor.",
-        translationEn: "He lowers the car window."
+        translationEn: "He lowers the car window.",
       },
       {
         form: "a abaissé",
         tense: "passéComposé",
         sentence: "Elle a abaissé sa voix.",
         translationTr: "Sesini alçalttı.",
-        translationEn: "She lowered her voice."
+        translationEn: "She lowered her voice.",
       },
       {
         form: "abaisseront",
         tense: "futur",
         sentence: "Ils abaisseront les rideaux à la nuit tombée.",
         translationTr: "Gece çöktüğünde perdeleri indirecekler.",
-        translationEn: "They will lower the curtains at nightfall."
-      }
-    ]
+        translationEn: "They will lower the curtains at nightfall.",
+      },
+    ],
   },
   {
     id: "v18-14",
@@ -35182,7 +35327,8 @@ export const mockWords: Word[] = [
     turkish: "Rahatsız etmek / Zor durumda bırakmak",
     english: "To disturb / To bother",
     pronunciation: "de-ʁɑ̃-ʒe",
-    description: "Birini fiziksel ya da zihinsel olarak rahatsız etmek anlamında kullanılır. '-ger' fiili olduğu için nous çekiminde 'e' harfi korunur: nous dérangeons.",
+    description:
+      "Birini fiziksel ya da zihinsel olarak rahatsız etmek anlamında kullanılır. '-ger' fiili olduğu için nous çekiminde 'e' harfi korunur: nous dérangeons.",
     synonyms: ["gêner", "importuner", "ennuyer"],
     image: null,
     category: "verbs",
@@ -35191,7 +35337,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dérange",
@@ -35199,7 +35345,7 @@ export const mockWords: Word[] = [
         il: "dérange",
         nous: "dérangeons",
         vous: "dérangez",
-        ils: "dérangent"
+        ils: "dérangent",
       },
       passéComposé: {
         je: "ai dérangé",
@@ -35207,7 +35353,7 @@ export const mockWords: Word[] = [
         il: "a dérangé",
         nous: "avons dérangé",
         vous: "avez dérangé",
-        ils: "ont dérangé"
+        ils: "ont dérangé",
       },
       imparfait: {
         je: "dérangeais",
@@ -35215,7 +35361,7 @@ export const mockWords: Word[] = [
         il: "dérangeait",
         nous: "dérangions",
         vous: "dérangiez",
-        ils: "dérangeaient"
+        ils: "dérangeaient",
       },
       futur: {
         je: "dérangerai",
@@ -35223,8 +35369,8 @@ export const mockWords: Word[] = [
         il: "dérangera",
         nous: "dérangerons",
         vous: "dérangerez",
-        ils: "dérangeront"
-      }
+        ils: "dérangeront",
+      },
     },
     examples: [
       {
@@ -35232,23 +35378,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Excusez-moi, je ne veux pas vous déranger.",
         translationTr: "Affedersiniz, sizi rahatsız etmek istemem.",
-        translationEn: "Excuse me, I don't want to bother you."
+        translationEn: "Excuse me, I don't want to bother you.",
       },
       {
         form: "a dérangé",
         tense: "passéComposé",
         sentence: "Le bruit a dérangé les voisins.",
         translationTr: "Gürültü komşuları rahatsız etti.",
-        translationEn: "The noise disturbed the neighbors."
+        translationEn: "The noise disturbed the neighbors.",
       },
       {
         form: "dérangeront",
         tense: "futur",
         sentence: "Les enfants ne dérangeront pas la réunion.",
         translationTr: "Çocuklar toplantıyı rahatsız etmeyecek.",
-        translationEn: "The children will not disturb the meeting."
-      }
-    ]
+        translationEn: "The children will not disturb the meeting.",
+      },
+    ],
   },
   {
     id: "v18-15",
@@ -35256,7 +35402,8 @@ export const mockWords: Word[] = [
     turkish: "Korumak",
     english: "To protect",
     pronunciation: "pʁo-te-ʒe",
-    description: "Hem fiziksel hem de manevi anlamda koruma anlamına gelir. '-ger' ile bittiği için nous çekiminde 'e' harfi korunur (nous protégeons).",
+    description:
+      "Hem fiziksel hem de manevi anlamda koruma anlamına gelir. '-ger' ile bittiği için nous çekiminde 'e' harfi korunur (nous protégeons).",
     synonyms: ["défendre", "sauvegarder", "préserver"],
     image: null,
     category: "verbs",
@@ -35265,7 +35412,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "protège",
@@ -35273,7 +35420,7 @@ export const mockWords: Word[] = [
         il: "protège",
         nous: "protégeons",
         vous: "protégez",
-        ils: "protègent"
+        ils: "protègent",
       },
       passéComposé: {
         je: "ai protégé",
@@ -35281,7 +35428,7 @@ export const mockWords: Word[] = [
         il: "a protégé",
         nous: "avons protégé",
         vous: "avez protégé",
-        ils: "ont protégé"
+        ils: "ont protégé",
       },
       imparfait: {
         je: "protégeais",
@@ -35289,7 +35436,7 @@ export const mockWords: Word[] = [
         il: "protégeait",
         nous: "protégions",
         vous: "protégiez",
-        ils: "protégeaient"
+        ils: "protégeaient",
       },
       futur: {
         je: "protégerai",
@@ -35297,8 +35444,8 @@ export const mockWords: Word[] = [
         il: "protégera",
         nous: "protégerons",
         vous: "protégez",
-        ils: "protégeront"
-      }
+        ils: "protégeront",
+      },
     },
     examples: [
       {
@@ -35306,23 +35453,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle protège toujours ses enfants.",
         translationTr: "Her zaman çocuklarını korur.",
-        translationEn: "She always protects her children."
+        translationEn: "She always protects her children.",
       },
       {
         form: "a protégé",
         tense: "passéComposé",
         sentence: "Il a protégé son ami contre les attaques.",
         translationTr: "Arkadaşını saldırılara karşı korudu.",
-        translationEn: "He protected his friend from the attacks."
+        translationEn: "He protected his friend from the attacks.",
       },
       {
         form: "protégeront",
         tense: "futur",
         sentence: "Les lois protégeront l’environnement.",
         translationTr: "Yasalar çevreyi koruyacak.",
-        translationEn: "The laws will protect the environment."
-      }
-    ]
+        translationEn: "The laws will protect the environment.",
+      },
+    ],
   },
   {
     id: "v18-16",
@@ -35330,7 +35477,8 @@ export const mockWords: Word[] = [
     turkish: "Kirletmek / Lekelemek",
     english: "To dirty / To soil",
     pronunciation: "sa-liʁ",
-    description: "Hem fiziksel olarak bir şeyi kirletmek hem de soyut anlamda bir kişinin itibarını lekelemek için kullanılabilir.",
+    description:
+      "Hem fiziksel olarak bir şeyi kirletmek hem de soyut anlamda bir kişinin itibarını lekelemek için kullanılabilir.",
     synonyms: ["tacher", "souiller", "polluer"],
     image: null,
     category: "verbs",
@@ -35339,7 +35487,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "salie",
@@ -35347,7 +35495,7 @@ export const mockWords: Word[] = [
         il: "salie",
         nous: "salissons",
         vous: "salissez",
-        ils: "salissent"
+        ils: "salissent",
       },
       passéComposé: {
         je: "ai sali",
@@ -35355,7 +35503,7 @@ export const mockWords: Word[] = [
         il: "a sali",
         nous: "avons sali",
         vous: "avez sali",
-        ils: "ont sali"
+        ils: "ont sali",
       },
       imparfait: {
         je: "salissais",
@@ -35363,7 +35511,7 @@ export const mockWords: Word[] = [
         il: "salissait",
         nous: "salissions",
         vous: "salissiez",
-        ils: "salissaient"
+        ils: "salissaient",
       },
       futur: {
         je: "salirai",
@@ -35371,8 +35519,8 @@ export const mockWords: Word[] = [
         il: "salira",
         nous: "salirons",
         vous: "salirez",
-        ils: "saliront"
-      }
+        ils: "saliront",
+      },
     },
     examples: [
       {
@@ -35380,23 +35528,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle salie toujours sa robe en jouant.",
         translationTr: "Oynarken her zaman elbisesini kirletir.",
-        translationEn: "She always dirties her dress while playing."
+        translationEn: "She always dirties her dress while playing.",
       },
       {
         form: "a sali",
         tense: "passéComposé",
         sentence: "Le chien a sali le canapé.",
         translationTr: "Köpek kanepeyi kirletti.",
-        translationEn: "The dog dirtied the sofa."
+        translationEn: "The dog dirtied the sofa.",
       },
       {
         form: "saliront",
         tense: "futur",
         sentence: "Les enfants saliront tout s’ils jouent ici.",
         translationTr: "Çocuklar burada oynarsa her yeri kirletecek.",
-        translationEn: "The children will dirty everything if they play here."
-      }
-    ]
+        translationEn: "The children will dirty everything if they play here.",
+      },
+    ],
   },
   {
     id: "v18-17",
@@ -35404,7 +35552,8 @@ export const mockWords: Word[] = [
     turkish: "Çizmek / Resmetmek",
     english: "To draw / To sketch",
     pronunciation: "de-si-ne",
-    description: "Sanatsal ya da teknik çizimlerde kullanılır. Ayrıca soyut fikirleri ifade etmek için de kullanılabilir (dessiner un avenir).",
+    description:
+      "Sanatsal ya da teknik çizimlerde kullanılır. Ayrıca soyut fikirleri ifade etmek için de kullanılabilir (dessiner un avenir).",
     synonyms: ["illustrer", "esquisser", "tracer"],
     image: null,
     category: "verbs",
@@ -35413,7 +35562,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dessine",
@@ -35421,7 +35570,7 @@ export const mockWords: Word[] = [
         il: "dessine",
         nous: "dessinons",
         vous: "dessinez",
-        ils: "dessinent"
+        ils: "dessinent",
       },
       passéComposé: {
         je: "ai dessiné",
@@ -35429,7 +35578,7 @@ export const mockWords: Word[] = [
         il: "a dessiné",
         nous: "avons dessiné",
         vous: "avez dessiné",
-        ils: "ont dessiné"
+        ils: "ont dessiné",
       },
       imparfait: {
         je: "dessinais",
@@ -35437,7 +35586,7 @@ export const mockWords: Word[] = [
         il: "dessinait",
         nous: "dessinions",
         vous: "dessiniez",
-        ils: "dessinaient"
+        ils: "dessinaient",
       },
       futur: {
         je: "dessinerai",
@@ -35445,8 +35594,8 @@ export const mockWords: Word[] = [
         il: "dessinera",
         nous: "dessinerons",
         vous: "dessinerez",
-        ils: "dessineront"
-      }
+        ils: "dessineront",
+      },
     },
     examples: [
       {
@@ -35454,23 +35603,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il dessine un portrait réaliste.",
         translationTr: "Gerçekçi bir portre çiziyor.",
-        translationEn: "He is drawing a realistic portrait."
+        translationEn: "He is drawing a realistic portrait.",
       },
       {
         form: "a dessiné",
         tense: "passéComposé",
         sentence: "Elle a dessiné une maison.",
         translationTr: "Bir ev çizdi.",
-        translationEn: "She drew a house."
+        translationEn: "She drew a house.",
       },
       {
         form: "dessineront",
         tense: "futur",
         sentence: "Les élèves dessineront un paysage demain.",
         translationTr: "Öğrenciler yarın bir manzara çizecekler.",
-        translationEn: "The students will draw a landscape tomorrow."
-      }
-    ]
+        translationEn: "The students will draw a landscape tomorrow.",
+      },
+    ],
   },
   {
     id: "v18-18",
@@ -35478,7 +35627,8 @@ export const mockWords: Word[] = [
     turkish: "Fısıldamak",
     english: "To whisper",
     pronunciation: "ʃy-ʃɔ-te",
-    description: "Düşük sesle konuşmak, gizli ya da özel şeyler fısıldamak anlamında kullanılır. Duygusal sahnelerde de yaygındır.",
+    description:
+      "Düşük sesle konuşmak, gizli ya da özel şeyler fısıldamak anlamında kullanılır. Duygusal sahnelerde de yaygındır.",
     synonyms: ["murmurer", "susurrer", "parler bas"],
     image: null,
     category: "verbs",
@@ -35487,7 +35637,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "chuchote",
@@ -35495,7 +35645,7 @@ export const mockWords: Word[] = [
         il: "chuchote",
         nous: "chuchotons",
         vous: "chuchotez",
-        ils: "chuchotent"
+        ils: "chuchotent",
       },
       passéComposé: {
         je: "ai chuchoté",
@@ -35503,7 +35653,7 @@ export const mockWords: Word[] = [
         il: "a chuchoté",
         nous: "avons chuchoté",
         vous: "avez chuchoté",
-        ils: "ont chuchoté"
+        ils: "ont chuchoté",
       },
       imparfait: {
         je: "chuchotais",
@@ -35511,7 +35661,7 @@ export const mockWords: Word[] = [
         il: "chuchotait",
         nous: "chuchotions",
         vous: "chuchotiez",
-        ils: "chuchotaient"
+        ils: "chuchotaient",
       },
       futur: {
         je: "chuchoterai",
@@ -35519,8 +35669,8 @@ export const mockWords: Word[] = [
         il: "chuchotera",
         nous: "chuchoterons",
         vous: "chuchoterez",
-        ils: "chuchoteront"
-      }
+        ils: "chuchoteront",
+      },
     },
     examples: [
       {
@@ -35528,23 +35678,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle chuchote un secret à son ami.",
         translationTr: "Arkadaşına bir sır fısıldıyor.",
-        translationEn: "She whispers a secret to her friend."
+        translationEn: "She whispers a secret to her friend.",
       },
       {
         form: "a chuchoté",
         tense: "passéComposé",
         sentence: "Il a chuchoté son nom.",
         translationTr: "Adını fısıldadı.",
-        translationEn: "He whispered his name."
+        translationEn: "He whispered his name.",
       },
       {
         form: "chuchoteront",
         tense: "futur",
         sentence: "Les amoureux chuchoteront des mots doux.",
         translationTr: "Aşıklar tatlı sözler fısıldayacaklar.",
-        translationEn: "Lovers will whisper sweet words."
-      }
-    ]
+        translationEn: "Lovers will whisper sweet words.",
+      },
+    ],
   },
   {
     id: "v18-19",
@@ -35552,7 +35702,8 @@ export const mockWords: Word[] = [
     turkish: "Satmak",
     english: "To sell",
     pronunciation: "vɑ̃dʁ",
-    description: "Ticari işlemlerde yaygın olarak kullanılır. Soyut anlamda birini 'satmak' (ihanet etmek) anlamında da kullanılabilir.",
+    description:
+      "Ticari işlemlerde yaygın olarak kullanılır. Soyut anlamda birini 'satmak' (ihanet etmek) anlamında da kullanılabilir.",
     synonyms: ["commercialiser", "échanger", "céder"],
     image: null,
     category: "verbs",
@@ -35561,7 +35712,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vends",
@@ -35569,7 +35720,7 @@ export const mockWords: Word[] = [
         il: "vend",
         nous: "vendons",
         vous: "vendez",
-        ils: "vendent"
+        ils: "vendent",
       },
       passéComposé: {
         je: "ai vendu",
@@ -35577,7 +35728,7 @@ export const mockWords: Word[] = [
         il: "a vendu",
         nous: "avons vendu",
         vous: "avez vendu",
-        ils: "ont vendu"
+        ils: "ont vendu",
       },
       imparfait: {
         je: "vendais",
@@ -35585,7 +35736,7 @@ export const mockWords: Word[] = [
         il: "vendait",
         nous: "vendions",
         vous: "vendiez",
-        ils: "vendaient"
+        ils: "vendaient",
       },
       futur: {
         je: "vendrai",
@@ -35593,8 +35744,8 @@ export const mockWords: Word[] = [
         il: "vendra",
         nous: "vendrons",
         vous: "vendrez",
-        ils: "vendront"
-      }
+        ils: "vendront",
+      },
     },
     examples: [
       {
@@ -35602,23 +35753,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il vend des légumes au marché.",
         translationTr: "Pazarda sebze satıyor.",
-        translationEn: "He sells vegetables at the market."
+        translationEn: "He sells vegetables at the market.",
       },
       {
         form: "a vendu",
         tense: "passéComposé",
         sentence: "Elle a vendu sa voiture.",
         translationTr: "Arabayı sattı.",
-        translationEn: "She sold her car."
+        translationEn: "She sold her car.",
       },
       {
         form: "vendront",
         tense: "futur",
         sentence: "Ils vendront leur maison l’année prochaine.",
         translationTr: "Gelecek yıl evlerini satacaklar.",
-        translationEn: "They will sell their house next year."
-      }
-    ]
+        translationEn: "They will sell their house next year.",
+      },
+    ],
   },
   {
     id: "v18-20",
@@ -35626,7 +35777,8 @@ export const mockWords: Word[] = [
     turkish: "Dinlemek",
     english: "To listen",
     pronunciation: "e-ku-te",
-    description: "Fiziksel olarak sesleri dinlemek ya da bir kişiyi dikkatle dinlemek için kullanılır. 'Entendre' fiilinden farklı olarak bilinçli bir eylemdir.",
+    description:
+      "Fiziksel olarak sesleri dinlemek ya da bir kişiyi dikkatle dinlemek için kullanılır. 'Entendre' fiilinden farklı olarak bilinçli bir eylemdir.",
     synonyms: ["entendre", "prêter l’oreille", "entendre attentivement"],
     image: null,
     category: "verbs",
@@ -35635,7 +35787,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "écoute",
@@ -35643,7 +35795,7 @@ export const mockWords: Word[] = [
         il: "écoute",
         nous: "écoutons",
         vous: "écoutez",
-        ils: "écoutent"
+        ils: "écoutent",
       },
       passéComposé: {
         je: "ai écouté",
@@ -35651,7 +35803,7 @@ export const mockWords: Word[] = [
         il: "a écouté",
         nous: "avons écouté",
         vous: "avez écouté",
-        ils: "ont écouté"
+        ils: "ont écouté",
       },
       imparfait: {
         je: "écoutais",
@@ -35659,7 +35811,7 @@ export const mockWords: Word[] = [
         il: "écoutait",
         nous: "écoutions",
         vous: "écoutiez",
-        ils: "écoutaient"
+        ils: "écoutaient",
       },
       futur: {
         je: "écouterai",
@@ -35667,8 +35819,8 @@ export const mockWords: Word[] = [
         il: "écoutera",
         nous: "écouterons",
         vous: "écouterez",
-        ils: "écouteront"
-      }
+        ils: "écouteront",
+      },
     },
     examples: [
       {
@@ -35676,23 +35828,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il écoute la radio tous les matins.",
         translationTr: "Her sabah radyo dinliyor.",
-        translationEn: "He listens to the radio every morning."
+        translationEn: "He listens to the radio every morning.",
       },
       {
         form: "a écouté",
         tense: "passéComposé",
         sentence: "Nous avons écouté le discours du président.",
         translationTr: "Başkanın konuşmasını dinledik.",
-        translationEn: "We listened to the president’s speech."
+        translationEn: "We listened to the president’s speech.",
       },
       {
         form: "écouteront",
         tense: "futur",
         sentence: "Les élèves écouteront attentivement le professeur.",
         translationTr: "Öğrenciler öğretmeni dikkatle dinleyecek.",
-        translationEn: "The students will listen carefully to the teacher."
-      }
-    ]
+        translationEn: "The students will listen carefully to the teacher.",
+      },
+    ],
   },
   {
     id: "v18-21",
@@ -35700,7 +35852,8 @@ export const mockWords: Word[] = [
     turkish: "Üflemek / Nefes almak / Fısıldamak (hafifçe)",
     english: "To blow / To breathe out / To whisper softly",
     pronunciation: "su-fle",
-    description: "Hem fiziksel üfleme hem de mecazi anlamda rahatlama, es verme ya da öneride bulunmak anlamlarında da kullanılabilir.",
+    description:
+      "Hem fiziksel üfleme hem de mecazi anlamda rahatlama, es verme ya da öneride bulunmak anlamlarında da kullanılabilir.",
     synonyms: ["expirer", "murmurer", "proposer"],
     image: null,
     category: "verbs",
@@ -35709,7 +35862,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "souffle",
@@ -35717,7 +35870,7 @@ export const mockWords: Word[] = [
         il: "souffle",
         nous: "soufflons",
         vous: "soufflez",
-        ils: "soufflent"
+        ils: "soufflent",
       },
       passéComposé: {
         je: "ai soufflé",
@@ -35725,7 +35878,7 @@ export const mockWords: Word[] = [
         il: "a soufflé",
         nous: "avons soufflé",
         vous: "avez soufflé",
-        ils: "ont soufflé"
+        ils: "ont soufflé",
       },
       imparfait: {
         je: "soufflais",
@@ -35733,7 +35886,7 @@ export const mockWords: Word[] = [
         il: "soufflait",
         nous: "soufflions",
         vous: "souffliez",
-        ils: "soufflaient"
+        ils: "soufflaient",
       },
       futur: {
         je: "soufflerai",
@@ -35741,8 +35894,8 @@ export const mockWords: Word[] = [
         il: "soufflera",
         nous: "soufflerons",
         vous: "soufflerez",
-        ils: "souffleront"
-      }
+        ils: "souffleront",
+      },
     },
     examples: [
       {
@@ -35750,23 +35903,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il souffle sur la soupe pour la refroidir.",
         translationTr: "Çorbayı soğutmak için üflüyor.",
-        translationEn: "He blows on the soup to cool it down."
+        translationEn: "He blows on the soup to cool it down.",
       },
       {
         form: "a soufflé",
         tense: "passéComposé",
         sentence: "Elle a soufflé les bougies de son gâteau.",
         translationTr: "Pastasının mumlarını üfledi.",
-        translationEn: "She blew out the candles on her cake."
+        translationEn: "She blew out the candles on her cake.",
       },
       {
         form: "souffleront",
         tense: "futur",
         sentence: "Ils souffleront un peu avant de continuer.",
         translationTr: "Devam etmeden önce biraz soluklanacaklar.",
-        translationEn: "They will take a breather before continuing."
-      }
-    ]
+        translationEn: "They will take a breather before continuing.",
+      },
+    ],
   },
   {
     id: "v18-22",
@@ -35774,7 +35927,8 @@ export const mockWords: Word[] = [
     turkish: "Aktarmak / İletmek / Bulaştırmak",
     english: "To transmit / To pass on / To convey",
     pronunciation: "tʁɑ̃s-mɛtʁ",
-    description: "Bilgi, mesaj, hastalık veya miras gibi şeyleri iletmek veya devretmek için kullanılır. Düzensiz fiildir.",
+    description:
+      "Bilgi, mesaj, hastalık veya miras gibi şeyleri iletmek veya devretmek için kullanılır. Düzensiz fiildir.",
     synonyms: ["communiquer", "faire passer", "diffuser"],
     image: null,
     category: "verbs",
@@ -35783,7 +35937,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "transmets",
@@ -35791,7 +35945,7 @@ export const mockWords: Word[] = [
         il: "transmet",
         nous: "transmettons",
         vous: "transmettez",
-        ils: "transmettent"
+        ils: "transmettent",
       },
       passéComposé: {
         je: "ai transmis",
@@ -35799,7 +35953,7 @@ export const mockWords: Word[] = [
         il: "a transmis",
         nous: "avons transmis",
         vous: "avez transmis",
-        ils: "ont transmis"
+        ils: "ont transmis",
       },
       imparfait: {
         je: "transmettais",
@@ -35807,7 +35961,7 @@ export const mockWords: Word[] = [
         il: "transmettait",
         nous: "transmettions",
         vous: "transmettiez",
-        ils: "transmettaient"
+        ils: "transmettaient",
       },
       futur: {
         je: "transmettrai",
@@ -35815,8 +35969,8 @@ export const mockWords: Word[] = [
         il: "transmettra",
         nous: "transmettrons",
         vous: "transmettrez",
-        ils: "transmettront"
-      }
+        ils: "transmettront",
+      },
     },
     examples: [
       {
@@ -35824,23 +35978,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle transmet les instructions au groupe.",
         translationTr: "Talimatları gruba iletiyor.",
-        translationEn: "She transmits the instructions to the group."
+        translationEn: "She transmits the instructions to the group.",
       },
       {
         form: "a transmis",
         tense: "passéComposé",
         sentence: "Il a transmis sa passion à ses enfants.",
         translationTr: "Tutkusunu çocuklarına aktardı.",
-        translationEn: "He passed on his passion to his children."
+        translationEn: "He passed on his passion to his children.",
       },
       {
         form: "transmettront",
         tense: "futur",
         sentence: "Ils transmettront le message dès demain.",
         translationTr: "Mesajı yarından itibaren iletecekler.",
-        translationEn: "They will transmit the message starting tomorrow."
-      }
-    ]
+        translationEn: "They will transmit the message starting tomorrow.",
+      },
+    ],
   },
   {
     id: "v18-23",
@@ -35848,7 +36002,8 @@ export const mockWords: Word[] = [
     turkish: "Fark etmek / Gözlemlemek",
     english: "To notice / To observe / To remark",
     pronunciation: "ʁə-maʁ-ke",
-    description: "Bir şeyi dikkatlice fark etmek veya yorumda bulunmak için kullanılır. Hem görsel hem zihinsel dikkat anlamında geçer.",
+    description:
+      "Bir şeyi dikkatlice fark etmek veya yorumda bulunmak için kullanılır. Hem görsel hem zihinsel dikkat anlamında geçer.",
     synonyms: ["noter", "apercevoir", "observer"],
     image: null,
     category: "verbs",
@@ -35857,7 +36012,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "remarque",
@@ -35865,7 +36020,7 @@ export const mockWords: Word[] = [
         il: "remarque",
         nous: "remarquons",
         vous: "remarquez",
-        ils: "remarquent"
+        ils: "remarquent",
       },
       passéComposé: {
         je: "ai remarqué",
@@ -35873,7 +36028,7 @@ export const mockWords: Word[] = [
         il: "a remarqué",
         nous: "avons remarqué",
         vous: "avez remarqué",
-        ils: "ont remarqué"
+        ils: "ont remarqué",
       },
       imparfait: {
         je: "remarquais",
@@ -35881,7 +36036,7 @@ export const mockWords: Word[] = [
         il: "remarquait",
         nous: "remarquions",
         vous: "remarquiez",
-        ils: "remarquaient"
+        ils: "remarquaient",
       },
       futur: {
         je: "remarquerai",
@@ -35889,8 +36044,8 @@ export const mockWords: Word[] = [
         il: "remarquera",
         nous: "remarquerons",
         vous: "remarquerez",
-        ils: "remarqueront"
-      }
+        ils: "remarqueront",
+      },
     },
     examples: [
       {
@@ -35898,23 +36053,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je remarque une erreur dans ce document.",
         translationTr: "Bu belgede bir hata fark ediyorum.",
-        translationEn: "I notice an error in this document."
+        translationEn: "I notice an error in this document.",
       },
       {
         form: "a remarqué",
         tense: "passéComposé",
         sentence: "Elle a remarqué son absence.",
         translationTr: "Onun yokluğunu fark etti.",
-        translationEn: "She noticed his absence."
+        translationEn: "She noticed his absence.",
       },
       {
         form: "remarqueront",
         tense: "futur",
         sentence: "Ils remarqueront les changements plus tard.",
         translationTr: "Değişiklikleri daha sonra fark edecekler.",
-        translationEn: "They will notice the changes later."
-      }
-    ]
+        translationEn: "They will notice the changes later.",
+      },
+    ],
   },
   {
     id: "v18-24",
@@ -35922,7 +36077,8 @@ export const mockWords: Word[] = [
     turkish: "Cesaretini kırmak / Vazgeçirmek",
     english: "To discourage / To demotivate",
     pronunciation: "de-ku-ʁa-ʒe",
-    description: "Birinin moralini bozmak ya da bir şey yapma isteğini azaltmak için kullanılır. Refleksif haliyle (se décourager) kişinin kendi motivasyonunun düşmesi anlamı taşır.",
+    description:
+      "Birinin moralini bozmak ya da bir şey yapma isteğini azaltmak için kullanılır. Refleksif haliyle (se décourager) kişinin kendi motivasyonunun düşmesi anlamı taşır.",
     synonyms: ["démotiver", "dissuader", "déprimer"],
     image: null,
     category: "verbs",
@@ -35931,7 +36087,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "décourage",
@@ -35939,7 +36095,7 @@ export const mockWords: Word[] = [
         il: "décourage",
         nous: "décourageons",
         vous: "découragez",
-        ils: "découragent"
+        ils: "découragent",
       },
       passéComposé: {
         je: "ai découragé",
@@ -35947,7 +36103,7 @@ export const mockWords: Word[] = [
         il: "a découragé",
         nous: "avons découragé",
         vous: "avez découragé",
-        ils: "ont découragé"
+        ils: "ont découragé",
       },
       imparfait: {
         je: "décourageais",
@@ -35955,7 +36111,7 @@ export const mockWords: Word[] = [
         il: "décourageait",
         nous: "découragions",
         vous: "découragiez",
-        ils: "décourageaient"
+        ils: "décourageaient",
       },
       futur: {
         je: "découragerai",
@@ -35963,8 +36119,8 @@ export const mockWords: Word[] = [
         il: "découragera",
         nous: "découragerons",
         vous: "découragerez",
-        ils: "décourageront"
-      }
+        ils: "décourageront",
+      },
     },
     examples: [
       {
@@ -35972,23 +36128,24 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il ne faut pas décourager les enfants.",
         translationTr: "Çocukların cesaretini kırmamak gerekir.",
-        translationEn: "Children shouldn’t be discouraged."
+        translationEn: "Children shouldn’t be discouraged.",
       },
       {
         form: "a découragé",
         tense: "passéComposé",
         sentence: "Le professeur a découragé l’élève avec ses critiques.",
         translationTr: "Öğretmen eleştirileriyle öğrencinin cesaretini kırdı.",
-        translationEn: "The teacher discouraged the student with his criticism."
+        translationEn:
+          "The teacher discouraged the student with his criticism.",
       },
       {
         form: "décourageront",
         tense: "futur",
         sentence: "Ils ne décourageront pas facilement.",
         translationTr: "Kolay kolay cesaretleri kırılmayacak.",
-        translationEn: "They won’t be discouraged easily."
-      }
-    ]
+        translationEn: "They won’t be discouraged easily.",
+      },
+    ],
   },
   {
     id: "v18-25",
@@ -35996,7 +36153,8 @@ export const mockWords: Word[] = [
     turkish: "İlgilendirmek / İlgi uyandırmak",
     english: "To interest / To concern",
     pronunciation: "ɛ̃-te-ʁe-se",
-    description: "Bir kişinin ilgisini çekmek ya da bir konuya dahil olmak anlamında kullanılır. Refleksif haliyle (s’intéresser à) bir şeye ilgi duymak anlamına gelir.",
+    description:
+      "Bir kişinin ilgisini çekmek ya da bir konuya dahil olmak anlamında kullanılır. Refleksif haliyle (s’intéresser à) bir şeye ilgi duymak anlamına gelir.",
     synonyms: ["attirer", "captiver", "préoccuper"],
     image: null,
     category: "verbs",
@@ -36005,7 +36163,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "intéresse",
@@ -36013,7 +36171,7 @@ export const mockWords: Word[] = [
         il: "intéresse",
         nous: "intéressons",
         vous: "intéressez",
-        ils: "intéressent"
+        ils: "intéressent",
       },
       passéComposé: {
         je: "ai intéressé",
@@ -36021,7 +36179,7 @@ export const mockWords: Word[] = [
         il: "a intéressé",
         nous: "avons intéressé",
         vous: "avez intéressé",
-        ils: "ont intéressé"
+        ils: "ont intéressé",
       },
       imparfait: {
         je: "intéressais",
@@ -36029,7 +36187,7 @@ export const mockWords: Word[] = [
         il: "intéressait",
         nous: "intéressions",
         vous: "intéressiez",
-        ils: "intéressaient"
+        ils: "intéressaient",
       },
       futur: {
         je: "intéresserai",
@@ -36037,8 +36195,8 @@ export const mockWords: Word[] = [
         il: "intéressera",
         nous: "intéresserons",
         vous: "intéresserez",
-        ils: "intéresseront"
-      }
+        ils: "intéresseront",
+      },
     },
     examples: [
       {
@@ -36046,23 +36204,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Ce sujet m’intéresse beaucoup.",
         translationTr: "Bu konu beni çok ilgilendiriyor.",
-        translationEn: "This topic interests me a lot."
+        translationEn: "This topic interests me a lot.",
       },
       {
         form: "a intéressé",
         tense: "passéComposé",
         sentence: "Le film a intéressé tous les spectateurs.",
         translationTr: "Film tüm izleyicilerin ilgisini çekti.",
-        translationEn: "The film interested all the viewers."
+        translationEn: "The film interested all the viewers.",
       },
       {
         form: "intéressera",
         tense: "futur",
         sentence: "Ce projet intéressera sûrement les investisseurs.",
         translationTr: "Bu proje kesinlikle yatırımcıların ilgisini çekecek.",
-        translationEn: "This project will surely interest the investors."
-      }
-    ]
+        translationEn: "This project will surely interest the investors.",
+      },
+    ],
   },
   {
     id: "v19-1",
@@ -36070,7 +36228,8 @@ export const mockWords: Word[] = [
     turkish: "Bulmak / Düşünmek (görüş olarak)",
     english: "To find / To think",
     pronunciation: "tʁu-ve",
-    description: "Hem fiziksel olarak bir şeyi bulmak hem de düşünce belirtmek amacıyla ('je trouve que...') kullanılır.",
+    description:
+      "Hem fiziksel olarak bir şeyi bulmak hem de düşünce belirtmek amacıyla ('je trouve que...') kullanılır.",
     synonyms: ["découvrir", "localiser", "considérer"],
     image: null,
     category: "verbs",
@@ -36079,7 +36238,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "trouve",
@@ -36087,7 +36246,7 @@ export const mockWords: Word[] = [
         il: "trouve",
         nous: "trouvons",
         vous: "trouvez",
-        ils: "trouvent"
+        ils: "trouvent",
       },
       passéComposé: {
         je: "ai trouvé",
@@ -36095,7 +36254,7 @@ export const mockWords: Word[] = [
         il: "a trouvé",
         nous: "avons trouvé",
         vous: "avez trouvé",
-        ils: "ont trouvé"
+        ils: "ont trouvé",
       },
       imparfait: {
         je: "trouvais",
@@ -36103,7 +36262,7 @@ export const mockWords: Word[] = [
         il: "trouvait",
         nous: "trouvions",
         vous: "trouviez",
-        ils: "trouvaient"
+        ils: "trouvaient",
       },
       futur: {
         je: "trouverai",
@@ -36111,8 +36270,8 @@ export const mockWords: Word[] = [
         il: "trouvera",
         nous: "trouverons",
         vous: "trouverez",
-        ils: "trouveront"
-      }
+        ils: "trouveront",
+      },
     },
     examples: [
       {
@@ -36120,23 +36279,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je trouve cette idée intéressante.",
         translationTr: "Bu fikri ilginç buluyorum.",
-        translationEn: "I find this idea interesting."
+        translationEn: "I find this idea interesting.",
       },
       {
         form: "a trouvé",
         tense: "passéComposé",
         sentence: "Elle a trouvé ses lunettes sous le lit.",
         translationTr: "Gözlüğünü yatağın altında buldu.",
-        translationEn: "She found her glasses under the bed."
+        translationEn: "She found her glasses under the bed.",
       },
       {
         form: "trouveront",
         tense: "futur",
         sentence: "Ils trouveront une solution bientôt.",
         translationTr: "Yakında bir çözüm bulacaklar.",
-        translationEn: "They will find a solution soon."
-      }
-    ]
+        translationEn: "They will find a solution soon.",
+      },
+    ],
   },
   {
     id: "v19-2",
@@ -36144,7 +36303,8 @@ export const mockWords: Word[] = [
     turkish: "Nefret etmek",
     english: "To hate",
     pronunciation: "a-iʁ",
-    description: "Yoğun olumsuz duygu ifade eder. Duygusal bağlamlarda veya ahlaki yargılarda kullanılır. Bazı zamanlarda yazımda iki nokta kullanılabilir (haïr → je hais).",
+    description:
+      "Yoğun olumsuz duygu ifade eder. Duygusal bağlamlarda veya ahlaki yargılarda kullanılır. Bazı zamanlarda yazımda iki nokta kullanılabilir (haïr → je hais).",
     synonyms: ["détester", "abhorrer", "exécrer"],
     image: null,
     category: "verbs",
@@ -36153,7 +36313,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "hais",
@@ -36161,7 +36321,7 @@ export const mockWords: Word[] = [
         il: "hait",
         nous: "haïssons",
         vous: "haïssez",
-        ils: "haïssent"
+        ils: "haïssent",
       },
       passéComposé: {
         je: "ai haï",
@@ -36169,7 +36329,7 @@ export const mockWords: Word[] = [
         il: "a haï",
         nous: "avons haï",
         vous: "avez haï",
-        ils: "ont haï"
+        ils: "ont haï",
       },
       imparfait: {
         je: "haïssais",
@@ -36177,7 +36337,7 @@ export const mockWords: Word[] = [
         il: "haïssait",
         nous: "haïssions",
         vous: "haïssiez",
-        ils: "haïssaient"
+        ils: "haïssaient",
       },
       futur: {
         je: "haïrai",
@@ -36185,8 +36345,8 @@ export const mockWords: Word[] = [
         il: "haïra",
         nous: "haïrons",
         vous: "haïrez",
-        ils: "haïront"
-      }
+        ils: "haïront",
+      },
     },
     examples: [
       {
@@ -36194,23 +36354,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je hais l’injustice.",
         translationTr: "Adaletsizlikten nefret ediyorum.",
-        translationEn: "I hate injustice."
+        translationEn: "I hate injustice.",
       },
       {
         form: "a haï",
         tense: "passéComposé",
         sentence: "Il a haï cette période de sa vie.",
         translationTr: "Hayatının o döneminden nefret etti.",
-        translationEn: "He hated that period of his life."
+        translationEn: "He hated that period of his life.",
       },
       {
         form: "haïront",
         tense: "futur",
         sentence: "Ils haïront ceux qui les ont trahis.",
         translationTr: "Kendilerini aldatanlardan nefret edecekler.",
-        translationEn: "They will hate those who betrayed them."
-      }
-    ]
+        translationEn: "They will hate those who betrayed them.",
+      },
+    ],
   },
   {
     id: "v19-3",
@@ -36218,7 +36378,8 @@ export const mockWords: Word[] = [
     turkish: "Zorlamak / Mecbur bırakmak",
     english: "To force / To compel",
     pronunciation: "kɔ̃-tʁɛ̃-dʁ",
-    description: "Birini istemediği bir şeyi yapmaya mecbur bırakmak anlamındadır. Genellikle 'à' ile kullanılır (contraindre à faire quelque chose).",
+    description:
+      "Birini istemediği bir şeyi yapmaya mecbur bırakmak anlamındadır. Genellikle 'à' ile kullanılır (contraindre à faire quelque chose).",
     synonyms: ["obliger", "forcer", "imposer"],
     image: null,
     category: "verbs",
@@ -36227,7 +36388,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "contrains",
@@ -36235,7 +36396,7 @@ export const mockWords: Word[] = [
         il: "contraint",
         nous: "contraignons",
         vous: "contraignez",
-        ils: "contraignent"
+        ils: "contraignent",
       },
       passéComposé: {
         je: "ai contraint",
@@ -36243,7 +36404,7 @@ export const mockWords: Word[] = [
         il: "a contraint",
         nous: "avons contraint",
         vous: "avez contraint",
-        ils: "ont contraint"
+        ils: "ont contraint",
       },
       imparfait: {
         je: "contraignais",
@@ -36251,7 +36412,7 @@ export const mockWords: Word[] = [
         il: "contraignait",
         nous: "contraignions",
         vous: "contraigniez",
-        ils: "contraignaient"
+        ils: "contraignaient",
       },
       futur: {
         je: "contraindrai",
@@ -36259,8 +36420,8 @@ export const mockWords: Word[] = [
         il: "contraindra",
         nous: "contraindrons",
         vous: "contraindrez",
-        ils: "contraindront"
-      }
+        ils: "contraindront",
+      },
     },
     examples: [
       {
@@ -36268,23 +36429,24 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il contraint ses enfants à étudier.",
         translationTr: "Çocuklarını ders çalışmaya zorluyor.",
-        translationEn: "He forces his children to study."
+        translationEn: "He forces his children to study.",
       },
       {
         form: "a contraint",
         tense: "passéComposé",
         sentence: "La pluie nous a contraints à rester à l’intérieur.",
         translationTr: "Yağmur bizi içeride kalmaya mecbur etti.",
-        translationEn: "The rain forced us to stay inside."
+        translationEn: "The rain forced us to stay inside.",
       },
       {
         form: "contraindront",
         tense: "futur",
         sentence: "Les circonstances les contraindront à changer de plan.",
         translationTr: "Şartlar onları planlarını değiştirmeye zorlayacak.",
-        translationEn: "The circumstances will compel them to change their plan."
-      }
-    ]
+        translationEn:
+          "The circumstances will compel them to change their plan.",
+      },
+    ],
   },
   {
     id: "v19-4",
@@ -36292,7 +36454,8 @@ export const mockWords: Word[] = [
     turkish: "Bağırmak / Haykırmak",
     english: "To shout / To scream / To yell",
     pronunciation: "kʁi-e",
-    description: "Yoğun duyguların ifadesi olarak ya da dikkat çekmek için yüksek sesle bağırmak anlamında kullanılır.",
+    description:
+      "Yoğun duyguların ifadesi olarak ya da dikkat çekmek için yüksek sesle bağırmak anlamında kullanılır.",
     synonyms: ["hurler", "vociférer", "appeler"],
     image: null,
     category: "verbs",
@@ -36301,7 +36464,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "crie",
@@ -36309,7 +36472,7 @@ export const mockWords: Word[] = [
         il: "crie",
         nous: "crions",
         vous: "criez",
-        ils: "crient"
+        ils: "crient",
       },
       passéComposé: {
         je: "ai crié",
@@ -36317,7 +36480,7 @@ export const mockWords: Word[] = [
         il: "a crié",
         nous: "avons crié",
         vous: "avez crié",
-        ils: "ont crié"
+        ils: "ont crié",
       },
       imparfait: {
         je: "criais",
@@ -36325,7 +36488,7 @@ export const mockWords: Word[] = [
         il: "criait",
         nous: "criions",
         vous: "criiez",
-        ils: "criaient"
+        ils: "criaient",
       },
       futur: {
         je: "crierai",
@@ -36333,8 +36496,8 @@ export const mockWords: Word[] = [
         il: "criera",
         nous: "crierons",
         vous: "crierez",
-        ils: "crieront"
-      }
+        ils: "crieront",
+      },
     },
     examples: [
       {
@@ -36342,23 +36505,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il crie de joie.",
         translationTr: "Sevinçten bağırıyor.",
-        translationEn: "He is shouting with joy."
+        translationEn: "He is shouting with joy.",
       },
       {
         form: "a crié",
         tense: "passéComposé",
         sentence: "Elle a crié à l’aide.",
         translationTr: "Yardım için bağırdı.",
-        translationEn: "She cried for help."
+        translationEn: "She cried for help.",
       },
       {
         form: "crieront",
         tense: "futur",
         sentence: "Les enfants crieront en jouant.",
         translationTr: "Çocuklar oynarken bağıracaklar.",
-        translationEn: "The children will shout while playing."
-      }
-    ]
+        translationEn: "The children will shout while playing.",
+      },
+    ],
   },
   {
     id: "v19-5",
@@ -36366,7 +36529,8 @@ export const mockWords: Word[] = [
     turkish: "Seçmek / Tercih etmek",
     english: "To choose / To select",
     pronunciation: "ʃwa-ziʁ",
-    description: "Karar verme ya da seçenekler arasında birini tercih etme anlamında sık kullanılır. 2. grup düzenli fiildir.",
+    description:
+      "Karar verme ya da seçenekler arasında birini tercih etme anlamında sık kullanılır. 2. grup düzenli fiildir.",
     synonyms: ["sélectionner", "opter pour", "préférer"],
     image: null,
     category: "verbs",
@@ -36375,7 +36539,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "choisis",
@@ -36383,7 +36547,7 @@ export const mockWords: Word[] = [
         il: "choisit",
         nous: "choisissons",
         vous: "choisissez",
-        ils: "choisissent"
+        ils: "choisissent",
       },
       passéComposé: {
         je: "ai choisi",
@@ -36391,7 +36555,7 @@ export const mockWords: Word[] = [
         il: "a choisi",
         nous: "avons choisi",
         vous: "avez choisi",
-        ils: "ont choisi"
+        ils: "ont choisi",
       },
       imparfait: {
         je: "choisissais",
@@ -36399,7 +36563,7 @@ export const mockWords: Word[] = [
         il: "choisissait",
         nous: "choisissions",
         vous: "choisissiez",
-        ils: "choisissaient"
+        ils: "choisissaient",
       },
       futur: {
         je: "choisirai",
@@ -36407,8 +36571,8 @@ export const mockWords: Word[] = [
         il: "choisira",
         nous: "choisirons",
         vous: "choisirez",
-        ils: "choisiront"
-      }
+        ils: "choisiront",
+      },
     },
     examples: [
       {
@@ -36416,23 +36580,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je choisis toujours la pizza.",
         translationTr: "Her zaman pizzayı seçiyorum.",
-        translationEn: "I always choose pizza."
+        translationEn: "I always choose pizza.",
       },
       {
         form: "a choisi",
         tense: "passéComposé",
         sentence: "Il a choisi une belle robe.",
         translationTr: "Güzel bir elbise seçti.",
-        translationEn: "He chose a beautiful dress."
+        translationEn: "He chose a beautiful dress.",
       },
       {
         form: "choisiront",
         tense: "futur",
         sentence: "Les clients choisiront la meilleure option.",
         translationTr: "Müşteriler en iyi seçeneği seçecekler.",
-        translationEn: "Customers will choose the best option."
-      }
-    ]
+        translationEn: "Customers will choose the best option.",
+      },
+    ],
   },
   {
     id: "v19-6",
@@ -36440,7 +36604,8 @@ export const mockWords: Word[] = [
     turkish: "Başlamak / Başlatmak",
     english: "To begin / To start",
     pronunciation: "kɔ-mɑ̃-se",
-    description: "‘c’ harfi 'nous' çekiminde yumuşak sesli kalması için 'ç' olur (nous commençons). Fiil, bir şeyin başlangıcını ifade eder.",
+    description:
+      "‘c’ harfi 'nous' çekiminde yumuşak sesli kalması için 'ç' olur (nous commençons). Fiil, bir şeyin başlangıcını ifade eder.",
     synonyms: ["démarrer", "entamer", "initier"],
     image: null,
     category: "verbs",
@@ -36449,7 +36614,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "commence",
@@ -36457,7 +36622,7 @@ export const mockWords: Word[] = [
         il: "commence",
         nous: "commençons",
         vous: "commencez",
-        ils: "commencent"
+        ils: "commencent",
       },
       passéComposé: {
         je: "ai commencé",
@@ -36465,7 +36630,7 @@ export const mockWords: Word[] = [
         il: "a commencé",
         nous: "avons commencé",
         vous: "avez commencé",
-        ils: "ont commencé"
+        ils: "ont commencé",
       },
       imparfait: {
         je: "commençais",
@@ -36473,7 +36638,7 @@ export const mockWords: Word[] = [
         il: "commençait",
         nous: "commencions",
         vous: "commenciez",
-        ils: "commençaient"
+        ils: "commençaient",
       },
       futur: {
         je: "commencerai",
@@ -36481,8 +36646,8 @@ export const mockWords: Word[] = [
         il: "commencera",
         nous: "commencerons",
         vous: "commencerez",
-        ils: "commenceront"
-      }
+        ils: "commenceront",
+      },
     },
     examples: [
       {
@@ -36490,23 +36655,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je commence à apprendre le français.",
         translationTr: "Fransızca öğrenmeye başlıyorum.",
-        translationEn: "I am starting to learn French."
+        translationEn: "I am starting to learn French.",
       },
       {
         form: "a commencé",
         tense: "passéComposé",
         sentence: "Elle a commencé un nouveau travail.",
         translationTr: "Yeni bir işe başladı.",
-        translationEn: "She started a new job."
+        translationEn: "She started a new job.",
       },
       {
         form: "commenceront",
         tense: "futur",
         sentence: "Les cours commenceront à huit heures.",
         translationTr: "Dersler saat sekizde başlayacak.",
-        translationEn: "Classes will start at eight o’clock."
-      }
-    ]
+        translationEn: "Classes will start at eight o’clock.",
+      },
+    ],
   },
   {
     id: "v19-7",
@@ -36514,7 +36679,8 @@ export const mockWords: Word[] = [
     turkish: "Dans etmek",
     english: "To dance",
     pronunciation: "dɑ̃-se",
-    description: "Fiziksel dans eylemini tanımlar. Hem bireysel hem de grup halinde yapılan danslarda kullanılır.",
+    description:
+      "Fiziksel dans eylemini tanımlar. Hem bireysel hem de grup halinde yapılan danslarda kullanılır.",
     synonyms: ["se déhancher", "se trémousser", "bouger"],
     image: null,
     category: "verbs",
@@ -36523,7 +36689,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "danse",
@@ -36531,7 +36697,7 @@ export const mockWords: Word[] = [
         il: "danse",
         nous: "dansons",
         vous: "dansez",
-        ils: "dansent"
+        ils: "dansent",
       },
       passéComposé: {
         je: "ai dansé",
@@ -36539,7 +36705,7 @@ export const mockWords: Word[] = [
         il: "a dansé",
         nous: "avons dansé",
         vous: "avez dansé",
-        ils: "ont dansé"
+        ils: "ont dansé",
       },
       imparfait: {
         je: "dansais",
@@ -36547,7 +36713,7 @@ export const mockWords: Word[] = [
         il: "dansait",
         nous: "dansions",
         vous: "dansiez",
-        ils: "dansaient"
+        ils: "dansaient",
       },
       futur: {
         je: "danserai",
@@ -36555,8 +36721,8 @@ export const mockWords: Word[] = [
         il: "dansera",
         nous: "danserons",
         vous: "danserez",
-        ils: "danseront"
-      }
+        ils: "danseront",
+      },
     },
     examples: [
       {
@@ -36564,23 +36730,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle danse très bien le tango.",
         translationTr: "Çok iyi tango yapıyor.",
-        translationEn: "She dances tango very well."
+        translationEn: "She dances tango very well.",
       },
       {
         form: "a dansé",
         tense: "passéComposé",
         sentence: "Il a dansé toute la nuit.",
         translationTr: "Tüm gece dans etti.",
-        translationEn: "He danced all night."
+        translationEn: "He danced all night.",
       },
       {
         form: "danseront",
         tense: "futur",
         sentence: "Les invités danseront après le dîner.",
         translationTr: "Misafirler akşam yemeğinden sonra dans edecekler.",
-        translationEn: "The guests will dance after dinner."
-      }
-    ]
+        translationEn: "The guests will dance after dinner.",
+      },
+    ],
   },
   {
     id: "v19-8",
@@ -36588,7 +36754,8 @@ export const mockWords: Word[] = [
     turkish: "Kaplamak / Sürmek / Bulaştırmak",
     english: "To coat / To smear / To spread",
     pronunciation: "ɑ̃-dɥiʁ",
-    description: "Genellikle bir yüzeye bir maddeyi sürmek (örneğin: boya, krema) anlamında kullanılır. Düzensiz bir fiildir.",
+    description:
+      "Genellikle bir yüzeye bir maddeyi sürmek (örneğin: boya, krema) anlamında kullanılır. Düzensiz bir fiildir.",
     synonyms: ["enduire", "badigeonner", "tartiner"],
     image: null,
     category: "verbs",
@@ -36597,7 +36764,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "enduis",
@@ -36605,7 +36772,7 @@ export const mockWords: Word[] = [
         il: "enduit",
         nous: "enduions",
         vous: "enduisez",
-        ils: "enduisent"
+        ils: "enduisent",
       },
       passéComposé: {
         je: "ai enduit",
@@ -36613,7 +36780,7 @@ export const mockWords: Word[] = [
         il: "a enduit",
         nous: "avons enduit",
         vous: "avez enduit",
-        ils: "ont enduit"
+        ils: "ont enduit",
       },
       imparfait: {
         je: "enduisais",
@@ -36621,7 +36788,7 @@ export const mockWords: Word[] = [
         il: "enduisait",
         nous: "enduisions",
         vous: "enduisiez",
-        ils: "enduisaient"
+        ils: "enduisaient",
       },
       futur: {
         je: "enduira",
@@ -36629,8 +36796,8 @@ export const mockWords: Word[] = [
         il: "enduit",
         nous: "enduirons",
         vous: "enduirez",
-        ils: "enduiront"
-      }
+        ils: "enduiront",
+      },
     },
     examples: [
       {
@@ -36638,23 +36805,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il enduit le mur de peinture.",
         translationTr: "Duvarı boyayla kaplıyor.",
-        translationEn: "He is coating the wall with paint."
+        translationEn: "He is coating the wall with paint.",
       },
       {
         form: "a enduit",
         tense: "passéComposé",
         sentence: "Elle a enduit le gâteau de crème.",
         translationTr: "Pastayı kremayla kapladı.",
-        translationEn: "She covered the cake with cream."
+        translationEn: "She covered the cake with cream.",
       },
       {
         form: "enduiront",
         tense: "futur",
         sentence: "Ils enduiront les murs avant de les peindre.",
         translationTr: "Duvarları boyamadan önce kaplayacaklar.",
-        translationEn: "They will coat the walls before painting them."
-      }
-    ]
+        translationEn: "They will coat the walls before painting them.",
+      },
+    ],
   },
   {
     id: "v19-9",
@@ -36662,7 +36829,8 @@ export const mockWords: Word[] = [
     turkish: "Katlamak / Bükmek / Eğmek",
     english: "To fold / To bend",
     pronunciation: "pli-je",
-    description: "Kıyafet, kağıt gibi nesneleri katlamak ya da vücudu eğmek anlamlarında kullanılır.",
+    description:
+      "Kıyafet, kağıt gibi nesneleri katlamak ya da vücudu eğmek anlamlarında kullanılır.",
     synonyms: ["replier", "courber", "plier en deux"],
     image: null,
     category: "verbs",
@@ -36671,7 +36839,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "plie",
@@ -36679,7 +36847,7 @@ export const mockWords: Word[] = [
         il: "plie",
         nous: "plions",
         vous: "pliez",
-        ils: "plient"
+        ils: "plient",
       },
       passéComposé: {
         je: "ai plié",
@@ -36687,7 +36855,7 @@ export const mockWords: Word[] = [
         il: "a plié",
         nous: "avons plié",
         vous: "avez plié",
-        ils: "ont plié"
+        ils: "ont plié",
       },
       imparfait: {
         je: "pliais",
@@ -36695,7 +36863,7 @@ export const mockWords: Word[] = [
         il: "pliait",
         nous: "pliions",
         vous: "pliiez",
-        ils: "pliaient"
+        ils: "pliaient",
       },
       futur: {
         je: "plierai",
@@ -36703,8 +36871,8 @@ export const mockWords: Word[] = [
         il: "pliera",
         nous: "plierons",
         vous: "plierez",
-        ils: "plieront"
-      }
+        ils: "plieront",
+      },
     },
     examples: [
       {
@@ -36712,23 +36880,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je plie mes vêtements proprement.",
         translationTr: "Kıyafetlerimi düzgünce katlıyorum.",
-        translationEn: "I fold my clothes neatly."
+        translationEn: "I fold my clothes neatly.",
       },
       {
         form: "a plié",
         tense: "passéComposé",
         sentence: "Elle a plié la lettre en deux.",
         translationTr: "Mektubu ikiye katladı.",
-        translationEn: "She folded the letter in half."
+        translationEn: "She folded the letter in half.",
       },
       {
         form: "plieront",
         tense: "futur",
         sentence: "Ils plieront les tentes après le camping.",
         translationTr: "Kamp sonrası çadırları katlayacaklar.",
-        translationEn: "They will fold the tents after camping."
-      }
-    ]
+        translationEn: "They will fold the tents after camping.",
+      },
+    ],
   },
   {
     id: "v19-10",
@@ -36736,7 +36904,8 @@ export const mockWords: Word[] = [
     turkish: "Kar yağmak",
     english: "To snow",
     pronunciation: "nɛ-ʒe",
-    description: "Sadece üçüncü tekil şahısla (il) kullanılır. Hava olaylarını ifade eden doğa fiillerindendir.",
+    description:
+      "Sadece üçüncü tekil şahısla (il) kullanılır. Hava olaylarını ifade eden doğa fiillerindendir.",
     synonyms: ["tomber", "neigeoter"],
     image: null,
     category: "verbs",
@@ -36745,20 +36914,20 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
-        il: "neige"
+        il: "neige",
       },
       passéComposé: {
-        il: "a neigé"
+        il: "a neigé",
       },
       imparfait: {
-        il: "neigeait"
+        il: "neigeait",
       },
       futur: {
-        il: "neigera"
-      }
+        il: "neigera",
+      },
     },
     examples: [
       {
@@ -36766,23 +36935,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il neige beaucoup en décembre.",
         translationTr: "Aralık ayında çok kar yağıyor.",
-        translationEn: "It snows a lot in December."
+        translationEn: "It snows a lot in December.",
       },
       {
         form: "a neigé",
         tense: "passéComposé",
         sentence: "Il a neigé toute la nuit.",
         translationTr: "Tüm gece kar yağdı.",
-        translationEn: "It snowed all night."
+        translationEn: "It snowed all night.",
       },
       {
         form: "neigera",
         tense: "futur",
         sentence: "Il neigera demain matin.",
         translationTr: "Yarın sabah kar yağacak.",
-        translationEn: "It will snow tomorrow morning."
-      }
-    ]
+        translationEn: "It will snow tomorrow morning.",
+      },
+    ],
   },
   {
     id: "v19-11",
@@ -36790,7 +36959,8 @@ export const mockWords: Word[] = [
     turkish: "Ödünç almak / Geçmek (bir yoldan)",
     english: "To borrow / To take (a path)",
     pronunciation: "ɑ̃-pʁœ̃-te",
-    description: "Hem maddi anlamda bir şeyi ödünç almak hem de soyut olarak bir yolu izlemek anlamında kullanılır. 'à' ile birlikte ödünç alınan kişiyi belirtir.",
+    description:
+      "Hem maddi anlamda bir şeyi ödünç almak hem de soyut olarak bir yolu izlemek anlamında kullanılır. 'à' ile birlikte ödünç alınan kişiyi belirtir.",
     synonyms: ["se faire prêter", "utiliser", "prendre"],
     image: null,
     category: "verbs",
@@ -36799,7 +36969,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "emprunte",
@@ -36807,7 +36977,7 @@ export const mockWords: Word[] = [
         il: "emprunte",
         nous: "empruntons",
         vous: "empruntez",
-        ils: "empruntent"
+        ils: "empruntent",
       },
       passéComposé: {
         je: "ai emprunté",
@@ -36815,7 +36985,7 @@ export const mockWords: Word[] = [
         il: "a emprunté",
         nous: "avons emprunté",
         vous: "avez emprunté",
-        ils: "ont emprunté"
+        ils: "ont emprunté",
       },
       imparfait: {
         je: "empruntais",
@@ -36823,7 +36993,7 @@ export const mockWords: Word[] = [
         il: "empruntait",
         nous: "empruntions",
         vous: "empruntiez",
-        ils: "empruntaient"
+        ils: "empruntaient",
       },
       futur: {
         je: "emprunterai",
@@ -36831,8 +37001,8 @@ export const mockWords: Word[] = [
         il: "empruntera",
         nous: "emprunterons",
         vous: "emprunterez",
-        ils: "emprunteront"
-      }
+        ils: "emprunteront",
+      },
     },
     examples: [
       {
@@ -36840,23 +37010,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je t’emprunte ton livre pour le week-end.",
         translationTr: "Hafta sonu için kitabını ödünç alıyorum.",
-        translationEn: "I’m borrowing your book for the weekend."
+        translationEn: "I’m borrowing your book for the weekend.",
       },
       {
         form: "a emprunté",
         tense: "passéComposé",
         sentence: "Elle a emprunté un chemin inconnu.",
         translationTr: "Bilinmeyen bir yolu geçti.",
-        translationEn: "She took an unknown path."
+        translationEn: "She took an unknown path.",
       },
       {
         form: "emprunteront",
         tense: "futur",
         sentence: "Ils emprunteront le métro pour aller au travail.",
         translationTr: "İşe gitmek için metro kullanacaklar.",
-        translationEn: "They will take the subway to go to work."
-      }
-    ]
+        translationEn: "They will take the subway to go to work.",
+      },
+    ],
   },
   {
     id: "v19-12",
@@ -36864,7 +37034,8 @@ export const mockWords: Word[] = [
     turkish: "Mahkemeye çıkmak / Görünmek (resmi bağlamda)",
     english: "To appear (in court)",
     pronunciation: "kɔ̃-pa-ʁɛtʁ",
-    description: "Genellikle adli bağlamda kullanılır. Düzensiz bir fiildir. 'Devant le tribunal' (mahkeme önünde) gibi ifadelerle birlikte gelir.",
+    description:
+      "Genellikle adli bağlamda kullanılır. Düzensiz bir fiildir. 'Devant le tribunal' (mahkeme önünde) gibi ifadelerle birlikte gelir.",
     synonyms: ["se présenter", "passer en jugement", "être entendu"],
     image: null,
     category: "verbs",
@@ -36873,7 +37044,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "comparais",
@@ -36881,7 +37052,7 @@ export const mockWords: Word[] = [
         il: "comparaît",
         nous: "comparaissons",
         vous: "comparez",
-        ils: "comparaissent"
+        ils: "comparaissent",
       },
       passéComposé: {
         je: "ai comparu",
@@ -36889,7 +37060,7 @@ export const mockWords: Word[] = [
         il: "a comparu",
         nous: "avons comparu",
         vous: "avez comparu",
-        ils: "ont comparu"
+        ils: "ont comparu",
       },
       imparfait: {
         je: "comparais",
@@ -36897,7 +37068,7 @@ export const mockWords: Word[] = [
         il: "comparaissait",
         nous: "comparissions",
         vous: "comparissiez",
-        ils: "comparaissaient"
+        ils: "comparaissaient",
       },
       futur: {
         je: "comparaîtrai",
@@ -36905,8 +37076,8 @@ export const mockWords: Word[] = [
         il: "comparaîtra",
         nous: "comparaîtrons",
         vous: "comparaîtrez",
-        ils: "comparaîtront"
-      }
+        ils: "comparaîtront",
+      },
     },
     examples: [
       {
@@ -36914,23 +37085,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il comparaît devant le juge aujourd’hui.",
         translationTr: "Bugün hâkimin önüne çıkıyor.",
-        translationEn: "He appears before the judge today."
+        translationEn: "He appears before the judge today.",
       },
       {
         form: "a comparu",
         tense: "passéComposé",
         sentence: "Elle a comparu au tribunal hier.",
         translationTr: "Dün mahkemeye çıktı.",
-        translationEn: "She appeared in court yesterday."
+        translationEn: "She appeared in court yesterday.",
       },
       {
         form: "comparaîtront",
         tense: "futur",
         sentence: "Les témoins comparaîtront la semaine prochaine.",
         translationTr: "Tanıklar gelecek hafta mahkemeye çıkacak.",
-        translationEn: "The witnesses will appear in court next week."
-      }
-    ]
+        translationEn: "The witnesses will appear in court next week.",
+      },
+    ],
   },
   {
     id: "v19-13",
@@ -36938,7 +37109,8 @@ export const mockWords: Word[] = [
     turkish: "Silmek / Kurulamak",
     english: "To wipe / To dry",
     pronunciation: "ɛ-sɥi-je",
-    description: "Nesneleri kurutmak ya da yüzeyleri silmek anlamında yaygın olarak kullanılır. Düzensiz bir fiildir, bazı çekimlerde 'y' harfi 'i' olur.",
+    description:
+      "Nesneleri kurutmak ya da yüzeyleri silmek anlamında yaygın olarak kullanılır. Düzensiz bir fiildir, bazı çekimlerde 'y' harfi 'i' olur.",
     synonyms: ["sécher", "nettoyer", "frotter"],
     image: null,
     category: "verbs",
@@ -36947,7 +37119,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "essuie",
@@ -36955,7 +37127,7 @@ export const mockWords: Word[] = [
         il: "essuie",
         nous: "essuyons",
         vous: "essuyez",
-        ils: "essuient"
+        ils: "essuient",
       },
       passéComposé: {
         je: "ai essuyé",
@@ -36963,7 +37135,7 @@ export const mockWords: Word[] = [
         il: "a essuyé",
         nous: "avons essuyé",
         vous: "avez essuyé",
-        ils: "ont essuyé"
+        ils: "ont essuyé",
       },
       imparfait: {
         je: "essuyais",
@@ -36971,7 +37143,7 @@ export const mockWords: Word[] = [
         il: "essuyait",
         nous: "essuyions",
         vous: "essuyiez",
-        ils: "essuyaient"
+        ils: "essuyaient",
       },
       futur: {
         je: "essuierai",
@@ -36979,8 +37151,8 @@ export const mockWords: Word[] = [
         il: "essuiera",
         nous: "essuierons",
         vous: "essuierez",
-        ils: "essuieront"
-      }
+        ils: "essuieront",
+      },
     },
     examples: [
       {
@@ -36988,23 +37160,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il essuie la table avec un chiffon.",
         translationTr: "Masayı bir bezle siliyor.",
-        translationEn: "He wipes the table with a cloth."
+        translationEn: "He wipes the table with a cloth.",
       },
       {
         form: "a essuyé",
         tense: "passéComposé",
         sentence: "Elle a essuyé ses larmes.",
         translationTr: "Gözyaşlarını sildi.",
-        translationEn: "She wiped her tears."
+        translationEn: "She wiped her tears.",
       },
       {
         form: "essuieront",
         tense: "futur",
         sentence: "Ils essuieront la vaisselle après le dîner.",
         translationTr: "Akşam yemeğinden sonra bulaşıkları kurulayacaklar.",
-        translationEn: "They will dry the dishes after dinner."
-      }
-    ]
+        translationEn: "They will dry the dishes after dinner.",
+      },
+    ],
   },
   {
     id: "v19-14",
@@ -37012,7 +37184,8 @@ export const mockWords: Word[] = [
     turkish: "Fırçalamak",
     english: "To brush",
     pronunciation: "bʁo-se",
-    description: "Dişleri, saçları ya da bir yüzeyi fırçalamak anlamında kullanılır. 'Se brosser' haliyle refleksif kullanımı yaygındır.",
+    description:
+      "Dişleri, saçları ya da bir yüzeyi fırçalamak anlamında kullanılır. 'Se brosser' haliyle refleksif kullanımı yaygındır.",
     synonyms: ["nettoyer", "frotter", "peigner"],
     image: null,
     category: "verbs",
@@ -37021,7 +37194,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "brosse",
@@ -37029,7 +37202,7 @@ export const mockWords: Word[] = [
         il: "brosse",
         nous: "brossons",
         vous: "brossez",
-        ils: "brossent"
+        ils: "brossent",
       },
       passéComposé: {
         je: "ai brossé",
@@ -37037,7 +37210,7 @@ export const mockWords: Word[] = [
         il: "a brossé",
         nous: "avons brossé",
         vous: "avez brossé",
-        ils: "ont brossé"
+        ils: "ont brossé",
       },
       imparfait: {
         je: "brossais",
@@ -37045,7 +37218,7 @@ export const mockWords: Word[] = [
         il: "brossait",
         nous: "brossions",
         vous: "brossiez",
-        ils: "brossaient"
+        ils: "brossaient",
       },
       futur: {
         je: "brosserai",
@@ -37053,8 +37226,8 @@ export const mockWords: Word[] = [
         il: "brossera",
         nous: "brosserons",
         vous: "brosserez",
-        ils: "brosseront"
-      }
+        ils: "brosseront",
+      },
     },
     examples: [
       {
@@ -37062,23 +37235,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je me brosse les dents trois fois par jour.",
         translationTr: "Günde üç kez dişlerimi fırçalıyorum.",
-        translationEn: "I brush my teeth three times a day."
+        translationEn: "I brush my teeth three times a day.",
       },
       {
         form: "a brossé",
         tense: "passéComposé",
         sentence: "Il a brossé le tapis soigneusement.",
         translationTr: "Halıyı özenle fırçaladı.",
-        translationEn: "He brushed the carpet carefully."
+        translationEn: "He brushed the carpet carefully.",
       },
       {
         form: "brosseront",
         tense: "futur",
         sentence: "Les enfants brosseront leur chien demain.",
         translationTr: "Çocuklar yarın köpeklerini fırçalayacak.",
-        translationEn: "The children will brush their dog tomorrow."
-      }
-    ]
+        translationEn: "The children will brush their dog tomorrow.",
+      },
+    ],
   },
   {
     id: "v19-15",
@@ -37086,7 +37259,8 @@ export const mockWords: Word[] = [
     turkish: "Savunmak / Yasaklamak",
     english: "To defend / To forbid",
     pronunciation: "de-fɑ̃-dʁ",
-    description: "Hem bir kişiyi ya da fikri savunmak hem de resmi olarak bir şeyi yasaklamak anlamında kullanılabilir. Düzensiz bir fiildir.",
+    description:
+      "Hem bir kişiyi ya da fikri savunmak hem de resmi olarak bir şeyi yasaklamak anlamında kullanılabilir. Düzensiz bir fiildir.",
     synonyms: ["protéger", "soutenir", "interdire"],
     image: null,
     category: "verbs",
@@ -37095,7 +37269,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "défends",
@@ -37103,7 +37277,7 @@ export const mockWords: Word[] = [
         il: "défend",
         nous: "défendons",
         vous: "défendez",
-        ils: "défendent"
+        ils: "défendent",
       },
       passéComposé: {
         je: "ai défendu",
@@ -37111,7 +37285,7 @@ export const mockWords: Word[] = [
         il: "a défendu",
         nous: "avons défendu",
         vous: "avez défendu",
-        ils: "ont défendu"
+        ils: "ont défendu",
       },
       imparfait: {
         je: "défendais",
@@ -37119,7 +37293,7 @@ export const mockWords: Word[] = [
         il: "défendait",
         nous: "défendions",
         vous: "défendiez",
-        ils: "défendaient"
+        ils: "défendaient",
       },
       futur: {
         je: "défendrai",
@@ -37127,8 +37301,8 @@ export const mockWords: Word[] = [
         il: "défendra",
         nous: "défendrons",
         vous: "défendrez",
-        ils: "défendront"
-      }
+        ils: "défendront",
+      },
     },
     examples: [
       {
@@ -37136,23 +37310,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il défend ses idées avec passion.",
         translationTr: "Fikirlerini tutkuyla savunuyor.",
-        translationEn: "He defends his ideas with passion."
+        translationEn: "He defends his ideas with passion.",
       },
       {
         form: "a défendu",
         tense: "passéComposé",
         sentence: "Le soldat a défendu le village contre l’ennemi.",
         translationTr: "Asker köyü düşmana karşı savundu.",
-        translationEn: "The soldier defended the village against the enemy."
+        translationEn: "The soldier defended the village against the enemy.",
       },
       {
         form: "défendront",
         tense: "futur",
         sentence: "Ils défendront leurs droits devant le tribunal.",
         translationTr: "Haklarını mahkemede savunacaklar.",
-        translationEn: "They will defend their rights in court."
-      }
-    ]
+        translationEn: "They will defend their rights in court.",
+      },
+    ],
   },
   {
     id: "v19-16",
@@ -37160,7 +37334,8 @@ export const mockWords: Word[] = [
     turkish: "Kaybetmek / Yitirmek",
     english: "To lose",
     pronunciation: "pɛʁdʁ",
-    description: "Hem somut nesneleri hem de soyut şeyleri (umut, zaman vb.) kaybetmek anlamında kullanılır. Düzensiz bir fiildir.",
+    description:
+      "Hem somut nesneleri hem de soyut şeyleri (umut, zaman vb.) kaybetmek anlamında kullanılır. Düzensiz bir fiildir.",
     synonyms: ["égarer", "rater", "abandonner"],
     image: null,
     category: "verbs",
@@ -37169,7 +37344,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "perds",
@@ -37177,7 +37352,7 @@ export const mockWords: Word[] = [
         il: "perd",
         nous: "perdons",
         vous: "perdez",
-        ils: "perdent"
+        ils: "perdent",
       },
       passéComposé: {
         je: "ai perdu",
@@ -37185,7 +37360,7 @@ export const mockWords: Word[] = [
         il: "a perdu",
         nous: "avons perdu",
         vous: "avez perdu",
-        ils: "ont perdu"
+        ils: "ont perdu",
       },
       imparfait: {
         je: "perdais",
@@ -37193,7 +37368,7 @@ export const mockWords: Word[] = [
         il: "perdait",
         nous: "perdions",
         vous: "perdiez",
-        ils: "perdaient"
+        ils: "perdaient",
       },
       futur: {
         je: "perdrai",
@@ -37201,8 +37376,8 @@ export const mockWords: Word[] = [
         il: "perdra",
         nous: "perdrons",
         vous: "perdrez",
-        ils: "perdront"
-      }
+        ils: "perdront",
+      },
     },
     examples: [
       {
@@ -37210,23 +37385,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je perds toujours mes clés.",
         translationTr: "Anahtarlarımı hep kaybederim.",
-        translationEn: "I always lose my keys."
+        translationEn: "I always lose my keys.",
       },
       {
         form: "a perdu",
         tense: "passéComposé",
         sentence: "Elle a perdu son portefeuille hier.",
         translationTr: "Dün cüzdanını kaybetti.",
-        translationEn: "She lost her wallet yesterday."
+        translationEn: "She lost her wallet yesterday.",
       },
       {
         form: "perdront",
         tense: "futur",
         sentence: "Ils perdront du temps s’ils attendent trop.",
         translationTr: "Çok beklerlerse zaman kaybedecekler.",
-        translationEn: "They will lose time if they wait too long."
-      }
-    ]
+        translationEn: "They will lose time if they wait too long.",
+      },
+    ],
   },
   {
     id: "v19-17",
@@ -37234,7 +37409,8 @@ export const mockWords: Word[] = [
     turkish: "Geri dönmek / Geri çevirmek",
     english: "To return / To turn back",
     pronunciation: "ʁə-tuʁ-ne",
-    description: "Hem fiziksel olarak bir yere geri dönmek hem de bir nesneyi çevirmek anlamlarında kullanılır. 'Être' veya 'avoir' yardımcı fiilleriyle çekimlenebilir, kullanımına göre değişir.",
+    description:
+      "Hem fiziksel olarak bir yere geri dönmek hem de bir nesneyi çevirmek anlamlarında kullanılır. 'Être' veya 'avoir' yardımcı fiilleriyle çekimlenebilir, kullanımına göre değişir.",
     synonyms: ["revenir", "rentrer", "inverser"],
     image: null,
     category: "verbs",
@@ -37243,7 +37419,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "retourne",
@@ -37251,7 +37427,7 @@ export const mockWords: Word[] = [
         il: "retourne",
         nous: "retournons",
         vous: "retournez",
-        ils: "retournent"
+        ils: "retournent",
       },
       passéComposé: {
         je: "suis retourné",
@@ -37259,7 +37435,7 @@ export const mockWords: Word[] = [
         il: "est retourné",
         nous: "sommes retournés",
         vous: "êtes retournés",
-        ils: "sont retournés"
+        ils: "sont retournés",
       },
       imparfait: {
         je: "retournais",
@@ -37267,7 +37443,7 @@ export const mockWords: Word[] = [
         il: "retournait",
         nous: "retournions",
         vous: "retourniez",
-        ils: "retournaient"
+        ils: "retournaient",
       },
       futur: {
         je: "retournerai",
@@ -37275,8 +37451,8 @@ export const mockWords: Word[] = [
         il: "retournera",
         nous: "retournerons",
         vous: "retournerez",
-        ils: "retourneront"
-      }
+        ils: "retourneront",
+      },
     },
     examples: [
       {
@@ -37284,23 +37460,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je retourne à la maison après le travail.",
         translationTr: "İşten sonra eve dönüyorum.",
-        translationEn: "I return home after work."
+        translationEn: "I return home after work.",
       },
       {
         form: "suis retourné",
         tense: "passéComposé",
         sentence: "Il est retourné en France après ses vacances.",
         translationTr: "Tatilinden sonra Fransa'ya geri döndü.",
-        translationEn: "He returned to France after his vacation."
+        translationEn: "He returned to France after his vacation.",
       },
       {
         form: "retourneront",
         tense: "futur",
         sentence: "Les étudiants retourneront à l’université en septembre.",
         translationTr: "Öğrenciler eylülde üniversiteye dönecek.",
-        translationEn: "The students will return to university in September."
-      }
-    ]
+        translationEn: "The students will return to university in September.",
+      },
+    ],
   },
   {
     id: "v19-18",
@@ -37308,7 +37484,8 @@ export const mockWords: Word[] = [
     turkish: "Dökmek / Yatırmak (para)",
     english: "To pour / To deposit",
     pronunciation: "vɛʁ-se",
-    description: "Sıvı dökmek ya da bankaya para yatırmak gibi anlamlarda kullanılır.",
+    description:
+      "Sıvı dökmek ya da bankaya para yatırmak gibi anlamlarda kullanılır.",
     synonyms: ["déverser", "répandre", "payer"],
     image: null,
     category: "verbs",
@@ -37317,7 +37494,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "verse",
@@ -37325,7 +37502,7 @@ export const mockWords: Word[] = [
         il: "verse",
         nous: "versons",
         vous: "versez",
-        ils: "versent"
+        ils: "versent",
       },
       passéComposé: {
         je: "ai versé",
@@ -37333,7 +37510,7 @@ export const mockWords: Word[] = [
         il: "a versé",
         nous: "avons versé",
         vous: "avez versé",
-        ils: "ont versé"
+        ils: "ont versé",
       },
       imparfait: {
         je: "versais",
@@ -37341,7 +37518,7 @@ export const mockWords: Word[] = [
         il: "versait",
         nous: "versions",
         vous: "versiez",
-        ils: "versaient"
+        ils: "versaient",
       },
       futur: {
         je: "verserai",
@@ -37349,8 +37526,8 @@ export const mockWords: Word[] = [
         il: "versera",
         nous: "verserons",
         vous: "verserez",
-        ils: "verseront"
-      }
+        ils: "verseront",
+      },
     },
     examples: [
       {
@@ -37358,23 +37535,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il verse de l’eau dans un verre.",
         translationTr: "Bardağa su döküyor.",
-        translationEn: "He pours water into a glass."
+        translationEn: "He pours water into a glass.",
       },
       {
         form: "a versé",
         tense: "passéComposé",
         sentence: "Elle a versé de l’argent sur son compte.",
         translationTr: "Hesabına para yatırdı.",
-        translationEn: "She deposited money into her account."
+        translationEn: "She deposited money into her account.",
       },
       {
         form: "verseront",
         tense: "futur",
         sentence: "Ils verseront les salaires demain.",
         translationTr: "Maaşları yarın yatıracaklar.",
-        translationEn: "They will pay the salaries tomorrow."
-      }
-    ]
+        translationEn: "They will pay the salaries tomorrow.",
+      },
+    ],
   },
   {
     id: "v19-19",
@@ -37382,7 +37559,8 @@ export const mockWords: Word[] = [
     turkish: "Kontrol etmek / Doğrulamak",
     english: "To check / To verify",
     pronunciation: "ve-ʁi-fje",
-    description: "Doğruluk veya uygunluk kontrolü için kullanılır. Özellikle teknik ya da idari süreçlerde sık kullanılır.",
+    description:
+      "Doğruluk veya uygunluk kontrolü için kullanılır. Özellikle teknik ya da idari süreçlerde sık kullanılır.",
     synonyms: ["contrôler", "examiner", "confirmer"],
     image: null,
     category: "verbs",
@@ -37391,7 +37569,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vérifie",
@@ -37399,7 +37577,7 @@ export const mockWords: Word[] = [
         il: "vérifie",
         nous: "vérifions",
         vous: "vérifiez",
-        ils: "vérifient"
+        ils: "vérifient",
       },
       passéComposé: {
         je: "ai vérifié",
@@ -37407,7 +37585,7 @@ export const mockWords: Word[] = [
         il: "a vérifié",
         nous: "avons vérifié",
         vous: "avez vérifié",
-        ils: "ont vérifié"
+        ils: "ont vérifié",
       },
       imparfait: {
         je: "vérifiais",
@@ -37415,7 +37593,7 @@ export const mockWords: Word[] = [
         il: "vérifiait",
         nous: "vérifiions",
         vous: "vérifiiez",
-        ils: "vérifiaient"
+        ils: "vérifiaient",
       },
       futur: {
         je: "vérifierai",
@@ -37423,8 +37601,8 @@ export const mockWords: Word[] = [
         il: "vérifiera",
         nous: "vérifierons",
         vous: "vérifierez",
-        ils: "vérifieront"
-      }
+        ils: "vérifieront",
+      },
     },
     examples: [
       {
@@ -37432,23 +37610,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je vérifie mes e-mails tous les matins.",
         translationTr: "Her sabah e-postalarımı kontrol ederim.",
-        translationEn: "I check my emails every morning."
+        translationEn: "I check my emails every morning.",
       },
       {
         form: "a vérifié",
         tense: "passéComposé",
         sentence: "Le technicien a vérifié le système.",
         translationTr: "Teknisyen sistemi kontrol etti.",
-        translationEn: "The technician verified the system."
+        translationEn: "The technician verified the system.",
       },
       {
         form: "vérifieront",
         tense: "futur",
         sentence: "Ils vérifieront les résultats demain.",
         translationTr: "Sonuçları yarın kontrol edecekler.",
-        translationEn: "They will verify the results tomorrow."
-      }
-    ]
+        translationEn: "They will verify the results tomorrow.",
+      },
+    ],
   },
   {
     id: "v19-20",
@@ -37456,7 +37634,8 @@ export const mockWords: Word[] = [
     turkish: "Kırmak / Parçalamak",
     english: "To break / To shatter",
     pronunciation: "bʁi-ze",
-    description: "Fiziksel kırma anlamının yanında, soyut olarak duyguları ya da sessizliği 'bozmak' anlamında da kullanılır.",
+    description:
+      "Fiziksel kırma anlamının yanında, soyut olarak duyguları ya da sessizliği 'bozmak' anlamında da kullanılır.",
     synonyms: ["casser", "fracturer", "rompre"],
     image: null,
     category: "verbs",
@@ -37465,7 +37644,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "brise",
@@ -37473,7 +37652,7 @@ export const mockWords: Word[] = [
         il: "brise",
         nous: "brisons",
         vous: "brisez",
-        ils: "brisent"
+        ils: "brisent",
       },
       passéComposé: {
         je: "ai brisé",
@@ -37481,7 +37660,7 @@ export const mockWords: Word[] = [
         il: "a brisé",
         nous: "avons brisé",
         vous: "avez brisé",
-        ils: "ont brisé"
+        ils: "ont brisé",
       },
       imparfait: {
         je: "brisais",
@@ -37489,7 +37668,7 @@ export const mockWords: Word[] = [
         il: "brisait",
         nous: "brisions",
         vous: "brisiez",
-        ils: "brisaient"
+        ils: "brisaient",
       },
       futur: {
         je: "briserai",
@@ -37497,8 +37676,8 @@ export const mockWords: Word[] = [
         il: "brisera",
         nous: "briserons",
         vous: "briserez",
-        ils: "briseront"
-      }
+        ils: "briseront",
+      },
     },
     examples: [
       {
@@ -37506,23 +37685,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il brise la glace avec un marteau.",
         translationTr: "Buzları çekiçle kırıyor.",
-        translationEn: "He breaks the ice with a hammer."
+        translationEn: "He breaks the ice with a hammer.",
       },
       {
         form: "a brisé",
         tense: "passéComposé",
         sentence: "Elle a brisé le silence de la salle.",
         translationTr: "Oda sessizliğini bozdu.",
-        translationEn: "She broke the silence of the room."
+        translationEn: "She broke the silence of the room.",
       },
       {
         form: "briseront",
         tense: "futur",
         sentence: "Ils briseront les anciennes règles.",
         translationTr: "Eski kuralları yıkacaklar.",
-        translationEn: "They will break the old rules."
-      }
-    ]
+        translationEn: "They will break the old rules.",
+      },
+    ],
   },
   {
     id: "v19-21",
@@ -37530,7 +37709,8 @@ export const mockWords: Word[] = [
     turkish: "Hedeflemek / Nişan almak",
     english: "To aim / To target",
     pronunciation: "vi-ze",
-    description: "Hem fiziksel olarak bir hedefe nişan almak hem de soyut olarak bir amacı hedeflemek anlamında kullanılır.",
+    description:
+      "Hem fiziksel olarak bir hedefe nişan almak hem de soyut olarak bir amacı hedeflemek anlamında kullanılır.",
     synonyms: ["cibler", "pointer", "ambitionner"],
     image: null,
     category: "verbs",
@@ -37539,7 +37719,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "vise",
@@ -37547,7 +37727,7 @@ export const mockWords: Word[] = [
         il: "vise",
         nous: "visons",
         vous: "visez",
-        ils: "visent"
+        ils: "visent",
       },
       passéComposé: {
         je: "ai visé",
@@ -37555,7 +37735,7 @@ export const mockWords: Word[] = [
         il: "a visé",
         nous: "avons visé",
         vous: "avez visé",
-        ils: "ont visé"
+        ils: "ont visé",
       },
       imparfait: {
         je: "visais",
@@ -37563,7 +37743,7 @@ export const mockWords: Word[] = [
         il: "visait",
         nous: "visions",
         vous: "visiez",
-        ils: "visaient"
+        ils: "visaient",
       },
       futur: {
         je: "viserai",
@@ -37571,8 +37751,8 @@ export const mockWords: Word[] = [
         il: "visera",
         nous: "viserons",
         vous: "viserez",
-        ils: "viseront"
-      }
+        ils: "viseront",
+      },
     },
     examples: [
       {
@@ -37580,23 +37760,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il vise la cible avec précision.",
         translationTr: "Hedefi dikkatle nişan alıyor.",
-        translationEn: "He aims at the target precisely."
+        translationEn: "He aims at the target precisely.",
       },
       {
         form: "a visé",
         tense: "passéComposé",
         sentence: "Le projet a visé une meilleure efficacité.",
         translationTr: "Proje daha iyi verimliliği hedefledi.",
-        translationEn: "The project aimed at better efficiency."
+        translationEn: "The project aimed at better efficiency.",
       },
       {
         form: "viseront",
         tense: "futur",
         sentence: "Ils viseront un public plus jeune.",
         translationTr: "Daha genç bir kitleyi hedefleyecekler.",
-        translationEn: "They will target a younger audience."
-      }
-    ]
+        translationEn: "They will target a younger audience.",
+      },
+    ],
   },
   {
     id: "v19-22",
@@ -37604,7 +37784,8 @@ export const mockWords: Word[] = [
     turkish: "Acele etmek / Hızlıca göndermek",
     english: "To hurry / To dispatch",
     pronunciation: "de-pe-ʃe",
-    description: "Refleksif haliyle (se dépêcher), 'acele etmek' anlamında çok sık kullanılır. Temel anlamda birini ya da bir şeyi hızlıca göndermek demektir.",
+    description:
+      "Refleksif haliyle (se dépêcher), 'acele etmek' anlamında çok sık kullanılır. Temel anlamda birini ya da bir şeyi hızlıca göndermek demektir.",
     synonyms: ["envoyer rapidement", "presser", "se hâter"],
     image: null,
     category: "verbs",
@@ -37613,7 +37794,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dépêche",
@@ -37621,7 +37802,7 @@ export const mockWords: Word[] = [
         il: "dépêche",
         nous: "dépêchons",
         vous: "dépêchez",
-        ils: "dépêchent"
+        ils: "dépêchent",
       },
       passéComposé: {
         je: "ai dépêché",
@@ -37629,7 +37810,7 @@ export const mockWords: Word[] = [
         il: "a dépêché",
         nous: "avons dépêché",
         vous: "avez dépêché",
-        ils: "ont dépêché"
+        ils: "ont dépêché",
       },
       imparfait: {
         je: "dépêchais",
@@ -37637,7 +37818,7 @@ export const mockWords: Word[] = [
         il: "dépêchait",
         nous: "dépêchions",
         vous: "dépêchiez",
-        ils: "dépêchaient"
+        ils: "dépêchaient",
       },
       futur: {
         je: "dépêcherai",
@@ -37645,8 +37826,8 @@ export const mockWords: Word[] = [
         il: "dépêchera",
         nous: "dépêcherons",
         vous: "dépêcherez",
-        ils: "dépêcheront"
-      }
+        ils: "dépêcheront",
+      },
     },
     examples: [
       {
@@ -37654,23 +37835,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle se dépêche pour ne pas rater le train.",
         translationTr: "Treni kaçırmamak için acele ediyor.",
-        translationEn: "She is hurrying so as not to miss the train."
+        translationEn: "She is hurrying so as not to miss the train.",
       },
       {
         form: "a dépêché",
         tense: "passéComposé",
         sentence: "Le directeur a dépêché une équipe sur place.",
         translationTr: "Müdür olay yerine bir ekip gönderdi.",
-        translationEn: "The director dispatched a team to the site."
+        translationEn: "The director dispatched a team to the site.",
       },
       {
         form: "dépêcheront",
         tense: "futur",
         sentence: "Ils dépêcheront des secours immédiatement.",
         translationTr: "Hemen yardım ekipleri gönderecekler.",
-        translationEn: "They will dispatch emergency aid immediately."
-      }
-    ]
+        translationEn: "They will dispatch emergency aid immediately.",
+      },
+    ],
   },
   {
     id: "v19-23",
@@ -37678,7 +37859,8 @@ export const mockWords: Word[] = [
     turkish: "Yargılamak / Değerlendirmek",
     english: "To judge / To assess",
     pronunciation: "ʒy-ʒe",
-    description: "Hem mahkeme bağlamında yargılamak hem de kişisel olarak değerlendirmek anlamlarında kullanılır.",
+    description:
+      "Hem mahkeme bağlamında yargılamak hem de kişisel olarak değerlendirmek anlamlarında kullanılır.",
     synonyms: ["évaluer", "examiner", "trancher"],
     image: null,
     category: "verbs",
@@ -37687,7 +37869,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "juge",
@@ -37695,7 +37877,7 @@ export const mockWords: Word[] = [
         il: "juge",
         nous: "jugeons",
         vous: "jugez",
-        ils: "jugent"
+        ils: "jugent",
       },
       passéComposé: {
         je: "ai jugé",
@@ -37703,7 +37885,7 @@ export const mockWords: Word[] = [
         il: "a jugé",
         nous: "avons jugé",
         vous: "avez jugé",
-        ils: "ont jugé"
+        ils: "ont jugé",
       },
       imparfait: {
         je: "jugeais",
@@ -37711,7 +37893,7 @@ export const mockWords: Word[] = [
         il: "jugeait",
         nous: "jugions",
         vous: "jugiez",
-        ils: "jugeaient"
+        ils: "jugeaient",
       },
       futur: {
         je: "jugerai",
@@ -37719,8 +37901,8 @@ export const mockWords: Word[] = [
         il: "jugera",
         nous: "jugerons",
         vous: "jugerez",
-        ils: "jugeront"
-      }
+        ils: "jugeront",
+      },
     },
     examples: [
       {
@@ -37728,23 +37910,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il juge cette proposition inutile.",
         translationTr: "Bu öneriyi gereksiz buluyor.",
-        translationEn: "He judges this proposal unnecessary."
+        translationEn: "He judges this proposal unnecessary.",
       },
       {
         form: "a jugé",
         tense: "passéComposé",
         sentence: "Le tribunal a jugé l’affaire rapidement.",
         translationTr: "Mahkeme davayı hızlıca karara bağladı.",
-        translationEn: "The court judged the case quickly."
+        translationEn: "The court judged the case quickly.",
       },
       {
         form: "jugeront",
         tense: "futur",
         sentence: "Ils jugeront les candidats demain.",
         translationTr: "Adayları yarın değerlendirecekler.",
-        translationEn: "They will judge the candidates tomorrow."
-      }
-    ]
+        translationEn: "They will judge the candidates tomorrow.",
+      },
+    ],
   },
   {
     id: "v19-24",
@@ -37752,7 +37934,8 @@ export const mockWords: Word[] = [
     turkish: "Boşanmak",
     english: "To divorce",
     pronunciation: "di-vɔʁ-se",
-    description: "Refleksif hali (se divorcer) kullanılmaz. Doğrudan kişi öznesiyle çekimlenir. Ailevi bağlamda yaygındır.",
+    description:
+      "Refleksif hali (se divorcer) kullanılmaz. Doğrudan kişi öznesiyle çekimlenir. Ailevi bağlamda yaygındır.",
     synonyms: ["se séparer", "rompre", "mettre fin au mariage"],
     image: null,
     category: "verbs",
@@ -37761,7 +37944,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "divorce",
@@ -37769,7 +37952,7 @@ export const mockWords: Word[] = [
         il: "divorce",
         nous: "divorçons",
         vous: "divorcez",
-        ils: "divorcent"
+        ils: "divorcent",
       },
       passéComposé: {
         je: "ai divorcé",
@@ -37777,7 +37960,7 @@ export const mockWords: Word[] = [
         il: "a divorcé",
         nous: "avons divorcé",
         vous: "avez divorcé",
-        ils: "ont divorcé"
+        ils: "ont divorcé",
       },
       imparfait: {
         je: "divorçais",
@@ -37785,7 +37968,7 @@ export const mockWords: Word[] = [
         il: "divorçait",
         nous: "divorcions",
         vous: "divorciez",
-        ils: "divorçaient"
+        ils: "divorçaient",
       },
       futur: {
         je: "divorcerai",
@@ -37793,8 +37976,8 @@ export const mockWords: Word[] = [
         il: "divorcera",
         nous: "divorcerons",
         vous: "divorcerez",
-        ils: "divorceront"
-      }
+        ils: "divorceront",
+      },
     },
     examples: [
       {
@@ -37802,23 +37985,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il divorce après dix ans de mariage.",
         translationTr: "On yıllık evlilikten sonra boşanıyor.",
-        translationEn: "He is divorcing after ten years of marriage."
+        translationEn: "He is divorcing after ten years of marriage.",
       },
       {
         form: "a divorcé",
         tense: "passéComposé",
         sentence: "Elle a divorcé l’année dernière.",
         translationTr: "Geçen yıl boşandı.",
-        translationEn: "She divorced last year."
+        translationEn: "She divorced last year.",
       },
       {
         form: "divorceront",
         tense: "futur",
         sentence: "Ils divorceront à l’amiable.",
         translationTr: "Anlaşmalı şekilde boşanacaklar.",
-        translationEn: "They will divorce amicably."
-      }
-    ]
+        translationEn: "They will divorce amicably.",
+      },
+    ],
   },
   {
     id: "v19-25",
@@ -37826,7 +38009,8 @@ export const mockWords: Word[] = [
     turkish: "Koşmak",
     english: "To run",
     pronunciation: "ku-ʁiʁ",
-    description: "Düzensiz bir fiildir. Hem fiziksel olarak koşmak hem de soyut anlamda zaman ya da risk 'koşmak' gibi kullanımları vardır (courir un risque = risk almak). Yardımcı fiil passé composé’de genellikle 'avoir' ile, bazen 'être' ile kullanılır.",
+    description:
+      "Düzensiz bir fiildir. Hem fiziksel olarak koşmak hem de soyut anlamda zaman ya da risk 'koşmak' gibi kullanımları vardır (courir un risque = risk almak). Yardımcı fiil passé composé’de genellikle 'avoir' ile, bazen 'être' ile kullanılır.",
     synonyms: ["galoper", "filer", "se précipiter"],
     image: null,
     category: "verbs",
@@ -37835,7 +38019,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "cours",
@@ -37843,7 +38027,7 @@ export const mockWords: Word[] = [
         il: "court",
         nous: "courons",
         vous: "courez",
-        ils: "courent"
+        ils: "courent",
       },
       passéComposé: {
         je: "ai couru",
@@ -37851,7 +38035,7 @@ export const mockWords: Word[] = [
         il: "a couru",
         nous: "avons couru",
         vous: "avez couru",
-        ils: "ont couru"
+        ils: "ont couru",
       },
       imparfait: {
         je: "courais",
@@ -37859,7 +38043,7 @@ export const mockWords: Word[] = [
         il: "courait",
         nous: "courions",
         vous: "couriez",
-        ils: "couraient"
+        ils: "couraient",
       },
       futur: {
         je: "courrai",
@@ -37867,8 +38051,8 @@ export const mockWords: Word[] = [
         il: "courra",
         nous: "courrons",
         vous: "courrez",
-        ils: "courront"
-      }
+        ils: "courront",
+      },
     },
     examples: [
       {
@@ -37876,23 +38060,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il court tous les matins dans le parc.",
         translationTr: "Her sabah parkta koşuyor.",
-        translationEn: "He runs every morning in the park."
+        translationEn: "He runs every morning in the park.",
       },
       {
         form: "a couru",
         tense: "passéComposé",
         sentence: "Elle a couru un marathon l’an dernier.",
         translationTr: "Geçen yıl bir maraton koştu.",
-        translationEn: "She ran a marathon last year."
+        translationEn: "She ran a marathon last year.",
       },
       {
         form: "courra",
         tense: "futur",
         sentence: "Il courra plus vite la prochaine fois.",
         translationTr: "Bir dahaki sefere daha hızlı koşacak.",
-        translationEn: "He will run faster next time."
-      }
-    ]
+        translationEn: "He will run faster next time.",
+      },
+    ],
   },
   {
     id: "v20-1",
@@ -37900,7 +38084,8 @@ export const mockWords: Word[] = [
     turkish: "Karşı gelmek / İhlal etmek",
     english: "To contravene / To violate",
     pronunciation: "kɔ̃tʁəvəniʁ",
-    description: "Genellikle yasalara, kurallara ya da emirlere aykırı davranmak anlamında kullanılır. Yardımcı fiil 'avoir' ile çekimlenir. Kullanımı daha resmidir.",
+    description:
+      "Genellikle yasalara, kurallara ya da emirlere aykırı davranmak anlamında kullanılır. Yardımcı fiil 'avoir' ile çekimlenir. Kullanımı daha resmidir.",
     synonyms: ["enfreindre", "violer", "désobéir"],
     image: null,
     category: "verbs",
@@ -37909,7 +38094,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "contreviens",
@@ -37917,7 +38102,7 @@ export const mockWords: Word[] = [
         il: "contrevient",
         nous: "contrevenons",
         vous: "contrevenez",
-        ils: "contreviennent"
+        ils: "contreviennent",
       },
       passéComposé: {
         je: "ai contrevenu",
@@ -37925,7 +38110,7 @@ export const mockWords: Word[] = [
         il: "a contrevenu",
         nous: "avons contrevenu",
         vous: "avez contrevenu",
-        ils: "ont contrevenu"
+        ils: "ont contrevenu",
       },
       imparfait: {
         je: "contrevenais",
@@ -37933,7 +38118,7 @@ export const mockWords: Word[] = [
         il: "contrevenait",
         nous: "contrevenions",
         vous: "contreveniez",
-        ils: "contrevenaient"
+        ils: "contrevenaient",
       },
       futur: {
         je: "contreviendrai",
@@ -37941,8 +38126,8 @@ export const mockWords: Word[] = [
         il: "contreviendra",
         nous: "contreviendrons",
         vous: "contreviendrez",
-        ils: "contreviendront"
-      }
+        ils: "contreviendront",
+      },
     },
     examples: [
       {
@@ -37950,23 +38135,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il contrevient aux règles de sécurité.",
         translationTr: "Güvenlik kurallarını ihlal ediyor.",
-        translationEn: "He contravenes the safety rules."
+        translationEn: "He contravenes the safety rules.",
       },
       {
         form: "a contrevenu",
         tense: "passéComposé",
         sentence: "Elle a contrevenu à la loi plusieurs fois.",
         translationTr: "Birçok kez yasayı ihlal etti.",
-        translationEn: "She has contravened the law several times."
+        translationEn: "She has contravened the law several times.",
       },
       {
         form: "contreviendra",
         tense: "futur",
         sentence: "Il contreviendra aux ordres s’il continue.",
         translationTr: "Devam ederse emirlere karşı gelecek.",
-        translationEn: "He will contravene the orders if he continues."
-      }
-    ]
+        translationEn: "He will contravene the orders if he continues.",
+      },
+    ],
   },
   {
     id: "v20-2",
@@ -37974,7 +38159,8 @@ export const mockWords: Word[] = [
     turkish: "Çıkarmak / Kaldırmak / Kaçırmak",
     english: "To remove / To take off / To kidnap",
     pronunciation: "ɑ̃-lə-ve",
-    description: "Hem fiziksel olarak bir şeyi kaldırmak, çıkarmak anlamına gelir hem de 'birini kaçırmak' anlamında kullanılır. Düzensizdir, yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Hem fiziksel olarak bir şeyi kaldırmak, çıkarmak anlamına gelir hem de 'birini kaçırmak' anlamında kullanılır. Düzensizdir, yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["retirer", "ôter", "kidnapper"],
     image: null,
     category: "verbs",
@@ -37983,7 +38169,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "enlève",
@@ -37991,7 +38177,7 @@ export const mockWords: Word[] = [
         il: "enlève",
         nous: "enlevons",
         vous: "enlevez",
-        ils: "enlèvent"
+        ils: "enlèvent",
       },
       passéComposé: {
         je: "ai enlevé",
@@ -37999,7 +38185,7 @@ export const mockWords: Word[] = [
         il: "a enlevé",
         nous: "avons enlevé",
         vous: "avez enlevé",
-        ils: "ont enlevé"
+        ils: "ont enlevé",
       },
       imparfait: {
         je: "enlevais",
@@ -38007,7 +38193,7 @@ export const mockWords: Word[] = [
         il: "enlevait",
         nous: "enlevions",
         vous: "enleviez",
-        ils: "enlevaient"
+        ils: "enlevaient",
       },
       futur: {
         je: "enlèverai",
@@ -38015,8 +38201,8 @@ export const mockWords: Word[] = [
         il: "enlèvera",
         nous: "enlèverons",
         vous: "enlèverez",
-        ils: "enlèveront"
-      }
+        ils: "enlèveront",
+      },
     },
     examples: [
       {
@@ -38024,23 +38210,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle enlève ses chaussures à l’entrée.",
         translationTr: "Girişte ayakkabılarını çıkarıyor.",
-        translationEn: "She takes off her shoes at the entrance."
+        translationEn: "She takes off her shoes at the entrance.",
       },
       {
         form: "a enlevé",
         tense: "passéComposé",
         sentence: "Il a enlevé la poussière des meubles.",
         translationTr: "Mobilyalardaki tozu temizledi.",
-        translationEn: "He removed the dust from the furniture."
+        translationEn: "He removed the dust from the furniture.",
       },
       {
         form: "enlèvera",
         tense: "futur",
         sentence: "Elle enlèvera son manteau dès qu’elle arrivera.",
         translationTr: "Geldiği anda montunu çıkaracak.",
-        translationEn: "She will take off her coat as soon as she arrives."
-      }
-    ]
+        translationEn: "She will take off her coat as soon as she arrives.",
+      },
+    ],
   },
   {
     id: "v20-3",
@@ -38048,7 +38234,8 @@ export const mockWords: Word[] = [
     turkish: "İhbar etmek / Kınamak / Açığa vurmak",
     english: "To denounce / To report / To expose",
     pronunciation: "de-nõ-se",
-    description: "Bir kişiyi ya da durumu yetkililere bildirmek ya da yüksek sesle kınamak anlamında kullanılır. Hem hukuki hem toplumsal bağlamda sıkça geçer.",
+    description:
+      "Bir kişiyi ya da durumu yetkililere bildirmek ya da yüksek sesle kınamak anlamında kullanılır. Hem hukuki hem toplumsal bağlamda sıkça geçer.",
     synonyms: ["accuser", "révéler", "signaler"],
     image: null,
     category: "verbs",
@@ -38057,7 +38244,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "dénonce",
@@ -38065,7 +38252,7 @@ export const mockWords: Word[] = [
         il: "dénonce",
         nous: "dénonçons",
         vous: "dénoncez",
-        ils: "dénoncent"
+        ils: "dénoncent",
       },
       passéComposé: {
         je: "ai dénoncé",
@@ -38073,7 +38260,7 @@ export const mockWords: Word[] = [
         il: "a dénoncé",
         nous: "avons dénoncé",
         vous: "avez dénoncé",
-        ils: "ont dénoncé"
+        ils: "ont dénoncé",
       },
       imparfait: {
         je: "dénonçais",
@@ -38081,7 +38268,7 @@ export const mockWords: Word[] = [
         il: "dénonçait",
         nous: "dénoncions",
         vous: "dénonciez",
-        ils: "dénonçaient"
+        ils: "dénonçaient",
       },
       futur: {
         je: "dénoncerai",
@@ -38089,8 +38276,8 @@ export const mockWords: Word[] = [
         il: "dénoncera",
         nous: "dénoncerons",
         vous: "dénoncerez",
-        ils: "dénonceront"
-      }
+        ils: "dénonceront",
+      },
     },
     examples: [
       {
@@ -38098,23 +38285,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il dénonce la corruption dans son entreprise.",
         translationTr: "Şirketindeki yolsuzluğu ihbar ediyor.",
-        translationEn: "He denounces the corruption in his company."
+        translationEn: "He denounces the corruption in his company.",
       },
       {
         form: "a dénoncé",
         tense: "passéComposé",
         sentence: "Elle a dénoncé son voisin à la police.",
         translationTr: "Komşusunu polise ihbar etti.",
-        translationEn: "She reported her neighbor to the police."
+        translationEn: "She reported her neighbor to the police.",
       },
       {
         form: "dénoncera",
         tense: "futur",
         sentence: "Il dénoncera les responsables publiquement.",
         translationTr: "Sorumluları kamuya açık bir şekilde kınayacak.",
-        translationEn: "He will publicly denounce those responsible."
-      }
-    ]
+        translationEn: "He will publicly denounce those responsible.",
+      },
+    ],
   },
   {
     id: "v20-4",
@@ -38122,7 +38309,8 @@ export const mockWords: Word[] = [
     turkish: "Şaşırtmak",
     english: "To astonish / To surprise",
     pronunciation: "e-tɔ-ne",
-    description: "Genellikle özne bir kişiyi beklenmeyen bir durumla şaşırtır. Refleksif hali 's’étonner' ise 'şaşırmak' anlamına gelir.",
+    description:
+      "Genellikle özne bir kişiyi beklenmeyen bir durumla şaşırtır. Refleksif hali 's’étonner' ise 'şaşırmak' anlamına gelir.",
     synonyms: ["surprendre", "choquer", "stupéfier"],
     image: null,
     category: "verbs",
@@ -38131,7 +38319,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "étonne",
@@ -38139,7 +38327,7 @@ export const mockWords: Word[] = [
         il: "étonne",
         nous: "étonnons",
         vous: "étonnez",
-        ils: "étonnent"
+        ils: "étonnent",
       },
       passéComposé: {
         je: "ai étonné",
@@ -38147,7 +38335,7 @@ export const mockWords: Word[] = [
         il: "a étonné",
         nous: "avons étonné",
         vous: "avez étonné",
-        ils: "ont étonné"
+        ils: "ont étonné",
       },
       imparfait: {
         je: "étonnais",
@@ -38155,7 +38343,7 @@ export const mockWords: Word[] = [
         il: "étonnait",
         nous: "étonnions",
         vous: "étonniez",
-        ils: "étonnaient"
+        ils: "étonnaient",
       },
       futur: {
         je: "étonnerai",
@@ -38163,8 +38351,8 @@ export const mockWords: Word[] = [
         il: "étonnera",
         nous: "étonnerons",
         vous: "étonnerez",
-        ils: "étonneront"
-      }
+        ils: "étonneront",
+      },
     },
     examples: [
       {
@@ -38172,23 +38360,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Ce film m’étonne à chaque fois.",
         translationTr: "Bu film beni her seferinde şaşırtıyor.",
-        translationEn: "This movie astonishes me every time."
+        translationEn: "This movie astonishes me every time.",
       },
       {
         form: "a étonné",
         tense: "passéComposé",
         sentence: "Il a étonné tout le monde avec sa décision.",
         translationTr: "Kararıyla herkesi şaşırttı.",
-        translationEn: "He astonished everyone with his decision."
+        translationEn: "He astonished everyone with his decision.",
       },
       {
         form: "étonnera",
         tense: "futur",
         sentence: "Cette nouvelle étonnera ses amis.",
         translationTr: "Bu haber arkadaşlarını şaşırtacak.",
-        translationEn: "This news will astonish his friends."
-      }
-    ]
+        translationEn: "This news will astonish his friends.",
+      },
+    ],
   },
   {
     id: "v20-5",
@@ -38196,7 +38384,8 @@ export const mockWords: Word[] = [
     turkish: "Yapmak / Ettirmek",
     english: "To do / To make",
     pronunciation: "fɛʁ",
-    description: "En sık kullanılan fiillerden biridir. Çok geniş bir kullanım alanı vardır. Yardımcı fiil 'avoir' ile çekimlenir. Düzensiz fiildir.",
+    description:
+      "En sık kullanılan fiillerden biridir. Çok geniş bir kullanım alanı vardır. Yardımcı fiil 'avoir' ile çekimlenir. Düzensiz fiildir.",
     synonyms: ["effectuer", "réaliser", "fabriquer"],
     image: null,
     category: "verbs",
@@ -38205,7 +38394,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "fais",
@@ -38213,7 +38402,7 @@ export const mockWords: Word[] = [
         il: "fait",
         nous: "faisons",
         vous: "faites",
-        ils: "font"
+        ils: "font",
       },
       passéComposé: {
         je: "ai fait",
@@ -38221,7 +38410,7 @@ export const mockWords: Word[] = [
         il: "a fait",
         nous: "avons fait",
         vous: "avez fait",
-        ils: "ont fait"
+        ils: "ont fait",
       },
       imparfait: {
         je: "faisais",
@@ -38229,7 +38418,7 @@ export const mockWords: Word[] = [
         il: "faisait",
         nous: "faisions",
         vous: "faisiez",
-        ils: "faisaient"
+        ils: "faisaient",
       },
       futur: {
         je: "ferai",
@@ -38237,8 +38426,8 @@ export const mockWords: Word[] = [
         il: "fera",
         nous: "ferons",
         vous: "ferez",
-        ils: "feront"
-      }
+        ils: "feront",
+      },
     },
     examples: [
       {
@@ -38246,23 +38435,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il fait ses devoirs chaque soir.",
         translationTr: "Her akşam ödevlerini yapıyor.",
-        translationEn: "He does his homework every evening."
+        translationEn: "He does his homework every evening.",
       },
       {
         form: "a fait",
         tense: "passéComposé",
         sentence: "J’ai fait un gâteau hier.",
         translationTr: "Dün bir pasta yaptım.",
-        translationEn: "I made a cake yesterday."
+        translationEn: "I made a cake yesterday.",
       },
       {
         form: "fera",
         tense: "futur",
         sentence: "Elle fera une présentation demain.",
         translationTr: "Yarın bir sunum yapacak.",
-        translationEn: "She will make a presentation tomorrow."
-      }
-    ]
+        translationEn: "She will make a presentation tomorrow.",
+      },
+    ],
   },
   {
     id: "v20-6",
@@ -38270,7 +38459,8 @@ export const mockWords: Word[] = [
     turkish: "Göndermek / Yollamak",
     english: "To send",
     pronunciation: "ɑ̃-vwa-je",
-    description: "Düzensiz fiildir. -yer ile bitmesine rağmen geniş zamanda 'y' harfi 'i' olur (j’envoie). Yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Düzensiz fiildir. -yer ile bitmesine rağmen geniş zamanda 'y' harfi 'i' olur (j’envoie). Yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["expédier", "transmettre", "faire parvenir"],
     image: null,
     category: "verbs",
@@ -38279,7 +38469,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "envoie",
@@ -38287,7 +38477,7 @@ export const mockWords: Word[] = [
         il: "envoie",
         nous: "envoyons",
         vous: "envoyez",
-        ils: "envoient"
+        ils: "envoient",
       },
       passéComposé: {
         je: "ai envoyé",
@@ -38295,7 +38485,7 @@ export const mockWords: Word[] = [
         il: "a envoyé",
         nous: "avons envoyé",
         vous: "avez envoyé",
-        ils: "ont envoyé"
+        ils: "ont envoyé",
       },
       imparfait: {
         je: "envoyais",
@@ -38303,7 +38493,7 @@ export const mockWords: Word[] = [
         il: "envoyait",
         nous: "envoyions",
         vous: "envoyiez",
-        ils: "envoyaient"
+        ils: "envoyaient",
       },
       futur: {
         je: "enverrai",
@@ -38311,8 +38501,8 @@ export const mockWords: Word[] = [
         il: "enverra",
         nous: "enverrons",
         vous: "enverrez",
-        ils: "enverront"
-      }
+        ils: "enverront",
+      },
     },
     examples: [
       {
@@ -38320,23 +38510,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je t’envoie le document par e-mail.",
         translationTr: "Sana belgeyi e-posta ile gönderiyorum.",
-        translationEn: "I am sending you the document by email."
+        translationEn: "I am sending you the document by email.",
       },
       {
         form: "a envoyé",
         tense: "passéComposé",
         sentence: "Elle a envoyé une carte postale à ses parents.",
         translationTr: "Ailesine bir kartpostal gönderdi.",
-        translationEn: "She sent a postcard to her parents."
+        translationEn: "She sent a postcard to her parents.",
       },
       {
         form: "enverra",
         tense: "futur",
         sentence: "Il enverra le colis demain.",
         translationTr: "Paketi yarın gönderecek.",
-        translationEn: "He will send the package tomorrow."
-      }
-    ]
+        translationEn: "He will send the package tomorrow.",
+      },
+    ],
   },
   {
     id: "v20-7",
@@ -38344,7 +38534,8 @@ export const mockWords: Word[] = [
     turkish: "Not almak / Kaydetmek / Değerlendirmek",
     english: "To note / To write down / To grade",
     pronunciation: "nɔ-te",
-    description: "Hem bilgi not etmek hem de bir kişiyi puanlamak, değerlendirmek anlamında kullanılır. Eğitim bağlamında 'not vermek' için yaygındır.",
+    description:
+      "Hem bilgi not etmek hem de bir kişiyi puanlamak, değerlendirmek anlamında kullanılır. Eğitim bağlamında 'not vermek' için yaygındır.",
     synonyms: ["écrire", "inscrire", "évaluer"],
     image: null,
     category: "verbs",
@@ -38353,7 +38544,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "note",
@@ -38361,7 +38552,7 @@ export const mockWords: Word[] = [
         il: "note",
         nous: "notons",
         vous: "notez",
-        ils: "notent"
+        ils: "notent",
       },
       passéComposé: {
         je: "ai noté",
@@ -38369,7 +38560,7 @@ export const mockWords: Word[] = [
         il: "a noté",
         nous: "avons noté",
         vous: "avez noté",
-        ils: "ont noté"
+        ils: "ont noté",
       },
       imparfait: {
         je: "notais",
@@ -38377,7 +38568,7 @@ export const mockWords: Word[] = [
         il: "notait",
         nous: "notions",
         vous: "notiez",
-        ils: "notaient"
+        ils: "notaient",
       },
       futur: {
         je: "noterai",
@@ -38385,8 +38576,8 @@ export const mockWords: Word[] = [
         il: "notera",
         nous: "noterons",
         vous: "noterez",
-        ils: "noteront"
-      }
+        ils: "noteront",
+      },
     },
     examples: [
       {
@@ -38394,23 +38585,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je note toutes les idées importantes.",
         translationTr: "Tüm önemli fikirleri not alıyorum.",
-        translationEn: "I write down all the important ideas."
+        translationEn: "I write down all the important ideas.",
       },
       {
         form: "a noté",
         tense: "passéComposé",
         sentence: "Le professeur a noté les copies hier.",
         translationTr: "Öğretmen dün sınav kağıtlarını değerlendirdi.",
-        translationEn: "The teacher graded the papers yesterday."
+        translationEn: "The teacher graded the papers yesterday.",
       },
       {
         form: "notera",
         tense: "futur",
         sentence: "Il notera tes progrès chaque semaine.",
         translationTr: "İlerlemeni her hafta değerlendirecek.",
-        translationEn: "He will grade your progress every week."
-      }
-    ]
+        translationEn: "He will grade your progress every week.",
+      },
+    ],
   },
   {
     id: "v20-8",
@@ -38418,7 +38609,8 @@ export const mockWords: Word[] = [
     turkish: "Yenmek / Dövmek / Çırpmak",
     english: "To beat / To defeat / To whisk",
     pronunciation: "batʁ",
-    description: "Çok anlamlı bir fiildir: birini yenmek, fiziksel olarak vurmak ya da mutfakta yumurta çırpmak gibi kullanımları vardır. Düzensizdir ve yardımcı fiil 'avoir' ile çekimlenir.",
+    description:
+      "Çok anlamlı bir fiildir: birini yenmek, fiziksel olarak vurmak ya da mutfakta yumurta çırpmak gibi kullanımları vardır. Düzensizdir ve yardımcı fiil 'avoir' ile çekimlenir.",
     synonyms: ["frapper", "vaincre", "taper"],
     image: null,
     category: "verbs",
@@ -38427,7 +38619,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "bats",
@@ -38435,7 +38627,7 @@ export const mockWords: Word[] = [
         il: "bat",
         nous: "battons",
         vous: "battez",
-        ils: "battent"
+        ils: "battent",
       },
       passéComposé: {
         je: "ai battu",
@@ -38443,7 +38635,7 @@ export const mockWords: Word[] = [
         il: "a battu",
         nous: "avons battu",
         vous: "avez battu",
-        ils: "ont battu"
+        ils: "ont battu",
       },
       imparfait: {
         je: "battais",
@@ -38451,7 +38643,7 @@ export const mockWords: Word[] = [
         il: "battait",
         nous: "battions",
         vous: "battiez",
-        ils: "battaient"
+        ils: "battaient",
       },
       futur: {
         je: "battrai",
@@ -38459,8 +38651,8 @@ export const mockWords: Word[] = [
         il: "battra",
         nous: "battrons",
         vous: "battrez",
-        ils: "battront"
-      }
+        ils: "battront",
+      },
     },
     examples: [
       {
@@ -38468,23 +38660,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "L’équipe bat toujours ses rivales.",
         translationTr: "Takım her zaman rakiplerini yeniyor.",
-        translationEn: "The team always beats its rivals."
+        translationEn: "The team always beats its rivals.",
       },
       {
         form: "a battu",
         tense: "passéComposé",
         sentence: "Il a battu son record personnel.",
         translationTr: "Kendi rekorunu kırdı.",
-        translationEn: "He beat his personal record."
+        translationEn: "He beat his personal record.",
       },
       {
         form: "battra",
         tense: "futur",
         sentence: "Elle battra les œufs pour le gâteau.",
         translationTr: "Kek için yumurtaları çırpacak.",
-        translationEn: "She will beat the eggs for the cake."
-      }
-    ]
+        translationEn: "She will beat the eggs for the cake.",
+      },
+    ],
   },
   {
     id: "v20-9",
@@ -38492,7 +38684,8 @@ export const mockWords: Word[] = [
     turkish: "Korna çalmak",
     english: "To honk / To sound the horn",
     pronunciation: "klak-sɔ-ne",
-    description: "Genellikle araba kullanırken korna çalmak anlamında kullanılır. Günlük hayatta yaygın olarak geçer.",
+    description:
+      "Genellikle araba kullanırken korna çalmak anlamında kullanılır. Günlük hayatta yaygın olarak geçer.",
     synonyms: ["avertir", "klaxer"],
     image: null,
     category: "verbs",
@@ -38501,7 +38694,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "klaxonne",
@@ -38509,7 +38702,7 @@ export const mockWords: Word[] = [
         il: "klaxonne",
         nous: "klaxonnons",
         vous: "klaxonnez",
-        ils: "klaxonnent"
+        ils: "klaxonnent",
       },
       passéComposé: {
         je: "ai klaxonné",
@@ -38517,7 +38710,7 @@ export const mockWords: Word[] = [
         il: "a klaxonné",
         nous: "avons klaxonné",
         vous: "avez klaxonné",
-        ils: "ont klaxonné"
+        ils: "ont klaxonné",
       },
       imparfait: {
         je: "klaxonnais",
@@ -38525,7 +38718,7 @@ export const mockWords: Word[] = [
         il: "klaxonnait",
         nous: "klaxonnions",
         vous: "klaxonniez",
-        ils: "klaxonnaient"
+        ils: "klaxonnaient",
       },
       futur: {
         je: "klaxonnerai",
@@ -38533,8 +38726,8 @@ export const mockWords: Word[] = [
         il: "klaxonnera",
         nous: "klaxonnerons",
         vous: "klaxonnerez",
-        ils: "klaxonneront"
-      }
+        ils: "klaxonneront",
+      },
     },
     examples: [
       {
@@ -38542,23 +38735,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il klaxonne dès qu’il est en colère.",
         translationTr: "Sinirlenince hemen kornaya basıyor.",
-        translationEn: "He honks the horn as soon as he gets angry."
+        translationEn: "He honks the horn as soon as he gets angry.",
       },
       {
         form: "a klaxonné",
         tense: "passéComposé",
         sentence: "Le chauffeur a klaxonné à l’intersection.",
         translationTr: "Sürücü kavşakta kornaya bastı.",
-        translationEn: "The driver honked at the intersection."
+        translationEn: "The driver honked at the intersection.",
       },
       {
         form: "klaxonnera",
         tense: "futur",
         sentence: "Elle klaxonnera si quelqu’un bloque la route.",
         translationTr: "Biri yolu kapatırsa kornaya basacak.",
-        translationEn: "She will honk if someone blocks the road."
-      }
-    ]
+        translationEn: "She will honk if someone blocks the road.",
+      },
+    ],
   },
   {
     id: "v20-10",
@@ -38566,7 +38759,8 @@ export const mockWords: Word[] = [
     turkish: "Koklamak / Hissetmek / Farketmek",
     english: "To smell / To feel / To sense",
     pronunciation: "sɑ̃-tiʁ",
-    description: "Refleksif hali (se sentir) ile 'kendini hissetmek' anlamında kullanılır. Duyguları ve kokuları ifade etmede yaygındır. Düzensizdir ve 'avoir' ile çekimlenir.",
+    description:
+      "Refleksif hali (se sentir) ile 'kendini hissetmek' anlamında kullanılır. Duyguları ve kokuları ifade etmede yaygındır. Düzensizdir ve 'avoir' ile çekimlenir.",
     synonyms: ["ressentir", "percevoir", "flairer"],
     image: null,
     category: "verbs",
@@ -38575,7 +38769,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "sens",
@@ -38583,7 +38777,7 @@ export const mockWords: Word[] = [
         il: "sent",
         nous: "sentons",
         vous: "sentez",
-        ils: "sentent"
+        ils: "sentent",
       },
       passéComposé: {
         je: "ai senti",
@@ -38591,7 +38785,7 @@ export const mockWords: Word[] = [
         il: "a senti",
         nous: "avons senti",
         vous: "avez senti",
-        ils: "ont senti"
+        ils: "ont senti",
       },
       imparfait: {
         je: "sentais",
@@ -38599,7 +38793,7 @@ export const mockWords: Word[] = [
         il: "sentait",
         nous: "sentions",
         vous: "sentiez",
-        ils: "sentaient"
+        ils: "sentaient",
       },
       futur: {
         je: "sentirai",
@@ -38607,8 +38801,8 @@ export const mockWords: Word[] = [
         il: "sentira",
         nous: "sentirons",
         vous: "sentirez",
-        ils: "sentiront"
-      }
+        ils: "sentiront",
+      },
     },
     examples: [
       {
@@ -38616,23 +38810,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je sens une odeur étrange dans la cuisine.",
         translationTr: "Mutfakta garip bir koku hissediyorum.",
-        translationEn: "I smell a strange odor in the kitchen."
+        translationEn: "I smell a strange odor in the kitchen.",
       },
       {
         form: "a senti",
         tense: "passéComposé",
         sentence: "Elle a senti le vent froid sur son visage.",
         translationTr: "Yüzünde soğuk rüzgarı hissetti.",
-        translationEn: "She felt the cold wind on her face."
+        translationEn: "She felt the cold wind on her face.",
       },
       {
         form: "sentira",
         tense: "futur",
         sentence: "Tu sentiras la différence après quelques jours.",
         translationTr: "Birkaç gün sonra farkı hissedeceksin.",
-        translationEn: "You will feel the difference after a few days."
-      }
-    ]
+        translationEn: "You will feel the difference after a few days.",
+      },
+    ],
   },
   {
     id: "v20-11",
@@ -38640,7 +38834,8 @@ export const mockWords: Word[] = [
     turkish: "Kurtarmak",
     english: "To save / To rescue",
     pronunciation: "so-ve",
-    description: "Bir kişiyi ya da durumu tehlikeden kurtarmak anlamında kullanılır. Hem fiziksel hem soyut anlamda (hayat kurtarmak, veriyi kurtarmak) yaygındır.",
+    description:
+      "Bir kişiyi ya da durumu tehlikeden kurtarmak anlamında kullanılır. Hem fiziksel hem soyut anlamda (hayat kurtarmak, veriyi kurtarmak) yaygındır.",
     synonyms: ["secourir", "protéger", "délivrer"],
     image: null,
     category: "verbs",
@@ -38649,7 +38844,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "sauve",
@@ -38657,7 +38852,7 @@ export const mockWords: Word[] = [
         il: "sauve",
         nous: "sauvons",
         vous: "sauvez",
-        ils: "sauvent"
+        ils: "sauvent",
       },
       passéComposé: {
         je: "ai sauvé",
@@ -38665,7 +38860,7 @@ export const mockWords: Word[] = [
         il: "a sauvé",
         nous: "avons sauvé",
         vous: "avez sauvé",
-        ils: "ont sauvé"
+        ils: "ont sauvé",
       },
       imparfait: {
         je: "sauvais",
@@ -38673,7 +38868,7 @@ export const mockWords: Word[] = [
         il: "sauvait",
         nous: "sauvions",
         vous: "sauviez",
-        ils: "sauvaient"
+        ils: "sauvaient",
       },
       futur: {
         je: "sauverai",
@@ -38681,8 +38876,8 @@ export const mockWords: Word[] = [
         il: "sauvera",
         nous: "sauverons",
         vous: "sauverez",
-        ils: "sauveront"
-      }
+        ils: "sauveront",
+      },
     },
     examples: [
       {
@@ -38690,23 +38885,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Le pompier sauve une femme de l’incendie.",
         translationTr: "İtfaiyeci kadını yangından kurtarıyor.",
-        translationEn: "The firefighter saves a woman from the fire."
+        translationEn: "The firefighter saves a woman from the fire.",
       },
       {
         form: "a sauvé",
         tense: "passéComposé",
         sentence: "Il a sauvé son chien de la noyade.",
         translationTr: "Köpeğini boğulmaktan kurtardı.",
-        translationEn: "He saved his dog from drowning."
+        translationEn: "He saved his dog from drowning.",
       },
       {
         form: "sauvera",
         tense: "futur",
         sentence: "Cette décision sauvera l’entreprise.",
         translationTr: "Bu karar şirketi kurtaracak.",
-        translationEn: "This decision will save the company."
-      }
-    ]
+        translationEn: "This decision will save the company.",
+      },
+    ],
   },
   {
     id: "v20-12",
@@ -38714,7 +38909,8 @@ export const mockWords: Word[] = [
     turkish: "Aşındırmak / Yıpratmak",
     english: "To wear out / To erode / To use up",
     pronunciation: "y-ze",
-    description: "Fiziksel bir nesnenin zamanla aşınmasını ya da bir şeyin etkisini yitirmesini anlatmak için kullanılır. Soyut olarak da geçebilir (patience user = sabrı tüketmek).",
+    description:
+      "Fiziksel bir nesnenin zamanla aşınmasını ya da bir şeyin etkisini yitirmesini anlatmak için kullanılır. Soyut olarak da geçebilir (patience user = sabrı tüketmek).",
     synonyms: ["abîmer", "détériorer", "épuiser"],
     image: null,
     category: "verbs",
@@ -38723,7 +38919,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "use",
@@ -38731,7 +38927,7 @@ export const mockWords: Word[] = [
         il: "use",
         nous: "usons",
         vous: "usez",
-        ils: "usent"
+        ils: "usent",
       },
       passéComposé: {
         je: "ai usé",
@@ -38739,7 +38935,7 @@ export const mockWords: Word[] = [
         il: "a usé",
         nous: "avons usé",
         vous: "avez usé",
-        ils: "ont usé"
+        ils: "ont usé",
       },
       imparfait: {
         je: "usais",
@@ -38747,7 +38943,7 @@ export const mockWords: Word[] = [
         il: "usait",
         nous: "usions",
         vous: "usiez",
-        ils: "usaient"
+        ils: "usaient",
       },
       futur: {
         je: "userai",
@@ -38755,8 +38951,8 @@ export const mockWords: Word[] = [
         il: "usera",
         nous: "userons",
         vous: "userez",
-        ils: "useront"
-      }
+        ils: "useront",
+      },
     },
     examples: [
       {
@@ -38764,23 +38960,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Le frottement use la surface du bois.",
         translationTr: "Sürtünme, ahşap yüzeyi aşındırıyor.",
-        translationEn: "The friction wears out the wood surface."
+        translationEn: "The friction wears out the wood surface.",
       },
       {
         form: "a usé",
         tense: "passéComposé",
         sentence: "Il a usé ses chaussures en marchant trop.",
         translationTr: "Çok yürüyerek ayakkabılarını yıprattı.",
-        translationEn: "He wore out his shoes by walking too much."
+        translationEn: "He wore out his shoes by walking too much.",
       },
       {
         form: "usera",
         tense: "futur",
         sentence: "Le temps usera même les plus solides structures.",
         translationTr: "Zaman, en sağlam yapıları bile yıpratacak.",
-        translationEn: "Time will wear out even the strongest structures."
-      }
-    ]
+        translationEn: "Time will wear out even the strongest structures.",
+      },
+    ],
   },
   {
     id: "v20-13",
@@ -38788,7 +38984,8 @@ export const mockWords: Word[] = [
     turkish: "Gerekli olmak / Gerekmek",
     english: "To be necessary / To have to",
     pronunciation: "fa-lwaʁ",
-    description: "Sadece üçüncü tekil şahısla (il faut) kullanılır. Kişisel özne almaz. Zorunluluk, gereklilik ya da tavsiye bildirmek için yaygındır.",
+    description:
+      "Sadece üçüncü tekil şahısla (il faut) kullanılır. Kişisel özne almaz. Zorunluluk, gereklilik ya da tavsiye bildirmek için yaygındır.",
     synonyms: ["devoir", "être nécessaire", "avoir besoin de"],
     image: null,
     category: "verbs",
@@ -38797,20 +38994,20 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
-        il: "faut"
+        il: "faut",
       },
       passéComposé: {
-        il: "a fallu"
+        il: "a fallu",
       },
       imparfait: {
-        il: "fallait"
+        il: "fallait",
       },
       futur: {
-        il: "faudra"
-      }
+        il: "faudra",
+      },
     },
     examples: [
       {
@@ -38818,23 +39015,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il faut étudier pour réussir.",
         translationTr: "Başarılı olmak için çalışmak gerekir.",
-        translationEn: "You have to study to succeed."
+        translationEn: "You have to study to succeed.",
       },
       {
         form: "a fallu",
         tense: "passéComposé",
         sentence: "Il a fallu annuler la réunion.",
         translationTr: "Toplantıyı iptal etmek gerekti.",
-        translationEn: "It was necessary to cancel the meeting."
+        translationEn: "It was necessary to cancel the meeting.",
       },
       {
         form: "faudra",
         tense: "futur",
         sentence: "Il faudra partir tôt demain.",
         translationTr: "Yarın erken çıkmak gerekecek.",
-        translationEn: "We will have to leave early tomorrow."
-      }
-    ]
+        translationEn: "We will have to leave early tomorrow.",
+      },
+    ],
   },
   {
     id: "v20-14",
@@ -38842,7 +39039,8 @@ export const mockWords: Word[] = [
     turkish: "Yürümek / İşlemek / Çalışmak",
     english: "To walk / To work (function)",
     pronunciation: "maʁ-ʃe",
-    description: "Hem fiziksel olarak yürümek hem de bir cihaz ya da sistemin çalışması anlamında kullanılır.",
+    description:
+      "Hem fiziksel olarak yürümek hem de bir cihaz ya da sistemin çalışması anlamında kullanılır.",
     synonyms: ["avancer", "fonctionner", "se déplacer"],
     image: null,
     category: "verbs",
@@ -38851,7 +39049,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "marche",
@@ -38859,7 +39057,7 @@ export const mockWords: Word[] = [
         il: "marche",
         nous: "marchons",
         vous: "marchez",
-        ils: "marchent"
+        ils: "marchent",
       },
       passéComposé: {
         je: "ai marché",
@@ -38867,7 +39065,7 @@ export const mockWords: Word[] = [
         il: "a marché",
         nous: "avons marché",
         vous: "avez marché",
-        ils: "ont marché"
+        ils: "ont marché",
       },
       imparfait: {
         je: "marchais",
@@ -38875,7 +39073,7 @@ export const mockWords: Word[] = [
         il: "marchait",
         nous: "marchions",
         vous: "marchiez",
-        ils: "marchaient"
+        ils: "marchaient",
       },
       futur: {
         je: "marcherai",
@@ -38883,8 +39081,8 @@ export const mockWords: Word[] = [
         il: "marchera",
         nous: "marcherons",
         vous: "marcherez",
-        ils: "marcheront"
-      }
+        ils: "marcheront",
+      },
     },
     examples: [
       {
@@ -38892,23 +39090,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Elle marche tous les matins.",
         translationTr: "Her sabah yürüyüş yapar.",
-        translationEn: "She walks every morning."
+        translationEn: "She walks every morning.",
       },
       {
         form: "a marché",
         tense: "passéComposé",
         sentence: "Le système a bien marché hier.",
         translationTr: "Sistem dün iyi çalıştı.",
-        translationEn: "The system worked well yesterday."
+        translationEn: "The system worked well yesterday.",
       },
       {
         form: "marchera",
         tense: "futur",
         sentence: "La machine marchera après réparation.",
         translationTr: "Makine onarımdan sonra çalışacak.",
-        translationEn: "The machine will work after the repair."
-      }
-    ]
+        translationEn: "The machine will work after the repair.",
+      },
+    ],
   },
   {
     id: "v20-15",
@@ -38916,7 +39114,8 @@ export const mockWords: Word[] = [
     turkish: "Kopyalamak / Yeniden üretmek / Çoğaltmak",
     english: "To reproduce / To duplicate / To replicate",
     pronunciation: "ʁə-pʁɔ-dɥiʁ",
-    description: "Hem biyolojik olarak çoğalma anlamında hem de bir eseri ya da görüntüyü tekrar üretme anlamında kullanılır. Düzensiz fiildir ve 'avoir' ile çekimlenir.",
+    description:
+      "Hem biyolojik olarak çoğalma anlamında hem de bir eseri ya da görüntüyü tekrar üretme anlamında kullanılır. Düzensiz fiildir ve 'avoir' ile çekimlenir.",
     synonyms: ["copier", "répliquer", "dupliquer"],
     image: null,
     category: "verbs",
@@ -38925,7 +39124,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "reproduis",
@@ -38933,7 +39132,7 @@ export const mockWords: Word[] = [
         il: "reproduit",
         nous: "reproduisons",
         vous: "reproduisez",
-        ils: "reproduisent"
+        ils: "reproduisent",
       },
       passéComposé: {
         je: "ai reproduit",
@@ -38941,7 +39140,7 @@ export const mockWords: Word[] = [
         il: "a reproduit",
         nous: "avons reproduit",
         vous: "avez reproduit",
-        ils: "ont reproduit"
+        ils: "ont reproduit",
       },
       imparfait: {
         je: "reproduisais",
@@ -38949,7 +39148,7 @@ export const mockWords: Word[] = [
         il: "reproduisait",
         nous: "reproduisions",
         vous: "reproduisiez",
-        ils: "reproduisaient"
+        ils: "reproduisaient",
       },
       futur: {
         je: "reproduirai",
@@ -38957,8 +39156,8 @@ export const mockWords: Word[] = [
         il: "reproduira",
         nous: "reproduirons",
         vous: "reproduirez",
-        ils: "reproduiront"
-      }
+        ils: "reproduiront",
+      },
     },
     examples: [
       {
@@ -38966,23 +39165,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je reproduis le dessin sur une nouvelle feuille.",
         translationTr: "Çizimi yeni bir kağıda yeniden çiziyorum.",
-        translationEn: "I'm reproducing the drawing on a new sheet."
+        translationEn: "I'm reproducing the drawing on a new sheet.",
       },
       {
         form: "a reproduit",
         tense: "passéComposé",
         sentence: "Il a reproduit le tableau avec précision.",
         translationTr: "Tabloyu büyük bir hassasiyetle kopyaladı.",
-        translationEn: "He reproduced the painting with precision."
+        translationEn: "He reproduced the painting with precision.",
       },
       {
         form: "reproduira",
         tense: "futur",
         sentence: "L’artiste reproduira l’œuvre pour l’exposition.",
         translationTr: "Sanatçı, sergi için eseri yeniden üretecek.",
-        translationEn: "The artist will reproduce the work for the exhibition."
-      }
-    ]
+        translationEn: "The artist will reproduce the work for the exhibition.",
+      },
+    ],
   },
   {
     id: "v20-16",
@@ -38990,7 +39189,8 @@ export const mockWords: Word[] = [
     turkish: "Kaynamak / Kaynatmak",
     english: "To boil",
     pronunciation: "bu-jir",
-    description: "Genellikle su ya da sıvının ısınarak kaynamasını belirtir. Teknik veya mutfak diliyle sıkça kullanılır. Düzensiz fiildir, 3. tekil ve çoğul şahıslarda 'bouille' yerine 'bout' / 'bouillent' formları görülür.",
+    description:
+      "Genellikle su ya da sıvının ısınarak kaynamasını belirtir. Teknik veya mutfak diliyle sıkça kullanılır. Düzensiz fiildir, 3. tekil ve çoğul şahıslarda 'bouille' yerine 'bout' / 'bouillent' formları görülür.",
     synonyms: ["chauffer", "cuire", "ébullitionner"],
     image: null,
     category: "verbs",
@@ -38999,7 +39199,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "bouis",
@@ -39007,7 +39207,7 @@ export const mockWords: Word[] = [
         il: "bout",
         nous: "bouillons",
         vous: "bouillez",
-        ils: "bouillent"
+        ils: "bouillent",
       },
       passéComposé: {
         je: "ai bouilli",
@@ -39015,7 +39215,7 @@ export const mockWords: Word[] = [
         il: "a bouilli",
         nous: "avons bouilli",
         vous: "avez bouilli",
-        ils: "ont bouilli"
+        ils: "ont bouilli",
       },
       imparfait: {
         je: "bouillais",
@@ -39023,7 +39223,7 @@ export const mockWords: Word[] = [
         il: "bouillait",
         nous: "bouillions",
         vous: "bouilliez",
-        ils: "bouillaient"
+        ils: "bouillaient",
       },
       futur: {
         je: "bouillirai",
@@ -39031,8 +39231,8 @@ export const mockWords: Word[] = [
         il: "bouillira",
         nous: "bouillirons",
         vous: "bouillirez",
-        ils: "bouilliront"
-      }
+        ils: "bouilliront",
+      },
     },
     examples: [
       {
@@ -39040,23 +39240,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "L’eau bout à 100 degrés Celsius.",
         translationTr: "Su 100 derece Celsius’ta kaynar.",
-        translationEn: "Water boils at 100 degrees Celsius."
+        translationEn: "Water boils at 100 degrees Celsius.",
       },
       {
         form: "a bouilli",
         tense: "passéComposé",
         sentence: "J’ai bouilli les pâtes pendant dix minutes.",
         translationTr: "Makarna on dakika boyunca kaynattım.",
-        translationEn: "I boiled the pasta for ten minutes."
+        translationEn: "I boiled the pasta for ten minutes.",
       },
       {
         form: "bouillira",
         tense: "futur",
         sentence: "L’eau bouillira plus vite avec un couvercle.",
         translationTr: "Kapakla su daha hızlı kaynayacak.",
-        translationEn: "Water will boil faster with a lid."
-      }
-    ]
+        translationEn: "Water will boil faster with a lid.",
+      },
+    ],
   },
   {
     id: "v20-17",
@@ -39064,7 +39264,8 @@ export const mockWords: Word[] = [
     turkish: "Kıyaslamak / Karşılaştırmak",
     english: "To compare",
     pronunciation: "kɔ̃-pa-ʁe",
-    description: "İki ya da daha fazla şeyi benzerlik veya fark açısından değerlendirmek için kullanılır. Hem akademik hem günlük dilde yaygındır.",
+    description:
+      "İki ya da daha fazla şeyi benzerlik veya fark açısından değerlendirmek için kullanılır. Hem akademik hem günlük dilde yaygındır.",
     synonyms: ["évaluer", "rapprocher", "mettre en parallèle"],
     image: null,
     category: "verbs",
@@ -39073,7 +39274,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "compare",
@@ -39081,7 +39282,7 @@ export const mockWords: Word[] = [
         il: "compare",
         nous: "comparons",
         vous: "comparez",
-        ils: "comparent"
+        ils: "comparent",
       },
       passéComposé: {
         je: "ai comparé",
@@ -39089,7 +39290,7 @@ export const mockWords: Word[] = [
         il: "a comparé",
         nous: "avons comparé",
         vous: "avez comparé",
-        ils: "ont comparé"
+        ils: "ont comparé",
       },
       imparfait: {
         je: "comparais",
@@ -39097,7 +39298,7 @@ export const mockWords: Word[] = [
         il: "comparait",
         nous: "comparions",
         vous: "compariez",
-        ils: "comparaient"
+        ils: "comparaient",
       },
       futur: {
         je: "comparerai",
@@ -39105,8 +39306,8 @@ export const mockWords: Word[] = [
         il: "comparera",
         nous: "comparerons",
         vous: "comparerez",
-        ils: "compareront"
-      }
+        ils: "compareront",
+      },
     },
     examples: [
       {
@@ -39114,23 +39315,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il compare les prix avant d’acheter.",
         translationTr: "Satın almadan önce fiyatları karşılaştırıyor.",
-        translationEn: "He compares prices before buying."
+        translationEn: "He compares prices before buying.",
       },
       {
         form: "a comparé",
         tense: "passéComposé",
         sentence: "Elle a comparé deux modèles de téléphone.",
         translationTr: "İki telefon modelini karşılaştırdı.",
-        translationEn: "She compared two phone models."
+        translationEn: "She compared two phone models.",
       },
       {
         form: "compareront",
         tense: "futur",
         sentence: "Les chercheurs compareront les résultats.",
         translationTr: "Araştırmacılar sonuçları karşılaştıracak.",
-        translationEn: "The researchers will compare the results."
-      }
-    ]
+        translationEn: "The researchers will compare the results.",
+      },
+    ],
   },
   {
     id: "v20-18",
@@ -39138,7 +39339,8 @@ export const mockWords: Word[] = [
     turkish: "İmzalamak",
     english: "To sign",
     pronunciation: "si-ɲe",
-    description: "Bir belgeyi onaylamak ya da kabul etmek anlamında imzalamak için kullanılır. Hem fiziksel imza hem de dijital bağlamda geçerlidir.",
+    description:
+      "Bir belgeyi onaylamak ya da kabul etmek anlamında imzalamak için kullanılır. Hem fiziksel imza hem de dijital bağlamda geçerlidir.",
     synonyms: ["authentifier", "approuver", "parapher"],
     image: null,
     category: "verbs",
@@ -39147,7 +39349,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "signe",
@@ -39155,7 +39357,7 @@ export const mockWords: Word[] = [
         il: "signe",
         nous: "signons",
         vous: "signez",
-        ils: "signent"
+        ils: "signent",
       },
       passéComposé: {
         je: "ai signé",
@@ -39163,7 +39365,7 @@ export const mockWords: Word[] = [
         il: "a signé",
         nous: "avons signé",
         vous: "avez signé",
-        ils: "ont signé"
+        ils: "ont signé",
       },
       imparfait: {
         je: "signais",
@@ -39171,7 +39373,7 @@ export const mockWords: Word[] = [
         il: "signait",
         nous: "signions",
         vous: "signiez",
-        ils: "signaient"
+        ils: "signaient",
       },
       futur: {
         je: "signerai",
@@ -39179,8 +39381,8 @@ export const mockWords: Word[] = [
         il: "signera",
         nous: "signerons",
         vous: "signerez",
-        ils: "signeront"
-      }
+        ils: "signeront",
+      },
     },
     examples: [
       {
@@ -39188,23 +39390,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je signe le contrat cet après-midi.",
         translationTr: "Bu öğleden sonra sözleşmeyi imzalıyorum.",
-        translationEn: "I am signing the contract this afternoon."
+        translationEn: "I am signing the contract this afternoon.",
       },
       {
         form: "a signé",
         tense: "passéComposé",
         sentence: "Il a signé tous les documents nécessaires.",
         translationTr: "Gerekli tüm belgeleri imzaladı.",
-        translationEn: "He signed all the necessary documents."
+        translationEn: "He signed all the necessary documents.",
       },
       {
         form: "signera",
         tense: "futur",
         sentence: "Elle signera son premier livre bientôt.",
         translationTr: "Yakında ilk kitabını imzalayacak.",
-        translationEn: "She will sign her first book soon."
-      }
-    ]
+        translationEn: "She will sign her first book soon.",
+      },
+    ],
   },
   {
     id: "v20-19",
@@ -39212,7 +39414,8 @@ export const mockWords: Word[] = [
     turkish: "Engellemek / Mani olmak",
     english: "To prevent / To hinder",
     pronunciation: "ɑ̃-pe-ʃe",
-    description: "Bir kişinin ya da şeyin bir şeyi yapmasını ya da gerçekleşmesini engellemek için kullanılır. Genellikle 'de' ile birlikte kullanılır: empêcher quelqu’un de faire quelque chose.",
+    description:
+      "Bir kişinin ya da şeyin bir şeyi yapmasını ya da gerçekleşmesini engellemek için kullanılır. Genellikle 'de' ile birlikte kullanılır: empêcher quelqu’un de faire quelque chose.",
     synonyms: ["bloquer", "interdire", "faire obstacle à"],
     image: null,
     category: "verbs",
@@ -39221,7 +39424,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "empêche",
@@ -39229,7 +39432,7 @@ export const mockWords: Word[] = [
         il: "empêche",
         nous: "empêchons",
         vous: "empêchez",
-        ils: "empêchent"
+        ils: "empêchent",
       },
       passéComposé: {
         je: "ai empêché",
@@ -39237,7 +39440,7 @@ export const mockWords: Word[] = [
         il: "a empêché",
         nous: "avons empêché",
         vous: "avez empêché",
-        ils: "ont empêché"
+        ils: "ont empêché",
       },
       imparfait: {
         je: "empêchais",
@@ -39245,7 +39448,7 @@ export const mockWords: Word[] = [
         il: "empêchait",
         nous: "empêchions",
         vous: "empêchiez",
-        ils: "empêchaient"
+        ils: "empêchaient",
       },
       futur: {
         je: "empêcherai",
@@ -39253,8 +39456,8 @@ export const mockWords: Word[] = [
         il: "empêchera",
         nous: "empêcherons",
         vous: "empêcherez",
-        ils: "empêcheront"
-      }
+        ils: "empêcheront",
+      },
     },
     examples: [
       {
@@ -39262,23 +39465,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Le bruit m’empêche de dormir.",
         translationTr: "Gürültü, uyumamı engelliyor.",
-        translationEn: "The noise prevents me from sleeping."
+        translationEn: "The noise prevents me from sleeping.",
       },
       {
         form: "a empêché",
         tense: "passéComposé",
         sentence: "La pluie a empêché le match.",
         translationTr: "Yağmur maçı engelledi.",
-        translationEn: "The rain prevented the match."
+        translationEn: "The rain prevented the match.",
       },
       {
         form: "empêchera",
         tense: "futur",
         sentence: "Personne ne l’empêchera de réussir.",
         translationTr: "Hiç kimse onun başarılı olmasını engellemeyecek.",
-        translationEn: "No one will prevent him from succeeding."
-      }
-    ]
+        translationEn: "No one will prevent him from succeeding.",
+      },
+    ],
   },
   {
     id: "v20-20",
@@ -39286,7 +39489,8 @@ export const mockWords: Word[] = [
     turkish: "Ezmek / Bastırmak / Sıkıştırmak",
     english: "To crush / To run over / To press",
     pronunciation: "e-kʁa-ze",
-    description: "Fiziksel olarak ezmek (araba, ayakla vs.) veya mecaz anlamda yenilgiye uğratmak anlamlarında kullanılır.",
+    description:
+      "Fiziksel olarak ezmek (araba, ayakla vs.) veya mecaz anlamda yenilgiye uğratmak anlamlarında kullanılır.",
     synonyms: ["broyer", "aplatir", "anéantir"],
     image: null,
     category: "verbs",
@@ -39295,7 +39499,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "écrase",
@@ -39303,7 +39507,7 @@ export const mockWords: Word[] = [
         il: "écrase",
         nous: "écrasons",
         vous: "écrasez",
-        ils: "écrasent"
+        ils: "écrasent",
       },
       passéComposé: {
         je: "ai écrasé",
@@ -39311,7 +39515,7 @@ export const mockWords: Word[] = [
         il: "a écrasé",
         nous: "avons écrasé",
         vous: "avez écrasé",
-        ils: "ont écrasé"
+        ils: "ont écrasé",
       },
       imparfait: {
         je: "écrasais",
@@ -39319,7 +39523,7 @@ export const mockWords: Word[] = [
         il: "écrasait",
         nous: "écrasions",
         vous: "écrasiez",
-        ils: "écrasaient"
+        ils: "écrasaient",
       },
       futur: {
         je: "écraserai",
@@ -39327,8 +39531,8 @@ export const mockWords: Word[] = [
         il: "écrasera",
         nous: "écraserons",
         vous: "écraserez",
-        ils: "écraseront"
-      }
+        ils: "écraseront",
+      },
     },
     examples: [
       {
@@ -39336,23 +39540,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il écrase une cigarette avec son pied.",
         translationTr: "Ayağıyla bir sigarayı eziyor.",
-        translationEn: "He crushes a cigarette with his foot."
+        translationEn: "He crushes a cigarette with his foot.",
       },
       {
         form: "a écrasé",
         tense: "passéComposé",
         sentence: "La voiture a écrasé un cône de signalisation.",
         translationTr: "Araba bir trafik konisini ezdi.",
-        translationEn: "The car ran over a traffic cone."
+        translationEn: "The car ran over a traffic cone.",
       },
       {
         form: "écrasera",
         tense: "futur",
         sentence: "L’équipe écrasera son adversaire au prochain match.",
         translationTr: "Takım bir sonraki maçta rakibini ezecek.",
-        translationEn: "The team will crush its opponent in the next match."
-      }
-    ]
+        translationEn: "The team will crush its opponent in the next match.",
+      },
+    ],
   },
   {
     id: "v20-21",
@@ -39360,7 +39564,8 @@ export const mockWords: Word[] = [
     turkish: "Garanti etmek / Sigortalamak / Sağlamak",
     english: "To ensure / To assure / To insure",
     pronunciation: "a-sy-ʁe",
-    description: "Bir şeyin güvenliğini, devamlılığını ya da doğruluğunu sağlamak için kullanılır. Hem soyut hem teknik bağlamda geçerlidir. Sigorta anlamında da çok yaygındır.",
+    description:
+      "Bir şeyin güvenliğini, devamlılığını ya da doğruluğunu sağlamak için kullanılır. Hem soyut hem teknik bağlamda geçerlidir. Sigorta anlamında da çok yaygındır.",
     synonyms: ["garantir", "sécuriser", "affirmer"],
     image: null,
     category: "verbs",
@@ -39369,7 +39574,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "assure",
@@ -39377,7 +39582,7 @@ export const mockWords: Word[] = [
         il: "assure",
         nous: "assurons",
         vous: "assurez",
-        ils: "assurent"
+        ils: "assurent",
       },
       passéComposé: {
         je: "ai assuré",
@@ -39385,7 +39590,7 @@ export const mockWords: Word[] = [
         il: "a assuré",
         nous: "avons assuré",
         vous: "avez assuré",
-        ils: "ont assuré"
+        ils: "ont assuré",
       },
       imparfait: {
         je: "assurais",
@@ -39393,7 +39598,7 @@ export const mockWords: Word[] = [
         il: "assurait",
         nous: "assurions",
         vous: "assuriez",
-        ils: "assuraient"
+        ils: "assuraient",
       },
       futur: {
         je: "assurerai",
@@ -39401,32 +39606,33 @@ export const mockWords: Word[] = [
         il: "assurera",
         nous: "assurerons",
         vous: "assurerez",
-        ils: "assureront"
-      }
+        ils: "assureront",
+      },
     },
     examples: [
       {
         form: "assure",
         tense: "present",
         sentence: "Je t’assure que tout ira bien.",
-        translationTr: "Sana her şeyin yolunda gideceğine dair garanti veriyorum.",
-        translationEn: "I assure you everything will be fine."
+        translationTr:
+          "Sana her şeyin yolunda gideceğine dair garanti veriyorum.",
+        translationEn: "I assure you everything will be fine.",
       },
       {
         form: "a assuré",
         tense: "passéComposé",
         sentence: "Elle a assuré la sécurité des données.",
         translationTr: "Verilerin güvenliğini sağladı.",
-        translationEn: "She ensured the data security."
+        translationEn: "She ensured the data security.",
       },
       {
         form: "assurera",
         tense: "futur",
         sentence: "L’entreprise assurera la livraison dans les délais.",
         translationTr: "Şirket teslimatı zamanında sağlayacak.",
-        translationEn: "The company will ensure on-time delivery."
-      }
-    ]
+        translationEn: "The company will ensure on-time delivery.",
+      },
+    ],
   },
   {
     id: "v20-22",
@@ -39434,7 +39640,8 @@ export const mockWords: Word[] = [
     turkish: "Azaltmak / Küçültmek / Düşürmek",
     english: "To reduce / To decrease / To lower",
     pronunciation: "ʁe-dɥiʁ",
-    description: "Hem somut (fiyat, hacim) hem soyut (risk, stres) şeylerin azaltılması için kullanılır. Düzensiz bir fiildir, 'produire', 'traduire' gibi fiillerle aynı yapıyı paylaşır.",
+    description:
+      "Hem somut (fiyat, hacim) hem soyut (risk, stres) şeylerin azaltılması için kullanılır. Düzensiz bir fiildir, 'produire', 'traduire' gibi fiillerle aynı yapıyı paylaşır.",
     synonyms: ["diminuer", "restreindre", "abaisser"],
     image: null,
     category: "verbs",
@@ -39443,7 +39650,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: true,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "réduis",
@@ -39451,7 +39658,7 @@ export const mockWords: Word[] = [
         il: "réduit",
         nous: "réduisons",
         vous: "réduisez",
-        ils: "réduisent"
+        ils: "réduisent",
       },
       passéComposé: {
         je: "ai réduit",
@@ -39459,7 +39666,7 @@ export const mockWords: Word[] = [
         il: "a réduit",
         nous: "avons réduit",
         vous: "avez réduit",
-        ils: "ont réduit"
+        ils: "ont réduit",
       },
       imparfait: {
         je: "réduisais",
@@ -39467,7 +39674,7 @@ export const mockWords: Word[] = [
         il: "réduisait",
         nous: "réduisions",
         vous: "réduisiez",
-        ils: "réduisaient"
+        ils: "réduisaient",
       },
       futur: {
         je: "réduirai",
@@ -39475,8 +39682,8 @@ export const mockWords: Word[] = [
         il: "réduira",
         nous: "réduirons",
         vous: "réduirez",
-        ils: "réduiront"
-      }
+        ils: "réduiront",
+      },
     },
     examples: [
       {
@@ -39484,23 +39691,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "L’entreprise réduit ses dépenses.",
         translationTr: "Şirket giderlerini azaltıyor.",
-        translationEn: "The company is reducing its expenses."
+        translationEn: "The company is reducing its expenses.",
       },
       {
         form: "a réduit",
         tense: "passéComposé",
         sentence: "Il a réduit la vitesse de la voiture.",
         translationTr: "Arabayı yavaşlattı.",
-        translationEn: "He reduced the speed of the car."
+        translationEn: "He reduced the speed of the car.",
       },
       {
         form: "réduira",
         tense: "futur",
         sentence: "Cette solution réduira les risques.",
         translationTr: "Bu çözüm riskleri azaltacak.",
-        translationEn: "This solution will reduce the risks."
-      }
-    ]
+        translationEn: "This solution will reduce the risks.",
+      },
+    ],
   },
   {
     id: "v20-23",
@@ -39508,7 +39715,8 @@ export const mockWords: Word[] = [
     turkish: "Götürmek (bir kişiyi veya hayvanı)",
     english: "To take (someone) / To bring along",
     pronunciation: "ɑ̃-mə-ne",
-    description: "Genellikle bir kişiyi veya hayvanı başka bir yere götürmek anlamında kullanılır. 'Amener' ve 'Apporter' fiilleriyle karıştırılmamalıdır.",
+    description:
+      "Genellikle bir kişiyi veya hayvanı başka bir yere götürmek anlamında kullanılır. 'Amener' ve 'Apporter' fiilleriyle karıştırılmamalıdır.",
     synonyms: ["conduire", "accompagner", "transporter"],
     image: null,
     category: "verbs",
@@ -39517,7 +39725,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "emmène",
@@ -39525,7 +39733,7 @@ export const mockWords: Word[] = [
         il: "emmène",
         nous: "emmenons",
         vous: "emmenez",
-        ils: "emmènent"
+        ils: "emmènent",
       },
       passéComposé: {
         je: "ai emmené",
@@ -39533,7 +39741,7 @@ export const mockWords: Word[] = [
         il: "a emmené",
         nous: "avons emmené",
         vous: "avez emmené",
-        ils: "ont emmené"
+        ils: "ont emmené",
       },
       imparfait: {
         je: "emmenais",
@@ -39541,7 +39749,7 @@ export const mockWords: Word[] = [
         il: "emmenait",
         nous: "emmenions",
         vous: "emmeniez",
-        ils: "emmenaient"
+        ils: "emmenaient",
       },
       futur: {
         je: "emmènerai",
@@ -39549,8 +39757,8 @@ export const mockWords: Word[] = [
         il: "emmènera",
         nous: "emmènerons",
         vous: "emmènerez",
-        ils: "emmèneront"
-      }
+        ils: "emmèneront",
+      },
     },
     examples: [
       {
@@ -39558,23 +39766,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Je t’emmène à l’aéroport.",
         translationTr: "Seni havaalanına götürüyorum.",
-        translationEn: "I’m taking you to the airport."
+        translationEn: "I’m taking you to the airport.",
       },
       {
         form: "a emmené",
         tense: "passéComposé",
         sentence: "Elle a emmené son fils chez le médecin.",
         translationTr: "Oğlunu doktora götürdü.",
-        translationEn: "She took her son to the doctor."
+        translationEn: "She took her son to the doctor.",
       },
       {
         form: "emmènera",
         tense: "futur",
         sentence: "Il emmènera le chien au parc demain.",
         translationTr: "Yarın köpeği parka götürecek.",
-        translationEn: "He will take the dog to the park tomorrow."
-      }
-    ]
+        translationEn: "He will take the dog to the park tomorrow.",
+      },
+    ],
   },
   {
     id: "v20-24",
@@ -39582,7 +39790,8 @@ export const mockWords: Word[] = [
     turkish: "Biçmek / Kesmek (çim, saç)",
     english: "To mow / To shear / To clip",
     pronunciation: "tɔ̃dʁ",
-    description: "Genellikle çim biçmek ya da hayvan tüyü/saç kesmek için kullanılır. Tarım, bahçe ve kuaförlük bağlamlarında yaygındır.",
+    description:
+      "Genellikle çim biçmek ya da hayvan tüyü/saç kesmek için kullanılır. Tarım, bahçe ve kuaförlük bağlamlarında yaygındır.",
     synonyms: ["raser", "couper", "tailler"],
     image: null,
     category: "verbs",
@@ -39591,7 +39800,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "tonds",
@@ -39599,7 +39808,7 @@ export const mockWords: Word[] = [
         il: "tond",
         nous: "tondons",
         vous: "tondez",
-        ils: "tondent"
+        ils: "tondent",
       },
       passéComposé: {
         je: "ai tondu",
@@ -39607,7 +39816,7 @@ export const mockWords: Word[] = [
         il: "a tondu",
         nous: "avons tondu",
         vous: "avez tondu",
-        ils: "ont tondu"
+        ils: "ont tondu",
       },
       imparfait: {
         je: "tondais",
@@ -39615,7 +39824,7 @@ export const mockWords: Word[] = [
         il: "tondait",
         nous: "tondions",
         vous: "tondiez",
-        ils: "tondaient"
+        ils: "tondaient",
       },
       futur: {
         je: "tondrai",
@@ -39623,8 +39832,8 @@ export const mockWords: Word[] = [
         il: "tondra",
         nous: "tondrons",
         vous: "tondrez",
-        ils: "tondront"
-      }
+        ils: "tondront",
+      },
     },
     examples: [
       {
@@ -39632,23 +39841,23 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il tond la pelouse chaque semaine.",
         translationTr: "Her hafta çimleri biçiyor.",
-        translationEn: "He mows the lawn every week."
+        translationEn: "He mows the lawn every week.",
       },
       {
         form: "a tondu",
         tense: "passéComposé",
         sentence: "J’ai tondu les moutons ce matin.",
         translationTr: "Bu sabah koyunları kırptım.",
-        translationEn: "I sheared the sheep this morning."
+        translationEn: "I sheared the sheep this morning.",
       },
       {
         form: "tondra",
         tense: "futur",
         sentence: "Nous tondrons la pelouse demain.",
         translationTr: "Yarın çimleri biçeceğiz.",
-        translationEn: "We will mow the lawn tomorrow."
-      }
-    ]
+        translationEn: "We will mow the lawn tomorrow.",
+      },
+    ],
   },
   {
     id: "v20-25",
@@ -39656,7 +39865,8 @@ export const mockWords: Word[] = [
     turkish: "Zorlamak / Mecbur etmek / Baskı yapmak",
     english: "To force / To compel / To pressure",
     pronunciation: "fɔʁ-se",
-    description: "Bir kişiyi bir şey yapmaya zorlamak anlamında kullanılır. Genellikle 'forcer quelqu’un à faire quelque chose' yapısıyla geçer.",
+    description:
+      "Bir kişiyi bir şey yapmaya zorlamak anlamında kullanılır. Genellikle 'forcer quelqu’un à faire quelque chose' yapısıyla geçer.",
     synonyms: ["obliger", "contraindre", "pousser"],
     image: null,
     category: "verbs",
@@ -39665,7 +39875,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     conjugations: {
       present: {
         je: "force",
@@ -39673,7 +39883,7 @@ export const mockWords: Word[] = [
         il: "force",
         nous: "forçons",
         vous: "forcez",
-        ils: "forcent"
+        ils: "forcent",
       },
       passéComposé: {
         je: "ai forcé",
@@ -39681,7 +39891,7 @@ export const mockWords: Word[] = [
         il: "a forcé",
         nous: "avons forcé",
         vous: "avez forcé",
-        ils: "ont forcé"
+        ils: "ont forcé",
       },
       imparfait: {
         je: "forçais",
@@ -39689,7 +39899,7 @@ export const mockWords: Word[] = [
         il: "forçait",
         nous: "forcions",
         vous: "forciez",
-        ils: "forçaient"
+        ils: "forçaient",
       },
       futur: {
         je: "forcerai",
@@ -39697,8 +39907,8 @@ export const mockWords: Word[] = [
         il: "forcera",
         nous: "forcerons",
         vous: "forcerez",
-        ils: "forceront"
-      }
+        ils: "forceront",
+      },
     },
     examples: [
       {
@@ -39706,104 +39916,24 @@ export const mockWords: Word[] = [
         tense: "present",
         sentence: "Il force son frère à faire ses devoirs.",
         translationTr: "Kardeşini ödevlerini yapmaya zorluyor.",
-        translationEn: "He forces his brother to do his homework."
+        translationEn: "He forces his brother to do his homework.",
       },
       {
         form: "a forcé",
         tense: "passéComposé",
         sentence: "Elle a forcé la porte pour entrer.",
         translationTr: "İçeri girmek için kapıyı zorladı.",
-        translationEn: "She forced the door to get in."
+        translationEn: "She forced the door to get in.",
       },
       {
         form: "forcera",
         tense: "futur",
         sentence: "On te forcera à dire la vérité tôt ou tard.",
         translationTr: "Er ya da geç seni gerçeği söylemeye zorlayacaklar.",
-        translationEn: "They will force you to tell the truth sooner or later."
-      }
-    ]
+        translationEn: "They will force you to tell the truth sooner or later.",
+      },
+    ],
   },
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-  
 
   //----------------------------------
 
@@ -39838,7 +39968,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     examples: [
       {
         form: "le livre",
@@ -39869,7 +39999,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     forms: {
       masculine: "grand",
       feminine: "grande",
@@ -39912,7 +40042,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     examples: [
       {
         form: "vite",
@@ -39937,7 +40067,7 @@ export const mockWords: Word[] = [
     isLearned: false,
     isDifficult: false,
     createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: undefined,
+    knowledgeLevel: null,
     examples: [
       {
         form: "mais",

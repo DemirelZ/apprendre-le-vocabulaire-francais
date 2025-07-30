@@ -18,7 +18,7 @@ export interface Word {
   isDifficult: boolean;
   createdAt: string;
   lastReviewed?: string;
-  knowledgeLevel?: "dont-know" | "somewhat" | "learned"; // Yeni: bilgi seviyesi
+  knowledgeLevel?: "dont-know" | "somewhat" | "learned" | null; // Yeni: bilgi seviyesi
   correctStreak?: number;
   conjugations?: {
     [tense: string]: {
