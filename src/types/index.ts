@@ -105,3 +105,41 @@ export interface Question {
   categoryId: string;
   difficulty: "beginner" | "intermediate" | "advanced";
 }
+
+export interface AdjectiveExample {
+  form: string; // grand, grande, grands, grandes
+  sentence: string;
+  translationTr: string;
+  translationEn: string;
+}
+
+export interface AdjectiveForms {
+  masculine: string;
+  feminine: string;
+  masculinePlural: string;
+  femininePlural: string;
+}
+
+export interface Adjective {
+  id: string;
+  french: string;
+  turkish: string;
+  english?: string;
+  pronunciation: string;
+  category: "adjectives";
+  unit: string;
+  difficulty: "beginner" | "intermediate" | "advanced";
+  isLearned: boolean;
+  isDifficult: boolean;
+  createdAt: string | Date;
+  knowledgeLevel: "dont-know" | "somewhat" | "learned" | null;
+  position: "before" | "after" | "both";
+  irregular: boolean;
+  synonyms: string[];
+  antonyms: string[];
+  image: string | null;
+  audio: string | null;
+  description: string;
+  forms: AdjectiveForms;
+  examples: AdjectiveExample[];
+}
