@@ -40082,38 +40082,7 @@ export const mockWords: Word[] = [
   // FİİLLER - ÜNİTE 10: Karma Fiiller
 
   // --- ISIM (NOUN) ÖRNEĞİ ---
-  {
-    id: "n1-1",
-    french: "livre",
-    turkish: "kitap",
-    pronunciation: "leevr",
-    example: "J'ai un livre rouge.",
-    exampleTranslationTr: "Kırmızı bir kitabım var.",
-    exampleTranslationEn: "I have a red book.",
-    gender: "masculine",
-    plural: "livres",
-    category: "nouns",
-    unit: "nouns-unit-2",
-    difficulty: "beginner",
-    isLearned: false,
-    isDifficult: false,
-    createdAt: "2024-01-01T00:00:00.000Z",
-    knowledgeLevel: null,
-    examples: [
-      {
-        form: "le livre",
-        sentence: "Le livre est sur la table.",
-        translationTr: "Kitap masanın üstünde.",
-        translationEn: "The book is on the table.",
-      },
-      {
-        form: "les livres",
-        sentence: "Les livres sont intéressants.",
-        translationTr: "Kitaplar ilginçtir.",
-        translationEn: "The books are interesting.",
-      },
-    ],
-  },
+
   // --- SIFAT (ADJECTIVE) ÖRNEĞİ ---
   {
     id: "adj1-1",

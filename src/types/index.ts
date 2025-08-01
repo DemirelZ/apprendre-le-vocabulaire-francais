@@ -10,7 +10,8 @@ export interface Word {
   exampleTranslationTr?: string;
   exampleTranslationEn?: string;
   synonyms?: string[];
-  image?: string;
+  image?: string | null;
+  audio?: string;
   category: string;
   unit: string; // Yeni: ünite bilgisi
   difficulty: "beginner" | "intermediate" | "advanced";
@@ -142,4 +143,33 @@ export interface Adjective {
   description: string;
   forms: AdjectiveForms;
   examples: AdjectiveExample[];
+}
+
+export interface ExampleNoun {
+  form: string;
+  sentence: string;
+  translationTr: string;
+  translationEn: string;
+}
+
+export interface INoun {
+  id: string;
+  french: string;
+  turkish: string;
+  english: string;
+  pronunciation: string;
+  gender: "masculine" | "feminine";
+  plural: string;
+  category: "nouns";
+  unit: string;
+  difficulty: "beginner" | "intermediate" | "advanced";
+  isLearned: boolean;
+  isDifficult: boolean;
+  image: string | null;
+  audio: string | null;
+  createdAt: string; // ISO date string
+  knowledgeLevel: "dont-know" | "somewhat" | "learned" | null;
+  synonyms: string[]; // örn: ["ouvrage", "manuel"]
+  relatedWords: string[]; // örn: ["bibliothèque", "lecture"]
+  examples: ExampleNoun[];
 }
