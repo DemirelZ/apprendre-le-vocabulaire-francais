@@ -158,7 +158,7 @@ export interface INoun {
   turkish: string;
   english: string;
   pronunciation: string;
-  gender: "masculine" | "feminine";
+  gender: "masculine" | "feminine" | "masculine&feminine";
   plural: string;
   category: "nouns";
   unit: string;
