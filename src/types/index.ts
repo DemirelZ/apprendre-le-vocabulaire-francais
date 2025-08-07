@@ -173,3 +173,36 @@ export interface INoun {
   relatedWords: string[]; // örn: ["bibliothèque", "lecture"]
   examples: ExampleNoun[];
 }
+
+export interface IAdverb {
+  id: string;
+  french: string;
+  turkish: string;
+  english?: string;
+  pronunciation?: string;
+  description?: string;
+  category: "adverbs";
+  unit: string;
+  difficulty: "beginner" | "intermediate" | "advanced";
+  isLearned: boolean;
+  isDifficult: boolean;
+  createdAt: string; // ISO format
+  knowledgeLevel?: "dont-know" | "somewhat" | "learned" | null;
+  synonyms?: string[];
+  relatedWords?: string[];
+  adverbType:
+    | "manner"
+    | "time"
+    | "place"
+    | "frequency"
+    | "quantity"
+    | "negation"
+    | "certainty"
+    | "other";
+  examples: {
+    form: string;
+    sentence: string;
+    translationTr: string;
+    translationEn: string;
+  }[];
+}
